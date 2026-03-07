@@ -72,6 +72,7 @@ export interface Comparison {
   title: string;
   target_keyword: string;
   summary: string;
+  analysis?: string;
 }
 
 export interface Listicle {

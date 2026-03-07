@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Our Review Methodology",
+  "url": "https://tradingtoolshub.com/methodology/",
+  "description": "How TradingToolsHub evaluates, rates, and ranks trading tools — our scoring criteria, review process, and editorial standards.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradingToolsHub",
+    "url": "https://tradingtoolshub.com"
+  }
+};
+---
+<BaseLayout
+  title="Our Review Methodology — TradingToolsHub"
+  description="How we evaluate, rate, and rank every trading tool. Our scoring criteria covers features, pricing, usability, support, and real trader value."
+  canonical="https://tradingtoolshub.com/methodology/"
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">Methodology</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">Our Review Methodology</h1>
+    <p class="text-lg text-muted mb-10">How we evaluate, score, and rank every trading tool on TradingToolsHub.</p>
+
+    <div class="space-y-10">
+      <!-- Rating System -->
+      <section class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Rating System (1.0 – 5.0)</h2>
+        <p class="text-muted leading-relaxed mb-6">
+          Every tool receives a composite rating based on five weighted criteria. Ratings are calculated from structured data, not subjective impressions. We verify pricing, test features where possible, and cross-reference user feedback from G2, Capterra, Trustpilot, and trading communities.
+        </p>
+
+        <div class="space-y-4">
+          <div class="flex items-start gap-4">
+            <div class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span class="text-primary text-sm font-bold">1</span>
+            </div>
+            <div>
+              <h3 class="font-medium text-text mb-1">Features & Functionality (30%)</h3>
+              <p class="text-sm text-muted">Core trading capabilities, AI/automation features, integrations, charting tools, and unique differentiators. We evaluate 15 standardized feature categories across every tool.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span class="text-primary text-sm font-bold">2</span>
+            </div>
+            <div>
+              <h3 class="font-medium text-text mb-1">Pricing & Value (25%)</h3>
+              <p class="text-sm text-muted">Cost relative to competitors, free tier availability, pricing transparency, and value per dollar. We document every pricing tier with monthly and annual rates.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span class="text-primary text-sm font-bold">3</span>
+            </div>
+            <div>
+              <h3 class="font-medium text-text mb-1">Ease of Use (20%)</h3>
+              <p class="text-sm text-muted">Onboarding experience, learning curve, UI quality, mobile app availability, and documentation. Tools that are powerful but impossible to use get scored down.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span class="text-primary text-sm font-bold">4</span>
+            </div>
+            <div>
+              <h3 class="font-medium text-text mb-1">Reliability & Support (15%)</h3>
+              <p class="text-sm text-muted">Platform uptime, execution speed, data accuracy, customer support responsiveness, and community resources. For brokers, this includes regulatory status and fund safety.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span class="text-primary text-sm font-bold">5</span>
+            </div>
+            <div>
+              <h3 class="font-medium text-text mb-1">Market Coverage (10%)</h3>
+              <p class="text-sm text-muted">Asset classes supported (stocks, options, futures, forex, crypto), geographic availability, and multi-market capabilities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comparison Methodology -->
+      <section class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">How Comparisons Work</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          Our side-by-side comparisons pair tools within the same category and evaluate them across every data point we track. Each comparison includes:
+        </p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>Feature-by-feature breakdown (15 standardized categories)</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>Pricing comparison across all tiers</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>Pros and cons for each tool</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>Market coverage overlap and differences</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>"Best for" recommendations based on trader type</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span>Rating breakdown by criterion</li>
+        </ul>
+      </section>
+
+      <!-- Data Sources -->
+      <section class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Data Sources</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          We compile data from multiple sources and verify it against the tool's official documentation:
+        </p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span><span class="text-text font-medium">Official websites</span> — pricing pages, feature lists, documentation</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span><span class="text-text font-medium">Hands-on testing</span> — free trials, demo accounts, personal subscriptions</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span><span class="text-text font-medium">User reviews</span> — G2, Capterra, Trustpilot, App Store, and trading communities</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span><span class="text-text font-medium">Regulatory databases</span> — SEC, FINRA, FCA, ASIC, CySEC for brokers and prop firms</li>
+          <li class="flex items-start gap-2"><span class="text-primary mt-0.5">→</span><span class="text-text font-medium">Trading communities</span> — Reddit, Discord, Twitter/X discussions from active traders</li>
+        </ul>
+      </section>
+
+      <!-- Editorial Standards -->
+      <section class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Editorial Standards</h2>
+        <div class="space-y-4 text-muted leading-relaxed">
+          <p>
+            <span class="text-text font-medium">No pay-for-placement.</span> Affiliate relationships do not influence rankings, ratings, or editorial recommendations. A tool rated 3.5 stays at 3.5 whether it pays us $0 or $1,000 per referral.
+          </p>
+          <p>
+            <span class="text-text font-medium">Affiliate links are labeled.</span> When we link to a tool with an affiliate relationship, we use <code class="text-xs bg-bg px-1.5 py-0.5 rounded">rel="nofollow sponsored"</code> and clearly disclose the relationship.
+          </p>
+          <p>
+            <span class="text-text font-medium">Regular updates.</span> Tool data is reviewed quarterly and updated whenever pricing or features change. The "last updated" date on each review tells you when we last verified the information.
+          </p>
+          <p>
+            <span class="text-text font-medium">Corrections welcome.</span> If you spot an error in our data — a wrong price, a missing feature, an outdated screenshot — let us know. We fix errors within 24 hours of verification.
+          </p>
+        </div>
+      </section>
+
+      <!-- Rating Scale -->
+      <section class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Rating Scale Guide</h2>
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <span class="w-12 text-right font-bold text-green-400">4.5–5.0</span>
+            <span class="text-sm text-muted">Exceptional — best-in-class, highly recommended for most traders</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-12 text-right font-bold text-blue-400">4.0–4.4</span>
+            <span class="text-sm text-muted">Excellent — strong tool with minor gaps, great for its target audience</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-12 text-right font-bold text-yellow-400">3.5–3.9</span>
+            <span class="text-sm text-muted">Good — solid option with some limitations or niche focus</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-12 text-right font-bold text-orange-400">3.0–3.4</span>
+            <span class="text-sm text-muted">Average — functional but outperformed by alternatives in key areas</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-12 text-right font-bold text-red-400">Below 3.0</span>
+            <span class="text-sm text-muted">Below average — significant issues, generally not recommended</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

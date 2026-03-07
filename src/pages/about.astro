@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllTools, getCategories, getComparisons } from '../utils/data';
+
+const tools = getAllTools();
+const categories = getCategories();
+const comparisons = getComparisons();
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About TradingToolsHub",
+  "url": "https://tradingtoolshub.com/about/",
+  "description": "Learn about TradingToolsHub — the independent trading tools directory built by traders, for traders.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TradingToolsHub",
+    "url": "https://tradingtoolshub.com"
+  }
+};
+---
+<BaseLayout
+  title="About Us — TradingToolsHub"
+  description="TradingToolsHub is an independent trading tools directory built by active traders. We review and compare journals, charting platforms, brokers, prop firms, and more."
+  canonical="https://tradingtoolshub.com/about/"
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">About</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-6">About TradingToolsHub</h1>
+
+    <div class="prose prose-invert max-w-none space-y-8">
+      <div class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Why We Built This</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          If you've ever spent hours researching which charting platform to use, which prop firm has the best rules, or whether that $200/month trading journal is worth it — you know the problem. Trading tool reviews are scattered across Reddit threads, YouTube videos, and affiliate-heavy blogs that rank whatever pays the highest commission.
+        </p>
+        <p class="text-muted leading-relaxed">
+          TradingToolsHub exists because we wanted one place to compare every trading tool with real data — pricing tiers, features, pros and cons — without the marketing spin. We're traders ourselves, and we built the directory we wished existed when we were evaluating our own stack.
+        </p>
+      </div>
+
+      <div class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Who's Behind This</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          TradingToolsHub was founded by an active options trader and financial technology professional with over 15 years of experience in consumer finance across 10+ countries. Our founder has served as a Group Chief Risk Officer managing $300M+ in assets, launched digital banking platforms, and built fintech products from the ground up.
+        </p>
+        <p class="text-muted leading-relaxed mb-4">
+          This isn't a content farm. We personally use many of the tools we review — Interactive Brokers for execution, TrendSpider for technical analysis, and multiple prop firm challenges to stay sharp. When we write about a tool, it comes from real experience, not just a feature list scraped from a marketing page.
+        </p>
+        <p class="text-muted leading-relaxed">
+          We also built <a href="https://tradertrac.com" class="text-primary hover:underline">TraderTrac</a>, an AI-powered trading journal — so we understand the trading tools space from the builder's perspective too.
+        </p>
+      </div>
+
+      <div class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">What We Cover</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+          {categories.map(cat => (
+            <a href={`/categories/${cat.slug}/`} class="flex items-center gap-2 text-sm text-muted hover:text-primary transition-colors">
+              <span class="text-primary">→</span>
+              {cat.name}
+            </a>
+          ))}
+        </div>
+        <p class="text-muted text-sm">
+          Currently tracking <span class="text-text font-medium">{tools.length} tools</span> across <span class="text-text font-medium">{categories.length} categories</span> with <span class="text-text font-medium">{comparisons.length} side-by-side comparisons</span>.
+        </p>
+      </div>
+
+      <div class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">How We Make Money</h2>
+        <p class="text-muted leading-relaxed mb-4">
+          Transparency matters. Some links on TradingToolsHub are affiliate links — when you sign up for a tool through our link, we may earn a commission at no extra cost to you. This is how we keep the site free and the reviews independent.
+        </p>
+        <p class="text-muted leading-relaxed mb-4">
+          Affiliate relationships <span class="text-text font-medium">never</span> influence our rankings or ratings. Tools are scored on features, pricing, usability, and real trader value. We'd rather recommend a free tool that solves your problem than push a paid one that pays us more.
+        </p>
+        <p class="text-muted leading-relaxed">
+          Read our <a href="/methodology/" class="text-primary hover:underline">full review methodology</a> for details on how we evaluate and rank every tool.
+        </p>
+      </div>
+
+      <div class="bg-card border border-border rounded-xl p-6 md:p-8">
+        <h2 class="text-xl font-semibold text-text mb-4">Contact</h2>
+        <p class="text-muted leading-relaxed">
+          Have a question, correction, or want to suggest a tool we should review? Reach out at <span class="text-primary">hello@tradingtoolshub.com</span>. We read everything.
+        </p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

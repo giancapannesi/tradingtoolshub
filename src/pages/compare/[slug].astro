@@ -93,6 +93,16 @@ const jsonLd = [
       ))}
     </div>
 
+    <!-- Editorial Analysis -->
+    {comparison.analysis && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Our Analysis</h2>
+        <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
+          <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join('')} />
+        </div>
+      </section>
+    )}
+
     <!-- Feature Comparison -->
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">Feature Comparison</h2>
