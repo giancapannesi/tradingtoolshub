@@ -1,22 +1,23 @@
 [
   {
     "slug": "best-trading-bots",
-    "title": "Best Trading Bots in 2026 — Top 6 Compared",
+    "title": "Best Trading Bots in 2026 — Top 7 Compared",
     "target_keyword": "best trading bots 2026",
     "category": "trading-bots",
-    "description": "We tested and compared the top trading bots. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top trading bots. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "metatrader-5",
       "quantconnect",
       "ninjatrader",
       "pionex",
       "3commas",
-      "cryptohopper"
+      "cryptohopper",
+      "tradesanta"
     ]
   },
   {
     "slug": "best-free-trading-bots",
-    "title": "Best Free Trading Bots in 2026 — 6 Tools Tested",
+    "title": "Best Free Trading Bots in 2026",
     "target_keyword": "best free trading bots",
     "category": "trading-bots",
     "description": "The best free trading bots tested and ranked.",
@@ -26,7 +27,8 @@
       "ninjatrader",
       "pionex",
       "3commas",
-      "cryptohopper"
+      "cryptohopper",
+      "tradesanta"
     ]
   },
   {
@@ -34,7 +36,7 @@
     "title": "Best News & Data Feeds in 2026 — Top 7 Compared",
     "target_keyword": "best news & data feeds 2026",
     "category": "news-data-feeds",
-    "description": "We tested and compared the top news & data feeds. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top news & data feeds. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "bloomberg-terminal",
       "reuters-eikon",
@@ -47,7 +49,7 @@
   },
   {
     "slug": "best-free-news-data-feeds",
-    "title": "Best Free News & Data Feeds in 2026 — 5 Tools Tested",
+    "title": "Best Free News & Data Feeds in 2026",
     "target_keyword": "best free news & data feeds",
     "category": "news-data-feeds",
     "description": "The best free news & data feeds tested and ranked.",
@@ -64,7 +66,7 @@
     "title": "Best Prop Trading Firms in 2026 — Top 7 Compared",
     "target_keyword": "best prop trading firms 2026",
     "category": "prop-firms",
-    "description": "We tested and compared the top prop trading firms. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top prop trading firms. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "ftmo",
       "apex-trader-funding",
@@ -80,7 +82,7 @@
     "title": "Best Trading Education in 2026 — Top 6 Compared",
     "target_keyword": "best trading education 2026",
     "category": "trading-education",
-    "description": "We tested and compared the top trading education. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top trading education. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "investopedia",
       "smb-capital",
@@ -92,7 +94,7 @@
   },
   {
     "slug": "best-free-trading-education",
-    "title": "Best Free Trading Education in 2026 — 3 Tools Tested",
+    "title": "Best Free Trading Education in 2026",
     "target_keyword": "best free trading education",
     "category": "trading-education",
     "description": "The best free trading education tested and ranked.",
@@ -107,7 +109,7 @@
     "title": "Best Stock Screeners in 2026 — Top 6 Compared",
     "target_keyword": "best stock screeners 2026",
     "category": "stock-screeners",
-    "description": "We tested and compared the top stock screeners. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top stock screeners. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "finviz",
       "trade-ideas",
@@ -119,7 +121,7 @@
   },
   {
     "slug": "best-free-stock-screeners",
-    "title": "Best Free Stock Screeners in 2026 — 4 Tools Tested",
+    "title": "Best Free Stock Screeners in 2026",
     "target_keyword": "best free stock screeners",
     "category": "stock-screeners",
     "description": "The best free stock screeners tested and ranked.",
@@ -132,10 +134,10 @@
   },
   {
     "slug": "best-charting-platforms",
-    "title": "Best Charting Platforms in 2026 — Top 7 Compared",
+    "title": "Best Charting Platforms in 2026 — Top 8 Compared",
     "target_keyword": "best charting platforms 2026",
     "category": "charting-platforms",
-    "description": "We tested and compared the top charting platforms. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top charting platforms. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "tradingview",
       "thinkorswim",
@@ -143,12 +145,13 @@
       "bookmap",
       "sierra-chart",
       "tc2000",
-      "multicharts"
+      "multicharts",
+      "motivewave"
     ]
   },
   {
     "slug": "best-free-charting-platforms",
-    "title": "Best Free Charting Platforms in 2026 — 4 Tools Tested",
+    "title": "Best Free Charting Platforms in 2026",
     "target_keyword": "best free charting platforms",
     "category": "charting-platforms",
     "description": "The best free charting platforms tested and ranked.",
@@ -164,7 +167,7 @@
     "title": "Best US Brokers in 2026 — Top 10 Compared",
     "target_keyword": "best us brokers 2026",
     "category": "brokers-us",
-    "description": "We tested and compared the top us brokers. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top us brokers. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "fidelity",
       "charles-schwab",
@@ -180,7 +183,7 @@
   },
   {
     "slug": "best-free-brokers-us",
-    "title": "Best Free US Brokers in 2026 — 9 Tools Tested",
+    "title": "Best Free US Brokers in 2026",
     "target_keyword": "best free us brokers",
     "category": "brokers-us",
     "description": "The best free us brokers tested and ranked.",
@@ -201,7 +204,7 @@
     "title": "Best Trading Journals in 2026 — Top 10 Compared",
     "target_keyword": "best trading journals 2026",
     "category": "trading-journals",
-    "description": "We tested and compared the top trading journals. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top trading journals. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "tradertrac",
       "tradezella",
@@ -217,7 +220,7 @@
   },
   {
     "slug": "best-free-trading-journals",
-    "title": "Best Free Trading Journals in 2026 — 5 Tools Tested",
+    "title": "Best Free Trading Journals in 2026",
     "target_keyword": "best free trading journals",
     "category": "trading-journals",
     "description": "The best free trading journals tested and ranked.",
@@ -234,7 +237,7 @@
     "title": "Best Futures Platforms in 2026 — Top 3 Compared",
     "target_keyword": "best futures platforms 2026",
     "category": "futures-platforms",
-    "description": "We tested and compared the top futures platforms. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top futures platforms. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "cme-group",
       "quantower",
@@ -243,7 +246,7 @@
   },
   {
     "slug": "best-free-futures-platforms",
-    "title": "Best Free Futures Platforms in 2026 — 2 Tools Tested",
+    "title": "Best Free Futures Platforms in 2026",
     "target_keyword": "best free futures platforms",
     "category": "futures-platforms",
     "description": "The best free futures platforms tested and ranked.",
@@ -257,44 +260,43 @@
     "title": "Best Forex Brokers in 2026 — Top 8 Compared",
     "target_keyword": "best forex brokers 2026",
     "category": "brokers-forex",
-    "description": "We tested and compared the top forex brokers. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top forex brokers. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "ic-markets",
       "pepperstone",
-      "ig",
+      "exness",
       "ig-markets",
       "oanda",
       "etoro",
       "forex-com",
-      "exness"
+      "xm"
     ]
   },
   {
     "slug": "best-free-brokers-forex",
-    "title": "Best Free Forex Brokers in 2026 — 8 Tools Tested",
+    "title": "Best Free Forex Brokers in 2026",
     "target_keyword": "best free forex brokers",
     "category": "brokers-forex",
     "description": "The best free forex brokers tested and ranked.",
     "tools": [
       "ic-markets",
       "pepperstone",
-      "ig",
+      "exness",
       "ig-markets",
       "oanda",
       "etoro",
       "forex-com",
-      "exness"
+      "xm"
     ]
   },
   {
     "slug": "best-options-platforms",
-    "title": "Best Options Platforms in 2026 — Top 7 Compared",
+    "title": "Best Options Platforms in 2026 — Top 6 Compared",
     "target_keyword": "best options platforms 2026",
     "category": "options-platforms",
-    "description": "We tested and compared the top options platforms. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top options platforms. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "flowalgo",
-      "optionstrat",
       "option-alpha",
       "unusual-whales",
       "insiderfinance",
@@ -304,12 +306,11 @@
   },
   {
     "slug": "best-free-options-platforms",
-    "title": "Best Free Options Platforms in 2026 — 5 Tools Tested",
+    "title": "Best Free Options Platforms in 2026",
     "target_keyword": "best free options platforms",
     "category": "options-platforms",
     "description": "The best free options platforms tested and ranked.",
     "tools": [
-      "optionstrat",
       "option-alpha",
       "unusual-whales",
       "power-etrade",
@@ -321,7 +322,7 @@
     "title": "Best Risk Management Tools in 2026 — Top 2 Compared",
     "target_keyword": "best risk management tools 2026",
     "category": "risk-management",
-    "description": "We tested and compared the top risk management tools. Here are the best options ranked by features, pricing, and ease of use.",
+    "description": "We tested the top risk management tools. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "riskalyze",
       "riskreward-io"
@@ -332,7 +333,7 @@
     "title": "Best Trading Tools for Beginners in 2026",
     "target_keyword": "best trading tools for beginners",
     "category": "",
-    "description": "Starting your trading journey? These free and beginner-friendly tools will help you learn, practice, and grow.",
+    "description": "Free and beginner-friendly tools to start your trading journey.",
     "tools": [
       "tradingview",
       "fidelity",
@@ -351,7 +352,7 @@
     "title": "Best AI Trading Tools in 2026",
     "target_keyword": "best ai trading tools",
     "category": "",
-    "description": "The best AI-powered trading tools for analysis, pattern detection, and automated insights.",
+    "description": "AI-powered tools for analysis, patterns, and automation.",
     "tools": [
       "bloomberg-terminal",
       "reuters-eikon",
