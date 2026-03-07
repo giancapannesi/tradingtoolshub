@@ -1,0 +1,42 @@
+{
+  "name": "Lightspeed Trading",
+  "slug": "lightspeed",
+  "category": "brokers-us",
+  "subcategories": ["active-trading", "direct-access"],
+  "description_short": "Professional direct-access broker with ultra-low latency execution, competitive per-share pricing, and Lightspeed Trader platform.",
+  "description_long": "Lightspeed Trading is a professional-grade direct-access broker designed for active day traders and professionals who need the fastest possible order execution. The Lightspeed Trader platform routes orders directly to exchanges and ECNs, bypassing market makers for better fills and lower latency.\n\nCommissions follow a per-share model starting at $0.0045/share (with a $1 minimum per trade), which is competitive for high-volume traders. Volume-based discounts can bring costs down to $0.002/share. Options are $0.60 per contract, and futures are available through partnerships.\n\nLightspeed requires a $25,000 minimum to open an account (matching the PDT rule requirement for day trading), making it clear this is not a platform for beginners. The firm is a registered broker-dealer with the SEC and member of FINRA, providing full regulatory protection for client assets.",
+  "logo_url": "/logos/lightspeed.svg",
+  "screenshots": [],
+  "website_url": "https://www.lightspeed.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Per Share", "price_monthly": 0, "price_yearly": 0, "features": ["$0.0045/share ($1 min)", "Volume discounts available", "Direct-access routing", "$25,000 minimum", "Lightspeed Trader platform"]},
+      {"name": "Per Trade", "price_monthly": 0, "price_yearly": 0, "features": ["$4.50 per trade", "Options $0.60/contract", "Direct-access routing", "$25,000 minimum"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": false, "risk_management": true, "news_feed": true, "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Ultra-low latency direct-access execution", "Competitive per-share pricing for active traders", "Volume discounts for high-frequency trading", "Direct exchange routing for best fills"],
+  "cons": ["$25,000 minimum account requirement", "Not suitable for beginners", "Platform has a learning curve", "Limited research and education"],
+  "rating": 4.1,
+  "rating_breakdown": {"ease_of_use": 3.5, "features": 4.2, "value": 4.0, "support": 4.0, "reliability": 4.5},
+  "founded_year": 2006,
+  "company": "Lightspeed Financial Services Group LLC",
+  "headquarters": "New York, New York",
+  "best_for": ["professional day traders", "high-frequency traders", "active scalpers"],
+  "similar_tools": ["interactive-brokers", "tradestation", "charles-schwab"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

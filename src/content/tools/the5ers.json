@@ -1,0 +1,75 @@
+{
+  "name": "The5ers",
+  "slug": "the5ers",
+  "category": "prop-firms",
+  "subcategories": ["forex-prop", "scaling-program"],
+  "description_short": "Forex-focused prop firm with scaling up to $4M, multiple program types, and profit splits up to 100%.",
+  "description_long": "The5ers is a well-established prop trading firm that specializes in forex trading with one of the most generous scaling programs in the industry. Funded traders can scale their accounts from an initial $20,000 up to $4,000,000 based on consistent performance.\n\nThe firm offers multiple program types to suit different trading styles: the Hyper Growth program for aggressive traders, the High Stakes program for balanced risk-takers, and the Bootcamp for those who want a structured learning path. Profit splits start at 80/20 and can reach 100% at the highest scaling levels.\n\nThe5ers differentiates itself with its scaling model, where consistent profitability is rewarded with increasingly larger account sizes. This creates a genuine path from small retail accounts to institutional-level capital, making it particularly attractive for forex traders who have a proven edge but lack capital.",
+  "logo_url": "/logos/the5ers.svg",
+  "screenshots": [],
+  "website_url": "https://the5ers.com",
+  "affiliate_url": "",
+  "affiliate_program": "The5ers Affiliate Program",
+  "affiliate_commission": "15% per purchase",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 95,
+    "tiers": [
+      {
+        "name": "Hyper Growth $6K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$6,000 starting capital", "Scales to $4M", "Up to 100% profit split", "Fee: $95"]
+      },
+      {
+        "name": "Hyper Growth $20K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$20,000 starting capital", "Scales to $4M", "Up to 100% profit split", "Fee: $275"]
+      },
+      {
+        "name": "High Stakes $100K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$100,000 funded account", "80/20 profit split", "6% profit target", "Fee: $575"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["forex", "stocks", "crypto"],
+  "pros": ["Scaling up to $4M is industry-leading", "Profit splits can reach 100%", "Multiple program types for different styles", "Established since 2016 with strong reputation"],
+  "cons": ["Primarily forex-focused", "Scaling takes significant time and consistency", "Rules can be complex for newer traders"],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.2,
+    "value": 4.3,
+    "support": 4.2,
+    "reliability": 4.5
+  },
+  "founded_year": 2016,
+  "company": "The5ers Ltd.",
+  "headquarters": "Raanana, Israel",
+  "best_for": ["forex traders", "swing traders", "traders wanting to scale"],
+  "similar_tools": ["ftmo", "topstep", "funded-trader"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

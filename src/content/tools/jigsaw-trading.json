@@ -1,0 +1,41 @@
+{
+  "name": "Jigsaw Trading",
+  "slug": "jigsaw-trading",
+  "category": "futures-platforms",
+  "subcategories": ["order-flow", "dom-trading"],
+  "description_short": "Premium order flow trading platform with advanced DOM, tape reading, and auction market analysis tools for professional scalpers.",
+  "description_long": "Jigsaw Trading is a specialized order flow platform designed for professional futures scalpers and day traders who base their decisions on reading the tape, depth of market, and auction dynamics. The platform provides advanced DOM (Depth of Market) tools that go far beyond standard Level 2 displays.\n\nJigsaw's Reconstructed Tape filters out noise and highlights the most significant trades, while the Summary Tape aggregates activity at each price level. The Auction Vista tool visualizes how the auction unfolds over time, showing absorption, initiative activity, and exhaustion patterns.\n\nAt $197/month for the professional package, Jigsaw is a premium tool aimed at experienced traders who already understand order flow concepts. The 14-day free trial lets prospective users evaluate whether the toolset matches their trading style. Jigsaw integrates with NinjaTrader, Sierra Chart, and other popular futures platforms.",
+  "logo_url": "/logos/jigsaw-trading.svg",
+  "screenshots": [],
+  "website_url": "https://www.jigsawtrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 197,
+    "tiers": [
+      {"name": "Professional", "price_monthly": 197, "price_yearly": 0, "features": ["Advanced DOM tools", "Reconstructed Tape", "Summary Tape", "Auction Vista", "Platform integrations", "14-day free trial"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": false,
+    "mobile_app": false, "api_access": false, "social_features": false, "broker_integration": true,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": false, "education": true
+  },
+  "markets": ["futures"],
+  "pros": ["Best-in-class DOM and tape reading tools", "Reconstructed Tape filters market noise", "Auction Vista reveals market dynamics visually", "14-day free trial available"],
+  "cons": ["Very expensive at $197/month", "Futures only", "Steep learning curve for order flow concepts", "Requires existing platform (NinjaTrader/Sierra Chart)"],
+  "rating": 4.1,
+  "rating_breakdown": {"ease_of_use": 3.3, "features": 4.6, "value": 3.4, "support": 4.0, "reliability": 4.3},
+  "founded_year": 2011,
+  "company": "Jigsaw Trading Ltd.",
+  "headquarters": "London, United Kingdom",
+  "best_for": ["futures scalpers", "order flow traders", "professional day traders"],
+  "similar_tools": ["bookmap", "sierra-chart", "quantower"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

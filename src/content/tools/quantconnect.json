@@ -1,0 +1,81 @@
+{
+  "name": "QuantConnect",
+  "slug": "quantconnect",
+  "category": "trading-bots",
+  "subcategories": ["algorithmic-trading", "quantitative-research"],
+  "description_short": "Open-source algorithmic trading platform with cloud-based research, backtesting, and live deployment in Python and C# across all major asset classes.",
+  "description_long": "QuantConnect is an open-source algorithmic trading and quantitative research platform that enables traders to design, backtest, and deploy trading strategies using Python or C#. The platform provides institutional-quality data, a cloud-based IDE, and integration with multiple brokerages for live trading.\n\nThe LEAN Algorithm Framework is QuantConnect's open-source engine, available on GitHub and capable of running locally or in the cloud. The cloud platform provides free tier access with backtesting capabilities, while paid plans unlock more backtesting nodes, live trading, and Alpha Streams — a marketplace where algorithm developers can license their strategies to institutional investors.\n\nQuantConnect provides tick-level data for US equities going back to 1998, forex data from 2004, crypto data from multiple exchanges, and futures and options data. The platform supports event-driven and scheduled universe selection, portfolio construction, risk management, and execution models. It integrates with Interactive Brokers, OANDA, Coinbase, Bitfinex, and other brokerages for live trading.",
+  "logo_url": "/logos/quantconnect.svg",
+  "screenshots": [],
+  "website_url": "https://www.quantconnect.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["1 backtest node", "Community data", "Cloud IDE", "Paper trading"]
+      },
+      {
+        "name": "Researcher",
+        "price_monthly": 8,
+        "price_yearly": 84,
+        "features": ["2 backtest nodes", "Jupyter notebooks", "100GB data access", "Email support"]
+      },
+      {
+        "name": "Team",
+        "price_monthly": 20,
+        "price_yearly": 216,
+        "features": ["5 backtest nodes", "2 live trading nodes", "Full dataset access", "Priority support"]
+      },
+      {
+        "name": "Trading Firm",
+        "price_monthly": 40,
+        "price_yearly": 432,
+        "features": ["10 backtest nodes", "5 live trading nodes", "Dedicated support", "Custom data integration"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Open-source LEAN engine — fully transparent", "Institutional-quality data with tick resolution", "Python and C# support with cloud IDE", "Free tier is genuinely useful for learning", "Active community and extensive documentation"],
+  "cons": ["Steep learning curve — requires programming skills", "Cloud computing costs add up for heavy backtesting", "Live trading setup can be complex", "No visual strategy builder — code only", "Data outside US equities can be limited on free tier"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.8,
+    "value": 4.5,
+    "support": 4.2,
+    "reliability": 4.6
+  },
+  "founded_year": 2012,
+  "company": "QuantConnect Corporation",
+  "headquarters": "New York, New York",
+  "best_for": ["quant developers", "algorithmic traders", "data scientists"],
+  "similar_tools": ["ninjatrader", "tradestation", "multicharts"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

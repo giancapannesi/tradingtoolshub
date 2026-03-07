@@ -1,0 +1,75 @@
+{
+  "name": "Option Alpha",
+  "slug": "option-alpha",
+  "category": "options-platforms",
+  "subcategories": ["options-automation", "options-education"],
+  "description_short": "Options trading automation platform with visual bot builder, backtesting, SmartPricing, and extensive free education for systematic options sellers.",
+  "description_long": "Option Alpha is a unique options trading platform focused on automating options selling strategies through a visual, no-code bot builder. Founded by Kirk Du Plessis, the platform has evolved from a popular options education site into a comprehensive automation platform that helps traders build, backtest, and deploy mechanical options strategies.\n\nThe platform's standout feature is the Autotrading Bot Builder, which lets traders create automated options strategies using a visual flowchart interface — no coding required. Traders can set entry criteria (Delta, DTE, IV Rank), position sizing, adjustment rules, and exit criteria, then backtest the strategy against historical data before deploying it live through connected broker accounts.\n\nOption Alpha includes SmartPricing (algorithmic order management that works limit orders between bid/ask), a comprehensive position management dashboard, and one of the largest free options education libraries in the industry with over 200 video courses. The platform connects to major brokers including Interactive Brokers and Tradier for live automated execution. The free tier provides education and basic tools, while the Pro plan ($99/mo) unlocks automation, backtesting, and SmartPricing.",
+  "logo_url": "/logos/option-alpha.svg",
+  "screenshots": [],
+  "website_url": "https://www.optionalpha.com",
+  "affiliate_url": "",
+  "affiliate_program": "Option Alpha Affiliate Program",
+  "affiliate_commission": "30% recurring",
+  "affiliate_cookie_days": 60,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["200+ educational videos", "Basic position tracking", "Community access", "Paper trading"]
+      },
+      {
+        "name": "Starter",
+        "price_monthly": 39,
+        "price_yearly": 348,
+        "features": ["1 automation bot", "SmartPricing", "Position management", "Basic backtesting"]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 99,
+        "price_yearly": 948,
+        "features": ["Unlimited bots", "Advanced backtesting", "SmartPricing", "Priority support", "Multi-broker connections"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["options", "stocks"],
+  "pros": ["No-code visual bot builder for options automation", "Extensive free education library (200+ videos)", "SmartPricing improves fill quality", "Backtesting with historical options data", "Active and helpful community"],
+  "cons": ["Focused exclusively on options selling strategies", "Pro plan at $99/mo is a significant cost", "Limited broker integrations (IB and Tradier primarily)", "Backtesting data may not capture all market conditions", "Not suitable for directional or buying strategies"],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.2,
+    "value": 4.0,
+    "support": 4.3,
+    "reliability": 4.1
+  },
+  "founded_year": 2015,
+  "company": "Option Alpha LLC",
+  "headquarters": "Richmond, Virginia",
+  "best_for": ["options sellers", "systematic traders", "options beginners"],
+  "similar_tools": ["optionsstrat", "thinkorswim", "tastytrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

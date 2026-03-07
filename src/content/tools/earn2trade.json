@@ -1,0 +1,43 @@
+{
+  "name": "Earn2Trade",
+  "slug": "earn2trade",
+  "category": "prop-firms",
+  "subcategories": ["futures-prop", "education-focused"],
+  "description_short": "Education-focused futures prop firm with structured programs, virtual trading boot camps, and funded accounts through Helios Trading Partners.",
+  "description_long": "Earn2Trade combines futures trading education with funded account opportunities, making it unique among prop firms. The firm offers two main paths: the Trader Career Path, which combines education with a progressive evaluation, and the Gauntlet Mini, a direct evaluation for experienced traders.\n\nThe Trader Career Path starts with a $25,000 virtual account and progresses through increasingly larger account sizes as traders demonstrate consistent profitability. The program includes educational content, webinars, and mentorship along the way. The Gauntlet Mini is a 15-day rapid evaluation for traders who want to skip the education and go straight to proving their skills.\n\nFunded traders receive accounts through Helios Trading Partners with an 80/20 profit split. Monthly subscription costs range from $99 to $199 depending on the program and account size. Earn2Trade's education-first approach makes it particularly suitable for newer traders who want to develop their skills while working toward funding.",
+  "logo_url": "/logos/earn2trade.svg",
+  "screenshots": [],
+  "website_url": "https://earn2trade.com",
+  "affiliate_url": "",
+  "affiliate_program": "Earn2Trade Affiliate Program",
+  "affiliate_commission": "20% per sale",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 99,
+    "tiers": [
+      {"name": "Gauntlet Mini $25K", "price_monthly": 99, "price_yearly": 0, "features": ["$25,000 account", "15-day evaluation", "Direct path to funding", "No education required"]},
+      {"name": "Gauntlet Mini $50K", "price_monthly": 149, "price_yearly": 0, "features": ["$50,000 account", "15-day evaluation", "Direct path to funding"]},
+      {"name": "Trader Career Path", "price_monthly": 199, "price_yearly": 0, "features": ["Progressive evaluation", "Education included", "Mentorship", "Multiple account levels"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": false,
+    "mobile_app": false, "api_access": false, "social_features": true, "broker_integration": true,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": true
+  },
+  "markets": ["futures"],
+  "pros": ["Education-first approach unique among prop firms", "Progressive Trader Career Path builds skills", "15-day Gauntlet Mini is one of shortest evaluations", "Good for newer traders who want structure"],
+  "cons": ["Futures only", "80/20 profit split lower than some competitors", "Monthly fees add up during evaluation", "Must use specific platforms"],
+  "rating": 4.0,
+  "rating_breakdown": {"ease_of_use": 4.2, "features": 3.8, "value": 4.0, "support": 4.0, "reliability": 4.2},
+  "founded_year": 2016,
+  "company": "Earn2Trade LLC",
+  "headquarters": "Orlando, Florida",
+  "best_for": ["aspiring futures traders", "education-seeking traders", "structured learners"],
+  "similar_tools": ["topstep", "apex-trader-funding", "ftmo"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

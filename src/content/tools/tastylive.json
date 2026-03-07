@@ -1,0 +1,63 @@
+{
+  "name": "TastyLive",
+  "slug": "tastylive",
+  "category": "trading-education",
+  "subcategories": ["options-education", "live-content"],
+  "description_short": "Free live financial media network from the founders of thinkorswim, featuring 8+ hours daily of options-focused educational shows, research, and market analysis.",
+  "description_long": "TastyLive (formerly TastyTrade) is a free financial media network co-founded by Tom Sosnoff and Tony Battista, the same team behind thinkorswim (sold to TD Ameritrade) and Tastytrade (the brokerage). The network produces over 8 hours of live programming every market day, focused primarily on options and futures trading education.\n\nUnlike traditional financial media that focuses on stock picks and market predictions, TastyLive emphasizes understanding probabilities, selling premium, managing positions mechanically, and treating trading as a long-term statistical exercise. The research-driven approach uses historical data to test strategies, measure expected outcomes, and help traders make informed decisions based on probabilities rather than opinions.\n\nPopular shows include Tastytrade (flagship morning show), Market Measures (research-based segment), Closing the Gap (beginner-focused), and Options Jive (options strategy deep-dives). All content is available free via the website, YouTube, and podcast platforms. TastyLive also runs TastyLive Events — live conferences where traders can meet the hosts and attend workshops. The platform generates revenue through its relationship with the Tastytrade brokerage rather than charging viewers.",
+  "logo_url": "/logos/tastylive.svg",
+  "screenshots": [],
+  "website_url": "https://www.tastylive.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["8+ hours live daily programming", "Full video archive", "Research segments", "Podcast access", "YouTube channel"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["options", "futures", "stocks", "crypto"],
+  "pros": ["Completely free — no subscription required", "8+ hours of live content every market day", "Research-driven approach using actual data", "Founded by thinkorswim creators — deep expertise", "Available on web, YouTube, and podcasts"],
+  "cons": ["Strongly promotes Tastytrade brokerage (conflict of interest)", "Content heavily favors selling premium — not balanced", "Can be information overload for beginners", "No interactive tools or trading platform", "Specific strategy focus may not suit all trading styles"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.8,
+    "value": 5.0,
+    "support": 3.8,
+    "reliability": 4.5
+  },
+  "founded_year": 2011,
+  "company": "TastyLive Inc.",
+  "headquarters": "Chicago, Illinois",
+  "best_for": ["options traders", "premium sellers", "probability-based traders"],
+  "similar_tools": ["investopedia", "warrior-trading", "option-alpha"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

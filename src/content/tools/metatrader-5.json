@@ -1,0 +1,63 @@
+{
+  "name": "MetaTrader 5",
+  "slug": "metatrader-5",
+  "category": "trading-bots",
+  "subcategories": ["multi-asset-platform", "automated-trading"],
+  "description_short": "The world's most widely used multi-asset trading platform with Expert Advisors, MQL5 programming, built-in strategy tester, and support from 1,000+ brokers.",
+  "description_long": "MetaTrader 5 (MT5) is the successor to MetaTrader 4 and represents MetaQuotes' vision for a comprehensive multi-asset trading platform. While MT4 dominated forex trading for over a decade, MT5 extends support to stocks, futures, and options trading, with improved backtesting, more order types, and a more powerful programming language (MQL5).\n\nMT5 features 21 timeframes (vs. MT4's 9), 38 built-in technical indicators, 44 analytical objects, unlimited charts, an economic calendar, and a built-in Depth of Market (DOM). The Strategy Tester supports multi-currency and multi-timeframe backtesting with real tick data and forward testing capabilities.\n\nThe MQL5 programming language enables traders to create Expert Advisors (EAs) for automated trading, custom indicators, and scripts. The MQL5 Market is a marketplace with thousands of free and paid trading robots, indicators, and tools. MetaTrader 5 is offered by over 1,000 brokers worldwide and is available on Windows, macOS (via Wine/Parallels), iOS, Android, and as a web platform. The platform is free for traders — brokers pay MetaQuotes for the license.",
+  "logo_url": "/logos/metatrader-5.svg",
+  "screenshots": [],
+  "website_url": "https://www.metatrader5.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Full platform access", "Expert Advisors", "Strategy Tester", "MQL5 Market access", "Available through any MT5 broker"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["forex", "stocks", "futures", "options", "crypto"],
+  "pros": ["Completely free for traders", "Supported by 1,000+ brokers worldwide", "Powerful MQL5 language for custom EAs and indicators", "Multi-asset support (forex, stocks, futures, options)", "Huge marketplace of free and paid tools", "Available on desktop, web, and mobile"],
+  "cons": ["MQL5 has a steeper learning curve than MQL4", "macOS support requires workarounds", "Not natively hedging-friendly (netting by default)", "Interface looks dated compared to modern platforms", "Broker data quality varies significantly"],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.8,
+    "value": 5.0,
+    "support": 4.0,
+    "reliability": 4.5
+  },
+  "founded_year": 2010,
+  "company": "MetaQuotes Software Corp.",
+  "headquarters": "Limassol, Cyprus",
+  "best_for": ["forex traders", "EA developers", "multi-asset traders"],
+  "similar_tools": ["ninjatrader", "tradestation", "quantconnect"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

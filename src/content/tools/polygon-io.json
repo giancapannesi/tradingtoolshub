@@ -1,0 +1,44 @@
+{
+  "name": "Polygon.io",
+  "slug": "polygon-io",
+  "category": "news-data-feeds",
+  "subcategories": ["market-data-api", "real-time-data"],
+  "description_short": "Institutional-grade financial data API with real-time WebSocket streaming, tick-level data, and broad market coverage.",
+  "description_long": "Polygon.io provides institutional-grade financial data through a modern REST and WebSocket API, covering stocks, options, forex, and crypto markets. The platform is known for its low-latency real-time data, tick-level historical data, and comprehensive market coverage.\n\nUnlike Alpha Vantage which focuses on simplicity, Polygon.io targets more demanding use cases with WebSocket streaming for real-time data, millisecond-precision timestamps, and aggregated bar data from 1-second to daily intervals. The API also provides reference data, corporate actions, financial statements, and SEC filings.\n\nThe free tier is more generous than most competitors at 5 API requests per minute with delayed data. Paid plans start at $199/month for real-time data access, making it a serious investment but one that provides genuinely institutional-quality data feeds.",
+  "logo_url": "/logos/polygon-io.svg",
+  "screenshots": [],
+  "website_url": "https://polygon.io",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Basic (Free)", "price_monthly": 0, "price_yearly": 0, "features": ["5 requests/minute", "Delayed data", "End-of-day data", "Limited endpoints"]},
+      {"name": "Starter", "price_monthly": 29, "price_yearly": 0, "features": ["Unlimited requests", "All data endpoints", "Delayed data", "Historical data"]},
+      {"name": "Developer", "price_monthly": 79, "price_yearly": 0, "features": ["All Starter features", "Real-time WebSocket", "Tick data", "Options data"]},
+      {"name": "Advanced", "price_monthly": 199, "price_yearly": 0, "features": ["All Developer features", "Unlimited real-time", "Priority support", "SLA guarantee"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": false,
+    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": false,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": true, "education": false
+  },
+  "markets": ["stocks", "options", "forex", "crypto"],
+  "pros": ["WebSocket streaming for real-time data", "Tick-level historical precision", "Generous free tier at 5 req/min", "Institutional-grade data quality"],
+  "cons": ["Real-time data requires $199/mo plan", "Can be complex for non-developers", "Options data costs extra", "Less beginner-friendly than Alpha Vantage"],
+  "rating": 4.4,
+  "rating_breakdown": {"ease_of_use": 3.8, "features": 4.7, "value": 4.0, "support": 4.2, "reliability": 4.6},
+  "founded_year": 2016,
+  "company": "Polygon.io Inc.",
+  "headquarters": "New York, New York",
+  "best_for": ["developers", "algorithmic traders", "fintech builders"],
+  "similar_tools": ["alpha-vantage", "benzinga-pro"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

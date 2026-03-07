@@ -1,0 +1,63 @@
+{
+  "name": "Power E*TRADE",
+  "slug": "power-etrade",
+  "category": "options-platforms",
+  "subcategories": ["options-analysis", "active-trading"],
+  "description_short": "E*TRADE's advanced options and active trading platform with live options chains, strategy optimizer, risk analysis, and paper trading — all included free.",
+  "description_long": "Power E*TRADE is the advanced trading platform from E*TRADE (Morgan Stanley), specifically designed for active traders and options traders. Available as both a web-based and mobile application, Power E*TRADE provides institutional-quality tools without requiring any additional subscription or platform fees.\n\nThe platform's options capabilities are its strongest suit: live streaming options chains with real-time Greeks, a Strategy Optimizer that suggests optimal strategies based on your market outlook, options Analyzer for complex P&L modeling, and the ability to trade multi-leg strategies with up to 4 legs in a single order. The Snapshot Analysis tool provides at-a-glance risk/reward summaries for any position.\n\nPower E*TRADE also includes advanced charting with 100+ technical studies, customizable chart drawing tools, real-time streaming quotes, and integrated news from Reuters and other providers. The paper trading feature (Paper Trading by Power E*TRADE) allows new traders to practice strategies with virtual money. The platform is included free with any E*TRADE account — no separate subscription needed, making it one of the best value propositions for options traders.",
+  "logo_url": "/logos/power-etrade.svg",
+  "screenshots": [],
+  "website_url": "https://www.etrade.com/platforms/power-etrade",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Included with E*TRADE Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Full Power E*TRADE access", "$0.65/contract options ($0.50 for active)", "Paper trading included", "No platform fees", "Morgan Stanley research"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures"],
+  "pros": ["Completely free with E*TRADE account — no platform fees", "Strategy Optimizer suggests optimal options strategies", "Paper trading for risk-free practice", "Web-based — no software download required", "Real-time Greeks and P&L analysis"],
+  "cons": ["Limited to E*TRADE brokerage — no multi-broker support", "No automated trading capabilities", "Charting is good but not best-in-class", "No backtesting for options strategies", "Mobile version has fewer features than web"],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.2,
+    "value": 4.5,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2018,
+  "company": "Morgan Stanley",
+  "headquarters": "Arlington, Virginia",
+  "best_for": ["options traders", "E*TRADE customers", "active traders"],
+  "similar_tools": ["thinkorswim", "optionsstrat", "tastytrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

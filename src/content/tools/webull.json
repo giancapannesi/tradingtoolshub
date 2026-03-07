@@ -1,0 +1,63 @@
+{
+  "name": "Webull",
+  "slug": "webull",
+  "category": "brokers-us",
+  "subcategories": ["commission-free", "mobile-first"],
+  "description_short": "Commission-free trading platform with extended hours, paper trading, and advanced charting for retail traders.",
+  "description_long": "Webull has quickly become one of the most popular commission-free trading platforms, particularly among younger traders who appreciate its modern interface and mobile-first design. The platform offers commission-free trading for US stocks, ETFs, options, and crypto, with extended hours trading from 4AM to 8PM ET.\n\nUnlike some commission-free competitors, Webull provides genuinely useful charting tools with 50+ technical indicators, 19 drawing tools, and automated chart pattern detection. The desktop application offers a more traditional trading terminal experience, while the mobile app is one of the best in the industry.\n\nWebull's built-in paper trading lets new traders practice with virtual money using real market data. The platform also offers IPO access, OTC trading, and fractional shares, making it a comprehensive choice for retail traders who want professional features without paying commissions.",
+  "logo_url": "/logos/webull.svg",
+  "screenshots": [],
+  "website_url": "https://www.webull.com",
+  "affiliate_url": "",
+  "affiliate_program": "Webull Referral Program",
+  "affiliate_commission": "Free stocks per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks/ETFs/options", "Extended hours trading (4AM-8PM ET)", "Paper trading", "50+ indicators", "Desktop + mobile apps", "Crypto trading"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "crypto"],
+  "pros": ["Commission-free across stocks, options, and crypto", "Extended hours trading 4AM-8PM ET", "Built-in paper trading with real data", "Strong charting tools for a free platform"],
+  "cons": ["No mutual funds or bonds", "Customer support can be slow", "Revenue from payment for order flow may impact execution quality"],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.0,
+    "value": 4.7,
+    "support": 3.5,
+    "reliability": 4.2
+  },
+  "founded_year": 2017,
+  "company": "Webull Financial LLC",
+  "headquarters": "New York, New York",
+  "best_for": ["new traders", "mobile traders", "commission-conscious traders"],
+  "similar_tools": ["robinhood", "charles-schwab", "tastytrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

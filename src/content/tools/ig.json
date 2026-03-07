@@ -1,0 +1,42 @@
+{
+  "name": "IG",
+  "slug": "ig",
+  "category": "brokers-forex",
+  "subcategories": ["cfd-trading", "spread-betting"],
+  "description_short": "World's largest CFD and spread betting broker with 17,000+ markets, ProRealTime charts, and 50 years of market experience.",
+  "description_long": "IG is the world's largest CFD provider by revenue, offering access to over 17,000 markets including forex, stocks, indices, commodities, and crypto. Founded in 1974, IG brings over 50 years of market-making experience and is regulated by top-tier authorities including the FCA, ASIC, and MAS.\n\nThe IG Trading Platform provides clean, professional charting with numerous indicators and drawing tools. For advanced users, IG offers ProRealTime integration (free with an active account), which provides institutional-grade charting, automated trading, and backtesting capabilities. MetaTrader 4 is also available.\n\nIG's US offering (IG US) provides direct forex trading for US residents, one of the few international brokers to do so. Spreads on EUR/USD average around 0.6 pips on the DMA (Direct Market Access) account, competitive with top ECN brokers.",
+  "logo_url": "/logos/ig.svg",
+  "screenshots": [],
+  "website_url": "https://www.ig.com",
+  "affiliate_url": "",
+  "affiliate_program": "IG Partner Program",
+  "affiliate_commission": "CPA-based",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["No minimum deposit", "0.6 pip EUR/USD spread", "17,000+ markets", "ProRealTime charting", "MT4 access"]},
+      {"name": "DMA", "price_monthly": 0, "price_yearly": 0, "features": ["Direct Market Access", "Tighter spreads", "Commission-based pricing", "For active traders"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": true, "risk_management": true, "news_feed": true, "education": true
+  },
+  "markets": ["forex", "stocks", "crypto", "futures"],
+  "pros": ["50+ years of market experience and stability", "17,000+ markets available", "ProRealTime charting included free", "Available to US residents for forex"],
+  "cons": ["Spreads higher than pure ECN brokers", "CFD trading carries high risk", "Some markets not available in all regions", "DMA account has higher requirements"],
+  "rating": 4.4,
+  "rating_breakdown": {"ease_of_use": 4.3, "features": 4.5, "value": 4.2, "support": 4.3, "reliability": 4.8},
+  "founded_year": 1974,
+  "company": "IG Group Holdings plc",
+  "headquarters": "London, United Kingdom",
+  "best_for": ["forex traders", "spread bettors", "multi-asset CFD traders"],
+  "similar_tools": ["etoro", "oanda", "pepperstone"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

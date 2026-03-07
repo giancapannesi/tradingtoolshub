@@ -1,0 +1,44 @@
+{
+  "name": "Quantower",
+  "slug": "quantower",
+  "category": "futures-platforms",
+  "subcategories": ["order-flow", "multi-broker"],
+  "description_short": "Multi-broker trading platform with professional order flow tools, DOM trading, and volume analysis for futures and crypto.",
+  "description_long": "Quantower is a multi-broker trading platform that provides professional-grade order flow analysis, charting, and trade execution tools. The platform connects to dozens of brokers and data providers, allowing traders to use a single interface regardless of which brokerage they trade through.\n\nQuantower's order flow toolkit includes footprint charts, volume profile, cluster charts, DOM (Depth of Market) trading, and time and sales analysis. The platform's TPO (Time Price Opportunity) charts and volume-weighted tools give futures traders deep market structure insights.\n\nPricing follows a freemium model: the free version provides access to most panels and basic functionality, while paid plans ($39/month basic, $70/month full) unlock advanced features. A lifetime license at $1,590 is available for traders who want to avoid recurring costs. Quantower is also available for free through some broker partnerships like Optimus Futures.",
+  "logo_url": "/logos/quantower.svg",
+  "screenshots": [],
+  "website_url": "https://www.quantower.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["Basic charting", "DOM trading", "Most panels available", "Broker connections"]},
+      {"name": "Basic", "price_monthly": 39, "price_yearly": 396, "features": ["Advanced order flow", "Volume profile", "Footprint charts", "Enhanced analytics"]},
+      {"name": "Premium", "price_monthly": 70, "price_yearly": 720, "features": ["All features", "Cluster charts", "Advanced TPO", "Priority support"]},
+      {"name": "Lifetime", "price_monthly": 0, "price_yearly": 0, "features": ["One-time $1,590 payment", "All Premium features forever"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
+    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": false
+  },
+  "markets": ["futures", "stocks", "crypto", "forex"],
+  "pros": ["Connects to 30+ brokers and data providers", "Professional order flow tools at accessible pricing", "Free version is genuinely useful", "Lifetime license option avoids recurring costs"],
+  "cons": ["Windows only, no Mac or web version", "Smaller community than NinjaTrader", "Documentation could be more comprehensive"],
+  "rating": 4.2,
+  "rating_breakdown": {"ease_of_use": 3.9, "features": 4.5, "value": 4.4, "support": 3.8, "reliability": 4.2},
+  "founded_year": 2017,
+  "company": "Quantower LLC",
+  "headquarters": "Kyiv, Ukraine",
+  "best_for": ["order flow traders", "multi-broker traders", "futures day traders"],
+  "similar_tools": ["ninjatrader", "sierra-chart", "bookmap"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

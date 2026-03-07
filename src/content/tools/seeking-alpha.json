@@ -1,0 +1,75 @@
+{
+  "name": "Seeking Alpha",
+  "slug": "seeking-alpha",
+  "category": "news-data-feeds",
+  "subcategories": ["investment-research", "crowdsourced-analysis"],
+  "description_short": "Crowdsourced investment research platform with 16,000+ contributors, Quant Ratings, earnings analysis, and news for stocks, ETFs, and REITs.",
+  "description_long": "Seeking Alpha is the largest crowdsourced investment research platform, featuring analysis from over 16,000 contributors alongside professional editorial content and proprietary quantitative ratings. The platform covers stocks, ETFs, REITs, and other investment vehicles with a focus on fundamental analysis and long-term investing.\n\nThe platform's unique value lies in its combination of crowdsourced analysis (investment theses from individual contributors vetted by editors), proprietary Quant Ratings (algorithmic ratings based on valuation, growth, profitability, momentum, and EPS revisions), and Wall Street analyst consensus. This three-pronged approach gives investors multiple perspectives on any stock.\n\nSeeking Alpha's free tier provides basic news, some analysis articles, and stock quotes. The Premium plan ($29.99/mo or $239/yr) unlocks all analysis, Quant Ratings, dividend grades, Author Performance tracking, and an ad-free experience. The Pro plan ($499.99/mo) adds exclusive ideas, Top Ideas from highest-performing authors, advanced screening, and a dedicated newsletter. Seeking Alpha has become essential reading for many retail investors, particularly those focused on dividends, value investing, and deep fundamental analysis.",
+  "logo_url": "/logos/seeking-alpha.svg",
+  "screenshots": [],
+  "website_url": "https://www.seekingalpha.com",
+  "affiliate_url": "",
+  "affiliate_program": "Seeking Alpha Affiliate Program",
+  "affiliate_commission": "Up to $100 per Premium signup",
+  "affiliate_cookie_days": 45,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Basic",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Limited article access", "Basic news", "Stock quotes", "Ad-supported"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 29.99,
+        "price_yearly": 239,
+        "features": ["All analysis articles", "Quant Ratings", "Dividend grades", "Author Performance tracking", "No ads"]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 499.99,
+        "price_yearly": 5999.88,
+        "features": ["Everything in Premium", "Top Ideas newsletter", "Exclusive Pro analysis", "Advanced screening", "VIP support"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Massive library of crowdsourced analysis and ideas", "Quant Ratings provide data-driven stock evaluations", "Author Performance tracking shows contributor accuracy", "Excellent dividend analysis and grading", "Strong community discussion on every article"],
+  "cons": ["Article quality varies widely across contributors", "Premium required to access most content", "Pro plan is very expensive at $499.99/month", "Can create information overload with conflicting analyses", "Not suitable for short-term or technical traders"],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.0,
+    "value": 4.0,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 2004,
+  "company": "Seeking Alpha Ltd.",
+  "headquarters": "New York, New York",
+  "best_for": ["fundamental investors", "dividend investors", "long-term investors"],
+  "similar_tools": ["tipranks", "koyfin", "benzinga-pro"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

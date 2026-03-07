@@ -1,0 +1,189 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import { getListicles, getToolBySlug, getCategories } from '../../utils/data';
+
+export function getStaticPaths() {
+  const listicles = getListicles();
+  return listicles.map(l => ({
+    params: { slug: l.slug },
+    props: { listicle: l },
+  }));
+}
+
+const { listicle } = Astro.props;
+const tools = listicle.tools
+  .map(slug => getToolBySlug(slug))
+  .filter(Boolean) as any[];
+const categories = getCategories();
+const category = categories.find(c => c.slug === listicle.category);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": listicle.title,
+    "description": listicle.description,
+    "numberOfItems": tools.length,
+    "itemListElement": tools.map((t, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": t.name,
+      "url": `https://tradingtoolshub.com/review/${t.slug}/`
+    }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Best Tools", "item": "https://tradingtoolshub.com/best/" },
+      { "@type": "ListItem", "position": 3, "name": listicle.title }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={listicle.title}
+  description={listicle.description}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      {category && (
+        <>
+          <a href={`/categories/${category.slug}/`} class="hover:text-text transition-colors">{category.name}</a>
+          <span>/</span>
+        </>
+      )}
+      <span class="text-text">Best of</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">{listicle.title}</h1>
+    <p class="text-lg text-muted mb-8">{listicle.description}</p>
+
+    <!-- Quick Summary Table -->
+    <div class="bg-card border border-border rounded-2xl overflow-hidden mb-10">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-border">
+              <th class="text-left p-4 text-muted font-medium">#</th>
+              <th class="text-left p-4 text-muted font-medium">Tool</th>
+              <th class="text-left p-4 text-muted font-medium">Rating</th>
+              <th class="text-left p-4 text-muted font-medium">Price</th>
+              <th class="text-left p-4 text-muted font-medium">Best For</th>
+              <th class="text-right p-4 text-muted font-medium"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {tools.map((tool, i) => (
+              <tr class={`border-b border-border/50 ${i === 0 ? 'bg-featured/5' : ''}`}>
+                <td class="p-4">
+                  <span class={`inline-flex items-center justify-center w-7 h-7 rounded-full text-xs font-bold ${i === 0 ? 'bg-featured text-bg' : 'bg-bg text-muted'}`}>
+                    {i + 1}
+                  </span>
+                </td>
+                <td class="p-4">
+                  <a href={`/review/${tool.slug}/`} class="font-semibold text-text hover:text-primary transition-colors">
+                    {tool.name}
+                  </a>
+                  {i === 0 && <span class="ml-2 text-xs bg-featured/20 text-featured px-2 py-0.5 rounded-full">Editor's Pick</span>}
+                </td>
+                <td class="p-4">
+                  <RatingStars rating={tool.rating} size="sm" />
+                </td>
+                <td class="p-4 text-text">
+                  {tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}
+                </td>
+                <td class="p-4 text-muted text-xs">{tool.best_for[0]}</td>
+                <td class="p-4 text-right">
+                  <a href={`/review/${tool.slug}/`} class="text-primary hover:text-primary-hover text-sm transition-colors">
+                    Review &rarr;
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Detailed Cards -->
+    {tools.map((tool, i) => (
+      <section class="mb-8" id={tool.slug}>
+        <div class="bg-card border border-border rounded-xl p-6">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <div class="flex items-center gap-3 mb-2">
+                <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold ${i === 0 ? 'bg-featured text-bg' : 'bg-bg text-muted'}`}>
+                  {i + 1}
+                </span>
+                <h2 class="text-xl font-bold text-text">{tool.name}</h2>
+                {i === 0 && <span class="text-xs bg-featured/20 text-featured px-2 py-0.5 rounded-full">Top Pick</span>}
+              </div>
+              <RatingStars rating={tool.rating} />
+            </div>
+            <div class="text-right">
+              <div class="text-lg font-bold text-text">
+                {tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}
+              </div>
+              {tool.pricing.has_free_tier && tool.pricing.starting_price > 0 && (
+                <span class="text-xs text-positive">Free tier available</span>
+              )}
+            </div>
+          </div>
+
+          <p class="text-muted mb-4">{tool.description_short}</p>
+
+          <div class="grid md:grid-cols-2 gap-4 mb-4">
+            <div>
+              <h3 class="text-sm font-semibold text-positive mb-2">Pros</h3>
+              <ul class="space-y-1">
+                {tool.pros.slice(0, 3).map(p => (
+                  <li class="flex items-start gap-2 text-sm text-muted">
+                    <span class="text-positive mt-0.5 shrink-0">&#10003;</span> {p}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold text-negative mb-2">Cons</h3>
+              <ul class="space-y-1">
+                {tool.cons.slice(0, 3).map(c => (
+                  <li class="flex items-start gap-2 text-sm text-muted">
+                    <span class="text-negative mt-0.5 shrink-0">&#10007;</span> {c}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-3 pt-4 border-t border-border">
+            <a href={`/review/${tool.slug}/`} class="inline-flex items-center px-4 py-2 text-sm text-primary hover:text-primary-hover transition-colors">
+              Full Review &rarr;
+            </a>
+            {tool.affiliate_url ? (
+              <a href={tool.affiliate_url} target="_blank" rel="nofollow sponsored" class="inline-flex items-center px-5 py-2 bg-primary hover:bg-primary-hover text-white text-sm font-semibold rounded-lg transition-colors">
+                Visit {tool.name} &rarr;
+              </a>
+            ) : (
+              <a href={tool.website_url} target="_blank" rel="noopener" class="inline-flex items-center px-5 py-2 bg-primary hover:bg-primary-hover text-white text-sm font-semibold rounded-lg transition-colors">
+                Visit {tool.name} &rarr;
+              </a>
+            )}
+          </div>
+        </div>
+      </section>
+    ))}
+
+    <!-- Disclosure -->
+    <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
+      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you. This helps us keep TradingToolsHub free and our reviews independent.
+    </div>
+  </div>
+</BaseLayout>

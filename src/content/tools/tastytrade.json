@@ -1,0 +1,63 @@
+{
+  "name": "Tastytrade",
+  "slug": "tastytrade",
+  "category": "brokers-us",
+  "subcategories": ["options-focused", "futures"],
+  "description_short": "Options-focused brokerage with industry-leading pricing, probability-based tools, and built-in trading education.",
+  "description_long": "Tastytrade (formerly Tastyworks) is the #1-rated platform for options trading, designed by the founders of ThinkorSwim specifically for options and futures traders. The platform's pricing is highly competitive: $1 per option contract with a $10 cap per leg, making it the cheapest option for multi-leg strategies.\n\nThe platform visualizes risk through probability curves and Greeks displays that make complex options positions easy to understand. The one-click roll, close, and adjustment tools streamline position management. Tastytrade also integrates live streaming content from the Tastylive network, providing continuous education and trade idea generation throughout the trading day.\n\nFutures trading is available with competitive rates, and the platform supports stocks, ETFs, and crypto as well. Tastytrade is best suited for traders who are comfortable with options and want a platform built from the ground up for that purpose.",
+  "logo_url": "/logos/tastytrade.svg",
+  "screenshots": [],
+  "website_url": "https://tastytrade.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks/ETFs", "$1/contract options ($10 cap)", "Competitive futures rates", "Probability tools", "Risk visualization", "Tastylive integration"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "crypto"],
+  "pros": ["Best options pricing with $10/leg cap", "Probability-based tools built for options", "Tastylive content for continuous education", "One-click position management"],
+  "cons": ["Limited charting compared to ThinkorSwim", "Not ideal for stock-only traders", "Crypto selection is limited", "No forex trading"],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.5,
+    "value": 4.8,
+    "support": 4.3,
+    "reliability": 4.5
+  },
+  "founded_year": 2017,
+  "company": "Tastytrade Inc.",
+  "headquarters": "Chicago, Illinois",
+  "best_for": ["options traders", "futures traders", "probability-based traders"],
+  "similar_tools": ["interactive-brokers", "charles-schwab", "webull"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

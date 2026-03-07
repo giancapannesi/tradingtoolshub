@@ -1,0 +1,69 @@
+{
+  "name": "TradeStation",
+  "slug": "tradestation",
+  "category": "brokers-us",
+  "subcategories": ["active-trading", "automated"],
+  "description_short": "Advanced trading platform with powerful EasyLanguage strategy development, backtesting, and automated execution.",
+  "description_long": "TradeStation is a veteran platform known for its powerful strategy development and automated trading capabilities. The EasyLanguage programming environment allows traders to code custom indicators, strategies, and automated trading systems with relatively minimal programming experience.\n\nThe platform offers commission-free stock and ETF trading, with competitive pricing for options ($0.60/contract) and futures ($1.50/contract). TradeStation's real strength is in its backtesting and strategy optimization engine, which lets traders test their ideas against years of historical data before risking real capital.\n\nTradeStation supports stocks, options, futures, forex, and crypto, making it a versatile choice for multi-asset traders. The platform is available as a desktop application, web platform, and mobile app, though the desktop version provides the most complete feature set.",
+  "logo_url": "/logos/tradestation.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradestation.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "TS Go",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks/ETFs", "$0.60/contract options", "Web and mobile trading", "Basic charting"]
+      },
+      {
+        "name": "TS Select",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks/ETFs", "$0.60/contract options", "$1.50/contract futures", "Desktop platform", "EasyLanguage", "Backtesting", "Strategy automation"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["EasyLanguage makes strategy coding accessible", "Powerful backtesting and optimization engine", "Commission-free stocks and ETFs", "Full automated trading capabilities"],
+  "cons": ["Desktop platform feels dated compared to modern competitors", "Data fees can add up for real-time futures data", "Customer support quality varies"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 3.7,
+    "features": 4.6,
+    "value": 4.3,
+    "support": 3.8,
+    "reliability": 4.5
+  },
+  "founded_year": 1982,
+  "company": "TradeStation Group Inc.",
+  "headquarters": "Plantation, Florida",
+  "best_for": ["algorithmic traders", "strategy developers", "futures traders"],
+  "similar_tools": ["interactive-brokers", "ninjatrader", "charles-schwab"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

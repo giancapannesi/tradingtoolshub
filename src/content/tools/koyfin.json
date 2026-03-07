@@ -1,0 +1,81 @@
+{
+  "name": "Koyfin",
+  "slug": "koyfin",
+  "category": "news-data-feeds",
+  "subcategories": ["financial-data", "screening-analytics"],
+  "description_short": "Bloomberg-alternative financial data platform for retail investors with advanced charting, screening, dashboards, and fundamental analysis at a fraction of the cost.",
+  "description_long": "Koyfin positions itself as a Bloomberg Terminal alternative for retail and semi-professional investors, offering institutional-quality financial data and analytics at a dramatically lower price point. The platform provides comprehensive fundamental data, advanced charting, stock screening, portfolio analysis, and customizable dashboards across global equities, ETFs, mutual funds, and economics.\n\nKoyfin's strength lies in its data visualization capabilities. Traders can build custom dashboards combining multiple chart types, create comparative charts across different metrics and time periods, and perform detailed fundamental analysis with financial statements, valuation multiples, growth metrics, and profitability ratios. The economic dashboard provides macro data from central banks and government agencies worldwide.\n\nThe screener supports filtering across hundreds of fundamental and technical criteria with the ability to save and share screens. The platform covers global markets — US, European, Asian, and emerging market equities are all available. The free tier is generous, providing basic charting and limited screening, while paid plans ($27.50-$59/mo) unlock real-time data, advanced screeners, portfolio analytics, and Excel/API access.",
+  "logo_url": "/logos/koyfin.svg",
+  "screenshots": [],
+  "website_url": "https://www.koyfin.com",
+  "affiliate_url": "",
+  "affiliate_program": "Koyfin Affiliate Program",
+  "affiliate_commission": "25% recurring for 12 months",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Basic charting", "Limited screener", "Delayed data", "5 dashboards"]
+      },
+      {
+        "name": "Plus",
+        "price_monthly": 27.50,
+        "price_yearly": 275,
+        "features": ["Real-time US data", "Advanced screener", "20 dashboards", "Earnings estimates"]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 45,
+        "price_yearly": 450,
+        "features": ["Global real-time data", "Excel Add-in", "50 dashboards", "Portfolio analytics", "Priority support"]
+      },
+      {
+        "name": "Enterprise",
+        "price_monthly": 59,
+        "price_yearly": 590,
+        "features": ["API access", "Unlimited dashboards", "Team collaboration", "Custom data exports", "Dedicated support"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Bloomberg-quality data at 1/50th of the price", "Excellent data visualization and custom dashboards", "Global market coverage across 50+ exchanges", "Generous free tier for basic research", "Excel integration on Pro and above plans"],
+  "cons": ["No trade execution — research and analysis only", "No mobile app available yet", "Primarily focused on equities and ETFs", "Can be overwhelming with the amount of data available", "Real-time data requires paid subscription"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.1,
+    "features": 4.5,
+    "value": 4.7,
+    "support": 4.0,
+    "reliability": 4.2
+  },
+  "founded_year": 2016,
+  "company": "Koyfin Inc.",
+  "headquarters": "New York, New York",
+  "best_for": ["fundamental analysts", "portfolio managers", "data-driven investors"],
+  "similar_tools": ["bloomberg-terminal", "reuters-eikon", "finviz"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

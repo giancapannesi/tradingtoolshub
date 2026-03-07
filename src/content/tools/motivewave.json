@@ -1,0 +1,43 @@
+{
+  "name": "MotiveWave",
+  "slug": "motivewave",
+  "category": "charting-platforms",
+  "subcategories": ["elliott-wave", "advanced-analysis"],
+  "description_short": "Professional charting platform specializing in Elliott Wave analysis, Fibonacci tools, and advanced technical studies for serious traders.",
+  "description_long": "MotiveWave is a premium charting and analysis platform that specializes in Elliott Wave analysis, making it the go-to tool for traders who base their strategies on wave theory. The platform provides automated Elliott Wave counting, Fibonacci analysis tools, and Gann studies that are far more sophisticated than what most platforms offer.\n\nBeyond Elliott Wave, MotiveWave provides comprehensive charting capabilities with 300+ studies, multi-timeframe analysis, and order flow tools including footprint charts and volume profile. The platform supports both discretionary and automated trading through its strategy development framework.\n\nMotiveWave connects to dozens of brokers and data feeds, supporting futures, forex, stocks, and crypto. Plans range from $99/month (Community Edition) to $499/month (Ultimate Edition) for the complete Elliott Wave suite. The platform runs on Windows, Mac, and Linux, offering true cross-platform compatibility.",
+  "logo_url": "/logos/motivewave.svg",
+  "screenshots": [],
+  "website_url": "https://www.motivewave.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 99,
+    "tiers": [
+      {"name": "Community", "price_monthly": 99, "price_yearly": 0, "features": ["Basic charting", "300+ studies", "Multi-broker support", "Strategy development"]},
+      {"name": "Professional", "price_monthly": 199, "price_yearly": 0, "features": ["All Community features", "Order flow tools", "Advanced indicators", "Volume profile"]},
+      {"name": "Ultimate", "price_monthly": 499, "price_yearly": 0, "features": ["All Professional features", "Full Elliott Wave suite", "Auto wave counting", "Gann analysis", "Advanced Fibonacci"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
+    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": false, "education": false
+  },
+  "markets": ["stocks", "futures", "forex", "crypto"],
+  "pros": ["Best Elliott Wave analysis tools available", "300+ studies and indicators", "True cross-platform (Windows/Mac/Linux)", "Connects to dozens of brokers"],
+  "cons": ["Very expensive, especially Ultimate at $499/mo", "Steep learning curve for Elliott Wave", "Niche audience limits community size", "Overkill for non-wave traders"],
+  "rating": 4.1,
+  "rating_breakdown": {"ease_of_use": 3.4, "features": 4.7, "value": 3.3, "support": 4.0, "reliability": 4.5},
+  "founded_year": 2008,
+  "company": "MotiveWave Software",
+  "headquarters": "Toronto, Canada",
+  "best_for": ["Elliott Wave traders", "advanced technical analysts", "cross-platform traders"],
+  "similar_tools": ["tradingview", "trendspider", "sierra-chart"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Charles Schwab",
+  "slug": "charles-schwab",
+  "category": "brokers-us",
+  "subcategories": ["full-service", "retirement"],
+  "description_short": "Full-service brokerage with commission-free trading, ThinkorSwim platform, and comprehensive wealth management services.",
+  "description_long": "Charles Schwab is one of the largest and most trusted brokerages in the United States, now even larger after acquiring TD Ameritrade. The firm offers commission-free stock and ETF trading, $0.65/contract options, and access to the powerful ThinkorSwim platform that came with the TD Ameritrade acquisition.\n\nSchwab excels as a one-stop shop for investors, offering brokerage accounts, IRAs, 401(k) rollovers, banking services, and financial advisory. The combination of zero-commission trading with ThinkorSwim's professional-grade tools makes it an exceptional value for both casual investors and active traders.\n\nThe firm's research offerings are among the best in the industry, with proprietary research, third-party reports from Morningstar and Credit Suisse, and a wide range of educational content for investors at all levels.",
+  "logo_url": "/logos/charles-schwab.svg",
+  "screenshots": [],
+  "website_url": "https://www.schwab.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks/ETFs", "$0.65/contract options", "No account minimum", "ThinkorSwim access", "Research & education", "Banking services"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex"],
+  "pros": ["Commission-free trading with no account minimums", "ThinkorSwim is industry-leading platform", "Comprehensive research and education", "Full banking and wealth management services"],
+  "cons": ["Futures commissions higher than some competitors", "Transition from TD Ameritrade created some friction", "No cryptocurrency trading"],
+  "rating": 4.6,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.6,
+    "value": 4.8,
+    "support": 4.5,
+    "reliability": 4.7
+  },
+  "founded_year": 1971,
+  "company": "The Charles Schwab Corporation",
+  "headquarters": "Westlake, Texas",
+  "best_for": ["all-in-one investors", "retirement planning", "active traders"],
+  "similar_tools": ["interactive-brokers", "fidelity", "etrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

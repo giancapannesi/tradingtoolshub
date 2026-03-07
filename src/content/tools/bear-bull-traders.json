@@ -1,0 +1,44 @@
+{
+  "name": "Bear Bull Traders",
+  "slug": "bear-bull-traders",
+  "category": "trading-education",
+  "subcategories": ["day-trading", "community"],
+  "description_short": "Day trading community and education platform by Andrew Aziz with live trading rooms, mentorship, and psychology coaching.",
+  "description_long": "Bear Bull Traders (BBT) is a day trading education community founded by Andrew Aziz, author of the bestselling book 'How to Day Trade for a Living.' The platform emphasizes a structured approach to learning day trading, with progressive education paths and strong community mentorship.\n\nBBT offers multiple membership tiers from a $39 seven-day trial to Elite Monthly at $199/month. The community features live trading rooms where experienced traders call out setups in real-time, mentorship programs, and trading psychology resources that address the emotional challenges of trading.\n\nWhat sets BBT apart is its emphasis on community and psychology alongside technical education. The mentorship model pairs newer traders with experienced community members, creating accountability and support that self-study courses cannot provide. The platform is more affordable than Warrior Trading while providing comparable education quality.",
+  "logo_url": "/logos/bear-bull-traders.svg",
+  "screenshots": [],
+  "website_url": "https://bearbulltraders.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 39,
+    "tiers": [
+      {"name": "7-Day Trial", "price_monthly": 0, "price_yearly": 0, "features": ["Full access for 7 days", "Chat room access", "Basic courses", "Fee: $39"]},
+      {"name": "Basic Monthly", "price_monthly": 99, "price_yearly": 0, "features": ["Chat room access", "Basic courses", "Community forums"]},
+      {"name": "Elite Monthly", "price_monthly": 199, "price_yearly": 0, "features": ["All courses", "Live trading room", "Mentorship", "Psychology coaching", "Advanced strategies"]},
+      {"name": "Elite Annual", "price_monthly": 0, "price_yearly": 1099, "features": ["All Elite features", "Annual billing", "Significant savings"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "mobile_app": false, "api_access": false, "social_features": true, "broker_integration": false,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": false, "education": true
+  },
+  "markets": ["stocks"],
+  "pros": ["More affordable than Warrior Trading", "Strong mentorship and community support", "Trading psychology coaching included", "Andrew Aziz's bestselling book as foundation"],
+  "cons": ["No simulator or paper trading built in", "Content quality depends on individual mentors", "Elite plan at $199/mo adds up over time"],
+  "rating": 4.1,
+  "rating_breakdown": {"ease_of_use": 4.2, "features": 3.8, "value": 4.2, "support": 4.3, "reliability": 4.2},
+  "founded_year": 2016,
+  "company": "Bear Bull Traders Inc.",
+  "headquarters": "Vancouver, Canada",
+  "best_for": ["aspiring day traders", "community-oriented learners", "psychology-focused traders"],
+  "similar_tools": ["warrior-trading", "investors-underground", "smb-capital"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

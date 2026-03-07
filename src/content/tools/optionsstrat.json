@@ -1,0 +1,69 @@
+{
+  "name": "OptionsStrat",
+  "slug": "optionsstrat",
+  "category": "options-platforms",
+  "subcategories": ["options-visualization", "strategy-builder"],
+  "description_short": "Visual options strategy builder and profit/loss calculator with real-time pricing, IV analysis, and P&L simulations for all options strategies.",
+  "description_long": "OptionsStrat is a specialized options analysis platform that makes complex options strategies accessible through intuitive visual profit/loss diagrams, real-time pricing, and powerful simulation tools. The platform is designed for options traders of all levels who want to understand the risk/reward profile of any options strategy before placing a trade.\n\nThe core feature is the Strategy Builder, which allows traders to construct any combination of calls, puts, and stock positions, then instantly see the P&L diagram, breakeven points, max profit, max loss, probability of profit, and Greeks. The platform supports all standard strategies (verticals, iron condors, butterflies, straddles, calendars, etc.) and custom multi-leg combinations.\n\nOptionsStrat provides real-time options pricing, implied volatility analysis, IV rank/percentile, unusual options activity scanning, and an earnings calendar with expected moves. The mobile app is particularly popular among traders who want quick P&L analysis on the go. The free tier offers basic strategy visualization, while the Premium plan ($29.99/mo) unlocks real-time data, advanced analytics, and unlimited strategy saves.",
+  "logo_url": "/logos/optionsstrat.svg",
+  "screenshots": [],
+  "website_url": "https://www.optionsstrat.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Basic P&L diagrams", "Delayed data", "Standard strategies", "Limited saves"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 29.99,
+        "price_yearly": 239.88,
+        "features": ["Real-time options data", "Advanced analytics", "Unusual activity scanner", "Unlimited strategy saves", "IV analysis tools", "Earnings expected moves"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["options", "stocks"],
+  "pros": ["Best visual P&L diagrams for options strategies", "Intuitive strategy builder — great for learning", "Real-time Greeks and IV analysis on Premium", "Excellent mobile app for on-the-go analysis", "Unusual options activity scanner"],
+  "cons": ["Free tier uses delayed data", "No broker integration for trade execution", "No backtesting capabilities", "Premium pricing is relatively high for a visualization tool", "Limited to US equities options"],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.7,
+    "features": 3.8,
+    "value": 3.7,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 2020,
+  "company": "OptionsStrat LLC",
+  "headquarters": "United States",
+  "best_for": ["options beginners", "visual learners", "options strategy analysis"],
+  "similar_tools": ["option-alpha", "power-etrade", "thinkorswim"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

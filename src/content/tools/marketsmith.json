@@ -1,0 +1,42 @@
+{
+  "name": "MarketSmith",
+  "slug": "marketsmith",
+  "category": "stock-screeners",
+  "subcategories": ["growth-investing", "can-slim"],
+  "description_short": "IBD's research platform for growth stock investing with CAN SLIM methodology, pattern recognition, and institutional sponsorship tracking.",
+  "description_long": "MarketSmith (powered by Investor's Business Daily) is a premium stock research and screening platform built around William O'Neil's CAN SLIM investing methodology. The platform combines proprietary ratings, institutional tracking, and chart pattern recognition to help growth investors find the best stocks at the right time.\n\nKey features include the IBD SmartSelect Ratings (EPS, Relative Strength, Group Strength, SMR, Accumulation/Distribution), which distill complex fundamental and technical data into easy-to-read scores. The Model Book provides curated stock lists from IBD's research team, while the Pattern Recognition tool automatically identifies chart patterns like cups, handles, and bases.\n\nAt $149.95/month (or $1,499/year), MarketSmith is a significant investment, but for growth investors following the CAN SLIM approach, it provides unique data and screening capabilities not available elsewhere. A 6-week trial is available for $49.95.",
+  "logo_url": "/logos/marketsmith.svg",
+  "screenshots": [],
+  "website_url": "https://marketsmith.investors.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 149.95,
+    "tiers": [
+      {"name": "6-Week Trial", "price_monthly": 0, "price_yearly": 0, "features": ["Full access for 6 weeks", "All features included", "Fee: $49.95"]},
+      {"name": "Monthly", "price_monthly": 149.95, "price_yearly": 1499, "features": ["IBD SmartSelect Ratings", "Pattern Recognition", "Model Book", "Institutional tracking", "Screener"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": false,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": true, "education": true
+  },
+  "markets": ["stocks"],
+  "pros": ["CAN SLIM methodology is proven over decades", "Proprietary ratings simplify stock selection", "Automatic chart pattern recognition", "Institutional sponsorship tracking"],
+  "cons": ["Very expensive at $149.95/month", "Only useful for CAN SLIM and growth investing", "US stocks only", "Steep learning curve for the methodology"],
+  "rating": 4.2,
+  "rating_breakdown": {"ease_of_use": 3.8, "features": 4.5, "value": 3.5, "support": 4.0, "reliability": 4.5},
+  "founded_year": 2010,
+  "company": "Investor's Business Daily (IBD)",
+  "headquarters": "Los Angeles, California",
+  "best_for": ["growth investors", "CAN SLIM traders", "swing traders"],
+  "similar_tools": ["finviz", "stock-rover", "trade-ideas"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Refinitiv Eikon",
+  "slug": "reuters-eikon",
+  "category": "news-data-feeds",
+  "subcategories": ["institutional-data", "financial-news"],
+  "description_short": "LSEG's professional financial data platform (formerly Thomson Reuters) with real-time data, Reuters news, and advanced analytics — Bloomberg's primary competitor.",
+  "description_long": "Refinitiv Eikon (now part of the London Stock Exchange Group) is the second-largest professional financial data platform in the world, serving as the primary alternative to the Bloomberg Terminal. Formerly known as Thomson Reuters Eikon, the platform provides comprehensive real-time and historical market data, news, and analytical tools across all major asset classes.\n\nEikon covers equities, fixed income, forex, commodities, and derivatives with data from over 400 exchanges and OTC markets worldwide. The platform integrates Reuters News — one of the world's largest news organizations — providing real-time breaking news, analysis, and exclusive content. Eikon's Screener enables filtering across 90,000+ instruments using hundreds of criteria.\n\nThe platform features Datastream for long-term historical data and economic time series, StarMine for quantitative equity analytics, and the Eikon Excel Add-in for data extraction. LSEG's Workspace (the evolution of Eikon) adds AI-powered search, customizable dashboards, and improved collaboration tools. Pricing starts around $1,800/month, making it more accessible than Bloomberg while still firmly in the institutional category.",
+  "logo_url": "/logos/reuters-eikon.svg",
+  "screenshots": [],
+  "website_url": "https://www.lseg.com/en/data-analytics/financial-data/workspace-financial-data",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 1800,
+    "tiers": [
+      {
+        "name": "Eikon Desktop",
+        "price_monthly": 1800,
+        "price_yearly": 21600,
+        "features": ["Real-time market data", "Reuters News integration", "Screener & analytics", "Excel Add-in"]
+      },
+      {
+        "name": "LSEG Workspace",
+        "price_monthly": 2200,
+        "price_yearly": 26400,
+        "features": ["AI-powered search", "Customizable dashboards", "Enhanced collaboration", "Datastream access", "StarMine analytics"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["More affordable than Bloomberg Terminal", "Reuters News is world-class", "Datastream offers 70+ years of historical data", "Excel integration for quantitative analysis", "Cleaner, more modern interface than Bloomberg"],
+  "cons": ["Still very expensive for retail traders", "Smaller professional network than Bloomberg", "Feature gap compared to Bloomberg in some areas", "Transition from Eikon to Workspace has been rocky", "Customer support quality varies by region"],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.7,
+    "value": 3.8,
+    "support": 4.3,
+    "reliability": 4.6
+  },
+  "founded_year": 2010,
+  "company": "London Stock Exchange Group (LSEG)",
+  "headquarters": "London, United Kingdom",
+  "best_for": ["institutional traders", "financial analysts", "portfolio managers"],
+  "similar_tools": ["bloomberg-terminal", "koyfin", "finviz"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

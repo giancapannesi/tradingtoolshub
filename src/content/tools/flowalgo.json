@@ -1,0 +1,43 @@
+{
+  "name": "FlowAlgo",
+  "slug": "flowalgo",
+  "category": "options-platforms",
+  "subcategories": ["options-flow", "dark-pool"],
+  "description_short": "Premium institutional-grade options flow scanner with dark pool prints, real-time alerts, and the fastest data delivery in the market.",
+  "description_long": "FlowAlgo is a premium options flow and dark pool monitoring platform designed for serious options traders who need the fastest possible data delivery. The platform tracks unusual options activity, large block trades, and dark pool prints across all US options exchanges in real-time.\n\nFlowAlgo is known for delivering flow data faster than most competitors, with trades appearing on the scanner within seconds of execution. The filtering system allows traders to narrow results by ticker, premium size, trade type (calls/puts), sector, and dozens of other criteria.\n\nAt $149/month (or $99/month annually), FlowAlgo is positioned as the premium option in the flow scanner market. The higher price point reflects its speed advantage and data completeness. The platform also offers historical flow data, custom alerts, and a clean interface optimized for real-time monitoring during market hours.",
+  "logo_url": "/logos/flowalgo.svg",
+  "screenshots": [],
+  "website_url": "https://flowalgo.com",
+  "affiliate_url": "",
+  "affiliate_program": "FlowAlgo Affiliate Program",
+  "affiliate_commission": "15% recurring",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 99,
+    "tiers": [
+      {"name": "Monthly", "price_monthly": 149, "price_yearly": 0, "features": ["Real-time options flow", "Dark pool data", "Custom alerts", "Advanced filters", "Historical data"]},
+      {"name": "Quarterly", "price_monthly": 129, "price_yearly": 0, "features": ["All Monthly features", "13% savings"]},
+      {"name": "Annual", "price_monthly": 99, "price_yearly": 1188, "features": ["All features", "33% savings"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": false,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": true, "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Fastest options flow data delivery", "Comprehensive dark pool monitoring", "Clean, professional interface", "Historical flow data included"],
+  "cons": ["Most expensive flow scanner at $149/mo", "No free tier or trial", "Requires strong options knowledge", "No broker integration"],
+  "rating": 4.3,
+  "rating_breakdown": {"ease_of_use": 4.0, "features": 4.5, "value": 3.5, "support": 4.0, "reliability": 4.6},
+  "founded_year": 2018,
+  "company": "FlowAlgo LLC",
+  "headquarters": "New York, New York",
+  "best_for": ["professional options traders", "institutional flow trackers", "speed-focused traders"],
+  "similar_tools": ["unusual-whales", "insiderfinance", "optionstrat"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "TD Ameritrade",
+  "slug": "td-ameritrade",
+  "category": "brokers-us",
+  "subcategories": ["full-service", "commission-free"],
+  "description_short": "Legacy full-service brokerage now merged with Charles Schwab, offering commission-free trading, powerful tools, and extensive research.",
+  "description_long": "TD Ameritrade was one of the largest and most respected online brokerages in the United States before its acquisition by Charles Schwab, completed in 2024. Known for its industry-leading thinkorswim platform, TD Ameritrade offered commission-free stock and ETF trades, robust options trading capabilities, extensive research and education, and a wide range of investment products.\n\nExisting TD Ameritrade accounts have been migrated to Schwab, but the legacy of TD Ameritrade lives on through the thinkorswim platform, which Schwab has adopted as its advanced trading interface. TD Ameritrade was particularly beloved by active traders and options traders for its powerful charting, real-time streaming data, and paper trading capabilities.\n\nWhile new accounts are now opened through Schwab, the TD Ameritrade brand remains relevant for traders researching the platform's heritage and understanding what capabilities transferred to Schwab.",
+  "logo_url": "/logos/td-ameritrade.svg",
+  "screenshots": [],
+  "website_url": "https://www.tdameritrade.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$0 stock/ETF commissions", "$0.65/contract options", "thinkorswim access", "Research & education"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Commission-free stock and ETF trades", "thinkorswim platform is industry-leading", "Extensive research and educational content", "Strong options trading capabilities"],
+  "cons": ["Now merged into Schwab — no new TD Ameritrade accounts", "Options contracts still cost $0.65 each", "Transition period caused some account disruptions"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.7,
+    "value": 4.5,
+    "support": 4.0,
+    "reliability": 4.3
+  },
+  "founded_year": 1975,
+  "company": "Charles Schwab Corporation",
+  "headquarters": "Omaha, Nebraska",
+  "best_for": ["active traders", "options traders", "self-directed investors"],
+  "similar_tools": ["charles-schwab", "fidelity", "etrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

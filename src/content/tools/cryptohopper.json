@@ -1,0 +1,44 @@
+{
+  "name": "Cryptohopper",
+  "slug": "cryptohopper",
+  "category": "trading-bots",
+  "subcategories": ["crypto-bots", "strategy-marketplace"],
+  "description_short": "Cloud-based crypto trading bot with strategy marketplace, backtesting, paper trading, and AI-powered strategy design.",
+  "description_long": "Cryptohopper is a cloud-based crypto trading bot platform that runs 24/7 without needing to keep your computer on. The platform offers a wide range of bot configurations from simple DCA strategies to complex AI-designed trading systems, making it accessible to both beginners and advanced traders.\n\nThe Strategy Marketplace is Cryptohopper's standout feature, allowing users to buy and sell proven trading strategies, signals, and templates. This marketplace model lets successful traders monetize their strategies while giving newer traders access to battle-tested configurations.\n\nThe AI Strategy Designer on the Hero plan uses machine learning to create optimized trading strategies based on historical data. Combined with comprehensive backtesting and paper trading capabilities, traders can thoroughly validate strategies before deploying real capital. Plans range from Free (Pioneer) to Hero at $107.50/month with annual billing.",
+  "logo_url": "/logos/cryptohopper.svg",
+  "screenshots": [],
+  "website_url": "https://www.cryptohopper.com",
+  "affiliate_url": "",
+  "affiliate_program": "Cryptohopper Affiliate Program",
+  "affiliate_commission": "15% lifetime",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Pioneer (Free)", "price_monthly": 0, "price_yearly": 0, "features": ["Portfolio management", "Manual trading", "20 open positions"]},
+      {"name": "Explorer", "price_monthly": 29, "price_yearly": 290, "features": ["Automated trading", "80 open positions", "15 bots", "Backtesting", "Paper trading"]},
+      {"name": "Adventurer", "price_monthly": 69, "price_yearly": 690, "features": ["200 open positions", "50 bots", "Strategy marketplace", "Advanced signals"]},
+      {"name": "Hero", "price_monthly": 129, "price_yearly": 1290, "features": ["500 open positions", "AI Strategy Designer", "All features", "Priority support"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true, "backtesting": true, "paper_trading": true, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": true, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": true
+  },
+  "markets": ["crypto"],
+  "pros": ["Cloud-based, runs 24/7 without your computer", "Strategy Marketplace for buying/selling strategies", "AI Strategy Designer for automated optimization", "Comprehensive backtesting and paper trading"],
+  "cons": ["Crypto only", "Strategy Marketplace quality varies", "Higher tiers are expensive", "Can be complex for complete beginners"],
+  "rating": 4.0,
+  "rating_breakdown": {"ease_of_use": 3.7, "features": 4.4, "value": 3.8, "support": 3.8, "reliability": 4.0},
+  "founded_year": 2017,
+  "company": "Cryptohopper BV",
+  "headquarters": "Amsterdam, Netherlands",
+  "best_for": ["crypto traders", "strategy developers", "signal followers"],
+  "similar_tools": ["3commas", "pionex", "tradesanta"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

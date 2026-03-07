@@ -1,0 +1,75 @@
+{
+  "name": "Benzinga Pro",
+  "slug": "benzinga-pro",
+  "category": "stock-screeners",
+  "subcategories": ["news-feed", "real-time-alerts"],
+  "description_short": "Real-time news, alerts, and stock screening platform that delivers market-moving headlines before they hit mainstream media.",
+  "description_long": "Benzinga Pro is a real-time financial news and data platform designed for traders who need to react quickly to market-moving events. The platform delivers breaking news, SEC filings, analyst ratings, and earnings surprises faster than most mainstream financial news sources.\n\nThe customizable news feed lets traders filter by ticker, sector, event type, and sentiment, ensuring they only see relevant information. The built-in stock screener provides technical and fundamental filtering, while the alerts system can notify traders via desktop, email, or mobile when specific conditions are met.\n\nBenzinga Pro's strength is in its speed and signal-to-noise ratio. Rather than drowning traders in information, it surfaces the most actionable news and data points. Plans range from Basic at $37/month to Essential at $197/month, with higher tiers adding features like analyst ratings, options activity, and detailed SEC filing analysis.",
+  "logo_url": "/logos/benzinga-pro.svg",
+  "screenshots": [],
+  "website_url": "https://pro.benzinga.com",
+  "affiliate_url": "",
+  "affiliate_program": "Benzinga Affiliate Program",
+  "affiliate_commission": "30% per sale",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 37,
+    "tiers": [
+      {
+        "name": "Basic",
+        "price_monthly": 37,
+        "price_yearly": 348,
+        "features": ["Real-time news feed", "Basic screener", "Watchlist alerts", "Market movers"]
+      },
+      {
+        "name": "Streamlined",
+        "price_monthly": 147,
+        "price_yearly": 1404,
+        "features": ["All Basic features", "Options activity", "Analyst ratings", "SEC filings"]
+      },
+      {
+        "name": "Essential",
+        "price_monthly": 197,
+        "price_yearly": 1884,
+        "features": ["All Streamlined features", "Full data terminal", "Advanced screener", "Priority alerts"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "crypto"],
+  "pros": ["Fastest financial news delivery for retail traders", "Customizable feeds filter noise effectively", "Options activity and analyst rating tracking", "Excellent mobile alerts for on-the-go trading"],
+  "cons": ["No charting or trade execution built in", "Basic plan is limited in features", "Higher tiers are expensive for the feature set"],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.2,
+    "value": 3.8,
+    "support": 4.1,
+    "reliability": 4.5
+  },
+  "founded_year": 2010,
+  "company": "Benzinga",
+  "headquarters": "Detroit, Michigan",
+  "best_for": ["news-driven traders", "day traders", "momentum traders"],
+  "similar_tools": ["finviz", "trade-ideas", "unusual-whales"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

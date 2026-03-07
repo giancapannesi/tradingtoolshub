@@ -1,0 +1,153 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import { getAllTools, getToolBySlug, getSimilarTools } from '../../utils/data';
+
+export function getStaticPaths() {
+  const tools = getAllTools();
+  return tools.map(t => ({
+    params: { slug: t.slug },
+    props: { tool: t },
+  }));
+}
+
+const { tool } = Astro.props;
+const alternatives = getSimilarTools(tool, 6);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `${tool.name} Alternatives`,
+    "description": `Top alternatives to ${tool.name} — compare features, pricing, and ratings side-by-side.`,
+    "numberOfItems": alternatives.length,
+    "itemListElement": alternatives.map((t, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": t.name,
+      "url": `https://tradingtoolshub.com/review/${t.slug}/`
+    }))
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Alternatives", "item": "https://tradingtoolshub.com/alternatives/" },
+      { "@type": "ListItem", "position": 3, "name": `${tool.name} Alternatives` }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={`Best ${tool.name} Alternatives 2026 — Top Competitors Compared`}
+  description={`Looking for ${tool.name} alternatives? Compare the top ${alternatives.length} competitors with features, pricing, and honest reviews.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      <a href={`/review/${tool.slug}/`} class="hover:text-text transition-colors">{tool.name}</a>
+      <span>/</span>
+      <span class="text-text">Alternatives</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">Best {tool.name} Alternatives in 2026</h1>
+    <p class="text-lg text-muted mb-8">
+      Not sure {tool.name} is right for you? Here are the top {alternatives.length} alternatives with detailed comparisons to help you decide.
+    </p>
+
+    <!-- Original Tool Quick Card -->
+    <div class="bg-card border border-border rounded-xl p-5 mb-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="font-semibold text-text mb-1">{tool.name}</h2>
+          <RatingStars rating={tool.rating} size="sm" />
+          <p class="text-sm text-muted mt-2">{tool.description_short}</p>
+        </div>
+        <div class="text-right shrink-0 ml-4">
+          <div class="text-lg font-bold text-text">
+            {tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}
+          </div>
+          <a href={`/review/${tool.slug}/`} class="text-sm text-primary hover:text-primary-hover transition-colors">
+            Full review &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alternatives List -->
+    <h2 class="text-2xl font-bold text-text mb-6">Top {alternatives.length} Alternatives</h2>
+
+    {alternatives.map((alt, i) => (
+      <div class="bg-card border border-border rounded-xl p-6 mb-4">
+        <div class="flex items-start justify-between mb-3">
+          <div>
+            <div class="flex items-center gap-3 mb-1">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-bg text-muted text-xs font-bold">
+                {i + 1}
+              </span>
+              <h3 class="text-lg font-bold text-text">{alt.name}</h3>
+            </div>
+            <RatingStars rating={alt.rating} size="sm" />
+          </div>
+          <div class="text-right">
+            <div class="font-bold text-text">
+              {alt.pricing.starting_price === 0 ? 'Free' : `$${alt.pricing.starting_price}/mo`}
+            </div>
+            {alt.pricing.has_free_tier && <span class="text-xs text-positive">Free tier</span>}
+          </div>
+        </div>
+
+        <p class="text-sm text-muted mb-4">{alt.description_short}</p>
+
+        <!-- Quick Comparison -->
+        <div class="grid grid-cols-2 gap-3 mb-4">
+          <div class="bg-bg rounded-lg p-3">
+            <p class="text-xs text-muted mb-1">vs {tool.name} Rating</p>
+            <p class={`text-sm font-semibold ${alt.rating > tool.rating ? 'text-positive' : alt.rating < tool.rating ? 'text-negative' : 'text-text'}`}>
+              {alt.rating > tool.rating ? `+${(alt.rating - tool.rating).toFixed(1)} higher` : alt.rating < tool.rating ? `${(alt.rating - tool.rating).toFixed(1)} lower` : 'Same rating'}
+            </p>
+          </div>
+          <div class="bg-bg rounded-lg p-3">
+            <p class="text-xs text-muted mb-1">vs {tool.name} Price</p>
+            <p class={`text-sm font-semibold ${(alt.pricing.starting_price || 0) < (tool.pricing.starting_price || 0) ? 'text-positive' : (alt.pricing.starting_price || 0) > (tool.pricing.starting_price || 0) ? 'text-negative' : 'text-text'}`}>
+              {alt.pricing.starting_price === 0 && tool.pricing.starting_price === 0 ? 'Both free' :
+               alt.pricing.starting_price === 0 ? 'Free (cheaper)' :
+               tool.pricing.starting_price === 0 ? 'More expensive' :
+               alt.pricing.starting_price < tool.pricing.starting_price ? `$${(tool.pricing.starting_price - alt.pricing.starting_price).toFixed(0)}/mo cheaper` :
+               alt.pricing.starting_price > tool.pricing.starting_price ? `$${(alt.pricing.starting_price - tool.pricing.starting_price).toFixed(0)}/mo more` :
+               'Same price'}
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3 pt-3 border-t border-border">
+          <a href={`/review/${alt.slug}/`} class="text-sm text-primary hover:text-primary-hover transition-colors">
+            Full Review &rarr;
+          </a>
+          <a href={`/compare/${tool.slug}-vs-${alt.slug}/`} class="text-sm text-muted hover:text-text transition-colors">
+            Compare &rarr;
+          </a>
+          {alt.affiliate_url ? (
+            <a href={alt.affiliate_url} target="_blank" rel="nofollow sponsored" class="ml-auto inline-flex items-center px-4 py-1.5 bg-primary hover:bg-primary-hover text-white text-sm font-semibold rounded-lg transition-colors">
+              Visit {alt.name}
+            </a>
+          ) : (
+            <a href={alt.website_url} target="_blank" rel="noopener" class="ml-auto inline-flex items-center px-4 py-1.5 bg-primary hover:bg-primary-hover text-white text-sm font-semibold rounded-lg transition-colors">
+              Visit {alt.name}
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+
+    <!-- Disclosure -->
+    <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted mt-8">
+      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you.
+    </div>
+  </div>
+</BaseLayout>

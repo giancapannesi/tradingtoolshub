@@ -1,0 +1,69 @@
+{
+  "name": "Sierra Chart",
+  "slug": "sierra-chart",
+  "category": "charting-platforms",
+  "subcategories": ["futures-charting", "order-flow"],
+  "description_short": "High-performance charting platform for futures traders with advanced order flow analysis and ultra-low latency.",
+  "description_long": "Sierra Chart is a professional-grade charting and trading platform that has earned a devoted following among futures and forex traders who demand maximum performance and customization. The platform is built in C++ for minimal latency and maximum stability, making it a preferred choice for scalpers and high-frequency day traders.\n\nThe platform offers advanced order flow visualization including footprint charts, volume profiles, depth of market ladders, and heatmaps similar to Bookmap. Its ACSIL (Advanced Custom Study Interface and Language) provides C/C++ level access for creating custom studies and automated trading systems.\n\nSierra Chart's pricing is refreshingly simple: $24/month for the Standard package that includes all charting functionality, or $36/month for packages with additional real-time data. The platform connects to all major futures data feeds and brokers.",
+  "logo_url": "/logos/sierra-chart.svg",
+  "screenshots": [],
+  "website_url": "https://www.sierrachart.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 24,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 24,
+        "price_yearly": 264,
+        "features": ["Full charting suite", "Order flow tools", "Volume profile", "Footprint charts", "ACSIL custom studies"]
+      },
+      {
+        "name": "Advanced",
+        "price_monthly": 36,
+        "price_yearly": 396,
+        "features": ["All Standard features", "Real-time data feeds", "Advanced market depth", "Additional exchange data"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["futures", "forex", "stocks"],
+  "pros": ["Ultra-low latency C++ engine for maximum performance", "Advanced order flow tools at a budget price", "Highly customizable with ACSIL C/C++ programming", "Extremely stable and reliable"],
+  "cons": ["Steep learning curve, not beginner-friendly", "Dated user interface", "Windows only, no Mac or web version"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 3.2,
+    "features": 4.8,
+    "value": 4.7,
+    "support": 3.8,
+    "reliability": 4.9
+  },
+  "founded_year": 2001,
+  "company": "Sierra Chart",
+  "headquarters": "Henderson, Nevada",
+  "best_for": ["futures traders", "scalpers", "order flow traders"],
+  "similar_tools": ["ninjatrader", "bookmap", "quantower"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Finviz",
+  "slug": "finviz",
+  "category": "stock-screeners",
+  "subcategories": ["stock-screening", "market-visualization"],
+  "description_short": "Powerful stock screener with market heat maps, fundamentals, technical filters, and real-time quotes on the Elite plan.",
+  "description_long": "Finviz (Financial Visualizations) is one of the most widely-used stock screening and market visualization tools available. The platform offers an incredibly fast and intuitive screener that lets traders filter stocks by dozens of fundamental, technical, and descriptive criteria simultaneously.\n\nThe free version provides delayed data with access to the screener, market heat maps, sector performance views, and basic stock charts. Finviz Elite at $39.50/month unlocks real-time quotes, advanced screener features, custom presets, push alerts, and an ad-free experience.\n\nFinviz's heat maps are iconic in the trading community, providing an at-a-glance view of market performance by sector, market cap, or custom criteria. The screener's speed and breadth of filters make it an essential tool for traders looking to find opportunities quickly across the US stock market.",
+  "logo_url": "/logos/finviz.svg",
+  "screenshots": [],
+  "website_url": "https://finviz.com",
+  "affiliate_url": "",
+  "affiliate_program": "Finviz Affiliate Program",
+  "affiliate_commission": "25% per sale",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Basic screener", "Delayed data", "Heat maps", "Stock charts", "Ads shown"]
+      },
+      {
+        "name": "Elite",
+        "price_monthly": 39.50,
+        "price_yearly": 299.50,
+        "features": ["Real-time quotes & charts", "Advanced screener", "Push alerts", "Ad-free", "Export/API access", "ETF & fundamental data"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": ["stocks"],
+  "pros": ["Best-in-class stock screener with dozens of filters", "Iconic heat maps for market visualization", "Free tier is surprisingly useful", "Fast, responsive interface"],
+  "cons": ["US stocks only, no international markets", "Free version has delayed data and ads", "No charting or trading execution"],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.7,
+    "features": 4.5,
+    "value": 4.5,
+    "support": 3.8,
+    "reliability": 4.7
+  },
+  "founded_year": 2007,
+  "company": "Finviz Inc.",
+  "headquarters": "New York, New York",
+  "best_for": ["stock traders", "swing traders", "fundamental analysts"],
+  "similar_tools": ["trade-ideas", "stock-rover", "benzinga-pro"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Unusual Whales",
+  "slug": "unusual-whales",
+  "category": "options-platforms",
+  "subcategories": ["options-flow", "dark-pool"],
+  "description_short": "Options flow tracker with dark pool data, congressional trading alerts, and real-time unusual activity detection.",
+  "description_long": "Unusual Whales has become one of the most popular options flow platforms, tracking real-time options activity, dark pool trades, and even congressional stock transactions. The platform identifies 'smart money' moves by detecting unusual options volume, large block trades, and institutional positioning across US exchanges.\n\nThe core options flow feed can be filtered by dozens of criteria including trade type, sector, expiration, volume, and premium size. The Dark Pool feed tracks off-exchange trades that reveal institutional activity not visible on standard exchanges. The Congressional Trading tracker has gained viral attention for exposing politicians' stock trades.\n\nAt $50/month, Unusual Whales offers solid value compared to premium competitors like FlowAlgo ($149/mo). The platform includes educational content to help newer traders learn to interpret flow data, though it is best suited for traders who already understand options mechanics.",
+  "logo_url": "/logos/unusual-whales.svg",
+  "screenshots": [],
+  "website_url": "https://unusualwhales.com",
+  "affiliate_url": "",
+  "affiliate_program": "Unusual Whales Affiliate Program",
+  "affiliate_commission": "20% recurring",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["Limited flow data", "Basic market overview", "Congressional trading"]},
+      {"name": "Premium", "price_monthly": 50, "price_yearly": 480, "features": ["Full options flow feed", "Dark pool data", "Whale alerts", "Advanced filters", "Historical flow data", "API access"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": true, "broker_integration": false,
+    "custom_indicators": false, "automated_trading": false, "journaling": false,
+    "performance_analytics": false, "risk_management": false, "news_feed": true, "education": true
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Comprehensive options flow with intuitive filtering", "Dark pool tracking reveals institutional moves", "Congressional trading tracker is unique", "More affordable than FlowAlgo at $50/mo"],
+  "cons": ["Not for beginners who don't understand options", "Flow data can generate false signals without context", "Historical data limited on lower tiers"],
+  "rating": 4.2,
+  "rating_breakdown": {"ease_of_use": 4.0, "features": 4.4, "value": 4.3, "support": 3.8, "reliability": 4.3},
+  "founded_year": 2020,
+  "company": "Unusual Whales Inc.",
+  "headquarters": "New York, New York",
+  "best_for": ["options traders", "flow traders", "institutional activity trackers"],
+  "similar_tools": ["flowalgo", "insiderfinance", "optionstrat"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

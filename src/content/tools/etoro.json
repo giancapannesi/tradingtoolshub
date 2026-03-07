@@ -1,0 +1,69 @@
+{
+  "name": "eToro",
+  "slug": "etoro",
+  "category": "brokers-forex",
+  "subcategories": ["social-trading", "copy-trading"],
+  "description_short": "Social trading platform with CopyTrader technology, commission-free stocks, and 3,000+ instruments across all markets.",
+  "description_long": "eToro is the world's leading social trading platform, combining traditional brokerage services with a social network where traders can follow, interact with, and automatically copy the trades of successful investors. With over 30 million users globally, eToro has made trading accessible and social.\n\nThe CopyTrader feature is eToro's flagship innovation, allowing users to allocate funds to automatically mirror the trades of top-performing traders in real-time. This creates a unique ecosystem where skilled traders can earn additional income from copiers, while newer traders can learn by observing and copying proven strategies.\n\neToro offers commission-free stock trading (with spread markups on other instruments), access to 3,000+ instruments including stocks, ETFs, forex, commodities, crypto, and indices. The platform is regulated in multiple jurisdictions and offers a virtual portfolio with $100,000 for practice trading.",
+  "logo_url": "/logos/etoro.svg",
+  "screenshots": [],
+  "website_url": "https://www.etoro.com",
+  "affiliate_url": "",
+  "affiliate_program": "eToro Partners Program",
+  "affiliate_commission": "CPA up to $400",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free stocks", "1 pip EUR/USD spread", "CopyTrader access", "Virtual portfolio", "$10 minimum deposit", "3,000+ instruments"]
+      },
+      {
+        "name": "eToro Club",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$5K+ balance tiers", "Trading Central access", "Reduced fees", "Dedicated account manager", "Priority withdrawals"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "forex", "crypto", "futures"],
+  "pros": ["CopyTrader lets you automatically mirror top traders", "Commission-free stock trading", "Massive social community with 30M+ users", "$100K virtual portfolio for practice"],
+  "cons": ["Spreads on forex/crypto are above average", "$5 withdrawal fee", "Limited charting compared to dedicated platforms", "CFDs carry high risk of capital loss"],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.6,
+    "features": 4.0,
+    "value": 3.8,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 2007,
+  "company": "eToro Group Ltd.",
+  "headquarters": "Tel Aviv, Israel",
+  "best_for": ["social traders", "beginners", "copy traders"],
+  "similar_tools": ["oanda", "ig", "pepperstone"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

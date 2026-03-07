@@ -1,0 +1,42 @@
+{
+  "name": "Pepperstone",
+  "slug": "pepperstone",
+  "category": "brokers-forex",
+  "subcategories": ["ecn-broker", "low-spread"],
+  "description_short": "Award-winning ECN forex broker with razor-thin spreads from 0.0 pips, fast execution, and MT4/MT5/cTrader support.",
+  "description_long": "Pepperstone is an Australian-founded forex and CFD broker that has become one of the most popular choices for active forex traders worldwide. The broker is known for its ultra-tight spreads, fast execution, and support for multiple trading platforms including MetaTrader 4, MetaTrader 5, cTrader, and TradingView.\n\nThe Razor account offers raw spreads from 0.0 pips (averaging 0.10 pips on EUR/USD) with a commission of $3.50 per side per lot ($7 round turn). The Standard account bundles the commission into a slightly wider spread starting from 1.0 pips. Both accounts have no minimum deposit requirement.\n\nPepperstone supports over 1,200 instruments including forex, indices, commodities, shares, ETFs, and crypto. The broker is regulated by ASIC, FCA, CySEC, and other major regulators, providing strong client fund protection. Their fast execution speeds and deep liquidity make them a preferred choice for scalpers and algorithmic traders.",
+  "logo_url": "/logos/pepperstone.svg",
+  "screenshots": [],
+  "website_url": "https://pepperstone.com",
+  "affiliate_url": "",
+  "affiliate_program": "Pepperstone Partner Program",
+  "affiliate_commission": "CPA up to $600",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["No minimum deposit", "1.0 pip EUR/USD spread", "No commissions", "MT4/MT5/cTrader", "1,200+ instruments"]},
+      {"name": "Razor", "price_monthly": 0, "price_yearly": 0, "features": ["No minimum deposit", "0.0 pip raw spreads", "$3.50/side/lot commission", "Fastest execution", "Institutional liquidity"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": true, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": false, "risk_management": true, "news_feed": true, "education": true
+  },
+  "markets": ["forex", "stocks", "crypto"],
+  "pros": ["Ultra-tight raw spreads from 0.0 pips", "Fast execution speeds ideal for scalpers", "Supports MT4, MT5, cTrader, and TradingView", "Multi-regulated with strong client protection"],
+  "cons": ["CFD trading only, no physical shares", "Not available to US residents", "Research and education not as deep as larger brokers"],
+  "rating": 4.5,
+  "rating_breakdown": {"ease_of_use": 4.4, "features": 4.5, "value": 4.7, "support": 4.3, "reliability": 4.6},
+  "founded_year": 2010,
+  "company": "Pepperstone Group Ltd.",
+  "headquarters": "Melbourne, Australia",
+  "best_for": ["forex scalpers", "algorithmic traders", "active forex traders"],
+  "similar_tools": ["ic-markets", "oanda", "etoro"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

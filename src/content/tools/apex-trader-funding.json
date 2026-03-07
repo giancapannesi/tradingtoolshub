@@ -1,0 +1,87 @@
+{
+  "name": "Apex Trader Funding",
+  "slug": "apex-trader-funding",
+  "category": "prop-firms",
+  "subcategories": ["funded-accounts", "futures-focused"],
+  "description_short": "Popular futures-focused prop firm with one-step evaluation, generous rules, and funded accounts from $25K to $300K with 100% of first $25K profit.",
+  "description_long": "Apex Trader Funding is a rapidly growing proprietary trading firm focused exclusively on futures trading. Unlike many prop firms that require multi-phase evaluations, Apex uses a simple one-step evaluation process: meet the profit target within the evaluation period while staying within risk parameters, and you receive a funded account.\n\nApex offers evaluation accounts ranging from $25,000 to $300,000, with profit targets proportional to account size. The risk rules are considered among the most generous in the prop firm industry — there is no daily drawdown limit (only a trailing threshold), traders can trade during news events, and positions can be held overnight. The profit split is 100% of the first $25,000 in profits, then 90/10 thereafter.\n\nThe platform supports trading through NinjaTrader, Tradovate, Rithmic, and WealthCharts. Apex is particularly popular for its frequent promotions (often 50-80% off evaluation fees), reset options, and the ability to run multiple funded accounts simultaneously. The firm has paid out over $300 million to traders since its founding.",
+  "logo_url": "/logos/apex-trader-funding.svg",
+  "screenshots": [],
+  "website_url": "https://www.apextraderfunding.com",
+  "affiliate_url": "",
+  "affiliate_program": "Apex Affiliate Program",
+  "affiliate_commission": "Up to $200 per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 147,
+    "tiers": [
+      {
+        "name": "$25K Evaluation",
+        "price_monthly": 147,
+        "price_yearly": 0,
+        "features": ["$25,000 account", "$1,500 profit target", "Trailing threshold $1,500", "10 contracts max"]
+      },
+      {
+        "name": "$50K Evaluation",
+        "price_monthly": 167,
+        "price_yearly": 0,
+        "features": ["$50,000 account", "$3,000 profit target", "Trailing threshold $2,500", "14 contracts max"]
+      },
+      {
+        "name": "$100K Evaluation",
+        "price_monthly": 207,
+        "price_yearly": 0,
+        "features": ["$100,000 account", "$6,000 profit target", "Trailing threshold $3,000", "14 contracts max"]
+      },
+      {
+        "name": "$150K Evaluation",
+        "price_monthly": 297,
+        "price_yearly": 0,
+        "features": ["$150,000 account", "$9,000 profit target", "Trailing threshold $5,000", "17 contracts max"]
+      },
+      {
+        "name": "$300K Evaluation",
+        "price_monthly": 517,
+        "price_yearly": 0,
+        "features": ["$300,000 account", "$20,000 profit target", "Trailing threshold $7,500", "35 contracts max"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["futures"],
+  "pros": ["One-step evaluation — simpler than multi-phase firms", "100% of first $25K in profits", "No daily drawdown limit", "Can trade during news events", "Frequent discount promotions (50-80% off)", "Multiple funded accounts allowed simultaneously"],
+  "cons": ["Futures only — no forex, stocks, or crypto", "Trailing threshold can be confusing for beginners", "Monthly evaluation fees add up if you reset multiple times", "Payout processing can take 5-10 business days", "Rules changes have frustrated some traders"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.0,
+    "value": 4.5,
+    "support": 4.1,
+    "reliability": 4.2
+  },
+  "founded_year": 2021,
+  "company": "Apex Trader Funding Inc.",
+  "headquarters": "Austin, Texas",
+  "best_for": ["futures traders", "prop firm beginners", "budget-conscious traders"],
+  "similar_tools": ["ftmo", "topstep", "the-funded-trader"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

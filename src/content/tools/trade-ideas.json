@@ -1,0 +1,75 @@
+{
+  "name": "Trade Ideas",
+  "slug": "trade-ideas",
+  "category": "stock-screeners",
+  "subcategories": ["ai-scanning", "real-time-alerts"],
+  "description_short": "AI-powered stock scanner with Holly AI for automated trade signals, real-time alerts, and backtesting for active day traders.",
+  "description_long": "Trade Ideas is the most powerful AI-driven stock scanning platform available, built specifically for active day traders who need real-time opportunities. The platform's flagship Holly AI uses machine learning to analyze millions of trading scenarios overnight and presents the highest-probability trade setups each morning before the market opens.\n\nThe Basic plan at $127/month provides real-time data, customizable layouts, alerts, and demo trading capabilities. The Premium plan at $254/month adds Holly AI, backtesting, Smart Risk Levels, and the Channel Bar for monitoring multiple scans simultaneously.\n\nTrade Ideas is not cheap, but for serious day traders, the Holly AI and real-time scanning capabilities can pay for themselves with a single good trade. The platform is best suited for traders who are already profitable and want to scale their edge with AI-powered opportunity detection.",
+  "logo_url": "/logos/trade-ideas.svg",
+  "screenshots": [],
+  "website_url": "https://www.trade-ideas.com",
+  "affiliate_url": "",
+  "affiliate_program": "Trade Ideas Affiliate Program",
+  "affiliate_commission": "20% recurring",
+  "affiliate_cookie_days": 60,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Par (Free)",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Delayed data", "Stock Racing visualization", "PiP Charts", "Predefined alerts"]
+      },
+      {
+        "name": "Basic",
+        "price_monthly": 127,
+        "price_yearly": 999,
+        "features": ["Real-time data", "10 charts per screen", "Custom layouts", "Demo trading", "In-app trading"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 254,
+        "price_yearly": 1999,
+        "features": ["All Basic features", "Holly AI signals", "Backtesting", "Smart Risk Levels", "Channel Bar", "Money Machine AI"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks"],
+  "pros": ["Holly AI provides institutional-grade trade signals", "Real-time scanning catches opportunities as they develop", "Backtesting validates strategies against historical data", "Comprehensive alert system with custom conditions"],
+  "cons": ["Very expensive, especially the Premium plan at $254/mo", "US stocks only", "Steep learning curve to use effectively", "Overkill for casual or swing traders"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.6,
+    "features": 4.8,
+    "value": 3.5,
+    "support": 4.3,
+    "reliability": 4.7
+  },
+  "founded_year": 2003,
+  "company": "Trade Ideas LLC",
+  "headquarters": "Encinitas, California",
+  "best_for": ["day traders", "active traders", "AI-driven traders"],
+  "similar_tools": ["finviz", "benzinga-pro", "stockstotrrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

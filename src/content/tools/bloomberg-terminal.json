@@ -1,0 +1,63 @@
+{
+  "name": "Bloomberg Terminal",
+  "slug": "bloomberg-terminal",
+  "category": "news-data-feeds",
+  "subcategories": ["institutional-data", "financial-news"],
+  "description_short": "The gold standard in financial data terminals used by 325,000+ professionals worldwide, providing real-time data, news, analytics, and trading across all asset classes.",
+  "description_long": "The Bloomberg Terminal is the most widely used and comprehensive financial data platform in the world, serving over 325,000 subscribers across investment banks, hedge funds, asset managers, central banks, and other financial institutions. Created by Michael Bloomberg in 1981, the terminal has become synonymous with professional financial data.\n\nThe terminal provides real-time and historical data across every conceivable asset class: equities, fixed income, currencies, commodities, derivatives, and alternative data. Its 30,000+ functions cover everything from basic price quotes to complex derivative pricing models, credit risk analysis, portfolio analytics, and economic data from virtually every country.\n\nBloomberg's proprietary news service employs 2,700+ journalists in 120+ countries, providing market-moving news often minutes before it appears elsewhere. The terminal includes Bloomberg Messaging (instant messaging between financial professionals), BVAL (Bloomberg Valuation), PORT (portfolio analytics), and MARS (multi-asset risk system). The Excel Add-in (BQL/BDP/BDH) is essential for quantitative analysts. At approximately $24,000/year per terminal, it is explicitly designed for institutional users, though some professional retail traders justify the cost for its unmatched data depth.",
+  "logo_url": "/logos/bloomberg-terminal.svg",
+  "screenshots": [],
+  "website_url": "https://www.bloomberg.com/professional/solution/bloomberg-terminal/",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 2000,
+    "tiers": [
+      {
+        "name": "Bloomberg Terminal",
+        "price_monthly": 2000,
+        "price_yearly": 24000,
+        "features": ["All asset class data", "Real-time news from 2,700+ journalists", "Bloomberg Messaging", "Excel integration (BQL/BDP)", "Portfolio analytics", "30,000+ functions"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Unmatched depth and breadth of financial data", "Market-moving news before any other source", "Industry-standard Bloomberg Messaging network", "30,000+ analytical functions", "Excel integration essential for quantitative work", "Used by every major financial institution"],
+  "cons": ["Extremely expensive at ~$24,000/year", "Steep learning curve with cryptic function codes", "2-year minimum contract commitment", "Overkill for most retail traders", "Proprietary hardware/software (though now available on any PC)"],
+  "rating": 4.8,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 5.0,
+    "value": 3.5,
+    "support": 4.8,
+    "reliability": 5.0
+  },
+  "founded_year": 1981,
+  "company": "Bloomberg L.P.",
+  "headquarters": "New York, New York",
+  "best_for": ["institutional traders", "portfolio managers", "financial analysts"],
+  "similar_tools": ["reuters-eikon", "koyfin", "finviz"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Interactive Brokers",
+  "slug": "interactive-brokers",
+  "category": "brokers-us",
+  "subcategories": ["full-service", "international"],
+  "description_short": "Professional-grade brokerage with the lowest commissions, global market access, and powerful Trader Workstation platform.",
+  "description_long": "Interactive Brokers (IBKR) is the gold standard for professional and active traders, offering access to 150+ markets across 33 countries with some of the lowest commissions in the industry. The platform serves everyone from retail traders to hedge funds and institutions.\n\nIBKR offers two account types: IBKR Lite provides commission-free US stock and ETF trades, while IBKR Pro offers lower per-share costs for high-volume traders (as low as $0.0005/share on the tiered plan). Options commissions range from $0.15 to $0.65 per contract depending on volume, and futures commissions are just $0.25-$0.85 per contract.\n\nThe Trader Workstation (TWS) desktop platform is powerful but complex, while the web portal and mobile app provide more accessible interfaces. IBKR also offers one of the best margin lending rates in the industry and supports a wide range of asset classes including stocks, options, futures, forex, bonds, and mutual funds.",
+  "logo_url": "/logos/interactive-brokers.svg",
+  "screenshots": [],
+  "website_url": "https://www.interactivebrokers.com",
+  "affiliate_url": "",
+  "affiliate_program": "IBKR Referral Program",
+  "affiliate_commission": "$200 per funded account",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "IBKR Lite",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Commission-free US stocks/ETFs", "$0.65/contract options", "No account minimum", "Mobile + web access"]
+      },
+      {
+        "name": "IBKR Pro",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["$0.005/share stocks (fixed)", "Volume discounts available", "$0.15-0.65/contract options", "Advanced order routing", "Trader Workstation", "API access"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Lowest commissions in the industry for active traders", "Access to 150+ markets in 33 countries", "Excellent margin rates", "Powerful API for automated trading"],
+  "cons": ["Trader Workstation has a steep learning curve", "Platform can feel overwhelming for beginners", "Customer support can be slow"],
+  "rating": 4.6,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.9,
+    "value": 4.8,
+    "support": 3.8,
+    "reliability": 4.8
+  },
+  "founded_year": 1978,
+  "company": "Interactive Brokers Group Inc.",
+  "headquarters": "Greenwich, Connecticut",
+  "best_for": ["active traders", "international traders", "professional traders"],
+  "similar_tools": ["charles-schwab", "tastytrade", "tradestation"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}
