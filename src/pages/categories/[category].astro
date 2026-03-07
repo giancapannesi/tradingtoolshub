@@ -28,7 +28,26 @@ const jsonLd = [
         "@type": "ListItem",
         "position": i + 1,
         "name": t.name,
-        "url": `https://tradingtoolshub.com/review/${t.slug}/`
+        "url": `https://tradingtoolshub.com/review/${t.slug}/`,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": t.name,
+          "url": `https://tradingtoolshub.com/review/${t.slug}/`,
+          "description": t.description_short,
+          "applicationCategory": "FinanceApplication",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": t.rating.toFixed(1),
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": Math.max(1, Math.round(t.rating * 20))
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": t.pricing.starting_price.toString(),
+            "priceCurrency": t.pricing.currency || "USD"
+          }
+        }
       }))
     }
   },

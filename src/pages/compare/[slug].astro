@@ -24,6 +24,50 @@ if (!toolA || !toolB) {
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
 
+// Build FAQ answers dynamically from tool data
+const pricingA = toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
+const pricingB = toolB.pricing.starting_price === 0 ? 'free' : `$${toolB.pricing.starting_price}/mo`;
+const cheaperName = cheaper.name;
+const cheaperPrice = cheaper.pricing.starting_price === 0 ? 'a free plan' : `plans starting at $${cheaper.pricing.starting_price}/mo`;
+const pricingAnswer = toolA.pricing.starting_price === toolB.pricing.starting_price
+  ? `${toolA.name} and ${toolB.name} have similar starting prices at ${pricingA}. Compare their feature sets to determine which offers better value for your trading needs.`
+  : `${cheaperName} is the more affordable option with ${cheaperPrice}. ${toolA.name} starts at ${pricingA} while ${toolB.name} starts at ${pricingB}. However, pricing alone shouldn't drive your decision — consider which features matter most for your trading style.`;
+
+const ratingAnswer = toolA.rating === toolB.rating
+  ? `Both ${toolA.name} and ${toolB.name} are rated ${toolA.rating.toFixed(1)}/5 on TradingToolsHub. The best choice depends on your specific trading needs and preferred features.`
+  : `${winner.name} has a higher rating of ${winner.rating.toFixed(1)}/5 compared to ${(winner === toolA ? toolB : toolA).name}'s ${(winner === toolA ? toolB : toolA).rating.toFixed(1)}/5. Ratings are based on features, ease of use, value for money, platform reliability, and customer support.`;
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `What is the difference between ${toolA.name} and ${toolB.name}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${toolA.name} is ${toolA.description_short} ${toolB.name} is ${toolB.description_short} The main differences come down to features, pricing, and target audience. Compare them side-by-side on TradingToolsHub to find the best fit.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Which is cheaper, ${toolA.name} or ${toolB.name}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": pricingAnswer
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Which is better rated, ${toolA.name} or ${toolB.name}?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ratingAnswer
+      }
+    }
+  ]
+};
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -41,7 +85,8 @@ const jsonLd = [
       { "@type": "ListItem", "position": 2, "name": "Compare", "item": "https://tradingtoolshub.com/compare/" },
       { "@type": "ListItem", "position": 3, "name": `${toolA.name} vs ${toolB.name}` }
     ]
-  }
+  },
+  faqSchema
 ];
 ---
 <BaseLayout

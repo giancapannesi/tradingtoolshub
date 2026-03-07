@@ -5,7 +5,10 @@ import { getAllTools, getCategories } from '../utils/data';
 
 const categories = getCategories();
 const allTools = getAllTools();
-const featuredTools = allTools.sort((a, b) => b.rating - a.rating).slice(0, 6);
+const featuredTools = [...allTools].sort((a, b) => b.rating - a.rating).slice(0, 6);
+const recentlyUpdated = [...allTools]
+  .sort((a, b) => new Date(b.last_updated).getTime() - new Date(a.last_updated).getTime())
+  .slice(0, 6);
 const totalTools = allTools.length;
 
 const jsonLd = {
@@ -81,6 +84,27 @@ const jsonLd = {
       </div>
     </section>
   )}
+
+  <!-- Recently Updated Reviews -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">Recently Updated Reviews</h2>
+    <p class="text-muted mb-8">The latest tools we've reviewed or refreshed with new data</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {recentlyUpdated.map(tool => (
+        <a href={`/review/${tool.slug}/`} class="block bg-card hover:bg-card-hover border border-border rounded-xl p-5 transition-all duration-200 hover:-translate-y-0.5 group">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-semibold text-text group-hover:text-primary transition-colors">{tool.name}</h3>
+            <span class="text-xs text-muted whitespace-nowrap ml-2">{tool.last_updated}</span>
+          </div>
+          <p class="text-sm text-muted line-clamp-2 mb-3">{tool.description_short}</p>
+          <div class="flex items-center justify-between">
+            <span class="text-sm text-featured">{tool.rating.toFixed(1)} / 5</span>
+            <span class="text-xs text-primary font-medium">Read review &rarr;</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
 
   <!-- Why Trust Us -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

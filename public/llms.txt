@@ -1,34 +1,75 @@
 # TradingToolsHub
 
-> TradingToolsHub is a comprehensive directory of trading tools, platforms, brokers, and software. Compare features, pricing, and read honest reviews of 200+ trading products across 12 categories.
+> TradingToolsHub is a comprehensive, independent directory of trading tools, platforms, brokers, and software. We provide honest reviews, side-by-side comparisons, pricing breakdowns, and feature analysis for 80+ trading products across 12 categories. Our goal is to help traders find the right tools for their style without pay-for-placement bias.
+
+## About
+
+TradingToolsHub is operated by experienced finance professionals with backgrounds in consumer finance, risk management, and active trading. Our editorial team has hands-on experience with the tools we review. We use a transparent, weighted 5-factor methodology (see /methodology/) and disclose all affiliate relationships.
+
+## Review Methodology
+
+Every tool is scored on 5 weighted factors:
+1. Features & Functionality (30%) — Core capabilities, unique features, integrations
+2. Ease of Use (20%) — UI/UX quality, learning curve, onboarding
+3. Value for Money (25%) — Pricing vs features, free tier quality, hidden costs
+4. Platform Reliability (15%) — Uptime, speed, data accuracy, execution quality
+5. Customer Support (10%) — Response time, channels, documentation quality
+
+Ratings use a 5-point scale: 4.5-5.0 Outstanding, 4.0-4.4 Excellent, 3.5-3.9 Good, 3.0-3.4 Average, Below 3.0 Below Average.
 
 ## Categories
-- Trading Journals (15+ tools)
-- Charting Platforms (12+ tools)
-- Stock Screeners (10+ tools)
-- US Brokers (10+ tools)
-- Forex/CFD Brokers (10+ tools)
-- Prop Trading Firms (10+ tools)
-- Trading Education (8+ tools)
-- Options Platforms (8+ tools)
-- Futures Platforms (6+ tools)
-- Trading Bots (6+ tools)
-- Risk Management Tools (5+ tools)
-- News & Data Feeds (8+ tools)
 
-## Features
-- Side-by-side tool comparisons
-- Detailed pricing breakdowns
-- Feature checklists
-- Honest pros and cons
-- Ratings and reviews
-- Best-of listicles by trader type
-- Alternative tool suggestions
+- Trading Journals — AI-powered trade tracking, performance analytics, journaling (15+ tools)
+- Charting Platforms — Technical analysis, indicators, drawing tools, real-time data (12+ tools)
+- Stock Screeners — Market scanners, filters, AI-powered opportunity detection (10+ tools)
+- US Brokers — Commission-free trading, stocks, options, futures (10+ tools)
+- Forex & CFD Brokers — Regulated FX trading, tight spreads, global access (10+ tools)
+- Prop Trading Firms — Funded trading, evaluations, profit splits up to 90% (10+ tools)
+- Trading Education — Courses, mentorship, communities, live trading rooms (8+ tools)
+- Options Platforms — Flow analysis, unusual activity, strategy builders (8+ tools)
+- Futures Platforms — Order flow, depth of market, advanced execution (6+ tools)
+- Trading Bots & Automation — Algorithmic trading, DCA bots, signal bots (6+ tools)
+- Risk Management — Position sizing, drawdown tracking, portfolio analytics (5+ tools)
+- News & Data Feeds — Real-time data, APIs, financial news aggregation (8+ tools)
+
+## Key Pages
+
+- / — Homepage with top-rated tools and category browser
+- /about/ — About TradingToolsHub, team credentials, editorial standards
+- /methodology/ — Full review methodology, scoring system, data sources
+- /feed.xml — RSS feed of recently updated reviews and comparisons
 
 ## URL Structure
-- /review/{tool-slug}/ - Individual tool reviews
-- /compare/{tool-a}-vs-{tool-b}/ - Head-to-head comparisons
-- /best/{category-for-audience}/ - Best-of listicles
-- /alternatives/{tool-slug}/ - Alternative tools
-- /pricing/{category}/ - Pricing comparisons
-- /categories/{category}/ - Category listings
+
+- /review/{tool-slug}/ — Individual tool review with pricing, features, pros/cons, rating
+- /compare/{tool-a}-vs-{tool-b}/ — Head-to-head comparison with feature table, verdict
+- /best/{audience-slug}/ — Best-of listicles curated by trader type or use case
+- /alternatives/{tool-slug}/ — Alternative tools with comparison data
+- /categories/{category-slug}/ — Full category listing sorted by rating
+- /pricing/{category-slug}/ — Pricing comparison tables for a category
+
+## Top Comparisons
+
+- TradingView vs TrendSpider
+- FTMO vs Topstep
+- Fidelity vs Interactive Brokers
+- Edgewonk vs TradeZella
+- Robinhood vs Webull
+- IC Markets vs Pepperstone
+- thinkorswim vs TradingView
+- Charles Schwab vs Interactive Brokers
+
+## Data Format
+
+Each tool review includes: name, category, description, website URL, pricing tiers (monthly/yearly), feature checklist (15 boolean features), supported markets, pros/cons lists, numerical rating (1-5), rating breakdown by factor, company info, founded year, and last updated date.
+
+Comparisons include: side-by-side feature tables, pricing comparison, quick verdict (higher rated + more affordable), editorial analysis, and pros/cons for both tools.
+
+## Affiliate Disclosure
+
+Some links on TradingToolsHub are affiliate links. We may earn a commission if you sign up through our links, at no extra cost to you. Affiliate relationships never influence our ratings or rankings — tools are scored independently using our published methodology.
+
+## Contact
+
+- Website: https://tradingtoolshub.com
+- Email: editorial@tradingtoolshub.com
