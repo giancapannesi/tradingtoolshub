@@ -2,80 +2,42 @@
   "name": "Exness",
   "slug": "exness",
   "category": "brokers-forex",
-  "subcategories": ["forex-broker", "high-leverage"],
-  "description_short": "High-volume global forex and CFD broker with unlimited leverage, instant withdrawals, and tight spreads across 200+ instruments.",
-  "description_long": "Exness is a major global forex and CFD broker that has grown rapidly to become one of the highest-volume retail brokers in the world, reporting over $4 trillion in monthly trading volume. Founded in 2008, Exness is regulated by the FCA, CySEC, FSA (Seychelles), and other authorities.\n\nExness is known for its high leverage offerings (up to unlimited leverage for qualifying accounts), instant withdrawals (processed automatically 24/7), and tight spreads starting from 0.0 pips on professional accounts. The broker supports MetaTrader 4, MetaTrader 5, and its own Exness Terminal web platform.\n\nThe product range includes forex, metals, energies, indices, stocks, and cryptocurrencies. Exness offers multiple account types: Standard (no commission, spreads from 0.3 pips), Raw Spread ($3.50 per side, from 0.0 pips), Zero (no spread on top 30 instruments, from $3.50 per side), and Pro (no commission, from 0.1 pips, instant execution). The broker is popular in Asia, Africa, and the Middle East.",
+  "subcategories": ["low-spread", "instant-withdrawals"],
+  "description_short": "High-volume forex broker with near-zero spreads, unlimited leverage options, and instant withdrawals processing.",
+  "description_long": "Exness has grown to become one of the highest-volume forex brokers globally, processing over $3 trillion in monthly trading volume. The broker is known for its ultra-competitive spreads, instant withdrawal processing, and flexible leverage options that can be set up to unlimited for smaller accounts.\n\nExness offers several account types: Standard (no commission, from 0.3 pips), Standard Cent (for micro trading), Raw Spread (from 0.0 pips, $3.50/lot commission), and Zero (0.0 pips on top 30 instruments, $3.50/lot). All accounts have no minimum deposit requirement on Standard, while professional accounts require $200.\n\nThe instant withdrawal feature is a major differentiator -- most withdrawal requests are processed in seconds rather than the days typical at other brokers. Exness is regulated by FCA, CySEC, FSA, and FSCA, providing strong client fund protection across multiple jurisdictions.",
   "logo_url": "/logos/exness.svg",
   "screenshots": [],
   "website_url": "https://www.exness.com",
   "affiliate_url": "",
   "affiliate_program": "Exness Partner Program",
-  "affiliate_commission": "Revenue share up to 40%",
-  "affiliate_cookie_days": 365,
+  "affiliate_commission": "CPA up to $1,850",
+  "affiliate_cookie_days": 30,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {
-        "name": "Standard",
-        "price_monthly": 0,
-        "price_yearly": 0,
-        "features": ["Spreads from 0.3 pips", "No commission", "$1 minimum deposit", "Market execution"]
-      },
-      {
-        "name": "Pro",
-        "price_monthly": 0,
-        "price_yearly": 0,
-        "features": ["Spreads from 0.1 pips", "No commission", "$200 minimum deposit", "Instant execution"]
-      },
-      {
-        "name": "Raw Spread",
-        "price_monthly": 0,
-        "price_yearly": 0,
-        "features": ["Raw spreads from 0.0 pips", "$3.50 per side commission", "$200 minimum deposit", "Market execution"]
-      },
-      {
-        "name": "Zero",
-        "price_monthly": 0,
-        "price_yearly": 0,
-        "features": ["Zero spread on top 30 instruments", "From $3.50 per side commission", "$200 minimum deposit", "Market execution"]
-      }
+      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["No minimum deposit", "0.3 pip EUR/USD", "No commissions", "MT4/MT5"]},
+      {"name": "Raw Spread", "price_monthly": 0, "price_yearly": 0, "features": ["$200 minimum", "0.0 pip raw spreads", "$3.50/lot commission", "Instant execution"]},
+      {"name": "Zero", "price_monthly": 0, "price_yearly": 0, "features": ["$200 minimum", "0.0 pips on top 30 pairs", "$3.50/lot commission", "Spread stability"]}
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false,
-    "backtesting": true,
-    "paper_trading": true,
-    "alerts": true,
-    "mobile_app": true,
-    "api_access": false,
-    "social_features": true,
-    "broker_integration": true,
-    "custom_indicators": true,
-    "automated_trading": true,
-    "journaling": false,
-    "performance_analytics": false,
-    "risk_management": true,
-    "news_feed": true,
-    "education": true
+    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": true,
+    "mobile_app": true, "api_access": true, "social_features": true, "broker_integration": true,
+    "custom_indicators": true, "automated_trading": true, "journaling": false,
+    "performance_analytics": false, "risk_management": true, "news_feed": false, "education": true
   },
   "markets": ["forex", "stocks", "crypto"],
-  "pros": ["Instant automatic withdrawals 24/7", "Very low minimum deposit ($1 Standard)", "Multiple account types for different strategies", "High leverage options available", "Massive trading volume ensures deep liquidity"],
-  "cons": ["Not available to US or EU residents (regulatory restrictions)", "Unlimited leverage carries extreme risk", "Customer support quality varies by region", "Limited research and educational content compared to IG or OANDA"],
-  "rating": 4.0,
-  "rating_breakdown": {
-    "ease_of_use": 4.2,
-    "features": 4.0,
-    "value": 4.3,
-    "support": 3.7,
-    "reliability": 3.9
-  },
+  "pros": ["Instant withdrawal processing is industry-leading", "Near-zero spreads on Raw and Zero accounts", "$3T+ monthly volume shows deep liquidity", "No minimum deposit on Standard accounts"],
+  "cons": ["Not available to US or EU residents (some regions)", "Unlimited leverage is risky for inexperienced traders", "Standard account spreads above ECN competitors", "Brand less recognized than IG or OANDA"],
+  "rating": 4.3,
+  "rating_breakdown": {"ease_of_use": 4.4, "features": 4.2, "value": 4.5, "support": 4.0, "reliability": 4.3},
   "founded_year": 2008,
-  "company": "Exness Group",
+  "company": "Exness (SC) Ltd.",
   "headquarters": "Limassol, Cyprus",
-  "best_for": ["high-leverage traders", "emerging market traders", "scalpers"],
-  "similar_tools": ["pepperstone", "oanda", "ig-markets"],
+  "best_for": ["high-volume forex traders", "traders wanting instant withdrawals", "scalpers"],
+  "similar_tools": ["ic-markets", "pepperstone", "oanda"],
   "last_updated": "2026-03-07",
   "review_status": "published"
 }
