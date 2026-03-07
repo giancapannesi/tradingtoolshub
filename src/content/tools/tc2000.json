@@ -1,0 +1,75 @@
+{
+  "name": "TC2000",
+  "slug": "tc2000",
+  "category": "charting-platforms",
+  "subcategories": ["stock-charting", "scanning"],
+  "description_short": "Fast charting and scanning platform with integrated brokerage for US stocks and options traders.",
+  "description_long": "TC2000 by Worden Brothers has been a staple in the stock charting world for decades, known for its blazing-fast scanning engine and clean charting interface. The platform combines powerful stock screening with real-time charting and an integrated brokerage for seamless trade execution.\n\nTC2000's EasyScan feature lets traders build custom stock scans using plain English conditions, making it accessible even for those without programming experience. The charting engine is highly responsive and supports custom indicators through their proprietary PCF (Personal Criteria Formula) language.\n\nThe integrated TC2000 Brokerage offers competitive commissions for stocks and options, eliminating the need to switch between charting and execution platforms. Plans range from Basic at $24.99/mo to Premium+ at $99.99/mo, with real-time market data available as add-ons.",
+  "logo_url": "/logos/tc2000.svg",
+  "screenshots": [],
+  "website_url": "https://www.tc2000.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 24.99,
+    "tiers": [
+      {
+        "name": "Basic",
+        "price_monthly": 24.99,
+        "price_yearly": 249.90,
+        "features": ["Real-time charting", "Basic scanning", "Watchlists", "Standard indicators"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 49.99,
+        "price_yearly": 499.90,
+        "features": ["All Basic features", "EasyScan conditions", "Custom PCF formulas", "Advanced alerts"]
+      },
+      {
+        "name": "Premium+",
+        "price_monthly": 99.99,
+        "price_yearly": 999.90,
+        "features": ["All Premium features", "Historical condition testing", "Advanced layouts", "Priority data"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Lightning-fast scanning engine", "EasyScan uses plain English conditions", "Integrated brokerage for seamless execution", "Decades of reliability and trust"],
+  "cons": ["Limited to US stocks and options only", "Real-time data costs extra", "No crypto or forex support"],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.2,
+    "value": 4.0,
+    "support": 4.3,
+    "reliability": 4.7
+  },
+  "founded_year": 1993,
+  "company": "Worden Brothers Inc.",
+  "headquarters": "Durham, North Carolina",
+  "best_for": ["stock traders", "options traders", "swing traders"],
+  "similar_tools": ["tradingview", "trendspider", "finviz"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

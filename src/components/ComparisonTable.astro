@@ -1,0 +1,74 @@
+---
+import type { Tool } from '../utils/data';
+import { getFeatureLabel } from '../utils/data';
+
+interface Props {
+  toolA: Tool;
+  toolB: Tool;
+}
+const { toolA, toolB } = Astro.props;
+
+const featureKeys = Object.keys(toolA.features) as (keyof typeof toolA.features)[];
+---
+<div class="overflow-x-auto">
+  <table class="w-full border-collapse">
+    <thead>
+      <tr class="border-b border-border">
+        <th class="text-left py-3 px-4 text-sm font-medium text-muted">Feature</th>
+        <th class="text-center py-3 px-4 text-sm font-semibold text-text">{toolA.name}</th>
+        <th class="text-center py-3 px-4 text-sm font-semibold text-text">{toolB.name}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-border/50">
+        <td class="py-3 px-4 text-sm text-muted">Rating</td>
+        <td class="py-3 px-4 text-center text-sm">
+          <span class="text-featured">★</span> {toolA.rating.toFixed(1)}
+        </td>
+        <td class="py-3 px-4 text-center text-sm">
+          <span class="text-featured">★</span> {toolB.rating.toFixed(1)}
+        </td>
+      </tr>
+      <tr class="border-b border-border/50">
+        <td class="py-3 px-4 text-sm text-muted">Starting Price</td>
+        <td class="py-3 px-4 text-center text-sm">
+          {toolA.pricing.starting_price === 0 ? 'Free' : `$${toolA.pricing.starting_price}/mo`}
+        </td>
+        <td class="py-3 px-4 text-center text-sm">
+          {toolB.pricing.starting_price === 0 ? 'Free' : `$${toolB.pricing.starting_price}/mo`}
+        </td>
+      </tr>
+      <tr class="border-b border-border/50">
+        <td class="py-3 px-4 text-sm text-muted">Free Tier</td>
+        <td class="py-3 px-4 text-center text-sm">
+          {toolA.pricing.has_free_tier ? <span class="text-positive">Yes</span> : <span class="text-negative">No</span>}
+        </td>
+        <td class="py-3 px-4 text-center text-sm">
+          {toolB.pricing.has_free_tier ? <span class="text-positive">Yes</span> : <span class="text-negative">No</span>}
+        </td>
+      </tr>
+      <tr class="border-b border-border/50">
+        <td class="py-3 px-4 text-sm text-muted">Markets</td>
+        <td class="py-3 px-4 text-center text-sm">{toolA.markets.join(', ')}</td>
+        <td class="py-3 px-4 text-center text-sm">{toolB.markets.join(', ')}</td>
+      </tr>
+      {featureKeys.map(key => (
+        <tr class="border-b border-border/50">
+          <td class="py-3 px-4 text-sm text-muted">{getFeatureLabel(key)}</td>
+          <td class="py-3 px-4 text-center">
+            {toolA.features[key]
+              ? <span class="text-positive text-lg">✓</span>
+              : <span class="text-negative/50 text-lg">✗</span>
+            }
+          </td>
+          <td class="py-3 px-4 text-center">
+            {toolB.features[key]
+              ? <span class="text-positive text-lg">✓</span>
+              : <span class="text-negative/50 text-lg">✗</span>
+            }
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

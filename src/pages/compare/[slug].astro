@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComparisonTable from '../../components/ComparisonTable.astro';
+import ProsCons from '../../components/ProsCons.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import { getComparisons, getToolBySlug } from '../../utils/data';
+
+export function getStaticPaths() {
+  const comparisons = getComparisons();
+  return comparisons.map(c => ({
+    params: { slug: c.slug },
+    props: { comparison: c },
+  }));
+}
+
+const { comparison } = Astro.props;
+const toolA = getToolBySlug(comparison.tool_a);
+const toolB = getToolBySlug(comparison.tool_b);
+
+if (!toolA || !toolB) {
+  return Astro.redirect('/');
+}
+
+const winner = toolA.rating >= toolB.rating ? toolA : toolB;
+const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": comparison.title,
+    "description": `Compare ${toolA.name} vs ${toolB.name} — features, pricing, pros and cons side-by-side.`,
+    "datePublished": toolA.last_updated,
+    "author": { "@type": "Organization", "name": "TradingToolsHub" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Compare", "item": "https://tradingtoolshub.com/compare/" },
+      { "@type": "ListItem", "position": 3, "name": `${toolA.name} vs ${toolB.name}` }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={comparison.title}
+  description={`Compare ${toolA.name} vs ${toolB.name} — features, pricing, and honest analysis to help you choose the right tool.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      <span class="text-text">{toolA.name} vs {toolB.name}</span>
+    </nav>
+
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">{comparison.title}</h1>
+    <p class="text-lg text-muted mb-8">{comparison.summary || `A detailed comparison of ${toolA.name} and ${toolB.name} to help you make the right choice.`}</p>
+
+    <!-- Quick Verdict -->
+    <div class="bg-card border border-border rounded-2xl p-6 mb-10">
+      <h2 class="text-xl font-bold text-text mb-4">Quick Verdict</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="bg-bg rounded-xl p-4">
+          <p class="text-sm text-muted mb-1">Higher Rated</p>
+          <p class="font-semibold text-text">{winner.name} <span class="text-featured">({winner.rating.toFixed(1)})</span></p>
+        </div>
+        <div class="bg-bg rounded-xl p-4">
+          <p class="text-sm text-muted mb-1">More Affordable</p>
+          <p class="font-semibold text-text">{cheaper.name} <span class="text-positive">({cheaper.pricing.starting_price === 0 ? 'Free' : `$${cheaper.pricing.starting_price}/mo`})</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Head-to-Head Cards -->
+    <div class="grid md:grid-cols-2 gap-4 mb-10">
+      {[toolA, toolB].map(tool => (
+        <div class="bg-card border border-border rounded-xl p-6">
+          <h3 class="text-xl font-bold text-text mb-2">{tool.name}</h3>
+          <RatingStars rating={tool.rating} />
+          <p class="text-sm text-muted mt-3 mb-4">{tool.description_short}</p>
+          <div class="text-sm">
+            <span class="text-muted">From: </span>
+            <span class="text-text font-medium">{tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</span>
+          </div>
+          <a href={`/review/${tool.slug}/`} class="inline-flex items-center mt-4 text-sm text-primary hover:text-primary-hover transition-colors">
+            Full review &rarr;
+          </a>
+        </div>
+      ))}
+    </div>
+
+    <!-- Feature Comparison -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Feature Comparison</h2>
+      <div class="bg-card border border-border rounded-xl overflow-hidden">
+        <ComparisonTable toolA={toolA} toolB={toolB} />
+      </div>
+    </section>
+
+    <!-- Pros & Cons Side by Side -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">{toolA.name}: Pros & Cons</h2>
+      <ProsCons pros={toolA.pros} cons={toolA.cons} />
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">{toolB.name}: Pros & Cons</h2>
+      <ProsCons pros={toolB.pros} cons={toolB.cons} />
+    </section>
+
+    <!-- Bottom CTAs -->
+    <div class="grid md:grid-cols-2 gap-4 mb-10">
+      {[toolA, toolB].map(tool => (
+        <div class="bg-card border border-border rounded-xl p-6 text-center">
+          <h3 class="font-semibold text-text mb-2">Try {tool.name}</h3>
+          {tool.affiliate_url ? (
+            <a href={tool.affiliate_url} target="_blank" rel="nofollow sponsored" class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-hover text-white font-semibold rounded-xl transition-colors">
+              Visit {tool.name} &rarr;
+            </a>
+          ) : (
+            <a href={tool.website_url} target="_blank" rel="noopener" class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-hover text-white font-semibold rounded-xl transition-colors">
+              Visit {tool.name} &rarr;
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <!-- Disclosure -->
+    <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
+      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you.
+    </div>
+  </div>
+</BaseLayout>

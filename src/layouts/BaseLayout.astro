@@ -1,0 +1,133 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  jsonLd?: object | object[];
+}
+
+const { title, description, canonical, ogImage, jsonLd } = Astro.props;
+const siteUrl = 'https://tradingtoolshub.com';
+const fullTitle = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
+const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
+const ogImg = ogImage || `${siteUrl}/og-default.png`;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content={ogImg} />
+  <meta property="og:site_name" content="TradingToolsHub" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImg} />
+  {jsonLd && (
+    Array.isArray(jsonLd) ? (
+      jsonLd.map(ld => (
+        <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+      ))
+    ) : (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )
+  )}
+</head>
+<body class="min-h-screen flex flex-col">
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-bg/95 backdrop-blur border-b border-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="flex items-center gap-2 text-xl font-bold text-text hover:text-primary transition-colors">
+          <svg class="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          </svg>
+          TradingToolsHub
+        </a>
+        <div class="hidden md:flex items-center gap-6">
+          <a href="/categories/trading-journals/" class="text-muted hover:text-text text-sm transition-colors">Journals</a>
+          <a href="/categories/charting-platforms/" class="text-muted hover:text-text text-sm transition-colors">Charting</a>
+          <a href="/categories/brokers-us/" class="text-muted hover:text-text text-sm transition-colors">Brokers</a>
+          <a href="/categories/prop-firms/" class="text-muted hover:text-text text-sm transition-colors">Prop Firms</a>
+          <a href="/categories/stock-screeners/" class="text-muted hover:text-text text-sm transition-colors">Screeners</a>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="/categories/trading-journals/" class="hidden sm:inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors">
+            Browse Tools
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-1">
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-card border-t border-border mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="font-semibold text-text mb-4">Categories</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li><a href="/categories/trading-journals/" class="hover:text-text transition-colors">Trading Journals</a></li>
+            <li><a href="/categories/charting-platforms/" class="hover:text-text transition-colors">Charting Platforms</a></li>
+            <li><a href="/categories/stock-screeners/" class="hover:text-text transition-colors">Stock Screeners</a></li>
+            <li><a href="/categories/brokers-us/" class="hover:text-text transition-colors">US Brokers</a></li>
+            <li><a href="/categories/brokers-forex/" class="hover:text-text transition-colors">Forex Brokers</a></li>
+            <li><a href="/categories/prop-firms/" class="hover:text-text transition-colors">Prop Firms</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-text mb-4">More</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li><a href="/categories/options-platforms/" class="hover:text-text transition-colors">Options Platforms</a></li>
+            <li><a href="/categories/futures-platforms/" class="hover:text-text transition-colors">Futures Platforms</a></li>
+            <li><a href="/categories/trading-bots/" class="hover:text-text transition-colors">Trading Bots</a></li>
+            <li><a href="/categories/trading-education/" class="hover:text-text transition-colors">Education</a></li>
+            <li><a href="/categories/news-data-feeds/" class="hover:text-text transition-colors">Data Feeds</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-text mb-4">Resources</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li><a href="/about/" class="hover:text-text transition-colors">About Us</a></li>
+            <li><a href="/methodology/" class="hover:text-text transition-colors">Our Methodology</a></li>
+            <li><a href="/privacy/" class="hover:text-text transition-colors">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-text mb-4">Stay Updated</h3>
+          <p class="text-sm text-muted mb-3">Weekly trading tools roundup delivered to your inbox.</p>
+          <form class="flex gap-2">
+            <input type="email" placeholder="you@email.com" class="flex-1 px-3 py-2 bg-bg border border-border rounded-lg text-sm text-text placeholder-muted focus:outline-none focus:border-primary" />
+            <button type="submit" class="px-3 py-2 bg-primary hover:bg-primary-hover text-white rounded-lg text-sm font-medium transition-colors">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p class="text-sm text-muted">&copy; 2026 TradingToolsHub. All rights reserved.</p>
+        <p class="text-xs text-muted max-w-lg text-center sm:text-right">
+          Affiliate Disclosure: Some links on this site are affiliate links. We may earn a commission at no extra cost to you. This helps us keep the site running and the reviews honest.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

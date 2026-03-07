@@ -1,0 +1,18 @@
+---
+interface Props {
+  rating: number;
+  size?: 'sm' | 'md' | 'lg';
+  showValue?: boolean;
+}
+const { rating, size = 'md', showValue = true } = Astro.props;
+const full = Math.floor(rating);
+const hasHalf = rating - full >= 0.3;
+const empty = 5 - full - (hasHalf ? 1 : 0);
+const sizeClass = size === 'sm' ? 'text-sm' : size === 'lg' ? 'text-2xl' : 'text-lg';
+---
+<div class={`inline-flex items-center gap-1 ${sizeClass}`}>
+  <span class="text-featured">
+    {'★'.repeat(full)}{hasHalf ? '★' : ''}{'☆'.repeat(empty)}
+  </span>
+  {showValue && <span class="text-muted text-sm ml-1">{rating.toFixed(1)}/5</span>}
+</div>

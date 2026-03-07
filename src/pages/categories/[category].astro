@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { getCategories, getToolsByCategory } from '../../utils/data';
+
+export function getStaticPaths() {
+  const categories = getCategories();
+  return categories.map(cat => ({
+    params: { category: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+const tools = getToolsByCategory(category.slug);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": category.seo_title,
+    "description": category.seo_description,
+    "url": `https://tradingtoolshub.com/categories/${category.slug}/`,
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": tools.length,
+      "itemListElement": tools.map((t, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": t.name,
+        "url": `https://tradingtoolshub.com/review/${t.slug}/`
+      }))
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": category.name }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={category.seo_title}
+  description={category.seo_description}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      <span class="text-text">{category.name}</span>
+    </nav>
+
+    <div class="mb-10">
+      <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">{category.name}</h1>
+      <p class="text-lg text-muted max-w-2xl">{category.description}</p>
+      <p class="text-sm text-muted mt-2">{tools.length} tools compared</p>
+    </div>
+
+    {tools.length === 0 ? (
+      <div class="bg-card border border-border rounded-xl p-12 text-center">
+        <p class="text-muted">No tools listed in this category yet. Check back soon!</p>
+      </div>
+    ) : (
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {tools.map(tool => (
+          <ToolCard
+            name={tool.name}
+            slug={tool.slug}
+            category={tool.category}
+            description_short={tool.description_short}
+            rating={tool.rating}
+            pricing={tool.pricing}
+            markets={tool.markets}
+            best_for={tool.best_for}
+          />
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>

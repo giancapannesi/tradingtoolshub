@@ -1,0 +1,63 @@
+{
+  "name": "ThinkorSwim",
+  "slug": "thinkorswim",
+  "category": "charting-platforms",
+  "subcategories": ["full-platform", "options-charting"],
+  "description_short": "Professional-grade charting and trading platform by Charles Schwab with advanced options analysis and thinkScript.",
+  "description_long": "ThinkorSwim (now part of Charles Schwab after the TD Ameritrade acquisition) is widely regarded as one of the most powerful free trading platforms available. It offers institutional-grade charting, options analysis, backtesting, and trade execution tools that rival platforms costing hundreds per month.\n\nThe platform's thinkScript language allows traders to create custom studies, strategies, and scans. The options analysis tools are particularly strong, with probability analysis, risk graphs, and Greeks calculations that make it a favorite among options traders. Paper trading is fully integrated, letting new traders practice with virtual money on the same platform.\n\nSince ThinkorSwim comes free with a Schwab brokerage account (no minimums), it represents extraordinary value. The desktop application is the most feature-rich, while web and mobile versions provide solid functionality for traders on the go.",
+  "logo_url": "/logos/thinkorswim.svg",
+  "screenshots": [],
+  "website_url": "https://www.schwab.com/trading/thinkorswim",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Full charting suite", "thinkScript custom studies", "Options analysis tools", "Paper trading", "Real-time data", "Requires Schwab brokerage account"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex"],
+  "pros": ["Completely free with Schwab account", "Institutional-grade options analysis tools", "thinkScript for custom indicators and scans", "Excellent paper trading for practice"],
+  "cons": ["Steep learning curve for beginners", "Desktop app can be resource-heavy", "Some features lost in TD Ameritrade to Schwab transition"],
+  "rating": 4.7,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.9,
+    "value": 5.0,
+    "support": 4.3,
+    "reliability": 4.5
+  },
+  "founded_year": 2009,
+  "company": "Charles Schwab Corporation",
+  "headquarters": "Westlake, Texas",
+  "best_for": ["options traders", "advanced traders", "traders wanting free pro tools"],
+  "similar_tools": ["tradingview", "tc2000", "power-etrade"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

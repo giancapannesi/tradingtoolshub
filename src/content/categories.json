@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "trading-journals",
+    "name": "Trading Journals",
+    "description": "Track, analyze, and improve your trading performance with AI-powered journals and analytics platforms.",
+    "icon": "book-open",
+    "seo_title": "Best Trading Journals 2026 — AI-Powered Trade Tracking & Analysis",
+    "seo_description": "Compare the top trading journals side-by-side. Features, pricing, AI capabilities, and honest reviews to help you find the perfect journal."
+  },
+  {
+    "slug": "charting-platforms",
+    "name": "Charting Platforms",
+    "description": "Advanced charting software with technical indicators, drawing tools, and real-time data for professional traders.",
+    "icon": "chart-bar",
+    "seo_title": "Best Charting Platforms 2026 — Professional Trading Charts & Analysis",
+    "seo_description": "Compare TradingView, TrendSpider, TC2000, and more. Find the best charting platform for your trading style."
+  },
+  {
+    "slug": "stock-screeners",
+    "name": "Stock Screeners",
+    "description": "Filter and find trading opportunities with powerful stock screeners and market scanners.",
+    "icon": "magnifying-glass",
+    "seo_title": "Best Stock Screeners 2026 — Find Winning Trades Faster",
+    "seo_description": "Compare Finviz, Trade Ideas, Stock Rover, and more. AI-powered screeners to spot opportunities before the crowd."
+  },
+  {
+    "slug": "brokers-us",
+    "name": "US Brokers",
+    "description": "Top US stock brokers with competitive commissions, powerful platforms, and reliable execution.",
+    "icon": "building-library",
+    "seo_title": "Best US Stock Brokers 2026 — Commission-Free Trading Platforms",
+    "seo_description": "Compare Interactive Brokers, Schwab, Fidelity, and more. Find the best broker for stocks, options, and futures."
+  },
+  {
+    "slug": "brokers-forex",
+    "name": "Forex & CFD Brokers",
+    "description": "Regulated forex and CFD brokers with tight spreads, fast execution, and global market access.",
+    "icon": "currency-dollar",
+    "seo_title": "Best Forex Brokers 2026 — Regulated FX & CFD Trading Platforms",
+    "seo_description": "Compare eToro, OANDA, IG, and more. Regulated forex brokers with tight spreads and reliable execution."
+  },
+  {
+    "slug": "prop-firms",
+    "name": "Prop Trading Firms",
+    "description": "Get funded to trade with proprietary trading firms. Pass an evaluation and trade with the firm's capital.",
+    "icon": "banknotes",
+    "seo_title": "Best Prop Trading Firms 2026 — Get Funded & Keep Up to 90% Profit",
+    "seo_description": "Compare FTMO, Topstep, Apex, and more. Find the best prop firm for your trading style and pass the evaluation."
+  },
+  {
+    "slug": "trading-education",
+    "name": "Trading Education",
+    "description": "Learn to trade from the best courses, communities, and mentorship programs available online.",
+    "icon": "academic-cap",
+    "seo_title": "Best Trading Courses & Education 2026 — Learn to Trade Profitably",
+    "seo_description": "Compare Warrior Trading, Bear Bull Traders, and more. Find the best trading course for beginners and pros."
+  },
+  {
+    "slug": "options-platforms",
+    "name": "Options Platforms",
+    "description": "Specialized tools for options trading — flow analysis, unusual activity, strategy builders, and analytics.",
+    "icon": "adjustments-horizontal",
+    "seo_title": "Best Options Trading Platforms 2026 — Flow, Analytics & Strategy Tools",
+    "seo_description": "Compare Unusual Whales, OptionsStrat, and more. Find the best options analysis and flow tracking tools."
+  },
+  {
+    "slug": "futures-platforms",
+    "name": "Futures Platforms",
+    "description": "Professional futures trading platforms with order flow, depth of market, and advanced execution tools.",
+    "icon": "arrow-trending-up",
+    "seo_title": "Best Futures Trading Platforms 2026 — Order Flow & DOM Tools",
+    "seo_description": "Compare NinjaTrader, Quantower, Bookmap, and more. Professional futures platforms with order flow analysis."
+  },
+  {
+    "slug": "trading-bots",
+    "name": "Trading Bots & Automation",
+    "description": "Automated trading bots and algorithmic platforms for hands-off trading across crypto, forex, and stocks.",
+    "icon": "cpu-chip",
+    "seo_title": "Best Trading Bots 2026 — Automate Your Trading Strategy",
+    "seo_description": "Compare 3Commas, Pionex, Cryptohopper, and more. Automate your trades with AI-powered trading bots."
+  },
+  {
+    "slug": "risk-management",
+    "name": "Risk Management",
+    "description": "Position sizing calculators, risk analytics, and portfolio management tools for disciplined trading.",
+    "icon": "shield-check",
+    "seo_title": "Best Risk Management Tools 2026 — Protect Your Trading Capital",
+    "seo_description": "Position sizing calculators, drawdown trackers, and risk analytics to keep your trading account safe."
+  },
+  {
+    "slug": "news-data-feeds",
+    "name": "News & Data Feeds",
+    "description": "Real-time market data, news feeds, and financial data APIs for traders and developers.",
+    "icon": "signal",
+    "seo_title": "Best Market Data & News Feeds 2026 — Real-Time Trading Data",
+    "seo_description": "Compare Bloomberg, Alpha Vantage, Polygon.io, and more. Real-time market data and news for every budget."
+  }
+]

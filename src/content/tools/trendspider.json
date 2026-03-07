@@ -1,0 +1,75 @@
+{
+  "name": "TrendSpider",
+  "slug": "trendspider",
+  "category": "charting-platforms",
+  "subcategories": ["ai-charting", "automated-analysis"],
+  "description_short": "AI-powered charting platform with automated trendline detection, multi-timeframe analysis, and trading bots.",
+  "description_long": "TrendSpider uses artificial intelligence to automate technical analysis tasks that traders traditionally perform manually. The platform automatically detects trendlines, support/resistance levels, Fibonacci retracements, and chart patterns across multiple timeframes simultaneously, saving hours of manual charting work.\n\nThe automated multi-timeframe analysis is TrendSpider's killer feature. Instead of manually switching between timeframes, the platform overlays analysis from multiple timeframes on a single chart, revealing confluences that might otherwise be missed. Combined with AI-powered trading bots and backtesting, traders can go from analysis to automated execution.\n\nTrendSpider offers four tiers from Standard ($54/mo) to Advanced ($399/mo), with each tier increasing the number of alerts, bots, and data granularity available. The platform covers stocks, ETFs, forex, crypto, and futures with real-time data.",
+  "logo_url": "/logos/trendspider.svg",
+  "screenshots": [],
+  "website_url": "https://trendspider.com",
+  "affiliate_url": "",
+  "affiliate_program": "TrendSpider Affiliate Program",
+  "affiliate_commission": "30% recurring",
+  "affiliate_cookie_days": 90,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 54,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 54,
+        "price_yearly": 432,
+        "features": ["Automated trendlines", "Multi-timeframe analysis", "5 AI trading bots", "20 alerts"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 91,
+        "price_yearly": 732,
+        "features": ["All Standard features", "More alerts", "20 AI trading bots", "Advanced scanning"]
+      },
+      {
+        "name": "Enhanced",
+        "price_monthly": 122,
+        "price_yearly": 972,
+        "features": ["All Premium features", "50 AI trading bots", "100 alerts (180-day)", "1-minute data"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks", "futures", "forex", "crypto"],
+  "pros": ["Automated trendline detection saves hours of manual work", "Multi-timeframe analysis reveals hidden confluences", "AI trading bots for automated execution", "Strong backtesting engine"],
+  "cons": ["No free tier, starts at $54/mo", "Steep learning curve for all features", "Can feel overwhelming for manual traders"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.8,
+    "value": 4.0,
+    "support": 4.3,
+    "reliability": 4.5
+  },
+  "founded_year": 2016,
+  "company": "TrendSpider LLC",
+  "headquarters": "Chicago, Illinois",
+  "best_for": ["technical analysts", "automated traders", "swing traders"],
+  "similar_tools": ["tradingview", "tc2000", "motivewave"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

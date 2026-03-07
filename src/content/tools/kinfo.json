@@ -1,0 +1,69 @@
+{
+  "name": "Kinfo",
+  "slug": "kinfo",
+  "category": "trading-journals",
+  "subcategories": ["verified-performance", "social-trading"],
+  "description_short": "Automated portfolio tracker and trading journal with verified performance metrics and social sharing for options traders.",
+  "description_long": "Kinfo differentiates itself from other trading journals by focusing on verified performance tracking. When you connect your brokerage account, Kinfo automatically imports and verifies your trades, generating tamper-proof performance metrics including P&L, win rates, Sharpe ratios, and interactive charts.\n\nThe verified performance angle makes Kinfo particularly popular among traders who want to build a track record they can share publicly or use to attract followers. The social features let traders share their verified results, creating a transparent community where performance claims can be validated.\n\nKinfo is especially strong for options and stock traders, offering detailed breakdowns of options strategies, Greeks exposure, and sector allocation. The free tier provides basic tracking, making it accessible for traders who want to start building their verified track record.",
+  "logo_url": "/logos/kinfo.svg",
+  "screenshots": [],
+  "website_url": "https://kinfo.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Basic portfolio tracking", "Verified performance", "Public profile", "Limited analytics"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 9.99,
+        "price_yearly": 99.99,
+        "features": ["Advanced analytics", "Sharpe ratio tracking", "Options strategy breakdown", "Custom reports", "Priority support"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Verified performance metrics build credible track records", "Free tier for basic tracking", "Social sharing with proof of performance", "Automatic broker sync eliminates manual entry"],
+  "cons": ["Limited to stocks and options only", "Smaller community than alternatives", "Analytics depth not as strong as dedicated journals"],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.5,
+    "value": 4.3,
+    "support": 3.5,
+    "reliability": 3.8
+  },
+  "founded_year": 2019,
+  "company": "Kinfo Inc.",
+  "headquarters": "San Francisco, California",
+  "best_for": ["options traders", "traders building track records", "social traders"],
+  "similar_tools": ["tradervue", "tradertrac", "trademetria"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

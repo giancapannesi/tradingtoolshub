@@ -1,0 +1,55 @@
+---
+interface Props {
+  name: string;
+  slug: string;
+  category: string;
+  description_short: string;
+  rating: number;
+  pricing: { has_free_tier: boolean; starting_price: number };
+  markets: string[];
+  best_for: string[];
+  is_featured?: boolean;
+}
+const { name, slug, description_short, rating, pricing, markets, best_for, is_featured } = Astro.props;
+
+function formatPrice(price: number): string {
+  return price === 0 ? 'Free' : `$${price}/mo`;
+}
+
+function ratingStars(r: number): string {
+  const full = Math.floor(r);
+  const half = r - full >= 0.5 ? 1 : 0;
+  const empty = 5 - full - half;
+  return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(empty);
+}
+---
+<a href={`/review/${slug}/`} class={`block bg-card hover:bg-card-hover border rounded-xl p-6 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/5 ${is_featured ? 'border-featured ring-1 ring-featured/20' : 'border-border'}`}>
+  {is_featured && (
+    <span class="inline-flex items-center px-2 py-0.5 text-xs font-semibold bg-featured/10 text-featured rounded mb-3">
+      Featured
+    </span>
+  )}
+  <div class="flex items-start justify-between mb-3">
+    <h3 class="text-lg font-semibold text-text">{name}</h3>
+    <div class="flex items-center gap-1 text-sm">
+      <span class="text-featured">{ratingStars(rating)}</span>
+      <span class="text-muted">{rating.toFixed(1)}</span>
+    </div>
+  </div>
+  <p class="text-sm text-muted mb-4 line-clamp-2">{description_short}</p>
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      {pricing.has_free_tier && (
+        <span class="inline-flex items-center px-2 py-0.5 text-xs font-medium bg-positive/10 text-positive rounded">Free tier</span>
+      )}
+      <span class="text-sm text-muted">
+        {pricing.starting_price === 0 ? 'Free' : `From ${formatPrice(pricing.starting_price)}`}
+      </span>
+    </div>
+    <div class="flex gap-1">
+      {markets.slice(0, 3).map(m => (
+        <span class="inline-flex items-center px-1.5 py-0.5 text-xs text-muted bg-bg rounded">{m}</span>
+      ))}
+    </div>
+  </div>
+</a>

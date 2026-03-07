@@ -1,0 +1,232 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import ProsCons from '../../components/ProsCons.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories } from '../../utils/data';
+
+export function getStaticPaths() {
+  const tools = getAllTools();
+  return tools.map(t => ({ params: { slug: t.slug }, props: { tool: t } }));
+}
+
+const { tool } = Astro.props;
+const similarTools = getSimilarTools(tool, 3);
+const categories = getCategories();
+const category = categories.find(c => c.slug === tool.category);
+const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": tool.name,
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "url": tool.website_url,
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": String(tool.pricing.starting_price),
+      "highPrice": String(tool.pricing.tiers[tool.pricing.tiers.length - 1]?.price_monthly || tool.pricing.starting_price),
+      "priceCurrency": tool.pricing.currency
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": String(tool.rating),
+      "bestRating": "5",
+      "ratingCount": "1"
+    },
+    "review": {
+      "@type": "Review",
+      "author": { "@type": "Organization", "name": "TradingToolsHub" },
+      "reviewRating": { "@type": "Rating", "ratingValue": String(tool.rating), "bestRating": "5" },
+      "datePublished": tool.last_updated
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": category?.name || tool.category, "item": `https://tradingtoolshub.com/categories/${tool.category}/` },
+      { "@type": "ListItem", "position": 3, "name": tool.name }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={`${tool.name} Review 2026 — Pricing, Features, Pros & Cons`}
+  description={tool.description_short}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      <a href={`/categories/${tool.category}/`} class="hover:text-text transition-colors">{category?.name || tool.category}</a>
+      <span>/</span>
+      <span class="text-text">{tool.name}</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="bg-card border border-border rounded-2xl p-8 mb-8">
+      <div class="flex flex-col md:flex-row items-start gap-6">
+        <div class="flex-1">
+          <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">{tool.name}</h1>
+          <p class="text-lg text-muted mb-4">{tool.description_short}</p>
+          <div class="flex items-center gap-4 mb-4">
+            <RatingStars rating={tool.rating} size="lg" />
+          </div>
+          <div class="flex flex-wrap gap-2 mb-6">
+            {tool.markets.map(m => (
+              <span class="inline-flex items-center px-3 py-1 text-sm bg-bg border border-border rounded-lg text-muted">{m}</span>
+            ))}
+          </div>
+          <div class="flex gap-3">
+            {tool.affiliate_url ? (
+              <a href={tool.affiliate_url} target="_blank" rel="nofollow sponsored" class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-hover text-white font-semibold rounded-xl transition-colors">
+                Visit {tool.name} &rarr;
+              </a>
+            ) : (
+              <a href={tool.website_url} target="_blank" rel="noopener" class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-hover text-white font-semibold rounded-xl transition-colors">
+                Visit {tool.name} &rarr;
+              </a>
+            )}
+          </div>
+        </div>
+        <div class="w-full md:w-64 shrink-0">
+          <div class="bg-bg border border-border rounded-xl p-5">
+            <h3 class="font-semibold text-text mb-3">Quick Facts</h3>
+            <dl class="space-y-2 text-sm">
+              <div class="flex justify-between">
+                <dt class="text-muted">Starting Price</dt>
+                <dd class="text-text font-medium">{tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-muted">Free Tier</dt>
+                <dd class={tool.pricing.has_free_tier ? 'text-positive font-medium' : 'text-muted'}>{tool.pricing.has_free_tier ? 'Yes' : 'No'}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-muted">Founded</dt>
+                <dd class="text-text">{tool.founded_year}</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-muted">Company</dt>
+                <dd class="text-text text-right">{tool.company}</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overview -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
+      <div class="prose prose-invert max-w-none text-muted leading-relaxed whitespace-pre-line">
+        {tool.description_long}
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Pricing</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {tool.pricing.tiers.map((tier, i) => (
+          <div class={`bg-card border rounded-xl p-5 ${i === 1 ? 'border-primary ring-1 ring-primary/20' : 'border-border'}`}>
+            {i === 1 && <span class="text-xs font-semibold text-primary mb-2 block">Most Popular</span>}
+            <h3 class="font-semibold text-text mb-1">{tier.name}</h3>
+            <div class="text-2xl font-bold text-text mb-1">
+              {tier.price_monthly === 0 ? 'Free' : `$${tier.price_monthly}`}
+              {tier.price_monthly > 0 && <span class="text-sm font-normal text-muted">/mo</span>}
+            </div>
+            {tier.price_yearly > 0 && (
+              <p class="text-xs text-muted mb-3">${(tier.price_yearly / 12).toFixed(2)}/mo billed yearly</p>
+            )}
+            <ul class="space-y-1.5">
+              {tier.features.map(f => (
+                <li class="flex items-start gap-2 text-sm text-muted">
+                  <span class="text-positive mt-0.5 shrink-0">&#10003;</span> {f}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Features</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+        {featureKeys.map(key => (
+          <div class={`flex items-center gap-2 p-3 rounded-lg text-sm ${tool.features[key] ? 'bg-positive/5 border border-positive/20' : 'bg-card border border-border'}`}>
+            {tool.features[key]
+              ? <span class="text-positive text-lg">&#10003;</span>
+              : <span class="text-muted/40 text-lg">&#10007;</span>
+            }
+            <span class={tool.features[key] ? 'text-text' : 'text-muted'}>{getFeatureLabel(key)}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Pros & Cons -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Pros & Cons</h2>
+      <ProsCons pros={tool.pros} cons={tool.cons} />
+    </section>
+
+    <!-- Rating Breakdown -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Rating Breakdown</h2>
+      <div class="bg-card border border-border rounded-xl p-6">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="text-5xl font-bold text-text">{tool.rating.toFixed(1)}</div>
+          <div>
+            <RatingStars rating={tool.rating} size="lg" showValue={false} />
+            <p class="text-sm text-muted mt-1">Overall Rating</p>
+          </div>
+        </div>
+        <div class="space-y-3">
+          {Object.entries(tool.rating_breakdown).map(([key, value]) => (
+            <div class="flex items-center gap-3">
+              <span class="w-32 text-sm text-muted capitalize">{key.replace(/_/g, ' ')}</span>
+              <div class="flex-1 h-2 bg-bg rounded-full overflow-hidden">
+                <div class="h-full bg-featured rounded-full" style={`width: ${(value as number) * 20}%`}></div>
+              </div>
+              <span class="w-8 text-sm text-text text-right">{(value as number).toFixed(1)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Similar Tools -->
+    {similarTools.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Similar Tools</h2>
+        <div class="grid md:grid-cols-3 gap-4">
+          {similarTools.map(t => (
+            <ToolCard
+              name={t.name}
+              slug={t.slug}
+              category={t.category}
+              description_short={t.description_short}
+              rating={t.rating}
+              pricing={t.pricing}
+              markets={t.markets}
+              best_for={t.best_for}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Affiliate Disclosure -->
+    <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
+      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you. This helps us keep TradingToolsHub free and our reviews independent.
+    </div>
+  </div>
+</BaseLayout>

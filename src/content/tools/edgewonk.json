@@ -1,0 +1,63 @@
+{
+  "name": "Edgewonk",
+  "slug": "edgewonk",
+  "category": "trading-journals",
+  "subcategories": ["performance-tracking", "psychology"],
+  "description_short": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking.",
+  "description_long": "Edgewonk is a veteran trading journal that has built a loyal following among serious traders who want to find and maintain their statistical edge. Unlike many journaling tools that focus on pretty dashboards, Edgewonk emphasizes the analytical depth needed to make meaningful improvements to your trading.\n\nThe platform excels at helping traders identify patterns in their behavior through custom tags, emotional state tracking, and detailed performance metrics. Its unique 'Tiltmeter' feature tracks emotional trading decisions, while the trade simulator lets you test 'what-if' scenarios against your actual trade history.\n\nEdgewonk uses a single-tier pricing model at $169/year, which gives every user access to all features without tiered restrictions. This approach means you never hit a paywall for advanced analytics. It supports stocks, forex, futures, crypto, and options across all major brokers.",
+  "logo_url": "/logos/edgewonk.svg",
+  "screenshots": [],
+  "website_url": "https://edgewonk.com",
+  "affiliate_url": "",
+  "affiliate_program": "Edgewonk Affiliate Program",
+  "affiliate_commission": "30% per sale",
+  "affiliate_cookie_days": 60,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 169,
+    "tiers": [
+      {
+        "name": "Annual",
+        "price_monthly": 14.08,
+        "price_yearly": 169,
+        "features": ["All features included", "Unlimited trades", "Tiltmeter emotional tracking", "Trade simulator", "Custom tags and filters", "All asset classes supported"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Single tier means all features for everyone", "Tiltmeter for emotional trading detection is unique", "Trade simulator for what-if analysis", "Strong focus on finding statistical edge"],
+  "cons": ["No free tier or trial available", "Interface feels dated compared to newer competitors", "Annual billing only, no monthly option"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.9,
+    "features": 4.7,
+    "value": 4.6,
+    "support": 4.2,
+    "reliability": 4.5
+  },
+  "founded_year": 2014,
+  "company": "Edgewonk",
+  "headquarters": "Vienna, Austria",
+  "best_for": ["analytical traders", "forex traders", "traders focused on psychology"],
+  "similar_tools": ["tradertrac", "tradezella", "tradersync"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

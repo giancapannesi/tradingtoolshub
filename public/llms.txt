@@ -1,0 +1,34 @@
+# TradingToolsHub
+
+> TradingToolsHub is a comprehensive directory of trading tools, platforms, brokers, and software. Compare features, pricing, and read honest reviews of 200+ trading products across 12 categories.
+
+## Categories
+- Trading Journals (15+ tools)
+- Charting Platforms (12+ tools)
+- Stock Screeners (10+ tools)
+- US Brokers (10+ tools)
+- Forex/CFD Brokers (10+ tools)
+- Prop Trading Firms (10+ tools)
+- Trading Education (8+ tools)
+- Options Platforms (8+ tools)
+- Futures Platforms (6+ tools)
+- Trading Bots (6+ tools)
+- Risk Management Tools (5+ tools)
+- News & Data Feeds (8+ tools)
+
+## Features
+- Side-by-side tool comparisons
+- Detailed pricing breakdowns
+- Feature checklists
+- Honest pros and cons
+- Ratings and reviews
+- Best-of listicles by trader type
+- Alternative tool suggestions
+
+## URL Structure
+- /review/{tool-slug}/ - Individual tool reviews
+- /compare/{tool-a}-vs-{tool-b}/ - Head-to-head comparisons
+- /best/{category-for-audience}/ - Best-of listicles
+- /alternatives/{tool-slug}/ - Alternative tools
+- /pricing/{category}/ - Pricing comparisons
+- /categories/{category}/ - Category listings

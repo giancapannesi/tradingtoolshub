@@ -1,0 +1,75 @@
+{
+  "name": "TraderSync",
+  "slug": "tradersync",
+  "category": "trading-journals",
+  "subcategories": ["ai-journals", "trade-replay"],
+  "description_short": "AI-enhanced trading journal with Cypher AI assistant, market replay, and comprehensive analytics across all asset classes.",
+  "description_long": "TraderSync is a feature-packed trading journal that combines traditional trade logging with AI-powered analysis through its Cypher AI assistant. The platform has grown significantly in recent years, adding sophisticated features like market replay with up to 1-second tick precision and sector-level performance reports.\n\nThe Cypher AI assistant sets TraderSync apart by offering conversational analysis of your trading patterns, answering questions about your performance, and providing actionable suggestions for improvement. Combined with detailed replay capabilities, traders can visually relive their trades while getting AI-generated insights on what went right or wrong.\n\nTraderSync supports all major asset classes and offers auto-import from dozens of brokers. The three-tier pricing structure (Pro, Premium, Elite) lets traders pick the level of sophistication they need, from basic journaling to full AI-powered analysis with ultra-precise replay.",
+  "logo_url": "/logos/tradersync.svg",
+  "screenshots": [],
+  "website_url": "https://tradersync.com",
+  "affiliate_url": "",
+  "affiliate_program": "TraderSync Affiliate Program",
+  "affiliate_commission": "25% recurring",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29.95,
+    "tiers": [
+      {
+        "name": "Pro",
+        "price_monthly": 29.95,
+        "price_yearly": 233.52,
+        "features": ["1 trading account", "5 strategies", "Market replay (1-min tick)", "5 daily Cypher AI messages", "Basic analytics"]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 49.95,
+        "price_yearly": 359.64,
+        "features": ["Up to 20 accounts", "Unlimited strategies", "Market replay (1-sec tick)", "15 daily Cypher AI messages", "Sector reports", "Advanced analytics"]
+      },
+      {
+        "name": "Elite",
+        "price_monthly": 79.95,
+        "price_yearly": 479.40,
+        "features": ["All Premium features", "Advanced AI tools", "Ultra-precise replay", "Priority support", "Unlimited Cypher AI messages"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks", "options", "futures", "forex", "crypto"],
+  "pros": ["Cypher AI assistant provides conversational trade analysis", "Market replay with 1-second precision on Premium", "Supports up to 20 accounts for prop firm traders", "Clean, modern interface with mobile app"],
+  "cons": ["No free tier available", "Elite plan pricing is steep at $79.95/mo", "AI message limits on lower tiers can be frustrating"],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.6,
+    "value": 4.0,
+    "support": 4.3,
+    "reliability": 4.5
+  },
+  "founded_year": 2018,
+  "company": "TraderSync LLC",
+  "headquarters": "Austin, Texas",
+  "best_for": ["day traders", "prop firm traders", "options traders"],
+  "similar_tools": ["tradertrac", "tradezella", "edgewonk", "tradervue"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}

@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { getAllTools, getCategories } from '../utils/data';
+
+const categories = getCategories();
+const allTools = getAllTools();
+const featuredTools = allTools.sort((a, b) => b.rating - a.rating).slice(0, 6);
+const totalTools = allTools.length;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "TradingToolsHub",
+  "url": "https://tradingtoolshub.com",
+  "description": "Compare 200+ trading tools, platforms, and brokers. Honest reviews, pricing comparisons, and feature breakdowns."
+};
+---
+<BaseLayout
+  title="TradingToolsHub — Compare Every Trading Tool, Platform & Broker"
+  description={`Compare ${totalTools}+ trading tools side-by-side. Honest reviews, pricing breakdowns, and feature comparisons for journals, charting, brokers, prop firms, and more.`}
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-featured/5"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-text leading-tight mb-6">
+          Find Your <span class="text-primary">Edge</span>.<br/>
+          Compare Every Trading Tool.
+        </h1>
+        <p class="text-lg md:text-xl text-muted mb-8 max-w-2xl mx-auto">
+          {totalTools}+ tools across {categories.length} categories. Honest reviews, real pricing, and side-by-side comparisons to help you trade smarter.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="#categories" class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-primary hover:bg-primary-hover rounded-xl transition-colors">
+            Browse Categories
+          </a>
+          <a href="/categories/trading-journals/" class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-text bg-card hover:bg-card-hover border border-border rounded-xl transition-colors">
+            Best Trading Journals
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Grid -->
+  <section id="categories" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">Browse by Category</h2>
+    <p class="text-muted mb-8">Find the right tools for your trading style</p>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {categories.map(cat => (
+        <a href={`/categories/${cat.slug}/`} class="bg-card hover:bg-card-hover border border-border rounded-xl p-5 transition-all duration-200 hover:-translate-y-0.5 group">
+          <h3 class="font-semibold text-text group-hover:text-primary transition-colors mb-1">{cat.name}</h3>
+          <p class="text-xs text-muted line-clamp-2 mb-2">{cat.description}</p>
+          <span class="text-xs text-primary font-medium">{(cat as any).count || 0} tools &rarr;</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Featured Tools -->
+  {featuredTools.length > 0 && (
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">Top Rated Tools</h2>
+      <p class="text-muted mb-8">The highest-rated trading tools across all categories</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {featuredTools.map(tool => (
+          <ToolCard
+            name={tool.name}
+            slug={tool.slug}
+            category={tool.category}
+            description_short={tool.description_short}
+            rating={tool.rating}
+            pricing={tool.pricing}
+            markets={tool.markets}
+            best_for={tool.best_for}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Why Trust Us -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="bg-card border border-border rounded-2xl p-8 md:p-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-6 text-center">Why Traders Trust Our Reviews</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+          </div>
+          <h3 class="font-semibold text-text mb-2">Independent Reviews</h3>
+          <p class="text-sm text-muted">No pay-for-placement. Tools are ranked by features, pricing, and real user value.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" /></svg>
+          </div>
+          <h3 class="font-semibold text-text mb-2">Side-by-Side Data</h3>
+          <p class="text-sm text-muted">Compare pricing, features, and capabilities with structured, factual data.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="font-semibold text-text mb-2">Real Pricing</h3>
+          <p class="text-sm text-muted">Every plan, every tier, verified and updated. No hidden costs or surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

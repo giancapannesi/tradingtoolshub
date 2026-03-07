@@ -1,0 +1,75 @@
+{
+  "name": "Tradervue",
+  "slug": "tradervue",
+  "category": "trading-journals",
+  "subcategories": ["performance-tracking", "social-trading"],
+  "description_short": "Web-based trading journal with social sharing, detailed reporting, and broker auto-import for stocks and options.",
+  "description_long": "Tradervue is one of the original web-based trading journals, trusted by active traders since 2011. It provides a solid foundation of trade journaling, performance analytics, and sharing capabilities that have stood the test of time.\n\nThe platform supports auto-import from most major brokers and offers detailed reporting on P&L, win rates, hold times, and risk metrics. The Gold tier adds exit analysis, advanced filtering, and liquidity tracking that serious traders find invaluable for optimizing their execution.\n\nTradervue's social sharing feature lets traders publish selected trades for community feedback, which creates a unique learning environment. The free tier supports up to 100 stock/ETF trades per month, making it accessible for newer traders or those with lower frequency strategies.",
+  "logo_url": "/logos/tradervue.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradervue.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": ["Up to 100 trades/month", "Basic journaling", "Basic reports"]
+      },
+      {
+        "name": "Silver",
+        "price_monthly": 29,
+        "price_yearly": 0,
+        "features": ["Unlimited trades", "Enhanced journaling", "Advanced reporting", "Trade sharing"]
+      },
+      {
+        "name": "Gold",
+        "price_monthly": 49,
+        "price_yearly": 0,
+        "features": ["All Silver features", "Exit analysis", "Advanced filters", "Liquidity tracking", "Commission and fee reports", "Risk analysis"]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks", "options", "futures", "forex"],
+  "pros": ["Free tier with 100 trades/month is generous", "Established platform with proven reliability since 2011", "Social sharing creates learning community", "Wide broker import support"],
+  "cons": ["No annual billing discount available", "Interface looks dated compared to modern competitors", "No AI-powered insights or coaching"],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.9,
+    "value": 4.2,
+    "support": 4.0,
+    "reliability": 4.5
+  },
+  "founded_year": 2011,
+  "company": "Tradervue LLC",
+  "headquarters": "San Francisco, California",
+  "best_for": ["stock traders", "day traders", "traders wanting community"],
+  "similar_tools": ["tradertrac", "tradezella", "tradersync"],
+  "last_updated": "2026-03-07",
+  "review_status": "published"
+}
