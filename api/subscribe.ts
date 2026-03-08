@@ -1,7 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // CORS headers
   res.setHeader('Access-Control-Allow-Origin', 'https://tradingtoolshub.com');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -20,70 +19,55 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Valid email required' });
   }
 
-  const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  if (!RESEND_API_KEY) {
-    console.error('RESEND_API_KEY not configured');
+  const KIT_API_KEY = process.env.KIT_API_KEY;
+  if (!KIT_API_KEY) {
+    console.error('KIT_API_KEY not configured');
     return res.status(500).json({ error: 'Email service not configured' });
   }
 
-  const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID;
+  const KIT_FORM_ID = process.env.KIT_FORM_ID;
+  const cleanEmail = email.toLowerCase().trim();
 
   try {
-    // Add contact to Resend Audience
-    if (AUDIENCE_ID) {
-      const contactRes = await fetch('https://api.resend.com/audiences/' + AUDIENCE_ID + '/contacts', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${RESEND_API_KEY}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email.toLowerCase().trim(),
-          unsubscribed: false,
-        }),
-      });
-
-      if (!contactRes.ok) {
-        const err = await contactRes.json();
-        console.error('Resend contact error:', err);
-        // Don't fail — still send welcome email
-      }
-    }
-
-    // Send welcome email
-    const emailRes = await fetch('https://api.resend.com/emails', {
+    // Step 1: Create subscriber in Kit
+    const createRes = await fetch('https://api.kit.com/v4/subscribers', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${RESEND_API_KEY}`,
+        'X-Kit-Api-Key': KIT_API_KEY,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TradingToolsHub <hello@tradingtoolshub.com>',
-        to: email.toLowerCase().trim(),
-        subject: 'Welcome to TradingToolsHub — Your Weekly Trading Tools Roundup',
-        html: `
-          <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 600px; margin: 0 auto; background: #0F172A; color: #E2E8F0; padding: 40px 30px; border-radius: 12px;">
-            <h1 style="color: #3B82F6; font-size: 24px; margin-bottom: 20px;">Welcome to TradingToolsHub</h1>
-            <p style="line-height: 1.7; margin-bottom: 16px;">Thanks for subscribing. Every week, you'll get:</p>
-            <ul style="line-height: 2; margin-bottom: 20px;">
-              <li>New tool reviews and comparisons</li>
-              <li>Pricing changes and deals across trading platforms</li>
-              <li>Tips on building a better trading stack</li>
-              <li>Prop firm updates and challenge results</li>
-            </ul>
-            <p style="line-height: 1.7; margin-bottom: 20px;">In the meantime, explore what's already live:</p>
-            <a href="https://tradingtoolshub.com/best/best-trading-journals/" style="display: inline-block; background: #3B82F6; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-right: 8px;">Best Trading Journals</a>
-            <a href="https://tradingtoolshub.com/best/best-prop-firms/" style="display: inline-block; background: #1E293B; color: #E2E8F0; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid #334155;">Best Prop Firms</a>
-            <p style="line-height: 1.7; margin-top: 30px; font-size: 13px; color: #94A3B8;">You're receiving this because you signed up at tradingtoolshub.com. <a href="https://tradingtoolshub.com" style="color: #3B82F6;">Unsubscribe</a></p>
-          </div>
-        `,
+        email_address: cleanEmail,
+        fields: {
+          'Source': 'tradingtoolshub.com footer',
+        },
       }),
     });
 
-    if (!emailRes.ok) {
-      const err = await emailRes.json();
-      console.error('Resend email error:', err);
-      // Contact was added even if welcome email fails
+    if (!createRes.ok && createRes.status !== 200) {
+      const err = await createRes.json();
+      console.error('Kit create subscriber error:', err);
+      return res.status(500).json({ error: 'Failed to subscribe' });
+    }
+
+    // Step 2: Add subscriber to form (triggers automations/welcome sequence)
+    if (KIT_FORM_ID) {
+      const formRes = await fetch(`https://api.kit.com/v4/forms/${KIT_FORM_ID}/subscribers`, {
+        method: 'POST',
+        headers: {
+          'X-Kit-Api-Key': KIT_API_KEY,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email_address: cleanEmail,
+        }),
+      });
+
+      if (!formRes.ok && formRes.status !== 200) {
+        const err = await formRes.json();
+        console.error('Kit add to form error:', err);
+        // Subscriber was still created, just not added to form
+      }
     }
 
     return res.status(200).json({ success: true });
