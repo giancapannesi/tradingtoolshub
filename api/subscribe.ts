@@ -19,58 +19,39 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Valid email required' });
   }
 
-  const KIT_API_KEY = process.env.KIT_API_KEY;
-  if (!KIT_API_KEY) {
-    console.error('KIT_API_KEY not configured');
+  const EO_API_KEY = process.env.EO_API_KEY;
+  const EO_LIST_ID = process.env.EO_LIST_ID;
+
+  if (!EO_API_KEY || !EO_LIST_ID) {
+    console.error('EmailOctopus not configured');
     return res.status(500).json({ error: 'Email service not configured' });
   }
 
-  const KIT_FORM_ID = process.env.KIT_FORM_ID;
   const cleanEmail = email.toLowerCase().trim();
 
   try {
-    // Step 1: Create subscriber in Kit
-    const createRes = await fetch('https://api.kit.com/v4/subscribers', {
+    const eoRes = await fetch(`https://emailoctopus.com/api/1.6/lists/${EO_LIST_ID}/contacts`, {
       method: 'POST',
-      headers: {
-        'X-Kit-Api-Key': KIT_API_KEY,
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
+        api_key: EO_API_KEY,
         email_address: cleanEmail,
-        fields: {
-          'Source': 'tradingtoolshub.com footer',
-        },
+        status: 'SUBSCRIBED',
       }),
     });
 
-    if (!createRes.ok && createRes.status !== 200) {
-      const err = await createRes.json();
-      console.error('Kit create subscriber error:', err);
-      return res.status(500).json({ error: 'Failed to subscribe' });
+    const responseBody = await eoRes.json();
+
+    if (eoRes.ok) {
+      return res.status(200).json({ success: true });
     }
 
-    // Step 2: Add subscriber to form (triggers automations/welcome sequence)
-    if (KIT_FORM_ID) {
-      const formRes = await fetch(`https://api.kit.com/v4/forms/${KIT_FORM_ID}/subscribers`, {
-        method: 'POST',
-        headers: {
-          'X-Kit-Api-Key': KIT_API_KEY,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email_address: cleanEmail,
-        }),
-      });
-
-      if (!formRes.ok && formRes.status !== 200) {
-        const err = await formRes.json();
-        console.error('Kit add to form error:', err);
-        // Subscriber was still created, just not added to form
-      }
+    if (responseBody?.error?.code === 'MEMBER_EXISTS_WITH_EMAIL_ADDRESS') {
+      return res.status(200).json({ success: true });
     }
 
-    return res.status(200).json({ success: true });
+    console.error('EmailOctopus error:', JSON.stringify(responseBody));
+    return res.status(500).json({ error: 'Failed to subscribe' });
   } catch (error) {
     console.error('Subscribe error:', error);
     return res.status(500).json({ error: 'Something went wrong' });
