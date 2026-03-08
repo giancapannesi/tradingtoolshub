@@ -1,0 +1,116 @@
+{
+  "name": "Public.com",
+  "slug": "public-com",
+  "category": "brokers-us",
+  "subcategories": [
+    "commission-free",
+    "social-investing",
+    "multi-asset"
+  ],
+  "description_short": "Commission-free social investing platform offering stocks, ETFs, options, crypto, and bonds with a built-in investor community and AI-powered insights.",
+  "description_long": "Public.com is a commission-free brokerage built around social investing, allowing users to follow other investors, share portfolios, and discuss market ideas within the app. Launched in 2019, the platform has grown into a multi-asset broker supporting stocks, ETFs, options, crypto, bonds, and alternative investments, all from a single account.\n\nOne of Public's standout features is its social layer \u2014 every trade and portfolio move can optionally be shared with the community, making it popular with newer investors who want to learn from others. The platform also offers Alpha, an AI-powered analysis tool that synthesizes earnings calls, news, and analyst sentiment into plain-language summaries for any ticker.\n\nPublic offers a High-Yield Cash Account (HYCA) that competes with top savings rates, making it attractive as both a brokerage and a cash management solution. The free tier covers core trading with no commissions on stocks and ETFs, while Public Premium ($10/month) unlocks higher HYCA rates, advanced analytics, priority support, and extended research features.\n\nThe platform is particularly well-suited to beginner and intermediate investors who value community and education alongside execution. Active traders seeking advanced charting, complex options strategies, or futures will find Public's toolset limited compared to specialist platforms like tastytrade or thinkorswim.",
+  "logo_url": "/logos/public-com.svg",
+  "screenshots": [],
+  "website_url": "https://public.com",
+  "affiliate_url": "",
+  "affiliate_program": "Public.com Referral Program",
+  "affiliate_commission": "Cash bonus per referred account (varies by promotion)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Commission-free stocks and ETFs",
+          "Options trading ($0 per contract)",
+          "Crypto trading",
+          "Bond investing",
+          "Social investing community",
+          "Basic AI summaries (Alpha lite)",
+          "High-Yield Cash Account (standard rate)"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 10,
+        "price_yearly": 96,
+        "features": [
+          "Everything in Free",
+          "Higher HYCA interest rate",
+          "Full Alpha AI analysis",
+          "Advanced earnings and analyst data",
+          "Priority customer support",
+          "Extended research tools"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "options",
+    "crypto",
+    "bonds",
+    "alternatives"
+  ],
+  "pros": [
+    "Strong social community ideal for learning from other investors",
+    "Commission-free stocks, ETFs, and $0 per-contract options",
+    "Alpha AI tool provides accessible plain-language stock analysis",
+    "Competitive High-Yield Cash Account integrated with brokerage",
+    "Clean, intuitive mobile-first interface"
+  ],
+  "cons": [
+    "No desktop/web charting tools for technical analysis",
+    "No paper trading or backtesting capabilities",
+    "Not suited for active traders needing advanced order types or futures",
+    "Premium pricing adds up compared to free alternatives"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.7,
+    "value": 4.1,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2019,
+  "company": "Public Holdings, Inc.",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "beginner investors",
+    "social and community-driven investing",
+    "passive long-term investors",
+    "multi-asset portfolio holders"
+  ],
+  "similar_tools": [
+    "robinhood",
+    "webull",
+    "m1-finance",
+    "sofi-invest"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "SoFi Invest",
+  "slug": "sofi-invest",
+  "category": "brokers-us",
+  "subcategories": [
+    "commission-free",
+    "robo-advisor",
+    "fractional-shares",
+    "ipo-access"
+  ],
+  "description_short": "SoFi Invest offers commission-free stock, ETF, and options trading with no account minimums, fractional shares, and rare retail IPO access inside a full financial ecosystem.",
+  "description_long": "SoFi Invest is the brokerage arm of SoFi Technologies, a publicly traded fintech company (NASDAQ: SOFI) that has built an integrated personal finance platform covering banking, lending, and investing. The investing platform supports both Active Investing \u2014 self-directed trading of stocks, ETFs, and options \u2014 and Automated Investing, a robo-advisor product that charges zero management fees, making it one of the most cost-effective automated portfolio options available.\n\nOne of SoFi Invest's standout differentiators is IPO access. Retail investors can participate in initial public offerings directly through the app at the IPO price, a feature typically reserved for institutional investors or clients of bulge-bracket banks. Fractional shares are available starting at $1, allowing investors to own slices of high-priced stocks like Amazon or Tesla without committing to a full share price.\n\nThe platform is tightly integrated with SoFi's broader financial products. SoFi Plus members (free with $1,000/month direct deposit or $10/month otherwise) get rate discounts on SoFi loans, higher APY on savings accounts, and financial planning sessions with certified advisors. This ecosystem approach makes SoFi particularly appealing to users who want to consolidate banking, borrowing, and investing in a single app.\n\nThe trade-off is depth. SoFi Invest lacks advanced charting tools, screeners, options chains with full Greeks, and the analytical horsepower that active traders require. It exited crypto trading in late 2023 following regulatory pressure and does not support futures or forex. For buy-and-hold investors, beginners, and those seeking automated portfolio management at zero cost, SoFi Invest delivers strong value \u2014 but experienced traders will quickly hit its ceiling.",
+  "logo_url": "/logos/sofi-invest.svg",
+  "screenshots": [],
+  "website_url": "https://www.sofi.com/invest/",
+  "affiliate_url": "",
+  "affiliate_program": "SoFi Affiliate Program",
+  "affiliate_commission": "$50\u2013$100 per qualified account opening",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Active Investing",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Commission-free stocks and ETFs",
+          "Options trading (no contract fees)",
+          "Fractional shares from $1",
+          "IPO access at offering price",
+          "No account minimum",
+          "Real-time quotes"
+        ]
+      },
+      {
+        "name": "Automated Investing",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "0% advisory fee (no management fee)",
+          "Automated rebalancing",
+          "Diversified ETF portfolios",
+          "$1 account minimum",
+          "Goal-based investing",
+          "Tax-loss harvesting (SoFi Plus)"
+        ]
+      },
+      {
+        "name": "SoFi Plus",
+        "price_monthly": 10,
+        "price_yearly": 99,
+        "features": [
+          "All investing features",
+          "Higher APY on SoFi Checking/Savings",
+          "Rate discounts on SoFi loans",
+          "Unlimited financial advisor sessions",
+          "Free with $1,000/mo direct deposit"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "options",
+    "ipos"
+  ],
+  "pros": [
+    "Zero commissions with no options contract fees",
+    "Retail IPO access at offering price \u2014 rare for this broker tier",
+    "Automated investing with 0% management fee",
+    "Fully integrated with SoFi banking and lending products",
+    "Fractional shares starting at $1 with no account minimum"
+  ],
+  "cons": [
+    "No advanced charting, screeners, or technical analysis tools",
+    "No futures, forex, or crypto trading",
+    "Not suitable for active traders needing depth-of-market or Level 2 data",
+    "Customer support quality inconsistent for complex account issues"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.2,
+    "value": 4.6,
+    "support": 3.6,
+    "reliability": 4.2
+  },
+  "founded_year": 2011,
+  "company": "SoFi Technologies, Inc.",
+  "headquarters": "San Francisco, California",
+  "best_for": [
+    "beginner investors",
+    "buy-and-hold investors",
+    "robo-advisor seekers",
+    "SoFi banking customers"
+  ],
+  "similar_tools": [
+    "robinhood",
+    "webull",
+    "m1-finance",
+    "public"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

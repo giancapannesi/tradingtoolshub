@@ -1,0 +1,102 @@
+{
+  "name": "Firstrade",
+  "slug": "firstrade",
+  "category": "brokers-us",
+  "subcategories": [
+    "commission-free",
+    "options-broker",
+    "retirement-accounts"
+  ],
+  "description_short": "Commission-free US broker with $0 stock, ETF, and options trades and no per-contract fees \u2014 a standout for cost-conscious options traders.",
+  "description_long": "Firstrade Securities is a US-based online brokerage founded in 1985, making it one of the longest-running discount brokers in the country. Originally serving the Chinese-American community in New York, it has grown into a fully licensed broker-dealer offering commission-free trading on stocks, ETFs, options, and mutual funds to a broad retail audience across the United States.\n\nWhat sets Firstrade apart is its options pricing model: $0 per trade with no per-contract fee. Most competitors charge $0.65 per contract, so active options traders can save significantly, especially on multi-leg strategies or high-volume trades. This pricing structure makes Firstrade one of the most cost-effective platforms for retail options traders in the US market.\n\nThe platform supports a wide range of account types including individual taxable accounts, joint accounts, IRAs (Traditional, Roth, SEP, SIMPLE), custodial accounts, and investment club accounts. Firstrade also offers a well-rated mobile app, real-time quotes, price alerts, research tools, and educational resources to support traders at various experience levels.\n\nThe trade-off is that Firstrade lacks some of the advanced tools found on platforms like Thinkorswim or Interactive Brokers \u2014 no paper trading simulator, no proprietary screener with deep customization, and no API access for algorithmic strategies. It is best suited for buy-and-hold investors, options traders who prioritize zero per-contract fees, and bilingual (English/Chinese) users who value multilingual customer support.",
+  "logo_url": "/logos/firstrade.svg",
+  "screenshots": [],
+  "website_url": "https://www.firstrade.com",
+  "affiliate_url": "",
+  "affiliate_program": "Firstrade Referral Program",
+  "affiliate_commission": "Cash bonus per referred account (varies by promotion)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$0 stock and ETF trades",
+          "$0 options trades, no per-contract fee",
+          "$0 mutual fund trades",
+          "Real-time quotes and alerts",
+          "IRAs and retirement accounts",
+          "Mobile app included",
+          "Research and educational tools"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "etfs",
+    "mutual-funds",
+    "fixed-income"
+  ],
+  "pros": [
+    "$0 options trades with no per-contract fee \u2014 rare among US brokers",
+    "Truly commission-free on stocks, ETFs, and mutual funds",
+    "Wide range of account types including multiple IRA varieties",
+    "Bilingual support in English and Chinese",
+    "Long-established broker with 35+ years of operating history"
+  ],
+  "cons": [
+    "No paper trading or simulated account for practice",
+    "Platform and charting tools are basic compared to TD Ameritrade or IBKR",
+    "No futures or forex trading",
+    "No API access for algorithmic or automated trading"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.4,
+    "value": 4.8,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 1985,
+  "company": "Firstrade Securities Inc.",
+  "headquarters": "Flushing, New York",
+  "best_for": [
+    "options traders seeking zero per-contract fees",
+    "cost-conscious buy-and-hold investors",
+    "retirement account holders",
+    "bilingual English-Chinese traders"
+  ],
+  "similar_tools": [
+    "webull",
+    "moomoo",
+    "tastytrade",
+    "robinhood"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

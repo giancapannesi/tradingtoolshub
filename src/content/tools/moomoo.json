@@ -1,0 +1,113 @@
+{
+  "name": "Moomoo",
+  "slug": "moomoo",
+  "category": "brokers-us",
+  "subcategories": [
+    "commission-free",
+    "mobile-first",
+    "active-trading"
+  ],
+  "description_short": "Commission-free US broker with 200+ charting indicators, free Level 2 data, and social features tailored for active retail traders seeking professional tools at zero cost.",
+  "description_long": "Moomoo is a commission-free trading platform operated by Moomoo Financial Inc., a subsidiary of Hong Kong-listed Futu Holdings (NASDAQ: FUTU). Launched in the US in 2018, the platform targets active retail traders seeking institutional-grade analytical tools without commissions. It covers US stocks, ETFs, options, and futures\u2014all with $0 commissions on equities and options contracts. Regulated by FINRA and SIPC-insured, Moomoo has grown rapidly to attract millions of US account holders drawn to its combination of zero-cost trading and professional-tier data access.\n\nThe analytical toolkit is where Moomoo truly stands out in the zero-commission space. Users get 200+ technical indicators, multiple chart types, heat maps, financial statements, earnings calendars, and an AI-powered stock screener. New users receive free NASDAQ Level 2 quotes during a promotional period\u2014a feature most brokers charge for as a premium add-on. The unusual options activity tracker and real-time options flow data give active options traders visibility typically reserved for paid services. Futures traders pay a competitive $0.65 per contract plus exchange fees.\n\nMoomoo's built-in community layer enables traders to share trade ideas, follow experienced investors, and engage in real-time market discussions. The mobile app is consistently rated among the best in the brokerage category on both iOS and Android, while a full desktop client ensures a seamless multi-device experience. A cash sweep program earns a competitive APY on uninvested funds, and new account promotions routinely include free stock rewards tied to deposit size.\n\nThe platform's main limitations are a narrower product lineup compared to full-service brokers\u2014no mutual funds, fixed income, or robo-advisory options\u2014and customer support that can be slow during high-volume periods. International stock access (Hong Kong-listed securities) requires meeting eligibility criteria. For active equity and options traders who prioritize sophisticated free tools and zero commissions, Moomoo ranks among the strongest offerings in the US retail brokerage market.",
+  "logo_url": "/logos/moomoo.svg",
+  "screenshots": [],
+  "website_url": "https://www.moomoo.com",
+  "affiliate_url": "",
+  "affiliate_program": "Moomoo Referral Program",
+  "affiliate_commission": "Free stock rewards per qualified referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$0 commission on US stocks and ETFs",
+          "$0 commission per options contract",
+          "$0.65 per futures contract plus exchange fees",
+          "200+ technical indicators",
+          "Level 2 quotes (promotional period for new users)",
+          "Paper trading",
+          "Community and social features",
+          "News feed and earnings calendar",
+          "Mobile and desktop apps"
+        ]
+      },
+      {
+        "name": "Level 2 Data Add-on",
+        "price_monthly": 2.99,
+        "price_yearly": 29.99,
+        "features": [
+          "Ongoing NASDAQ Level 2 quotes",
+          "Full order book depth",
+          "Real-time bid/ask depth data",
+          "All free tier features included"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "crypto"
+  ],
+  "pros": [
+    "$0 commissions on stocks, ETFs, and options contracts",
+    "200+ technical indicators available on the free plan",
+    "Free NASDAQ Level 2 quotes for new accounts during promotional period",
+    "Highly rated mobile app with full-featured desktop client",
+    "Unusual options activity tracker and real-time options flow data"
+  ],
+  "cons": [
+    "No mutual funds, bonds, or robo-advisory services",
+    "Level 2 data requires paid subscription after promotional period ends",
+    "Customer support can be slow during high-volume market periods",
+    "No custom indicator scripting or automated trading support"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.5,
+    "value": 4.4,
+    "support": 3.5,
+    "reliability": 4.1
+  },
+  "founded_year": 2018,
+  "company": "Moomoo Financial Inc.",
+  "headquarters": "Palo Alto, California",
+  "best_for": [
+    "active traders",
+    "options traders",
+    "beginners wanting professional tools",
+    "technical analysts"
+  ],
+  "similar_tools": [
+    "webull",
+    "robinhood",
+    "tastytrade"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

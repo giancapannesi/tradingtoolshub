@@ -1,0 +1,125 @@
+{
+  "name": "Ally Invest",
+  "slug": "ally-invest",
+  "category": "brokers-us",
+  "subcategories": [
+    "self-directed-trading",
+    "robo-investing",
+    "options-trading"
+  ],
+  "description_short": "Ally Invest offers commission-free stock and ETF trading with no account minimums, plus robo portfolios and managed accounts, all integrated with Ally Bank.",
+  "description_long": "Ally Invest is the brokerage arm of Ally Financial, one of the largest digital financial services companies in the US. Originally built on the TradeKing platform acquired in 2016, Ally Invest offers self-directed trading with $0 commissions on stocks and ETFs, making it a competitive choice for cost-conscious investors who also want seamless integration with Ally Bank savings and checking accounts.\n\nThe platform offers three distinct services: Self-Directed Trading for active investors, Robo Portfolios for hands-off automated investing (with a cash-enhanced option that charges no advisory fee), and Managed Portfolios with a 0.30% annual advisory fee. This tiered approach lets investors shift between strategies as their needs evolve, all within a single login.\n\nOptions traders pay $0.50 per contract with no base commission, which is competitive but not the cheapest in the market. The platform supports stocks, ETFs, options, mutual funds, bonds, and forex. Notably absent are futures and cryptocurrency trading, which limits appeal for traders who want a single platform for all asset classes.\n\nAlly Invest's biggest strength is its ecosystem integration \u2014 instant transfers between Ally Bank and brokerage accounts, no account minimums for self-directed trading, and a clean mobile app. However, the trading platform lacks advanced charting, screening tools, and research depth compared to heavyweights like Fidelity or Schwab, making it better suited to casual investors than active traders.",
+  "logo_url": "/logos/ally-invest.svg",
+  "screenshots": [],
+  "website_url": "https://www.ally.com/invest/",
+  "affiliate_url": "",
+  "affiliate_program": "Ally Invest Affiliate Program",
+  "affiliate_commission": "Up to $200 per funded account",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Self-Directed Trading",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$0 commission on stocks and ETFs",
+          "$0.50 per options contract, no base fee",
+          "No account minimum",
+          "Price alerts and basic screeners",
+          "Ally Bank instant transfers"
+        ]
+      },
+      {
+        "name": "Robo Portfolio (Cash-Enhanced)",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$100 minimum investment",
+          "No advisory fee",
+          "Automated rebalancing",
+          "Diversified ETF portfolios",
+          "30% cash allocation"
+        ]
+      },
+      {
+        "name": "Managed Portfolio",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "0.30% annual advisory fee",
+          "$100 minimum investment",
+          "Professional portfolio management",
+          "Automated rebalancing",
+          "Tax-loss harvesting"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "options",
+    "mutual-funds",
+    "bonds",
+    "forex"
+  ],
+  "pros": [
+    "$0 commission on stocks and ETFs with no account minimum",
+    "Seamless integration with Ally Bank for instant transfers",
+    "Three investing styles in one account: self-directed, robo, and managed",
+    "Competitive $0.50/contract options pricing with no base fee",
+    "Clean, beginner-friendly mobile app"
+  ],
+  "cons": [
+    "No futures or cryptocurrency trading available",
+    "Charting and research tools are basic compared to Fidelity or Schwab",
+    "Robo portfolio cash-enhanced option keeps 30% in cash, limiting growth",
+    "No paper trading or simulated account for practice"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.4,
+    "value": 4.4,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2016,
+  "company": "Ally Financial Inc.",
+  "headquarters": "Charlotte, North Carolina",
+  "best_for": [
+    "existing Ally Bank customers",
+    "beginner investors",
+    "cost-conscious buy-and-hold investors",
+    "robo investing"
+  ],
+  "similar_tools": [
+    "etrade",
+    "webull",
+    "robinhood",
+    "charles-schwab"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}
