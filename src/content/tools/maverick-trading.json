@@ -1,0 +1,97 @@
+{
+  "name": "Maverick Trading",
+  "slug": "maverick-trading",
+  "category": "prop-firms",
+  "subcategories": [
+    "options-trading",
+    "funded-accounts",
+    "trader-education"
+  ],
+  "description_short": "Veteran US prop firm founded in 1997 that trains and funds options and equity traders through a mentorship-first model with up to 80% profit splits.",
+  "description_long": "Maverick Trading is one of the longest-running proprietary trading firms in the United States, founded in 1997. Unlike the newer wave of challenge-based prop firms, Maverick operates on a training-first philosophy: aspiring traders complete a structured education program before receiving access to funded capital. This model prioritizes building durable trading skills over simply passing a profit target test under artificial conditions.\n\nThe firm specializes in options and equities trading, providing traders with professional-grade capital once they graduate through the training pipeline. The curriculum covers technical analysis, risk management, position sizing, and options strategies, with live mentorship sessions guiding traders through real market conditions. Paper trading and simulated practice are incorporated during the learning phase before real funds are allocated.\n\nFunded traders at Maverick receive a profit split of up to 70\u201380%, with the firm absorbing downside risk. The training program fee serves as both a qualification gateway and an ongoing educational resource, distinguishing Maverick from pure-evaluation firms that offer little ongoing support. Mentors remain accessible post-funding, making the model particularly valuable for traders who want long-term development rather than a one-time funded account.\n\nWhile the upfront program cost is higher than typical challenge fees at newer firms, the depth of mentorship and the firm's 25+ year track record make it a compelling option for committed traders. Its focus on options strategies and US equities does limit market coverage compared to multi-asset prop firms, and the absence of modern fintech tools may feel dated to traders accustomed to slicker platforms.",
+  "logo_url": "/logos/maverick-trading.svg",
+  "screenshots": [],
+  "website_url": "https://www.mavericktrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "Maverick Trading Referral Program",
+  "affiliate_commission": "Varies",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 2500,
+    "tiers": [
+      {
+        "name": "Trader Training Program",
+        "price_monthly": 0,
+        "price_yearly": 2500,
+        "features": [
+          "Comprehensive options and equities trading curriculum",
+          "Live mentorship sessions with experienced traders",
+          "Paper trading practice environment",
+          "Access to funded capital upon program completion",
+          "70\u201380% profit split on funded account",
+          "Ongoing support and community access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "One of the oldest and most established prop firms in the US with a 25+ year track record",
+    "Training-first model builds real skills rather than just testing ability to pass challenges",
+    "Up to 80% profit split for funded traders",
+    "Ongoing mentorship available after funding, not just during training",
+    "No arbitrary time-limited evaluation \u2014 progress at your own pace"
+  ],
+  "cons": [
+    "Higher upfront program cost compared to challenge-based prop firms",
+    "Limited to US equities and options \u2014 no forex, futures, or crypto",
+    "No modern platform tools, mobile app, or fintech features",
+    "Training timeline can be lengthy for traders wanting fast capital access"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 3.6,
+    "features": 3.4,
+    "value": 3.8,
+    "support": 4.4,
+    "reliability": 4.2
+  },
+  "founded_year": 1997,
+  "company": "Maverick Trading LLC",
+  "headquarters": "Draper, Utah",
+  "best_for": [
+    "beginner traders seeking structured mentorship",
+    "options traders wanting prop firm backing",
+    "traders prioritizing education over fast funding"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "topstep",
+    "earn2trade",
+    "the5ers"
+  ],
+  "last_updated": "2026-03-09",
+  "review_status": "published"
+}

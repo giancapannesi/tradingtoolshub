@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ComparisonTable from '../../components/ComparisonTable.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import RatingStars from '../../components/RatingStars.astro';
-import { getComparisons, getToolBySlug } from '../../utils/data';
+import { getComparisons, getToolBySlug, getListicles } from '../../utils/data';
 
 export function getStaticPaths() {
   const comparisons = getComparisons();
@@ -165,6 +165,39 @@ const jsonLd = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">{toolB.name}: Pros & Cons</h2>
       <ProsCons pros={toolB.pros} cons={toolB.cons} />
+    </section>
+
+    <!-- Explore More -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Explore More</h2>
+      <div class="grid sm:grid-cols-2 gap-3">
+        <a href={`/review/${toolA.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+          <span class="text-sm text-text font-medium">{toolA.name} Full Review</span>
+          <span class="ml-auto text-primary text-sm">&rarr;</span>
+        </a>
+        <a href={`/review/${toolB.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+          <span class="text-sm text-text font-medium">{toolB.name} Full Review</span>
+          <span class="ml-auto text-primary text-sm">&rarr;</span>
+        </a>
+        <a href={`/alternatives/${toolA.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+          <span class="text-sm text-text font-medium">{toolA.name} Alternatives</span>
+          <span class="ml-auto text-primary text-sm">&rarr;</span>
+        </a>
+        <a href={`/alternatives/${toolB.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+          <span class="text-sm text-text font-medium">{toolB.name} Alternatives</span>
+          <span class="ml-auto text-primary text-sm">&rarr;</span>
+        </a>
+        {(() => {
+          const relatedListicles = getListicles().filter(l => l.tools.includes(toolA.slug) || l.tools.includes(toolB.slug)).slice(0, 2);
+          return relatedListicles.map(l => (
+            <a href={`/best/${l.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+              <span class="text-featured text-lg">&#9733;</span>
+              <span class="text-sm text-text font-medium">{l.title}</span>
+              <span class="ml-auto text-primary text-sm">&rarr;</span>
+            </a>
+          ));
+        })()}
+      </div>
     </section>
 
     <!-- Bottom CTAs -->

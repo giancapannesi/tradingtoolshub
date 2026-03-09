@@ -1,0 +1,127 @@
+{
+  "name": "AvaTrade",
+  "slug": "avatrade",
+  "category": "brokers-forex",
+  "subcategories": [
+    "cfd-broker",
+    "copy-trading",
+    "multi-asset"
+  ],
+  "description_short": "AvaTrade is a globally regulated forex and CFD broker offering MT4/MT5, copy trading, and a wide range of assets with no commission on trades.",
+  "description_long": "AvaTrade is an established forex and CFD broker founded in 2006 and headquartered in Dublin, Ireland. Regulated across multiple major jurisdictions including the EU (CBI), Australia (ASIC), Japan (FSA), South Africa (FSCA), and the UAE (ADGM), AvaTrade serves retail and professional traders in over 150 countries. The broker offers access to over 1,250 instruments spanning forex, indices, commodities, stocks, ETFs, bonds, and cryptocurrency CFDs.\n\nAvaTrade supports an impressive range of trading platforms to suit different trader preferences. These include MetaTrader 4, MetaTrader 5, the proprietary AvaTradeGO mobile app, WebTrader, and AvaOptions\u2014a dedicated platform for vanilla options trading. Automated and copy trading are available through DupliTrade and AvaSocial, allowing traders to mirror strategies from experienced investors. The broker's proprietary Guardian Angel risk management tool helps protect accounts from common trading mistakes.\n\nThe broker operates on a spread-based, commission-free model. Standard spreads start from 0.9 pips on EUR/USD. There are no monthly platform fees, though an inactivity fee of $50 applies after three consecutive months without trading activity, rising to $100 after 12 months. The minimum deposit is $100, making AvaTrade accessible to beginner traders.\n\nEducation is a strong suit via SharpTrader, AvaTrade's dedicated learning platform offering video courses, webinars, eBooks, and a trading glossary. Combined with a feature-rich demo account available indefinitely, AvaTrade is well-suited to traders at all experience levels who want a regulated, multi-platform environment with copy trading capabilities.",
+  "logo_url": "/logos/avatrade.svg",
+  "screenshots": [],
+  "website_url": "https://www.avatrade.com",
+  "affiliate_url": "",
+  "affiliate_program": "AvaTrade Affiliate Program",
+  "affiliate_commission": "Up to $600 CPA per referred trader",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Demo Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Virtual $100,000 practice funds",
+          "Full platform access (MT4, MT5, WebTrader)",
+          "Real-time market data",
+          "No time limit"
+        ]
+      },
+      {
+        "name": "Standard Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$100 minimum deposit",
+          "No commission on trades",
+          "Spreads from 0.9 pips EUR/USD",
+          "Access to all platforms and instruments",
+          "Copy trading via DupliTrade & AvaSocial",
+          "Guardian Angel risk management"
+        ]
+      },
+      {
+        "name": "Professional Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Higher leverage up to 400:1",
+          "Tighter spreads available",
+          "Dedicated account manager",
+          "Negative balance protection waived",
+          "Requires eligibility criteria (EU regulated)"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "stocks",
+    "crypto",
+    "etfs",
+    "bonds",
+    "options"
+  ],
+  "pros": [
+    "Regulated in multiple major jurisdictions worldwide",
+    "Wide platform choice including MT4, MT5, AvaOptions, and AvaTradeGO",
+    "Copy trading available via DupliTrade and AvaSocial",
+    "Comprehensive education through SharpTrader platform",
+    "No commissions with a low $100 minimum deposit"
+  ],
+  "cons": [
+    "Inactivity fees kick in after just 3 months",
+    "Spreads are wider than ECN/STP-focused brokers",
+    "CFD-only model means no direct ownership of stocks or ETFs",
+    "Customer support response times can be inconsistent"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.3,
+    "value": 3.8,
+    "support": 3.9,
+    "reliability": 4.2
+  },
+  "founded_year": 2006,
+  "company": "Ava Trade EU Ltd",
+  "headquarters": "Dublin, Ireland",
+  "best_for": [
+    "beginner forex traders",
+    "copy traders",
+    "options traders",
+    "multi-platform traders"
+  ],
+  "similar_tools": [
+    "oanda",
+    "pepperstone",
+    "etoro",
+    "ig"
+  ],
+  "last_updated": "2026-03-09",
+  "review_status": "published"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Plus500",
+  "slug": "plus500",
+  "category": "brokers-forex",
+  "subcategories": [
+    "cfd-brokers",
+    "forex-brokers",
+    "mobile-trading"
+  ],
+  "description_short": "Plus500 is a regulated CFD broker offering commission-free trading on forex, stocks, indices, commodities, and crypto via a simple proprietary platform.",
+  "description_long": "Plus500 is a globally regulated online trading broker specializing in Contracts for Difference (CFDs) across a wide range of asset classes including forex, stocks, indices, commodities, cryptocurrencies, and ETFs. Founded in 2008 and listed on the London Stock Exchange since 2013, Plus500 has grown into one of the most recognizable retail CFD brokers worldwide, serving clients in over 50 countries.\n\nThe platform is designed with simplicity at its core, making it particularly accessible to beginner and intermediate traders. The proprietary web and mobile platforms offer a clean, uncluttered interface with essential charting tools, real-time price alerts, economic calendars, and built-in risk management features such as guaranteed stop-loss orders and trailing stops. Unlike many competitors, Plus500 does not support MetaTrader 4 or 5, keeping traders within its own ecosystem.\n\nPlus500 charges no commissions on trades, instead generating revenue through spreads, overnight funding fees, and currency conversion charges. A free unlimited demo account is available for traders to practice without risking real capital. Minimum deposit requirements start at $100 for most account types. The broker is regulated by multiple authorities including the FCA (UK), ASIC (Australia), CySEC (Cyprus), and MAS (Singapore), providing a strong layer of regulatory oversight.\n\nWhile Plus500 excels in simplicity and mobile trading, it falls short for advanced traders due to limited charting capabilities, no support for automated trading or custom indicators, and the absence of social or copy-trading features. It is best suited for traders who want straightforward CFD access with solid regulation and a clean mobile-first experience.",
+  "logo_url": "/logos/plus500.svg",
+  "screenshots": [],
+  "website_url": "https://www.plus500.com",
+  "affiliate_url": "",
+  "affiliate_program": "Plus500 Affiliate Program",
+  "affiliate_commission": "CPA up to $800 per qualified trader",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Demo Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Unlimited virtual funds practice",
+          "Full platform access",
+          "Real-time market data",
+          "No time limit"
+        ]
+      },
+      {
+        "name": "Live Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Commission-free trading",
+          "Minimum deposit $100",
+          "Guaranteed stop-loss orders",
+          "Trailing stop orders",
+          "Price alerts",
+          "Mobile and web platform",
+          "Negative balance protection"
+        ]
+      },
+      {
+        "name": "Professional Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Higher leverage (up to 1:300)",
+          "Reduced margin requirements",
+          "Dedicated account manager",
+          "Eligibility requires meeting regulatory criteria"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "indices",
+    "commodities",
+    "crypto",
+    "etfs",
+    "options"
+  ],
+  "pros": [
+    "Regulated by multiple top-tier authorities (FCA, ASIC, CySEC, MAS)",
+    "Commission-free trading with no platform subscription fees",
+    "Excellent mobile app consistently rated highly in app stores",
+    "Guaranteed stop-loss orders available for controlled risk management",
+    "Unlimited demo account for risk-free practice"
+  ],
+  "cons": [
+    "No support for MetaTrader 4/5 or third-party platforms",
+    "Limited charting tools and no custom indicators",
+    "No automated or algorithmic trading capabilities",
+    "Inactivity fee charged after 3 months of no trading"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.2,
+    "value": 4.0,
+    "support": 3.7,
+    "reliability": 4.2
+  },
+  "founded_year": 2008,
+  "company": "Plus500 Ltd",
+  "headquarters": "Haifa, Israel",
+  "best_for": [
+    "beginner traders",
+    "mobile-first traders",
+    "CFD trading",
+    "simple forex trading"
+  ],
+  "similar_tools": [
+    "etoro",
+    "oanda",
+    "ig-markets",
+    "xtb"
+  ],
+  "last_updated": "2026-03-09",
+  "review_status": "published"
+}

@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
-import { getListicles, getToolBySlug, getCategories } from '../../utils/data';
+import { getListicles, getToolBySlug, getCategories, getComparisons } from '../../utils/data';
 
 export function getStaticPaths() {
   const listicles = getListicles();
@@ -18,6 +18,13 @@ const tools = listicle.tools
   .filter(Boolean) as any[];
 const categories = getCategories();
 const category = categories.find(c => c.slug === listicle.category);
+
+// Cross-comparisons between tools in this list
+const allComparisons = getComparisons();
+const toolSlugs = new Set(listicle.tools);
+const intraComparisons = allComparisons
+  .filter(c => toolSlugs.has(c.tool_a) && toolSlugs.has(c.tool_b))
+  .slice(0, 6);
 
 const jsonLd = [
   {
@@ -180,6 +187,38 @@ const jsonLd = [
         </div>
       </section>
     ))}
+
+    <!-- Head-to-Head Comparisons -->
+    {intraComparisons.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Head-to-Head Comparisons</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {intraComparisons.map(c => {
+            const tA = getToolBySlug(c.tool_a);
+            const tB = getToolBySlug(c.tool_b);
+            return tA && tB && (
+              <a href={`/compare/${c.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+                <span class="text-text font-medium text-sm">{tA.name} vs {tB.name}</span>
+                <span class="ml-auto text-primary text-sm">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- Explore Alternatives -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Explore Alternatives</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {tools.slice(0, 6).map(tool => (
+          <a href={`/alternatives/${tool.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+            <span class="text-text font-medium text-sm">{tool.name} Alternatives</span>
+            <span class="ml-auto text-primary text-sm">&rarr;</span>
+          </a>
+        ))}
+      </div>
+    </section>
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">

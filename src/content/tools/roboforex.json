@@ -1,0 +1,142 @@
+{
+  "name": "RoboForex",
+  "slug": "roboforex",
+  "category": "brokers-forex",
+  "subcategories": [
+    "ecn-broker",
+    "multi-asset",
+    "copy-trading",
+    "low-minimum-deposit"
+  ],
+  "description_short": "RoboForex is a multi-asset broker offering forex, stocks, crypto, and indices trading via MT4, MT5, cTrader, and proprietary R StocksTrader with a $10 minimum deposit.",
+  "description_long": "RoboForex is an international online broker founded in 2009, offering access to over 12,000 instruments across forex, stocks, indices, commodities, ETFs, and cryptocurrencies. The broker is widely recognized for its extremely low entry barrier, with a minimum deposit of just $10 on most account types, making it accessible to traders at every experience level. Multiple platform options include the industry-standard MetaTrader 4 and MetaTrader 5, cTrader, and the proprietary R StocksTrader platform purpose-built for equity and ETF trading.\n\nOne of RoboForex's standout offerings is its CopyFX copy trading platform, which allows traders to automatically replicate the strategies of experienced signal providers. This social trading feature appeals to beginners who want to participate in markets without building their own strategies from scratch. The broker also supports algorithmic and automated trading through Expert Advisors on MT4/MT5 and provides VPS hosting for uninterrupted automated execution.\n\nRoboForex offers several account types to suit different trading styles. Pro and ProCent accounts feature no commissions with spreads from 1.3 pips, while ECN and Prime accounts deliver raw spreads from 0 pips with a $4 per lot commission \u2014 ideal for scalpers and high-frequency traders. Leverage reaches up to 1:2000 on select account types, varying by region and instrument class. The R StocksTrader account opens access to real stock ownership and fractional shares with a $100 minimum deposit.\n\nThe broker is regulated by the International Financial Services Commission (IFSC) in Belize and the Financial Services Commission (FSC) in Mauritius. While these are not top-tier regulatory bodies compared to the FCA or ASIC, RoboForex has maintained a consistent operational record since its founding. It provides 24/7 multilingual customer support, an educational portal with webinars and video tutorials, economic calendars, and daily market analysis to support traders at every level.",
+  "logo_url": "/logos/roboforex.svg",
+  "screenshots": [],
+  "website_url": "https://www.roboforex.com",
+  "affiliate_url": "",
+  "affiliate_program": "RoboForex Partner Program",
+  "affiliate_commission": "CPA up to $600 per client",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Pro / ProCent",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$10 minimum deposit",
+          "Leverage up to 1:2000",
+          "Spreads from 1.3 pips",
+          "No commission",
+          "MT4 and MT5 platforms",
+          "200+ forex pairs"
+        ]
+      },
+      {
+        "name": "ECN",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$10 minimum deposit",
+          "Leverage up to 1:500",
+          "Raw spreads from 0 pips",
+          "$4 commission per lot",
+          "MT4, MT5, and cTrader",
+          "Ideal for scalpers"
+        ]
+      },
+      {
+        "name": "Prime",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$1,500 minimum deposit",
+          "Leverage up to 1:300",
+          "Raw spreads from 0 pips",
+          "$4 commission per lot",
+          "MT4 and MT5 platforms",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "R StocksTrader",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$100 minimum deposit",
+          "12,000+ stocks and ETFs",
+          "Leverage up to 1:10",
+          "Fractional shares supported",
+          "Proprietary web platform",
+          "Real stock ownership"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "indices",
+    "commodities",
+    "crypto",
+    "etfs"
+  ],
+  "pros": [
+    "Extremely low $10 minimum deposit on most account types",
+    "Multiple platforms including MT4, MT5, cTrader, and proprietary R StocksTrader",
+    "CopyFX copy trading platform for passive strategy replication",
+    "ECN accounts with raw spreads from 0 pips and competitive $4/lot commission",
+    "Broad instrument selection covering 12,000+ tradable assets"
+  ],
+  "cons": [
+    "Regulated by IFSC Belize and FSC Mauritius rather than top-tier regulators",
+    "Not available to US clients",
+    "Customer support quality can be inconsistent",
+    "Inactivity fees may apply on dormant accounts"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.3,
+    "value": 4.4,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2009,
+  "company": "RoboForex Ltd",
+  "headquarters": "Belize City, Belize",
+  "best_for": [
+    "Beginner traders with limited starting capital",
+    "Forex scalpers seeking raw ECN spreads",
+    "Copy traders using CopyFX signal providers",
+    "Stock traders wanting access to global equities"
+  ],
+  "similar_tools": [
+    "exness",
+    "xm",
+    "ic-markets",
+    "pepperstone"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

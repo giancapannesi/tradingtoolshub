@@ -1,0 +1,135 @@
+{
+  "name": "FxPro",
+  "slug": "fxpro",
+  "category": "brokers-forex",
+  "subcategories": [
+    "cfd-brokers",
+    "ecn-brokers",
+    "multi-platform-brokers"
+  ],
+  "description_short": "FxPro is a globally regulated forex and CFD broker offering NDD execution across MT4, MT5, cTrader, and its proprietary Edge platform with 2,100+ instruments.",
+  "description_long": "FxPro is a well-established forex and CFD broker founded in 2006, operating in over 170 countries and regulated by multiple top-tier authorities including the FCA (UK), CySEC (Cyprus), FSCA (South Africa), and SCB (Bahamas). Client funds are held in segregated accounts with negative balance protection, making it a trusted choice for retail and professional traders worldwide.\n\nThe broker offers four distinct trading platforms: MetaTrader 4, MetaTrader 5, cTrader, and the proprietary FxPro Edge web platform. This multi-platform approach gives traders flexibility to choose the environment that best suits their style. cTrader accounts deliver raw spreads starting from 0.0 pips with a small per-lot commission, while standard MT4/MT5 accounts offer commission-free trading with slightly wider spreads. Over 2,100 instruments are available, covering forex pairs, stock CFDs, index CFDs, commodity CFDs, and cryptocurrency CFDs.\n\nFxPro's trading infrastructure is built on no-dealing-desk execution with access to liquidity from multiple tier-1 banks, ensuring competitive pricing and minimal slippage. Automated trading is fully supported through Expert Advisors on MT4/MT5 and cAlgo bots on cTrader, appealing strongly to algorithmic traders. A FIX API is available for institutional and high-frequency clients seeking direct market access.\n\nThe FxPro Academy provides educational resources including video tutorials, webinars, and market analysis, complemented by an integrated economic calendar and live news feed. Mobile apps for iOS and Android offer full account management and trading capabilities on the go. Customer support is available 24/5 in multiple languages, though weekend support is limited.",
+  "logo_url": "/logos/fxpro.svg",
+  "screenshots": [],
+  "website_url": "https://www.fxpro.com",
+  "affiliate_url": "",
+  "affiliate_program": "FxPro Partnership Program",
+  "affiliate_commission": "Up to $600 CPA or revenue share",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Demo",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Virtual funds for practice",
+          "Full platform access",
+          "Real market conditions",
+          "No time limit"
+        ]
+      },
+      {
+        "name": "MT4 / MT5 Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Minimum deposit $100",
+          "Spreads from 0.9 pips",
+          "No commission",
+          "MetaTrader 4 and 5 access",
+          "Expert Advisor support"
+        ]
+      },
+      {
+        "name": "cTrader Raw",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Minimum deposit $100",
+          "Raw spreads from 0.0 pips",
+          "$3.5 per lot per side commission",
+          "Level II pricing",
+          "cAlgo automated trading"
+        ]
+      },
+      {
+        "name": "FxPro Edge",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Minimum deposit $100",
+          "Proprietary web platform",
+          "Fixed and floating spread options",
+          "2,100+ instruments",
+          "Beginner-friendly interface"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "Four trading platforms including MT4, MT5, cTrader, and proprietary FxPro Edge",
+    "Regulated by FCA, CySEC, FSCA and other top-tier authorities",
+    "Raw spreads from 0.0 pips available on cTrader accounts",
+    "Full support for automated trading via Expert Advisors and cAlgo",
+    "Access to 2,100+ instruments across forex, CFDs, and crypto"
+  ],
+  "cons": [
+    "Not available to US residents",
+    "Inactivity fee charged after 6 months with no trading activity",
+    "Standard account spreads are higher than raw cTrader pricing",
+    "Weekend customer support is limited"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.4,
+    "value": 4.1,
+    "support": 4.0,
+    "reliability": 4.3
+  },
+  "founded_year": 2006,
+  "company": "FxPro Group Limited",
+  "headquarters": "London, United Kingdom",
+  "best_for": [
+    "forex traders",
+    "algorithmic traders",
+    "cTrader platform users",
+    "multi-asset CFD traders"
+  ],
+  "similar_tools": [
+    "pepperstone",
+    "ic-markets",
+    "oanda",
+    "forex-com"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Saxo Bank",
+  "slug": "saxo-bank",
+  "category": "brokers-forex",
+  "subcategories": [
+    "multi-asset-broker",
+    "professional-trading",
+    "cfd-broker"
+  ],
+  "description_short": "Danish investment bank offering 40,000+ instruments across forex, CFDs, stocks, and more via its professional-grade SaxoTraderGO and SaxoTraderPRO platforms.",
+  "description_long": "Saxo Bank is a Danish fintech pioneer and licensed investment bank founded in 1992, providing professional-grade online trading to retail and institutional clients across the globe. With access to over 40,000 instruments spanning forex, stocks, ETFs, CFDs, options, futures, bonds, and commodities, Saxo Bank stands as one of the most comprehensive multi-asset brokers available. Its platforms\u2014SaxoTraderGO and SaxoTraderPRO\u2014are purpose-built for traders who demand serious tools, market depth, and execution quality.\n\nThe SaxoTraderGO web platform delivers a streamlined experience from any browser, while SaxoTraderPRO offers a full-featured desktop client with advanced charting, multi-screen support, and algorithmic trading capabilities. Saxo's OpenAPI enables developers and quant traders to build custom applications, automate strategies, and integrate third-party tools. All accounts include real-time news, market analysis, risk management features, and customizable price alerts across all supported markets.\n\nSaxo Bank uses a tiered account structure\u2014Classic, Platinum, and VIP\u2014where larger balances unlock tighter spreads and lower per-trade commissions. There are no monthly subscription fees; the broker earns revenue through spreads and commissions. Minimum deposit requirements vary by region, typically starting around $2,000 for the Classic tier. Platinum accounts (from approximately $200,000) and VIP accounts (from approximately $1,000,000) receive meaningfully reduced trading costs that make high-volume trading significantly more economical.\n\nRegulated by multiple top-tier authorities including the Danish FSA, the FCA in the UK, MAS in Singapore, and ASIC in Australia, Saxo Bank maintains strong compliance standards and robust client fund protections. The broker is best suited for intermediate to professional traders who can leverage its wide instrument selection and favorable pricing at scale. The steeper learning curve and higher minimum deposit compared to discount brokers may deter beginners, but the platform quality and instrument breadth are difficult to match elsewhere.",
+  "logo_url": "/logos/saxo-bank.svg",
+  "screenshots": [],
+  "website_url": "https://www.home.saxo",
+  "affiliate_url": "",
+  "affiliate_program": "Saxo Bank Introducing Broker Program",
+  "affiliate_commission": "Revenue share based on client trading volume",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Classic",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Access to 40,000+ instruments",
+          "SaxoTraderGO and SaxoTraderPRO platforms",
+          "EUR/USD spreads from 0.4 pips",
+          "Demo account available",
+          "Mobile app for iOS and Android",
+          "Real-time news and analysis"
+        ]
+      },
+      {
+        "name": "Platinum",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All Classic features",
+          "Reduced spreads from 0.3 pips on EUR/USD",
+          "Lower stock and ETF commissions",
+          "Dedicated relationship manager",
+          "Requires approximately $200,000 account balance"
+        ]
+      },
+      {
+        "name": "VIP",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All Platinum features",
+          "Tightest spreads from 0.2 pips on EUR/USD",
+          "Institutional-grade pricing",
+          "Priority support and dedicated desk",
+          "Requires approximately $1,000,000 account balance"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "etfs",
+    "options",
+    "futures",
+    "bonds",
+    "commodities",
+    "crypto"
+  ],
+  "pros": [
+    "Access to 40,000+ instruments across virtually all asset classes",
+    "Professional-grade platforms with advanced charting and algorithmic trading",
+    "OpenAPI enables full automation and custom integrations",
+    "Regulated by multiple top-tier global authorities",
+    "Tiered pricing rewards high-volume and high-balance traders"
+  ],
+  "cons": [
+    "High minimum deposit compared to discount brokers",
+    "Platform complexity can overwhelm beginner traders",
+    "VIP and Platinum pricing advantages require very large account balances",
+    "Inactivity fees may apply depending on region"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 3.7,
+    "features": 4.8,
+    "value": 3.9,
+    "support": 4.1,
+    "reliability": 4.5
+  },
+  "founded_year": 1992,
+  "company": "Saxo Bank A/S",
+  "headquarters": "Copenhagen, Denmark",
+  "best_for": [
+    "professional and institutional traders",
+    "multi-asset portfolio managers",
+    "algorithmic and API traders",
+    "high-volume forex traders"
+  ],
+  "similar_tools": [
+    "interactive-brokers",
+    "oanda",
+    "ig-markets",
+    "pepperstone"
+  ],
+  "last_updated": "2026-03-09",
+  "review_status": "published"
+}

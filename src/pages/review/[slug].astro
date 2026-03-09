@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import ToolCard from '../../components/ToolCard.astro';
-import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories } from '../../utils/data';
+import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories, getComparisons, getListicles } from '../../utils/data';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -14,6 +14,14 @@ const { tool } = Astro.props;
 const similarTools = getSimilarTools(tool, 3);
 const categories = getCategories();
 const category = categories.find(c => c.slug === tool.category);
+
+// Internal linking data
+const allComparisons = getComparisons();
+const toolComparisons = allComparisons
+  .filter(c => c.tool_a === tool.slug || c.tool_b === tool.slug)
+  .slice(0, 6);
+const toolListicles = getListicles()
+  .filter(l => l.tools.includes(tool.slug));
 const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
 
 // Build FAQ schema for review pages
@@ -279,6 +287,44 @@ const jsonLd = [
         </p>
       </div>
     </section>
+
+    <!-- Compare This Tool -->
+    {toolComparisons.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Compare {tool.name}</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {toolComparisons.map(c => {
+            const otherSlug = c.tool_a === tool.slug ? c.tool_b : c.tool_a;
+            const otherTool = getToolBySlug(otherSlug);
+            return otherTool && (
+              <a href={`/compare/${c.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+                <span class="text-text font-medium text-sm">{tool.name} vs {otherTool.name}</span>
+                <span class="ml-auto text-primary text-sm">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+        <a href={`/alternatives/${tool.slug}/`} class="inline-flex items-center mt-4 text-sm text-primary hover:text-primary-hover transition-colors">
+          View all {tool.name} alternatives &rarr;
+        </a>
+      </section>
+    )}
+
+    <!-- Featured In -->
+    {toolListicles.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Rankings</h2>
+        <div class="space-y-2">
+          {toolListicles.map(l => (
+            <a href={`/best/${l.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+              <span class="text-featured text-lg">&#9733;</span>
+              <span class="text-text text-sm font-medium">{l.title}</span>
+              <span class="ml-auto text-primary text-sm">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Similar Tools -->
     {similarTools.length > 0 && (

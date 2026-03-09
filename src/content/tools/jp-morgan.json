@@ -1,0 +1,102 @@
+{
+  "name": "J.P. Morgan Self-Directed Investing",
+  "slug": "jp-morgan",
+  "category": "brokers-us",
+  "subcategories": [
+    "commission-free",
+    "banking-integration",
+    "beginner-friendly"
+  ],
+  "description_short": "J.P. Morgan Self-Directed Investing offers commission-free stock and ETF trading with seamless Chase banking integration and no account minimum required.",
+  "description_long": "J.P. Morgan Self-Directed Investing is a brokerage account offered directly by JPMorgan Chase, designed to make investing accessible to everyday investors. Launched in 2018 as \"You Invest by J.P. Morgan\" before rebranding, the platform provides commission-free trading on stocks and ETFs with no account minimum, making it easy for Chase customers to begin investing without barriers.\n\nOne of the platform's standout advantages is its deep integration with Chase banking. Customers can instantly transfer funds between their Chase checking, savings, and investment accounts, view all accounts in a single dashboard, and manage their finances holistically through the Chase mobile app or website. This tight ecosystem is a meaningful convenience for the millions of existing Chase customers.\n\nThe platform provides access to J.P. Morgan and Morningstar research, basic market data, news feeds, and educational content to help novice investors build their knowledge. Options trading is available at $0.65 per contract. However, the platform lacks advanced tools such as backtesting, paper trading, custom indicators, and futures or forex markets, making it better suited to buy-and-hold investors than active traders.\n\nJ.P. Morgan Self-Directed Investing is best for Chase customers seeking a no-frills, low-cost way to invest in stocks, ETFs, mutual funds, and bonds without leaving the Chase ecosystem. Those needing sophisticated charting, automated trading, or broader market access should look at more feature-rich brokers.",
+  "logo_url": "/logos/jp-morgan.svg",
+  "screenshots": [],
+  "website_url": "https://www.jpmorgan.com/wealth-management/wealth-partners/investments/self-directed-investing",
+  "affiliate_url": "",
+  "affiliate_program": "N/A",
+  "affiliate_commission": "N/A",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Self-Directed",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$0 commissions on stocks and ETFs",
+          "$0 account minimum",
+          "$0.65 per options contract",
+          "Instant Chase bank transfers",
+          "J.P. Morgan and Morningstar research",
+          "Basic price alerts",
+          "Educational content"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "options",
+    "mutual-funds",
+    "bonds"
+  ],
+  "pros": [
+    "$0 commissions on stocks and ETFs with no account minimum",
+    "Seamless integration with Chase banking accounts",
+    "Backed by J.P. Morgan research and Morningstar data",
+    "Intuitive mobile app for beginners",
+    "Trusted, established institution with strong reliability"
+  ],
+  "cons": [
+    "Very limited charting and technical analysis tools",
+    "No futures, forex, or crypto trading",
+    "No paper trading or backtesting capabilities",
+    "Not competitive for active or advanced traders"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 3.1,
+    "value": 4.4,
+    "support": 3.9,
+    "reliability": 4.2
+  },
+  "founded_year": 2018,
+  "company": "JPMorgan Chase & Co.",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "Chase banking customers",
+    "beginner investors",
+    "buy-and-hold investors",
+    "passive index investors"
+  ],
+  "similar_tools": [
+    "fidelity",
+    "schwab",
+    "robinhood",
+    "webull"
+  ],
+  "last_updated": "2026-03-08",
+  "review_status": "published"
+}

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
-import { getCategories, getToolsByCategory } from '../../utils/data';
+import { getCategories, getToolsByCategory, getListicles, getComparisons, getToolBySlug } from '../../utils/data';
 
 export function getStaticPaths() {
   const categories = getCategories();
@@ -13,6 +13,15 @@ export function getStaticPaths() {
 
 const { category } = Astro.props;
 const tools = getToolsByCategory(category.slug);
+
+// Listicles for this category
+const categoryListicles = getListicles().filter(l => l.category === category.slug);
+
+// Top comparisons within this category
+const catToolSlugs = new Set(tools.map(t => t.slug));
+const categoryComparisons = getComparisons()
+  .filter(c => catToolSlugs.has(c.tool_a) && catToolSlugs.has(c.tool_b))
+  .slice(0, 6);
 
 const jsonLd = [
   {
@@ -99,6 +108,41 @@ const jsonLd = [
           />
         ))}
       </div>
+    )}
+
+    <!-- Best Of Lists -->
+    {categoryListicles.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-bold text-text mb-4">Best Of Lists</h2>
+        <div class="grid sm:grid-cols-2 gap-3">
+          {categoryListicles.map(l => (
+            <a href={`/best/${l.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+              <span class="text-featured text-lg">&#9733;</span>
+              <span class="text-text font-medium text-sm">{l.title}</span>
+              <span class="ml-auto text-primary text-sm">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Popular Comparisons -->
+    {categoryComparisons.length > 0 && (
+      <section class="mt-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Popular Comparisons</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {categoryComparisons.map(c => {
+            const tA = getToolBySlug(c.tool_a);
+            const tB = getToolBySlug(c.tool_b);
+            return tA && tB && (
+              <a href={`/compare/${c.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+                <span class="text-text font-medium text-sm">{tA.name} vs {tB.name}</span>
+                <span class="ml-auto text-primary text-sm">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
     )}
   </div>
 </BaseLayout>
