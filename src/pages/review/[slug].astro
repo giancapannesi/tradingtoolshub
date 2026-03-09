@@ -16,6 +16,47 @@ const categories = getCategories();
 const category = categories.find(c => c.slug === tool.category);
 const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
 
+// Build FAQ schema for review pages
+const pricingText = tool.pricing.starting_price === 0
+  ? `${tool.name} offers a free plan. ${tool.pricing.tiers.length > 1 ? `Paid plans start at $${tool.pricing.tiers.find(t => t.price_monthly > 0)?.price_monthly || 'N/A'}/month.` : ''}`
+  : `${tool.name} starts at $${tool.pricing.starting_price}/month. ${tool.pricing.has_free_tier ? 'A free tier is also available.' : 'There is no free tier.'} ${tool.pricing.tiers.length > 1 ? `Plans range from $${tool.pricing.tiers[0].price_monthly} to $${tool.pricing.tiers[tool.pricing.tiers.length - 1].price_monthly}/month.` : ''}`;
+
+const prosText = tool.pros.slice(0, 3).join(', ');
+const consText = tool.cons.slice(0, 3).join(', ');
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": `How much does ${tool.name} cost?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": pricingText.trim()
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Is ${tool.name} good for trading?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${tool.name} is rated ${tool.rating.toFixed(1)}/5 on TradingToolsHub. Key strengths: ${prosText}. Potential drawbacks: ${consText}. It's best suited for ${tool.best_for}.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": `Does ${tool.name} have a free plan?`,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": tool.pricing.has_free_tier
+          ? `Yes, ${tool.name} offers a free plan. It includes ${tool.pricing.tiers[0]?.features?.slice(0, 2).join(' and ') || 'basic features'}. Upgrade to a paid plan for full access.`
+          : `No, ${tool.name} does not currently offer a free plan. The lowest-priced plan starts at $${tool.pricing.starting_price}/month. Some plans may offer a free trial period.`
+      }
+    }
+  ]
+};
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -60,7 +101,8 @@ const jsonLd = [
       "@type": "SpeakableSpecification",
       "cssSelector": ["h1", ".prose", "h2"]
     }
-  }
+  },
+  faqSchema
 ];
 ---
 <BaseLayout

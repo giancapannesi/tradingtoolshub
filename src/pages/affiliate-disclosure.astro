@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllTools } from '../utils/data';
+
+const tools = getAllTools();
+const affiliateTools = tools.filter(t => t.affiliate_url);
+const nonAffiliateTools = tools.filter(t => !t.affiliate_url);
+---
+<BaseLayout
+  title="Affiliate Disclosure — TradingToolsHub"
+  description="How TradingToolsHub earns revenue. Full transparency on our affiliate relationships and how they do (and don't) affect our reviews."
+  canonical="https://tradingtoolshub.com/affiliate-disclosure/"
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <nav class="text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">Affiliate Disclosure</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-text mb-2">Affiliate Disclosure</h1>
+    <p class="text-sm text-muted mb-10">Last updated: March 9, 2026</p>
+
+    <div class="space-y-8 text-muted leading-relaxed text-[15px]">
+      <section class="bg-card border border-border rounded-xl p-6">
+        <h2 class="text-xl font-semibold text-text mb-3">The Short Version</h2>
+        <p>Some links on TradingToolsHub are affiliate links. If you sign up for a service through one of these links, we may earn a commission at <strong class="text-text">no extra cost to you</strong>. This is how we keep the site free and independent. Affiliate relationships never influence our ratings, reviews, or recommendations.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">How We Make Money</h2>
+        <p>TradingToolsHub is a free resource. We earn revenue through:</p>
+        <ul class="list-disc pl-5 space-y-2 mt-3">
+          <li><strong class="text-text">Affiliate commissions</strong> — When you click a link to a trading tool and sign up, we may receive a referral fee from the provider. The fee varies by program (some pay per signup, others pay a recurring percentage).</li>
+          <li><strong class="text-text">That's it.</strong> We do not charge for reviews, sell placement or rankings, accept payment for higher ratings, or gate any content behind a paywall.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">What Affiliate Links Do NOT Affect</h2>
+        <ul class="list-disc pl-5 space-y-2 mt-2">
+          <li><strong class="text-text">Ratings and scores</strong> — Every tool is rated using our <a href="/methodology/" class="text-primary hover:underline">5-factor methodology</a>. Whether or not we earn a commission has zero influence on the score.</li>
+          <li><strong class="text-text">Rankings and recommendations</strong> — Our "Best of" lists and comparison verdicts are based on features, pricing, and user fit — not affiliate payouts.</li>
+          <li><strong class="text-text">Coverage decisions</strong> — We review tools with and without affiliate programs equally. Of the {tools.length} tools in our directory, {nonAffiliateTools.length > 0 ? `${nonAffiliateTools.length} have no affiliate relationship with us.` : 'we are actively expanding our affiliate partnerships.'}</li>
+          <li><strong class="text-text">Negative reviews</strong> — If a tool has problems, we say so, regardless of affiliate status. Our credibility depends on honest reviews.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">How to Identify Affiliate Links</h2>
+        <p>On TradingToolsHub, affiliate links are marked with <code class="bg-bg px-1.5 py-0.5 rounded text-xs">rel="nofollow sponsored"</code> in the HTML. When you see a "Visit [Tool Name]" button on a review or comparison page, it may be an affiliate link if we have a partnership with that provider. The destination is always the tool's official website — we never redirect through hidden intermediaries.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">Your Cost</h2>
+        <p>Using our affiliate links costs you nothing extra. In many cases, affiliate partnerships provide the same pricing you would get by going directly to the provider's website. We will never promote a deal through our links that is worse than what's publicly available.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">FTC Compliance</h2>
+        <p>This disclosure is provided in compliance with the Federal Trade Commission's guidelines on endorsements and testimonials (16 CFR Part 255). We believe in full transparency about how we earn revenue and how it relates to the content we produce.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text mb-3">Questions?</h2>
+        <p>If you have questions about our affiliate relationships or want to report an issue with any affiliate link, email us at <a href="mailto:editorial@tradingtoolshub.com" class="text-primary hover:underline">editorial@tradingtoolshub.com</a>.</p>
+        <p class="mt-2">Cosmic Phoenix LLC<br />Wyoming, USA</p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
