@@ -254,6 +254,32 @@ const jsonLd = [
       </div>
     </section>
 
+    <!-- Key Takeaways & TL;DR -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Key Takeaways</h2>
+      <div class="bg-card border border-border rounded-xl p-6">
+        <ul class="space-y-2">
+          {tool.pros.map(pro => (
+            <li class="flex items-start gap-2 text-sm text-muted">
+              <span class="text-positive mt-0.5 shrink-0">&#10003;</span> {pro}
+            </li>
+          ))}
+          <li class="flex items-start gap-2 text-sm text-muted">
+            <span class="text-featured mt-0.5 shrink-0">&#9733;</span> Rated {tool.rating.toFixed(1)}/5 — best for {tool.best_for.join(', ')}
+          </li>
+          <li class="flex items-start gap-2 text-sm text-muted">
+            <span class="text-featured mt-0.5 shrink-0">&#36;</span> {tool.pricing.starting_price === 0 ? 'Free tier available' : `Starts at $${tool.pricing.starting_price}/month`}{tool.pricing.has_free_tier && tool.pricing.starting_price > 0 ? ' (free tier also available)' : ''}
+          </li>
+        </ul>
+      </div>
+      <div class="mt-4 bg-card/50 border border-border rounded-xl p-5">
+        <h3 class="text-sm font-semibold text-text mb-2">TL;DR</h3>
+        <p class="text-sm text-muted leading-relaxed">
+          {tool.name} is a {category?.name?.toLowerCase() || tool.category.replace(/-/g, ' ')} tool rated {tool.rating.toFixed(1)}/5, best suited for {tool.best_for.join(' and ')}. {tool.pricing.starting_price === 0 ? `It offers a free plan${tool.pricing.tiers.length > 1 ? `, with paid plans starting at $${tool.pricing.tiers.find(t => t.price_monthly > 0)?.price_monthly || 'N/A'}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} {tool.pros[0]} and {tool.pros.length > 1 ? tool.pros[1].toLowerCase() : 'it performs well for its target audience'}.
+        </p>
+      </div>
+    </section>
+
     <!-- Similar Tools -->
     {similarTools.length > 0 && (
       <section class="mb-10">
