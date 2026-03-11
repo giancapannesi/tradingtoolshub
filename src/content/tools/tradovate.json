@@ -1,0 +1,132 @@
+{
+  "name": "Tradovate",
+  "slug": "tradovate",
+  "category": "charting-platforms",
+  "subcategories": [
+    "futures-trading",
+    "execution-platforms"
+  ],
+  "description_short": "Tradovate is a cloud-based futures trading platform offering commission-free membership plans, advanced charting, DOM trading, and API access for automated strategies.",
+  "description_long": "Tradovate is a modern, cloud-based futures trading platform built for active traders who want professional-grade execution tools without the limitations of legacy desktop software. Available via web browser and mobile app, the platform requires no software installation and syncs positions, charts, and settings across all devices in real time.\n\nThe platform is built around a membership-based pricing model that can significantly reduce trading costs for high-frequency futures traders. The free Starter plan charges standard per-contract commissions, while monthly and annual memberships eliminate those commissions entirely \u2014 traders pay only exchange fees. This model is especially attractive for those trading high-volume products like E-mini S&P 500, crude oil, or gold futures.\n\nTradovate includes a capable charting suite with dozens of built-in technical indicators, drawing tools, and multiple chart types. The Depth of Market (DOM) ladder enables fast order entry and position management, while a full API allows developers to build and deploy automated trading strategies. A simulation mode with live market data lets traders practice without risking capital.\n\nIn 2021, Tradovate was acquired by NinjaTrader Group, bolstering the platform's long-term development and institutional backing. The platform covers all major CME Group products, giving access to equity index, energy, metals, agricultural, and interest rate futures. Tradovate is best suited for dedicated futures traders seeking a streamlined, cloud-native experience with cost-efficient commission structures rather than a comprehensive multi-asset charting environment.",
+  "logo_url": "/logos/tradovate.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradovate.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "No monthly fee",
+          "Per-contract commissions (~$0.79/contract)",
+          "Full platform access",
+          "Simulation mode",
+          "Mobile app"
+        ]
+      },
+      {
+        "name": "Monthly Member",
+        "price_monthly": 99,
+        "price_yearly": 1188,
+        "features": [
+          "Commission-free futures trading",
+          "Pay exchange fees only",
+          "Full platform access",
+          "API access",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Annual Member",
+        "price_monthly": 79,
+        "price_yearly": 948,
+        "features": [
+          "Commission-free futures trading",
+          "Pay exchange fees only",
+          "Full platform access",
+          "API access",
+          "Priority support",
+          "Savings vs monthly plan"
+        ]
+      },
+      {
+        "name": "Lifetime Member",
+        "price_monthly": 0,
+        "price_yearly": 2999,
+        "features": [
+          "One-time $2,999 payment",
+          "Commission-free futures trading permanently",
+          "Full platform access",
+          "API access",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Commission-free trading with membership plans lowers costs for active futures traders",
+    "Cloud-based platform runs on any device without software installation",
+    "Full API access supports automated and algorithmic trading strategies",
+    "Simulation mode with live market data for risk-free practice",
+    "Clean, modern interface with fast DOM-based order execution"
+  ],
+  "cons": [
+    "Limited to futures markets only \u2014 no stocks, options, or spot forex",
+    "No backtesting engine for strategy development or historical testing",
+    "Charting tools less advanced than dedicated platforms like TradingView",
+    "Monthly membership cost may not be justified for low-volume traders"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.8,
+    "value": 4.1,
+    "support": 3.9,
+    "reliability": 4.1
+  },
+  "founded_year": 2014,
+  "company": "Tradovate, LLC (NinjaTrader Group)",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "active futures day traders",
+    "algorithmic and automated traders",
+    "traders seeking commission-free futures execution",
+    "cloud-first mobile futures trading"
+  ],
+  "similar_tools": [
+    "ninjatrader",
+    "thinkorswim",
+    "tradingview",
+    "tastytrade"
+  ],
+  "last_updated": "2026-03-11",
+  "review_status": "published"
+}

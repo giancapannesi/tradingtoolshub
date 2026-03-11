@@ -1,0 +1,169 @@
+{
+  "name": "FundedNext",
+  "slug": "funded-next",
+  "category": "prop-firms",
+  "subcategories": [
+    "forex-prop-firms",
+    "funded-accounts",
+    "evaluation-challenges"
+  ],
+  "description_short": "Dubai-based prop firm offering funded accounts up to $200K through 1 and 2-phase challenges with up to 90% profit splits and profit-sharing during evaluation.",
+  "description_long": "FundedNext is a rapidly growing proprietary trading firm headquartered in Dubai, UAE, providing traders with access to funded accounts ranging from $6,000 to $200,000. Founded in 2022, the firm quickly distinguished itself in the prop trading space by offering a unique incentive: profit-sharing during the evaluation phase itself, not just after a trader is funded\u2014an uncommon benefit that makes the challenge worthwhile even if a trader doesn't pass.\n\nThe platform offers two primary challenge models: the Stellar Challenge (2-phase evaluation) and the Express Challenge (1-phase evaluation with faster but pricier entry). Profit splits start at 80% and can scale up to 90% as performance improves. Through FundedNext's scaling program, successful traders can grow their allocated capital up to $4 million, making it one of the more generous scaling paths among retail prop firms.\n\nFundedNext supports trading across forex pairs, commodities, major indices, and select cryptocurrencies via MetaTrader 4 and MetaTrader 5. The firm permits expert advisors and automated trading strategies, making it a strong option for algorithmic traders. Risk rules are clearly defined\u2014typically a 5% maximum daily loss and 10% maximum overall drawdown\u2014and the trader dashboard provides straightforward performance analytics to track progress against targets.\n\nThe firm has cultivated an active Discord community and provides educational resources for developing traders. While FundedNext lacks the multi-year reputation of older prop firms, its combination of competitive challenge pricing, evaluation profit-sharing, high splits, and EA-friendly rules has earned it strong community standing. It is best suited for experienced forex and multi-market traders who want institutional capital with a modern, transparent evaluation structure.",
+  "logo_url": "/logos/funded-next.svg",
+  "screenshots": [],
+  "website_url": "https://fundednext.com",
+  "affiliate_url": "",
+  "affiliate_program": "FundedNext Affiliate Program",
+  "affiliate_commission": "10% of challenge fee",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 49,
+    "tiers": [
+      {
+        "name": "Stellar $6K",
+        "price_monthly": 49,
+        "price_yearly": 49,
+        "features": [
+          "$6,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "10% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      },
+      {
+        "name": "Stellar $15K",
+        "price_monthly": 99,
+        "price_yearly": 99,
+        "features": [
+          "$15,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "Profit sharing during evaluation",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      },
+      {
+        "name": "Stellar $25K",
+        "price_monthly": 199,
+        "price_yearly": 199,
+        "features": [
+          "$25,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "Profit sharing during evaluation",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      },
+      {
+        "name": "Stellar $50K",
+        "price_monthly": 299,
+        "price_yearly": 299,
+        "features": [
+          "$50,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "Profit sharing during evaluation",
+          "EA and automated trading allowed",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      },
+      {
+        "name": "Stellar $100K",
+        "price_monthly": 549,
+        "price_yearly": 549,
+        "features": [
+          "$100,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "Profit sharing during evaluation",
+          "Scaling plan up to $4M",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      },
+      {
+        "name": "Stellar $200K",
+        "price_monthly": 999,
+        "price_yearly": 999,
+        "features": [
+          "$200,000 funded account",
+          "2-phase evaluation",
+          "Up to 90% profit split",
+          "Profit sharing during evaluation",
+          "Scaling plan up to $4M",
+          "5% max daily loss",
+          "10% max overall loss"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "commodities",
+    "indices",
+    "crypto"
+  ],
+  "pros": [
+    "Profit sharing during evaluation phases before being fully funded",
+    "Up to 90% profit split with scaling to $4 million in capital",
+    "Allows expert advisors and fully automated trading strategies",
+    "Competitive one-time challenge fees across six account sizes",
+    "Transparent rules with a clear, easy-to-read performance dashboard"
+  ],
+  "cons": [
+    "Founded in 2022, limited long-term track record compared to established firms",
+    "No free trial or demo evaluation available before purchasing a challenge",
+    "Customer support can be slow during high-demand periods",
+    "Fewer tradable instruments than some multi-asset prop firm competitors"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.1,
+    "value": 4.4,
+    "support": 3.9,
+    "reliability": 4.2
+  },
+  "founded_year": 2022,
+  "company": "FundedNext Ltd",
+  "headquarters": "Dubai, UAE",
+  "best_for": [
+    "forex traders seeking funded institutional capital",
+    "algorithmic and EA-based traders",
+    "traders who want evaluation profit sharing",
+    "experienced traders looking to scale to large accounts"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "topstep",
+    "the5ers",
+    "apex-trader-funding"
+  ],
+  "last_updated": "2026-03-10",
+  "review_status": "published"
+}

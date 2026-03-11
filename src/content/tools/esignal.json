@@ -1,0 +1,126 @@
+{
+  "name": "eSignal",
+  "slug": "esignal",
+  "category": "charting-platforms",
+  "subcategories": [
+    "professional-charting",
+    "real-time-data",
+    "multi-asset"
+  ],
+  "description_short": "Professional-grade charting and real-time market data platform used by active traders, with advanced technical analysis tools and 50+ broker integrations.",
+  "description_long": "eSignal is a professional-grade charting and market data platform with roots going back to 1983, now owned by Intercontinental Exchange (ICE). It is designed primarily for serious active traders who require institutional-quality real-time data, advanced charting, and deep technical analysis capabilities across stocks, options, futures, and forex markets.\n\nThe platform offers an extensive suite of analytical tools including tick-level data, Level II quotes, advanced scanning, and eSignal Formula Script (EFS) for creating fully custom indicators and automated strategies. All plans include Dow Jones Factiva streaming headlines from over 600 sources, giving traders integrated news alongside their charts.\n\nBroker integration is a standout strength \u2014 eSignal connects to more than 50 different brokers, allowing traders to place orders directly from the charting interface without switching platforms. Premium add-ons such as Advanced GET (Elliott Wave analysis), Options Analytix, and Market Screener Plus extend the platform's capabilities for specialized trading styles.\n\nThe main drawbacks are cost and accessibility. eSignal is one of the more expensive charting platforms on the market, with plans starting at $67/month and rising steeply for professional tiers. The software is Windows-only with no Mac or mobile support, and the interface carries a steeper learning curve compared to modern web-based alternatives.",
+  "logo_url": "/logos/esignal.svg",
+  "screenshots": [],
+  "website_url": "https://www.esignal.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 67,
+    "tiers": [
+      {
+        "name": "Classic",
+        "price_monthly": 67,
+        "price_yearly": 684,
+        "features": [
+          "Real-time quotes (stocks, options, forex, futures)",
+          "Advanced charting and drawing tools",
+          "Dow Jones Factiva news headlines",
+          "Custom studies via EFS scripting",
+          "50+ broker integrations",
+          "Basic scanning tools"
+        ]
+      },
+      {
+        "name": "Signature",
+        "price_monthly": 228,
+        "price_yearly": 2080,
+        "features": [
+          "Everything in Classic",
+          "Enhanced real-time data feeds",
+          "Market Screener Plus",
+          "Advanced technical indicators",
+          "Tick-by-tick data",
+          "Level II quotes"
+        ]
+      },
+      {
+        "name": "Elite",
+        "price_monthly": 466,
+        "price_yearly": 4513,
+        "features": [
+          "Everything in Signature",
+          "Advanced GET (Elliott Wave analysis)",
+          "Harmonic pattern recognition",
+          "Full historical tick data",
+          "Priority data feeds",
+          "Premium support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "Institutional-quality real-time data with tick-level granularity",
+    "Connects to 50+ brokers for direct order execution",
+    "Powerful EFS scripting for fully custom indicators and strategies",
+    "Advanced GET Elliott Wave and harmonic pattern tools in Elite tier",
+    "Integrated Dow Jones Factiva news across all plans"
+  ],
+  "cons": [
+    "High cost \u2014 significantly more expensive than most competitors",
+    "Windows-only with no Mac, web, or mobile support",
+    "Dated interface with a steep learning curve for new users",
+    "No free trial \u2014 only a 30-day money-back guarantee"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 3.2,
+    "features": 4.5,
+    "value": 3.0,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 1983,
+  "company": "Intercontinental Exchange, Inc. (ICE)",
+  "headquarters": "Atlanta, Georgia",
+  "best_for": [
+    "professional day traders",
+    "futures and forex traders",
+    "Elliott Wave and harmonic pattern traders",
+    "traders needing multi-broker order execution"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "ninjatrader",
+    "thinkorswim",
+    "metastock"
+  ],
+  "last_updated": "2026-03-11",
+  "review_status": "published"
+}

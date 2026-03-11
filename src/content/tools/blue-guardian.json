@@ -1,0 +1,155 @@
+{
+  "name": "Blue Guardian",
+  "slug": "blue-guardian",
+  "category": "prop-firms",
+  "subcategories": [
+    "funded-accounts",
+    "forex-trading",
+    "evaluation-programs"
+  ],
+  "description_short": "Blue Guardian is a UK-based proprietary trading firm offering funded accounts up to $200K through a two-phase evaluation with an 80% profit split.",
+  "description_long": "Blue Guardian is a proprietary trading firm headquartered in the United Kingdom that provides retail traders with access to significant trading capital without requiring them to risk their own funds. To qualify, traders must first complete a structured two-phase evaluation challenge that measures their ability to achieve consistent profits while adhering to defined risk management parameters, including daily and overall drawdown limits.\n\nThe evaluation process is straightforward: Phase 1 requires traders to hit an 8% profit target while keeping daily drawdown below 5% and maximum drawdown below 10%. Phase 2 reduces the profit target to 5% under the same risk rules. Once both phases are passed, traders receive a live funded account and retain 80% of all profits generated, with the evaluation fee refunded upon receiving their first payout.\n\nBlue Guardian supports trading across forex pairs, major indices, metals, and select commodities using MetaTrader 4 and MetaTrader 5. The firm explicitly permits expert advisors (EAs) and automated strategies, which sets it apart from more restrictive prop firms and makes it particularly attractive to algorithmic traders. Account sizes range from $10,000 up to $200,000, giving traders flexibility based on their experience level and risk appetite.\n\nWhile Blue Guardian has earned positive feedback for its transparent ruleset and responsive customer support, it operates in a highly competitive prop firm landscape. Prospective clients should review the firm's news trading policy, restricted instruments list, and consistency rules carefully before purchasing a challenge, as violations can lead to immediate account termination. Overall, it is a solid option for disciplined forex and multi-asset traders seeking a credible funded account program.",
+  "logo_url": "/logos/blue-guardian.svg",
+  "screenshots": [],
+  "website_url": "https://blueguardian.trade",
+  "affiliate_url": "",
+  "affiliate_program": "Blue Guardian Affiliate Program",
+  "affiliate_commission": "10% commission per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 97,
+    "tiers": [
+      {
+        "name": "$10K Challenge",
+        "price_monthly": 97,
+        "price_yearly": 0,
+        "features": [
+          "$10,000 simulated account",
+          "8% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily drawdown",
+          "10% max overall drawdown",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "$25K Challenge",
+        "price_monthly": 197,
+        "price_yearly": 0,
+        "features": [
+          "$25,000 simulated account",
+          "8% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily drawdown",
+          "10% max overall drawdown",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "$50K Challenge",
+        "price_monthly": 297,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 simulated account",
+          "8% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily drawdown",
+          "10% max overall drawdown",
+          "80% profit split",
+          "Fee refundable on first payout"
+        ]
+      },
+      {
+        "name": "$100K Challenge",
+        "price_monthly": 497,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 simulated account",
+          "8% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily drawdown",
+          "10% max overall drawdown",
+          "80% profit split",
+          "Fee refundable on first payout"
+        ]
+      },
+      {
+        "name": "$200K Challenge",
+        "price_monthly": 897,
+        "price_yearly": 0,
+        "features": [
+          "$200,000 simulated account",
+          "8% Phase 1 profit target",
+          "5% Phase 2 profit target",
+          "5% max daily drawdown",
+          "10% max overall drawdown",
+          "80% profit split",
+          "Fee refundable on first payout"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "metals"
+  ],
+  "pros": [
+    "Clear and transparent two-phase evaluation rules",
+    "Competitive 80% profit split on funded accounts",
+    "Expert advisors and automated strategies fully permitted",
+    "Evaluation fee refunded upon first profit payout",
+    "Account sizes up to $200,000 available"
+  ],
+  "cons": [
+    "No free trial or practice challenge available",
+    "Limited to MetaTrader 4 and MT5 platforms only",
+    "No cryptocurrency pairs offered",
+    "News trading subject to restrictions during major events"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.5,
+    "value": 3.9,
+    "support": 3.8,
+    "reliability": 3.7
+  },
+  "founded_year": 2022,
+  "company": "Blue Guardian Ltd",
+  "headquarters": "London, United Kingdom",
+  "best_for": [
+    "forex and multi-asset traders seeking funded capital",
+    "algorithmic and EA-based traders",
+    "experienced traders with proven risk discipline",
+    "traders who want evaluation fee refunded on payout"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the-funded-trader",
+    "e8-funding",
+    "apex-trader-funding"
+  ],
+  "last_updated": "2026-03-10",
+  "review_status": "published"
+}

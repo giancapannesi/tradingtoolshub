@@ -1,0 +1,142 @@
+{
+  "name": "StockCharts",
+  "slug": "stockcharts",
+  "category": "charting-platforms",
+  "subcategories": [
+    "technical-analysis",
+    "stock-screening",
+    "market-breadth"
+  ],
+  "description_short": "Professional-grade charting and technical analysis platform with 25+ years of history, advanced scanning tools, and comprehensive market breadth indicators.",
+  "description_long": "StockCharts is one of the most established web-based charting platforms in the industry, serving technical analysts and active traders since 1999. Built around serious technical analysis, the platform offers hundreds of indicators, advanced chart types including Point & Figure and Renko charts, and powerful scanning tools that allow traders to filter the entire market based on technical criteria.\n\nA standout feature of StockCharts is its market breadth analysis suite, which provides deep insight into the internal health of market indices. Traders can access Advance-Decline lines, McClellan Oscillators, and other breadth indicators that most competitors lack. The platform also pioneered Relative Rotation Graphs (RRG), a unique visualization tool for analyzing sector and ETF rotation.\n\nStockCharts includes ChartSchool, one of the most comprehensive free technical analysis educational libraries available online, covering everything from chart patterns to complex indicators. Users can save ChartLists for organized watchlists and receive email or SMS alerts when technical conditions are met.\n\nThe platform is primarily focused on US stocks, ETFs, and market indices, with some coverage of mutual funds and commodities. While it lacks the social features and broker integrations of newer competitors, StockCharts remains the go-to choice for serious technical analysts who prioritize depth of analysis tools over aesthetics or community features.",
+  "logo_url": "/logos/stockcharts.svg",
+  "screenshots": [],
+  "website_url": "https://stockcharts.com",
+  "affiliate_url": "",
+  "affiliate_program": "StockCharts Affiliate Program",
+  "affiliate_commission": "30% recurring commission",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Delayed data (15-20 min)",
+          "Limited chart saves",
+          "Basic indicators",
+          "ChartSchool access",
+          "Ad-supported"
+        ]
+      },
+      {
+        "name": "Basic",
+        "price_monthly": 19.95,
+        "price_yearly": 191.52,
+        "features": [
+          "Real-time data",
+          "100 saved charts",
+          "10 ChartLists",
+          "500 scan results",
+          "Email alerts",
+          "No ads"
+        ]
+      },
+      {
+        "name": "Extra",
+        "price_monthly": 29.95,
+        "price_yearly": 287.52,
+        "features": [
+          "Real-time data",
+          "500 saved charts",
+          "50 ChartLists",
+          "2,000 scan results",
+          "Email and SMS alerts",
+          "Custom scan scheduling",
+          "Point & Figure scans"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 39.95,
+        "price_yearly": 383.52,
+        "features": [
+          "Real-time data",
+          "Unlimited saved charts",
+          "Unlimited ChartLists",
+          "Unlimited scan results",
+          "Priority scanning",
+          "Advanced alerts",
+          "Extra indicator data",
+          "All chart types"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "mutual-funds",
+    "commodities",
+    "indices"
+  ],
+  "pros": [
+    "Unmatched market breadth analysis and internal market indicators",
+    "Relative Rotation Graphs (RRG) for sector rotation analysis",
+    "ChartSchool is one of the best free TA education resources online",
+    "Powerful technical scanning engine across entire US market",
+    "25+ years of reliability and trusted data history"
+  ],
+  "cons": [
+    "No broker integration or paper trading capability",
+    "No social features or community trade ideas",
+    "Interface feels dated compared to modern competitors",
+    "Limited coverage outside US markets"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 3.6,
+    "features": 4.3,
+    "value": 3.9,
+    "support": 4.0,
+    "reliability": 4.5
+  },
+  "founded_year": 1999,
+  "company": "StockCharts.com, Inc.",
+  "headquarters": "Redmond, Washington",
+  "best_for": [
+    "technical analysts",
+    "sector rotation traders",
+    "market breadth analysts",
+    "swing traders"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "tc2000",
+    "trendspider",
+    "thinkorswim"
+  ],
+  "last_updated": "2026-03-11",
+  "review_status": "published"
+}

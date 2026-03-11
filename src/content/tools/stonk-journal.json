@@ -1,0 +1,102 @@
+{
+  "name": "Stonk Journal",
+  "slug": "stonk-journal",
+  "category": "trading-journals",
+  "subcategories": [
+    "free-trading-journals",
+    "manual-trade-tracking",
+    "performance-analytics"
+  ],
+  "description_short": "A completely free, ad-free trading journal with performance analytics, trade setups, and risk/reward tracking for stocks, options, futures, forex, and crypto.",
+  "description_long": "Stonk Journal is a free web-based trading journal built for retail traders who want a clean, capable journaling experience without subscriptions, ads, or data monetization. The platform launched as a personal project and has grown to thousands of users who rely on it daily to log and review their trades across multiple asset classes.\n\nThe platform centers on fast trade entry with rich metadata: each trade entry supports tags, a confidence meter, image attachments, and freeform notes. Trade setups automatically calculate Risk/Reward ratios, helping traders maintain strategy consistency before entering a position. Setups can be converted into live trades with a single click, streamlining the pre-trade and post-trade workflow.\n\nPerformance analytics are a core strength. Stonk Journal generates charts visualizing trade executions alongside actionable statistics including win rate, profit factor, average winner, and average loser. Multiple accounts and portfolios can be maintained simultaneously, making it easy to segregate strategies, brokers, or asset classes without mixing data.\n\nThe primary trade-off for being entirely free is the lack of broker integration or automatic trade import\u2014all trades must be entered manually. Stonk Journal sustains itself through voluntary user donations and maintains an educational blog covering trading psychology, journaling best practices, and risk management concepts. For traders seeking a zero-cost, privacy-respecting alternative to premium journaling tools, Stonk Journal delivers a surprisingly complete feature set.",
+  "logo_url": "/logos/stonk-journal.svg",
+  "screenshots": [],
+  "website_url": "https://stonkjournal.com",
+  "affiliate_url": "",
+  "affiliate_program": "None",
+  "affiliate_commission": "None",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Unlimited trade entries",
+          "Multiple accounts and portfolios",
+          "Trade setups with Risk/Reward calculator",
+          "Performance analytics and statistics",
+          "Charts visualizing trade executions",
+          "Tags, confidence meter, and image attachments",
+          "No ads, no data monetization"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Completely free with no ads, paywalls, or data monetization",
+    "Clean, intuitive interface with low learning curve",
+    "Trade setups with automatic Risk/Reward ratio calculation",
+    "Supports multiple accounts and portfolios for strategy segregation",
+    "Solid performance analytics including win rate and profit factor"
+  ],
+  "cons": [
+    "No broker integration or automatic trade import \u2014 manual entry only",
+    "No mobile app for on-the-go trade logging",
+    "Some user reports of data loss issues",
+    "Limited advanced analytics compared to paid competitors"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 3.5,
+    "value": 5.0,
+    "support": 3.4,
+    "reliability": 3.6
+  },
+  "founded_year": 2021,
+  "company": "StonkJournal",
+  "headquarters": "Unknown",
+  "best_for": [
+    "beginner traders seeking a free journaling solution",
+    "cost-conscious traders who prefer manual entry",
+    "traders wanting a privacy-first ad-free journal",
+    "multi-asset traders across stocks, options, and crypto"
+  ],
+  "similar_tools": [
+    "tradezella",
+    "tradersync",
+    "edgewonk",
+    "mango-db"
+  ],
+  "last_updated": "2026-03-11",
+  "review_status": "published"
+}

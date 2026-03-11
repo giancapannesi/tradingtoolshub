@@ -1,0 +1,136 @@
+{
+  "name": "Koyfin",
+  "slug": "koyfin-pro",
+  "category": "charting-platforms",
+  "subcategories": [
+    "financial-data-terminals",
+    "fundamental-analysis",
+    "multi-asset"
+  ],
+  "description_short": "Bloomberg-style financial data terminal for retail investors with deep charting, macro data, and portfolio analytics across global markets.",
+  "description_long": "Koyfin is a professional-grade financial data and analytics platform designed to bring institutional-quality market research tools to individual investors and analysts. Originally built as an affordable alternative to Bloomberg and Refinitiv terminals, Koyfin aggregates financial statements, earnings data, economic indicators, and technical charting into a single unified workspace.\n\nThe platform excels at fundamental and macroeconomic research. Users can analyze company financials going back decades, screen stocks across hundreds of metrics, monitor economic data from central banks worldwide, and build custom dashboards that track any combination of securities or indicators. The charting module supports dozens of technical indicators and multiple chart types across stocks, ETFs, forex, crypto, and fixed income.\n\nKoyfin's watchlist and dashboard system is one of its strongest features, allowing traders and analysts to build highly customized views of their portfolios and watchlists with custom column sets, heatmaps, and earnings calendars. Alerts, news integration, and analyst estimate tracking round out the research workflow for both fundamental and technically-focused investors.\n\nPricing is structured across a free tier and three paid plans. The free tier provides meaningful access to core charts and basic data, while Plus, Pro, and Premier plans unlock real-time data, more watchlist items, advanced screening, API access at higher tiers, and priority support. Koyfin occupies a unique niche as a mid-market tool that punches above its price point compared to traditional professional terminals.",
+  "logo_url": "/logos/koyfin-pro.svg",
+  "screenshots": [],
+  "website_url": "https://www.koyfin.com",
+  "affiliate_url": "",
+  "affiliate_program": "Koyfin Referral Program",
+  "affiliate_commission": "Up to 20% recurring commission",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Basic charting with 15-min delayed data",
+          "Limited watchlists",
+          "Core financial data",
+          "Basic screener access"
+        ]
+      },
+      {
+        "name": "Plus",
+        "price_monthly": 25,
+        "price_yearly": 225,
+        "features": [
+          "Real-time data for US markets",
+          "Expanded watchlists",
+          "Full financial statements history",
+          "Email alerts",
+          "No ads"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 55,
+        "price_yearly": 495,
+        "features": [
+          "Real-time global market data",
+          "Advanced stock screener",
+          "Unlimited watchlists",
+          "Portfolio analytics",
+          "Earnings estimates and revisions",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Premier",
+        "price_monthly": 119,
+        "price_yearly": 1068,
+        "features": [
+          "All Pro features",
+          "Institutional-grade data feeds",
+          "Advanced macro data",
+          "Custom data exports",
+          "Dedicated support",
+          "Team collaboration features"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "forex",
+    "crypto",
+    "fixed-income"
+  ],
+  "pros": [
+    "Institutional-quality financial data at a fraction of Bloomberg's cost",
+    "Exceptionally deep fundamental and macroeconomic data coverage",
+    "Highly customizable dashboards and watchlist views",
+    "Solid free tier with genuine utility for casual investors",
+    "Global market coverage including international equities and macro indicators"
+  ],
+  "cons": [
+    "Charting tools lag behind dedicated platforms like TradingView in depth",
+    "No broker integration or trade execution",
+    "No backtesting or automated trading capabilities",
+    "Mobile app less capable than the web platform"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.4,
+    "value": 4.5,
+    "support": 4.0,
+    "reliability": 4.2
+  },
+  "founded_year": 2016,
+  "company": "Koyfin Inc.",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "fundamental analysts",
+    "macro investors",
+    "long-term investors",
+    "financial advisors"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "trendspider",
+    "thinkorswim"
+  ],
+  "last_updated": "2026-03-11",
+  "review_status": "published"
+}
