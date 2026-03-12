@@ -1,0 +1,106 @@
+{
+  "name": "thinkorswim Scanner",
+  "slug": "thinkorswim-scanner",
+  "category": "stock-screeners",
+  "subcategories": [
+    "options-scanners",
+    "futures-screeners",
+    "technical-scanners"
+  ],
+  "description_short": "Free professional-grade stock and options scanner bundled with Charles Schwab accounts, featuring ThinkScript customization, 400+ indicators, and real-time multi-market scanning.",
+  "description_long": "thinkorswim Scanner is the built-in scanning engine of the thinkorswim trading platform, now owned by Charles Schwab and available completely free with any Schwab brokerage account. Founded in 1999 by professional options traders Tom Sosnoff and Scott Sheridan, thinkorswim was acquired by TD Ameritrade in 2009 for $749 million and later folded into the Schwab ecosystem following its 2020 acquisition of TD Ameritrade. Today it remains one of the most capable and widely used professional trading platforms available to retail traders\u2014at no extra cost.\n\nThe scanner suite includes three specialized tools: Stock Hacker for equities and ETFs, Option Hacker for scanning options contracts by Greeks, open interest, and volume, and Spread Hacker for identifying specific multi-leg options spread configurations. Each scanner supports up to 25 simultaneous filters drawn from over 30 fundamental criteria\u2014including cash flow, debt ratios, and revenue\u2014plus 400+ built-in technical indicators. Hundreds of pre-built scan templates are available out of the box, and advanced users can write fully custom scan conditions using ThinkScript, thinkorswim's proprietary scripting language, enabling virtually unlimited scan logic.\n\nWhat sets thinkorswim apart from standalone screeners is its deep integration with a full-service brokerage. Scan results can be executed directly into trades without leaving the platform. PaperMoney, the built-in paper trading simulator, lets traders test scan-based strategies with virtual capital before risking real money. Real-time alerts notify traders of developing setups, and the proprietary Sizzle Index measures unusual options activity relative to historical norms\u2014invaluable for options flow traders. Watchlists, scans, and alerts sync across desktop, web, and mobile.\n\nDespite its extraordinary feature set and unbeatable price point, thinkorswim carries meaningful trade-offs. The platform has a well-earned reputation for a steep learning curve\u2014the interface is dense and can overwhelm traders unfamiliar with options or derivatives. The mobile app, while capable with 300+ indicators, operates as a distinctly different interface from the desktop, which frustrates users who move between devices. There is no active public API for external automation. Still, for active traders seeking institutional-grade multi-market scanning at zero platform cost, thinkorswim Scanner is a category benchmark.",
+  "logo_url": "/logos/thinkorswim-scanner.svg",
+  "screenshots": [],
+  "website_url": "https://www.schwab.com/trading/thinkorswim",
+  "affiliate_url": "",
+  "affiliate_program": "Charles Schwab Affiliate Program",
+  "affiliate_commission": "Referral-based",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Full Stock Hacker, Option Hacker, and Spread Hacker",
+          "Up to 25 filters per scan",
+          "400+ technical indicators and ThinkScript custom scans",
+          "30+ fundamental filters (cash flow, debt ratios, revenue)",
+          "Real-time scanning results",
+          "Hundreds of pre-built scan templates",
+          "PaperMoney paper trading simulator",
+          "Sizzle Index for unusual options activity detection",
+          "Desktop, web, and mobile access with sync",
+          "$0 stock/ETF commissions, $0.65/contract for options"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Completely free with any Charles Schwab brokerage account \u2014 no subscription fees",
+    "ThinkScript enables virtually unlimited custom scan logic and indicators",
+    "Scans stocks, options contracts, spreads, and futures in one integrated platform",
+    "Up to 25 filters combining 400+ technical indicators and 30+ fundamental criteria",
+    "PaperMoney paper trading lets you test scan strategies risk-free with virtual capital"
+  ],
+  "cons": [
+    "Steep learning curve \u2014 dense interface not suited for beginners",
+    "Requires opening a Schwab brokerage account to access the platform",
+    "Mobile app has a separate interface from desktop, making cross-device use inconsistent",
+    "No public API for external automation or programmatic data access"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.9,
+    "value": 5.0,
+    "support": 4.0,
+    "reliability": 4.5
+  },
+  "founded_year": 1999,
+  "company": "Charles Schwab Corporation",
+  "headquarters": "Westlake, Texas",
+  "best_for": [
+    "options traders",
+    "active stock traders",
+    "technical analysts",
+    "multi-market traders"
+  ],
+  "similar_tools": [
+    "finviz",
+    "trade-ideas",
+    "tc2000",
+    "stock-analysis"
+  ],
+  "last_updated": "2026-03-12",
+  "review_status": "published"
+}

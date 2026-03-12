@@ -1,0 +1,122 @@
+{
+  "name": "TC2000 Scanner",
+  "slug": "tc2000-scanner",
+  "category": "stock-screeners",
+  "subcategories": [
+    "technical-screening",
+    "fundamental-screening",
+    "options-scanning"
+  ],
+  "description_short": "TC2000 by Worden Brothers is a fast, US-focused stock scanner and charting platform voted best trading software by Stocks & Commodities for 25 consecutive years.",
+  "description_long": "TC2000, developed by Worden Brothers since 1988, is a premier stock scanning and charting platform built exclusively for US equity and options traders. Its EasyScan feature processes roughly 1,000 stocks in about 2 seconds, making it one of the fastest screening tools available. The platform has earned recognition from Stocks & Commodities Magazine as the best trading software for 25 consecutive years, a testament to its enduring depth and reliability.\n\nThe platform packs over 240 technical indicators alongside 129+ fundamental variables that can be overlaid directly onto charts \u2014 a rare capability that blends technical and fundamental analysis without switching tools. Proprietary indicators like MoneyStream, Balance of Power, and Time Segmented Volume give TC2000 a unique analytical edge unavailable elsewhere. Traders can flip through 1,000 charts in under 30 minutes using spacebar navigation, and custom scan conditions are built using TC2000's PCF (Personal Criteria Formula) language. Historical condition testing, added in Version 20, allows backtesting of scan criteria against past market data.\n\nTC2000 is intentionally US-focused \u2014 it covers NYSE, NASDAQ, and AMEX stocks plus US options and ETFs, but does not support futures, forex, crypto, or international markets. Real-time data requires paid add-ons ($14.99/mo for US stocks, $9.99/mo each for options and index data), which meaningfully raises the effective cost beyond the base subscription price. An integrated brokerage is available but carries non-competitive commissions ($4.95/trade for stocks) compared to zero-commission brokers; most users trade through Schwab, Fidelity, or similar platforms instead.\n\nTC2000 is best suited for active US stock and options traders who prioritize scanning speed, charting depth, and tightly integrated analysis. It rewards traders willing to invest time in the PCF formula language, which unlocks highly customized scan criteria unavailable in most competing tools. For those focused exclusively on US equities and options, TC2000 remains one of the most capable and battle-tested platforms available.",
+  "logo_url": "/logos/tc2000-scanner.svg",
+  "screenshots": [],
+  "website_url": "https://www.tc2000.com",
+  "affiliate_url": "",
+  "affiliate_program": "None",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 24.99,
+    "tiers": [
+      {
+        "name": "Basic",
+        "price_monthly": 24.99,
+        "price_yearly": 249.84,
+        "features": [
+          "EasyScan with 100+ pre-built scans",
+          "240+ technical indicators",
+          "129+ fundamental variables on charts",
+          "Spacebar chart flipping navigation",
+          "End-of-day data included"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 49.99,
+        "price_yearly": 499.8,
+        "features": [
+          "Everything in Basic",
+          "Options chain and volatility tools",
+          "Historical condition testing",
+          "80+ technical scan filters",
+          "70+ fundamental scan filters"
+        ]
+      },
+      {
+        "name": "Premium+",
+        "price_monthly": 99.99,
+        "price_yearly": 999.84,
+        "features": [
+          "Everything in Premium",
+          "11 options variables for scanning",
+          "Advanced options strategy tools",
+          "Priority customer support",
+          "Full access to all platform features"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "etfs"
+  ],
+  "pros": [
+    "Scans ~1,000 stocks in ~2 seconds \u2014 among the fastest screeners available",
+    "240+ technical indicators plus 129+ fundamental variables overlaid on the same chart",
+    "Proprietary indicators (MoneyStream, Balance of Power, Time Segmented Volume) unavailable elsewhere",
+    "Voted best trading software by Stocks & Commodities Magazine for 25 consecutive years",
+    "Spacebar chart flipping lets traders review 1,000 charts in 20\u201330 minutes"
+  ],
+  "cons": [
+    "US markets only \u2014 no futures, forex, crypto, or international stocks",
+    "Real-time data requires costly add-ons ($14.99\u2013$34.97/mo on top of subscription fee)",
+    "Integrated brokerage commissions are not competitive versus zero-commission brokers",
+    "No modern public API for programmatic or automated access"
+  ],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 3.9,
+    "features": 4.5,
+    "value": 3.8,
+    "support": 4.2,
+    "reliability": 4.6
+  },
+  "founded_year": 1988,
+  "company": "Worden Brothers, Inc.",
+  "headquarters": "Wilmington, North Carolina",
+  "best_for": [
+    "active US stock traders",
+    "swing traders",
+    "options traders",
+    "technical and fundamental analysts"
+  ],
+  "similar_tools": [
+    "finviz",
+    "trade-ideas",
+    "stock-rover",
+    "chartmill"
+  ],
+  "last_updated": "2026-03-12",
+  "review_status": "published"
+}

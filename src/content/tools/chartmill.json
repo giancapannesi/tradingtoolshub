@@ -1,0 +1,129 @@
+{
+  "name": "ChartMill",
+  "slug": "chartmill",
+  "category": "stock-screeners",
+  "subcategories": [
+    "fundamental-screeners",
+    "technical-screeners",
+    "international-markets"
+  ],
+  "description_short": "ChartMill is a Belgium-based stock screener with 180+ filters, proprietary trend and value indicators, and 263 pre-built strategies for US, Canadian, and European markets.",
+  "description_long": "ChartMill is a Belgium-based stock screener launched in 2008, offering over 180 technical, fundamental, and descriptive filters across 22,000+ stocks from US, Canadian, and European exchanges. Powered by Barchart data, it covers markets that many US-centric tools overlook, making it a compelling option for traders with international exposure. The platform positions itself as a serious analytical tool without the premium price tag of larger competitors like TradingView or TC2000.\n\nWhat distinguishes ChartMill are its proprietary metrics: the ChartMill Value Indicator, Weinstein Indicator, and Trend Indicator provide unique rating systems for quickly assessing stock quality and momentum. The platform also includes 263 pre-built screening strategies called Trading Ideas, giving beginners and intermediate traders ready-made scans based on proven technical setups. Candlestick pattern detection is integrated directly into the screener, and a dedicated Stock Analyzer enables deep-dive fundamental and technical analysis on individual securities. Watchlists and alerts round out the core feature set.\n\nPricing is straightforward: a free tier provides 6,000 credits per month \u2014 credits are consumed when running screens, viewing charts, or generating reports \u2014 sufficient for light use but constraining for active traders. The paid plan unlocks unlimited access for $34.97 per month or $299.97 per year (approximately $25 per month), representing meaningful savings over most US-based competitors. Historical data extends back 10 years, supporting pattern research and basic backtesting, though the backtesting functionality is acknowledged as limited compared to dedicated platforms.\n\nChartMill's primary drawbacks are its 15-minute data delay on all plans \u2014 there is no real-time data option \u2014 making it unsuitable for day trading or scalping. Charting tools are functional but basic compared to TradingView, the platform covers only stocks and ETFs with no forex, crypto, futures, or options support, and customer support response times have been noted as slower than competitors. Despite these limitations, ChartMill delivers strong value for swing traders and fundamental investors seeking deep screening capabilities at an accessible price.",
+  "logo_url": "/logos/chartmill.svg",
+  "screenshots": [],
+  "website_url": "https://www.chartmill.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "6,000 credits per month",
+          "Limited screen runs (~6-10 per day)",
+          "Access to 180+ filters",
+          "263 pre-built Trading Ideas",
+          "Ads displayed",
+          "15-minute delayed data"
+        ]
+      },
+      {
+        "name": "Pro Monthly",
+        "price_monthly": 34.97,
+        "price_yearly": 419.64,
+        "features": [
+          "Unlimited screen runs",
+          "No ads",
+          "Full access to all filters and indicators",
+          "Proprietary Value, Trend, and Weinstein indicators",
+          "Watchlists and alerts",
+          "Stock Analyzer",
+          "10 years of historical data",
+          "15-minute delayed data"
+        ]
+      },
+      {
+        "name": "Pro Annual",
+        "price_monthly": 24.99,
+        "price_yearly": 299.97,
+        "features": [
+          "Unlimited screen runs",
+          "No ads",
+          "Full access to all filters and indicators",
+          "Proprietary Value, Trend, and Weinstein indicators",
+          "Watchlists and alerts",
+          "Stock Analyzer",
+          "10 years of historical data",
+          "15-minute delayed data",
+          "28% savings vs monthly billing"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs"
+  ],
+  "pros": [
+    "180+ filters combining technical, fundamental, and descriptive criteria in one screener",
+    "263 pre-built Trading Ideas strategies make onboarding easy for beginners",
+    "Proprietary Value, Trend, and Weinstein indicators offer unique stock rating systems",
+    "Covers US, Canadian, and European markets \u2014 rare among stock screeners",
+    "Affordable pricing with a generous free tier for exploratory use"
+  ],
+  "cons": [
+    "15-minute data delay on all plans makes it unsuitable for day trading",
+    "Charting and drawing tools are basic compared to TradingView or TC2000",
+    "Stocks and ETFs only \u2014 no forex, crypto, futures, or options support",
+    "Backtesting is limited and not suitable for systematic strategy development"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.1,
+    "features": 4.3,
+    "value": 4.5,
+    "support": 3.5,
+    "reliability": 4.2
+  },
+  "founded_year": 2008,
+  "company": "ChartMill",
+  "headquarters": "Sint-Niklaas, Belgium",
+  "best_for": [
+    "swing traders",
+    "value investors",
+    "international stock traders",
+    "beginners learning to screen stocks"
+  ],
+  "similar_tools": [
+    "finviz",
+    "trade-ideas",
+    "stock-rover",
+    "tc2000"
+  ],
+  "last_updated": "2026-03-12",
+  "review_status": "published"
+}

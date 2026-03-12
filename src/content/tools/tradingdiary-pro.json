@@ -1,0 +1,123 @@
+{
+  "name": "TradingDiary Pro",
+  "slug": "tradingdiary-pro",
+  "category": "trading-journals",
+  "subcategories": [
+    "desktop-software",
+    "trade-analytics",
+    "tax-reporting"
+  ],
+  "description_short": "Desktop-based trading journal with institutional-grade analytics, 16+ broker integrations, and a one-time purchase model \u2014 no recurring subscription required.",
+  "description_long": "TradingDiary Pro is a powerful desktop trading journal built for serious traders who want deep performance analytics without a monthly subscription. Founded in 2009 and based in Hungary, it offers a one-time license at $149 that includes one year of updates and support, with an optional $49/year renewal thereafter \u2014 making it one of the most cost-effective long-term journaling solutions compared to cloud-based SaaS competitors.\n\nThe software connects directly to 16+ brokers including Interactive Brokers, thinkorswim, TD Ameritrade, Schwab, Fidelity, FXCM, MetaTrader 4, NinjaTrader, tastytrade, TradeStation, DEGIRO, Questrade, and others via one-click import. For unsupported brokers, universal CSV and Excel import ensures traders on any platform can capture their complete trade history with minimal friction.\n\nAnalytics go well beyond basic win/loss tracking. TradingDiary Pro calculates Sharpe Ratio, Sortino Ratio, R-Multiple distributions, Internal Rate of Return, Annual Return, Downside Deviation, and Standard Deviation. Version 24.1 introduced Market-to-Market cumulative reporting, showing daily gain/loss versus prior periods. Built-in capital gains tax reporting automatically generates taxable events in multiple formats, saving traders significant time at tax time.\n\nBecause TradingDiary Pro stores all trade data locally on your machine, traders retain full privacy and control \u2014 a meaningful differentiator from cloud-based journals. The customizable dashboard lets users configure which metrics and reports appear front-and-center, and multi-database support allows managing multiple accounts or strategies in separate portfolios without mixing data.",
+  "logo_url": "/logos/tradingdiary-pro.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradingdiarypro.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free Trial",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Full software access during trial",
+          "All analytics included",
+          "Broker import available",
+          "No credit card required"
+        ]
+      },
+      {
+        "name": "License",
+        "price_monthly": 0,
+        "price_yearly": 149,
+        "features": [
+          "One-time $149 payment",
+          "License for 2 PCs",
+          "1 year of updates and support included",
+          "16+ broker one-click import",
+          "Full advanced analytics suite",
+          "Capital gains tax reporting",
+          "Email support with 48-hour response"
+        ]
+      },
+      {
+        "name": "Annual Support Renewal",
+        "price_monthly": 0,
+        "price_yearly": 49,
+        "features": [
+          "Continued major and minor version updates",
+          "Email support renewal",
+          "All new importer additions",
+          "Required for ongoing update access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "etfs"
+  ],
+  "pros": [
+    "One-time pricing eliminates ongoing subscription costs",
+    "Deep analytics including Sharpe/Sortino ratios, R-Multiple, and IRR",
+    "Local data storage ensures full privacy and offline access",
+    "16+ broker one-click import with CSV fallback for any platform",
+    "Built-in capital gains tax reporting saves time at tax time"
+  ],
+  "cons": [
+    "Desktop-only with no mobile app or web browser access",
+    "Annual fee required to continue receiving updates after first year",
+    "No AI-powered analysis or trade pattern recognition",
+    "Small independent team may mean slower feature development"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 3.9,
+    "features": 4.3,
+    "value": 4.6,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 2009,
+  "company": "TradingDiary Pro",
+  "headquarters": "Hungary",
+  "best_for": [
+    "active traders who want deep performance analytics",
+    "privacy-focused traders preferring local data storage",
+    "cost-conscious traders seeking one-time pricing",
+    "traders needing automated capital gains tax reports"
+  ],
+  "similar_tools": [
+    "tradervue",
+    "tradersync",
+    "edgewonk"
+  ],
+  "last_updated": "2026-03-12",
+  "review_status": "published"
+}

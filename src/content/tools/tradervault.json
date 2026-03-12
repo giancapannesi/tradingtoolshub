@@ -1,0 +1,115 @@
+{
+  "name": "Trading Vault",
+  "slug": "tradervault",
+  "category": "trading-journals",
+  "subcategories": [
+    "forex-journals",
+    "performance-analytics",
+    "psychology-tools"
+  ],
+  "description_short": "Trading Vault is a structured trading journal built around a Plan \u2192 Execute \u2192 Review workflow, offering broker sync, performance analytics, and psychology-focused tools for serious traders.",
+  "description_long": "Trading Vault is a web-based trading journal designed to help traders improve through a disciplined, three-phase workflow: Plan, Execute, and Review. Rather than simply logging trades after the fact, the platform encourages pre-trade planning with ideal risk-to-reward targets and directional predictions, then guides traders through post-trade reflection to identify what went right or wrong.\n\nThe platform offers automatic broker synchronization via MT5, one-click file uploads, and custom CSV imports, making it accessible to traders across brokers and markets. Performance analytics include equity curves, account growth charts, consistency scores, and detailed breakdowns by trading pair, session time, and day of week \u2014 helping traders identify their true edge.\n\nPsychology is a first-class feature in Trading Vault, not an afterthought. The journaling interface is designed to capture the mental state and reasoning behind each trade, giving traders the data to recognize emotional patterns that hurt performance over time. This distinguishes it from analytics-only journals that focus purely on numbers.\n\nTrading Vault offers a free-forever tier covering essential journaling features, making it accessible to newer traders, while the Pro plan unlocks advanced analytics, deeper insights, and additional stat widgets. The platform is web-only with no mobile app currently available. Founded in 2019 and headquartered in Panama, Trading Vault has built a loyal following among forex traders in particular, with user reviews consistently praising its intuitive design, MT5 auto-import, and responsive support team.",
+  "logo_url": "/logos/tradervault.svg",
+  "screenshots": [],
+  "website_url": "https://trading-vault.com",
+  "affiliate_url": "",
+  "affiliate_program": "Unknown",
+  "affiliate_commission": "Unknown",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free Forever",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Core trade journaling",
+          "Manual trade entry",
+          "CSV import",
+          "Basic performance stats",
+          "Plan \u2192 Execute \u2192 Review workflow"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 14.99,
+        "price_yearly": 131.88,
+        "features": [
+          "Everything in Free",
+          "MT5 automatic broker sync",
+          "Advanced performance analytics",
+          "Equity and account growth curves",
+          "Consistency scores and risk metrics",
+          "Best pairs, days, and time window analysis",
+          "Ideal R:R tracking and direction prediction",
+          "Advanced stat widgets",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "futures",
+    "crypto"
+  ],
+  "pros": [
+    "Structured Plan \u2192 Execute \u2192 Review workflow encourages trading discipline",
+    "Free tier available with genuine core journaling features",
+    "MT5 automatic broker sync reduces manual data entry",
+    "Strong focus on trading psychology alongside performance data",
+    "Intuitive, clean design praised consistently by users"
+  ],
+  "cons": [
+    "No mobile app \u2014 web-only limits on-the-go journaling",
+    "Small user review base makes reliability hard to assess",
+    "Explicit multi-market support (stocks, crypto) not well documented",
+    "No public API or third-party integrations beyond MT5"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 3.8,
+    "value": 4.2,
+    "support": 4.3,
+    "reliability": 3.8
+  },
+  "founded_year": 2019,
+  "company": "Trading Vault",
+  "headquarters": "Panama",
+  "best_for": [
+    "forex traders",
+    "traders focused on psychology and discipline",
+    "MT5 platform users",
+    "beginners seeking structured journaling habits"
+  ],
+  "similar_tools": [
+    "tradezella",
+    "edgewonk",
+    "trademetria",
+    "myfxbook"
+  ],
+  "last_updated": "2026-03-12",
+  "review_status": "published"
+}
