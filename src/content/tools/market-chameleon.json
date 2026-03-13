@@ -1,0 +1,146 @@
+{
+  "name": "Market Chameleon",
+  "slug": "market-chameleon",
+  "category": "stock-screeners",
+  "subcategories": [
+    "options-analytics",
+    "earnings-analysis",
+    "volatility-tracking"
+  ],
+  "description_short": "Market Chameleon is a specialized stock and options analytics platform with advanced IV rankings, earnings strategy backtesting, and unusual options flow screening for active traders.",
+  "description_long": "Market Chameleon is a web-based trading analytics platform founded in 2006, built for active stock and options traders who need deep, data-driven insights beyond what typical screeners provide. The platform covers stock data back to 1998 and options data back to 2014, offering a rare combination of historical depth and actionable real-time analytics \u2014 all accessible from a browser with no software installation required.\n\nThe platform's core strength lies in its options analytics suite. Traders can access implied volatility rankings, historical IV percentiles, unusual options volume, block trade screening, and repeat trade detection. Multi-leg strategy backtesting \u2014 covering iron condors, verticals, and butterflies \u2014 lets traders validate approaches against real historical data rather than theoretical models, making it a serious research tool for options-focused traders.\n\nMarket Chameleon's earnings tools are its standout differentiator. The Earnings Trader plan allows users to backtest options strategies across up to 12 past earnings releases, comparing implied moves against actual historical moves and filtering by win rate and average return. This level of earnings-specific analysis is rare among retail-facing analytics platforms and gives options traders a meaningful statistical edge around catalysts.\n\nStock tools include a premarket and postmarket analytics suite with intraday volume data, VWAP, and trades-per-minute breakdowns, plus a stock screener covering sector, market cap, and 52-week range filters. Pricing starts at $39/month for the Stock Trader plan, rising to $99/month for Total Access which unlocks all plan features and unlimited data exports. A 7-day free trial is available on all premium plans, and the platform is also accessible via Interactive Brokers third-party research subscriptions.",
+  "logo_url": "/logos/market-chameleon.svg",
+  "screenshots": [],
+  "website_url": "https://marketchameleon.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Limited data access",
+          "Delayed quotes",
+          "Basic stock screener",
+          "Partial options chain access"
+        ]
+      },
+      {
+        "name": "Stock Trader",
+        "price_monthly": 39,
+        "price_yearly": 0,
+        "features": [
+          "All stock-related tools",
+          "Premarket and postmarket analytics",
+          "Stock data back to 1998",
+          "Dividend forecasts and fundamental data",
+          "2-10 data downloads per day",
+          "Customizable alerts"
+        ]
+      },
+      {
+        "name": "Options Trader",
+        "price_monthly": 69,
+        "price_yearly": 0,
+        "features": [
+          "All Stock Trader features",
+          "Options strategy screeners",
+          "Unusual options flow and order flow sentiment",
+          "Block Trade and Repeat Trade screeners",
+          "Implied volatility rankings and historical IV back to 2014",
+          "Multi-leg strategy backtesting"
+        ]
+      },
+      {
+        "name": "Earnings Trader",
+        "price_monthly": 79,
+        "price_yearly": 0,
+        "features": [
+          "All Stock Trader features",
+          "Earnings strategy backtesting across 12 past releases",
+          "Implied vs actual historical move comparisons",
+          "Filter by win rate and average return",
+          "Earnings-specific options analytics"
+        ]
+      },
+      {
+        "name": "Total Access",
+        "price_monthly": 99,
+        "price_yearly": 0,
+        "features": [
+          "All plans combined",
+          "Unlimited data exports",
+          "Full options and earnings analytics",
+          "All screening tools unlocked",
+          "Complete historical dataset access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Best-in-class earnings strategy backtesting across up to 12 real historical releases",
+    "Deep implied volatility data and IV rankings back to 2014",
+    "Unusual options flow and block trade screening for order flow analysis",
+    "Granular premarket and postmarket analytics with VWAP and volume breakdowns",
+    "Available through Interactive Brokers for streamlined subscription access"
+  ],
+  "cons": [
+    "No mobile app \u2014 browser-only platform limits on-the-go access",
+    "Options and earnings tools split across separate paid plans requiring upgrades",
+    "Interface can feel dense and overwhelming for beginners",
+    "Annual pricing not clearly advertised on the website"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 3.6,
+    "features": 4.7,
+    "value": 4.1,
+    "support": 3.8,
+    "reliability": 4.3
+  },
+  "founded_year": 2006,
+  "company": "Market Chameleon",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "options traders",
+    "earnings traders",
+    "volatility analysts",
+    "active stock traders"
+  ],
+  "similar_tools": [
+    "unusual-whales",
+    "finviz",
+    "barchart",
+    "thinkorswim"
+  ],
+  "last_updated": "2026-03-13",
+  "review_status": "published"
+}
