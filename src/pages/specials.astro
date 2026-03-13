@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import specials from '../content/specials.json';
+
+const deals = specials.specials || [];
+const lastUpdated = specials.last_updated || 'Recently';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Trading Tool Specials & Deals",
+  "url": "https://tradingtoolshub.com/specials",
+  "description": "Current promotions, discounts, and deals on trading tools, brokers, and platforms. Updated weekly."
+};
+---
+<BaseLayout
+  title="Trading Tool Deals & Specials This Week"
+  description={`Current promotions on ${deals.length}+ trading tools. Discounts, free trials, and special offers on brokers, journals, charting platforms, and prop firms. Updated ${lastUpdated}.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">
+        Trading Tool <span class="text-primary">Specials & Deals</span>
+      </h1>
+      <p class="text-lg text-muted max-w-2xl mx-auto mb-2">
+        Current promotions, discounts, and free trials across the trading tool ecosystem.
+        We scan pricing pages weekly to find the best deals.
+      </p>
+      <p class="text-sm text-muted">Last updated: {lastUpdated}</p>
+    </div>
+
+    <!-- Deals Grid -->
+    {deals.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {deals.map((deal: any) => (
+          <div class="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-colors relative overflow-hidden">
+            {/* Discount badge */}
+            {deal.discount_percent > 0 && (
+              <div class="absolute top-4 right-4 bg-green-500/20 text-green-400 text-sm font-bold px-3 py-1 rounded-full">
+                {deal.discount_percent}% OFF
+              </div>
+            )}
+            {deal.deal_type === 'free_trial' && (
+              <div class="absolute top-4 right-4 bg-blue-500/20 text-blue-400 text-sm font-bold px-3 py-1 rounded-full">
+                FREE TRIAL
+              </div>
+            )}
+
+            {/* Category tag */}
+            <div class="mb-3">
+              <span class="text-xs font-medium text-muted bg-bg px-2 py-1 rounded-md">
+                {deal.category}
+              </span>
+              {deal.recurring && (
+                <span class="text-xs font-medium text-primary bg-primary/10 px-2 py-1 rounded-md ml-2">
+                  Recurring
+                </span>
+              )}
+            </div>
+
+            {/* Tool name & deal */}
+            <h2 class="text-lg font-bold text-text mb-2">{deal.tool_name}</h2>
+            <p class="text-sm text-primary font-semibold mb-3">{deal.deal_title}</p>
+            <p class="text-sm text-muted mb-4 leading-relaxed">{deal.deal_description}</p>
+
+            {/* Promo code if available */}
+            {deal.promo_code && (
+              <div class="bg-bg border border-border rounded-lg px-3 py-2 mb-4 text-center">
+                <span class="text-xs text-muted">Promo Code:</span>
+                <span class="text-sm font-mono font-bold text-primary ml-2">{deal.promo_code}</span>
+              </div>
+            )}
+
+            {/* Affiliate commission */}
+            {deal.affiliate_commission && (
+              <p class="text-xs text-muted mb-4">Affiliate: {deal.affiliate_commission}</p>
+            )}
+
+            {/* CTA */}
+            <div class="flex gap-3">
+              <a href={`/review/${deal.slug}`} class="flex-1 text-center text-sm font-medium text-text bg-bg border border-border rounded-xl px-4 py-2 hover:border-primary/50 transition-colors">
+                Read Review
+              </a>
+              <a href={deal.source_url} target="_blank" rel="noopener" class="flex-1 text-center text-sm font-medium text-white bg-primary hover:bg-primary-hover rounded-xl px-4 py-2 transition-colors">
+                Get Deal
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-16">
+        <p class="text-lg text-muted">No active specials right now. Check back next week!</p>
+      </div>
+    )}
+
+    <!-- How We Find Deals -->
+    <section class="bg-card border border-border rounded-2xl p-8 mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">How We Find These Deals</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div>
+          <h3 class="font-semibold text-text mb-2">Weekly Scanning</h3>
+          <p class="text-sm text-muted">We automatically scan pricing pages of 100+ trading tools every week to detect new promotions, price drops, and free trial offers.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-text mb-2">Verified Deals</h3>
+          <p class="text-sm text-muted">Each deal is checked against the source before publishing. We link directly to the tool's pricing page so you can verify the offer yourself.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-text mb-2">No Fake Urgency</h3>
+          <p class="text-sm text-muted">We don't use countdown timers or fake scarcity. Deals are listed as long as they're active, and recurring promotions are labeled clearly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Sections -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <a href="/best" class="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-colors">
+        <h3 class="font-semibold text-text mb-2">Best Trading Tools by Category</h3>
+        <p class="text-sm text-muted">Top-rated tools across every category — journals, charting, brokers, prop firms, and more.</p>
+      </a>
+      <a href="/compare" class="bg-card border border-border rounded-2xl p-6 hover:border-primary/50 transition-colors">
+        <h3 class="font-semibold text-text mb-2">Compare Tools Side-by-Side</h3>
+        <p class="text-sm text-muted">Detailed comparisons with editorial analysis for every matchup.</p>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

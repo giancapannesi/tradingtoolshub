@@ -2,8 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ToolCard from '../components/ToolCard.astro';
 import { getAllTools, getCategories } from '../utils/data';
+import specialsData from '../content/specials.json';
 
 const categories = getCategories();
+const topDeals = (specialsData.specials || []).filter((d: any) => d.discount_percent > 0).slice(0, 3);
 const allTools = getAllTools();
 const featuredTools = [...allTools].sort((a, b) => b.rating - a.rating).slice(0, 6);
 const recentlyUpdated = [...allTools]
@@ -62,6 +64,33 @@ const jsonLd = {
       ))}
     </div>
   </section>
+
+  <!-- Current Deals -->
+  {topDeals.length > 0 && (
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold text-text mb-1">Current Deals & Specials</h2>
+          <p class="text-muted text-sm">Verified promotions on popular trading tools</p>
+        </div>
+        <a href="/specials" class="text-primary hover:text-primary-hover text-sm font-medium">
+          View all deals &rarr;
+        </a>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4">
+        {topDeals.map((deal: any) => (
+          <a href={`/review/${deal.slug}`} class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors relative overflow-hidden group">
+            <div class="absolute top-3 right-3 bg-green-500/20 text-green-400 text-xs font-bold px-2 py-0.5 rounded-full">
+              {deal.discount_percent}% OFF
+            </div>
+            <span class="text-xs text-muted">{deal.category}</span>
+            <h3 class="font-semibold text-text group-hover:text-primary mt-1 mb-1">{deal.tool_name}</h3>
+            <p class="text-xs text-muted line-clamp-2">{deal.deal_description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Featured Tools -->
   {featuredTools.length > 0 && (

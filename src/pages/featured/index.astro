@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getFeaturedIdeas, getToolBySlug } from '../../utils/data';
+
+const featured = getFeaturedIdeas().sort((a, b) =>
+  new Date(b.published_date).getTime() - new Date(a.published_date).getTime()
+);
+
+const categories = [...new Set(featured.map(f => f.category_tag))];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Featured Ideas — In-Depth Trading Tool Reviews",
+  "url": "https://tradingtoolshub.com/featured/",
+  "description": "Deep-dive editorial reviews of the best trading tools, platforms, and prop firms. Download our free PDF reviews."
+};
+---
+<BaseLayout
+  title="Featured Ideas — Deep-Dive Trading Tool Reviews"
+  description="Go beyond the basics. In-depth editorial reviews of the best trading tools, prop firms, and platforms — with free downloadable PDF reviews."
+  jsonLd={jsonLd}
+>
+  <!-- Breadcrumbs -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+    <nav class="text-sm text-muted">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">Featured Ideas</span>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+    <div class="max-w-3xl">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-4">
+        Featured <span class="text-featured">Ideas</span>
+      </h1>
+      <p class="text-lg text-muted">
+        Deep-dive editorial reviews that go far beyond the basics. We break down the best trading tools, prop firms, and platforms with real analysis, practical insights, and free downloadable PDF reviews.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filter Tags -->
+  {categories.length > 1 && (
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+      <div class="flex flex-wrap gap-2">
+        <span class="px-3 py-1.5 text-sm font-medium bg-primary/20 text-primary rounded-lg">All</span>
+        {categories.map(cat => (
+          <span class="px-3 py-1.5 text-sm font-medium bg-card text-muted rounded-lg border border-border hover:text-text transition-colors cursor-pointer">
+            {cat.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+          </span>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Featured Ideas Grid -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+    {featured.length === 0 ? (
+      <div class="text-center py-20">
+        <p class="text-muted text-lg">Featured ideas coming soon. Check back shortly.</p>
+      </div>
+    ) : (
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {featured.map(idea => {
+          const tool = getToolBySlug(idea.tool_slug);
+          return (
+            <a href={`/featured/${idea.slug}/`} class="group bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 hover:-translate-y-0.5 transition-all">
+              <!-- Category Tag + Read Time -->
+              <div class="px-6 pt-6 flex items-center justify-between">
+                <span class="px-2.5 py-1 text-xs font-medium bg-featured/15 text-featured rounded-md">
+                  {idea.category_tag.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                </span>
+                <span class="text-xs text-muted">{idea.read_time_minutes} min read</span>
+              </div>
+              <!-- Content -->
+              <div class="p-6">
+                {tool && (
+                  <div class="flex items-center gap-2 mb-3">
+                    <img src={tool.logo_url} alt={tool.name} class="w-6 h-6 rounded" loading="lazy" />
+                    <span class="text-sm text-muted">{tool.name}</span>
+                    <span class="text-xs text-featured ml-auto">{tool.rating.toFixed(1)}/5</span>
+                  </div>
+                )}
+                <h2 class="text-lg font-semibold text-text group-hover:text-primary transition-colors mb-2 line-clamp-2">
+                  {idea.title}
+                </h2>
+                <p class="text-sm text-muted line-clamp-3 mb-4">{idea.excerpt}</p>
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-muted">{new Date(idea.published_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                  <span class="inline-flex items-center gap-1 text-xs text-primary font-medium">
+                    <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    PDF
+                  </span>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    )}
+  </section>
+</BaseLayout>

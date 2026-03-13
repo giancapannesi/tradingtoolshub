@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import RatingStars from '../../components/RatingStars.astro';
+import { getFeaturedIdeas, getFeaturedBySlug, getToolBySlug } from '../../utils/data';
+
+export function getStaticPaths() {
+  const ideas = getFeaturedIdeas();
+  return ideas.map(idea => ({ params: { slug: idea.slug }, props: { idea } }));
+}
+
+const { idea } = Astro.props;
+const tool = getToolBySlug(idea.tool_slug);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": idea.title,
+    "description": idea.meta_description,
+    "datePublished": idea.published_date,
+    "dateModified": idea.last_updated,
+    "author": { "@type": "Organization", "name": "TradingToolsHub" },
+    "publisher": { "@type": "Organization", "name": "TradingToolsHub", "url": "https://tradingtoolshub.com" },
+    "mainEntityOfPage": `https://tradingtoolshub.com/featured/${idea.slug}/`
+  },
+  ...(tool ? [{
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "name": tool.name,
+      "applicationCategory": "FinanceApplication"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": String(tool.rating),
+      "bestRating": "5"
+    },
+    "author": { "@type": "Organization", "name": "TradingToolsHub" }
+  }] : [])
+];
+---
+<BaseLayout
+  title={idea.meta_title}
+  description={idea.meta_description}
+  jsonLd={jsonLd}
+>
+  <!-- Breadcrumbs -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+    <nav class="text-sm text-muted">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/featured/" class="hover:text-text transition-colors">Featured Ideas</a>
+      <span class="mx-2">/</span>
+      <span class="text-text line-clamp-1">{tool?.name || idea.title}</span>
+    </nav>
+  </div>
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <!-- Header -->
+    <header class="mb-10">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="px-2.5 py-1 text-xs font-medium bg-featured/15 text-featured rounded-md">
+          {idea.category_tag.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+        </span>
+        <span class="text-sm text-muted">{idea.read_time_minutes} min read</span>
+        <span class="text-sm text-muted ml-auto">
+          Updated {new Date(idea.last_updated).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+        </span>
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold text-text leading-tight mb-4">{idea.title}</h1>
+      <p class="text-lg text-muted">{idea.excerpt}</p>
+    </header>
+
+    <!-- Tool Info Card -->
+    {tool && (
+      <div class="bg-card border border-border rounded-xl p-6 mb-10">
+        <div class="flex flex-col sm:flex-row items-start gap-6">
+          <div class="flex items-center gap-4 flex-1">
+            <img src={tool.logo_url} alt={tool.name} class="w-14 h-14 rounded-lg" loading="lazy" />
+            <div>
+              <h2 class="text-xl font-semibold text-text">{tool.name}</h2>
+              <p class="text-sm text-muted">{tool.description_short}</p>
+              <div class="flex items-center gap-3 mt-2">
+                <RatingStars rating={tool.rating} />
+                <span class="text-sm text-featured font-medium">{tool.rating.toFixed(1)}/5</span>
+                <span class="text-sm text-muted">|</span>
+                <span class="text-sm text-muted">
+                  {tool.pricing.has_free_tier ? 'Free plan available' : `From $${tool.pricing.starting_price}/mo`}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2 sm:items-end w-full sm:w-auto">
+            {tool.affiliate_url ? (
+              <a href={tool.affiliate_url} target="_blank" rel="noopener sponsored" class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors">
+                Try {tool.name}
+              </a>
+            ) : (
+              <a href={tool.website_url} target="_blank" rel="noopener" class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors">
+                Visit {tool.name}
+              </a>
+            )}
+            <a href={`/review/${tool.slug}/`} class="text-sm text-primary hover:underline text-center">Read full review</a>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Download PDF Banner -->
+    <div class="bg-gradient-to-r from-primary/10 to-featured/10 border border-primary/30 rounded-xl p-6 mb-10 flex flex-col sm:flex-row items-center gap-4">
+      <div class="flex-1">
+        <h3 class="text-lg font-semibold text-text mb-1">Download the Full PDF Review</h3>
+        <p class="text-sm text-muted">Save this deep-dive for offline reading. Free, no email required.</p>
+      </div>
+      <a href={`/downloads/${idea.pdf_filename}`} download class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors whitespace-nowrap">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+        Download PDF
+      </a>
+    </div>
+
+    <!-- Article Content -->
+    <div class="prose prose-invert max-w-none
+      [&>h2]:text-2xl [&>h2]:font-bold [&>h2]:text-text [&>h2]:mt-10 [&>h2]:mb-4
+      [&>h3]:text-xl [&>h3]:font-semibold [&>h3]:text-text [&>h3]:mt-8 [&>h3]:mb-3
+      [&>p]:text-muted [&>p]:leading-relaxed [&>p]:mb-4
+      [&>ul]:text-muted [&>ul]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li]:mb-2
+      [&>ol]:text-muted [&>ol]:mb-4 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol>li]:mb-2
+      [&>blockquote]:border-l-4 [&>blockquote]:border-primary [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:text-muted [&>blockquote]:my-6
+      [&_a]:text-primary [&_a]:underline [&_a:hover]:text-primary-hover
+      [&_strong]:text-text [&_strong]:font-semibold
+      [&_table]:w-full [&_table]:border-collapse [&_table]:my-6
+      [&_th]:bg-card [&_th]:border [&_th]:border-border [&_th]:px-4 [&_th]:py-2 [&_th]:text-left [&_th]:text-text [&_th]:font-semibold
+      [&_td]:border [&_td]:border-border [&_td]:px-4 [&_td]:py-2 [&_td]:text-muted
+    " set:html={idea.content} />
+
+    <!-- Bottom PDF CTA -->
+    <div class="mt-12 bg-card border border-border rounded-xl p-6 flex flex-col sm:flex-row items-center gap-4">
+      <div class="flex-1">
+        <h3 class="text-lg font-semibold text-text mb-1">Enjoyed this deep dive?</h3>
+        <p class="text-sm text-muted">Download the PDF to keep it handy for reference.</p>
+      </div>
+      <a href={`/downloads/${idea.pdf_filename}`} download class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg transition-colors whitespace-nowrap">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+        Download PDF
+      </a>
+    </div>
+
+    <!-- Related Featured Ideas -->
+    {(() => {
+      const related = getFeaturedIdeas()
+        .filter(f => f.slug !== idea.slug)
+        .sort((a, b) => {
+          const tagMatch = (f: typeof idea) => f.category_tag === idea.category_tag ? 1 : 0;
+          return tagMatch(b) - tagMatch(a) || new Date(b.published_date).getTime() - new Date(a.published_date).getTime();
+        })
+        .slice(0, 3);
+      return related.length > 0 ? (
+        <section class="mt-16">
+          <h2 class="text-2xl font-bold text-text mb-6">More Featured Ideas</h2>
+          <div class="grid gap-6 md:grid-cols-3">
+            {related.map(r => {
+              const rTool = getToolBySlug(r.tool_slug);
+              return (
+                <a href={`/featured/${r.slug}/`} class="group bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-all">
+                  <span class="px-2 py-0.5 text-xs font-medium bg-featured/15 text-featured rounded-md">
+                    {r.category_tag.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                  </span>
+                  <h3 class="text-base font-semibold text-text group-hover:text-primary transition-colors mt-3 mb-2 line-clamp-2">{r.title}</h3>
+                  <p class="text-sm text-muted line-clamp-2">{r.excerpt}</p>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      ) : null;
+    })()}
+  </article>
+</BaseLayout>
