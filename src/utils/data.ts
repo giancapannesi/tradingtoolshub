@@ -130,6 +130,34 @@ export function getListicles(): Listicle[] {
   return JSON.parse(raw) as Listicle[];
 }
 
+export interface FeaturedIdea {
+  slug: string;
+  title: string;
+  tool_slug: string;
+  category_tag: string;
+  excerpt: string;
+  content: string;
+  target_keyword: string;
+  meta_title: string;
+  meta_description: string;
+  published_date: string;
+  last_updated: string;
+  read_time_minutes: number;
+  pdf_filename: string;
+  tags: string[];
+}
+
+export function getFeaturedIdeas(): FeaturedIdea[] {
+  const filePath = path.join(CONTENT_DIR, 'featured.json');
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, 'utf-8');
+  return JSON.parse(raw) as FeaturedIdea[];
+}
+
+export function getFeaturedBySlug(slug: string): FeaturedIdea | undefined {
+  return getFeaturedIdeas().find(f => f.slug === slug);
+}
+
 export function getSimilarTools(tool: Tool, limit = 5): Tool[] {
   const all = getAllTools();
   const similar = tool.similar_tools

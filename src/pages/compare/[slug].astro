@@ -22,7 +22,13 @@ if (!toolA || !toolB) {
 }
 
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
+const loser = winner === toolA ? toolB : toolA;
 const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
+
+// Data-driven meta description for better CTR
+const fmtPrice = (t: any) => t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
+const winnerEdge = winner.pros[0] ? ` ${winner.name} wins on ${winner.pros[0].toLowerCase().replace(/\.$/, '')}.` : '';
+const metaDescription = `${toolA.name} (${toolA.rating.toFixed(1)}★, ${fmtPrice(toolA)}) vs ${toolB.name} (${toolB.rating.toFixed(1)}★, ${fmtPrice(toolB)}) —${winnerEdge} Full 2026 side-by-side comparison with pricing, features, and verdict.`;
 
 // Build FAQ answers dynamically from tool data
 const pricingA = toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
@@ -73,7 +79,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": comparison.title,
-    "description": `Compare ${toolA.name} vs ${toolB.name} — features, pricing, pros and cons side-by-side.`,
+    "description": metaDescription,
     "datePublished": toolA.last_updated,
     "author": { "@type": "Organization", "name": "TradingToolsHub" }
   },
@@ -91,7 +97,7 @@ const jsonLd = [
 ---
 <BaseLayout
   title={comparison.title}
-  description={`Compare ${toolA.name} vs ${toolB.name} — features, pricing, and honest analysis to help you choose the right tool.`}
+  description={metaDescription}
   jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -15,6 +15,14 @@ export function getStaticPaths() {
 const { tool } = Astro.props;
 const alternatives = getSimilarTools(tool, 6);
 
+// Data-driven meta description for better CTR
+const topAlts = alternatives.slice(0, 3);
+const altNames = topAlts.map(a => a.name).join(', ');
+const cheapest = alternatives.reduce((min, a) => (a.pricing.starting_price || Infinity) < (min.pricing.starting_price || Infinity) ? a : min, alternatives[0]);
+const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
+const topRated = alternatives.reduce((best, a) => a.rating > best.rating ? a : best, alternatives[0]);
+const metaDescription = `Best ${tool.name} alternatives for 2026: ${altNames}, and more. ${topRated.name} leads at ${topRated.rating.toFixed(1)}★. Cheapest option: ${cheapest.name} (${cheapestLabel}). Side-by-side feature and pricing comparison.`;
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -42,7 +50,7 @@ const jsonLd = [
 ---
 <BaseLayout
   title={`Best ${tool.name} Alternatives 2026 — Top Competitors Compared`}
-  description={`Looking for ${tool.name} alternatives? Compare the top ${alternatives.length} competitors with features, pricing, and honest reviews.`}
+  description={metaDescription}
   jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

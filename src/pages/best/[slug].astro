@@ -26,6 +26,14 @@ const intraComparisons = allComparisons
   .filter(c => toolSlugs.has(c.tool_a) && toolSlugs.has(c.tool_b))
   .slice(0, 6);
 
+// Data-driven meta description for better CTR
+const topTools = tools.slice(0, 3);
+const toolNames = topTools.map(t => t.name).join(', ');
+const topRated = tools[0];
+const cheapest = tools.reduce((min, t) => (t.pricing.starting_price || Infinity) < (min.pricing.starting_price || Infinity) ? t : min, tools[0]);
+const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
+const metaDescription = `${listicle.title}: ${toolNames}, and ${tools.length - 3} more ranked by experts. #1 pick: ${topRated.name} (${topRated.rating.toFixed(1)}★). Cheapest: ${cheapest.name} (${cheapestLabel}). Updated for 2026.`;
+
 const jsonLd = [
   {
     "@context": "https://schema.org",
@@ -53,7 +61,7 @@ const jsonLd = [
 ---
 <BaseLayout
   title={listicle.title}
-  description={listicle.description}
+  description={metaDescription}
   jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
