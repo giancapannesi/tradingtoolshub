@@ -1,0 +1,144 @@
+{
+  "name": "FundedPrime",
+  "slug": "fundedprime",
+  "category": "prop-firms",
+  "subcategories": [
+    "forex-prop-firms",
+    "crypto-prop-firms",
+    "multi-asset-prop-firms"
+  ],
+  "description_short": "Australian prop firm offering 1-phase, 2-phase, stock, and meme coin challenges with 800+ instruments, 80% profit split, and low entry fees starting at $35.",
+  "description_long": "FundedPrime is an Australian proprietary trading firm launched publicly in 2024 under the PropTradeTech umbrella, which also operates Profitex and Focus Funded. Powered by Eightcap, a regulated Australian broker, FundedPrime gives traders access to funded accounts up to $800,000 across four distinct challenge types: 1-Phase, 2-Phase, Stock, and a unique Meme Coin challenge \u2014 making it the only prop firm to offer a dedicated meme coin evaluation program.\n\nThe challenge structure is notably flexible. The 1-Phase program requires a single 10% profit target, while the 2-Phase uses a two-step approach (10%, then 5%). The Stock challenge focuses on equity trading with an 8% target, and the Meme Coin challenge targets crypto volatility traders seeking exposure to high-momentum digital assets. Entry fees are competitive across all tiers, starting as low as $35 for a $5,000 Stock challenge, with maximum allocations reaching $800,000. There are no strict time limits on evaluations, reducing pressure on traders.\n\nTraders execute evaluations on DXTrade (web-based) and TradeLocker (web and mobile), both offering real-time syncing and modern interfaces. FundedPrime supports 800+ instruments including forex pairs, commodities, global indices, US and international stocks, and cryptocurrencies. Standard drawdown rules apply \u2014 5% daily and 10% total \u2014 while the Meme Coin challenge uses a trailing 5% drawdown with no daily limit. Weekend trading is permitted, and 1:50 leverage is available on standard challenges.\n\nProfit splits start at 80% and can be upgraded to 90% for an additional fee. Payouts are processed within 48 business hours \u2014 weekly for 2-Phase accounts and every 14 days for other types \u2014 via bank transfer or cryptocurrency. A reported $50 bank transfer fee and non-refundable challenge fees are notable drawbacks. With a 4.1/5 rating on Trustpilot from early adopters, FundedPrime shows promise as a newer entrant, though its relatively short operating history and limited transparency around its parent company structure warrant careful consideration.",
+  "logo_url": "/logos/fundedprime.svg",
+  "screenshots": [],
+  "website_url": "https://www.fundedprime.com",
+  "affiliate_url": "",
+  "affiliate_program": "FundedPrime Affiliate Program",
+  "affiliate_commission": "Unknown",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 35,
+    "tiers": [
+      {
+        "name": "Stock Challenge",
+        "price_monthly": 35,
+        "price_yearly": 0,
+        "features": [
+          "Starting from $5,000 funded account",
+          "8% profit target",
+          "5% daily / 10% total drawdown",
+          "US and international stocks",
+          "80% profit split",
+          "Payout every 14 days"
+        ]
+      },
+      {
+        "name": "2-Phase Challenge",
+        "price_monthly": 45,
+        "price_yearly": 0,
+        "features": [
+          "Starting from $5,000 funded account",
+          "10% Phase 1, then 5% Phase 2 profit targets",
+          "5% daily / 10% total drawdown",
+          "Forex, commodities, indices, crypto",
+          "News trading permitted",
+          "80% profit split",
+          "Weekly payouts"
+        ]
+      },
+      {
+        "name": "1-Phase Challenge",
+        "price_monthly": 55,
+        "price_yearly": 0,
+        "features": [
+          "Starting from $5,000 funded account",
+          "Single 10% profit target",
+          "5% daily / 10% total drawdown",
+          "Forex, commodities, indices, crypto",
+          "1:50 leverage",
+          "80% profit split",
+          "Payout every 14 days"
+        ]
+      },
+      {
+        "name": "Meme Coin Challenge",
+        "price_monthly": 67,
+        "price_yearly": 0,
+        "features": [
+          "Starting from $5,000 funded account",
+          "8% profit target",
+          "5% trailing drawdown (no daily limit)",
+          "Crypto and meme coin markets",
+          "1:10 leverage",
+          "80% profit split",
+          "Payout every 14 days",
+          "Only prop firm offering meme coin evaluation"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "commodities",
+    "indices",
+    "crypto"
+  ],
+  "pros": [
+    "Only prop firm offering a dedicated Meme Coin challenge",
+    "Multiple challenge types accommodate different trading styles",
+    "Low entry fees starting at $35 for a $5,000 stock account",
+    "No time limits on evaluations reduce trader pressure",
+    "Powered by Eightcap, a regulated Australian broker with 800+ instruments"
+  ],
+  "cons": [
+    "Challenge fees are non-refundable",
+    "$50 fee reported on bank transfer payouts",
+    "Parent company PropTradeTech has limited public transparency",
+    "News trading restricted within 10 minutes of major events on most challenge types"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.3,
+    "value": 4.1,
+    "support": 3.7,
+    "reliability": 3.8
+  },
+  "founded_year": 2023,
+  "company": "PropTradeTech (FundedPrime)",
+  "headquarters": "Melbourne, Australia",
+  "best_for": [
+    "crypto and meme coin traders",
+    "forex traders seeking funded accounts",
+    "budget-conscious traders",
+    "traders wanting flexible evaluation structures"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the5ers",
+    "fundednext",
+    "topstep"
+  ],
+  "last_updated": "2026-03-15",
+  "review_status": "published"
+}

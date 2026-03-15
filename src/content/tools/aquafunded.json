@@ -1,0 +1,135 @@
+{
+  "name": "AquaFunded",
+  "slug": "aquafunded",
+  "category": "prop-firms",
+  "subcategories": [
+    "forex-prop-firms",
+    "instant-funding",
+    "multi-step-challenges"
+  ],
+  "description_short": "AquaFunded is a Dubai-based prop firm offering 1-step, 2-step, 3-step, and instant funding challenges across forex, indices, commodities, and crypto with up to 100% profit splits.",
+  "description_long": "AquaFunded is a proprietary trading firm founded in 2023 and headquartered in Dubai, UAE. The firm provides traders with funded accounts ranging from $2,500 to $400,000 \u2014 scalable up to $2 million \u2014 through multiple evaluation models: 1-step, 2-step (static or trailing drawdown), 3-step challenges, and instant funding options for those who want to bypass the evaluation process entirely.\n\nThe platform supports MT5, cTrader, Match Trader, and TradeLocker, covering forex (60+ pairs), indices, commodities, and cryptocurrencies. Stocks are not supported, and futures are offered through a separate product, AquaFutures (aquafutures.io), with up to $450,000 in funding. The standard profit split is 90%, upgradeable to 95% or 100% as a paid add-on. Payouts are processed within 24 hours and are available 14 days after the first trade. Challenge fees are refunded after the 4th payout, and no activation fees are charged at funding or scaling stages.\n\nScaling is built into the model: traders who achieve 12% profit over a 3-month period receive a 25% account size increase, with a maximum ceiling of $2 million. No time limits are imposed on evaluations, which distinguishes AquaFunded from many competitors that enforce strict deadline pressure. The firm also offers a tiered affiliate program starting at 15% commission with cash bonuses up to $2,500 for high-volume partners.\n\nAquaFunded has grown to over 118,000 traders since launch, but user reception is mixed. The firm holds a 3.2/5 rating on Trustpilot (1,319 reviews) and its profile has been flagged for guideline breaches related to review authenticity. As a firm founded in 2023 with a St. Lucia legal entity and Dubai operations, traders should start with smaller challenges to verify payout reliability before scaling up.",
+  "logo_url": "/logos/aquafunded.svg",
+  "screenshots": [],
+  "website_url": "https://aquafunded.com",
+  "affiliate_url": "",
+  "affiliate_program": "AquaFunded Refer & Earn Program",
+  "affiliate_commission": "15\u201320% tiered commission plus cash bonuses up to $2,500",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 19,
+    "tiers": [
+      {
+        "name": "Instant Funding $2.5K",
+        "price_monthly": 19,
+        "price_yearly": 0,
+        "features": [
+          "$2,500 funded account",
+          "No evaluation phase",
+          "90% profit split",
+          "MT5, cTrader, Match Trader, TradeLocker",
+          "Refundable after 4th payout"
+        ]
+      },
+      {
+        "name": "2-Step Challenge $10K",
+        "price_monthly": 97,
+        "price_yearly": 0,
+        "features": [
+          "$10,000 evaluation account",
+          "Static or trailing drawdown option",
+          "No time limit",
+          "90% profit split",
+          "Scaling pathway to $2M"
+        ]
+      },
+      {
+        "name": "1-Step Challenge $25K",
+        "price_monthly": 199,
+        "price_yearly": 0,
+        "features": [
+          "$25,000 evaluation account",
+          "Single-phase evaluation",
+          "No time limit",
+          "90% profit split",
+          "24-hour payout processing"
+        ]
+      },
+      {
+        "name": "2-Step Challenge $100K",
+        "price_monthly": 549,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 evaluation account",
+          "Static or trailing drawdown option",
+          "No time limit",
+          "90% profit split",
+          "Upgradeable to 100% profit split"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "crypto"
+  ],
+  "pros": [
+    "Multiple challenge types: 1-step, 2-step, 3-step, and instant funding",
+    "Up to 100% profit split available as add-on",
+    "No time limits on evaluation phases",
+    "Fast 24-hour payout processing after 14-day holding period",
+    "Scaling pathway to $2 million funded account"
+  ],
+  "cons": [
+    "Mixed user reviews \u2014 3.2/5 on Trustpilot with profile flagged for guideline breaches",
+    "No stocks trading; futures only via separate AquaFutures product",
+    "Relatively new firm (2023) with limited long-term track record",
+    "Challenge fees forfeited on hard breach before the 4th payout"
+  ],
+  "rating": 3.6,
+  "rating_breakdown": {
+    "ease_of_use": 3.7,
+    "features": 4.0,
+    "value": 3.5,
+    "support": 3.3,
+    "reliability": 3.4
+  },
+  "founded_year": 2023,
+  "company": "Aquafunded LTD",
+  "headquarters": "Dubai, UAE",
+  "best_for": [
+    "forex traders",
+    "swing traders",
+    "part-time traders",
+    "traders seeking instant funding"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "fundednext",
+    "the5ers",
+    "myfundedfx"
+  ],
+  "last_updated": "2026-03-15",
+  "review_status": "published"
+}

@@ -1,0 +1,146 @@
+{
+  "last_updated": "2026-03-15",
+  "description": "Traditional and institutional proprietary trading firms that hire traders directly. These firms provide capital, infrastructure, and training — no challenge fee required.",
+  "cities": [
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "description": "Chicago is the global capital of futures and options trading, home to the CME Group and CBOE. Most Chicago prop firms specialize in derivatives, market making, and quantitative strategies.",
+      "firms": [
+        {"name": "Jump Trading", "markets": ["futures", "options", "crypto"], "style": "Quantitative/HFT", "careers_url": "https://www.jumptrading.com/careers/", "notable": "One of the largest HFT firms globally"},
+        {"name": "Citadel Securities", "markets": ["equities", "options", "futures"], "style": "Market Making/Quant", "careers_url": "https://www.citadelsecurities.com/careers/", "notable": "Handles ~25% of US equity volume"},
+        {"name": "DRW Trading", "markets": ["futures", "options", "crypto"], "style": "Quantitative/Discretionary", "careers_url": "https://drw.com/careers/", "notable": "Major crypto market maker via Cumberland"},
+        {"name": "Optiver", "markets": ["options", "ETFs", "futures"], "style": "Market Making", "careers_url": "https://optiver.com/working-at-optiver/career-opportunities/", "notable": "Amsterdam-founded, major Chicago presence"},
+        {"name": "IMC Trading", "markets": ["options", "ETFs", "bonds"], "style": "Market Making", "careers_url": "https://www.imc.com/us/careers/", "notable": "Global market maker, Amsterdam HQ"},
+        {"name": "Akuna Capital", "markets": ["options", "crypto", "futures"], "style": "Market Making/Quant", "careers_url": "https://akunacapital.com/careers", "notable": "Known for strong intern program"},
+        {"name": "Belvedere Trading", "markets": ["options", "futures"], "style": "Market Making", "careers_url": "https://www.belvederetrading.com/careers/", "notable": "Employee-owned, options focused"},
+        {"name": "Wolverine Trading", "markets": ["options", "equities", "futures"], "style": "Market Making/Arbitrage", "careers_url": "https://www.wolve.com/careers", "notable": "40+ year track record"},
+        {"name": "Peak6", "markets": ["options", "equities"], "style": "Options Trading/Tech", "careers_url": "https://www.peak6.com/careers/", "notable": "Also owns Apex Fintech Solutions"},
+        {"name": "Geneva Trading", "markets": ["futures", "options"], "style": "Proprietary", "careers_url": "https://www.genevatrading.com/careers/", "notable": "Mid-size Chicago firm"},
+        {"name": "Group One Trading", "markets": ["options", "equities"], "style": "Market Making", "careers_url": "https://www.grouponetrading.com/careers/", "notable": "Options market maker on multiple exchanges"},
+        {"name": "Hard Eight Trading", "markets": ["futures", "options"], "style": "Quantitative", "careers_url": "", "notable": "Futures-focused quant firm"},
+        {"name": "Infinium Capital Management", "markets": ["futures", "options", "equities"], "style": "Market Making/Quant", "careers_url": "", "notable": "Multi-asset market maker"},
+        {"name": "Ronin Capital", "markets": ["options", "futures", "equities"], "style": "Market Making", "careers_url": "", "notable": "Boutique prop shop"},
+        {"name": "Spot Trading", "markets": ["options", "equities"], "style": "Market Making", "careers_url": "", "notable": "Chicago options specialist"},
+        {"name": "Teza Technologies", "markets": ["equities", "futures"], "style": "Quantitative/HFT", "careers_url": "https://www.teza.com/careers/", "notable": "Founded by former Citadel quant"},
+        {"name": "Trading Technologies", "markets": ["futures"], "style": "Technology/Trading", "careers_url": "https://www.tradingtechnologies.com/careers/", "notable": "TT platform used industry-wide"},
+        {"name": "Allston Trading", "markets": ["equities", "futures", "options"], "style": "HFT/Quant", "careers_url": "https://www.allstontrading.com/careers/", "notable": "High-frequency market maker"},
+        {"name": "Old Mission Capital", "markets": ["equities", "options", "ETFs"], "style": "Market Making/Quant", "careers_url": "https://www.oldmissioncapital.com/careers/", "notable": "Systematic market maker"},
+        {"name": "Tradebot Systems", "markets": ["equities"], "style": "HFT", "careers_url": "", "notable": "Kansas City-founded, Chicago office"},
+        {"name": "Houndstooth Capital", "markets": ["options", "futures"], "style": "Proprietary", "careers_url": "", "notable": "Options-focused prop firm"},
+        {"name": "Consolidated Trading", "markets": ["options", "futures"], "style": "Market Making", "careers_url": "https://www.consolidatedtrading.com/careers/", "notable": "CBOE market maker"},
+        {"name": "XR Trading", "markets": ["equities", "futures", "options"], "style": "Quantitative/HFT", "careers_url": "https://www.xrtrading.com/careers/", "notable": "Multi-asset quant trading"},
+        {"name": "Gelber Group", "markets": ["futures", "options", "energy"], "style": "Proprietary", "careers_url": "https://www.gelbergroup.com/careers/", "notable": "Energy and commodities focus"},
+        {"name": "CTC Trading Group", "markets": ["options", "futures"], "style": "Market Making", "careers_url": "", "notable": "Chicago options specialist"},
+        {"name": "Eclipse Trading", "markets": ["options", "equities"], "style": "Market Making", "careers_url": "", "notable": "Options market maker"},
+        {"name": "TransMarket Group", "markets": ["futures", "options", "equities"], "style": "Multi-strategy", "careers_url": "https://www.transmarketgroup.com/careers/", "notable": "Discretionary and systematic"},
+        {"name": "Kershner Trading Group", "markets": ["equities", "options"], "style": "Proprietary", "careers_url": "https://www.ktgtraders.com/", "notable": "Austin HQ, Chicago office"},
+        {"name": "Cutler Group", "markets": ["options", "equities"], "style": "Proprietary", "careers_url": "https://www.cutlergroup.com/careers/", "notable": "Options-focused training"},
+        {"name": "Chopper Trading", "markets": ["equities", "options"], "style": "Proprietary/HFT", "careers_url": "", "notable": "Now part of DRW"}
+      ]
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "description": "New York is the center of US equity markets, home to the NYSE and NASDAQ. NYC prop firms tend to focus on equities, fixed income, and multi-strategy approaches.",
+      "firms": [
+        {"name": "Jane Street", "markets": ["ETFs", "options", "bonds", "crypto"], "style": "Quantitative/Market Making", "careers_url": "https://www.janestreet.com/join-jane-street/", "notable": "One of the most prestigious quant firms"},
+        {"name": "Two Sigma", "markets": ["equities", "futures", "macro"], "style": "Quantitative/Systematic", "careers_url": "https://www.twosigma.com/careers/", "notable": "Manages $60B+, AI-driven"},
+        {"name": "D.E. Shaw", "markets": ["equities", "macro", "systematic"], "style": "Quantitative/Multi-strategy", "careers_url": "https://www.deshaw.com/careers", "notable": "Pioneer in quant trading"},
+        {"name": "Tower Research Capital", "markets": ["equities", "futures", "options"], "style": "HFT/Quant", "careers_url": "https://www.tower-research.com/careers", "notable": "High-frequency market maker"},
+        {"name": "Hudson River Trading", "markets": ["equities", "futures"], "style": "HFT/Quant", "careers_url": "https://www.hudsonrivertrading.com/careers/", "notable": "Major HFT firm"},
+        {"name": "Virtu Financial", "markets": ["equities", "options", "fixed income", "FX"], "style": "Market Making/HFT", "careers_url": "https://www.virtu.com/careers/", "notable": "Publicly traded (VIRT)"},
+        {"name": "Susquehanna International Group (SIG)", "markets": ["options", "equities", "ETFs"], "style": "Options/Market Making", "careers_url": "https://sig.com/careers/", "notable": "One of largest options traders globally"},
+        {"name": "SMB Capital", "markets": ["equities", "options"], "style": "Discretionary/Training", "careers_url": "https://www.smbtraining.com/", "notable": "Mike Bellafiore, training-focused"},
+        {"name": "T3 Trading Group", "markets": ["equities", "options"], "style": "Proprietary", "careers_url": "https://t3trading.com/", "notable": "Remote and in-office traders"},
+        {"name": "Bright Trading", "markets": ["equities"], "style": "Proprietary", "careers_url": "https://www.brighttrading.com/", "notable": "One of oldest retail prop firms"},
+        {"name": "Trillium Trading", "markets": ["equities"], "style": "Discretionary", "careers_url": "", "notable": "NYC equities day trading"},
+        {"name": "Schonfeld Strategic Advisors", "markets": ["equities", "macro", "quant"], "style": "Multi-strategy", "careers_url": "https://www.schonfeld.com/careers/", "notable": "Multi-manager platform"},
+        {"name": "Millennium Management", "markets": ["equities", "fixed income", "macro"], "style": "Multi-strategy", "careers_url": "https://www.mlp.com/careers/", "notable": "$60B+ AUM"},
+        {"name": "Point72", "markets": ["equities", "macro", "systematic"], "style": "Multi-strategy", "careers_url": "https://point72.com/careers/", "notable": "Steve Cohen, formerly SAC Capital"},
+        {"name": "WorldQuant", "markets": ["equities", "futures"], "style": "Quantitative", "careers_url": "https://www.worldquant.com/career-listing/", "notable": "Global quant research platform"},
+        {"name": "XTX Markets", "markets": ["FX", "equities", "futures"], "style": "Quantitative/Market Making", "careers_url": "https://www.xtxmarkets.com/careers/", "notable": "London-founded, major NYC presence"},
+        {"name": "Flow Traders", "markets": ["ETFs", "bonds", "crypto"], "style": "Market Making", "careers_url": "https://www.flowtraders.com/careers", "notable": "Amsterdam-founded, NYSE-listed"},
+        {"name": "Chimera Securities", "markets": ["equities", "options"], "style": "Proprietary", "careers_url": "", "notable": "NYC-based prop firm"},
+        {"name": "Kershner Trading Group", "markets": ["equities", "options"], "style": "Proprietary", "careers_url": "https://www.ktgtraders.com/", "notable": "Multi-city prop firm"},
+        {"name": "GTS", "markets": ["equities", "options", "FX"], "style": "Market Making/HFT", "careers_url": "https://gtsx.com/careers/", "notable": "Designated market maker on NYSE"},
+        {"name": "Maven Securities", "markets": ["options", "equities", "futures"], "style": "Market Making", "careers_url": "https://www.mavensecurities.com/careers/", "notable": "London-founded, NYC office"},
+        {"name": "Cutler Group", "markets": ["options", "equities"], "style": "Proprietary", "careers_url": "https://www.cutlergroup.com/careers/", "notable": "Philadelphia HQ, NYC presence"},
+        {"name": "DV Trading", "markets": ["options", "futures", "equities"], "style": "Market Making", "careers_url": "https://www.dvtrading.co/careers/", "notable": "Chicago-founded, NYC office"},
+        {"name": "Five Rings Capital", "markets": ["equities", "options", "futures"], "style": "Quantitative", "careers_url": "https://fiverings.com/careers/", "notable": "Quant trading and research"},
+        {"name": "Headlands Technologies", "markets": ["equities", "futures"], "style": "Quantitative/HFT", "careers_url": "https://www.headlandstech.com/careers/", "notable": "Founded by former Citadel/DE Shaw"}
+      ]
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "description": "Austin has become a growing hub for proprietary trading, especially after several Chicago firms opened Texas offices. The city attracts firms with no state income tax and lower cost of living.",
+      "firms": [
+        {"name": "Kershner Trading Group", "markets": ["equities", "options"], "style": "Proprietary", "careers_url": "https://www.ktgtraders.com/", "notable": "Austin HQ, remote traders nationwide"},
+        {"name": "Simplex Trading", "markets": ["options", "equities"], "style": "Market Making", "careers_url": "https://www.simplextrading.com/careers/", "notable": "Options market maker"},
+        {"name": "Tourbillon Capital", "markets": ["equities"], "style": "Fundamental", "careers_url": "", "notable": "Austin-based equity fund"},
+        {"name": "Spark Trading", "markets": ["futures", "options"], "style": "Proprietary", "careers_url": "", "notable": "Texas-based prop firm"},
+        {"name": "Maverick Trading", "markets": ["equities", "options"], "style": "Proprietary/Remote", "careers_url": "https://www.mavericktrading.com/", "notable": "Remote traders, training program"},
+        {"name": "WH Trading", "markets": ["futures", "options"], "style": "Market Making", "careers_url": "", "notable": "Chicago-founded, Austin office"},
+        {"name": "True Trading Group", "markets": ["equities", "options"], "style": "Education/Proprietary", "careers_url": "https://www.truetradinggroup.com/", "notable": "Education and prop trading hybrid"},
+        {"name": "TopstepTrader (Corporate)", "markets": ["futures"], "style": "Challenge-based", "careers_url": "https://www.topstep.com/careers/", "notable": "Corporate office in Chicago, operations in Austin"}
+      ]
+    },
+    {
+      "city": "Miami",
+      "state": "FL",
+      "description": "Miami is emerging as a fintech and trading hub, attracting firms with its business-friendly tax environment, international connectivity, and growing tech talent pool.",
+      "firms": [
+        {"name": "Citadel (Miami HQ)", "markets": ["equities", "options", "futures", "FX"], "style": "Multi-strategy", "careers_url": "https://www.citadel.com/careers/", "notable": "Moved HQ from Chicago to Miami in 2022"},
+        {"name": "Point72 (Miami)", "markets": ["equities", "macro"], "style": "Multi-strategy", "careers_url": "https://point72.com/careers/", "notable": "Expanding Miami presence"},
+        {"name": "Millennium (Miami)", "markets": ["equities", "fixed income"], "style": "Multi-strategy", "careers_url": "https://www.mlp.com/careers/", "notable": "Miami office expansion"},
+        {"name": "DV Trading (Miami)", "markets": ["options", "futures"], "style": "Market Making", "careers_url": "https://www.dvtrading.co/careers/", "notable": "Chicago-founded, Miami office"},
+        {"name": "Cowen (TD Cowen)", "markets": ["equities", "macro"], "style": "Multi-strategy", "careers_url": "", "notable": "Part of Toronto-Dominion Bank"},
+        {"name": "Graham Capital Management", "markets": ["macro", "systematic"], "style": "Systematic/Macro", "careers_url": "", "notable": "Connecticut HQ, Miami presence"},
+        {"name": "Balyasny Asset Management", "markets": ["equities", "macro"], "style": "Multi-strategy", "careers_url": "https://www.bamfunds.com/careers/", "notable": "Chicago-founded, Miami expansion"},
+        {"name": "Pinpoint Asset Management", "markets": ["equities"], "style": "Long/Short Equity", "careers_url": "", "notable": "Asia-founded, growing Miami presence"}
+      ]
+    }
+  ],
+  "how_to_get_hired": {
+    "title": "How to Get Hired at a Prop Trading Firm",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Build Quantitative Skills",
+        "description": "Most institutional prop firms require strong math, statistics, or computer science backgrounds. Study probability, stochastic calculus, and programming (Python, C++). Top firms recruit from MIT, CMU, Princeton, and similar programs."
+      },
+      {
+        "step": 2,
+        "title": "Practice Trading Games and Puzzles",
+        "description": "Firms like Jane Street, Optiver, and SIG use trading simulations, mental math tests, and probability puzzles in interviews. Practice with resources like brainstellar.com and Green Book probability questions."
+      },
+      {
+        "step": 3,
+        "title": "Apply to Internships Early",
+        "description": "Most top firms recruit interns 6-12 months in advance. Summer internships are the primary pipeline for full-time hires. Apply by September for the following summer."
+      },
+      {
+        "step": 4,
+        "title": "Network and Get Referrals",
+        "description": "Attend university career fairs, trading competitions, and industry events. LinkedIn connections to current traders can help get your resume noticed."
+      },
+      {
+        "step": 5,
+        "title": "Consider Smaller Firms First",
+        "description": "If you can't get into Jane Street or Citadel directly, smaller prop firms like Belvedere, Geneva Trading, or Cutler Group have less competitive hiring and can be excellent stepping stones."
+      }
+    ]
+  },
+  "salary_ranges": {
+    "title": "Prop Trading Salary Ranges (2026)",
+    "ranges": [
+      {"role": "Junior Trader (0-2 years)", "base": "$100,000 - $150,000", "total_comp": "$150,000 - $400,000"},
+      {"role": "Mid-Level Trader (3-5 years)", "base": "$150,000 - $250,000", "total_comp": "$300,000 - $1,000,000"},
+      {"role": "Senior Trader (5-10 years)", "base": "$200,000 - $400,000", "total_comp": "$500,000 - $5,000,000+"},
+      {"role": "Quant Researcher", "base": "$150,000 - $300,000", "total_comp": "$300,000 - $1,500,000"},
+      {"role": "Quant Developer", "base": "$150,000 - $300,000", "total_comp": "$250,000 - $800,000"}
+    ],
+    "note": "Total compensation at top firms (Jane Street, Citadel, Jump) can significantly exceed these ranges. Bonuses are typically 50-200% of base salary and depend on individual and firm P&L."
+  }
+}

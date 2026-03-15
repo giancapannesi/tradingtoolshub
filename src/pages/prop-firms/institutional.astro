@@ -1,0 +1,288 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import institutionalData from '../../data/institutional-prop-firms.json';
+
+const totalFirms = institutionalData.cities.reduce((sum, city) => sum + city.firms.length, 0);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": `Institutional Prop Trading Firms Directory (${totalFirms}+ Firms by City)`,
+    "description": "Complete directory of traditional proprietary trading firms in Chicago, New York, Austin, and Miami. Career links, markets traded, and salary ranges.",
+    "url": "https://tradingtoolshub.com/prop-firms/institutional/",
+    "datePublished": "2026-03-15",
+    "dateModified": institutionalData.last_updated,
+    "author": {"@type": "Organization", "name": "TradingToolsHub"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is an institutional prop trading firm?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An institutional proprietary trading firm trades the firm's own capital using professional traders. Unlike retail prop firms that charge evaluation fees, institutional firms hire traders as employees or contractors, provide training, capital, and technology. Compensation includes base salary plus profit-sharing bonuses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get hired at a prop trading firm?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most institutional prop firms recruit from top universities with strong math, statistics, or CS programs. The hiring process typically involves mental math tests, probability puzzles, trading simulations, and technical interviews. Summer internships are the primary pipeline — apply 6-12 months in advance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do prop traders make?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Junior prop traders (0-2 years) typically earn $150K-$400K total compensation. Mid-level traders (3-5 years) can earn $300K-$1M+. Senior traders at top firms like Jane Street or Citadel can earn several million dollars annually. Compensation is heavily performance-based."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between institutional and retail prop firms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Institutional prop firms hire traders as employees, provide capital and technology, and pay salaries plus bonuses. Retail (challenge-based) prop firms require traders to pay an evaluation fee, pass a trading challenge, and then trade the firm's capital for a profit split. Institutional firms are much harder to get into but offer higher earning potential."
+        }
+      }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={`Institutional Prop Trading Firms — ${totalFirms}+ Firms by City (2026)`}
+  description={`Complete directory of ${totalFirms}+ institutional proprietary trading firms in Chicago, New York, Austin, and Miami. Career links, markets traded, hiring info, and salary ranges.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-muted mb-8">
+      <a href="/" class="hover:text-text">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/prop-firms/" class="hover:text-text">Prop Firms</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">Institutional</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="text-center mb-16">
+      <h1 class="text-3xl md:text-5xl font-bold text-text mb-4">
+        Institutional Prop Trading <span class="text-primary">Firms</span>
+      </h1>
+      <p class="text-lg text-muted max-w-3xl mx-auto mb-6">
+        The complete directory of {totalFirms}+ traditional proprietary trading firms that hire traders directly.
+        No challenge fees — these firms provide capital, technology, and training to professional traders.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center text-sm">
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">{totalFirms} Firms Listed</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">{institutionalData.cities.length} Major Cities</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">Updated {institutionalData.last_updated}</span>
+      </div>
+    </div>
+
+    <!-- Institutional vs Retail explainer -->
+    <div class="bg-card border border-border rounded-2xl p-6 md:p-8 mb-16">
+      <h2 class="text-xl font-bold text-text mb-4">Institutional vs Retail Prop Firms</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-primary mb-2">Institutional (This Page)</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li>Hire traders as employees/contractors</li>
+            <li>No evaluation fees — firm pays you</li>
+            <li>Base salary + performance bonuses</li>
+            <li>Institutional-grade technology and data</li>
+            <li>Highly competitive hiring (top universities, quant skills)</li>
+            <li>Focus: Market making, HFT, quant strategies</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-primary mb-2"><a href="/prop-firms/" class="hover:underline">Retail / Challenge-Based</a></h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li>Open to anyone who can pass a trading challenge</li>
+            <li>Pay an evaluation fee ($50-$500+)</li>
+            <li>Keep 70-100% of profits</li>
+            <li>Trade from anywhere (remote)</li>
+            <li>Lower barrier to entry</li>
+            <li>Focus: Day trading, swing trading, forex, futures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- City quick nav -->
+    <div class="flex flex-wrap gap-3 mb-12 justify-center">
+      {institutionalData.cities.map(city => (
+        <a href={`#${city.city.toLowerCase().replace(/\s+/g, '-')}`}
+           class="bg-card border border-border px-4 py-2 rounded-lg text-sm text-text hover:border-primary/50 transition-colors">
+          {city.city} ({city.firms.length})
+        </a>
+      ))}
+    </div>
+
+    <!-- City sections -->
+    {institutionalData.cities.map(cityData => (
+      <div id={cityData.city.toLowerCase().replace(/\s+/g, '-')} class="mb-16 scroll-mt-20">
+        <h2 class="text-2xl font-bold text-text mb-2">
+          Prop Trading Firms in {cityData.city}, {cityData.state}
+        </h2>
+        <p class="text-muted text-sm mb-6 max-w-3xl">{cityData.description}</p>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border border-border rounded-xl overflow-hidden">
+            <thead>
+              <tr class="bg-card border-b border-border">
+                <th class="text-left py-3 px-4 text-muted font-medium">Firm</th>
+                <th class="text-left py-3 px-4 text-muted font-medium">Markets</th>
+                <th class="text-left py-3 px-4 text-muted font-medium">Style</th>
+                <th class="text-left py-3 px-4 text-muted font-medium hidden md:table-cell">Notable</th>
+                <th class="text-center py-3 px-4 text-muted font-medium">Careers</th>
+              </tr>
+            </thead>
+            <tbody>
+              {cityData.firms.map((firm, i) => (
+                <tr class={`border-b border-border/50 hover:bg-card/50 transition-colors ${i % 2 === 0 ? '' : 'bg-card/20'}`}>
+                  <td class="py-3 px-4 font-medium text-text">{firm.name}</td>
+                  <td class="py-3 px-4 text-muted">
+                    <div class="flex flex-wrap gap-1">
+                      {firm.markets.slice(0, 3).map(m => (
+                        <span class="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded">{m}</span>
+                      ))}
+                      {firm.markets.length > 3 && (
+                        <span class="text-xs text-muted">+{firm.markets.length - 3}</span>
+                      )}
+                    </div>
+                  </td>
+                  <td class="py-3 px-4 text-muted text-xs">{firm.style}</td>
+                  <td class="py-3 px-4 text-muted text-xs hidden md:table-cell">{firm.notable}</td>
+                  <td class="text-center py-3 px-4">
+                    {firm.careers_url ? (
+                      <a href={firm.careers_url} target="_blank" rel="noopener noreferrer"
+                         class="text-primary hover:underline text-xs">Apply</a>
+                    ) : (
+                      <span class="text-muted text-xs">—</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))}
+
+    <!-- How to Get Hired -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">{institutionalData.how_to_get_hired.title}</h2>
+      <div class="space-y-4">
+        {institutionalData.how_to_get_hired.steps.map(step => (
+          <div class="bg-card border border-border rounded-xl p-5 flex gap-4">
+            <div class="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold">
+              {step.step}
+            </div>
+            <div>
+              <h3 class="font-semibold text-text mb-1">{step.title}</h3>
+              <p class="text-sm text-muted">{step.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Salary Ranges -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">{institutionalData.salary_ranges.title}</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border border-border rounded-xl overflow-hidden">
+          <thead>
+            <tr class="bg-card border-b border-border">
+              <th class="text-left py-3 px-4 text-muted font-medium">Role</th>
+              <th class="text-left py-3 px-4 text-muted font-medium">Base Salary</th>
+              <th class="text-left py-3 px-4 text-muted font-medium">Total Compensation</th>
+            </tr>
+          </thead>
+          <tbody>
+            {institutionalData.salary_ranges.ranges.map((range, i) => (
+              <tr class={`border-b border-border/50 ${i % 2 === 0 ? '' : 'bg-card/20'}`}>
+                <td class="py-3 px-4 font-medium text-text">{range.role}</td>
+                <td class="py-3 px-4 text-muted">{range.base}</td>
+                <td class="py-3 px-4 text-primary font-medium">{range.total_comp}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-muted mt-3">{institutionalData.salary_ranges.note}</p>
+    </div>
+
+    <!-- FAQ -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <details class="bg-card border border-border rounded-xl overflow-hidden group">
+          <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+            What is an institutional prop trading firm?
+          </summary>
+          <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+            An institutional proprietary trading firm trades the firm's own capital using professional traders. Unlike retail prop firms that charge evaluation fees, institutional firms hire traders as employees or contractors, provide training, capital, and technology. Compensation includes base salary plus profit-sharing bonuses.
+          </div>
+        </details>
+
+        <details class="bg-card border border-border rounded-xl overflow-hidden group">
+          <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+            How do I get hired at a prop trading firm?
+          </summary>
+          <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+            Most institutional prop firms recruit from top universities with strong math, statistics, or CS programs. The hiring process typically involves mental math tests, probability puzzles, trading simulations, and technical interviews. Summer internships are the primary pipeline — apply 6-12 months in advance. Smaller firms like Belvedere, Geneva Trading, or Cutler Group have less competitive hiring and can be excellent stepping stones.
+          </div>
+        </details>
+
+        <details class="bg-card border border-border rounded-xl overflow-hidden group">
+          <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+            How much do prop traders make?
+          </summary>
+          <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+            Junior prop traders (0-2 years) typically earn $150K-$400K total compensation. Mid-level traders (3-5 years) can earn $300K-$1M+. Senior traders at top firms like Jane Street or Citadel can earn several million dollars annually. Compensation is heavily performance-based with bonuses typically 50-200% of base salary.
+          </div>
+        </details>
+
+        <details class="bg-card border border-border rounded-xl overflow-hidden group">
+          <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+            What is the difference between institutional and retail prop firms?
+          </summary>
+          <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+            Institutional prop firms hire traders as employees, provide capital and technology, and pay salaries plus bonuses. Retail (challenge-based) prop firms require traders to pay an evaluation fee, pass a trading challenge, and then trade the firm's capital for a profit split (typically 70-100%). Institutional firms are harder to get into but offer higher earning potential and career stability.
+          </div>
+        </details>
+
+        <details class="bg-card border border-border rounded-xl overflow-hidden group">
+          <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+            Which city is best for prop trading careers?
+          </summary>
+          <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+            Chicago has the most prop trading firms, especially for futures and options. New York leads for equities and multi-strategy firms. Austin is growing due to tax advantages and lower cost of living. Miami is the newest hub after Citadel relocated its headquarters there in 2022. Each city has distinct strengths depending on your trading interests.
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- CTA to retail prop firms -->
+    <div class="bg-primary/5 border border-primary/20 rounded-2xl p-8 text-center">
+      <h2 class="text-xl font-bold text-text mb-3">Looking for Challenge-Based Prop Firms?</h2>
+      <p class="text-muted text-sm mb-4 max-w-xl mx-auto">
+        If you don't have a quant background, retail prop firms let you prove your skills through a trading challenge
+        and trade funded accounts with profit splits up to 100%.
+      </p>
+      <a href="/prop-firms/" class="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary-hover text-white rounded-lg font-medium transition-colors">
+        Compare All Retail Prop Firms
+      </a>
+    </div>
+
+  </div>
+</BaseLayout>
