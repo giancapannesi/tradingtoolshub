@@ -1,8 +1,8 @@
 {
   "name": "SMB Capital",
   "slug": "smb-capital",
-  "category": "trading-education",
-  "subcategories": ["professional-training", "prop-education"],
+  "category": "prop-firms",
+  "subcategories": ["institutional", "professional-training", "prop-education"],
   "description_short": "Professional proprietary trading firm offering elite training programs, mentorship, and a path to trading firm capital.",
   "description_long": "SMB Capital is a New York City-based proprietary trading firm that also offers professional-grade trading education. Founded by Mike Bellafiore (author of 'One Good Trade' and 'The PlayBook'), SMB combines institutional trading experience with structured educational programs.\n\nSMB's training approach is modeled on how professional trading firms develop talent, with an emphasis on developing a trading playbook, understanding market microstructure, and building mental discipline. The firm offers remote training programs, live trading education, and mentorship from active professional traders.\n\nWhat makes SMB unique is that it is an actual proprietary trading firm with real traders, not just an education company. Top students may have the opportunity to trade firm capital. Programs range from online courses to intensive multi-week training sessions, with pricing typically in the $5,000-$10,000 range.",
   "logo_url": "/logos/smb-capital.svg",

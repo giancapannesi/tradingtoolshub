@@ -63,18 +63,20 @@
   },
   {
     "slug": "best-prop-firms",
-    "title": "Best Prop Trading Firms in 2026 \u2014 Top 7 Compared",
+    "title": "Best Prop Trading Firms in 2026 \u2014 Top 9 Compared",
     "target_keyword": "best prop trading firms 2026",
     "category": "prop-firms",
     "description": "We tested the top prop trading firms. Here are the best ranked by features, pricing, and ease of use.",
     "tools": [
       "ftmo",
       "apex-trader-funding",
-      "the5ers",
       "topstep",
+      "the5ers",
+      "funded-next",
       "earn2trade",
-      "the-funded-trader",
-      "my-forex-funds"
+      "city-traders-imperium",
+      "blue-guardian",
+      "smb-capital"
     ]
   },
   {
@@ -365,6 +367,118 @@
       "3commas",
       "alpha-vantage",
       "cryptohopper"
+    ]
+  },
+  {
+    "slug": "best-prop-firms-futures",
+    "title": "Best Prop Firms for Futures Trading in 2026",
+    "target_keyword": "best prop firms for futures",
+    "category": "prop-firms",
+    "description": "The best prop trading firms for futures traders in 2026. Compare evaluations, funding, profit splits, and trading rules.",
+    "tools": [
+      "apex-trader-funding",
+      "topstep",
+      "earn2trade",
+      "blue-guardian",
+      "lux-trading-firm"
+    ]
+  },
+  {
+    "slug": "best-prop-firms-forex",
+    "title": "Best Prop Firms for Forex Trading in 2026",
+    "target_keyword": "best prop firms for forex",
+    "category": "prop-firms",
+    "description": "The best prop trading firms for forex traders in 2026. Compare funding, profit splits, and evaluation rules.",
+    "tools": [
+      "ftmo",
+      "the5ers",
+      "funded-next",
+      "city-traders-imperium",
+      "true-forex-funds"
+    ]
+  },
+  {
+    "slug": "best-prop-firms-crypto",
+    "title": "Best Prop Firms for Crypto Trading in 2026",
+    "target_keyword": "best prop firms for crypto",
+    "category": "prop-firms",
+    "description": "The best prop trading firms that offer cryptocurrency trading in 2026. Compare crypto-friendly funded accounts.",
+    "tools": [
+      "ftmo",
+      "funded-next",
+      "the5ers",
+      "blue-guardian",
+      "city-traders-imperium"
+    ]
+  },
+  {
+    "slug": "best-prop-firms-stocks",
+    "title": "Best Prop Firms for Stock Trading in 2026",
+    "target_keyword": "best prop firms for stocks",
+    "category": "prop-firms",
+    "description": "The best prop trading firms for stock and equity traders in 2026. Compare funded programs for US equities.",
+    "tools": [
+      "smb-capital",
+      "maverick-trading",
+      "bear-bull-traders",
+      "surge-trader",
+      "the-funded-trader"
+    ]
+  },
+  {
+    "slug": "no-challenge-prop-firms",
+    "title": "Best No-Challenge Prop Firms in 2026 \u2014 Instant Funding",
+    "target_keyword": "no challenge prop firm",
+    "category": "prop-firms",
+    "description": "Skip the evaluation. These prop firms offer instant funding with no challenge required. Compare the best no-challenge options.",
+    "tools": [
+      "the5ers",
+      "funded-next",
+      "city-traders-imperium",
+      "lux-trading-firm",
+      "the-funded-trader"
+    ]
+  },
+  {
+    "slug": "cheapest-prop-firms",
+    "title": "Cheapest Prop Trading Firms in 2026 \u2014 Lowest Evaluation Fees",
+    "target_keyword": "cheapest prop firm",
+    "category": "prop-firms",
+    "description": "Find the most affordable prop firms with the lowest evaluation fees. Compare challenge costs across all major firms.",
+    "tools": [
+      "apex-trader-funding",
+      "topstep",
+      "earn2trade",
+      "the-funded-trader",
+      "surge-trader"
+    ]
+  },
+  {
+    "slug": "instant-funding-prop-firms",
+    "title": "Best Instant Funding Prop Firms in 2026",
+    "target_keyword": "instant funding prop firm",
+    "category": "prop-firms",
+    "description": "Get funded immediately without waiting. These prop firms offer instant funded accounts with no evaluation period.",
+    "tools": [
+      "the5ers",
+      "city-traders-imperium",
+      "funded-next",
+      "lux-trading-firm",
+      "the-funded-trader"
+    ]
+  },
+  {
+    "slug": "prop-firms-us-traders",
+    "title": "Best Prop Firms for US Traders in 2026 \u2014 CFTC Compliant",
+    "target_keyword": "prop firms us traders",
+    "category": "prop-firms",
+    "description": "Prop firms that accept US-based traders in 2026. All firms verified for US accessibility and CFTC compliance.",
+    "tools": [
+      "apex-trader-funding",
+      "topstep",
+      "the5ers",
+      "earn2trade",
+      "city-traders-imperium"
     ]
   }
 ]

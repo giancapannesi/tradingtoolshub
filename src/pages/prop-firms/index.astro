@@ -1,0 +1,293 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import { getToolsByCategory, getComparisons, getListicles, getToolBySlug } from '../../utils/data';
+import specials from '../../content/specials.json';
+
+const propFirms = getToolsByCategory('prop-firms');
+const comparisons = getComparisons().filter(c => {
+  const slugs = new Set(propFirms.map(t => t.slug));
+  return slugs.has(c.tool_a) && slugs.has(c.tool_b);
+});
+const enrichedComparisons = comparisons.filter(c => c.analysis).slice(0, 8);
+const propListicles = getListicles().filter(l => l.category === 'prop-firms');
+const propDeals = (specials.specials || []).filter((d: any) =>
+  d.category === 'Prop Firm' || propFirms.some(f => f.slug === d.slug)
+);
+
+// Sort firms by rating for the main grid
+const sortedFirms = [...propFirms].sort((a, b) => b.rating - a.rating);
+
+// Best-for categories
+const bestForFutures = propFirms.filter(f => f.markets.includes('futures')).sort((a, b) => b.rating - a.rating).slice(0, 3);
+const bestForForex = propFirms.filter(f => f.markets.includes('forex')).sort((a, b) => b.rating - a.rating).slice(0, 3);
+const bestForCrypto = propFirms.filter(f => f.markets.includes('crypto')).sort((a, b) => b.rating - a.rating).slice(0, 3);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Prop Trading Firms Directory 2026",
+  "description": "Compare all prop trading firms. Reviews, deals, evaluations, profit splits, and funding options.",
+  "url": "https://tradingtoolshub.com/prop-firms/",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": propFirms.length,
+    "itemListElement": sortedFirms.slice(0, 10).map((t, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": t.name,
+      "url": `https://tradingtoolshub.com/review/${t.slug}/`
+    }))
+  }
+};
+
+const faqItems = [
+  { q: "What is a prop trading firm?", a: "A proprietary (prop) trading firm provides traders with capital to trade financial markets. Instead of risking your own money, you trade the firm's capital and keep a percentage of the profits (typically 70-100%). Most retail prop firms require you to pass an evaluation or challenge first." },
+  { q: "How do prop firm evaluations work?", a: "Most prop firms require you to pass a trading challenge (evaluation) before receiving a funded account. You pay an evaluation fee ($50-$500+), trade a demo account following specific rules (profit targets, drawdown limits), and if you pass, you get access to a funded account with real capital." },
+  { q: "Which prop firms accept US traders?", a: "Due to CFTC regulations, many forex prop firms don't accept US traders. Firms that are confirmed US-accessible include Topstep, Apex Trader Funding, The5ers, Earn2Trade, FXIFY (via DXTrade), Goat Funded Trader, and several others listed on this page." },
+  { q: "What profit split do prop firms offer?", a: "Profit splits vary from 50% to 100%. Most competitive firms offer 80-90% splits, with some like Apex Trader Funding and Goat Funded Trader offering up to 100%. Some firms increase your split as you prove consistent profitability." },
+  { q: "Are prop trading firms legitimate?", a: "Most established prop firms are legitimate businesses. However, some firms have shut down unexpectedly (like MyForexFunds and MyFundedFX). Always research a firm's track record, check for verified payouts, and read recent reviews before paying for an evaluation." },
+];
+---
+<BaseLayout
+  title="Best Prop Trading Firms 2026 — Compare All Funded Programs"
+  description={`Compare ${propFirms.length}+ prop trading firms side by side. Reviews, current deals, evaluations, profit splits, and funding options. Find the best prop firm for your trading style.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+
+    <!-- Hero -->
+    <div class="text-center mb-16">
+      <h1 class="text-3xl md:text-5xl font-bold text-text mb-4">
+        Prop Trading Firms <span class="text-primary">Directory</span>
+      </h1>
+      <p class="text-lg text-muted max-w-3xl mx-auto mb-6">
+        The most comprehensive prop firm directory. Compare {propFirms.length} firms by evaluation type, profit splits,
+        funding limits, and real trader reviews. Updated daily.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center text-sm">
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">{propFirms.length} Firms Reviewed</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">{comparisons.length} Comparisons</span>
+        {propDeals.length > 0 && (
+          <span class="bg-green-500/10 text-green-400 px-4 py-2 rounded-full font-medium">{propDeals.length} Active Deals</span>
+        )}
+      </div>
+    </div>
+
+    <!-- Quick Comparison Table -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">Quick Comparison</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border border-border rounded-xl overflow-hidden">
+          <thead>
+            <tr class="bg-card border-b border-border">
+              <th class="text-left py-3 px-4 text-muted font-medium">Firm</th>
+              <th class="text-center py-3 px-4 text-muted font-medium">Rating</th>
+              <th class="text-center py-3 px-4 text-muted font-medium">Starting Price</th>
+              <th class="text-center py-3 px-4 text-muted font-medium">Markets</th>
+              <th class="text-center py-3 px-4 text-muted font-medium">Commission</th>
+              <th class="text-center py-3 px-4 text-muted font-medium"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedFirms.map((firm, i) => (
+              <tr class={`border-b border-border/50 hover:bg-card/50 transition-colors ${i === 0 ? 'bg-primary/5' : ''}`}>
+                <td class="py-3 px-4">
+                  <a href={`/review/${firm.slug}/`} class="text-text hover:text-primary font-medium flex items-center gap-2">
+                    {i === 0 && <span class="text-xs bg-primary text-white px-2 py-0.5 rounded">Top Pick</span>}
+                    {firm.name}
+                  </a>
+                </td>
+                <td class="text-center py-3 px-4">
+                  <span class="text-yellow-400">{firm.rating.toFixed(1)}</span>
+                </td>
+                <td class="text-center py-3 px-4 text-text">
+                  {firm.pricing.starting_price === 0 ? 'Free' : `$${firm.pricing.starting_price}`}
+                </td>
+                <td class="text-center py-3 px-4 text-muted">
+                  {firm.markets.slice(0, 3).join(', ')}
+                </td>
+                <td class="text-center py-3 px-4 text-muted text-xs">
+                  {firm.affiliate_commission || '—'}
+                </td>
+                <td class="text-center py-3 px-4">
+                  <a href={`/review/${firm.slug}/`} class="text-primary hover:underline text-xs">Review →</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Current Deals -->
+    {propDeals.length > 0 && (
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-text mb-6">
+          Current Prop Firm <span class="text-green-400">Deals</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {propDeals.map((deal: any) => (
+            <div class="bg-card border border-green-500/30 rounded-2xl p-6 relative overflow-hidden">
+              {deal.discount_percent > 0 && (
+                <div class="absolute top-0 right-0 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                  {deal.discount_percent}% OFF
+                </div>
+              )}
+              <h3 class="font-bold text-text mb-2">{deal.tool_name}</h3>
+              <p class="text-sm text-muted mb-3">{deal.deal_description}</p>
+              <a href={`/review/${deal.slug}/`} class="text-primary text-sm hover:underline">View Review →</a>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Best For Cards -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">Best Prop Firms By Market</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-card border border-border rounded-2xl p-6">
+          <h3 class="font-bold text-text mb-4 flex items-center gap-2">
+            <span class="text-2xl">📈</span> Best for Futures
+          </h3>
+          <ul class="space-y-3">
+            {bestForFutures.map((f, i) => (
+              <li class="flex items-center justify-between">
+                <a href={`/review/${f.slug}/`} class="text-text hover:text-primary">
+                  <span class="text-muted mr-2">#{i+1}</span>{f.name}
+                </a>
+                <span class="text-yellow-400 text-sm">{f.rating.toFixed(1)}</span>
+              </li>
+            ))}
+          </ul>
+          <a href="/best/best-prop-firms-futures/" class="text-primary text-sm hover:underline mt-4 block">See all →</a>
+        </div>
+
+        <div class="bg-card border border-border rounded-2xl p-6">
+          <h3 class="font-bold text-text mb-4 flex items-center gap-2">
+            <span class="text-2xl">💱</span> Best for Forex
+          </h3>
+          <ul class="space-y-3">
+            {bestForForex.map((f, i) => (
+              <li class="flex items-center justify-between">
+                <a href={`/review/${f.slug}/`} class="text-text hover:text-primary">
+                  <span class="text-muted mr-2">#{i+1}</span>{f.name}
+                </a>
+                <span class="text-yellow-400 text-sm">{f.rating.toFixed(1)}</span>
+              </li>
+            ))}
+          </ul>
+          <a href="/best/best-prop-firms-forex/" class="text-primary text-sm hover:underline mt-4 block">See all →</a>
+        </div>
+
+        <div class="bg-card border border-border rounded-2xl p-6">
+          <h3 class="font-bold text-text mb-4 flex items-center gap-2">
+            <span class="text-2xl">🪙</span> Best for Crypto
+          </h3>
+          <ul class="space-y-3">
+            {bestForCrypto.map((f, i) => (
+              <li class="flex items-center justify-between">
+                <a href={`/review/${f.slug}/`} class="text-text hover:text-primary">
+                  <span class="text-muted mr-2">#{i+1}</span>{f.name}
+                </a>
+                <span class="text-yellow-400 text-sm">{f.rating.toFixed(1)}</span>
+              </li>
+            ))}
+          </ul>
+          <a href="/best/best-prop-firms-crypto/" class="text-primary text-sm hover:underline mt-4 block">See all →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Listicles -->
+    {propListicles.length > 0 && (
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-text mb-6">Prop Firm Guides</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {propListicles.map((l) => (
+            <a href={`/best/${l.slug}/`} class="bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors block">
+              <h3 class="font-medium text-text text-sm mb-1">{l.title}</h3>
+              <p class="text-xs text-muted">{l.tools.length} firms compared</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- All Prop Firms Grid -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">All {propFirms.length} Prop Trading Firms</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sortedFirms.map(tool => (
+          <ToolCard
+            name={tool.name}
+            slug={tool.slug}
+            category={tool.category}
+            description_short={tool.description_short}
+            rating={tool.rating}
+            pricing={tool.pricing}
+            markets={tool.markets}
+            best_for={tool.best_for}
+          />
+        ))}
+      </div>
+    </div>
+
+    <!-- Top Comparisons -->
+    {enrichedComparisons.length > 0 && (
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-text mb-6">Popular Comparisons</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {enrichedComparisons.map(c => {
+            const toolA = getToolBySlug(c.tool_a);
+            const toolB = getToolBySlug(c.tool_b);
+            return (
+              <a href={`/compare/${c.slug}/`} class="bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors flex items-center justify-between">
+                <span class="text-text text-sm font-medium">{toolA?.name || c.tool_a} vs {toolB?.name || c.tool_b}</span>
+                <span class="text-primary text-xs">Compare →</span>
+              </a>
+            );
+          })}
+        </div>
+        <p class="text-center mt-4">
+          <a href={`/categories/prop-firms/`} class="text-primary text-sm hover:underline">
+            View all {comparisons.length} comparisons →
+          </a>
+        </p>
+      </div>
+    )}
+
+    <!-- FAQ Schema -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-text mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        {faqItems.map(item => (
+          <details class="bg-card border border-border rounded-xl overflow-hidden group">
+            <summary class="p-4 cursor-pointer text-text font-medium hover:text-primary transition-colors">
+              {item.q}
+            </summary>
+            <div class="px-4 pb-4 text-muted text-sm leading-relaxed">
+              {item.a}
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.a
+      }
+    }))
+  })} />
+</BaseLayout>
