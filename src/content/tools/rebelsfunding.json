@@ -1,0 +1,165 @@
+{
+  "name": "RebelsFunding",
+  "slug": "rebelsfunding",
+  "category": "prop-firms",
+  "subcategories": [
+    "challenge-based",
+    "forex",
+    "simulated-funding"
+  ],
+  "description_short": "RebelsFunding is a Slovak prop firm offering challenge-based funding up to $640K with no time limits, challenge fees starting at $25, and up to 200% fee refunds on passing.",
+  "description_long": "RebelsFunding is a proprietary trading firm founded in 2023 and headquartered in Bratislava, Slovakia, offering simulated funded accounts of up to $640,000 to traders who pass their multi-tier challenge system. The firm's standout feature is the complete absence of any time limit on challenge completion, allowing traders to work at their own pace rather than under the artificial deadline pressure common at competing prop firms.\n\nThe firm offers five challenge tiers \u2014 Copper (4-phase), Bronze (3-phase), Silver (2-phase), Gold (1-phase), and Diamond (1-phase with no daily drawdown limit) \u2014 with one-time challenge fees starting at just $25 for the entry-level Copper $5K account. Profit splits begin at 80% in the first month and scale to 90% thereafter, with payout requests available as early as 14 days after the first trade and a $50 minimum. Traders who successfully pass a challenge can receive up to 200% of their original challenge fee back as a refund, making the effective cost among the lowest in the industry.\n\nThe platform operates on RF-Trader, a proprietary web-based trading system built on FDC Tech infrastructure with integrated TradingView charting and a dedicated Android mobile app. Notably, RebelsFunding does not support MetaTrader 4 or 5 \u2014 a common friction point for traders migrating from other firms. Instrument coverage is primarily forex-focused with approximately 40 currency pairs, alongside 4 metals, 2 energies, 7 crypto assets, and 10 equity CFDs, which is more limited in breadth than larger competitors.\n\nRebelsFunding suits cost-conscious traders who want an affordable, pressure-free entry into funded trading, particularly those comfortable trading on a proprietary platform. The no-consistency-rule policy adds further flexibility. As a firm founded in 2023 with a small team, its long-term payout track record is still developing, so traders should weigh the attractive pricing against the relatively limited operational history.",
+  "logo_url": "/logos/rebelsfunding.svg",
+  "screenshots": [],
+  "website_url": "https://www.rebelsfunding.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free Trial",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Simulated trading environment",
+          "Access to RF-Trader platform",
+          "No real capital at risk"
+        ]
+      },
+      {
+        "name": "Copper",
+        "price_monthly": 25,
+        "price_yearly": 0,
+        "features": [
+          "4-phase challenge",
+          "5% profit target each phase",
+          "5% daily / 10% max drawdown",
+          "1:200 leverage",
+          "Accounts from $5K to $320K",
+          "Up to 200% fee refund on pass"
+        ]
+      },
+      {
+        "name": "Bronze",
+        "price_monthly": 40,
+        "price_yearly": 0,
+        "features": [
+          "3-phase challenge",
+          "5% profit target each phase",
+          "5% daily / 10% max drawdown",
+          "1:200 leverage",
+          "Accounts from $5K to $160K",
+          "Up to 200% fee refund on pass"
+        ]
+      },
+      {
+        "name": "Silver",
+        "price_monthly": 35,
+        "price_yearly": 0,
+        "features": [
+          "2-phase challenge",
+          "8% then 5% profit targets",
+          "5% daily / 10% max drawdown",
+          "1:200 leverage",
+          "Accounts from $2.5K to $80K",
+          "Up to 200% fee refund on pass"
+        ]
+      },
+      {
+        "name": "Gold",
+        "price_monthly": 50,
+        "price_yearly": 0,
+        "features": [
+          "1-phase challenge",
+          "10% profit target",
+          "4% daily / 6% max drawdown",
+          "1:50 leverage",
+          "Accounts from $2.5K to $40K",
+          "80% profit split, scaling to 90%"
+        ]
+      },
+      {
+        "name": "Diamond",
+        "price_monthly": 50,
+        "price_yearly": 0,
+        "features": [
+          "1-phase challenge",
+          "10% profit target",
+          "No daily drawdown limit",
+          "5% max drawdown only",
+          "1:50 leverage",
+          "Accounts from $1K to $20K",
+          "75% profit split"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "metals",
+    "crypto",
+    "stocks",
+    "indices",
+    "energies"
+  ],
+  "pros": [
+    "No time limit on challenge completion \u2014 trade at your own pace",
+    "Industry-lowest entry fees starting at just $25",
+    "Up to 200% challenge fee refund upon passing",
+    "No consistency rule provides maximum trading flexibility",
+    "Profit split scales from 80% to 90% after first month"
+  ],
+  "cons": [
+    "No MetaTrader 4 or 5 support \u2014 proprietary platform only",
+    "Limited instrument selection compared to major competitors",
+    "Founded in 2023 \u2014 shorter track record than established prop firms",
+    "Diamond plan offers a lower 75% profit split"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 3.7,
+    "value": 4.5,
+    "support": 3.7,
+    "reliability": 3.6
+  },
+  "founded_year": 2023,
+  "company": "RebelsFunding",
+  "headquarters": "Bratislava, Slovakia",
+  "best_for": [
+    "cost-conscious traders",
+    "forex traders",
+    "traders who prefer no time limits",
+    "beginners entering prop trading"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the5ers",
+    "myforexfunds",
+    "topstep"
+  ],
+  "last_updated": "2026-03-15",
+  "review_status": "published"
+}
