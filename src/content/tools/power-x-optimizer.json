@@ -1,0 +1,104 @@
+{
+  "name": "PowerX Optimizer",
+  "slug": "power-x-optimizer",
+  "category": "options-platforms",
+  "subcategories": [
+    "options-scanners",
+    "stock-scanners",
+    "trading-signals"
+  ],
+  "description_short": "Rules-based trading scanner by Rockwell Trading that scans 18,000+ assets for high-probability stock and options setups with defined entry, exit, and risk-to-reward signals.",
+  "description_long": "PowerX Optimizer is a web-based trading platform developed by Rockwell Trading Services LLC, founded by Markus Heitkoetter in 2005. The platform scans over 18,000 stocks, ETFs, and cryptocurrencies in real time to surface high-probability trade setups based on a proprietary scoring system. Two core strategies power the platform: the PowerX Strategy for directional stock and options trades, and the Wheel Strategy for systematic options premium collection \u2014 the latter is recommended for accounts with at least $20,000.\n\nEvery scan result is accompanied by clear, rules-based entry and exit signals with defined risk-to-reward ratios, allowing traders to evaluate setups objectively before committing capital. The WTF (Win The Fear) Strategy Scanner is designed specifically for traders with smaller accounts. By automating the scanning and analysis process, PowerX Optimizer targets busy professionals who can realistically dedicate only 15 minutes per day to managing trades.\n\nThe February 2026 release of version 3.7 brought several notable upgrades, including Rocky AI \u2014 an AI-powered trading assistant that displays its reasoning process in real time so users understand why a setup is being flagged. The update also introduced WealthOS Goals, a financial freedom planning tool that projects a personalized Freedom Date based on trading inputs, and added Charles Schwab brokerage integration alongside the existing Tradier connection for direct trade execution within the platform.\n\nPowerX Optimizer is priced as a one-time lifetime license, typically ranging from $1,997 to $3,997 depending on the package or current promotional pricing, with no monthly or annual fees thereafter. The platform includes an integrated trading journal, access to an active Mighty Networks community, and a 30-day money-back guarantee. Because it runs entirely in the browser, no installation is required and it is accessible from any device.",
+  "logo_url": "/logos/power-x-optimizer.svg",
+  "screenshots": [],
+  "website_url": "https://www.rockwelltrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 1997,
+    "tiers": [
+      {
+        "name": "Lifetime License",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time fee of $1,997\u2013$3,997 (no recurring subscription)",
+          "Real-time scanner for 18,000+ stocks, ETFs, and crypto",
+          "PowerX Strategy and Wheel Strategy signals",
+          "WTF Strategy Scanner for smaller accounts",
+          "Rocky AI trading assistant with visible reasoning",
+          "WealthOS Goals financial freedom planning tool",
+          "Tradier and Charles Schwab brokerage integration",
+          "Integrated trading journal",
+          "30-day money-back guarantee"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "etfs",
+    "crypto",
+    "futures"
+  ],
+  "pros": [
+    "Clear rules-based entry and exit signals reduce emotional trading decisions",
+    "One-time lifetime license with no ongoing subscription fees",
+    "Rocky AI shows its reasoning to help traders understand and validate setups",
+    "Covers 18,000+ assets in real time across stocks, ETFs, options, and crypto",
+    "Active community and consistent software updates with new features added regularly"
+  ],
+  "cons": [
+    "High upfront cost of $1,997\u2013$3,997 is a significant barrier for new traders",
+    "Steep learning curve \u2014 not suitable for complete beginners with no trading experience",
+    "No built-in backtesting engine or paper trading mode for strategy validation",
+    "Significantly mixed reviews across platforms suggest inconsistent user experiences"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.2,
+    "value": 3.3,
+    "support": 4.0,
+    "reliability": 4.0
+  },
+  "founded_year": 2005,
+  "company": "Rockwell Trading Services LLC",
+  "headquarters": "Dripping Springs, Texas",
+  "best_for": [
+    "swing traders seeking rules-based signals",
+    "options traders using the Wheel strategy",
+    "busy professionals with limited time for market analysis",
+    "traders wanting defined entry and exit criteria with risk-to-reward ratios"
+  ],
+  "similar_tools": [
+    "thinkorswim",
+    "tastytrade",
+    "options-ai",
+    "unusual-whales"
+  ],
+  "last_updated": "2026-03-15",
+  "review_status": "published"
+}
