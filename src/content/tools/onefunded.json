@@ -1,0 +1,140 @@
+{
+  "name": "OneFunded",
+  "slug": "onefunded",
+  "category": "prop-firms",
+  "subcategories": [
+    "evaluation-challenges",
+    "forex-prop-firms",
+    "multi-asset"
+  ],
+  "description_short": "OneFunded is a London-based prop firm offering evaluation challenges from $23 with up to 90% profit splits, no time limits, and full support for EAs and copy trading.",
+  "description_long": "OneFunded, operated by Brynex Tech Limited, is a proprietary trading firm headquartered in London that launched in 2024 under the name PROP365 before rebranding in August 2025. The firm follows an evaluation-based funding model where traders must complete one or two challenge phases to demonstrate consistent profitability before gaining access to funded accounts ranging from $2,000 to $100,000. In a strategic expansion move, the company also acquired retail prop firm FXCI to broaden its global trader base.\n\nThe platform offers four challenge formats \u2014 Value, Core, Flex, and Flash \u2014 designed to accommodate different trading styles and risk tolerances. The 1-Step Challenge requires a single 10% profit target with a 4% daily and 8% maximum drawdown limit, while the 2-Step Challenge splits targets across two phases (8% then 5%). The Flex plan removes the consistency rule for more flexible trading, and the Flash plan provides the quickest route to a funded account. Challenge fees start at just $23 and are fully refunded after the trader's first successful payout, making OneFunded one of the most accessible entry points in the prop firm industry.\n\nTraders can access over 200 instruments across forex, cryptocurrencies, indices, metals, and commodities through two supported platforms: cTrader and TradeLocker. Both are available on desktop, web, and mobile devices. MetaTrader 5 support is in development and listed as coming soon. Notably, OneFunded permits expert advisors (EAs), copy trading, and news trading with no lot size restrictions \u2014 advantages that algorithmic and news-based traders will appreciate. There are also no time limits on evaluation challenges, removing the pressure of artificial deadlines.\n\nFunded accounts earn an 80% profit split by default, upgradeable to 90% through an optional add-on. Payouts are processed every 14 days after the first 14-day qualifying period (minimum $100 profit), with a weekly payout option also available. The firm accepts US traders, giving it a broader reach than many competitors. With low entry fees, flexible trading rules, and a fee refund policy, OneFunded positions itself as a trader-friendly choice for both new and experienced traders seeking evaluation-based proprietary funding.",
+  "logo_url": "/logos/onefunded.svg",
+  "screenshots": [],
+  "website_url": "https://onefunded.com",
+  "affiliate_url": "",
+  "affiliate_program": "OneFunded Partner Program",
+  "affiliate_commission": "Up to 30% per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 23,
+    "tiers": [
+      {
+        "name": "Value",
+        "price_monthly": 23,
+        "price_yearly": 0,
+        "features": [
+          "One-time challenge fee from $23",
+          "Account sizes from $2,000 to $100,000",
+          "1-step or 2-step evaluation option",
+          "10% profit target (1-step) or 8%/5% (2-step)",
+          "4% daily / 8% max drawdown limits",
+          "Fee refunded after first payout"
+        ]
+      },
+      {
+        "name": "Core",
+        "price_monthly": 39,
+        "price_yearly": 0,
+        "features": [
+          "Standard challenge format",
+          "All account sizes available",
+          "2-step evaluation with 8% and 5% targets",
+          "EAs and copy trading permitted",
+          "No time limit on evaluation",
+          "Up to 90% profit split"
+        ]
+      },
+      {
+        "name": "Flex",
+        "price_monthly": 49,
+        "price_yearly": 0,
+        "features": [
+          "No consistency rule requirement",
+          "All account sizes available",
+          "Maximum trading flexibility",
+          "News trading and weekend holding allowed",
+          "No lot size restrictions",
+          "EAs and copy trading permitted"
+        ]
+      },
+      {
+        "name": "Flash",
+        "price_monthly": 59,
+        "price_yearly": 0,
+        "features": [
+          "Fastest route to funded account",
+          "Streamlined single-phase evaluation",
+          "All account sizes available",
+          "EAs and copy trading permitted",
+          "14-day payout cycle",
+          "No time limit on evaluation"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "crypto",
+    "indices",
+    "metals",
+    "commodities"
+  ],
+  "pros": [
+    "Very low entry fees starting at just $23",
+    "No time limits on evaluation challenges",
+    "Up to 90% profit split with optional upgrade",
+    "EAs, copy trading, and news trading all permitted",
+    "Challenge fee fully refunded after first payout"
+  ],
+  "cons": [
+    "MetaTrader 5 not yet available (listed as coming soon)",
+    "No stocks, futures, or options trading offered",
+    "Relatively new company with limited track record",
+    "Weekly payouts require a paid add-on upgrade"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.9,
+    "value": 4.3,
+    "support": 3.6,
+    "reliability": 3.7
+  },
+  "founded_year": 2024,
+  "company": "Brynex Tech Limited",
+  "headquarters": "London, UK",
+  "best_for": [
+    "budget-conscious traders",
+    "algorithmic and EA traders",
+    "forex and crypto traders",
+    "traders seeking no-time-limit evaluations"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the5ers",
+    "funding-pips",
+    "apex-trader-funding"
+  ],
+  "last_updated": "2026-03-16",
+  "review_status": "published"
+}

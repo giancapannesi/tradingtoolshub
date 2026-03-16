@@ -1,0 +1,126 @@
+{
+  "name": "Funded Trading Plus",
+  "slug": "funded-trading-plus",
+  "category": "prop-firms",
+  "subcategories": [
+    "instant-funding",
+    "evaluation-programs",
+    "forex-prop-firms"
+  ],
+  "description_short": "UK-based prop firm founded in 2013 offering instant funding and evaluation programs with up to 100% profit splits, 5 trading platforms, and $19.5M+ paid out to 60,000+ traders worldwide.",
+  "description_long": "Funded Trading Plus (FTP+) is a proprietary trading firm with roots dating back to 2013, when it operated as Trade Room Plus, an educational trading service. The prop firm brand launched in 2021 under FTP London Ltd., founded by trader Simon Massey. Today FTP+ serves over 60,000 traders across 180 countries and has paid out more than $19.5 million in profits, earning the award for \"Best Instant Funding Prop Firm 2025\" at the Funded Trading Awards.\n\nFTP+ offers three core programs to match different trader styles. The Instant Funding (Master Trader) program provides immediate access to funded accounts from $5,000 to $100,000 with no evaluation phase and payouts starting from Day 1. The 1-Step Express uses a single-phase evaluation with a 10% profit target, and the 2-Step Classic follows a traditional two-phase evaluation \u2014 both allowing accounts up to $200,000 with a scaling path to $2.5 million.\n\nAll evaluation fees are one-time and fully refunded with the first profit split. Profit splits start at 80% and scale to 90\u2013100% as traders grow. Drawdown rules are straightforward: 3% daily and 6% total maximum. Traders access 75+ CFD instruments including 60+ forex pairs, major indices, commodities, and crypto across five platforms: MetaTrader 4, MetaTrader 5, cTrader, DXTrade (with TradingView charts), and MatchTrader.\n\nFTP+ holds a 4.7 out of 5 rating on Trustpilot from over 2,400 reviews, with consistent praise for transparent rules, fast 7\u201310 day payouts, competitive spreads, and responsive 24/7 customer support. Its education-first heritage gives it a trader-focused culture that stands out in a crowded prop firm market.",
+  "logo_url": "/logos/funded-trading-plus.svg",
+  "screenshots": [],
+  "website_url": "https://www.fundedtradingplus.com",
+  "affiliate_url": "",
+  "affiliate_program": "Funded Trading Plus Affiliate Program",
+  "affiliate_commission": "Up to 25% per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 119,
+    "tiers": [
+      {
+        "name": "2-Step Classic",
+        "price_monthly": 119,
+        "price_yearly": 0,
+        "features": [
+          "2-phase evaluation",
+          "Accounts up to $200,000",
+          "3% daily / 6% total drawdown limit",
+          "80% profit split, scalable to 100%",
+          "Payouts every 10 calendar days",
+          "One-time fee refunded with first payout"
+        ]
+      },
+      {
+        "name": "1-Step Express",
+        "price_monthly": 119,
+        "price_yearly": 0,
+        "features": [
+          "Single-phase evaluation",
+          "10% profit target",
+          "Accounts up to $200,000",
+          "80% profit split, scalable to 100%",
+          "Payouts from Day 1, every 7 days",
+          "One-time fee refunded with first payout"
+        ]
+      },
+      {
+        "name": "Instant Funding",
+        "price_monthly": 299,
+        "price_yearly": 0,
+        "features": [
+          "No evaluation required",
+          "Accounts from $5,000 to $100,000",
+          "Trade and earn from Day 1",
+          "Up to 80% profit split",
+          "Payouts every 7 calendar days",
+          "No swap fees"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "crypto"
+  ],
+  "pros": [
+    "Instant funding option with no evaluation phase required",
+    "Profit splits scalable up to 100% with growth program",
+    "Five supported trading platforms including cTrader and DXTrade",
+    "Scaling path up to $2.5 million in funded capital",
+    "Strong 4.7/5 Trustpilot rating with 24/7 customer support"
+  ],
+  "cons": [
+    "Higher entry fees compared to some competing prop firms",
+    "No dedicated mobile app \u2014 relies on broker platform apps",
+    "All instruments are CFDs, no direct access to stocks or futures",
+    "Strict rule enforcement post-evaluation reported by some traders"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.4,
+    "value": 4.1,
+    "support": 4.6,
+    "reliability": 4.4
+  },
+  "founded_year": 2013,
+  "company": "FTP London Ltd.",
+  "headquarters": "Manchester, United Kingdom",
+  "best_for": [
+    "forex traders seeking instant funded accounts",
+    "traders building toward large prop accounts",
+    "traders who prefer flexible platform choice",
+    "UK and European prop traders"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the-funded-trader",
+    "apex-trader-funding",
+    "topstep"
+  ],
+  "last_updated": "2026-03-16",
+  "review_status": "published"
+}

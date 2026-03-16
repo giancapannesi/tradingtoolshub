@@ -1,0 +1,159 @@
+{
+  "name": "SabioTrade",
+  "slug": "sabio-trade",
+  "category": "prop-firms",
+  "subcategories": [
+    "forex",
+    "funded-accounts",
+    "evaluation-programs"
+  ],
+  "description_short": "SabioTrade is a prop trading firm offering a simplified 1-step evaluation with funded accounts up to $650K, weekly payouts, and 90% profit splits.",
+  "description_long": "SabioTrade is an Ireland-based proprietary trading firm founded in 2023 that provides traders with funded accounts ranging from $20,000 to $650,000 through a streamlined 1-step evaluation process. Unlike many competitors requiring a 2-phase challenge, SabioTrade's single evaluation phase reduces complexity and gets traders to funded status faster. The firm operates under CODEVIL IT ENGINEERING LIMITED, a legally registered EU company headquartered in Dublin.\n\nTraders access SabioTrade's proprietary platform, SabioTraderoom (powered by QuadCode), as well as MetaTrader 4 and 5 via bridge. The platform features 100+ built-in trading indicators and supports 250+ tradeable instruments spanning forex, stocks, indices, commodities, cryptocurrencies, and ETFs. Leverage varies by asset class, from 30:1 on forex down to 3:1 on crypto. A full-featured mobile app for iOS and Android provides charts, order management, a live news feed, and support access.\n\nAll evaluation plans share consistent rules: a 10% profit target, 5% daily loss limit, and 6% maximum trailing drawdown. One-time assessment fees range from $119 for a $20K account to $2,989 for the $650K Prime account, and the fee is fully refunded after the first profit payout as a funded trader. Profit splits start at 80% for smaller accounts and rise to 90% for the Advanced, Ultimate, and Prime tiers. Payouts are processed weekly and typically arrive within 24 hours.\n\nSabioTrade includes free education and mentorship resources for all traders, making it accessible to beginners and experienced traders alike. The affiliate program offers 30%+ lifetime commissions plus a $100 CPA bonus with twice-monthly automatic payouts. While Trustpilot reviews average 3.9/5 from roughly 700 reviewers praising its simplicity and platform quality, some traders have reported difficulties receiving first payouts and slower-than-expected customer support response times.",
+  "logo_url": "/logos/sabio-trade.svg",
+  "screenshots": [],
+  "website_url": "https://sabiotrade.com",
+  "affiliate_url": "",
+  "affiliate_program": "SabioTrade Partner Program",
+  "affiliate_commission": "30%+ lifetime commission + $100 CPA",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 119,
+    "tiers": [
+      {
+        "name": "Essential",
+        "price_monthly": 119,
+        "price_yearly": 0,
+        "features": [
+          "$20,000 funded account",
+          "80% profit split",
+          "10% profit target",
+          "5% daily loss limit",
+          "6% max trailing drawdown",
+          "Weekly payouts",
+          "Fee refundable after first payout"
+        ]
+      },
+      {
+        "name": "Plus",
+        "price_monthly": 289,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 funded account",
+          "80% profit split",
+          "10% profit target",
+          "5% daily loss limit",
+          "6% max trailing drawdown",
+          "Weekly payouts",
+          "Fee refundable after first payout"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "price_monthly": 479,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 funded account",
+          "90% profit split",
+          "10% profit target",
+          "5% daily loss limit",
+          "6% max trailing drawdown",
+          "Weekly payouts",
+          "Fee refundable after first payout"
+        ]
+      },
+      {
+        "name": "Ultimate",
+        "price_monthly": 939,
+        "price_yearly": 0,
+        "features": [
+          "$200,000 funded account",
+          "90% profit split",
+          "10% profit target",
+          "5% daily loss limit",
+          "6% max trailing drawdown",
+          "Weekly payouts",
+          "Fee refundable after first payout"
+        ]
+      },
+      {
+        "name": "Prime",
+        "price_monthly": 2989,
+        "price_yearly": 0,
+        "features": [
+          "$650,000 funded account",
+          "90% profit split",
+          "10% profit target",
+          "5% daily loss limit",
+          "6% max trailing drawdown",
+          "Weekly payouts",
+          "Fee refundable after first payout"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "stocks",
+    "indices",
+    "commodities",
+    "crypto",
+    "etfs"
+  ],
+  "pros": [
+    "Simplified 1-step evaluation \u2014 no 2-phase challenge required",
+    "Weekly payouts typically arriving within 24 hours",
+    "Assessment fee fully refunded after first profit payout",
+    "90% profit split on accounts $100K and above",
+    "Free education and mentorship included for all traders"
+  ],
+  "cons": [
+    "Payout disputes reported by some traders on Trustpilot",
+    "Customer support can be slow to resolve payment issues",
+    "No scaling plans available to grow funded account size",
+    "Futures trading not supported"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.7,
+    "value": 4.0,
+    "support": 3.2,
+    "reliability": 3.5
+  },
+  "founded_year": 2023,
+  "company": "CODEVIL IT ENGINEERING LIMITED",
+  "headquarters": "Dublin, Ireland",
+  "best_for": [
+    "beginner prop traders",
+    "forex traders",
+    "traders seeking simple 1-step evaluation",
+    "traders prioritizing fast weekly payouts"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the5ers",
+    "funding-pips",
+    "apex-trader-funding"
+  ],
+  "last_updated": "2026-03-16",
+  "review_status": "published"
+}

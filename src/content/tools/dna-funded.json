@@ -1,0 +1,140 @@
+{
+  "name": "DNA Funded",
+  "slug": "dna-funded",
+  "category": "prop-firms",
+  "subcategories": [
+    "challenge-accounts",
+    "instant-funding",
+    "forex-prop"
+  ],
+  "description_short": "Australian broker-backed prop firm offering 1-Phase, 2-Phase, Rapid, and Instant Funding challenges with 80% profit splits and 800+ CFD instruments via TradeLocker.",
+  "description_long": "DNA Funded is a proprietary trading firm launched in late 2024, uniquely backed by DNA Markets \u2014 an ASIC-regulated Australian forex broker. This broker integration sets DNA Funded apart from most independent prop firms, providing a regulated foundation and access to raw spreads from 0.0 pips on over 800 CFD instruments across forex, indices, commodities, stocks, and crypto.\n\nTraders can choose from four challenge structures to suit their style. The 1 Phase (Single Helix) and 2 Phase (Double Helix) challenges start from $49 with no time limits, allowing traders to progress at their own pace across account sizes from $5,000 to $200,000. The Rapid challenge offers a fast-track 10-day evaluation starting at $99, while the Instant Funding option skips evaluation entirely with immediate access to a funded account starting at $199.\n\nAll trading is conducted on the TradeLocker platform, available via web and mobile. Base profit splits are set at 80%, with optional add-ons (at 20% extra cost per add-on) to boost payouts to 90% or enable weekly withdrawals. Challenge fees are refundable upon the first payout, and traders can scale up to $600,000 in combined allocated capital. Risk rules include a daily profit cap of 40% of the payout target alongside standard consistency requirements. Leverage varies by challenge type \u2014 up to 1:50 on forex for the 2-Phase plan and 1:30 for others.\n\nAs a firm founded in 2024, DNA Funded is still building its community reputation, but its ASIC broker backing and transparent rule structure give it a credible foundation. Futures and options trading are not yet available but are expected to launch in 2026. An affiliate program is offered at dnafunded.com/affiliate for partners looking to promote the platform.",
+  "logo_url": "/logos/dna-funded.svg",
+  "screenshots": [],
+  "website_url": "https://dnafunded.com",
+  "affiliate_url": "",
+  "affiliate_program": "DNA Funded Affiliate Program",
+  "affiliate_commission": "Not publicly disclosed",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 49,
+    "tiers": [
+      {
+        "name": "1 Phase (Single Helix)",
+        "price_monthly": 49,
+        "price_yearly": 0,
+        "features": [
+          "Account sizes: $5K\u2013$200K",
+          "No time limit",
+          "80% profit split (90% with add-on)",
+          "1:30 leverage on forex",
+          "Fee refunded on first payout",
+          "800+ CFD instruments"
+        ]
+      },
+      {
+        "name": "2 Phase (Double Helix)",
+        "price_monthly": 49,
+        "price_yearly": 0,
+        "features": [
+          "Account sizes: $5K\u2013$200K",
+          "No time limit",
+          "80% profit split (90% with add-on)",
+          "1:50 leverage on forex",
+          "Fee refunded on first payout",
+          "800+ CFD instruments"
+        ]
+      },
+      {
+        "name": "Rapid (10-Day)",
+        "price_monthly": 99,
+        "price_yearly": 0,
+        "features": [
+          "Account sizes: $10K\u2013$100K",
+          "10-day evaluation period",
+          "80% profit split (90% with add-on)",
+          "1:30 leverage on forex",
+          "Fast-track evaluation",
+          "No crypto trading"
+        ]
+      },
+      {
+        "name": "Instant Funding",
+        "price_monthly": 199,
+        "price_yearly": 0,
+        "features": [
+          "Skip evaluation entirely",
+          "Multiple account sizes available",
+          "80% profit split (90% with add-on)",
+          "Immediate funded account access",
+          "Weekly payout option available",
+          "800+ CFD instruments"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "commodities",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "Backed by ASIC-regulated DNA Markets broker \u2014 rare and credible among prop firms",
+    "No time limits on 1-Phase and 2-Phase challenges",
+    "Raw spreads from 0.0 pips with 800+ CFD instruments",
+    "Four challenge types including Instant Funding for traders who want to skip evaluation",
+    "Challenge fee refunded upon first payout"
+  ],
+  "cons": [
+    "Founded in 2024 with limited track record and community history",
+    "Futures and options trading not yet available",
+    "Crypto trading excluded from the Rapid challenge",
+    "Affiliate commission rates not publicly disclosed"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.8,
+    "value": 4.0,
+    "support": 3.7,
+    "reliability": 3.9
+  },
+  "founded_year": 2024,
+  "company": "DNA Funded Ltd.",
+  "headquarters": "Melbourne, Australia",
+  "best_for": [
+    "forex traders seeking broker-backed prop funding",
+    "traders who prefer challenge accounts with no time limits",
+    "traders wanting immediate funded account access",
+    "multi-asset CFD traders"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the-5ers",
+    "topstep",
+    "funded-trader"
+  ],
+  "last_updated": "2026-03-16",
+  "review_status": "published"
+}
