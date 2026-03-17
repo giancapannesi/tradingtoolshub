@@ -1,0 +1,153 @@
+{
+  "name": "Funding Pips",
+  "slug": "funding-pips",
+  "category": "prop-firms",
+  "subcategories": [
+    "funded-trader",
+    "forex-prop-firm",
+    "evaluation-challenges"
+  ],
+  "description_short": "Dubai-based prop firm offering 2-step, 1-step, and instant funding programs with up to 100% profit splits and $200M+ in total payouts.",
+  "description_long": "Funding Pips is a proprietary trading firm founded in August 2022 and headquartered in Dubai, UAE under the legal entity Ankh Prop \u2013 FZCO. Despite being relatively new to the prop firm space, the company has grown rapidly, claiming over 2 million registered traders and $200M+ in total payouts. Its diverse program lineup \u2014 2-Step Standard, 2-Step Pro, 1-Step, and Zero (Instant Funding) \u2014 gives traders flexibility based on their risk tolerance and trading style.\n\nChallenge fees start at just $29 for the 2-Step Pro $5K account, making Funding Pips accessible to newer traders. The standout feature is its profit-split structure: traders can earn anywhere from 60% up to 100% depending on the payout frequency they choose. The Zero (Instant Funding) program offers a 95% split with no profit target required, appealing to experienced traders who want to skip evaluation phases.\n\nFunding Pips supports MetaTrader 5, cTrader, and Match Trader across desktop, web, and mobile. MT5 was re-added in March 2025 after a hiatus, and cTrader carries a $20 surcharge. Tradeable instruments include forex, indices, metals, energies, and crypto (~48 instruments total), though individual stocks, options, and futures are not available.\n\nThe affiliate program is automatically activated upon purchasing any challenge, offering up to 10% commission on referrals plus a unique 5% discount code for referred traders. With a 4.5/5 Trustpilot rating from over 43,000 reviews, Funding Pips has built a strong reputation for fast payouts and transparent rules, though its limited instrument count and platform surcharges are minor drawbacks.",
+  "logo_url": "/logos/funding-pips.svg",
+  "screenshots": [],
+  "website_url": "https://www.fundingpips.com",
+  "affiliate_url": "",
+  "affiliate_program": "Funding Pips Affiliate Program",
+  "affiliate_commission": "Up to 10% per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29,
+    "tiers": [
+      {
+        "name": "2-Step Pro $5K",
+        "price_monthly": 29,
+        "price_yearly": 0,
+        "features": [
+          "$5,000 funded account",
+          "6% Phase 1 profit target",
+          "3% daily loss limit",
+          "No time limit",
+          "80% profit split",
+          "Daily/weekly payouts"
+        ]
+      },
+      {
+        "name": "2-Step Standard $5K",
+        "price_monthly": 36,
+        "price_yearly": 0,
+        "features": [
+          "$5,000 funded account",
+          "8% / 5% profit targets",
+          "No time limit",
+          "Up to 100% profit split",
+          "Tuesday / bi-weekly / on-demand payouts",
+          "Forex, indices, metals, energies, crypto"
+        ]
+      },
+      {
+        "name": "2-Step Standard $50K",
+        "price_monthly": 289,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 funded account",
+          "8% / 5% profit targets",
+          "No time limit",
+          "Up to 100% profit split",
+          "MT5, cTrader, Match Trader",
+          "~48 tradeable instruments"
+        ]
+      },
+      {
+        "name": "1-Step $5K",
+        "price_monthly": 59,
+        "price_yearly": 0,
+        "features": [
+          "$5,000 funded account",
+          "10% profit target",
+          "Single-phase evaluation",
+          "No time limit",
+          "Up to 90% profit split",
+          "Forex, indices, metals, crypto"
+        ]
+      },
+      {
+        "name": "Zero (Instant Funding) $100K",
+        "price_monthly": 555,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 instant funded account",
+          "No profit target required",
+          "No evaluation phase",
+          "95% profit split",
+          "Bi-weekly payouts",
+          "$7/lot commission on forex"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "crypto",
+    "indices",
+    "metals",
+    "energies"
+  ],
+  "pros": [
+    "Competitive entry pricing starting at $29 for a $5K challenge",
+    "Flexible profit splits up to 100% with multiple payout frequencies",
+    "Strong 4.5/5 Trustpilot rating from 43,000+ verified reviews",
+    "Zero (Instant Funding) program skips evaluation with 95% split",
+    "Automatic affiliate program with up to 10% commission"
+  ],
+  "cons": [
+    "No individual stocks, options, or futures available (~48 instruments only)",
+    "cTrader requires a $20 surcharge",
+    "No standalone mobile app \u2014 relies on third-party platform mobile clients",
+    "Mid-tier pricing not fully transparent without promotional discounts"
+  ],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.0,
+    "value": 4.5,
+    "support": 4.2,
+    "reliability": 4.4
+  },
+  "founded_year": 2022,
+  "company": "Ankh Prop \u2013 FZCO",
+  "headquarters": "IFZA Business Park, DDP, Dubai, UAE",
+  "best_for": [
+    "forex traders",
+    "funded account seekers",
+    "traders wanting flexible profit splits",
+    "beginner to intermediate prop traders"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the5ers",
+    "topstep",
+    "apex-trader-funding"
+  ],
+  "last_updated": "2026-03-17",
+  "review_status": "published"
+}

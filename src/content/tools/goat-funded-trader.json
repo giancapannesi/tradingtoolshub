@@ -1,0 +1,151 @@
+{
+  "name": "Goat Funded Trader",
+  "slug": "goat-funded-trader",
+  "category": "prop-firms",
+  "subcategories": [
+    "forex-prop-firms",
+    "multi-step-challenges",
+    "instant-funding",
+    "crypto-trading"
+  ],
+  "description_short": "Goat Funded Trader is a prop firm with 6+ challenge models\u2014including instant funding and a $1 entry option\u2014offering up to 100% profit splits and $2M in simulated capital.",
+  "description_long": "Goat Funded Trader (GFT) is a proprietary trading firm founded in May 2023 that provides traders access to simulated funded accounts ranging from $5,000 up to $2,000,000. The firm distinguishes itself with an unusually wide range of evaluation paths: Goat 2-Step, Goat 1-Step, Goat 3-Step, Goat Blitz, Goat $1, and the no-evaluation Instant Goat model. Challenge fees start as low as $1, and discounts of up to 50% are frequently offered, making GFT one of the more accessible entry points in the prop firm space. Payment options include credit/debit cards, PayPal, and cryptocurrency.\n\nTraders operate on MetaTrader 5, Match-Trader, or TradeLocker, with access to forex pairs, CFD indices, metals, commodities, stock CFDs, and over 500 cryptocurrency CFDs via Volumetrica FX integration. Most challenges carry no time limit and require only 3 minimum trading days\u2014a meaningful advantage over competitors with strict 30-day deadlines. News trading is permitted within a 5-minute window around high-impact events, subject to a 1% profit cap per trade.\n\nGFT's 4-stage scaling plan is a core differentiator. Traders who achieve consistent profitability progress through stages that unlock increasing capital allocations, higher profit splits, and eventually up to $2,000,000 in simulated funds, a 100% profit split, on-demand payouts, and a monthly salary of up to $2,000 at Stage 4. Standard funded accounts start at an 80% profit split with bi-weekly payouts (every 10 days on Instant accounts).\n\nThe firm reports over $8.1 million paid out to traders since launch. A companion mobile app for iOS and Android provides performance analytics and evaluation progress tracking, though trade execution requires the desktop trading platforms. GFT is legally operated by Wishes Tower International Limited, registered in Hong Kong, with an additional office in Las Palmas, Spain.",
+  "logo_url": "/logos/goat-funded-trader.svg",
+  "screenshots": [],
+  "website_url": "https://www.goatfundedtrader.com",
+  "affiliate_url": "",
+  "affiliate_program": "Goat Funded Trader Affiliate Program",
+  "affiliate_commission": "Up to 15% per referral",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 1,
+    "tiers": [
+      {
+        "name": "Goat $1 Challenge",
+        "price_monthly": 1,
+        "price_yearly": 0,
+        "features": [
+          "Entry-level evaluation challenge",
+          "Simulated funded account upon passing",
+          "80% profit split",
+          "No time limit",
+          "MT5, Match-Trader, or TradeLocker"
+        ]
+      },
+      {
+        "name": "Goat 2-Step $5K",
+        "price_monthly": 26,
+        "price_yearly": 0,
+        "features": [
+          "$5,000 simulated account",
+          "Two-phase evaluation, no time limit",
+          "3 minimum trading days",
+          "80% profit split (scalable to 100%)",
+          "Payouts every 14 days"
+        ]
+      },
+      {
+        "name": "Goat 2-Step $25K",
+        "price_monthly": 119,
+        "price_yearly": 0,
+        "features": [
+          "$25,000 simulated account",
+          "Two-phase evaluation, no time limit",
+          "News trading allowed",
+          "Scaling plan access",
+          "80% profit split (scalable to 100%)"
+        ]
+      },
+      {
+        "name": "Goat 2-Step $100K",
+        "price_monthly": 499,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 simulated account",
+          "Two-phase evaluation, no time limit",
+          "Full 4-stage scaling plan",
+          "Up to $2M capital at Stage 4",
+          "100% profit split and on-demand payouts at Stage 4"
+        ]
+      },
+      {
+        "name": "Instant Goat $100K",
+        "price_monthly": 899,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 simulated account",
+          "No evaluation required",
+          "Instant funded account access",
+          "80% profit split",
+          "Payouts every 10 days",
+          "Up to $300,000 available"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "forex",
+    "indices",
+    "metals",
+    "commodities",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "Six distinct challenge models including instant funding and a $1 entry option",
+    "No time limit on most evaluations with only 3 minimum trading days required",
+    "Stage 4 scaling unlocks $2M simulated capital, 100% profit split, and on-demand payouts",
+    "500+ crypto CFDs supported, one of the broadest selections among forex prop firms",
+    "Frequent discounts up to 50% and crypto payment accepted"
+  ],
+  "cons": [
+    "Mobile app is analytics-only; trade execution requires separate desktop platforms",
+    "Founded in 2023 with a shorter track record than established prop firm competitors",
+    "News trading profit capped at 1% per trade, limiting event-driven strategies",
+    "Instant Goat accounts carry higher upfront fees with no refund on failing evaluations"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.1,
+    "features": 4.2,
+    "value": 4.3,
+    "support": 3.9,
+    "reliability": 4.0
+  },
+  "founded_year": 2023,
+  "company": "Wishes Tower International Limited",
+  "headquarters": "Hong Kong",
+  "best_for": [
+    "forex and CFD traders",
+    "traders seeking instant funded access",
+    "budget-conscious traders looking for low entry fees",
+    "crypto and multi-asset prop trading"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "the-funded-trader",
+    "apex-trader-funding",
+    "topstep"
+  ],
+  "last_updated": "2026-03-17",
+  "review_status": "published"
+}
