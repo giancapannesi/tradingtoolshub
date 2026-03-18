@@ -1,0 +1,166 @@
+{
+  "name": "Tradeify",
+  "slug": "tradeify",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "instant-funded"
+  ],
+  "description_short": "Tradeify is a futures-only prop firm offering Growth, Select, and Lightning plans with EOD drawdown, $0 activation fees, and daily payouts processed 7 days a week.",
+  "description_long": "Tradeify is a futures-focused proprietary trading firm founded in 2022 by Brett Simba in Boca Raton, Florida. The firm offers simulated-funded accounts across three distinct program types \u2014 Growth, Select, and Lightning \u2014 giving traders flexibility in how they approach evaluation and structure their payouts. With $125M+ in total payouts reported and a Trustpilot rating of 4.7\u20134.8 from over 2,000 verified reviews, Tradeify has quickly earned a strong reputation among retail futures traders.\n\nThe Growth plan is a one-step evaluation with monthly subscriptions starting at $139/month for a $50K account, a 35% funded consistency rule, and 100% of the first $15K in profit kept by the trader before shifting to a 90/10 split. The Select plan introduces two payout modes: Select Daily allows payout eligibility every day (processed 7 days per week), while Select Flex triggers payouts after every 5 winning days with no daily loss limit enforced. For traders who prefer to bypass evaluation entirely, the Lightning Funded plan provides immediate simulated account access for a one-time fee starting at $349 for a $25K account \u2014 with no recurring monthly charges afterward.\n\nTradeify differentiates itself in several meaningful ways. There is no activation fee, saving traders $149\u2013$249 compared to most competing firms. Drawdown is calculated end-of-day rather than trailing intraday, a critical advantage that prevents traders from being stopped out by normal intraday fluctuations. Automated trading strategies and bots are permitted with ownership verification, and there are no restrictions on trading during news events \u2014 both policies uncommon among futures prop firms.\n\nSupported trading platforms include Tradovate (primary), NinjaTrader, TradingView, Quantower, and WealthCharts. Mobile trading is available through the Tradovate iOS and Android app. The platform includes a built-in trade journal and performance analytics dashboard. Traders who achieve five approved payouts can qualify for the Tradeify Elite program, which offers a pathway to access live CME capital.",
+  "logo_url": "/logos/tradeify.svg",
+  "screenshots": [],
+  "website_url": "https://tradeify.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 139,
+    "tiers": [
+      {
+        "name": "Growth $50K",
+        "price_monthly": 139,
+        "price_yearly": 0,
+        "features": [
+          "1-step evaluation",
+          "$50K simulated account",
+          "1-day minimum trading",
+          "$0 activation fee",
+          "35% funded consistency rule",
+          "100% of first $15K profit, then 90/10 split",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "Growth $100K",
+        "price_monthly": 239,
+        "price_yearly": 0,
+        "features": [
+          "1-step evaluation",
+          "$100K simulated account",
+          "1-day minimum trading",
+          "$0 activation fee",
+          "35% funded consistency rule",
+          "100% of first $15K profit, then 90/10 split",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "Select $50K",
+        "price_monthly": 159,
+        "price_yearly": 0,
+        "features": [
+          "1-step evaluation",
+          "$50K simulated account",
+          "Select Daily or Select Flex payout mode",
+          "Daily payouts up to $1K/day (Select Daily)",
+          "Payout every 5 winning days (Select Flex)",
+          "90/10 profit split",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "Select $100K",
+        "price_monthly": 259,
+        "price_yearly": 0,
+        "features": [
+          "1-step evaluation",
+          "$100K simulated account",
+          "Select Daily or Select Flex payout mode",
+          "Daily payouts up to $1.5K/day (Select Daily)",
+          "Payout every 5 winning days up to $4K (Select Flex)",
+          "90/10 profit split",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "Lightning Funded $50K",
+        "price_monthly": 469,
+        "price_yearly": 0,
+        "features": [
+          "No evaluation required",
+          "$50K instant simulated account",
+          "One-time fee \u2014 no monthly charges",
+          "100% of first $15K profit, then 90/10 split",
+          "EOD drawdown",
+          "Escalating consistency rule"
+        ]
+      },
+      {
+        "name": "Lightning Funded $100K",
+        "price_monthly": 599,
+        "price_yearly": 0,
+        "features": [
+          "No evaluation required",
+          "$100K instant simulated account",
+          "One-time fee \u2014 no monthly charges",
+          "100% of first $15K profit, then 90/10 split",
+          "EOD drawdown",
+          "Escalating consistency rule"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "$0 activation fee saves $149\u2013$249 compared to most competitors",
+    "End-of-day drawdown calculation is far more trader-friendly than trailing intraday",
+    "Daily payouts processed 7 days a week with fast turnaround on Select Daily plan",
+    "Trading bots and automated strategies allowed with no news trading restrictions",
+    "Tradeify Elite program offers a pathway to live CME capital after 5 approved payouts"
+  ],
+  "cons": [
+    "Futures only \u2014 no stocks, options, forex, or crypto trading",
+    "No proprietary mobile app; mobile trading depends on Tradovate's app",
+    "Consistency rules may feel restrictive for aggressive trading styles",
+    "Frequent promotional discounts make it difficult to compare true pricing"
+  ],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.6,
+    "value": 4.6,
+    "support": 4.5,
+    "reliability": 4.4
+  },
+  "founded_year": 2022,
+  "company": "Tradeify",
+  "headquarters": "Boca Raton, Florida",
+  "best_for": [
+    "futures day traders",
+    "algorithmic and bot traders",
+    "traders seeking daily payouts",
+    "cost-conscious traders avoiding activation fees"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "earn2trade",
+    "bulenox"
+  ],
+  "last_updated": "2026-03-18",
+  "review_status": "published"
+}

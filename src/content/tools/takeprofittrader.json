@@ -1,0 +1,150 @@
+{
+  "name": "TakeProfitTrader",
+  "slug": "takeprofittrader",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "simulated-funding",
+    "one-step-evaluation"
+  ],
+  "description_short": "Futures-only prop firm with one-step evaluations, daily payouts, no daily loss limits, and up to 90% profit splits on $25K\u2013$150K simulated accounts.",
+  "description_long": "TakeProfitTrader (TPT) is a futures-focused proprietary trading firm founded in 2021 by James Sixsmith, a former professional hockey player turned full-time trader. Based in Windermere, Florida, TPT offers simulated funded accounts ranging from $25,000 to $150,000 for traders looking to prove their skills and trade with firm capital \u2014 without risking their own money on live markets. With over 8,300 Trustpilot reviews averaging 4.4 out of 5 stars, TPT has built one of the stronger reputations in the competitive funded futures space.\n\nThe evaluation is a streamlined one-step challenge requiring a minimum of 5 trading days and a 6% profit target, with no maximum time limit. One of TPT's most notable differentiators is the removal of daily loss limits (as of January 2025), replaced by a trailing max drawdown rule only. A 50% consistency rule applies \u2014 no single trading day may account for more than half your total profits \u2014 designed to promote sustainable trading habits rather than rewarding lucky one-day windfalls.\n\nPROFIT splits are 80/20 on PRO accounts and 90/10 on PRO+ accounts, with no cap on withdrawal amounts. TPT stands out for offering daily payouts \u2014 among the fastest in the funded futures industry \u2014 with withdrawals processed within 12\u201324 business hours via Plaid (US bank transfer), PayPal, or Wise for international traders. Withdrawals above $250 are free; a $50 fee applies to smaller amounts. PRO accounts allow day-one withdrawals after building a buffer to the max drawdown level.\n\nTraders access accounts through NinjaTrader 8, Tradovate, or Rithmic \u2014 covering everything from advanced charting to low-latency institutional execution. TPT supports a broad range of CME Group futures markets including stock index futures (ES, NQ, YM), energy (CL, NG), metals (GC, SI), agricultural, and Treasury futures. Automated trading is possible via third-party connectors such as TradersPost. Pricing ranges from $90/month for a $25K PRO account up to $360/month for a $150K PRO+ account, with frequent promotional discounts of 40\u201350% off.",
+  "logo_url": "/logos/takeprofittrader.svg",
+  "screenshots": [],
+  "website_url": "https://www.takeprofittrader.com",
+  "affiliate_url": "",
+  "affiliate_program": "TakeProfitTrader Partner Program",
+  "affiliate_commission": "10% to 25% of referred subscription revenue (4 tiers based on monthly referral volume)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 90,
+    "tiers": [
+      {
+        "name": "PRO $25K",
+        "price_monthly": 90,
+        "price_yearly": 1080,
+        "features": [
+          "$25,000 simulated account",
+          "6% profit target (one-step)",
+          "80/20 profit split",
+          "No daily loss limit",
+          "Daily payouts",
+          "NinjaTrader, Tradovate, Rithmic supported"
+        ]
+      },
+      {
+        "name": "PRO $50K",
+        "price_monthly": 102,
+        "price_yearly": 1224,
+        "features": [
+          "$50,000 simulated account",
+          "6% profit target (one-step)",
+          "80/20 profit split",
+          "No daily loss limit",
+          "Daily payouts",
+          "NinjaTrader, Tradovate, Rithmic supported"
+        ]
+      },
+      {
+        "name": "PRO $100K",
+        "price_monthly": 198,
+        "price_yearly": 2376,
+        "features": [
+          "$100,000 simulated account",
+          "6% profit target (one-step)",
+          "80/20 profit split",
+          "No daily loss limit",
+          "Daily payouts",
+          "NinjaTrader, Tradovate, Rithmic supported"
+        ]
+      },
+      {
+        "name": "PRO+ $50K",
+        "price_monthly": 170,
+        "price_yearly": 2040,
+        "features": [
+          "$50,000 simulated account",
+          "6% profit target (one-step)",
+          "90/10 profit split",
+          "No daily loss limit",
+          "Daily payouts",
+          "Live Tradovate account upon passing"
+        ]
+      },
+      {
+        "name": "PRO+ $150K",
+        "price_monthly": 360,
+        "price_yearly": 4320,
+        "features": [
+          "$150,000 simulated account",
+          "6% profit target (one-step)",
+          "90/10 profit split",
+          "No daily loss limit",
+          "Daily payouts",
+          "Live Tradovate account upon passing",
+          "Highest available account size"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Daily payouts with no maximum withdrawal cap \u2014 rare among futures prop firms",
+    "No daily loss limit (removed January 2025), only a trailing max drawdown applies",
+    "Simple one-step evaluation with no time limit and a clear 6% profit target",
+    "90/10 profit split available on PRO+ accounts",
+    "Strong Trustpilot reputation: 4.4/5 from 8,300+ reviews with 81% five-star"
+  ],
+  "cons": [
+    "Futures only \u2014 no stocks, forex, crypto, or options supported",
+    "50% consistency rule limits aggressive single-session trading strategies",
+    "No dedicated mobile app; mobile access depends on Tradovate's platform",
+    "$50 withdrawal fee applies to payouts of $250 or less"
+  ],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.2,
+    "value": 4.1,
+    "support": 4.3,
+    "reliability": 4.4
+  },
+  "founded_year": 2021,
+  "company": "TakeProfitTrader LLC",
+  "headquarters": "Windermere, Florida, USA",
+  "best_for": [
+    "futures traders seeking daily payouts",
+    "traders who prefer one-step evaluations",
+    "US-based funded account traders",
+    "NinjaTrader and Tradovate users"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "earn2trade",
+    "funded-futures-network"
+  ],
+  "last_updated": "2026-03-18",
+  "review_status": "published"
+}

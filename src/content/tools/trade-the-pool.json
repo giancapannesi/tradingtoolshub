@@ -1,0 +1,137 @@
+{
+  "name": "Trade The Pool",
+  "slug": "trade-the-pool",
+  "category": "prop-firms",
+  "subcategories": [
+    "stock-prop-firm",
+    "funded-accounts",
+    "equity-trading"
+  ],
+  "description_short": "A stock-focused prop firm offering funded accounts for U.S. equities and ETFs, with a single-phase evaluation and up to $450K in buying power.",
+  "description_long": "Trade The Pool is one of the very few proprietary trading firms exclusively focused on U.S. stocks and ETFs, offering funded accounts with up to $450,000 in buying power. Founded in 2022 by Five Percent Online Ltd\u2014the same parent company behind the well-known forex prop firm The5ers\u2014Trade The Pool brings institutional-grade infrastructure to equity day traders and swing traders seeking professional capital without the risk of their own funds.\n\nThe firm offers four main program types: Day Trade Max, Day Trade Flex, Swing Max, and Swing Flex, covering account sizes from $2,000 up to $200,000. Evaluation fees are one-time only, ranging from approximately $47 to $1,475 depending on the chosen program and account size. There are no recurring monthly charges once funded. Traders who pass the single-phase evaluation receive a funded account, retain 70% of all profits, and can scale their accounts up to $450,000 in buying power over time.\n\nWhat truly differentiates Trade The Pool from the broader prop firm landscape is its deep focus on equities. Traders access 12,000+ instruments including large-cap U.S. stocks, popular ETFs such as SPY, QQQ, and IWM, ETNs, and warrants. Pre-market and after-hours trading sessions are supported, and the firm notably absorbs all locate and hard-to-borrow fees for short sellers\u2014a meaningful advantage that can significantly improve net profitability. All trading is conducted through the Trader Evolution platform, which is available on desktop, iOS, and Android.\n\nTrade The Pool is best suited for experienced stock traders who have a proven strategy and want to scale with firm capital rather than their own. It is particularly appealing to equity-focused traders who find most prop firms' forex and futures bias limiting. Traders needing exposure to options, futures, forex, or crypto will need to look elsewhere, as Trade The Pool is strictly a stocks and ETFs platform.",
+  "logo_url": "/logos/trade-the-pool.svg",
+  "screenshots": [],
+  "website_url": "https://tradethepool.com",
+  "affiliate_url": "",
+  "affiliate_program": "Trade The Pool Affiliate Program",
+  "affiliate_commission": "10% per sale (or 5% affiliate + 5% trader discount split)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 47,
+    "tiers": [
+      {
+        "name": "Swing Max (Entry)",
+        "price_monthly": 62,
+        "price_yearly": 0,
+        "features": [
+          "$2,000 account size",
+          "Single-phase evaluation",
+          "70% profit split",
+          "U.S. stocks & ETFs",
+          "Trader Evolution platform",
+          "One-time fee \u2014 no recurring charges"
+        ]
+      },
+      {
+        "name": "Day Trade Flex ($50K)",
+        "price_monthly": 257,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 buying power",
+          "Single-phase evaluation",
+          "70% profit split",
+          "Pre-market & after-hours trading",
+          "No locate or hard-to-borrow fees",
+          "One-time fee \u2014 no recurring charges"
+        ]
+      },
+      {
+        "name": "Day Trade Max ($200K)",
+        "price_monthly": 990,
+        "price_yearly": 0,
+        "features": [
+          "$200,000 buying power",
+          "Single-phase evaluation",
+          "70% profit split",
+          "12,000+ instruments",
+          "Scale up to $450K buying power",
+          "One-time fee \u2014 no recurring charges"
+        ]
+      },
+      {
+        "name": "Day Trade Flex ($200K)",
+        "price_monthly": 1328,
+        "price_yearly": 0,
+        "features": [
+          "$200,000 buying power (Flex rules)",
+          "Single-phase evaluation",
+          "70% profit split",
+          "Flexible trading rules",
+          "Scale up to $450K buying power",
+          "One-time fee \u2014 no recurring charges"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "etfs"
+  ],
+  "pros": [
+    "One of the very few prop firms exclusively focused on U.S. stocks and ETFs",
+    "No locate or hard-to-borrow fees \u2014 firm covers short selling costs",
+    "Single-phase evaluation is simpler than multi-step competitors",
+    "Pre-market and after-hours trading supported",
+    "One-time evaluation fee with no ongoing monthly charges"
+  ],
+  "cons": [
+    "Limited to U.S. stocks and ETFs \u2014 no options, futures, forex, or crypto",
+    "Profit split capped at 70%, lower than some competitors offering 80-90%",
+    "No public API or external integration support",
+    "Platform locked to Trader Evolution \u2014 no choice of trading software"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.8,
+    "value": 4.2,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2022,
+  "company": "Five Percent Online Ltd",
+  "headquarters": "Ra'anana, Israel",
+  "best_for": [
+    "stock day traders",
+    "equity swing traders",
+    "short sellers",
+    "traders seeking stock-focused prop capital"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "topstep",
+    "apex-trader-funding",
+    "the5ers"
+  ],
+  "last_updated": "2026-03-18",
+  "review_status": "published"
+}

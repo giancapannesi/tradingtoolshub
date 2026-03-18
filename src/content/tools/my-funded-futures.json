@@ -1,0 +1,175 @@
+{
+  "name": "My Funded Futures",
+  "slug": "my-funded-futures",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "funded-trading"
+  ],
+  "description_short": "My Funded Futures is a futures-focused prop firm offering fast payouts, no activation fees, and a simplified one-phase evaluation with up to 90% profit splits.",
+  "description_long": "My Funded Futures (MFFU) is a futures proprietary trading firm founded in 2023 by Matthew Leech, quickly establishing itself as one of the most trader-friendly prop firms in the industry. With over 16,000 Trustpilot reviews averaging 4.9 out of 5 stars, MFFU has built a strong reputation for transparency, fair rules, and fast capital access for futures traders trading CME Group instruments including ES, NQ, YM, RTY, CL, and GC.\n\nWhat sets MFFU apart from the competition is its elimination of activation fees \u2014 a cost that most competitors charge at $149 to $300 or more just to access a funded account after passing an evaluation. Combined with industry-leading payout speeds (first payout in as little as 15\u201320 minutes, subsequent payouts in seconds), MFFU offers a genuinely streamlined path to getting paid. The firm boasts a roughly 25% pass rate on evaluations, approximately double the industry average, reflecting its trader-centric rule structure.\n\nMFFU offers three main account types \u2014 Core, Rapid, and Pro \u2014 each with different drawdown methodologies and profit split arrangements. Core accounts use end-of-day trailing drawdown with 80/20 splits, Rapid accounts use intraday trailing drawdown with 90/10 splits, and Pro accounts offer EOD trailing with 80/20 splits but no consistency rules on funded accounts. All plans support trading through Rithmic, NinjaTrader, Tradovate, TradingView (via Rithmic), ATAS, and Volumetrica, giving traders flexibility in their platform of choice.\n\nAfter achieving five consecutive profitable payouts, MFFU traders become eligible to transition to a real live trading account, providing a genuine long-term career pathway. The firm is futures-only and does not support stocks, options, forex, or crypto, making it specifically suited for traders focused on futures markets who value straightforward rules, competitive pricing, and rapid access to their earned capital.",
+  "logo_url": "/logos/my-funded-futures.svg",
+  "screenshots": [],
+  "website_url": "https://myfundedfutures.com",
+  "affiliate_url": "",
+  "affiliate_program": "My Funded Futures Affiliate Program",
+  "affiliate_commission": "12% on evaluation and reset fees",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 77,
+    "tiers": [
+      {
+        "name": "Core $50K",
+        "price_monthly": 77,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 simulated account",
+          "80/20 profit split",
+          "EOD trailing drawdown",
+          "Payout every 5 winning days",
+          "No activation fee",
+          "NinjaTrader, Tradovate, Rithmic"
+        ]
+      },
+      {
+        "name": "Rapid $50K",
+        "price_monthly": 129,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 simulated account",
+          "90/10 profit split",
+          "Intraday trailing drawdown",
+          "No activation fee",
+          "All supported platforms",
+          "TradersPost algo integration"
+        ]
+      },
+      {
+        "name": "Rapid $100K",
+        "price_monthly": 229,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 simulated account",
+          "90/10 profit split",
+          "Intraday trailing drawdown",
+          "No activation fee",
+          "All supported platforms",
+          "Path to live account"
+        ]
+      },
+      {
+        "name": "Rapid $150K",
+        "price_monthly": 377,
+        "price_yearly": 0,
+        "features": [
+          "$150,000 simulated account",
+          "90/10 profit split",
+          "Intraday trailing drawdown",
+          "No activation fee",
+          "All supported platforms",
+          "Path to live account"
+        ]
+      },
+      {
+        "name": "Pro $50K",
+        "price_monthly": 229,
+        "price_yearly": 0,
+        "features": [
+          "$50,000 simulated account",
+          "80/20 profit split",
+          "EOD trailing drawdown",
+          "No consistency rules on funded",
+          "No activation fee",
+          "Payout every 14 days"
+        ]
+      },
+      {
+        "name": "Pro $100K",
+        "price_monthly": 329,
+        "price_yearly": 0,
+        "features": [
+          "$100,000 simulated account",
+          "80/20 profit split",
+          "EOD trailing drawdown",
+          "No consistency rules on funded",
+          "No activation fee",
+          "Payout every 14 days"
+        ]
+      },
+      {
+        "name": "Pro $150K",
+        "price_monthly": 377,
+        "price_yearly": 0,
+        "features": [
+          "$150,000 simulated account",
+          "80/20 profit split",
+          "EOD trailing drawdown",
+          "No consistency rules on funded",
+          "No activation fee",
+          "Path to live account"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "No activation fees \u2014 eliminates $149\u2013$300+ cost charged by most competitors",
+    "Industry-leading payout speed with first payout in as little as 15\u201320 minutes",
+    "~25% evaluation pass rate, roughly double the industry average",
+    "No consistency rules on funded Pro accounts, giving traders full flexibility",
+    "Clear path to a real live trading account after 5 consecutive payouts"
+  ],
+  "cons": [
+    "Futures-only \u2014 no support for stocks, forex, options, or crypto",
+    "No proprietary mobile app; active mobile trading depends on Tradovate",
+    "Relatively new firm (founded 2023) with a shorter track record than legacy competitors",
+    "Monthly subscription fees are non-refundable on failed evaluations"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.6,
+    "features": 4.1,
+    "value": 4.6,
+    "support": 4.5,
+    "reliability": 4.2
+  },
+  "founded_year": 2023,
+  "company": "My Funded Futures LLC",
+  "headquarters": "Dover, Delaware",
+  "best_for": [
+    "futures day traders",
+    "traders seeking fast payouts",
+    "algo and automated traders",
+    "traders transitioning to funded accounts"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "earn2trade",
+    "bulenox"
+  ],
+  "last_updated": "2026-03-18",
+  "review_status": "published"
+}
