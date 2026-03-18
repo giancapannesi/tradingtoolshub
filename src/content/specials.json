@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16",
+  "last_updated": "2026-03-18",
   "specials": [
     {
       "slug": "apex-trader-funding",
@@ -32,89 +32,33 @@
       "recurring": true
     },
     {
-      "slug": "tradezella",
-      "tool_name": "TradeZella",
-      "deal_title": "TradeZella: 25% Off",
-      "deal_description": "Check TradeZella for current promotions",
-      "deal_type": "percentage_discount",
-      "discount_percent": 25,
-      "promo_code": null,
-      "start_date": "2026-03-13",
-      "end_date": null,
-      "source_url": "https://www.tradezella.com/pricing",
-      "category": "Trading Journal",
-      "affiliate_commission": "20% recurring"
-    },
-    {
-      "slug": "benzinga-pro",
-      "tool_name": "Benzinga Pro",
-      "deal_title": "Benzinga Pro: 17% Off",
-      "deal_description": "Check Benzinga Pro for current promotions",
-      "deal_type": "percentage_discount",
-      "discount_percent": 17,
-      "promo_code": null,
-      "start_date": "2026-03-13",
-      "end_date": null,
-      "source_url": "https://pro.benzinga.com/pricing/",
-      "category": "Stock Screener",
-      "affiliate_commission": "30% recurring"
-    },
-    {
-      "slug": "benzinga-pro",
-      "tool_name": "Benzinga Pro",
-      "deal_title": "Benzinga Pro: 16% Off",
-      "deal_description": "Check Benzinga Pro for current promotions",
-      "deal_type": "percentage_discount",
-      "discount_percent": 16,
-      "promo_code": null,
-      "start_date": "2026-03-13",
-      "end_date": null,
-      "source_url": "https://pro.benzinga.com/pricing/",
-      "category": "Stock Screener",
-      "affiliate_commission": "30% recurring"
-    },
-    {
-      "slug": "benzinga-pro",
-      "tool_name": "Benzinga Pro",
-      "deal_title": "Benzinga Pro: 15% Off",
-      "deal_description": "Check Benzinga Pro for current promotions",
-      "deal_type": "percentage_discount",
-      "discount_percent": 15,
-      "promo_code": null,
-      "start_date": "2026-03-13",
-      "end_date": null,
-      "source_url": "https://pro.benzinga.com/pricing/",
-      "category": "Stock Screener",
-      "affiliate_commission": "30% recurring"
-    },
-    {
-      "slug": "benzinga-pro",
-      "tool_name": "Benzinga Pro",
-      "deal_title": "Benzinga Pro: Free Trial Available",
-      "deal_description": "Check Benzinga Pro for current promotions",
+      "slug": "ftmo",
+      "tool_name": "FTMO",
+      "deal_title": "FTMO: Free Trial",
+      "deal_description": "FTMO offers free trials as many times as you need to test the platform before committing to a challenge.",
       "deal_type": "free_trial",
       "discount_percent": 0,
       "promo_code": null,
-      "start_date": "2026-03-13",
+      "start_date": "2026-03-18 08:47:11",
       "end_date": null,
-      "source_url": "https://pro.benzinga.com/pricing/",
-      "category": "Stock Screener",
-      "affiliate_commission": "30% recurring"
+      "source_url": "https://ftmo.com/en/",
+      "category": "Prop Firm",
+      "affiliate_commission": ""
     },
     {
       "slug": "ftmo",
       "tool_name": "FTMO",
-      "deal_title": "FTMO: Free Trial Available",
-      "deal_description": "Check FTMO for current promotions",
-      "deal_type": "free_trial",
+      "deal_title": "FTMO: 1-Step FTMO Challenge",
+      "deal_description": "New simplified single-step evaluation process with 10% Max Loss and up to 90% profit split, designed to give more room for risk management.",
+      "deal_type": "bonus",
       "discount_percent": 0,
       "promo_code": null,
-      "start_date": "2026-03-13",
+      "start_date": "2026-03-18 08:47:11",
       "end_date": null,
-      "source_url": "https://www.ftmo.com/en/pricing/",
+      "source_url": "https://ftmo.com/en/",
       "category": "Prop Firm",
-      "affiliate_commission": "15% recurring"
+      "affiliate_commission": ""
     }
   ],
-  "total": 8
+  "total": 4
 }
