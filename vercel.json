@@ -1,4 +1,12 @@
 {
+  "redirects": [
+    { "source": "/review/my-forex-funds/", "destination": "/prop-firms/", "statusCode": 301 },
+    { "source": "/review/my-forex-funds", "destination": "/prop-firms/", "statusCode": 301 },
+    { "source": "/review/surge-trader/", "destination": "/prop-firms/", "statusCode": 301 },
+    { "source": "/review/surge-trader", "destination": "/prop-firms/", "statusCode": 301 },
+    { "source": "/review/true-forex-funds/", "destination": "/prop-firms/", "statusCode": 301 },
+    { "source": "/review/true-forex-funds", "destination": "/prop-firms/", "statusCode": 301 }
+  ],
   "headers": [
     {
       "source": "/(.*)",
