@@ -1,0 +1,102 @@
+{
+  "name": "Hummingbot",
+  "slug": "hummingbot",
+  "category": "trading-bots",
+  "subcategories": [
+    "market-making",
+    "arbitrage",
+    "open-source",
+    "dex-trading"
+  ],
+  "description_short": "Free, open-source algorithmic trading bot specializing in market making and arbitrage across 100+ CEX and DEX connectors, giving technical traders full code-level control.",
+  "description_long": "Hummingbot is a free, open-source algorithmic trading framework written in Python, originally developed by CoinAlpha and now maintained by the Hummingbot Foundation. Its core strength is market making \u2014 automatically placing bid and ask orders on both sides of an order book to earn the spread \u2014 but it also supports cross-exchange arbitrage, DEX-CEX arbitrage, and fully custom strategies built with its V2 Strategies framework.\n\nUnlike SaaS trading bots such as 3Commas or Cryptohopper, Hummingbot gives you complete code-level control. There are no subscription fees, no vendor lock-in, and no black-box logic. You deploy it yourself via Docker or directly on a VPS, connect it to your exchange accounts via API keys, and run whichever strategies you choose. The Gateway middleware extends this to decentralized exchanges including Uniswap, PancakeSwap, and Orca on Solana.\n\nVersion 2.12 introduced a major architectural shift, transitioning from a CLI-only tool toward an institutional-grade trading API accessible remotely. The Condor feature, launched in v2.11, adds a Telegram bot UI so traders can monitor and control their bots without direct server access. The HBOT governance token allows the community to vote on which exchange connectors receive active maintenance each quarter.\n\nThe tradeoff for all this power is a steep learning curve. Hummingbot is best suited to developers and technically proficient traders comfortable with Python, command-line interfaces, and self-managed server infrastructure. For those willing to invest the time, however, it offers a level of customization and cost efficiency that no paid platform can match. The optional Botcamp educational program provides structured training for building custom strategies.",
+  "logo_url": "/logos/hummingbot.svg",
+  "screenshots": [],
+  "website_url": "https://hummingbot.org",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free / Open Source",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Full market making and arbitrage strategies",
+          "100+ CEX and DEX connectors",
+          "V2 custom strategy framework",
+          "Gateway DEX middleware",
+          "Docker deployment support",
+          "Hummingbot API (v2.12+)",
+          "Condor Telegram bot UI",
+          "Community Discord and GitHub support",
+          "Paper trading mode",
+          "Backtesting tools"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "crypto"
+  ],
+  "pros": [
+    "Completely free and open-source \u2014 no subscription fees ever",
+    "Unmatched customization via Python-based V2 Strategies framework",
+    "Supports 100+ connectors including major CEXs and DEXs",
+    "Institutional-grade API access from v2.12 onward",
+    "Active community with regular updates and governance via HBOT token"
+  ],
+  "cons": [
+    "Steep learning curve \u2014 requires Python knowledge and CLI comfort",
+    "No managed hosting; self-deployment on VPS required for 24/7 operation",
+    "Community support only; no dedicated customer service",
+    "Limited to crypto markets \u2014 no stocks, forex, or traditional futures"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 2.5,
+    "features": 4.8,
+    "value": 5.0,
+    "support": 3.7,
+    "reliability": 4.0
+  },
+  "founded_year": 2019,
+  "company": "Hummingbot Foundation",
+  "headquarters": "Mountain View, California, USA",
+  "best_for": [
+    "Python developers building custom trading strategies",
+    "Market makers on CEX and DEX platforms",
+    "Technical traders seeking zero-cost automation",
+    "Crypto arbitrageurs across multiple exchanges"
+  ],
+  "similar_tools": [
+    "cryptohopper",
+    "3commas",
+    "gunbot",
+    "pionex"
+  ],
+  "last_updated": "2026-03-19",
+  "review_status": "published"
+}

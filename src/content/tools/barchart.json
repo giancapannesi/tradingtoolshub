@@ -1,0 +1,129 @@
+{
+  "name": "Barchart",
+  "slug": "barchart",
+  "category": "options-platforms",
+  "subcategories": [
+    "options-analysis",
+    "market-data",
+    "futures-data",
+    "commodities"
+  ],
+  "description_short": "Barchart is a professional-grade market data platform founded in 1995, offering deep options, futures, and commodities data with advanced screeners and real-time analytics.",
+  "description_long": "Barchart is one of the oldest and most established market data providers on the internet, founded in 1995 as Logical Systems Inc. and headquartered in Chicago, Illinois. The platform has grown from an early internet financial data pioneer into a comprehensive analytics suite covering stocks, options, futures, forex, crypto, and physical commodities \u2014 with particular depth in agricultural and energy markets that few retail-facing platforms can match.\n\nThe platform's options tools are a standout feature, including unusual activity scanners, options screeners, and historical options data going back to January 2017. Barchart Opinions, its proprietary technical signal system, aggregates multiple indicators into actionable directional signals across different timeframes. Charts are powered by 55+ built-in technical studies, and a robust alert system delivers price and news notifications via push and email.\n\nPricing is structured across three tiers: a genuinely useful free plan with basic charting and delayed data; Barchart Plus at approximately $9.99/month adding real-time BATS quotes, advanced scanners, and premium indicators; and Barchart Premier at approximately $24.99/month unlocking institutional-level data feeds, extended hours data, historical options data downloads, and priority support. An API product (Barchart OnDemand) provides programmatic access to the full data universe for developers and quants.\n\nBarchart's strongest differentiator is its commodities and futures coverage \u2014 grain, energy, metals, softs, power, and carbon markets \u2014 which makes it an essential tool for commodity traders and agriculture-sector professionals. The platform has won Best Risk Management Service at the FinTech Breakthrough Awards (2025) and AgTech Solution of the Year for four consecutive years, reflecting its depth in non-equity markets. Mobile apps for iOS and Android provide portfolio sync, real-time quotes, and full charting on the go.",
+  "logo_url": "/logos/barchart.svg",
+  "screenshots": [],
+  "website_url": "https://www.barchart.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Basic charts with delayed data",
+          "Limited scanner filters",
+          "Watchlists and portfolio tracking",
+          "Basic price and news alerts",
+          "Barchart Opinions (limited)"
+        ]
+      },
+      {
+        "name": "Plus",
+        "price_monthly": 9.99,
+        "price_yearly": 99.99,
+        "features": [
+          "Real-time BATS quotes",
+          "Advanced options and stock scanners",
+          "Premium technical indicators",
+          "Unlimited price and news alerts",
+          "55+ chart studies",
+          "Barchart Opinions (full)"
+        ]
+      },
+      {
+        "name": "Premier",
+        "price_monthly": 24.99,
+        "price_yearly": 249.99,
+        "features": [
+          "All Plus features",
+          "Institutional-level data feeds",
+          "Extended hours data",
+          "Historical options data download (since Jan 2017)",
+          "Priority customer support",
+          "Advanced futures and commodities data",
+          "Market Replay access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto",
+    "commodities"
+  ],
+  "pros": [
+    "Exceptional futures and commodities data coverage unavailable on most retail platforms",
+    "Historical options data back to January 2017 with download capability",
+    "Strong free tier with genuinely useful screeners and Barchart Opinions signals",
+    "Barchart OnDemand API gives programmatic access to the full data universe",
+    "Award-winning risk management and AgTech data tools"
+  ],
+  "cons": [
+    "No paper trading or broker integration for direct trade execution",
+    "UI feels dated compared to modern platforms like TradingView",
+    "No custom indicator scripting language",
+    "Real-time equity data requires paid plan even for basic use"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 3.7,
+    "features": 4.5,
+    "value": 4.3,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 1995,
+  "company": "Barchart.com, Inc.",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "futures and commodities traders",
+    "options data researchers",
+    "quants and developers needing market data APIs",
+    "agriculture and energy sector professionals"
+  ],
+  "similar_tools": [
+    "thinkorswim",
+    "tradingview",
+    "tc2000",
+    "tastytrade"
+  ],
+  "last_updated": "2026-03-19",
+  "review_status": "published"
+}
