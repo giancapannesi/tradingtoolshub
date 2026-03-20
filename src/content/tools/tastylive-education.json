@@ -1,0 +1,102 @@
+{
+  "name": "tastylive Education",
+  "slug": "tastylive-education",
+  "category": "trading-education",
+  "subcategories": [
+    "options-education",
+    "live-trading-shows",
+    "futures-education",
+    "probability-trading"
+  ],
+  "description_short": "Free live trading education from real traders at tastylive, featuring 12+ hours of daily market programming on options strategies and probability-based trading broadcast to 190 countries.",
+  "description_long": "tastylive Education is a completely free trading education platform founded in 2011 by former CBOE floor traders Tom Sosnoff and Scott Sheridan. Unlike subscription-based trading courses, tastylive broadcasts live financial programming 5 days a week, giving traders direct access to real market analysis and live trade execution from experienced traders\u2014not just theoretical concepts. The platform is owned by IG Group (acquired 2021) and operates alongside the tastytrade brokerage under the IG North America umbrella.\n\nThe platform's programming spans 12+ hours of daily live content, including flagship research shows like 'Market Measures' and 'Options Jive,' which are backed by proprietary quantitative studies on real-world trading outcomes. Content is broadcast to 190 countries via web, smart TV, and a dedicated tastylive mobile app. The curriculum centers on options selling strategies, probability-based trading, defined-risk structures, and portfolio mechanics\u2014making it especially valuable for traders looking to understand how professional options traders think about risk and edge.\n\ntastylive Education is tightly integrated with the tastytrade brokerage platform, which Investopedia named 'Best Overall Options Trading Platform' in January 2026. Educational content is purpose-built to translate into the tastytrade trading environment, which offers commission-free stock trading, low-cost equity options ($1.00/contract to open, $0 to close with a $10/leg cap), and an intuitive visual trade builder. No account minimum is required to open a tastytrade brokerage account, making the education-to-execution path accessible for traders at all capital levels.\n\nCoverage spans stocks, ETFs, equity options, index options, futures, micro futures, and cryptocurrency. tastylive also hosts free in-person live trading events across the U.S. and Europe. For developers, tastytrade provides an open API at developer.tastytrade.com with a full sandbox environment, sample SDKs, and support for market data, order execution, and portfolio management\u2014all free for tastytrade account holders.",
+  "logo_url": "/logos/tastylive-education.svg",
+  "screenshots": [],
+  "website_url": "https://www.tastylive.com",
+  "affiliate_url": "",
+  "affiliate_program": "None",
+  "affiliate_commission": "None",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "12+ hours of live daily programming",
+          "Full archive of past shows and episodes",
+          "Proprietary research studies (Market Measures, Options Jive)",
+          "Mobile app access via tastylive app",
+          "Free in-person live trading events (U.S. and Europe)",
+          "Access to tastytrade brokerage with no account minimum",
+          "Open API access for tastytrade account holders"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "crypto"
+  ],
+  "pros": [
+    "Entirely free with no paywalled content or subscription tiers",
+    "Live programming features real traders executing actual trades on-air, not actors or scripted demos",
+    "Proprietary research studies provide data-backed context for options selling strategies",
+    "Seamless path from education to live trading via the award-winning tastytrade brokerage",
+    "Free in-person events and open API access add rare hands-on and developer value"
+  ],
+  "cons": [
+    "Content is heavily options-centric; less useful for pure stock or forex traders",
+    "No structured curriculum or progress tracking\u2014learning path is self-directed",
+    "Forex trading requires a separate tastyfx account, not integrated with tastylive",
+    "Live show format means content is time-zone dependent for international viewers"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.6,
+    "features": 4.2,
+    "value": 5.0,
+    "support": 3.8,
+    "reliability": 4.3
+  },
+  "founded_year": 2011,
+  "company": "tastylive, Inc. (IG North America)",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "options traders",
+    "probability-based traders",
+    "self-directed investors",
+    "beginner to intermediate traders"
+  ],
+  "similar_tools": [
+    "optionsalpha",
+    "investopedia-academy",
+    "warrior-trading",
+    "benzinga-pro"
+  ],
+  "last_updated": "2026-03-20",
+  "review_status": "published"
+}

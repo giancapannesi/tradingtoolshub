@@ -1,0 +1,129 @@
+{
+  "name": "Shrimpy",
+  "slug": "shrimpy",
+  "category": "trading-bots",
+  "subcategories": [
+    "portfolio-rebalancing",
+    "social-trading",
+    "crypto-bots"
+  ],
+  "description_short": "Shrimpy is a crypto portfolio management platform featuring automated rebalancing, social copy trading, and multi-exchange connectivity for passive long-term investors.",
+  "description_long": "Shrimpy is a crypto-focused portfolio management and automated trading platform designed for passive, long-term investors who want diversified exposure across multiple cryptocurrencies and exchanges. Founded in 2018 by Benthos Labs Inc and acquired by Bitcoin IRA in November 2023, Shrimpy connects to 16+ major crypto exchanges \u2014 including Binance, Coinbase, Kraken, KuCoin, and Gemini \u2014 giving users a single unified dashboard to monitor and manage all their holdings without switching between platforms.\n\nThe platform's core feature is its automated portfolio rebalancing engine, which continuously tracks target asset allocations and executes trades to maintain your desired balance without manual effort. Beyond rebalancing, Shrimpy lets users construct custom crypto index funds, configure dollar-cost averaging (DCA) schedules, implement stop-loss rules, and backtest strategies against more than five years of historical data across all supported exchanges. No trade commissions are charged on top of subscription fees.\n\nShrimpy's social trading feature is its most distinctive differentiator in the crowded crypto bot market. Users can browse top-performing traders and copy their portfolios with a single click \u2014 any rebalancing or allocation changes made by the leader are automatically mirrored in followers' accounts. Portfolio leaders earn $4 per follower per month, creating a built-in incentive for experienced investors to maintain and share winning strategies publicly.\n\nFor developers, Shrimpy offers a universal crypto exchange trading API with REST and WebSocket endpoints, plus Python and Node.js SDKs. Security is a clear priority: all exchange API keys are encrypted using hardware security modules (HSMs), with read and trade-only permissions granted \u2014 no withdrawal access \u2014 and the platform has maintained a clean security record since launch. The web-only interface (no native mobile app) keeps the experience focused on desktop portfolio management rather than active trading.",
+  "logo_url": "/logos/shrimpy.svg",
+  "screenshots": [],
+  "website_url": "https://shrimpy.io",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Portfolio tracking across unlimited exchanges",
+          "Basic multi-exchange dashboard",
+          "Limited automation features"
+        ]
+      },
+      {
+        "name": "Individual",
+        "price_monthly": 19,
+        "price_yearly": 168,
+        "features": [
+          "Automated portfolio rebalancing",
+          "Social copy trading",
+          "Backtesting on 5+ years of data",
+          "Dollar-cost averaging",
+          "Stop-loss automation",
+          "Custom crypto index funds"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price_monthly": 63,
+        "price_yearly": 540,
+        "features": [
+          "Everything in Individual",
+          "Advanced portfolio analytics",
+          "Higher API rate limits",
+          "Priority customer support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Custom pricing",
+          "Dedicated account manager",
+          "SLA guarantees",
+          "Custom integrations and onboarding"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "crypto"
+  ],
+  "pros": [
+    "Unique social copy trading automatically mirrors leader portfolio changes",
+    "Automated rebalancing across 16+ exchanges with no trade commissions",
+    "Developer API with REST, WebSockets, Python and Node.js SDKs",
+    "HSM-encrypted API keys with no withdrawal permissions for strong security",
+    "Backtesting against 5+ years of historical exchange data"
+  ],
+  "cons": [
+    "No native mobile app \u2014 web browser only",
+    "Crypto-only platform with no support for stocks, forex, or futures",
+    "Limited toolset for active or day traders",
+    "Acquisition by Bitcoin IRA creates uncertainty about long-term product roadmap"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.9,
+    "value": 4.1,
+    "support": 3.7,
+    "reliability": 4.0
+  },
+  "founded_year": 2018,
+  "company": "Benthos Labs Inc",
+  "headquarters": "Santa Clara, California",
+  "best_for": [
+    "Passive long-term crypto investors",
+    "Multi-exchange portfolio holders",
+    "Social and copy traders",
+    "Crypto developers needing a universal exchange API"
+  ],
+  "similar_tools": [
+    "3commas",
+    "pionex",
+    "cryptohopper",
+    "coinrule"
+  ],
+  "last_updated": "2026-03-20",
+  "review_status": "published"
+}

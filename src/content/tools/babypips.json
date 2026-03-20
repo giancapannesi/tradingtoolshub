@@ -1,0 +1,115 @@
+{
+  "name": "BabyPips",
+  "slug": "babypips",
+  "category": "trading-education",
+  "subcategories": [
+    "forex-education",
+    "beginner-education",
+    "trading-community",
+    "market-analysis"
+  ],
+  "description_short": "The world's most popular free forex education platform, offering the structured School of Pipsology curriculum, trading tools, and an active community for beginners.",
+  "description_long": "BabyPips is widely regarded as the definitive starting point for aspiring forex traders. Founded in 2005, its flagship offering \u2014 the School of Pipsology \u2014 is a completely free, structured curriculum that takes beginners from absolute zero through advanced trading concepts. The course uses a casual, humorous writing style with levels named Preschool through Graduation, making dense financial concepts accessible and engaging without requiring any paid subscription or upsell.\n\nBeyond the core course, BabyPips offers a suite of free tools including Forexpedia (a comprehensive trading glossary), pip value and position size calculators, a pivot point calculator, a currency converter, and a live economic calendar. The MarketMilk visual analysis tool provides currency strength meters, volatility charts, correlation tables, and heat maps covering forex and crypto pairs, making it a genuinely useful resource even for experienced traders.\n\nBabyPips Premium extends the platform for active traders who want actionable short-term trading strategies across FX, equity indices, gold, oil, and crypto. Premium subscribers receive high-impact event trading guides, weekly macro reviews, full MarketMilk access, and an ad-free experience. The free tier, however, is so comprehensive that many traders use BabyPips for years without ever needing a paid plan.\n\nThe platform's large, active forums are a standout feature, providing a community where traders at all levels can discuss strategies, broker experiences, and market conditions. While BabyPips excels as a beginner and intermediate resource, more advanced traders may find the depth of technical content limited compared to dedicated paid courses or mentorship programs.",
+  "logo_url": "/logos/babypips.svg",
+  "screenshots": [],
+  "website_url": "https://www.babypips.com",
+  "affiliate_url": "",
+  "affiliate_program": "BabyPips Affiliate Program",
+  "affiliate_commission": "Unknown",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Full School of Pipsology course",
+          "Forexpedia glossary",
+          "Forex calculators (pip, position size, pivot)",
+          "Economic calendar",
+          "Community forums",
+          "Daily market news and recaps",
+          "Basic MarketMilk access"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 29.99,
+        "price_yearly": 239.88,
+        "features": [
+          "Actionable short-term trading strategies",
+          "FX, indices, gold, oil, and crypto setups",
+          "High-impact economic event trading guides",
+          "Weekly macro market reviews",
+          "Full MarketMilk access",
+          "Ad-free experience"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "forex",
+    "crypto",
+    "indices",
+    "commodities"
+  ],
+  "pros": [
+    "Entire structured forex curriculum is 100% free with no paywalls or upsells",
+    "School of Pipsology is the gold standard beginner-friendly forex course",
+    "MarketMilk provides genuinely useful visual analysis tools at no cost",
+    "Large, active community forums for peer learning and strategy discussion",
+    "Comprehensive free tools including calculators, glossary, and economic calendar"
+  ],
+  "cons": [
+    "Advanced and intermediate content lacks depth for experienced traders",
+    "Primarily text-based with no video lectures, simulations, or interactive exercises",
+    "No formal mentorship, trade journaling, or performance tracking features",
+    "Premium pricing not transparently listed on main site"
+  ],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.7,
+    "features": 3.7,
+    "value": 4.9,
+    "support": 3.8,
+    "reliability": 4.2
+  },
+  "founded_year": 2005,
+  "company": "BabyPips.com LLC",
+  "headquarters": "Richmond, Virginia, USA",
+  "best_for": [
+    "forex beginners",
+    "self-directed learners",
+    "traders seeking free education",
+    "community-driven learning"
+  ],
+  "similar_tools": [
+    "investopedia",
+    "warrior-trading",
+    "tastytrade",
+    "forex-school-online"
+  ],
+  "last_updated": "2026-03-20",
+  "review_status": "published"
+}
