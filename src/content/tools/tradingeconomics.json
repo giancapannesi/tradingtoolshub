@@ -1,0 +1,127 @@
+{
+  "name": "Trading Economics",
+  "slug": "tradingeconomics",
+  "category": "news-data-feeds",
+  "subcategories": [
+    "economic-data",
+    "macro-research",
+    "market-data-api"
+  ],
+  "description_short": "Macroeconomic data platform covering 20M+ indicators from 196 countries, sourced directly from central banks and government agencies with proprietary forecasting.",
+  "description_long": "Trading Economics is a leading macroeconomic research and data platform providing access to over 20 million economic indicators spanning 196 countries. Founded in 2007, the platform sources data directly from official institutions \u2014 central banks, government statistical agencies, and international organizations \u2014 ensuring accuracy and timeliness that third-party aggregators cannot match. With approximately 2 billion lifetime page views, it has become a go-to resource for economists, analysts, and macro-focused traders worldwide.\n\nThe platform's core offering includes a real-time Economic Calendar tracking over 300,000 scheduled indicator releases, proprietary macro-based forecasting models, streaming financial market quotes, and comprehensive historical data going back decades. Analysts rely on Trading Economics for GDP, inflation, unemployment, interest rates, PMI/ISM readings, credit ratings, central bank policy tracking, and hundreds of other metrics across virtually every country on earth.\n\nFor developers and quantitative analysts, Trading Economics offers a robust API with Python and R client packages for programmatic data access, plus an Excel Add-in for seamless spreadsheet integration. The API supports streaming quotes for live financial market data, historical data retrieval, and economic calendar event feeds. Pricing is volume-based and highly customized, making it accessible to individual researchers as well as large institutional clients \u2014 though the opacity of their rate card is a common friction point.\n\nTrading Economics competes more directly with Bloomberg Terminal and Refinitiv/LSEG at a significantly lower price point, rather than with retail charting platforms like TradingView. It is an essential tool for macro traders, economists, policy researchers, central bank watchers, and any developer or analyst who needs deep, authoritative cross-country economic data in a single unified platform. The breadth of coverage and official-source integrity are its clearest differentiators in a crowded data market.",
+  "logo_url": "/logos/tradingeconomics.svg",
+  "screenshots": [],
+  "website_url": "https://tradingeconomics.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 199,
+    "tiers": [
+      {
+        "name": "Standard",
+        "price_monthly": 199,
+        "price_yearly": 1990,
+        "features": [
+          "20M+ economic indicators from 196 countries",
+          "Economic Calendar with 300,000+ releases",
+          "Historical data downloads",
+          "Excel Add-in",
+          "Forecasts and projections",
+          "1-week trial available (~$49)"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All Standard features",
+          "Advanced forecasting models",
+          "Streaming market quotes",
+          "Priority data access",
+          "Custom data requests",
+          "Contact sales for pricing"
+        ]
+      },
+      {
+        "name": "API",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Programmatic API access",
+          "Python and R client packages",
+          "Streaming economic and market data feeds",
+          "Custom request volumes",
+          "Data redistribution options available",
+          "Contact sales for pricing"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "forex",
+    "bonds",
+    "commodities",
+    "crypto"
+  ],
+  "pros": [
+    "Unmatched breadth with 20M+ indicators across 196 countries",
+    "Data sourced directly from central banks and official government agencies",
+    "Robust API with Python, R packages, and Excel Add-in",
+    "Economic Calendar covers 300,000+ scheduled indicator releases",
+    "Significantly more affordable than Bloomberg Terminal for macro research"
+  ],
+  "cons": [
+    "Pricing is opaque \u2014 no public rate card for API or higher-tier plans",
+    "Not a charting or trading execution platform \u2014 pure data and research",
+    "Can feel overwhelming for retail traders who do not need macro data",
+    "No free analytics tier; must pay to unlock meaningful platform features"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.7,
+    "value": 3.9,
+    "support": 3.8,
+    "reliability": 4.4
+  },
+  "founded_year": 2007,
+  "company": "Trading Economics",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "macro traders and economists",
+    "quantitative and academic researchers",
+    "institutional analysts and strategists",
+    "developers building economic data applications"
+  ],
+  "similar_tools": [
+    "alpha-vantage",
+    "quandl",
+    "benzinga",
+    "marketaux"
+  ],
+  "last_updated": "2026-03-21",
+  "review_status": "published"
+}

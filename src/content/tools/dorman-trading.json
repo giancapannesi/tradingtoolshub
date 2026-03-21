@@ -1,0 +1,99 @@
+{
+  "name": "Dorman Trading",
+  "slug": "dorman-trading",
+  "category": "futures-platforms",
+  "subcategories": [
+    "fcm",
+    "introducing-broker-network",
+    "algo-trading",
+    "colocation"
+  ],
+  "description_short": "Chicago-based Futures Commission Merchant founded in 1956, offering access to ~40 trading platforms, CME Data Center colocation, and competitive futures clearing through an extensive IB network.",
+  "description_long": "Dorman Trading is one of the oldest and most respected Futures Commission Merchants (FCMs) in the United States, with roots dating back to 1956 when it began serving floor traders at the Chicago Board of Trade. Acquired by Miami International Holdings (MIAX) in October 2022, Dorman continues to operate as a specialist FCM focused exclusively on futures and futures options markets across major exchanges including CME, CBOT, NYMEX, COMEX, and ICE.\n\nOne of Dorman's most notable differentiators is its exceptional platform breadth \u2014 supporting approximately 40 trading platforms, one of the largest selections of any FCM in the industry. Traders can choose from Dorman Direct (built on T4/CTS technology with built-in communication tools), NinjaTrader, CQG, TradingView, Sierra Chart, Trading Technologies, and dozens of others, all cleared through Dorman's FCM infrastructure. For algorithmic traders, Dorman offers CME Data Center colocation services in Aurora, IL, providing ultra-low latency connections to exchange matching engines.\n\nDorman does not publish standard commission rates publicly, as pricing is negotiated and varies based on volume, platform choice, and whether you trade through one of their approximately 35 Introducing Brokers or directly. Through IB relationships, rates as low as $0.59 per side have been advertised for Dorman-cleared accounts. Dorman maintains a stated policy of never competing with its IB network, ensuring no conflict of interest between the FCM and the brokers who introduce retail clients.\n\nDorman Trading is best suited for serious futures traders who want maximum flexibility in platform choice, algorithmic traders who require colocation and low-latency infrastructure, and Introducing Brokers seeking a reliable clearing partner. It is not designed for casual retail traders seeking equity stocks, options on equities, or cryptocurrency trading, as Dorman is strictly a futures-specialist FCM.",
+  "logo_url": "/logos/dorman-trading.svg",
+  "screenshots": [],
+  "website_url": "https://www.dormantrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Negotiated / IB",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Contact for custom commission rates",
+          "Rates as low as $0.59/side through introducing brokers",
+          "Platform fees vary by platform selected",
+          "CME member rates available for 1,000+ contracts/month",
+          "No advertised monthly minimum account fee",
+          "Access to ~40 supported trading platforms"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "Supports ~40 trading platforms \u2014 one of the broadest selections of any FCM",
+    "Founded 1956 with decades of FCM reliability, now backed by MIAX",
+    "CME Data Center colocation for low-latency algorithmic trading",
+    "No internal sales staff \u2014 aligns with IB network rather than competing against it",
+    "CME member rates available for high-volume traders"
+  ],
+  "cons": [
+    "No transparent public pricing \u2014 must contact for a quote",
+    "Futures-only FCM \u2014 no stocks, equity options, or cryptocurrency",
+    "Retail access primarily through introducing brokers, adding an extra layer",
+    "Limited educational resources compared to large retail-focused brokers"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.5,
+    "value": 3.8,
+    "support": 4.0,
+    "reliability": 4.5
+  },
+  "founded_year": 1956,
+  "company": "Dorman Trading (Miami International Holdings)",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "professional futures traders",
+    "algorithmic traders",
+    "introducing brokers",
+    "high-volume futures traders"
+  ],
+  "similar_tools": [
+    "amp-futures",
+    "tradovate",
+    "optimus-futures",
+    "tradestation"
+  ],
+  "last_updated": "2026-03-21",
+  "review_status": "published"
+}

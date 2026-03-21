@@ -1,0 +1,122 @@
+{
+  "name": "AMP Futures",
+  "slug": "amp-futures",
+  "category": "futures-platforms",
+  "subcategories": [
+    "futures-brokers",
+    "low-cost-brokers",
+    "multi-platform"
+  ],
+  "description_short": "CFTC-regulated futures broker with ultra-low commissions, $100 minimum deposit, and support for 60+ trading platforms including NinjaTrader, TradingView, and Sierra Chart.",
+  "description_long": "AMP Futures (AMP Global Clearing LLC) is a Chicago-based, CFTC-registered Futures Commission Merchant (FCM) and NFA member founded in 2004. Specializing exclusively in futures trading, AMP provides access to global electronic futures markets across CME, CBOT, NYMEX, COMEX, ICE, Eurex, and 45+ exchanges worldwide. The firm serves retail and professional traders from its LaSalle Street headquarters, with AMP Global (Europe) extending services to non-US clients.\n\nAMP's defining advantage is its platform neutrality \u2014 with support for over 60 third-party trading platforms, it offers more platform choices than any other futures broker. Traders can connect NinjaTrader, TradingView, Sierra Chart, MetaTrader 5, MultiCharts, Quantower, CQG Desktop, and dozens of others directly to AMP's clearing services. This flexibility allows traders to use their preferred tools without switching brokers or compromising on features.\n\nCommissions are among the industry's lowest. Micro E-mini S&P 500 (MES) contracts trade for approximately $0.44 per contract, and day trading margins start at just $40 for MES and $400 for the full-size ES contract. The minimum account deposit is only $100, making AMP accessible to traders at any account size. High-volume traders can opt for the Unlimited Annual Plan at $1,000/year for commission-free trading. AMP also offers a price-match guarantee on any written commission quote from a competing broker.\n\nAMP is purpose-built for futures traders and does not offer equities, spot forex, or spot crypto under its US entity. There is no proprietary mobile app \u2014 mobile trading is handled through partner platforms like MetaTrader 5 and TradingView Mobile. The lean organizational structure keeps overhead costs low, which benefits traders through pricing, though support response times can be inconsistent. Free demo accounts are available across all supported platforms.",
+  "logo_url": "/logos/amp-futures.svg",
+  "screenshots": [],
+  "website_url": "https://www.ampfutures.com",
+  "affiliate_url": "",
+  "affiliate_program": "AMP Futures Introducing Broker Program",
+  "affiliate_commission": "Revenue share on commissions",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Demo Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Free paper trading on 60+ platforms",
+          "Simulated access to all futures markets",
+          "No time limit or expiration",
+          "No credit card required"
+        ]
+      },
+      {
+        "name": "Live Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$100 minimum deposit",
+          "Commissions from ~$0.44/contract (MES)",
+          "$40 day trading margin per MES contract",
+          "Access to 45+ global exchanges",
+          "60+ platform choices",
+          "Commission price-match guarantee"
+        ]
+      },
+      {
+        "name": "Unlimited Annual Plan",
+        "price_monthly": 0,
+        "price_yearly": 1000,
+        "features": [
+          "Commission-free trading for 12 months",
+          "All Live Account features included",
+          "Flat $1,000/year fee",
+          "Ideal for high-volume active traders"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "futures",
+    "options",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Supports 60+ trading platforms \u2014 more than any other futures broker",
+    "Ultra-low commissions starting at ~$0.44/contract for MES futures",
+    "Industry-low $100 minimum deposit with no monthly account fees",
+    "Exceptionally low day trading margins ($40 MES, $400 ES)",
+    "Commission price-match guarantee against any competing broker"
+  ],
+  "cons": [
+    "No proprietary trading platform or branded mobile app",
+    "US entity restricted to futures only \u2014 no stocks, spot forex, or spot crypto",
+    "$30 wire withdrawal fee and $25 per liquidation occurrence",
+    "Small team (11\u201350 employees) can lead to slower customer support"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.4,
+    "value": 4.8,
+    "support": 3.7,
+    "reliability": 4.2
+  },
+  "founded_year": 2004,
+  "company": "AMP Global Clearing LLC",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "active futures day traders",
+    "platform-agnostic traders",
+    "micro futures and small account traders",
+    "high-volume commission-sensitive traders"
+  ],
+  "similar_tools": [
+    "tradovate",
+    "ninjatrader",
+    "optimus-futures",
+    "tastytrade"
+  ],
+  "last_updated": "2026-03-21",
+  "review_status": "published"
+}
