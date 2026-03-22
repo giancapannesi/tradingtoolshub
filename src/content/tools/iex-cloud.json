@@ -1,0 +1,133 @@
+{
+  "name": "IEX Cloud",
+  "slug": "iex-cloud",
+  "category": "news-data-feeds",
+  "subcategories": [
+    "financial-data-api",
+    "real-time-data",
+    "market-data"
+  ],
+  "description_short": "IEX Cloud (retired Aug 2024) was a financial data API platform delivering 50+ institutional-grade datasets with real-time streaming and credit-based pricing for developers.",
+  "description_long": "IEX Cloud was a financial data API platform launched in May 2019 by IEX Group, the operator of the Investors Exchange (IEX). It offered over 50 institutional-grade core datasets through a unified REST API, covering U.S. equities, ETFs, forex, cryptocurrencies, and macroeconomic data. The platform's standout features included sub-8ms average response times, SSE-based real-time streaming, and a credit-based \"messages\" pricing model that let developers pay only for data they actually consumed.\n\nDesigned with developers and fintech startups in mind, IEX Cloud provided a cost-effective alternative to expensive Bloomberg or Refinitiv terminals. Client libraries in multiple programming languages, an interactive API explorer, and comprehensive documentation made onboarding straightforward. A built-in Rules Engine allowed users to configure automated alerts via SMS, email, or webhook whenever defined data conditions were met. At its peak the platform served 125,000+ users across 120+ countries.\n\nDespite strong developer adoption, IEX Cloud operated at a loss throughout its existence and represented less than 2% of IEX Group's overall revenue. In May 2024, IEX Group announced it would retire the service, and all IEX Cloud products were officially shut down on August 31, 2024. Former IEX Cloud executives Tim Baker and Pedro Aguayo subsequently acquired the assets and launched Blue Sky Data in September 2024, offering backward-compatible APIs for existing IEX Cloud customers.\n\nFor traders and developers researching historical data solutions, IEX Cloud remains a useful reference point for API design and credit-based data pricing models. Its successor, Blue Sky Data, preserves the API structure and is the recommended migration path for former users seeking continuity of coverage and endpoint compatibility.",
+  "logo_url": "/logos/iex-cloud.svg",
+  "screenshots": [],
+  "website_url": "https://iexcloud.io",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Limited API calls per month",
+          "Basic market data endpoints",
+          "Delayed quotes",
+          "Community support"
+        ]
+      },
+      {
+        "name": "Launch",
+        "price_monthly": 9,
+        "price_yearly": 108,
+        "features": [
+          "Expanded message credits",
+          "Real-time quote data",
+          "Core financial statements",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Grow",
+        "price_monthly": 49,
+        "price_yearly": 588,
+        "features": [
+          "Higher message credit allotment",
+          "Full historical data access",
+          "SSE real-time streaming",
+          "Rules Engine alerts",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Scale",
+        "price_monthly": 499,
+        "price_yearly": 5988,
+        "features": [
+          "Enterprise-level message credits",
+          "Full dataset access including premium feeds",
+          "Dedicated account support",
+          "SLA uptime guarantees",
+          "Custom data weight negotiation"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Affordable REST API alternative to Bloomberg and Refinitiv for developers",
+    "Well-structured endpoints with excellent documentation and interactive explorer",
+    "Credit-based pricing model provided transparent, predictable costs",
+    "Real-time SSE streaming with sub-8ms average latency",
+    "Rules Engine enabled automated webhook and SMS alerts without custom code"
+  ],
+  "cons": [
+    "Service permanently shut down August 31, 2024 \u2014 no longer operational",
+    "Incomplete ticker coverage with missing symbols reported by users",
+    "Customer support was frequently unresponsive to escalations",
+    "Some data feeds (e.g., delayed NASDAQ intraday) carried undisclosed third-party surcharges"
+  ],
+  "rating": 3.7,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.9,
+    "value": 3.8,
+    "support": 2.8,
+    "reliability": 3.2
+  },
+  "founded_year": 2019,
+  "company": "IEX Group, Inc.",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "fintech developers",
+    "quantitative researchers",
+    "startups needing affordable market data",
+    "applications requiring real-time equity feeds"
+  ],
+  "similar_tools": [
+    "alpha-vantage",
+    "polygon-io",
+    "finnhub",
+    "intrinio"
+  ],
+  "last_updated": "2026-03-22",
+  "review_status": "published"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "EdgeClear",
+  "slug": "edgeclear",
+  "category": "risk-management",
+  "subcategories": [
+    "futures-brokers",
+    "risk-management",
+    "trade-execution"
+  ],
+  "description_short": "Chicago-based CFTC-registered futures brokerage with micro commissions from $0.20/contract, a dedicated personal broker per account, and proprietary EdgeProX and EdgeWatch tools.",
+  "description_long": "EdgeClear is a discount futures brokerage founded in 2019 by Morad Askar (known online as FuturesTrader71) in Chicago, IL. Registered with the CFTC and a member of the NFA, EdgeClear is listed on the CME Group's Find a Broker directory and provides access to major global exchanges including CME, Eurex, ICE, CBOE, HKEX, ASX, JPX, and SGX. The brokerage specializes exclusively in futures and options on futures \u2014 including crypto futures such as Micro Bitcoin and Micro Ether \u2014 with no stock, spot forex, or CFD offering.\n\nEvery EdgeClear account includes a dedicated personal broker, a key differentiator from larger discount brokers that rely on generic help desks. The firm also provides two proprietary tools: EdgeProX, a purpose-built futures trading platform for active traders, and EdgeWatch, a complimentary trade performance analytics tool available to all account holders at no extra cost. Beyond their own platforms, EdgeClear supports TradingView, CQG (Integrated Client, QTrader, Desktop), Rithmic (R|Trader Pro), MotiveWave, and Trading Technologies (TT), giving traders broad platform flexibility without sacrificing personalized broker support.\n\nEdgeClear's commission structure is built around low per-contract pricing, particularly for micro futures. Micro equity index commissions start at $0.20/contract (plus exchange and regulatory fees), placing it among the most competitive options for retail futures traders. Rithmic data and API access is available at $20/month with an additional $0.10/contract charge, enabling algorithmic and automated trading strategies. Volume-based discounts are available for high-volume traders upon direct request.\n\nThe brokerage offers server-side risk management tools including trailing stops, bracket orders, OCOs, conditional order release, and account-level risk liquidation rules configured directly with your dedicated broker. While EdgeClear is a focused, specialized firm rather than a full-service multi-asset broker, its combination of ultra-low micro commissions, personal broker service, and professional-grade risk controls makes it a compelling choice for active and algorithmic futures traders.",
+  "logo_url": "/logos/edgeclear.svg",
+  "screenshots": [],
+  "website_url": "https://www.edgeclear.com",
+  "affiliate_url": "",
+  "affiliate_program": "EdgeClear Referral Program",
+  "affiliate_commission": "Referral credit (minimum $1,500 qualifying account)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Standard Account",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Micro futures commissions from $0.20/contract",
+          "Dedicated personal broker assigned to every account",
+          "EdgeProX proprietary trading platform",
+          "EdgeWatch performance analytics (complimentary)",
+          "Multi-platform support: TradingView, CQG, MotiveWave, TT",
+          "Server-side trailing stops, brackets, and OCOs",
+          "Global exchange access: CME, Eurex, ICE, CBOE, HKEX, ASX, JPX, SGX"
+        ]
+      },
+      {
+        "name": "Rithmic Data + API",
+        "price_monthly": 20,
+        "price_yearly": 240,
+        "features": [
+          "Everything in Standard Account",
+          "Rithmic R|Trader Pro platform access",
+          "API access for algorithmic and automated trading",
+          "$0.10/contract additional Rithmic fee",
+          "Full market depth data feed"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures",
+    "options",
+    "crypto"
+  ],
+  "pros": [
+    "Among the lowest micro futures commissions available, starting at $0.20/contract",
+    "Every account includes a dedicated personal broker for direct, professional support",
+    "EdgeWatch provides complimentary trade performance analytics to all account holders",
+    "Broad global exchange access including CME, Eurex, ICE, CBOE, and major Asian exchanges",
+    "Flexible platform choice across TradingView, CQG, Rithmic, MotiveWave, and Trading Technologies"
+  ],
+  "cons": [
+    "Futures-only brokerage \u2014 no stocks, spot forex, or CFDs",
+    "Minimum deposit and full pricing not publicly disclosed; must contact firm directly",
+    "Small team size may limit availability during peak market hours"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.2,
+    "value": 4.6,
+    "support": 4.5,
+    "reliability": 4.1
+  },
+  "founded_year": 2019,
+  "company": "Edge Clear LLC",
+  "headquarters": "Chicago, Illinois",
+  "best_for": [
+    "active futures day traders",
+    "micro futures traders",
+    "algorithmic and automated futures trading",
+    "options on futures traders"
+  ],
+  "similar_tools": [
+    "ninjatrader",
+    "tradovate",
+    "tastytrade",
+    "interactive-brokers"
+  ],
+  "last_updated": "2026-03-22",
+  "review_status": "published"
+}

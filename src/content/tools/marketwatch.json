@@ -1,0 +1,137 @@
+{
+  "name": "MarketWatch",
+  "slug": "marketwatch",
+  "category": "news-data-feeds",
+  "subcategories": [
+    "financial-news",
+    "market-data",
+    "personal-finance"
+  ],
+  "description_short": "Dow Jones-owned financial news and market data platform offering free real-time quotes, watchlists, BigCharts charting, and comprehensive market coverage for retail investors.",
+  "description_long": "MarketWatch is one of the most widely used financial news and market data platforms on the internet, owned by Dow Jones & Company (a News Corp subsidiary) alongside The Wall Street Journal and Barron's. Founded in 1997 and acquired by Dow Jones in 2005, it serves millions of readers with breaking market news, real-time quotes, and accessible personal finance content.\n\nThe platform's core offering is entirely free: users get real-time index data, stock quotes, commodity prices, currency rates, bond yields, and customizable watchlists with price alerts. BigCharts, MarketWatch's advanced charting tool, is one of the more capable free technical analysis tools available online, supporting a wide range of chart types and technical indicators without requiring a subscription.\n\nMarketWatch subscriptions ($19.99/month or $2/month promotional rate for 12 months) unlock premium articles, newsletters, and bundle access to Barron's and The Wall Street Journal. The Investor Bundle adds Investor's Business Daily access for $7/month promotional or $54.99/month regular. A Virtual Stock Game provides paper trading for those learning to invest without risking real capital.\n\nIt is important to understand what MarketWatch is not: it is a data viewer and news publication, not a trading terminal or brokerage. There is no official developer API, no broker integration, no options chain tool, and no automated trading capability. Its strength lies in accessible, trustworthy financial journalism backed by the Dow Jones editorial infrastructure, making it a go-to destination for retail investors who prioritize staying informed over active quantitative analysis.",
+  "logo_url": "/logos/marketwatch.svg",
+  "screenshots": [],
+  "website_url": "https://www.marketwatch.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Real-time market quotes and indices",
+          "Free watchlists with price alerts",
+          "BigCharts advanced charting tool",
+          "Breaking financial news",
+          "Virtual Stock Game (paper trading)",
+          "Mobile app access"
+        ]
+      },
+      {
+        "name": "MarketWatch Digital",
+        "price_monthly": 19.99,
+        "price_yearly": 24,
+        "features": [
+          "All free tier features",
+          "Unlimited premium articles",
+          "Retirement and ETF newsletters",
+          "Ad-reduced experience",
+          "Exclusive analysis and commentary"
+        ]
+      },
+      {
+        "name": "MarketWatch + Barron's",
+        "price_monthly": 22.99,
+        "price_yearly": 60,
+        "features": [
+          "All MarketWatch Digital features",
+          "Full Barron's access",
+          "Barron's stock picks and fund rankings",
+          "Weekend edition and archives"
+        ]
+      },
+      {
+        "name": "Investor Bundle",
+        "price_monthly": 54.99,
+        "price_yearly": 84,
+        "features": [
+          "MarketWatch Digital access",
+          "Barron's full access",
+          "Wall Street Journal full access",
+          "Investor's Business Daily access",
+          "IBD stock ratings and screens"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "etfs",
+    "forex",
+    "commodities",
+    "bonds",
+    "crypto"
+  ],
+  "pros": [
+    "Comprehensive free market data including real-time quotes, watchlists, and alerts",
+    "BigCharts is one of the best free charting tools available online",
+    "High-quality financial journalism backed by Dow Jones and News Corp editorial standards",
+    "Investor Bundle offers exceptional value bundling WSJ, Barron's, and IBD",
+    "Virtual Stock Game allows risk-free paper trading practice"
+  ],
+  "cons": [
+    "No official developer API \u2014 cannot integrate market data or news programmatically",
+    "Heavy ad placement on the free tier with some users reporting performance issues",
+    "Limited crypto and options coverage compared to dedicated platforms",
+    "Subscription primarily unlocks editorial content, not additional trading tools"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.6,
+    "value": 4.1,
+    "support": 3.5,
+    "reliability": 3.9
+  },
+  "founded_year": 1997,
+  "company": "Dow Jones & Company (News Corp)",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "retail investors seeking free market news",
+    "beginners learning markets",
+    "fundamental-focused investors",
+    "WSJ or Barron's subscribers wanting bundled access"
+  ],
+  "similar_tools": [
+    "seeking-alpha",
+    "benzinga",
+    "yahoo-finance",
+    "investing-com"
+  ],
+  "last_updated": "2026-03-22",
+  "review_status": "published"
+}
