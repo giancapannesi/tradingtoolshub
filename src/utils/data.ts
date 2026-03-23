@@ -171,6 +171,49 @@ export function getSimilarTools(tool: Tool, limit = 5): Tool[] {
   return combined.slice(0, limit);
 }
 
+export interface BlogPost {
+  slug: string;
+  title: string;
+  meta_title: string;
+  meta_description: string;
+  excerpt: string;
+  content: string;
+  category: string;
+  tags: string[];
+  author: string;
+  published_date: string;
+  last_updated: string;
+  read_time_minutes: number;
+  image: string;
+  image_alt: string;
+  related_tools: string[];
+  related_comparisons: string[];
+  target_keyword: string;
+}
+
+const BLOG_DIR = path.join(process.cwd(), 'src/content/blog');
+
+let _blogCache: BlogPost[] | null = null;
+
+export function getBlogPosts(): BlogPost[] {
+  if (_blogCache) return _blogCache;
+  if (!fs.existsSync(BLOG_DIR)) return [];
+  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.json'));
+  _blogCache = files.map(f => {
+    const raw = fs.readFileSync(path.join(BLOG_DIR, f), 'utf-8');
+    return JSON.parse(raw) as BlogPost;
+  }).sort((a, b) => new Date(b.published_date).getTime() - new Date(a.published_date).getTime());
+  return _blogCache;
+}
+
+export function getBlogBySlug(slug: string): BlogPost | undefined {
+  return getBlogPosts().find(p => p.slug === slug);
+}
+
+export function getBlogByCategory(category: string): BlogPost[] {
+  return getBlogPosts().filter(p => p.category === category);
+}
+
 export function formatPrice(price: number): string {
   if (price === 0) return 'Free';
   return `$${price.toFixed(2)}/mo`;
