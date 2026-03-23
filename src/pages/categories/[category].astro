@@ -13,6 +13,26 @@ export function getStaticPaths() {
 
 const { category } = Astro.props;
 const tools = getToolsByCategory(category.slug);
+const allCategories = getCategories();
+
+// Related category mapping for cross-linking
+const relatedMap: Record<string, string[]> = {
+  'trading-journals': ['charting-platforms', 'risk-management', 'trading-education'],
+  'charting-platforms': ['stock-screeners', 'trading-journals', 'options-platforms'],
+  'stock-screeners': ['charting-platforms', 'news-data-feeds', 'brokers-us'],
+  'brokers-us': ['brokers-forex', 'options-platforms', 'stock-screeners'],
+  'brokers-forex': ['brokers-us', 'prop-firms', 'futures-platforms'],
+  'prop-firms': ['brokers-forex', 'futures-platforms', 'trading-education'],
+  'trading-education': ['trading-journals', 'risk-management', 'charting-platforms'],
+  'options-platforms': ['brokers-us', 'charting-platforms', 'risk-management'],
+  'futures-platforms': ['brokers-forex', 'prop-firms', 'charting-platforms'],
+  'trading-bots': ['charting-platforms', 'stock-screeners', 'risk-management'],
+  'risk-management': ['trading-journals', 'trading-bots', 'trading-education'],
+  'news-data-feeds': ['stock-screeners', 'charting-platforms', 'brokers-us'],
+};
+const relatedCats = (relatedMap[category.slug] || [])
+  .map(slug => allCategories.find(c => c.slug === slug))
+  .filter(Boolean);
 
 // Listicles for this category
 const categoryListicles = getListicles().filter(l => l.category === category.slug);
@@ -138,6 +158,23 @@ const jsonLd = [
               <a href={`/compare/${c.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
                 <span class="text-text font-medium text-sm">{tA.name} vs {tB.name}</span>
                 <span class="ml-auto text-primary text-sm">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+    <!-- Related Categories -->
+    {relatedCats.length > 0 && (
+      <section class="mt-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Related Categories</h2>
+        <div class="grid sm:grid-cols-3 gap-3">
+          {relatedCats.map(rc => {
+            const rcTools = getToolsByCategory(rc.slug);
+            return (
+              <a href={`/categories/${rc.slug}/`} class="p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+                <span class="text-text font-medium text-sm block">{rc.name}</span>
+                <span class="text-xs text-muted mt-1 block">{rcTools.length} tools compared</span>
               </a>
             );
           })}

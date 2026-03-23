@@ -25,6 +25,16 @@ const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const loser = winner === toolA ? toolB : toolA;
 const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
 
+// Also Compare — related comparisons involving either tool
+const allComparisons = getComparisons();
+const alsoCompare = allComparisons
+  .filter(c =>
+    c.slug !== comparison.slug &&
+    (c.tool_a === comparison.tool_a || c.tool_b === comparison.tool_a ||
+     c.tool_a === comparison.tool_b || c.tool_b === comparison.tool_b)
+  )
+  .slice(0, 6);
+
 // Data-driven meta description for better CTR
 const fmtPrice = (t: any) => t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
 const winnerEdge = winner.pros[0] ? ` ${winner.name} wins on ${winner.pros[0].toLowerCase().replace(/\.$/, '')}.` : '';
@@ -223,6 +233,32 @@ const jsonLd = [
         </div>
       ))}
     </div>
+
+    <!-- Also Compare -->
+    {alsoCompare.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Also Compare</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {alsoCompare.map(c => {
+            const cToolA = getToolBySlug(c.tool_a);
+            const cToolB = getToolBySlug(c.tool_b);
+            return cToolA && cToolB && (
+              <a href={`/compare/${c.slug}/`} class="flex items-center justify-between p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+                <div>
+                  <span class="text-text font-medium text-sm">{cToolA.name} vs {cToolB.name}</span>
+                  <div class="flex items-center gap-2 mt-1 text-xs text-muted">
+                    <span>{cToolA.rating.toFixed(1)}★</span>
+                    <span>vs</span>
+                    <span>{cToolB.rating.toFixed(1)}★</span>
+                  </div>
+                </div>
+                <span class="text-primary text-sm shrink-0 ml-2">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
