@@ -2,7 +2,10 @@
   "name": "E*TRADE",
   "slug": "etrade",
   "category": "brokers-us",
-  "subcategories": ["options-trading", "full-service"],
+  "subcategories": [
+    "options-trading",
+    "full-service"
+  ],
   "description_short": "Morgan Stanley's online brokerage with Power E*TRADE for options trading, commission-free stocks, and comprehensive banking integration.",
   "description_long": "E*TRADE, now part of Morgan Stanley, is a well-established online brokerage that excels in options trading through its Power E*TRADE platform. The browser-based Power E*TRADE provides sophisticated options analysis tools, risk/reward visualizations, and an intuitive options chain interface that makes complex multi-leg strategies accessible.\n\nE*TRADE offers commission-free stock and ETF trading, with options at $0.65/contract (dropping to $0.50 for 30+ trades/quarter). The platform provides strong research from Morgan Stanley, along with educational content, webinars, and a paper trading simulator.\n\nThe integration with Morgan Stanley has expanded E*TRADE's capabilities, adding access to Morgan Stanley's proprietary research and wealth management services. Core portfolios (robo-advisory) are available starting at $500 with a 0.30% annual fee.",
   "logo_url": "/logos/etrade.svg",
@@ -16,26 +19,78 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["Commission-free stocks/ETFs", "$0.65/contract options ($0.50 for active)", "Power E*TRADE platform", "Morgan Stanley research", "No account minimum"]}
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Commission-free stocks/ETFs",
+          "$0.65/contract options ($0.50 for active)",
+          "Power E*TRADE platform",
+          "Morgan Stanley research",
+          "No account minimum"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": true,
-    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": false, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": true, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
   },
-  "markets": ["stocks", "options", "futures"],
-  "pros": ["Power E*TRADE is excellent for options trading", "Morgan Stanley research integration", "Volume discounts on options commissions", "Strong mobile app experience"],
-  "cons": ["No cryptocurrency trading", "Futures offerings are limited", "Banking features less robust than Schwab", "Platform can feel dated outside Power E*TRADE"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures"
+  ],
+  "pros": [
+    "Power E*TRADE is excellent for options trading",
+    "Morgan Stanley research integration",
+    "Volume discounts on options commissions",
+    "Strong mobile app experience"
+  ],
+  "cons": [
+    "No cryptocurrency trading",
+    "Futures offerings are limited",
+    "Banking features less robust than Schwab",
+    "Platform can feel dated outside Power E*TRADE"
+  ],
   "rating": 4.3,
-  "rating_breakdown": {"ease_of_use": 4.3, "features": 4.2, "value": 4.3, "support": 4.3, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.2,
+    "value": 4.3,
+    "support": 4.3,
+    "reliability": 4.5
+  },
   "founded_year": 1982,
   "company": "Morgan Stanley (E*TRADE Financial)",
   "headquarters": "New York, New York",
-  "best_for": ["options traders", "active traders", "Morgan Stanley clients"],
-  "similar_tools": ["charles-schwab", "fidelity", "tastytrade"],
+  "best_for": [
+    "options traders",
+    "active traders",
+    "Morgan Stanley clients"
+  ],
+  "similar_tools": [
+    "charles-schwab",
+    "fidelity",
+    "tastytrade"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "alt_meta_title": "E*TRADE Alternatives 2026: 15+ Cheaper Brokers",
+  "alt_meta_description": "Compare 15+ E*TRADE alternatives with lower fees and free trading. Find better brokers ranked by features, costs, and mobile app performance in 2026."
 }

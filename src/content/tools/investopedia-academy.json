@@ -2,7 +2,10 @@
   "name": "Investopedia Academy",
   "slug": "investopedia-academy",
   "category": "trading-education",
-  "subcategories": ["online-courses", "beginner-friendly"],
+  "subcategories": [
+    "online-courses",
+    "beginner-friendly"
+  ],
   "description_short": "Comprehensive online trading and investing courses from the most trusted financial education brand, covering beginner to advanced topics.",
   "description_long": "Investopedia Academy leverages the trusted Investopedia brand to deliver structured online courses covering trading, investing, and personal finance. The courses range from absolute beginner topics like 'Become a Day Trader' to advanced subjects like technical analysis and options trading.\n\nEach course is taught by industry professionals and includes video lessons, quizzes, downloadable resources, and lifetime access to course materials. The curriculum is well-structured and progressive, making it suitable for self-paced learning without the pressure of live trading rooms.\n\nCourse prices typically range from $199 to $299 per course, with occasional bundles and promotions. While this is a one-time cost with lifetime access, the lack of live trading elements and community interaction means it is best suited as a foundational learning tool rather than a complete trading education solution.",
   "logo_url": "/logos/investopedia-academy.svg",
@@ -16,26 +19,79 @@
     "has_free_tier": false,
     "starting_price": 199,
     "tiers": [
-      {"name": "Individual Course", "price_monthly": 0, "price_yearly": 0, "features": ["Single course access", "Lifetime access", "Video lessons", "Quizzes and resources", "Price: $199-$299 per course"]}
+      {
+        "name": "Individual Course",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Single course access",
+          "Lifetime access",
+          "Video lessons",
+          "Quizzes and resources",
+          "Price: $199-$299 per course"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": false,
-    "mobile_app": false, "api_access": false, "social_features": false, "broker_integration": false,
-    "custom_indicators": false, "automated_trading": false, "journaling": false,
-    "performance_analytics": false, "risk_management": false, "news_feed": false, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["stocks", "options", "forex", "crypto"],
-  "pros": ["Trusted Investopedia brand and quality content", "Lifetime access to course materials", "Well-structured self-paced curriculum", "Courses taught by industry professionals"],
-  "cons": ["No live trading or community elements", "One-time course fees can add up", "Content may not update as quickly as markets change", "Not a substitute for real-world trading experience"],
+  "markets": [
+    "stocks",
+    "options",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Trusted Investopedia brand and quality content",
+    "Lifetime access to course materials",
+    "Well-structured self-paced curriculum",
+    "Courses taught by industry professionals"
+  ],
+  "cons": [
+    "No live trading or community elements",
+    "One-time course fees can add up",
+    "Content may not update as quickly as markets change",
+    "Not a substitute for real-world trading experience"
+  ],
   "rating": 4.0,
-  "rating_breakdown": {"ease_of_use": 4.5, "features": 3.5, "value": 3.8, "support": 3.8, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.5,
+    "value": 3.8,
+    "support": 3.8,
+    "reliability": 4.5
+  },
   "founded_year": 2017,
   "company": "Dotdash Meredith (Investopedia)",
   "headquarters": "New York, New York",
-  "best_for": ["beginners", "self-paced learners", "investors wanting structured education"],
-  "similar_tools": ["warrior-trading", "bear-bull-traders", "udemy-trading"],
+  "best_for": [
+    "beginners",
+    "self-paced learners",
+    "investors wanting structured education"
+  ],
+  "similar_tools": [
+    "warrior-trading",
+    "bear-bull-traders",
+    "udemy-trading"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "alt_meta_title": "Investopedia Academy Alternatives 2026: Cheaper & Free",
+  "alt_meta_description": "Compare 9 Investopedia Academy alternatives. Free options, lower costs, live trading, and better beginner-friendly education."
 }

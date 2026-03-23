@@ -2,7 +2,10 @@
   "name": "Fidelity Investments",
   "slug": "fidelity",
   "category": "brokers-us",
-  "subcategories": ["full-service", "retirement"],
+  "subcategories": [
+    "full-service",
+    "retirement"
+  ],
   "description_short": "Top-rated full-service brokerage with zero-commission trading, Active Trader Pro, and industry-leading research and retirement tools.",
   "description_long": "Fidelity Investments is consistently rated as one of the best overall brokers for both active traders and long-term investors. The firm offers commission-free trading for stocks, ETFs, and options (with $0.65/contract), along with access to Active Trader Pro, a powerful desktop platform with real-time analytics and advanced charting.\n\nFidelity's research capabilities are unmatched in the retail space, with proprietary equity research, Fidelity's Equity Summary Score (combining multiple research providers), and detailed fund analysis tools. The platform also offers zero-expense-ratio index funds (FZROX, FZILX) that have no management fees whatsoever.\n\nFor retirement planning, Fidelity offers IRAs with no minimums, 401(k) rollovers, HSAs, and comprehensive financial planning tools. The combination of $0 commissions, best-in-class research, excellent customer service, and broad investment options makes Fidelity hard to beat for the average investor.",
   "logo_url": "/logos/fidelity.svg",
@@ -16,26 +19,79 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["Commission-free stocks/ETFs", "$0.65/contract options", "Active Trader Pro", "Zero-fee index funds", "Research & education", "No account minimums"]}
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Commission-free stocks/ETFs",
+          "$0.65/contract options",
+          "Active Trader Pro",
+          "Zero-fee index funds",
+          "Research & education",
+          "No account minimums"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
-    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": false, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": true, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
   },
-  "markets": ["stocks", "options", "futures"],
-  "pros": ["Best-in-class research and analysis tools", "Zero-fee index funds with no expense ratio", "Excellent customer service consistently rated #1", "Comprehensive retirement and financial planning"],
-  "cons": ["Active Trader Pro not as powerful as ThinkorSwim", "No cryptocurrency trading", "Futures trading options are limited", "International market access is limited"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures"
+  ],
+  "pros": [
+    "Best-in-class research and analysis tools",
+    "Zero-fee index funds with no expense ratio",
+    "Excellent customer service consistently rated #1",
+    "Comprehensive retirement and financial planning"
+  ],
+  "cons": [
+    "Active Trader Pro not as powerful as ThinkorSwim",
+    "No cryptocurrency trading",
+    "Futures trading options are limited",
+    "International market access is limited"
+  ],
   "rating": 4.7,
-  "rating_breakdown": {"ease_of_use": 4.6, "features": 4.5, "value": 4.9, "support": 4.8, "reliability": 4.8},
+  "rating_breakdown": {
+    "ease_of_use": 4.6,
+    "features": 4.5,
+    "value": 4.9,
+    "support": 4.8,
+    "reliability": 4.8
+  },
   "founded_year": 1946,
   "company": "Fidelity Investments",
   "headquarters": "Boston, Massachusetts",
-  "best_for": ["long-term investors", "retirement planning", "research-driven investors"],
-  "similar_tools": ["charles-schwab", "interactive-brokers", "etrade"],
+  "best_for": [
+    "long-term investors",
+    "retirement planning",
+    "research-driven investors"
+  ],
+  "similar_tools": [
+    "charles-schwab",
+    "interactive-brokers",
+    "etrade"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "alt_meta_title": "Fidelity Alternatives 2026: Cheaper & Better Brokers",
+  "alt_meta_description": "Discover 30+ alternatives to Fidelity. Compare zero-commission brokers with lower fees, no account minimums, and better tools for your trading style."
 }

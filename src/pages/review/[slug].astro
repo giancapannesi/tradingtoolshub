@@ -114,8 +114,8 @@ const jsonLd = [
 ];
 ---
 <BaseLayout
-  title={`${tool.name} Review 2026 — Pricing, Features, Pros & Cons`}
-  description={tool.description_short}
+  title={tool.meta_title || `${tool.name} Review 2026 — Pricing, Features, Pros & Cons`}
+  description={tool.meta_description || tool.description_short}
   jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
