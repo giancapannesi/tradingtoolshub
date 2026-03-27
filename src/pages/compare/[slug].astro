@@ -21,6 +21,9 @@ if (!toolA || !toolB) {
   return Astro.redirect('/');
 }
 
+// Noindex bare comparisons without editorial analysis — re-indexed once enriched
+const shouldNoindex = !comparison.analysis;
+
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const loser = winner === toolA ? toolB : toolA;
 const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
@@ -109,6 +112,7 @@ const jsonLd = [
   title={comparison.title}
   description={metaDescription}
   jsonLd={jsonLd}
+  noindex={shouldNoindex}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Breadcrumbs -->

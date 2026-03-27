@@ -7,9 +7,10 @@ interface Props {
   canonical?: string;
   ogImage?: string;
   jsonLd?: object | object[];
+  noindex?: boolean;
 }
 
-const { title, description, canonical, ogImage, jsonLd } = Astro.props;
+const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const siteUrl = 'https://tradingtoolshub.com';
 const fullTitle = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
@@ -31,6 +32,7 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
   </script>
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="canonical" href={canonicalUrl} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="TradingToolsHub RSS Feed" href="/feed.xml" />
