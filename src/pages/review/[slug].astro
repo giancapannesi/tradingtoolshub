@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import ToolCard from '../../components/ToolCard.astro';
-import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories, getComparisons, getListicles } from '../../utils/data';
+import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories, getComparisons, getListicles, getBlogPosts } from '../../utils/data';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -23,6 +23,14 @@ const toolComparisons = allComparisons
 const toolListicles = getListicles()
   .filter(l => l.tools.includes(tool.slug));
 const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
+
+// Related guides & blog posts
+const allBlogs = getBlogPosts();
+const toolGuides = allBlogs.filter(b =>
+  b.related_tools?.includes(tool.slug) ||
+  b.slug.includes(tool.slug) ||
+  b.tags?.some(t => t.toLowerCase() === tool.name.toLowerCase())
+);
 
 // Build FAQ schema for review pages
 const pricingText = tool.pricing.starting_price === 0
@@ -287,6 +295,27 @@ const jsonLd = [
         </p>
       </div>
     </section>
+
+    <!-- Guides & Tutorials -->
+    {toolGuides.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Guides</h2>
+        <div class="grid sm:grid-cols-2 gap-3">
+          {toolGuides.map(g => (
+            <a href={`/blog/${g.slug}/`} class="group flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                <span class="text-primary text-lg">&#128214;</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-text font-medium text-sm block truncate">{g.title}</span>
+                <span class="text-muted text-xs block mt-1">{g.read_time_minutes} min read</span>
+              </div>
+              <span class="text-primary text-sm shrink-0 mt-1">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Compare This Tool -->
     {toolComparisons.length > 0 && (

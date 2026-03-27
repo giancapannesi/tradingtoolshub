@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ComparisonTable from '../../components/ComparisonTable.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import RatingStars from '../../components/RatingStars.astro';
-import { getComparisons, getToolBySlug, getListicles } from '../../utils/data';
+import { getComparisons, getToolBySlug, getListicles, getBlogPosts } from '../../utils/data';
 
 export function getStaticPaths() {
   const comparisons = getComparisons();
@@ -27,6 +27,15 @@ const shouldNoindex = !comparison.analysis;
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const loser = winner === toolA ? toolB : toolA;
 const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
+
+// Related guides for either tool
+const allBlogs = getBlogPosts();
+const relatedGuides = allBlogs.filter(b =>
+  b.related_tools?.includes(comparison.tool_a) ||
+  b.related_tools?.includes(comparison.tool_b) ||
+  b.slug.includes(comparison.tool_a) ||
+  b.slug.includes(comparison.tool_b)
+).slice(0, 4);
 
 // Also Compare — related comparisons involving either tool
 const allComparisons = getComparisons();
@@ -186,6 +195,27 @@ const jsonLd = [
       <h2 class="text-2xl font-bold text-text mb-4">{toolB.name}: Pros & Cons</h2>
       <ProsCons pros={toolB.pros} cons={toolB.cons} />
     </section>
+
+    <!-- Related Guides -->
+    {relatedGuides.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">Guides & Tutorials</h2>
+        <div class="grid sm:grid-cols-2 gap-3">
+          {relatedGuides.map(g => (
+            <a href={`/blog/${g.slug}/`} class="group flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
+              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                <span class="text-primary text-lg">&#128214;</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-text font-medium text-sm block truncate">{g.title}</span>
+                <span class="text-muted text-xs block mt-1">{g.read_time_minutes} min read</span>
+              </div>
+              <span class="text-primary text-sm shrink-0 mt-1">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Explore More -->
     <section class="mb-10">
