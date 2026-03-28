@@ -1,0 +1,59 @@
+{
+  "name": "BlackBoxStocks",
+  "slug": "blackboxstocks",
+  "category": "options-platforms",
+  "subcategories": ["options-flow", "stock-screener", "alerts"],
+  "description_short": "AI-powered options flow scanner and stock screener with real-time alerts, dark pool data, and an active trading community.",
+  "description_long": "BlackBoxStocks combines options flow scanning, stock screening, and community-driven trading into a single platform. The system uses proprietary algorithms to identify unusual options activity and high-probability setups across the entire US equities and options market.\n\nThe platform stands out for its real-time alert system that flags unusual volume spikes, large block trades, and dark pool activity. Traders can filter by sector, market cap, option type, premium size, and dozens of other criteria. The built-in stock screener runs alongside the options flow scanner, giving users a comprehensive view of market activity.\n\nBlackBoxStocks also includes a live trading community with chat rooms, educational webinars, and real-time trade sharing. The Pro tier adds advanced analytics, historical flow data, and priority alert delivery. At $79.97/month (or $959.64/year), it sits in the mid-range of options flow tools — cheaper than FlowAlgo but more expensive than basic screeners.",
+  "logo_url": "/logos/blackboxstocks.svg",
+  "screenshots": [],
+  "website_url": "https://blackboxstocks.com",
+  "affiliate_url": "",
+  "affiliate_program": "BlackBoxStocks Affiliate Program",
+  "affiliate_commission": "High-tier payouts for Pro referrals",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 79.97,
+    "tiers": [
+      {"name": "Standard", "price_monthly": 79.97, "price_yearly": 959.64, "features": ["Real-time options flow", "Stock screener", "Dark pool alerts", "Community chat", "Mobile app"]},
+      {"name": "Pro", "price_monthly": 119.97, "price_yearly": 1439.64, "features": ["All Standard features", "Advanced analytics", "Historical flow data", "Priority alerts", "Pro-only chat rooms"]}
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options"],
+  "pros": ["Combines options flow + stock screener in one platform", "Active trading community with live chat", "AI-powered unusual activity detection", "Mobile app for on-the-go monitoring"],
+  "cons": ["No free tier or trial period", "Can be overwhelming for beginners", "No broker integration for direct trading", "Pro tier is expensive at $120/month"],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.4,
+    "value": 3.9,
+    "support": 4.0,
+    "reliability": 4.3
+  },
+  "founded_year": 2016,
+  "company": "BlackBoxStocks Inc",
+  "headquarters": "Dallas, Texas",
+  "best_for": ["options flow traders", "community-oriented traders", "active day traders"],
+  "similar_tools": ["flowalgo", "unusual-whales", "optionsstrat"],
+  "last_updated": "2026-03-28",
+  "review_status": "published"
+}

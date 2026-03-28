@@ -487,6 +487,7 @@
     "tools": [
       "unusual-whales",
       "flowalgo",
+      "blackboxstocks",
       "optionsstrat",
       "option-alpha",
       "optionslam",
