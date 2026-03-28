@@ -2,7 +2,10 @@
   "name": "Finviz",
   "slug": "finviz",
   "category": "stock-screeners",
-  "subcategories": ["stock-screening", "market-visualization"],
+  "subcategories": [
+    "stock-screening",
+    "market-visualization"
+  ],
   "description_short": "Powerful stock screener with market heat maps, fundamentals, technical filters, and real-time quotes on the Elite plan.",
   "description_long": "Finviz (Financial Visualizations) is one of the most widely-used stock screening and market visualization tools available. The platform offers an incredibly fast and intuitive screener that lets traders filter stocks by dozens of fundamental, technical, and descriptive criteria simultaneously.\n\nThe free version provides delayed data with access to the screener, market heat maps, sector performance views, and basic stock charts. Finviz Elite at $39.50/month unlocks real-time quotes, advanced screener features, custom presets, push alerts, and an ad-free experience.\n\nFinviz's heat maps are iconic in the trading community, providing an at-a-glance view of market performance by sector, market cap, or custom criteria. The screener's speed and breadth of filters make it an essential tool for traders looking to find opportunities quickly across the US stock market.",
   "logo_url": "/logos/finviz.svg",
@@ -20,13 +23,26 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Basic screener", "Delayed data", "Heat maps", "Stock charts", "Ads shown"]
+        "features": [
+          "Basic screener",
+          "Delayed data",
+          "Heat maps",
+          "Stock charts",
+          "Ads shown"
+        ]
       },
       {
         "name": "Elite",
-        "price_monthly": 39.50,
-        "price_yearly": 299.50,
-        "features": ["Real-time quotes & charts", "Advanced screener", "Push alerts", "Ad-free", "Export/API access", "ETF & fundamental data"]
+        "price_monthly": 39.5,
+        "price_yearly": 299.5,
+        "features": [
+          "Real-time quotes & charts",
+          "Advanced screener",
+          "Push alerts",
+          "Ad-free",
+          "Export/API access",
+          "ETF & fundamental data"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +64,25 @@
     "news_feed": true,
     "education": false
   },
-  "markets": ["stocks"],
-  "pros": ["Best-in-class stock screener with dozens of filters", "Iconic heat maps for market visualization", "Free tier is surprisingly useful", "Fast, responsive interface"],
-  "cons": ["US stocks only, no international markets", "Free version has delayed data and ads", "No charting or trading execution"],
+  "markets": [
+    "futures",
+    "crypto",
+    "options",
+    "stocks",
+    "bonds",
+    "forex"
+  ],
+  "pros": [
+    "Best-in-class stock screener with dozens of filters",
+    "Iconic heat maps for market visualization",
+    "Free tier is surprisingly useful",
+    "Fast, responsive interface"
+  ],
+  "cons": [
+    "US stocks only, no international markets",
+    "Free version has delayed data and ads",
+    "No charting or trading execution"
+  ],
   "rating": 4.5,
   "rating_breakdown": {
     "ease_of_use": 4.7,
@@ -62,8 +94,36 @@
   "founded_year": 2007,
   "company": "Finviz Inc.",
   "headquarters": "New York, New York",
-  "best_for": ["stock traders", "swing traders", "fundamental analysts"],
-  "similar_tools": ["trade-ideas", "stock-rover", "benzinga-pro"],
+  "best_for": [
+    "stock traders",
+    "swing traders",
+    "fundamental analysts"
+  ],
+  "similar_tools": [
+    "trade-ideas",
+    "stock-rover",
+    "benzinga-pro"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "scraped_features": [
+    "Real-time stock screener with market heat maps",
+    "Fundamentals and technical filters",
+    "Real-time quotes and multi-layout charts",
+    "Custom alerts and advanced screening filters",
+    "ETF insights and seamless exports",
+    "Insider trading data with transaction details",
+    "Economic calendar with earnings releases",
+    "Futures, Forex, Crypto, and Bond market data",
+    "Technical pattern recognition (wedges, triangles, channels, head & shoulders)",
+    "Market trend signals (new highs/lows, overbought/oversold, unusual volume)"
+  ],
+  "unique_selling_points": [
+    "Integrated market heat maps combining advancing/declining stocks with price level analysis",
+    "Insider trading tracker with transaction value and share quantities",
+    "Technical pattern screener with 15+ chart patterns",
+    "All-in-one platform combining stocks, options, futures, forex, and crypto in single interface",
+    "Real-time news with market impact indicators on major stocks"
+  ],
+  "enriched_at": "2026-03-28"
 }
