@@ -1,20 +1,21 @@
 {
-  "name": "OptionsStrat",
+  "name": "OptionStrat",
   "slug": "optionsstrat",
   "category": "options-platforms",
   "subcategories": [
     "options-visualization",
-    "strategy-builder"
+    "strategy-builder",
+    "options-flow"
   ],
-  "description_short": "Visual options strategy builder and profit/loss calculator with real-time pricing, IV analysis, and P&L simulations for all options strategies.",
-  "description_long": "OptionsStrat is a specialized options analysis platform that makes complex options strategies accessible through intuitive visual profit/loss diagrams, real-time pricing, and powerful simulation tools. The platform is designed for options traders of all levels who want to understand the risk/reward profile of any options strategy before placing a trade.\n\nThe core feature is the Strategy Builder, which allows traders to construct any combination of calls, puts, and stock positions, then instantly see the P&L diagram, breakeven points, max profit, max loss, probability of profit, and Greeks. The platform supports all standard strategies (verticals, iron condors, butterflies, straddles, calendars, etc.) and custom multi-leg combinations.\n\nOptionsStrat provides real-time options pricing, implied volatility analysis, IV rank/percentile, unusual options activity scanning, and an earnings calendar with expected moves. The mobile app is particularly popular among traders who want quick P&L analysis on the go. The free tier offers basic strategy visualization, while the Premium plan ($29.99/mo) unlocks real-time data, advanced analytics, and unlimited strategy saves.",
+  "description_short": "Visual options strategy builder, P&L calculator, and real-time options flow scanner with unusual activity alerts, IV analysis, and Congress/insider trade tracking.",
+  "description_long": "OptionStrat is one of those rare trading tools that actually delivers on its promise of making options trading more accessible without dumbing it down. After using it daily for over a year — primarily on the mobile app — it has become an indispensable part of our options trading workflow.\n\nThe platform centers around three core products: the Strategy Builder, the Options Optimizer, and the Options Flow scanner. Each serves a distinct purpose, and together they cover the full options analysis lifecycle from idea generation to trade structuring to execution monitoring.\n\n## The Company Behind It\n\nOptionStrat was founded in 2020 by Heath Milligan, a developer and options trader who got frustrated with the clunky, outdated options tools available at the time. What started as a personal project to find trades more easily grew into a full platform when he realized other traders had the same pain point. Milligan is a University of Central Florida grad who previously co-founded AgeChecker.Net, so he knows how to build software that scales.\n\nWhat's notable is that OptionStrat is still a small, independently run operation — not a VC-funded startup chasing growth metrics. Milligan is active on Reddit, Discord, and social media, and users consistently report fast bug fixes and feature implementations based on community feedback. This shows in the product — it feels like it's built by someone who actually trades options, not by a team of developers who've never placed a trade.\n\n## Strategy Builder — The Core Product\n\nThe Strategy Builder is where OptionStrat truly shines. You can construct any combination of calls, puts, and stock positions across multiple expirations and instantly see a clean visual P&L diagram with breakeven points, max profit, max loss, probability of profit, and combined Greeks. It supports 50+ pre-built strategy templates — verticals, iron condors, butterflies, straddles, calendars, diagonals, ratio spreads, and custom multi-leg combinations.\n\nWhat makes it stand out from broker-provided analysis tools (like ThinkOrSwim's analyze tab) is speed and clarity. You can model a trade in seconds, adjust strikes with a tap, and immediately see how the risk/reward profile changes. On the mobile app, this is especially powerful — you can check a potential trade while walking, in a meeting, or between sets at the gym. No other mobile options tool comes close to this level of visual clarity.\n\nThe combined Greeks display is another standout. For multi-leg strategies, seeing net delta, gamma, theta, and vega at a glance helps you understand your actual exposure without doing mental math across individual legs. You can also chart how Greeks change over time, which is critical for calendar and diagonal spreads where time decay dynamics shift as you approach expiration.\n\n## Options Optimizer — Finding the Best Trade\n\nThe Optimizer scans thousands of potential option combinations for a given underlying, target price, and target date, then ranks them by best return or best probability of profit. This is genuinely useful when you have a directional thesis but aren't sure which structure gives you the best risk/reward.\n\nFor example, if you think AAPL is going to $200 by next month, the Optimizer will show you whether a long call, bull call spread, or bull put spread gives you the best expected return — accounting for current IV levels, skew, and pricing. It saves significant time compared to manually modeling each alternative.\n\n## Options Flow Scanner — Institutional Tracking\n\nThe Live Flow tier ($99.99/mo) adds real-time unusual options activity monitoring. This includes large block trades, complex multi-leg strategies that institutional desks are putting on, sweeps, and — notably — Congress member and corporate insider trades. The Congress/insider tracking is particularly valuable given the ongoing public interest in congressional trading activity.\n\nYou can create custom filters, set mobile and web alerts, search historical flow data, and track alert performance over time. The flow scanner competes with dedicated flow platforms like FlowAlgo, Unusual Whales, and Cheddar Flow, but the advantage is having it integrated with the strategy builder — you can see an unusual trade, tap on it, and immediately model the same strategy to understand its risk profile.\n\n## The Free Tier — Genuinely Generous\n\nOptionStrat's free tier deserves special mention because it's actually usable, not just a teaser. You get full access to the strategy builder with delayed data, all 50+ pre-built strategies, and basic P&L visualization. For someone learning options or just needing to quickly model a trade idea, the free tier is more powerful than most paid tools. This is a smart move by OptionStrat — it builds genuine user loyalty because traders who learn on the platform naturally upgrade when they start trading seriously.\n\n## Mobile App — Best in Class\n\nOptionStrat works extremely well on both desktop and mobile. The web app on desktop gives you full screen real estate for detailed multi-leg analysis, side-by-side strategy comparisons, and deep flow scanning sessions. The iOS and Android apps are equally polished — P&L diagrams render cleanly on phone screens, strategy building is intuitive with touch controls, and the app is fast. The experience is consistent across platforms, which is rare for trading tools. This is where we use OptionStrat most frequently — desktop for in-depth analysis during market hours, mobile for quick checks on trade ideas throughout the day. If you trade options and don't have this app on your phone (and bookmarked on your desktop), you're missing out.\n\n## Education & YouTube Channel — Daily Strategy Sessions\n\nOptionStrat runs one of the best options education YouTube channels out there (youtube.com/@OptionStrat — 20K+ subscribers, 378+ videos). They publish daily strategy session videos and training content that walks through real trade setups using the platform. These aren't generic options 101 videos — they're practical, showing how to use the Optimizer to find trades, how to read the flow scanner, and how to structure multi-leg positions for specific market conditions. If you're new to options or want to sharpen your skills, the YouTube library alone is worth your time before you even sign up for the platform.\n\n## Particularly Strong for Options Sellers\n\nWhile OptionStrat works well for directional option buying, it really excels for options sellers. When you're selling premium — credit spreads, iron condors, strangles, covered calls — understanding your risk profile visually is critical because your max loss is typically much larger than your max gain. OptionStrat makes this crystal clear. You can see exactly where your breakevens are, how theta decay works in your favor day by day, and how changes in IV affect your position. For sellers, the probability of profit calculation is arguably the most important metric, and OptionStrat displays it prominently.\n\nAll the basic strategies (covered calls, cash-secured puts, verticals) are easily accessible with one or two taps. But the complex multi-leg strategies — iron butterflies, broken wing butterflies, ratio spreads, jade lizards — are equally well-presented with clear explanations of the risk/reward trade-offs. This is rare. Most platforms either overwhelm beginners with complexity or oversimplify for advanced traders. OptionStrat manages to serve both audiences without compromise.\n\n## What Could Be Better\n\nNo tool is perfect. OptionStrat doesn't offer broker integration, so you can't execute trades directly from the platform — you still need to switch to your broker to place orders. There's no backtesting capability, which means you can't test strategies against historical data. And the live data is restricted to non-professional users due to exchange licensing requirements, which means registered investment advisors and licensed professionals can't access real-time pricing through the platform.\n\nThe pricing jump from Live Tools ($39.99/mo) to Live Flow ($99.99/mo) is also significant. If you primarily need the strategy builder and don't care about flow data, the Live Tools tier is the sweet spot. But if you want the full experience including institutional flow and Congress trades, you're looking at $1,000/year on the annual plan.\n\n## Bottom Line\n\nOptionStrat is the best visual options analysis tool available today. It does one thing — helping you understand options strategies — and it does it better than anything else on the market. The free tier is generous enough to be genuinely useful, the mobile app is best-in-class, and the flow scanner adds institutional-grade data for traders who want the full picture. If you trade options at any level, OptionStrat should be on your phone.",
   "logo_url": "/logos/optionsstrat.svg",
   "screenshots": [],
-  "website_url": "https://www.optionsstrat.com",
+  "website_url": "https://optionstrat.com",
   "affiliate_url": "",
-  "affiliate_program": "",
-  "affiliate_commission": "",
-  "affiliate_cookie_days": 0,
+  "affiliate_program": "OptionStrat Affiliate Program",
+  "affiliate_commission": "Custom % (lifetime recurring)",
+  "affiliate_cookie_days": 90,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,
@@ -24,23 +25,44 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Basic P&L diagrams",
-          "Delayed data",
-          "Standard strategies",
+          "Strategy builder with delayed data",
+          "50+ pre-built strategy templates",
+          "Basic P&L visualization",
           "Limited saves"
         ]
       },
       {
-        "name": "Premium",
-        "price_monthly": 29.99,
-        "price_yearly": 239.88,
+        "name": "Live Tools",
+        "price_monthly": 39.99,
+        "price_yearly": 419.99,
         "features": [
-          "Real-time options data",
-          "Advanced analytics",
-          "Unusual activity scanner",
-          "Unlimited strategy saves",
-          "IV analysis tools",
-          "Earnings expected moves"
+          "Real-time stock & options pricing",
+          "Market events & news",
+          "Volume overlay on charts",
+          "Chance of profit calculations",
+          "Combined Greeks for multi-leg strategies",
+          "IV adjustments per expiration",
+          "Saved strategy tracking with history",
+          "Commission fee calculations",
+          "Private Discord community",
+          "15-minute delayed futures data",
+          "7-day free trial"
+        ]
+      },
+      {
+        "name": "Live Flow",
+        "price_monthly": 99.99,
+        "price_yearly": 999.99,
+        "features": [
+          "Everything in Live Tools",
+          "Real-time unusual options flow (no delay)",
+          "Custom filter creation & saving",
+          "Mobile & web flow alerts",
+          "Alert performance tracking",
+          "Historical flow search",
+          "Live newsfeed",
+          "Congress & insider trade tracking",
+          "7-day free trial"
         ]
       }
     ],
@@ -53,57 +75,67 @@
     "alerts": true,
     "mobile_app": true,
     "api_access": false,
-    "social_features": false,
+    "social_features": true,
     "broker_integration": false,
     "custom_indicators": false,
     "automated_trading": false,
     "journaling": false,
-    "performance_analytics": false,
+    "performance_analytics": true,
     "risk_management": true,
-    "news_feed": false,
+    "news_feed": true,
     "education": true
   },
   "markets": [
     "options",
-    "stocks"
+    "stocks",
+    "futures"
   ],
   "pros": [
-    "Best visual P&L diagrams for options strategies",
-    "Intuitive strategy builder — great for learning",
-    "Real-time Greeks and IV analysis on Premium",
-    "Excellent mobile app for on-the-go analysis",
-    "Unusual options activity scanner"
+    "Best visual P&L diagrams for options strategies — nothing else comes close",
+    "Options Optimizer scans thousands of trades to find the best structure",
+    "Genuinely useful free tier — not just a teaser",
+    "Best-in-class mobile app for on-the-go options analysis",
+    "Real-time options flow with Congress & insider trade tracking",
+    "Combined Greeks display for multi-leg strategies saves mental math",
+    "7-day free trial on all paid plans",
+    "Private Discord community for paid members"
   ],
   "cons": [
-    "Free tier uses delayed data",
-    "No broker integration for trade execution",
-    "No backtesting capabilities",
-    "Premium pricing is relatively high for a visualization tool",
-    "Limited to US equities options"
+    "No broker integration — can't execute trades directly",
+    "No backtesting against historical data",
+    "Live data restricted to non-professional users (exchange licensing)",
+    "Big price jump from Live Tools ($40/mo) to Live Flow ($100/mo)",
+    "Free tier uses delayed data (15-20 min)",
+    "Futures data is 15-minute delayed even on paid plans"
   ],
-  "rating": 4.0,
+  "rating": 4.5,
   "rating_breakdown": {
-    "ease_of_use": 4.7,
-    "features": 3.8,
-    "value": 3.7,
-    "support": 3.8,
-    "reliability": 4.2
+    "ease_of_use": 4.9,
+    "features": 4.3,
+    "value": 4.2,
+    "support": 4.0,
+    "reliability": 4.5
   },
   "founded_year": 2020,
-  "company": "OptionsStrat LLC",
+  "company": "OptionStrat LLC",
   "headquarters": "United States",
   "best_for": [
-    "options beginners",
-    "visual learners",
-    "options strategy analysis"
+    "options beginners learning strategy mechanics",
+    "active options traders who want quick visual P&L analysis",
+    "mobile-first traders who analyze trades on the go",
+    "traders tracking unusual options flow and institutional activity"
   ],
   "similar_tools": [
     "option-alpha",
     "power-etrade",
-    "thinkorswim"
+    "thinkorswim",
+    "market-chameleon",
+    "unusual-whales",
+    "flowalgo",
+    "cheddar-flow"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-03-28",
   "review_status": "published",
-  "meta_title": "OptionsStrat 2026: Free Visual Strategy Builder",
-  "meta_description": "Free visual options P&L tool with real-time Greeks & IV. OptionsStrat beats Tastyworks for beginners. Compare strategies & learn options trading now."
+  "meta_title": "OptionStrat Review 2026: Best Visual Options Strategy Builder (Free Tier)",
+  "meta_description": "Hands-on OptionStrat review from an actual user. Free strategy builder, real-time flow scanner, Congress trades & best mobile app for options traders. Pricing, pros & cons."
 }

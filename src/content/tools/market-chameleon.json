@@ -5,17 +5,18 @@
   "subcategories": [
     "options-analytics",
     "earnings-analysis",
-    "volatility-tracking"
+    "volatility-tracking",
+    "options-flow"
   ],
-  "description_short": "Market Chameleon is a specialized stock and options analytics platform with advanced IV rankings, earnings strategy backtesting, and unusual options flow screening for active traders.",
-  "description_long": "Market Chameleon is a web-based trading analytics platform founded in 2006, built for active stock and options traders who need deep, data-driven insights beyond what typical screeners provide. The platform covers stock data back to 1998 and options data back to 2014, offering a rare combination of historical depth and actionable real-time analytics \u2014 all accessible from a browser with no software installation required.\n\nThe platform's core strength lies in its options analytics suite. Traders can access implied volatility rankings, historical IV percentiles, unusual options volume, block trade screening, and repeat trade detection. Multi-leg strategy backtesting \u2014 covering iron condors, verticals, and butterflies \u2014 lets traders validate approaches against real historical data rather than theoretical models, making it a serious research tool for options-focused traders.\n\nMarket Chameleon's earnings tools are its standout differentiator. The Earnings Trader plan allows users to backtest options strategies across up to 12 past earnings releases, comparing implied moves against actual historical moves and filtering by win rate and average return. This level of earnings-specific analysis is rare among retail-facing analytics platforms and gives options traders a meaningful statistical edge around catalysts.\n\nStock tools include a premarket and postmarket analytics suite with intraday volume data, VWAP, and trades-per-minute breakdowns, plus a stock screener covering sector, market cap, and 52-week range filters. Pricing starts at $39/month for the Stock Trader plan, rising to $99/month for Total Access which unlocks all plan features and unlimited data exports. A 7-day free trial is available on all premium plans, and the platform is also accessible via Interactive Brokers third-party research subscriptions.",
+  "description_short": "Market Chameleon is a specialized stock and options analytics platform with advanced IV rankings, earnings strategy backtesting, unusual options flow screening, and historical data back to 2014 for active traders.",
+  "description_long": "Market Chameleon is a serious options analytics platform — and we mean serious. Founded in 2006 in New York, this is one of the most data-rich tools available to retail options traders. Where other platforms give you surface-level options data, Market Chameleon gives you the full depth: historical implied volatility back to 2014, earnings move backtesting across 12+ releases, block trade detection, unusual flow screening, and strategy-level backtesting for multi-leg positions. It's the kind of tool that separates recreational options traders from systematic ones.\n\n## The Company Behind It\n\nMarket Chameleon was founded in 2007 by William McBride in Philadelphia. That's nearly two decades of building options analytics — long before options trading became mainstream with retail traders. This longevity shows in the data depth: they've been collecting and structuring options data since well before most competitors existed, which is why their historical dataset goes back to 2014 for options and 1998 for stocks. It's a private, bootstrapped company that has grown through product quality rather than marketing spend.\n\nMarket Chameleon is also one of very few platforms that offers true options screeners — the ability to filter and scan the entire options market by IV rank, probability, strategy type, and historical performance. Most platforms give you an options chain for a single stock. Market Chameleon lets you screen across the entire market to find the best setups, which is a fundamentally different and more powerful approach to options trading.\n\n## Implied Volatility Analytics — The Foundation\n\nMarket Chameleon's IV tools are arguably the deepest in the retail space. You get IV rank, IV percentile, historical IV charts, IV skew analysis, and term structure visualization across expirations. This matters because implied volatility is the single most important factor in options pricing — if you're trading options without understanding where IV sits relative to its historical range, you're flying blind.\n\nThe platform lets you screen for stocks with elevated or depressed IV, compare current IV to historical averages, and identify volatility crush or expansion setups. For premium sellers, this is essential — you want to sell when IV is high (expensive premiums) and buy when IV is low. Market Chameleon makes this analysis trivial.\n\n## Earnings Strategy Backtesting — The Killer Feature\n\nThis is where Market Chameleon truly has no competition. The Earnings Trader plan lets you backtest specific options strategies (straddles, strangles, iron condors, verticals) across up to 12 past earnings releases for any stock. You can see exactly what would have happened if you'd sold an iron condor before AAPL's last 12 earnings reports — win rate, average return, max drawdown, and how the actual move compared to the implied move.\n\nWhy does this matter? Because earnings trades are the highest-edge options setups available to retail traders. The market consistently overprices implied moves around earnings (the 'volatility risk premium'), and Market Chameleon gives you the historical data to exploit this systematically. Instead of guessing whether a strangle sale will work, you can see the actual backtest results across multiple cycles.\n\nNo other retail platform offers this level of earnings-specific backtesting. ThinkOrSwim, TradingView, and OptionStrat all have great strategy tools, but none of them let you backtest options trades across historical earnings events the way Market Chameleon does.\n\n## Options Flow & Unusual Activity\n\nThe Options Trader plan includes unusual options volume screening, block trade detection, and repeat trade screening. You can filter by volume-to-open-interest ratios, trade size, sentiment (bullish vs bearish flow), and spot institutional positioning before it moves the underlying. The repeat trade screener is particularly useful — it identifies when the same strategy is being executed repeatedly on the same underlying, which often signals institutional accumulation.\n\n## Filtering for Options Selling Strategies\n\nOne feature that doesn't get enough attention is how well Market Chameleon handles filtering for specific options selling strategies. If you're a premium seller running iron condors, credit spreads, or cash-secured puts, you can filter for setups based on IV rank, probability of profit, expected return, days to expiration, and historical win rates. Instead of manually scanning chains and doing the math yourself, the platform surfaces the highest-probability selling opportunities across the entire market.\n\nThis is especially powerful combined with the earnings backtesting — you can identify stocks where selling premium before earnings has historically been profitable, filter by strategy type, and see exactly what the edge looks like over 12+ cycles. For systematic options sellers, this combination of screening and backtesting is hard to find anywhere else at this price point.\n\n## Multi-Leg Strategy Backtesting\n\nBeyond earnings, Market Chameleon lets you backtest multi-leg strategies (iron condors, verticals, butterflies, calendars) against real historical options data. This is backtesting with actual options prices, not theoretical models — a critical distinction. You can filter by delta, days to expiration, IV level at entry, and see how strategies performed across different market conditions.\n\n## Stock Analytics\n\nThe stock-side tools are solid too. Premarket and postmarket analytics with VWAP, volume breakdowns, and trades-per-minute data. A stock screener covering sector, market cap, fundamentals, and 52-week range. Dividend forecasts. Stock data goes back to 1998, which is useful for long-term technical and fundamental analysis.\n\n## Interactive Brokers Integration\n\nMarket Chameleon is available as a third-party research subscription through Interactive Brokers, which means IBKR users can access it directly within their brokerage platform. This is a nice convenience if you're already an IBKR client.\n\n## Pricing — Honest Assessment\n\nThe pricing structure can be confusing because options and earnings tools are split across separate plans:\n\n- **Free:** Limited data, delayed quotes, basic screening\n- **Stock Trader ($39/mo):** All stock tools, premarket/postmarket, historical stock data\n- **Options Trader ($69/mo):** Stock tools + options flow, IV analytics, multi-leg backtesting\n- **Earnings Trader ($79/mo):** Stock tools + earnings backtesting (but NOT the options flow tools)\n- **Total Access ($99/mo):** Everything combined\n\nThe catch: if you want both options flow AND earnings backtesting, you need Total Access at $99/mo. The individual plans force you to choose one or the other. For serious options traders, Total Access is the only plan that makes sense — and at $99/mo it's competitive with similar data platforms. All plans come with a 7-day free trial.\n\n## What Could Be Better\n\nMarket Chameleon is browser-only — there's no mobile app. For a data-heavy analytics platform this isn't a dealbreaker (you're doing real analysis, not quick checks), but it means you can't get push notifications or check IV levels from your phone the way you can with OptionStrat.\n\nThe interface is dense. There's a lot of data on every page, and new users can feel overwhelmed. It takes a few sessions to learn where everything is and how to navigate efficiently. This isn't a platform you'll master in 30 minutes — but the depth of data rewards the learning curve.\n\nAnnual pricing isn't prominently displayed, which makes it harder to compare the long-term cost.\n\n## Bottom Line\n\nMarket Chameleon sits at an interesting intersection — it's built for serious options traders who need advanced, institutional-grade data, but it's also one of the best learning platforms for newer traders who want to genuinely understand how options work. The depth of the data forces you to learn concepts like IV rank, term structure, and probability of profit in a practical context rather than from a textbook. You're not just reading about implied volatility — you're seeing it across 10 years of real data for every stock.\n\nFor experienced traders, Market Chameleon is the best options analytics platform for earnings trades and systematic premium selling. The backtesting capability alone is worth the subscription — there is literally nothing else like it in the retail space. For newer traders, the free tier and 7-day trials let you explore the data and start building a real understanding of options mechanics before committing. Either way, it's a really good piece of software that takes options analysis seriously, and it shows in every feature.",
   "logo_url": "/logos/market-chameleon.svg",
   "screenshots": [],
   "website_url": "https://marketchameleon.com",
   "affiliate_url": "",
-  "affiliate_program": "",
-  "affiliate_commission": "",
-  "affiliate_cookie_days": 0,
+  "affiliate_program": "Market Chameleon Affiliate Program",
+  "affiliate_commission": "50% lifetime recurring",
+  "affiliate_cookie_days": 365,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,
@@ -37,11 +38,12 @@
         "price_yearly": 0,
         "features": [
           "All stock-related tools",
-          "Premarket and postmarket analytics",
+          "Premarket and postmarket analytics with VWAP",
           "Stock data back to 1998",
           "Dividend forecasts and fundamental data",
           "2-10 data downloads per day",
-          "Customizable alerts"
+          "Customizable alerts",
+          "7-day free trial"
         ]
       },
       {
@@ -54,7 +56,8 @@
           "Unusual options flow and order flow sentiment",
           "Block Trade and Repeat Trade screeners",
           "Implied volatility rankings and historical IV back to 2014",
-          "Multi-leg strategy backtesting"
+          "Multi-leg strategy backtesting",
+          "7-day free trial"
         ]
       },
       {
@@ -63,10 +66,11 @@
         "price_yearly": 0,
         "features": [
           "All Stock Trader features",
-          "Earnings strategy backtesting across 12 past releases",
+          "Earnings strategy backtesting across 12+ past releases",
           "Implied vs actual historical move comparisons",
           "Filter by win rate and average return",
-          "Earnings-specific options analytics"
+          "Earnings-specific options analytics",
+          "7-day free trial"
         ]
       },
       {
@@ -78,7 +82,8 @@
           "Unlimited data exports",
           "Full options and earnings analytics",
           "All screening tools unlocked",
-          "Complete historical dataset access"
+          "Complete historical dataset access",
+          "7-day free trial"
         ]
       }
     ],
@@ -106,41 +111,48 @@
     "options"
   ],
   "pros": [
-    "Best-in-class earnings strategy backtesting across up to 12 real historical releases",
+    "Best-in-class earnings strategy backtesting — no other retail platform offers this",
     "Deep implied volatility data and IV rankings back to 2014",
-    "Unusual options flow and block trade screening for order flow analysis",
-    "Granular premarket and postmarket analytics with VWAP and volume breakdowns",
-    "Available through Interactive Brokers for streamlined subscription access"
+    "Unusual options flow, block trade, and repeat trade screening",
+    "Multi-leg strategy backtesting with real historical options prices",
+    "Granular premarket and postmarket analytics with VWAP",
+    "Available through Interactive Brokers for streamlined access",
+    "7-day free trial on all paid plans",
+    "Data depth rewards serious options traders"
   ],
   "cons": [
-    "No mobile app \u2014 browser-only platform limits on-the-go access",
-    "Options and earnings tools split across separate paid plans requiring upgrades",
+    "No mobile app — browser-only platform",
+    "Options and earnings tools split across separate plans (need Total Access for both)",
     "Interface can feel dense and overwhelming for beginners",
-    "Annual pricing not clearly advertised on the website"
+    "Annual pricing not prominently displayed",
+    "Learning curve — takes several sessions to master navigation"
   ],
-  "rating": 4.2,
+  "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 3.6,
-    "features": 4.7,
-    "value": 4.1,
+    "features": 4.9,
+    "value": 4.3,
     "support": 3.8,
-    "reliability": 4.3
+    "reliability": 4.5
   },
   "founded_year": 2006,
   "company": "Market Chameleon",
   "headquarters": "New York, New York",
   "best_for": [
-    "options traders",
-    "earnings traders",
-    "volatility analysts",
-    "active stock traders"
+    "earnings traders who backtest options strategies around catalysts",
+    "options sellers who need deep IV analysis",
+    "volatility traders tracking IV rank and term structure",
+    "institutional flow watchers screening block and repeat trades"
   ],
   "similar_tools": [
+    "optionsstrat",
     "unusual-whales",
     "finviz",
     "barchart",
-    "thinkorswim"
+    "trade-ideas"
   ],
-  "last_updated": "2026-03-13",
-  "review_status": "published"
+  "last_updated": "2026-03-28",
+  "review_status": "published",
+  "meta_title": "Market Chameleon Review 2026: Best Earnings & Options Analytics Platform",
+  "meta_description": "In-depth Market Chameleon review. Earnings backtesting across 12+ releases, deep IV analytics, unusual flow screening. Pricing from $39-$99/mo. 7-day free trial."
 }
