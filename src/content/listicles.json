@@ -477,5 +477,68 @@
       "earn2trade",
       "city-traders-imperium"
     ]
+  },
+  {
+    "slug": "best-options-flow-tools",
+    "title": "Best Options Flow Tools in 2026 \u2014 Track Smart Money",
+    "target_keyword": "best options flow tools",
+    "category": "options-platforms",
+    "description": "The best options flow tools to track unusual activity and smart money moves. Tested and ranked by data quality, speed, and value.",
+    "tools": [
+      "unusual-whales",
+      "flowalgo",
+      "optionsstrat",
+      "option-alpha",
+      "optionslam",
+      "thinkorswim-options"
+    ]
+  },
+  {
+    "slug": "best-charting-software-day-trading",
+    "title": "Best Charting Software for Day Trading in 2026",
+    "target_keyword": "best charting software day trading",
+    "category": "charting-platforms",
+    "description": "The best charting platforms for active day traders. Compared by speed, indicators, drawing tools, and real-time data quality.",
+    "tools": [
+      "tradingview",
+      "thinkorswim",
+      "ninjatrader",
+      "tradestation",
+      "bookmap",
+      "trendspider",
+      "tc2000"
+    ]
+  },
+  {
+    "slug": "best-brokers-day-trading",
+    "title": "Best Brokers for Day Trading in 2026 \u2014 Speed, Fees & Tools",
+    "target_keyword": "best broker for day trading",
+    "category": "brokers-us",
+    "description": "The best brokers for day traders ranked by execution speed, commissions, margin rates, and platform tools.",
+    "tools": [
+      "interactive-brokers",
+      "tastytrade",
+      "webull",
+      "td-ameritrade",
+      "charles-schwab",
+      "tradestation",
+      "moomoo"
+    ]
+  },
+  {
+    "slug": "best-brokers-options-trading",
+    "title": "Best Brokers for Options Trading in 2026",
+    "target_keyword": "cheapest broker for options",
+    "category": "brokers-us",
+    "description": "The cheapest and best brokers for options trading. Compare per-contract fees, platform tools, and options analytics.",
+    "tools": [
+      "tastytrade",
+      "interactive-brokers",
+      "thinkorswim",
+      "robinhood",
+      "webull",
+      "charles-schwab",
+      "etoro"
+    ]
   }
 ]
