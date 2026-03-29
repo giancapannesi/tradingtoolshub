@@ -11,10 +11,10 @@
   "logo_url": "/logos/finviz.svg",
   "screenshots": [],
   "website_url": "https://finviz.com",
-  "affiliate_url": "",
+  "affiliate_url": "https://finviz.com/?a=100134282",
   "affiliate_program": "Finviz Affiliate Program",
-  "affiliate_commission": "25% per sale",
-  "affiliate_cookie_days": 30,
+  "affiliate_commission": "30% recurring, 90-day cookie",
+  "affiliate_cookie_days": 90,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,

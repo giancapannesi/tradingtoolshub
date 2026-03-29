@@ -2,16 +2,19 @@
   "name": "TradingView",
   "slug": "tradingview",
   "category": "charting-platforms",
-  "subcategories": ["social-charting", "multi-asset"],
+  "subcategories": [
+    "social-charting",
+    "multi-asset"
+  ],
   "description_short": "The world's most popular charting platform with 100M+ users, Pine Script, social features, and real-time data across all markets.",
   "description_long": "TradingView is the undisputed leader in web-based charting and technical analysis, used by over 100 million traders worldwide. The platform offers an incredibly powerful charting engine with hundreds of built-in indicators, drawing tools, and the ability to create custom indicators using Pine Script, its proprietary scripting language.\n\nBeyond charting, TradingView is a social network for traders. Users publish trade ideas, analysis, and custom indicators that others can follow, learn from, and apply to their own charts. The platform supports real-time data for stocks, forex, crypto, futures, bonds, and more from exchanges worldwide.\n\nThe free tier provides robust charting capabilities with ads and delayed data, while paid plans (Essential at $14.95/mo, Plus at $29.95/mo, Premium at $59.95/mo) unlock real-time data, more indicators per chart, multiple chart layouts, and server-side alerts. TradingView also offers direct broker integration for executing trades without leaving the platform.",
   "logo_url": "/logos/tradingview.svg",
   "screenshots": [],
   "website_url": "https://www.tradingview.com",
-  "affiliate_url": "",
+  "affiliate_url": "https://www.tradingview.com/?aff_id=164723",
   "affiliate_program": "TradingView Affiliate Program",
-  "affiliate_commission": "Up to $15 per referral",
-  "affiliate_cookie_days": 30,
+  "affiliate_commission": "30% recurring, 90-day cookie",
+  "affiliate_cookie_days": 90,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,
@@ -20,25 +23,46 @@
         "name": "Basic",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["1 chart per layout", "3 indicators per chart", "Delayed data", "Basic alerts"]
+        "features": [
+          "1 chart per layout",
+          "3 indicators per chart",
+          "Delayed data",
+          "Basic alerts"
+        ]
       },
       {
         "name": "Essential",
         "price_monthly": 14.95,
-        "price_yearly": 155.40,
-        "features": ["2 charts per layout", "5 indicators per chart", "10 server-side alerts", "No ads"]
+        "price_yearly": 155.4,
+        "features": [
+          "2 charts per layout",
+          "5 indicators per chart",
+          "10 server-side alerts",
+          "No ads"
+        ]
       },
       {
         "name": "Plus",
         "price_monthly": 29.95,
-        "price_yearly": 299.40,
-        "features": ["4 charts per layout", "10 indicators per chart", "100 server-side alerts", "Custom timeframes"]
+        "price_yearly": 299.4,
+        "features": [
+          "4 charts per layout",
+          "10 indicators per chart",
+          "100 server-side alerts",
+          "Custom timeframes"
+        ]
       },
       {
         "name": "Premium",
         "price_monthly": 59.95,
-        "price_yearly": 599.40,
-        "features": ["8 charts per layout", "25 indicators per chart", "400 server-side alerts", "Second-based intervals", "Priority support"]
+        "price_yearly": 599.4,
+        "features": [
+          "8 charts per layout",
+          "25 indicators per chart",
+          "400 server-side alerts",
+          "Second-based intervals",
+          "Priority support"
+        ]
       }
     ],
     "currency": "USD"
@@ -60,9 +84,24 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Most comprehensive free charting platform available", "Pine Script enables custom indicator creation", "Massive social community with published ideas", "Real-time data from exchanges worldwide"],
-  "cons": ["Free tier has ads and delayed data", "Premium features require expensive subscription", "Can be slow during high-volatility market events"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Most comprehensive free charting platform available",
+    "Pine Script enables custom indicator creation",
+    "Massive social community with published ideas",
+    "Real-time data from exchanges worldwide"
+  ],
+  "cons": [
+    "Free tier has ads and delayed data",
+    "Premium features require expensive subscription",
+    "Can be slow during high-volatility market events"
+  ],
   "rating": 4.8,
   "rating_breakdown": {
     "ease_of_use": 4.7,
@@ -74,8 +113,16 @@
   "founded_year": 2011,
   "company": "TradingView Inc.",
   "headquarters": "New York, New York",
-  "best_for": ["all traders", "technical analysts", "social traders"],
-  "similar_tools": ["trendspider", "tc2000", "thinkorswim"],
+  "best_for": [
+    "all traders",
+    "technical analysts",
+    "social traders"
+  ],
+  "similar_tools": [
+    "trendspider",
+    "tc2000",
+    "thinkorswim"
+  ],
   "last_updated": "2026-03-07",
   "review_status": "published"
 }
