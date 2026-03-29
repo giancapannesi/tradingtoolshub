@@ -2,7 +2,10 @@
   "name": "FTMO",
   "slug": "ftmo",
   "category": "prop-firms",
-  "subcategories": ["funded-accounts", "evaluation-based"],
+  "subcategories": [
+    "funded-accounts",
+    "evaluation-based"
+  ],
   "description_short": "The most established proprietary trading firm offering funded accounts up to $200K after a two-phase evaluation, with 90% profit splits.",
   "description_long": "FTMO is the world's most recognized proprietary trading firm (prop firm), offering traders the opportunity to trade with funded capital after passing a structured evaluation process. Founded in Prague in 2015, FTMO has paid out hundreds of millions of dollars in profits to successful traders.\n\nThe evaluation process consists of two phases: the FTMO Challenge (Phase 1) where traders must reach a 10% profit target within 30 days while respecting a 5% daily loss limit and 10% maximum loss limit, followed by the Verification (Phase 2) with a 5% profit target within 60 days under the same risk rules. Once both phases are passed, traders receive an FTMO Account with up to 90% profit split.\n\nFTMO supports trading on MetaTrader 4, MetaTrader 5, and cTrader across forex, indices, commodities, stocks, and crypto. Account sizes range from $10,000 to $200,000. The firm provides free trials, performance analytics, a trading journal, and account analysis tools. FTMO is known for its transparency, reliable payouts (processed biweekly), and professional trader community.",
   "logo_url": "/logos/ftmo.svg",
@@ -20,37 +23,67 @@
         "name": "Free Trial",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["$10,000 demo account", "Same rules as paid challenge", "14-day trial period", "No payout eligible"]
+        "features": [
+          "$10,000 demo account",
+          "Same rules as paid challenge",
+          "14-day trial period",
+          "No payout eligible"
+        ]
       },
       {
         "name": "$10K Challenge",
         "price_monthly": 155,
         "price_yearly": 0,
-        "features": ["$10,000 funded account", "90% profit split", "10% profit target Phase 1", "Fee refunded on first payout"]
+        "features": [
+          "$10,000 funded account",
+          "90% profit split",
+          "10% profit target Phase 1",
+          "Fee refunded on first payout"
+        ]
       },
       {
         "name": "$25K Challenge",
         "price_monthly": 250,
         "price_yearly": 0,
-        "features": ["$25,000 funded account", "90% profit split", "10% profit target Phase 1", "Fee refunded on first payout"]
+        "features": [
+          "$25,000 funded account",
+          "90% profit split",
+          "10% profit target Phase 1",
+          "Fee refunded on first payout"
+        ]
       },
       {
         "name": "$50K Challenge",
         "price_monthly": 345,
         "price_yearly": 0,
-        "features": ["$50,000 funded account", "90% profit split", "10% profit target Phase 1", "Fee refunded on first payout"]
+        "features": [
+          "$50,000 funded account",
+          "90% profit split",
+          "10% profit target Phase 1",
+          "Fee refunded on first payout"
+        ]
       },
       {
         "name": "$100K Challenge",
         "price_monthly": 540,
         "price_yearly": 0,
-        "features": ["$100,000 funded account", "90% profit split", "10% profit target Phase 1", "Fee refunded on first payout"]
+        "features": [
+          "$100,000 funded account",
+          "90% profit split",
+          "10% profit target Phase 1",
+          "Fee refunded on first payout"
+        ]
       },
       {
         "name": "$200K Challenge",
         "price_monthly": 1080,
         "price_yearly": 0,
-        "features": ["$200,000 funded account", "90% profit split", "10% profit target Phase 1", "Fee refunded on first payout"]
+        "features": [
+          "$200,000 funded account",
+          "90% profit split",
+          "10% profit target Phase 1",
+          "Fee refunded on first payout"
+        ]
       }
     ],
     "currency": "USD"
@@ -72,9 +105,26 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["forex", "stocks", "crypto", "futures"],
-  "pros": ["Industry-leading 90% profit split", "Free trial available to test before paying", "Challenge fee refunded on first payout", "Biweekly payouts with multiple withdrawal methods", "Supports MT4, MT5, and cTrader"],
-  "cons": ["Two-phase evaluation can be stressful", "Strict drawdown rules lead to many failed attempts", "Challenge fees are non-refundable if you fail", "No scaling plan — must purchase larger accounts separately", "Weekend holding restrictions on some account types"],
+  "markets": [
+    "forex",
+    "stocks",
+    "crypto",
+    "futures"
+  ],
+  "pros": [
+    "Industry-leading 90% profit split",
+    "Free trial available to test before paying",
+    "Challenge fee refunded on first payout",
+    "Biweekly payouts with multiple withdrawal methods",
+    "Supports MT4, MT5, and cTrader"
+  ],
+  "cons": [
+    "Two-phase evaluation can be stressful",
+    "Strict drawdown rules lead to many failed attempts",
+    "Challenge fees are non-refundable if you fail",
+    "No scaling plan \u2014 must purchase larger accounts separately",
+    "Weekend holding restrictions on some account types"
+  ],
   "rating": 4.5,
   "rating_breakdown": {
     "ease_of_use": 4.4,
@@ -86,8 +136,46 @@
   "founded_year": 2015,
   "company": "FTMO s.r.o.",
   "headquarters": "Prague, Czech Republic",
-  "best_for": ["aspiring funded traders", "forex traders", "disciplined traders"],
-  "similar_tools": ["apex-trader-funding", "topstep", "the-funded-trader"],
+  "best_for": [
+    "aspiring funded traders",
+    "forex traders",
+    "disciplined traders"
+  ],
+  "similar_tools": [
+    "apex-trader-funding",
+    "topstep",
+    "the-funded-trader"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "founder": "Marek Va\u0161\u00ed\u010dek (CTO) and Otakar \u0160uffner (CEO)",
+  "company_background": "FTMO is an educational and technology-driven company that makes trading accessible through simulated environments by empowering traders who are ready to perform but not yet backed by sufficient capital. Since 2015, the company has helped traders test their skills in a simulated trading environment and, if they meet required criteria, become eligible for financial rewards.",
+  "scraped_features": [
+    "Up to $200K simulated capital accounts",
+    "1-Step FTMO Challenge with 10% Max Loss and 90% profit split",
+    "4 Trading Platforms",
+    "Support in 20 Languages",
+    "Advanced support via Live chat, email, or WhatsApp",
+    "Free Trials (unlimited attempts)",
+    "Tailored tools & services for trader growth",
+    "Scaling Plan and Premium Programme for advancing traders",
+    "Top performers eligible to progress to Quantlane (live capital proprietary trading firm)"
+  ],
+  "unique_selling_points": [
+    "90% profit split to traders on successful evaluations",
+    "Simulated trading environment with real monetary rewards (zero personal capital risk during evaluation)",
+    "3.5M+ customers across 140+ countries with $500M+ paid in rewards",
+    "Educational focus on trading psychology, risk management, and discipline",
+    "2025 Strategic partnership with OANDA expanding access to US market",
+    "Founders recognized as EY Entrepreneur Of The Year - Technology Entrepreneur (2022)"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 4.8,
+      "review_count": 40718,
+      "url": "https://www.trustpilot.com/review/ftmo.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }

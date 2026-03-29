@@ -2,9 +2,13 @@
   "name": "BlackBoxStocks",
   "slug": "blackboxstocks",
   "category": "options-platforms",
-  "subcategories": ["options-flow", "stock-screener", "alerts"],
+  "subcategories": [
+    "options-flow",
+    "stock-screener",
+    "alerts"
+  ],
   "description_short": "AI-powered options flow scanner and stock screener with real-time alerts, dark pool data, and an active trading community.",
-  "description_long": "BlackBoxStocks combines options flow scanning, stock screening, and community-driven trading into a single platform. The system uses proprietary algorithms to identify unusual options activity and high-probability setups across the entire US equities and options market.\n\nThe platform stands out for its real-time alert system that flags unusual volume spikes, large block trades, and dark pool activity. Traders can filter by sector, market cap, option type, premium size, and dozens of other criteria. The built-in stock screener runs alongside the options flow scanner, giving users a comprehensive view of market activity.\n\nBlackBoxStocks also includes a live trading community with chat rooms, educational webinars, and real-time trade sharing. The Pro tier adds advanced analytics, historical flow data, and priority alert delivery. At $79.97/month (or $959.64/year), it sits in the mid-range of options flow tools — cheaper than FlowAlgo but more expensive than basic screeners.",
+  "description_long": "BlackBoxStocks combines options flow scanning, stock screening, and community-driven trading into a single platform. The system uses proprietary algorithms to identify unusual options activity and high-probability setups across the entire US equities and options market.\n\nThe platform stands out for its real-time alert system that flags unusual volume spikes, large block trades, and dark pool activity. Traders can filter by sector, market cap, option type, premium size, and dozens of other criteria. The built-in stock screener runs alongside the options flow scanner, giving users a comprehensive view of market activity.\n\nBlackBoxStocks also includes a live trading community with chat rooms, educational webinars, and real-time trade sharing. The Pro tier adds advanced analytics, historical flow data, and priority alert delivery. At $79.97/month (or $959.64/year), it sits in the mid-range of options flow tools \u2014 cheaper than FlowAlgo but more expensive than basic screeners.",
   "logo_url": "/logos/blackboxstocks.svg",
   "screenshots": [],
   "website_url": "https://blackboxstocks.com",
@@ -16,8 +20,84 @@
     "has_free_tier": false,
     "starting_price": 79.97,
     "tiers": [
-      {"name": "Standard", "price_monthly": 79.97, "price_yearly": 959.64, "features": ["Real-time options flow", "Stock screener", "Dark pool alerts", "Community chat", "Mobile app"]},
-      {"name": "Pro", "price_monthly": 119.97, "price_yearly": 1439.64, "features": ["All Standard features", "Advanced analytics", "Historical flow data", "Priority alerts", "Pro-only chat rooms"]}
+      {
+        "name": "Equities & Options Premium",
+        "price_monthly": 149,
+        "features": [
+          "Everything in Options Plus and Equities Plus",
+          "Algo-based Stock and Options Alerts",
+          "Live Stock and Options Trading Rooms",
+          "Team Trades with Entries and Exits",
+          "Dark Pool Data (real-time and historical)",
+          "Institutional-grade Charting with Exclusive Chart Studies",
+          "Real-time News, Analyst Ratings, & Watch List",
+          "Historical Stock and Options Data",
+          "Education Program",
+          "BlackBox Mobile App",
+          "Real-Time Market Volatility Scanner",
+          "Dynamic Discord Community",
+          "Downloadable Data"
+        ]
+      },
+      {
+        "name": "Equities Plus",
+        "price_monthly": 89,
+        "features": [
+          "Real-time Stock Data & Algo scanners",
+          "Volatility Indicator (Level 2 driven)",
+          "Volume Ratio Scanner",
+          "Premarket, Post Market, & Market Scanner",
+          "Top Gainers & Top Decliners",
+          "Dark Pool Data (real-time and historical)",
+          "Dark Pool Volume Profile Chart Study",
+          "Live Stock and Options Trading Rooms",
+          "Team Trades with Entries & Exits",
+          "Exclusive Chart Studies",
+          "Real-time News, Analyst Ratings, & Watch List",
+          "Education Program",
+          "BlackBox Mobile App",
+          "Dynamic Discord Community"
+        ]
+      },
+      {
+        "name": "Options Plus",
+        "price_monthly": 79,
+        "features": [
+          "Dark Pool Data (real-time & historical)",
+          "Dark Pool Volume Profile Chart Study",
+          "Multiple Live Options Trading Rooms",
+          "Team Trades with Entries & Exits",
+          "Real-time Net Options Delta and Gamma Exposure",
+          "Exclusive Chart Studies",
+          "GoNoGo Trend Study",
+          "Historical Options Flow Data",
+          "Historical Options Volume, OI, & Volatility Dashboards",
+          "Premarket, Post Market, & Market Scanners",
+          "Volume Ratio Scanner",
+          "Customizable Alert Notifications and Alert Stream",
+          "Dynamic Discord Community",
+          "Downloadable Data"
+        ]
+      },
+      {
+        "name": "Options Basic",
+        "price_monthly": 59,
+        "features": [
+          "Real-time Options Flow",
+          "Algo-based Options Alerts",
+          "Institutional-grade Charting",
+          "Daily Options OI changes",
+          "Options Volume Ratio Scanner",
+          "Options Heatmap",
+          "Bullish / Bearish Options Flow",
+          "Most Active Calls & Puts",
+          "Real-time News",
+          "Analyst Ratings",
+          "Watch List",
+          "Education Program",
+          "BlackBox Mobile App"
+        ]
+      }
     ],
     "currency": "USD"
   },
@@ -38,9 +118,22 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options"],
-  "pros": ["Combines options flow + stock screener in one platform", "Active trading community with live chat", "AI-powered unusual activity detection", "Mobile app for on-the-go monitoring"],
-  "cons": ["No free tier or trial period", "Can be overwhelming for beginners", "No broker integration for direct trading", "Pro tier is expensive at $120/month"],
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Combines options flow + stock screener in one platform",
+    "Active trading community with live chat",
+    "AI-powered unusual activity detection",
+    "Mobile app for on-the-go monitoring"
+  ],
+  "cons": [
+    "No free tier or trial period",
+    "Can be overwhelming for beginners",
+    "No broker integration for direct trading",
+    "Pro tier is expensive at $120/month"
+  ],
   "rating": 4.1,
   "rating_breakdown": {
     "ease_of_use": 3.8,
@@ -52,8 +145,44 @@
   "founded_year": 2016,
   "company": "BlackBoxStocks Inc",
   "headquarters": "Dallas, Texas",
-  "best_for": ["options flow traders", "community-oriented traders", "active day traders"],
-  "similar_tools": ["flowalgo", "unusual-whales", "optionsstrat"],
+  "best_for": [
+    "options flow traders",
+    "community-oriented traders",
+    "active day traders"
+  ],
+  "similar_tools": [
+    "flowalgo",
+    "unusual-whales",
+    "optionsstrat"
+  ],
   "last_updated": "2026-03-28",
-  "review_status": "published"
+  "review_status": "published",
+  "scraped_features": [
+    "Options Flow Scanner \u2014 tracks large aggressive buying activity in specific options contracts to follow institutional money in real-time",
+    "Dark Pool Scanner \u2014 real-time and historical data on private exchange trades with volume profile charting",
+    "Algo-based Alerts \u2014 scans 11,000+ stocks multiple times per second for volatile moves; pre-market, volume active, price spike, rapid decline, and options-specific alerts",
+    "Level 2 Volatility Indicator \u2014 measures buy/sell pressure based on bid/ask volume within 10-second windows",
+    "Proprietary Chart Studies \u2014 Dark Pool Volume Profile, Options Dollar Flow, Net Options Delta, Gamma Exposure, Opening Range Breakout, GoNoGo Trend Study",
+    "Live Trading Rooms \u2014 chat with team traders and community members; live channels with entries/exits guidance",
+    "Real-time News Feed \u2014 multi-source news (Business Wire, Reuters, Seeking Alpha, Zero Hedge, etc.) with options-specific filtering",
+    "Discord Community \u2014 dynamic, uncensored trading community for strategy sharing and peer support",
+    "Mobile App \u2014 real-time push notifications for alerts on iOS/Android"
+  ],
+  "unique_selling_points": [
+    "Proprietary Options Flow Scanner reveals institutional order flow \u2014 core differentiator vs. competitors",
+    "Dark Pool transparency \u2014 real-time visibility into block trades and institutional activity outside public markets",
+    "Integrated trading community on platform \u2014 no tab-switching between platform and Discord",
+    "Team Traders program \u2014 established traders (Steven Kang 18+ yrs banking, Maria Chaudhry former Schwab/Ameritrade stockbroker, HellsBells 20 yrs experience) provide live guidance and education",
+    "Institutional-grade charting with proprietary studies at retail price points",
+    "Algorithm-based alerts claim to catch moves before they occur in real-time"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 4.3,
+      "review_count": 27,
+      "url": "https://www.trustpilot.com/review/blackboxstocks.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }

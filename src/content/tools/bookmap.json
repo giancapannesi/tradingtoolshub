@@ -20,34 +20,34 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Free",
-        "price_monthly": 0,
-        "price_yearly": 0,
+        "name": "Digital",
         "features": [
-          "Crypto heatmaps",
-          "Basic order flow",
-          "Limited features"
+          "Free tier",
+          "Crypto data",
+          "Delayed futures and stocks data"
         ]
       },
       {
-        "name": "Digital+",
-        "price_monthly": 49,
-        "price_yearly": 468,
+        "name": "Digital +",
         "features": [
-          "Crypto + digital assets",
-          "Full heatmap features",
-          "Volume analysis"
+          "Full futures/stocks market depth",
+          "Premium indicators"
+        ]
+      },
+      {
+        "name": "Global",
+        "features": [
+          "Full futures/stocks market depth",
+          "Premium indicators",
+          "Real-time professional data"
         ]
       },
       {
         "name": "Global+",
-        "price_monthly": 99,
-        "price_yearly": 948,
         "features": [
-          "All markets",
-          "Full order flow suite",
-          "Advanced heatmaps",
-          "Multibook"
+          "Full futures/stocks market depth",
+          "Premium indicators",
+          "Advanced add-ons included"
         ]
       }
     ],
@@ -111,5 +111,44 @@
   "last_updated": "2026-03-07",
   "review_status": "published",
   "alt_meta_title": "10 Free Bookmap Alternatives 2026 - Better Tools",
-  "alt_meta_description": "Compare 10+ free Bookmap alternatives for traders. Advanced charting platforms with real-time data, enhanced analysis tools, and better features in 2026."
+  "alt_meta_description": "Compare 10+ free Bookmap alternatives for traders. Advanced charting platforms with real-time data, enhanced analysis tools, and better features in 2026.",
+  "scraped_features": [
+    "Liquidity Heatmap \u2014 visualize resting limit orders across all price levels in real-time",
+    "Volume Bubbles \u2014 understand aggressive buying/selling and buyer/seller imbalance",
+    "Best Bid & Offer tracking \u2014 detect absorption and exhaustion at the spread",
+    "Current Order Book (DOM) \u2014 view complete depth of market with configurable columns",
+    "Nanosecond Zoom \u2014 drill into microstructure at ultra-high frame rate (40 FPS)",
+    "Stops & Icebergs Tracker \u2014 detect hidden iceberg orders and stop runs",
+    "Tradermap Pro \u2014 filter market maker bots and identify genuine liquidity",
+    "DOM Pro \u2014 combine depth visualization with execution flow for better timing",
+    "Market Pulse \u2014 monitor large trades, sweeps, and momentum shifts in real-time",
+    "Record & Replay \u2014 tick-by-tick replay of live sessions for backtesting and trade review",
+    "One-Click Chart Trading",
+    "Customizable Charts and indicators",
+    "Developer APIs for custom indicators and automated strategies"
+  ],
+  "integrations": [
+    "CME futures",
+    "Nasdaq TotalView",
+    "BookmapData",
+    "dxFeed",
+    "Rithmic",
+    "Major crypto exchanges"
+  ],
+  "unique_selling_points": [
+    "Real-time market depth visualization at 40 frames per second reveals hidden order flow before price moves",
+    "Detects hidden iceberg orders and institutional activity through proprietary order flow analysis",
+    "Unified platform for futures, stocks, and crypto trading with professional-grade market data",
+    "Tick-level replay and backtesting with full order book history for strategy refinement",
+    "Filters market maker bot activity to surface genuine liquidity signals"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 4.6,
+      "review_count": 595,
+      "url": "https://www.trustpilot.com/review/bookmap.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }

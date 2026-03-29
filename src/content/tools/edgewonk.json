@@ -2,7 +2,10 @@
   "name": "Edgewonk",
   "slug": "edgewonk",
   "category": "trading-journals",
-  "subcategories": ["performance-tracking", "psychology"],
+  "subcategories": [
+    "performance-tracking",
+    "psychology"
+  ],
   "description_short": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking.",
   "description_long": "Edgewonk is a veteran trading journal that has built a loyal following among serious traders who want to find and maintain their statistical edge. Unlike many journaling tools that focus on pretty dashboards, Edgewonk emphasizes the analytical depth needed to make meaningful improvements to your trading.\n\nThe platform excels at helping traders identify patterns in their behavior through custom tags, emotional state tracking, and detailed performance metrics. Its unique 'Tiltmeter' feature tracks emotional trading decisions, while the trade simulator lets you test 'what-if' scenarios against your actual trade history.\n\nEdgewonk uses a single-tier pricing model at $169/year, which gives every user access to all features without tiered restrictions. This approach means you never hit a paywall for advanced analytics. It supports stocks, forex, futures, crypto, and options across all major brokers.",
   "logo_url": "/logos/edgewonk.svg",
@@ -17,10 +20,17 @@
     "starting_price": 169,
     "tiers": [
       {
-        "name": "Annual",
-        "price_monthly": 14.08,
-        "price_yearly": 169,
-        "features": ["All features included", "Unlimited trades", "Tiltmeter emotional tracking", "Trade simulator", "Custom tags and filters", "All asset classes supported"]
+        "name": "12 months",
+        "price_monthly": 16.42,
+        "price_yearly": 197,
+        "currency": "USD"
+      },
+      {
+        "name": "24 months",
+        "price_monthly": 12.38,
+        "price_yearly": 297,
+        "currency": "USD",
+        "note": "Locks in current price for 2 years"
       }
     ],
     "currency": "USD"
@@ -42,9 +52,26 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Single tier means all features for everyone", "Tiltmeter for emotional trading detection is unique", "Trade simulator for what-if analysis", "Strong focus on finding statistical edge"],
-  "cons": ["No free tier or trial available", "Interface feels dated compared to newer competitors", "Annual billing only, no monthly option"],
+  "markets": [
+    "forex",
+    "commodities",
+    "indices",
+    "options",
+    "stocks",
+    "crypto",
+    "futures"
+  ],
+  "pros": [
+    "Single tier means all features for everyone",
+    "Tiltmeter for emotional trading detection is unique",
+    "Trade simulator for what-if analysis",
+    "Strong focus on finding statistical edge"
+  ],
+  "cons": [
+    "No free tier or trial available",
+    "Interface feels dated compared to newer competitors",
+    "Annual billing only, no monthly option"
+  ],
   "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 3.9,
@@ -56,8 +83,53 @@
   "founded_year": 2014,
   "company": "Edgewonk",
   "headquarters": "Vienna, Austria",
-  "best_for": ["analytical traders", "forex traders", "traders focused on psychology"],
-  "similar_tools": ["tradertrac", "tradezella", "tradersync"],
+  "best_for": [
+    "analytical traders",
+    "forex traders",
+    "traders focused on psychology"
+  ],
+  "similar_tools": [
+    "tradertrac",
+    "tradezella",
+    "tradersync"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "company_background": "Edgewonk has been helping traders improve for over 10 years. Independent, transparent trading journal platform focused on turning trading data into profits.",
+  "scraped_features": [
+    "Automated trade imports from 200+ brokers (1000 trades in 12 seconds)",
+    "Edge Finder - AI automated performance and mistake scan every Sunday",
+    "Trade Management Optimizer - identifies execution mistakes during trades",
+    "Best Setup Analytics - reveals most profitable setups and instruments",
+    "Best Time of Day & Weekday Finder - shows when your edge is strongest",
+    "Tiltmeter - measures rule adherence and discipline impact on performance",
+    "MFE/MAE Analysis - Maximum/Minimum Favorable/Adverse Excursion reports",
+    "Profit Calendar - performance tracking over time",
+    "Risk Analytics - drawdown analysis, losing/winning streak analytics",
+    "Performance Simulator - alternative strategy testing",
+    "Psychology Analysis - integrated trading diary with screenshot attachment",
+    "Unlimited journals and unlimited trade imports",
+    "20 custom tag categories for trade classification",
+    "Session report cards - daily learning opportunities",
+    "Monthly performance reports - long-term trend analysis",
+    "Portfolio page - combined view of all journals with aggregate statistics"
+  ],
+  "integrations": "200+ brokers",
+  "unique_selling_points": [
+    "Privacy-first: data never sold, analyzed, or used to reverse-engineer strategies",
+    "Independent penetration tested security",
+    "Automated Edge Finder quantifies exact cost of rule-breaking vs. disciplined trading",
+    "Trade Management Optimizer specifically isolates execution errors",
+    "AI-driven behavioral psychology tracking integrated with performance data",
+    "14-day 100% money-back guarantee with no questions asked"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 4.7,
+      "review_count": 40,
+      "url": "https://www.trustpilot.com/review/edgewonk.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }
