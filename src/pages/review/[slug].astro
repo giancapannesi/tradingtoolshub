@@ -191,10 +191,48 @@ const jsonLd = [
     <!-- Overview -->
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
-      <div class="prose prose-invert max-w-none text-muted leading-relaxed whitespace-pre-line">
-        {tool.description_long}
-      </div>
+      <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
+        tool.description_long
+          .split('\n\n')
+          .map(block => {
+            const trimmed = block.trim();
+            if (trimmed.startsWith('## ')) {
+              return `<h3 class="text-xl font-bold text-text mt-8 mb-3">${trimmed.slice(3)}</h3>`;
+            }
+            // Convert **bold** and *italic*
+            let html = trimmed
+              .replace(/\*\*(.+?)\*\*/g, '<strong class="text-text">$1</strong>')
+              .replace(/\*(.+?)\*/g, '<em>$1</em>')
+              .replace(/\n/g, '<br/>');
+            return `<p>${html}</p>`;
+          })
+          .join('')
+      } />
     </section>
+
+    <!-- Screenshots Gallery -->
+    {tool.screenshots && tool.screenshots.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Screenshots</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {tool.screenshots.map((s: any) => (
+            <figure class="bg-card border border-border rounded-xl overflow-hidden group">
+              <a href={s.path} target="_blank" class="block">
+                <img
+                  src={s.path}
+                  alt={s.alt}
+                  loading="lazy"
+                  width="720"
+                  height="450"
+                  class="w-full h-auto object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+                />
+              </a>
+              <figcaption class="px-4 py-2 text-xs text-muted capitalize">{s.label.replace(/-/g, ' ')}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Pricing -->
     <section class="mb-10">

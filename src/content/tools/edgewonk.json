@@ -9,9 +9,20 @@
   "description_short": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking.",
   "description_long": "Edgewonk is a veteran trading journal that has built a loyal following among serious traders who want to find and maintain their statistical edge. Unlike many journaling tools that focus on pretty dashboards, Edgewonk emphasizes the analytical depth needed to make meaningful improvements to your trading.\n\nThe platform excels at helping traders identify patterns in their behavior through custom tags, emotional state tracking, and detailed performance metrics. Its unique 'Tiltmeter' feature tracks emotional trading decisions, while the trade simulator lets you test 'what-if' scenarios against your actual trade history.\n\nEdgewonk uses a single-tier pricing model at $169/year, which gives every user access to all features without tiered restrictions. This approach means you never hit a paywall for advanced analytics. It supports stocks, forex, futures, crypto, and options across all major brokers.",
   "logo_url": "/logos/edgewonk.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/edgewonk/edgewonk-homepage.webp",
+      "alt": "Edgewonk trading journal homepage"
+    },
+    {
+      "label": "features",
+      "path": "/screenshots/edgewonk/edgewonk-features.webp",
+      "alt": "Edgewonk features including trade analytics and psychology tracking"
+    }
+  ],
   "website_url": "https://edgewonk.com",
-  "affiliate_url": "",
+  "affiliate_url": "https://www.edgewonk.com/?rfsn=9040953.e0ced8",
   "affiliate_program": "Edgewonk Affiliate Program",
   "affiliate_commission": "30% per sale",
   "affiliate_cookie_days": 60,

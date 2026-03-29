@@ -9,7 +9,18 @@
   "description_short": "Powerful stock screener with market heat maps, fundamentals, technical filters, and real-time quotes on the Elite plan.",
   "description_long": "Finviz (Financial Visualizations) is one of the most widely-used stock screening and market visualization tools available. The platform offers an incredibly fast and intuitive screener that lets traders filter stocks by dozens of fundamental, technical, and descriptive criteria simultaneously.\n\nThe free version provides delayed data with access to the screener, market heat maps, sector performance views, and basic stock charts. Finviz Elite at $39.50/month unlocks real-time quotes, advanced screener features, custom presets, push alerts, and an ad-free experience.\n\nFinviz's heat maps are iconic in the trading community, providing an at-a-glance view of market performance by sector, market cap, or custom criteria. The screener's speed and breadth of filters make it an essential tool for traders looking to find opportunities quickly across the US stock market.",
   "logo_url": "/logos/finviz.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "stock-screener",
+      "path": "/screenshots/finviz/finviz-screener.webp",
+      "alt": "Finviz stock screener with fundamental and technical filters for finding trading opportunities"
+    },
+    {
+      "label": "market-heat-map",
+      "path": "/screenshots/finviz/finviz-heatmap.webp",
+      "alt": "Finviz market heat map showing sector performance and market cap visualization"
+    }
+  ],
   "website_url": "https://finviz.com",
   "affiliate_url": "https://finviz.com/?a=100134282",
   "affiliate_program": "Finviz Affiliate Program",

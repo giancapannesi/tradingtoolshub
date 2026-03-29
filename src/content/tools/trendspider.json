@@ -2,40 +2,81 @@
   "name": "TrendSpider",
   "slug": "trendspider",
   "category": "charting-platforms",
-  "subcategories": ["ai-charting", "automated-analysis"],
+  "subcategories": [
+    "ai-charting",
+    "automated-analysis"
+  ],
   "description_short": "AI-powered charting platform with automated trendline detection, multi-timeframe analysis, and trading bots.",
-  "description_long": "TrendSpider uses artificial intelligence to automate technical analysis tasks that traders traditionally perform manually. The platform automatically detects trendlines, support/resistance levels, Fibonacci retracements, and chart patterns across multiple timeframes simultaneously, saving hours of manual charting work.\n\nThe automated multi-timeframe analysis is TrendSpider's killer feature. Instead of manually switching between timeframes, the platform overlays analysis from multiple timeframes on a single chart, revealing confluences that might otherwise be missed. Combined with AI-powered trading bots and backtesting, traders can go from analysis to automated execution.\n\nTrendSpider offers four tiers from Standard ($54/mo) to Advanced ($399/mo), with each tier increasing the number of alerts, bots, and data granularity available. The platform covers stocks, ETFs, forex, crypto, and futures with real-time data.",
+  "description_long": "## What Makes TrendSpider Different\n\nTrendSpider occupies a unique space in the charting world: it's the platform for traders who want AI to do the heavy lifting of technical analysis. While TradingView gives you the best manual charting tools, TrendSpider automates the work that takes hours — detecting trendlines, finding support/resistance levels, identifying chart patterns, and spotting multi-timeframe confluences. If you've ever spent 45 minutes drawing trendlines across 5 timeframes only to realize you missed an obvious level, TrendSpider was built to solve that exact problem.\n\nThis is not a beginner's tool. TrendSpider is designed for intermediate to advanced traders who already understand technical analysis and want to eliminate the manual grunt work. The learning curve is real — but for those who invest the time, it fundamentally changes how efficiently they analyze markets.\n\n## Automated Technical Analysis\n\nTrendSpider's core technology automatically detects trendlines, support and resistance levels, Fibonacci retracements, and candlestick patterns across your charts. You don't draw anything — the AI scans the price action and overlays the most statistically significant levels.\n\nWhat makes this genuinely powerful (rather than gimmicky) is the confidence scoring. TrendSpider doesn't just throw lines on a chart — it weights each detected level by how many times price has respected it, across how many timeframes, and how recently. You can filter to show only high-confidence levels, which cuts through the noise that manual trendline drawing often creates.\n\nThe automated Fibonacci detection is particularly impressive. Instead of guessing which swing points to anchor your Fib levels from, TrendSpider identifies the most significant swings algorithmically. For traders who rely heavily on Fibonacci confluences, this alone can justify the subscription.\n\n## Multi-Timeframe Analysis — The Killer Feature\n\nThis is where TrendSpider truly separates itself from everything else on the market. Multi-timeframe analysis overlays support/resistance levels, trendlines, and indicators from multiple timeframes onto a single chart simultaneously.\n\nImagine looking at a 15-minute chart and seeing not just the 15-minute levels, but also the daily support level sitting just below current price, the weekly trendline converging from above, and the 4-hour RSI divergence — all on one screen, color-coded by timeframe. That's what TrendSpider does automatically.\n\nIn manual charting, this kind of analysis requires flipping between 4-5 timeframes and trying to remember where the key levels are. With TrendSpider, confluences jump off the screen. When a daily support level, a 4-hour trendline, and a weekly Fibonacci level all converge at the same price, you know you've found a high-probability zone.\n\n## Sidekick AI Assistant\n\nTrendSpider's newest major feature is Sidekick, an LLM-powered assistant built specifically for traders. Unlike generic AI chatbots, Sidekick has direct access to your chart data, market prices, and TrendSpider's analytical tools.\n\nYou can ask Sidekick things like 'What are the strongest support levels for AAPL right now?' or 'Show me stocks breaking above their 200-day moving average with increasing volume' and get answers grounded in actual market data, not generic responses. Sidekick can also generate custom Pine-style indicators from plain English descriptions — describe what you want, and Sidekick writes the code.\n\nThis is a genuinely useful implementation of AI in trading, not just a marketing checkbox. The ability to describe a trading setup in plain English and have the platform find matching stocks is a significant time-saver.\n\n## Trading Bots and Automation\n\nTrendSpider includes a visual bot builder that lets you create automated trading strategies without writing code. You define entry conditions, exit conditions, position sizing rules, and risk management parameters using a drag-and-drop interface. Bots can be backtested against historical data before going live.\n\nThe backtesting engine uses 40+ years of historical data with up to 30,000+ candles per test, giving you statistically meaningful results rather than the cherry-picked backtests some platforms enable. You can test across multiple assets, timeframes, and market conditions.\n\nBots connect to supported brokers for automated execution, turning TrendSpider from an analysis platform into a full analysis-to-execution pipeline. Available bot slots scale with your plan tier (5 on Standard, 20 on Premium, 50 on Enhanced).\n\n## Scanning and Screening\n\nTrendSpider's scanner goes beyond traditional screeners by incorporating its AI analysis. You can scan for technical setups that would be impossible to find manually — like 'stocks approaching a multi-timeframe trendline confluence with RSI below 30.' The Human Language Scanning feature lets you type conditions in plain English rather than building complex filter chains.\n\nThe platform also includes a real-time market scanner that continuously monitors your watchlist for pattern completions, breakouts, and alert triggers. Dynamic alerts can be set on detected patterns rather than just static price levels.\n\n## Pricing — Premium but Purposeful\n\nTrendSpider doesn't have a free tier, and the pricing reflects its professional positioning. The Standard plan starts at $54/month (billed annually at $648/year) and includes automated trendlines, multi-timeframe analysis, 5 AI bots, and 20 alerts. Premium ($91/month annual) adds more bots, alerts, and advanced scanning. Enhanced ($122/month annual) is for power users with 50 bots and extended data.\n\nFor traders who also want futures data, there's an add-on: $7.50/month for non-professionals, $29/month for professionals.\n\nTrendSpider offers a 14-day trial for $19 that gives full access to any plan — this is worth trying before committing to an annual subscription. Monthly billing is available but roughly 35% more expensive than annual.\n\nCompared to TradingView's Premium at $59.95/month, TrendSpider's Standard at $54/month is in the same ballpark. The question isn't really cost — it's whether the AI automation features will save you enough time and improve your analysis enough to justify a separate tool. For traders who spend significant time on technical analysis, the answer is usually yes.\n\n## Who Should Use TrendSpider\n\nTrendSpider is ideal for swing traders and position traders who rely heavily on technical analysis across multiple timeframes. If you spend 30+ minutes per session drawing trendlines, checking Fibonacci levels, and flipping between timeframes, TrendSpider will give you that time back.\n\nIt's also excellent for traders who want to systematize their approach. The combination of automated analysis, backtesting, and bot execution means you can go from 'I think this pattern works' to 'I've tested this across 10 years of data and it has a 62% win rate' in minutes.\n\nTraders who are purely fundamental analysts, very short-term scalpers, or beginners still learning the basics will get less value. TrendSpider assumes you already know what a trendline confluence means — it just finds them faster than you can.\n\n## TrendSpider vs TradingView\n\nThis is the comparison every trader asks about. They're not really competitors — they're complementary tools. TradingView excels at manual charting, social features, and breadth of market coverage. TrendSpider excels at AI-powered automation, multi-timeframe confluence detection, and systematic strategy testing.\n\nMany serious traders use both: TradingView for quick charting and community ideas, TrendSpider for deep multi-timeframe analysis and backtesting. If you can only afford one, TradingView's free tier makes it the obvious starting point. If you're already paying for TradingView Premium and want to level up your analysis, TrendSpider is the natural next step.\n\n## Company Background\n\nFounded in 2016 and headquartered in Chicago, TrendSpider has grown steadily by focusing on a genuine technical differentiation (AI-powered analysis) rather than trying to out-feature TradingView on manual charting. The team is led by Dan Ushman (CEO) and includes engineers with backgrounds in machine learning and quantitative finance. The company has been consistently adding features — Sidekick AI, enhanced bot builder, futures integration — while keeping the core product focused on automated technical analysis.",
   "logo_url": "/logos/trendspider.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "platform-overview",
+      "path": "/screenshots/trendspider/trendspider-overview.webp",
+      "alt": "TrendSpider platform overview showing mobile app with multi-timeframe charting and AI analysis"
+    }
+  ],
   "website_url": "https://trendspider.com",
   "affiliate_url": "",
   "affiliate_program": "TrendSpider Affiliate Program",
-  "affiliate_commission": "30% recurring",
-  "affiliate_cookie_days": 90,
+  "affiliate_commission": "10-30% tiered recurring",
+  "affiliate_cookie_days": 365,
   "pricing": {
     "has_free_tier": false,
     "starting_price": 54,
     "tiers": [
       {
         "name": "Standard",
-        "price_monthly": 54,
-        "price_yearly": 432,
-        "features": ["Automated trendlines", "Multi-timeframe analysis", "5 AI trading bots", "20 alerts"]
+        "price_monthly": 82,
+        "price_yearly": 648,
+        "features": [
+          "Automated trendlines and S/R detection",
+          "Multi-timeframe analysis",
+          "5 AI trading bots",
+          "20 alerts",
+          "Sidekick AI assistant",
+          "Human Language Scanning"
+        ]
       },
       {
         "name": "Premium",
-        "price_monthly": 91,
-        "price_yearly": 732,
-        "features": ["All Standard features", "More alerts", "20 AI trading bots", "Advanced scanning"]
+        "price_monthly": 137,
+        "price_yearly": 1092,
+        "features": [
+          "All Standard features",
+          "20 AI trading bots",
+          "Advanced scanning",
+          "More alerts and watchlists",
+          "Priority data access"
+        ]
       },
       {
         "name": "Enhanced",
-        "price_monthly": 122,
-        "price_yearly": 972,
-        "features": ["All Premium features", "50 AI trading bots", "100 alerts (180-day)", "1-minute data"]
+        "price_monthly": 183,
+        "price_yearly": 1464,
+        "features": [
+          "All Premium features",
+          "50 AI trading bots",
+          "100 alerts (180-day expiry)",
+          "1-minute data granularity",
+          "Extended backtesting"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "price_monthly": 321,
+        "price_yearly": 2568,
+        "features": [
+          "All Enhanced features",
+          "Maximum bot capacity",
+          "Maximum alerts",
+          "Full data access",
+          "Professional-grade tools"
+        ]
       }
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "trial": "$19 for 14-day full access trial"
   },
   "features": {
     "ai_analysis": true,
@@ -54,9 +95,27 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks", "futures", "forex", "crypto"],
-  "pros": ["Automated trendline detection saves hours of manual work", "Multi-timeframe analysis reveals hidden confluences", "AI trading bots for automated execution", "Strong backtesting engine"],
-  "cons": ["No free tier, starts at $54/mo", "Steep learning curve for all features", "Can feel overwhelming for manual traders"],
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Automated trendline and S/R detection eliminates hours of manual charting",
+    "Multi-timeframe confluence analysis is genuinely best-in-class",
+    "Sidekick AI assistant with real market data access, not generic chatbot",
+    "40+ years of historical data for backtesting with 30K+ candles",
+    "Visual bot builder for automated trading without coding",
+    "Human Language Scanning — search markets in plain English"
+  ],
+  "cons": [
+    "No free tier — $19 trial then $54/mo minimum (annual)",
+    "Steep learning curve, especially for the automation features",
+    "Analysis only — requires broker connection for execution",
+    "Significantly more expensive than TradingView for similar timeframe",
+    "Can feel overwhelming for traders who prefer manual charting"
+  ],
   "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 3.8,
@@ -68,8 +127,57 @@
   "founded_year": 2016,
   "company": "TrendSpider LLC",
   "headquarters": "Chicago, Illinois",
-  "best_for": ["technical analysts", "automated traders", "swing traders"],
-  "similar_tools": ["tradingview", "tc2000", "motivewave"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": [
+    "technical analysts",
+    "automated traders",
+    "swing traders"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "tc2000",
+    "motivewave"
+  ],
+  "last_updated": "2026-03-29",
+  "review_status": "published",
+  "company_background": "Founded in 2016 by Dan Ushman and headquartered in Chicago. TrendSpider has carved a niche as the leading AI-powered charting platform, focusing on automated technical analysis rather than competing with TradingView on manual charting. The team combines machine learning expertise with quantitative finance backgrounds.",
+  "scraped_features": [
+    "AI-automated trendline detection with confidence scoring",
+    "Multi-timeframe analysis overlaying levels from multiple timeframes",
+    "Sidekick AI assistant with direct market data access",
+    "AI Coding Assistant — generate indicators from plain English",
+    "Human Language Scanning — type market searches in natural language",
+    "Visual bot builder with drag-and-drop strategy creation",
+    "Backtesting with 40+ years of data and 30,000+ candles",
+    "Real-time market scanner with pattern detection",
+    "Automated Fibonacci retracement detection",
+    "Candlestick pattern recognition",
+    "Dynamic alerts on detected patterns (not just price levels)",
+    "Full US futures market integration (ES, NQ, CL, GC)",
+    "1-52 free training sessions included with subscription",
+    "Broker integrations for automated execution"
+  ],
+  "unique_selling_points": [
+    "Only charting platform with true AI-powered multi-timeframe confluence detection",
+    "Sidekick AI has real market data access — not a generic chatbot",
+    "Human Language Scanning eliminates complex filter building",
+    "40+ years of backtesting data for statistically meaningful strategy testing",
+    "365-day affiliate cookie — one of the longest in the industry"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Capterra",
+      "rating": 4.4,
+      "review_count": 30,
+      "url": "https://www.capterra.com/p/10001451/TrendSpider/"
+    },
+    {
+      "source": "G2",
+      "rating": 4.3,
+      "review_count": 15,
+      "url": "https://www.g2.com/products/trendspider/reviews"
+    }
+  ],
+  "meta_title": "TrendSpider Review 2026 — AI-Powered Charting That Actually Works",
+  "meta_description": "Honest TrendSpider review covering AI trendlines, multi-timeframe analysis, Sidekick AI, pricing ($54-$321/mo), and how it compares to TradingView.",
+  "enriched_at": "2026-03-29"
 }
