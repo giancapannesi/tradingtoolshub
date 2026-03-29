@@ -211,13 +211,15 @@ const jsonLd = [
             {tier.price_yearly > 0 && (
               <p class="text-xs text-muted mb-3">${(tier.price_yearly / 12).toFixed(2)}/mo billed yearly</p>
             )}
-            <ul class="space-y-1.5">
-              {tier.features.map(f => (
-                <li class="flex items-start gap-2 text-sm text-muted">
-                  <span class="text-positive mt-0.5 shrink-0">&#10003;</span> {f}
-                </li>
-              ))}
-            </ul>
+            {tier.features && tier.features.length > 0 && (
+              <ul class="space-y-1.5">
+                {tier.features.map(f => (
+                  <li class="flex items-start gap-2 text-sm text-muted">
+                    <span class="text-positive mt-0.5 shrink-0">&#10003;</span> {f}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         ))}
       </div>
