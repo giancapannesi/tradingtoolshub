@@ -2,7 +2,10 @@
   "name": "Forex.com",
   "slug": "forex-com",
   "category": "brokers-forex",
-  "subcategories": ["forex-broker", "cfd-trading"],
+  "subcategories": [
+    "forex-broker",
+    "cfd-trading"
+  ],
   "description_short": "Leading US-regulated forex broker by StoneX Group with tight spreads, advanced platforms, and access to 80+ currency pairs.",
   "description_long": "Forex.com is one of the most established forex brokers globally, operated by StoneX Group (formerly GAIN Capital). Available to US traders and regulated by the CFTC/NFA, it offers access to over 80 currency pairs along with gold, silver, and other commodities through CFDs (outside the US).\n\nThe platform provides three trading interfaces: the proprietary Advanced Trading platform with integrated research and analysis, MetaTrader 4 and 5, and TradingView integration. The Advanced Trading platform features performance analytics, advanced charting, market analysis from Trading Central, and customizable workspaces.\n\nForex.com offers two pricing models: Standard accounts with spreads from 1.0 pips and no commission, or Commission accounts with raw spreads from 0.0 pips plus $5 per 100K traded. Active traders benefit from cash rebates through the Active Trader program, which offers up to 15% reduction in costs based on monthly trading volume.",
   "logo_url": "/logos/forex-com.svg",
@@ -20,19 +23,34 @@
         "name": "Standard",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Spreads from 1.0 pips", "No commission", "$100 minimum deposit", "80+ currency pairs"]
+        "features": [
+          "Spreads from 1.0 pips",
+          "No commission",
+          "$100 minimum deposit",
+          "80+ currency pairs"
+        ]
       },
       {
         "name": "Commission",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Raw spreads from 0.0 pips", "$5 per 100K commission", "$100 minimum deposit", "Better for high-volume traders"]
+        "features": [
+          "Raw spreads from 0.0 pips",
+          "$5 per 100K commission",
+          "$100 minimum deposit",
+          "Better for high-volume traders"
+        ]
       },
       {
         "name": "Active Trader",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Cash rebates up to 15%", "Priority support", "Free VPS", "Requires high monthly volume"]
+        "features": [
+          "Cash rebates up to 15%",
+          "Priority support",
+          "Free VPS",
+          "Requires high monthly volume"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +72,22 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["forex", "crypto"],
-  "pros": ["US-regulated (CFTC/NFA) — safe for American traders", "Two pricing models to suit different trading styles", "Active Trader cashback rebates for volume traders", "Multiple platform options including TradingView"],
-  "cons": ["Limited to forex and metals for US clients", "Standard spreads are wider than some competitors", "Minimum deposit of $100 required", "Platform can feel complex for beginners"],
+  "markets": [
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "US-regulated (CFTC/NFA) \u2014 safe for American traders",
+    "Two pricing models to suit different trading styles",
+    "Active Trader cashback rebates for volume traders",
+    "Multiple platform options including TradingView"
+  ],
+  "cons": [
+    "Limited to forex and metals for US clients",
+    "Standard spreads are wider than some competitors",
+    "Minimum deposit of $100 required",
+    "Platform can feel complex for beginners"
+  ],
   "rating": 4.1,
   "rating_breakdown": {
     "ease_of_use": 3.9,
@@ -68,8 +99,23 @@
   "founded_year": 1999,
   "company": "StoneX Group Inc.",
   "headquarters": "Bedminster, New Jersey",
-  "best_for": ["US forex traders", "high-volume traders", "active traders"],
-  "similar_tools": ["oanda", "ig-markets", "pepperstone"],
+  "best_for": [
+    "US forex traders",
+    "high-volume traders",
+    "active traders"
+  ],
+  "similar_tools": [
+    "oanda",
+    "ig-markets",
+    "pepperstone"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "unique_selling_points": [
+    "US-regulated forex broker by StoneX Group",
+    "Tight spreads",
+    "Advanced platforms",
+    "Access to 80+ currency pairs"
+  ],
+  "enriched_at": "2026-03-29"
 }

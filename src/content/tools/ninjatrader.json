@@ -2,7 +2,10 @@
   "name": "NinjaTrader",
   "slug": "ninjatrader",
   "category": "trading-bots",
-  "subcategories": ["futures-trading", "automated-strategies"],
+  "subcategories": [
+    "futures-trading",
+    "automated-strategies"
+  ],
   "description_short": "Industry-standard futures trading platform with advanced charting, strategy backtesting, automated trading via NinjaScript, and built-in brokerage.",
   "description_long": "NinjaTrader is one of the most established and feature-rich trading platforms in the futures trading space. Originally launched as a charting and analysis tool, NinjaTrader has evolved into a full brokerage offering low-commission futures and options on futures trading, with the platform itself available for free.\n\nThe platform is built around three core capabilities: advanced charting with hundreds of customizable indicators, market analytics including order flow tools (Market Depth, Time & Sales, Volume Profile), and automated trading through NinjaScript (based on C#). Traders can develop, backtest, and deploy automated strategies, or choose from thousands of third-party add-ons in the NinjaTrader ecosystem.\n\nNinjaTrader offers free use of its platform for charting and simulation trading, while live trading requires either a free account with higher commissions ($0.35/side micro, $1.29/side standard) or a lifetime license ($1,099) for reduced rates. The platform connects to multiple data feeds and supports futures from CME, COMEX, NYMEX, and CBOT. NinjaTrader 8 is the current desktop version, providing a highly customizable workspace with multi-monitor support.",
   "logo_url": "/logos/ninjatrader.svg",
@@ -20,25 +23,45 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Advanced charting", "Simulated trading", "Market replay", "Basic order entry"]
+        "features": [
+          "Advanced charting",
+          "Simulated trading",
+          "Market replay",
+          "Basic order entry"
+        ]
       },
       {
         "name": "Monthly Lease",
         "price_monthly": 99,
         "price_yearly": 0,
-        "features": ["All platform features", "Reduced commissions", "Automated trading", "Strategy backtesting"]
+        "features": [
+          "All platform features",
+          "Reduced commissions",
+          "Automated trading",
+          "Strategy backtesting"
+        ]
       },
       {
         "name": "Annual Lease",
         "price_monthly": 0,
         "price_yearly": 720,
-        "features": ["All platform features", "Reduced commissions", "Automated trading", "Strategy backtesting"]
+        "features": [
+          "All platform features",
+          "Reduced commissions",
+          "Automated trading",
+          "Strategy backtesting"
+        ]
       },
       {
         "name": "Lifetime License",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["One-time $1,099 payment", "Lowest commissions ($0.09/side micro)", "All platform features", "Free upgrades"]
+        "features": [
+          "One-time $1,099 payment",
+          "Lowest commissions ($0.09/side micro)",
+          "All platform features",
+          "Free upgrades"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,8 +71,8 @@
     "backtesting": true,
     "paper_trading": true,
     "alerts": true,
-    "mobile_app": false,
-    "api_access": true,
+    "mobile_app": true,
+    "api_access": false,
     "social_features": false,
     "broker_integration": true,
     "custom_indicators": true,
@@ -60,9 +83,36 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["futures", "options"],
-  "pros": ["Free platform for charting and simulation", "Best-in-class order flow and volume analysis tools", "Powerful automated trading via NinjaScript (C#)", "Huge ecosystem of third-party add-ons", "Built-in brokerage with competitive futures commissions"],
-  "cons": ["Desktop only — no web or mobile platform", "Steep learning curve for NinjaScript development", "Primarily futures-focused — limited stock/forex support", "Lifetime license is a significant upfront cost", "Resource-intensive — requires a capable computer"],
+  "markets": [
+    "E-mini Dow",
+    "Micro E-mini Russell 2000",
+    "Micro E-mini Dow",
+    "options",
+    "E-mini Russell 2000",
+    "Gold",
+    "Micro E-mini S&P 500",
+    "Micro Bitcoin",
+    "Natural Gas",
+    "Micro Crude Oil",
+    "Bitcoin futures",
+    "Crude Oil",
+    "futures",
+    "E-mini S&P 500"
+  ],
+  "pros": [
+    "Free platform for charting and simulation",
+    "Best-in-class order flow and volume analysis tools",
+    "Powerful automated trading via NinjaScript (C#)",
+    "Huge ecosystem of third-party add-ons",
+    "Built-in brokerage with competitive futures commissions"
+  ],
+  "cons": [
+    "Desktop only \u2014 no web or mobile platform",
+    "Steep learning curve for NinjaScript development",
+    "Primarily futures-focused \u2014 limited stock/forex support",
+    "Lifetime license is a significant upfront cost",
+    "Resource-intensive \u2014 requires a capable computer"
+  ],
   "rating": 4.3,
   "rating_breakdown": {
     "ease_of_use": 3.7,
@@ -74,8 +124,53 @@
   "founded_year": 2003,
   "company": "NinjaTrader Group LLC",
   "headquarters": "Denver, Colorado",
-  "best_for": ["futures traders", "automated strategy developers", "order flow traders"],
-  "similar_tools": ["sierra-chart", "multicharts", "tradestation"],
+  "best_for": [
+    "futures traders",
+    "automated strategy developers",
+    "order flow traders"
+  ],
+  "similar_tools": [
+    "sierra-chart",
+    "multicharts",
+    "tradestation"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "company_background": "NinjaTrader is a futures trading provider combining trading platform software with brokerage services, serving 1.9 million users.",
+  "scraped_features": [
+    "Advanced charting with 100+ technical indicators and multiple timeframes",
+    "Market Replay: tick-by-tick historical data replay for strategy testing",
+    "SuperDOM (depth of market) for rapid price analysis and order placement",
+    "Order Flow+ visualization to identify buying/selling pressure",
+    "Advanced trade management with automatic stop orders, target orders, and trailing stops",
+    "Pulse indicator for real-time market sentiment across top 10 futures",
+    "Multi-platform access: Desktop, Web, and Mobile (iOS/Android)",
+    "NinjaScript C#-based development framework for custom indicators and strategies",
+    "1,000+ third-party trading apps and add-ons",
+    "Free unlimited simulated trading with professional market data",
+    "Cloud-based infrastructure for seamless multi-device trading"
+  ],
+  "integrations": [
+    "TradingView"
+  ],
+  "unique_selling_points": [
+    "No deposit minimum required to open account",
+    "#1 rated futures broker with 1.9 million users",
+    "$50 intraday margins for Micro E-mini contracts (industry-leading low margins)",
+    "Commissions as low as $0.09 per micro contract on lifetime plan",
+    "Free unlimited simulated trading with professional-grade market data",
+    "NinjaScript C#-based framework enables custom indicator and strategy development",
+    "1,000+ third-party add-ons and integrations for unlimited customization",
+    "Multi-device cloud-based trading platform with synchronized data across Desktop, Web, and Mobile",
+    "24x5 technical support and 24-hour emergency trade desk"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 3.8,
+      "review_count": 1085,
+      "url": "https://www.trustpilot.com/review/ninjatrader.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }

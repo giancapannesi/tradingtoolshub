@@ -2,9 +2,12 @@
   "name": "Option Alpha",
   "slug": "option-alpha",
   "category": "options-platforms",
-  "subcategories": ["options-automation", "options-education"],
+  "subcategories": [
+    "options-automation",
+    "options-education"
+  ],
   "description_short": "Options trading automation platform with visual bot builder, backtesting, SmartPricing, and extensive free education for systematic options sellers.",
-  "description_long": "Option Alpha is a unique options trading platform focused on automating options selling strategies through a visual, no-code bot builder. Founded by Kirk Du Plessis, the platform has evolved from a popular options education site into a comprehensive automation platform that helps traders build, backtest, and deploy mechanical options strategies.\n\nThe platform's standout feature is the Autotrading Bot Builder, which lets traders create automated options strategies using a visual flowchart interface — no coding required. Traders can set entry criteria (Delta, DTE, IV Rank), position sizing, adjustment rules, and exit criteria, then backtest the strategy against historical data before deploying it live through connected broker accounts.\n\nOption Alpha includes SmartPricing (algorithmic order management that works limit orders between bid/ask), a comprehensive position management dashboard, and one of the largest free options education libraries in the industry with over 200 video courses. The platform connects to major brokers including Interactive Brokers and Tradier for live automated execution. The free tier provides education and basic tools, while the Pro plan ($99/mo) unlocks automation, backtesting, and SmartPricing.",
+  "description_long": "Option Alpha is a unique options trading platform focused on automating options selling strategies through a visual, no-code bot builder. Founded by Kirk Du Plessis, the platform has evolved from a popular options education site into a comprehensive automation platform that helps traders build, backtest, and deploy mechanical options strategies.\n\nThe platform's standout feature is the Autotrading Bot Builder, which lets traders create automated options strategies using a visual flowchart interface \u2014 no coding required. Traders can set entry criteria (Delta, DTE, IV Rank), position sizing, adjustment rules, and exit criteria, then backtest the strategy against historical data before deploying it live through connected broker accounts.\n\nOption Alpha includes SmartPricing (algorithmic order management that works limit orders between bid/ask), a comprehensive position management dashboard, and one of the largest free options education libraries in the industry with over 200 video courses. The platform connects to major brokers including Interactive Brokers and Tradier for live automated execution. The free tier provides education and basic tools, while the Pro plan ($99/mo) unlocks automation, backtesting, and SmartPricing.",
   "logo_url": "/logos/option-alpha.svg",
   "screenshots": [],
   "website_url": "https://www.optionalpha.com",
@@ -20,19 +23,35 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["200+ educational videos", "Basic position tracking", "Community access", "Paper trading"]
+        "features": [
+          "200+ educational videos",
+          "Basic position tracking",
+          "Community access",
+          "Paper trading"
+        ]
       },
       {
         "name": "Starter",
         "price_monthly": 39,
         "price_yearly": 348,
-        "features": ["1 automation bot", "SmartPricing", "Position management", "Basic backtesting"]
+        "features": [
+          "1 automation bot",
+          "SmartPricing",
+          "Position management",
+          "Basic backtesting"
+        ]
       },
       {
         "name": "Pro",
         "price_monthly": 99,
         "price_yearly": 948,
-        "features": ["Unlimited bots", "Advanced backtesting", "SmartPricing", "Priority support", "Multi-broker connections"]
+        "features": [
+          "Unlimited bots",
+          "Advanced backtesting",
+          "SmartPricing",
+          "Priority support",
+          "Multi-broker connections"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +73,24 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["options", "stocks"],
-  "pros": ["No-code visual bot builder for options automation", "Extensive free education library (200+ videos)", "SmartPricing improves fill quality", "Backtesting with historical options data", "Active and helpful community"],
-  "cons": ["Focused exclusively on options selling strategies", "Pro plan at $99/mo is a significant cost", "Limited broker integrations (IB and Tradier primarily)", "Backtesting data may not capture all market conditions", "Not suitable for directional or buying strategies"],
+  "markets": [
+    "options",
+    "stocks"
+  ],
+  "pros": [
+    "No-code visual bot builder for options automation",
+    "Extensive free education library (200+ videos)",
+    "SmartPricing improves fill quality",
+    "Backtesting with historical options data",
+    "Active and helpful community"
+  ],
+  "cons": [
+    "Focused exclusively on options selling strategies",
+    "Pro plan at $99/mo is a significant cost",
+    "Limited broker integrations (IB and Tradier primarily)",
+    "Backtesting data may not capture all market conditions",
+    "Not suitable for directional or buying strategies"
+  ],
   "rating": 4.2,
   "rating_breakdown": {
     "ease_of_use": 4.5,
@@ -68,8 +102,37 @@
   "founded_year": 2015,
   "company": "Option Alpha LLC",
   "headquarters": "Richmond, Virginia",
-  "best_for": ["options sellers", "systematic traders", "options beginners"],
-  "similar_tools": ["optionsstrat", "thinkorswim", "tastytrade"],
+  "best_for": [
+    "options sellers",
+    "systematic traders",
+    "options beginners"
+  ],
+  "similar_tools": [
+    "optionsstrat",
+    "thinkorswim",
+    "tastytrade"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "scraped_features": [
+    "Trade Ideas \u2014 continuous market scanning (9:35am-3:55pm) ranking opportunities by Expected Value (EV) and Reward/Risk ratios",
+    "0DTE Oracle \u2014 analyzes 0DTE and next-day trading opportunities using 1-year of intraday minute data backtesting",
+    "Visual Bot Builder \u2014 create and automate trading strategies without coding",
+    "Unlimited Backtesting \u2014 test and optimize options strategies before trading",
+    "Position Automations \u2014 automated entry, exit, profit-taking, and stop-loss management",
+    "Multi-leg Option Analysis \u2014 examines all option series expiring in 45 days or less with delta values from 0.50 to 0.10",
+    "Portfolio Integration \u2014 scan current open positions for opportunities"
+  ],
+  "integrations": [
+    "TradeStation",
+    "Tradier"
+  ],
+  "unique_selling_points": [
+    "Free access for TradeStation and Tradier users (no paid subscription needed)",
+    "0DTE Oracle uses backtesting against 1 year of intraday data to validate 0DTE trades instead of relying on probability estimates",
+    "Trade Ideas uses proprietary Expected Value (EV) and Alpha metrics to rank opportunities from thousands of position setups",
+    "Complete user control over bot behavior \u2014 no automated trading without explicit permission",
+    "Educational focus \u2014 includes Option Alpha Fast Track onboarding program"
+  ],
+  "enriched_at": "2026-03-29"
 }

@@ -2,7 +2,10 @@
   "name": "IC Markets",
   "slug": "ic-markets",
   "category": "brokers-forex",
-  "subcategories": ["ecn-broker", "low-spread"],
+  "subcategories": [
+    "ecn-broker",
+    "low-spread"
+  ],
   "description_short": "True ECN forex broker with the lowest average spreads in the industry, deep liquidity, and support for MT4/MT5/cTrader.",
   "description_long": "IC Markets (International Capital Markets) is an Australian-based ECN forex and CFD broker consistently ranked among the lowest-cost brokers in the industry. With average EUR/USD spreads as low as 0.02 pips on raw accounts, IC Markets delivers pricing that rivals institutional-level execution.\n\nThe broker offers three platform options: MetaTrader 4, MetaTrader 5, and cTrader, each connected to deep liquidity pools from tier-1 banks and non-bank liquidity providers. Raw Spread accounts charge $3.50 per side per lot ($7 round turn) while Standard accounts bundle costs into the spread.\n\nIC Markets is particularly popular among scalpers, algorithmic traders, and high-volume traders due to its fast execution speeds (average under 40ms), no dealing desk interference, and support for all trading styles including hedging and scalping. The broker is regulated by ASIC, CySEC, and FSA.",
   "logo_url": "/logos/ic-markets.svg",
@@ -16,27 +19,116 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["$200 minimum deposit", "0.8 pip avg EUR/USD spread", "No commissions", "MT4/MT5/cTrader"]},
-      {"name": "Raw Spread", "price_monthly": 0, "price_yearly": 0, "features": ["$200 minimum deposit", "0.02 pip avg EUR/USD spread", "$3.50/side/lot commission", "True ECN execution"]}
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$200 minimum deposit",
+          "0.8 pip avg EUR/USD spread",
+          "No commissions",
+          "MT4/MT5/cTrader"
+        ]
+      },
+      {
+        "name": "Raw Spread",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$200 minimum deposit",
+          "0.02 pip avg EUR/USD spread",
+          "$3.50/side/lot commission",
+          "True ECN execution"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
-    "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": false, "risk_management": true, "news_feed": false, "education": true
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["forex", "stocks", "crypto"],
-  "pros": ["Lowest average spreads in the industry", "True ECN execution with no dealing desk", "Sub-40ms execution speeds", "Supports all trading styles including scalping"],
-  "cons": ["Not available to US residents", "Customer support can be slow during peak times", "Limited research and analysis tools"],
+  "markets": [
+    "bonds",
+    "forex",
+    "crypto",
+    "stocks",
+    "indices",
+    "commodities",
+    "futures"
+  ],
+  "pros": [
+    "Lowest average spreads in the industry",
+    "True ECN execution with no dealing desk",
+    "Sub-40ms execution speeds",
+    "Supports all trading styles including scalping"
+  ],
+  "cons": [
+    "Not available to US residents",
+    "Customer support can be slow during peak times",
+    "Limited research and analysis tools"
+  ],
   "rating": 4.5,
-  "rating_breakdown": {"ease_of_use": 4.3, "features": 4.4, "value": 4.8, "support": 4.0, "reliability": 4.6},
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.4,
+    "value": 4.8,
+    "support": 4.0,
+    "reliability": 4.6
+  },
   "founded_year": 2007,
   "company": "International Capital Markets Pty Ltd.",
   "headquarters": "Sydney, Australia",
-  "best_for": ["forex scalpers", "high-volume traders", "algorithmic traders"],
-  "similar_tools": ["pepperstone", "oanda", "etoro"],
+  "best_for": [
+    "forex scalpers",
+    "high-volume traders",
+    "algorithmic traders"
+  ],
+  "similar_tools": [
+    "pepperstone",
+    "oanda",
+    "etoro"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "scraped_features": [
+    "Raw spreads from 0.0 pips with no requotes",
+    "Average execution speeds under 40ms",
+    "EURUSD average spread of 0.1 pips",
+    "0.01 micro lot trading",
+    "2,250+ tradable instruments",
+    "24/7 dedicated support",
+    "Free low latency collocated VPS",
+    "MT4, MT5, cTrader platforms",
+    "WebTrader",
+    "0% commission on trades",
+    "Deep liquidity with reduced slippage",
+    "Instant account funding"
+  ],
+  "unique_selling_points": [
+    "Official FX Partner of TGR Haas F1 Team",
+    "Raw spreads technology \u2014 truly from 0.0 pips with no requotes or restrictions",
+    "One of the largest Forex CFD providers by trading volume \u2014 3,600,000 trades per day",
+    "60% of all trades from automated trading systems",
+    "Over 29 billion USD in FX trades processed daily",
+    "Equinix NY4 data center for ultra-low latency",
+    "US$2.05 trillion trading volume (October 2025)",
+    "4.8/5 rating on TrustPilot",
+    "Diverse proprietary liquidity mix keeps spreads tight 24/5",
+    "Regional Partner Program for launching branded trading offices"
+  ],
+  "enriched_at": "2026-03-29"
 }

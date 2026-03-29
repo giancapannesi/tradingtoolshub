@@ -2,7 +2,10 @@
   "name": "Interactive Brokers",
   "slug": "interactive-brokers",
   "category": "brokers-us",
-  "subcategories": ["full-service", "international"],
+  "subcategories": [
+    "full-service",
+    "international"
+  ],
   "description_short": "Professional-grade brokerage with the lowest commissions, global market access, and powerful Trader Workstation platform.",
   "description_long": "Interactive Brokers (IBKR) is the gold standard for professional and active traders, offering access to 150+ markets across 33 countries with some of the lowest commissions in the industry. The platform serves everyone from retail traders to hedge funds and institutions.\n\nIBKR offers two account types: IBKR Lite provides commission-free US stock and ETF trades, while IBKR Pro offers lower per-share costs for high-volume traders (as low as $0.0005/share on the tiered plan). Options commissions range from $0.15 to $0.65 per contract depending on volume, and futures commissions are just $0.25-$0.85 per contract.\n\nThe Trader Workstation (TWS) desktop platform is powerful but complex, while the web portal and mobile app provide more accessible interfaces. IBKR also offers one of the best margin lending rates in the industry and supports a wide range of asset classes including stocks, options, futures, forex, bonds, and mutual funds.",
   "logo_url": "/logos/interactive-brokers.svg",
@@ -20,13 +23,25 @@
         "name": "IBKR Lite",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Commission-free US stocks/ETFs", "$0.65/contract options", "No account minimum", "Mobile + web access"]
+        "features": [
+          "Commission-free US stocks/ETFs",
+          "$0.65/contract options",
+          "No account minimum",
+          "Mobile + web access"
+        ]
       },
       {
         "name": "IBKR Pro",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["$0.005/share stocks (fixed)", "Volume discounts available", "$0.15-0.65/contract options", "Advanced order routing", "Trader Workstation", "API access"]
+        "features": [
+          "$0.005/share stocks (fixed)",
+          "Volume discounts available",
+          "$0.15-0.65/contract options",
+          "Advanced order routing",
+          "Trader Workstation",
+          "API access"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +63,31 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Lowest commissions in the industry for active traders", "Access to 150+ markets in 33 countries", "Excellent margin rates", "Powerful API for automated trading"],
-  "cons": ["Trader Workstation has a steep learning curve", "Platform can feel overwhelming for beginners", "Customer support can be slow"],
+  "markets": [
+    "ETFs",
+    "options",
+    "bonds",
+    "forex",
+    "crypto",
+    "spot currencies",
+    "forecast contracts",
+    "mutual funds",
+    "stocks",
+    "hedge funds",
+    "futures",
+    "US spot gold"
+  ],
+  "pros": [
+    "Lowest commissions in the industry for active traders",
+    "Access to 150+ markets in 33 countries",
+    "Excellent margin rates",
+    "Powerful API for automated trading"
+  ],
+  "cons": [
+    "Trader Workstation has a steep learning curve",
+    "Platform can feel overwhelming for beginners",
+    "Customer support can be slow"
+  ],
   "rating": 4.6,
   "rating_breakdown": {
     "ease_of_use": 3.5,
@@ -62,8 +99,43 @@
   "founded_year": 1978,
   "company": "Interactive Brokers Group Inc.",
   "headquarters": "Greenwich, Connecticut",
-  "best_for": ["active traders", "international traders", "professional traders"],
-  "similar_tools": ["charles-schwab", "tastytrade", "tradestation"],
+  "best_for": [
+    "active traders",
+    "international traders",
+    "professional traders"
+  ],
+  "similar_tools": [
+    "charles-schwab",
+    "tastytrade",
+    "tradestation"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "company_background": "Built on 50 years of innovation providing professional-grade brokerage services with global market access",
+  "scraped_features": [
+    "Fractional Shares",
+    "Overnight Trading",
+    "Recurring Investments",
+    "Sustainable Investing",
+    "Paper Trading (simulated risk-free trading)",
+    "PortfolioAnalyst (unified portfolio data insights)",
+    "Professional-grade Reporting",
+    "Interactive Advisors (smart diversified portfolios)",
+    "Global Outsourced Trading Desk",
+    "Third Party Integration",
+    "IBKR GlobalAnalyst (scan global stocks)",
+    "Cash Management with interest up to 3.14%",
+    "Stock Yield Enhancement Program",
+    "Margin rates as low as 4.14%"
+  ],
+  "unique_selling_points": [
+    "Professional-grade Trader Workstation (TWS) platform",
+    "Global market access across 150+ exchanges",
+    "Lowest commissions with $0 commission accounts available",
+    "50 years of market expertise and innovation",
+    "Multiple specialized trading platforms for different user needs",
+    "Advanced risk management tools (Risk Navigator)",
+    "Options trading tools with advanced order types"
+  ],
+  "enriched_at": "2026-03-29"
 }

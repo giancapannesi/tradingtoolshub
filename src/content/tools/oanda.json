@@ -2,7 +2,10 @@
   "name": "OANDA",
   "slug": "oanda",
   "category": "brokers-forex",
-  "subcategories": ["forex-trading", "professional"],
+  "subcategories": [
+    "forex-trading",
+    "professional"
+  ],
   "description_short": "Trusted forex broker with competitive spreads, advanced trading tools, and no minimum deposit requirement.",
   "description_long": "OANDA is one of the most established and trusted forex brokers, operating since 1996 and regulated in multiple major jurisdictions. The broker is known for competitive spreads, transparent pricing, and a commitment to providing fair execution for retail and professional traders alike.\n\nOANDA offers two pricing models: the Standard account with spreads starting from 1.1 pips on EUR/USD and no commissions, and the Core Pricing account with raw spreads from 0.1 pips plus a $5 per side per 100K commission. The Core account requires a $10,000 minimum deposit but delivers significantly better pricing for active traders.\n\nThe broker supports MetaTrader 4, TradingView integration, and its own proprietary OANDA Trade platform. With no minimum deposit on standard accounts and support for micro-lot (1,000 unit) trading, OANDA is accessible for traders of all sizes while providing the depth needed for institutional-level trading.",
   "logo_url": "/logos/oanda.svg",
@@ -16,27 +19,126 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["No minimum deposit", "1.1 pip EUR/USD spread", "No commissions", "MT4 + OANDA Trade", "Micro-lot trading"]},
-      {"name": "Core Pricing", "price_monthly": 0, "price_yearly": 0, "features": ["$10,000 minimum deposit", "0.1 pip EUR/USD spread", "$5/side per 100K commission", "Raw spreads", "Advanced execution"]}
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "No minimum deposit",
+          "1.1 pip EUR/USD spread",
+          "No commissions",
+          "MT4 + OANDA Trade",
+          "Micro-lot trading"
+        ]
+      },
+      {
+        "name": "Core Pricing",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$10,000 minimum deposit",
+          "0.1 pip EUR/USD spread",
+          "$5/side per 100K commission",
+          "Raw spreads",
+          "Advanced execution"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": true,
-    "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": true, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
   },
-  "markets": ["forex"],
-  "pros": ["No minimum deposit on Standard account", "Micro-lot trading for precise position sizing", "Regulated in multiple major jurisdictions", "TradingView integration available"],
-  "cons": ["Standard account spreads are above average", "Core Pricing requires $10,000 minimum", "Product range limited compared to multi-asset brokers", "No crypto trading in most regions"],
+  "markets": [
+    "crypto",
+    "CFDs",
+    "forex"
+  ],
+  "pros": [
+    "No minimum deposit on Standard account",
+    "Micro-lot trading for precise position sizing",
+    "Regulated in multiple major jurisdictions",
+    "TradingView integration available"
+  ],
+  "cons": [
+    "Standard account spreads are above average",
+    "Core Pricing requires $10,000 minimum",
+    "Product range limited compared to multi-asset brokers",
+    "No crypto trading in most regions"
+  ],
   "rating": 4.3,
-  "rating_breakdown": {"ease_of_use": 4.3, "features": 4.2, "value": 4.2, "support": 4.0, "reliability": 4.7},
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.2,
+    "value": 4.2,
+    "support": 4.0,
+    "reliability": 4.7
+  },
   "founded_year": 1996,
   "company": "OANDA Corporation",
   "headquarters": "New York, New York",
-  "best_for": ["forex traders", "small account traders", "professional forex traders"],
-  "similar_tools": ["etoro", "ig", "pepperstone"],
+  "best_for": [
+    "forex traders",
+    "small account traders",
+    "professional forex traders"
+  ],
+  "similar_tools": [
+    "etoro",
+    "ig",
+    "pepperstone"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "founder": "Dr. Michael Stumm and Dr. Richard Olsen",
+  "company_background": "Co-founded with the belief that Internet and technology would open up currency markets. Now a globally recognized award-winning broker offering forex trading, CFDs, cryptocurrency, and currency data services for over 25 years.",
+  "scraped_features": [
+    "68+ major and minor forex currency pairs",
+    "100+ technical indicators with TradingView integration",
+    "Chart time intervals from 5 seconds",
+    "API access to automate trading strategies",
+    "Margin rates from 2% on EUR/USD and 3% on AUD/USD",
+    "Elite Trader program with volume-based rebates and exclusive TradingView discounts",
+    "MarketPulse daily trading news from award-winning analysts",
+    "Mobile and tablet apps with advanced charting tools",
+    "Historical currency converter with 30+ years of data across 38,000+ FX pairs",
+    "Exchange rates API for corporate clients",
+    "Zero minimum deposit requirement",
+    "Welcome bonus offer for new clients"
+  ],
+  "integrations": [
+    "TradingView",
+    "MetaTrader 4",
+    "Wise (for FX Payments)"
+  ],
+  "unique_selling_points": [
+    "25+ years of established FX trading experience",
+    "TradingView 2024 Award: Best Forex Broker in AMER",
+    "No minimum deposit requirement",
+    "Elite Trader program offering personalized relationship managers and premium tools",
+    "Trusted by major corporations for currency data (38,000+ FX pairs)",
+    "Comprehensive API for corporate FX solutions and retail automation"
+  ],
+  "third_party_reviews": [
+    {
+      "source": "Trustpilot",
+      "rating": 3.8,
+      "review_count": 1211,
+      "url": "https://www.trustpilot.com/review/oanda.com"
+    }
+  ],
+  "enriched_at": "2026-03-29"
 }
