@@ -1,0 +1,23 @@
+{
+  "runs": [
+    {
+      "date": "2026-03-30T09:54:43.856467",
+      "enriched": [],
+      "failed": [
+        "tradervue"
+      ],
+      "skipped": []
+    },
+    {
+      "date": "2026-03-30T09:58:41.382912",
+      "enriched": [
+        "tradervue"
+      ],
+      "failed": [],
+      "skipped": []
+    }
+  ],
+  "enriched_slugs": [
+    "tradervue"
+  ]
+}

@@ -2,9 +2,12 @@
   "name": "Tradervue",
   "slug": "tradervue",
   "category": "trading-journals",
-  "subcategories": ["performance-tracking", "social-trading"],
+  "subcategories": [
+    "performance-tracking",
+    "social-trading"
+  ],
   "description_short": "Web-based trading journal with social sharing, detailed reporting, and broker auto-import for stocks and options.",
-  "description_long": "Tradervue is one of the original web-based trading journals, trusted by active traders since 2011. It provides a solid foundation of trade journaling, performance analytics, and sharing capabilities that have stood the test of time.\n\nThe platform supports auto-import from most major brokers and offers detailed reporting on P&L, win rates, hold times, and risk metrics. The Gold tier adds exit analysis, advanced filtering, and liquidity tracking that serious traders find invaluable for optimizing their execution.\n\nTradervue's social sharing feature lets traders publish selected trades for community feedback, which creates a unique learning environment. The free tier supports up to 100 stock/ETF trades per month, making it accessible for newer traders or those with lower frequency strategies.",
+  "description_long": "## What Is Tradervue?\n\nTradervue is a web-based trading journal built for stocks, options, futures, and forex traders who want to track executions, analyze performance patterns, and share trades with a community. Developed by Tradervue LLC out of San Francisco, the platform has been running since 2011 — making it one of the oldest dedicated trading journals still in active operation. In a category now crowded with AI-powered newcomers, Tradervue takes a fundamentally different approach: it focuses on structured data analysis and lets traders draw their own conclusions rather than relying on algorithmic coaching.\n\nThe platform was built by a small team of developers who were themselves active traders, and that origin shows in the product. Tradervue is not flashy. It does not try to be a social media platform or a trading education hub. It is a journal with strong reporting tools, wide broker compatibility, and a community sharing feature that has quietly built a loyal following over 15 years.\n\n## Core Features and What Makes Tradervue Unique\n\nThe heart of Tradervue is its **trade import and reporting engine**. You can auto-import trades from a wide range of brokers — Interactive Brokers, TD Ameritrade, Schwab, TradeStation, Lightspeed, and dozens more — or upload execution files manually. Once your trades are in the system, Tradervue reconstructs them into individual positions with entry/exit points, P&L calculations, and intraday chart overlays.\n\nThe reporting suite is where Tradervue genuinely earns its reputation. You can break down performance by **time of day, day of week, instrument, trade duration, position size, and custom tags** you define yourself. The hourly performance breakdown is a standout — it shows you exactly when you make and lose money during the trading session, which is the kind of insight that changes behavior. One user on social media noted that Tradervue's hourly stats revealed they consistently lost money during lunch hours due to low-volume boredom trading. That is the type of pattern recognition this tool enables.\n\nThe **social sharing feature** lets you publish individual trades or entire journal entries to a community feed. Other traders can view your executions, chart markups, and notes. This is not a chat room or a Discord server — it is structured trade sharing with real data attached, which makes it more useful for learning than most trading communities.\n\nOn the Gold tier, you get **exit analysis** — a feature that shows you the maximum favorable and adverse excursion on each trade, effectively telling you how much money you left on the table or how deep underwater you went before stopping out. This is powerful for refining exit strategies, and it is one of the few features in the trading journal category that directly addresses trade management rather than just record-keeping.\n\nOther Gold-tier features include **liquidity tracking, commission and fee reporting, risk analysis tools, and advanced filtering**. The Silver tier unlocks unlimited trades, enhanced journaling with tags, and the sharing features.\n\n## Pricing Breakdown\n\nTradervue offers three tiers, all billed monthly with **no annual discount available**:\n\n- **Free:** $0/month. Limited to 100 trades per month. Basic journaling and basic reports. No sharing, no advanced analytics.\n- **Silver:** $29/month. Unlimited trades, enhanced journaling with custom tags, advanced reporting, and trade sharing.\n- **Gold:** $49/month. Everything in Silver plus exit analysis, advanced filters, liquidity tracking, commission reports, and risk analysis.\n\nThe lack of annual billing is notable. At $49/month, the Gold tier costs **$588 per year** with no way to reduce that. Most competitors offer 15-30% discounts on annual plans. For a platform that has been around since 2011, this pricing structure feels stubborn rather than strategic. The Silver tier at $29/month ($348/year) is more palatable but still above the annual pricing of some newer competitors that include AI features.\n\nThe free tier is genuinely useful if you trade fewer than 100 round-trip trades per month. For swing traders or part-time traders, this could be enough indefinitely. For active day traders executing 20+ trades per day, you will hit the cap within a week.\n\n## Honest Pros\n\n**The reporting depth is genuinely best-in-class for manual analysis.** Tradervue does not dumb down the data or hide it behind AI summaries. If you know what you are looking for — or are willing to explore — the breakdowns by time, tag, instrument, and duration can surface patterns that change your trading.\n\n**Broker import support is extensive.** With support for dozens of brokers and file formats, you are unlikely to find a compatibility issue. The import process is straightforward and reliable, which matters because a journal you cannot easily populate is a journal you will not use.\n\n**The platform is stable and proven.** Fifteen years of operation means the bugs have been worked out. The trade reconstruction engine handles complex multi-leg options trades and scaled entries/exits accurately. Multiple long-term users specifically praise the reliability and the responsive support team.\n\n**The social sharing model is well-designed.** Unlike trading communities built around chat and hype, Tradervue's sharing is anchored to real trade data. This makes it a better learning tool because you can see exactly what someone did, not just what they claim they did.\n\n**The free tier is legitimately functional.** 100 trades per month with basic reporting is more generous than many competitors that lock all useful features behind a paywall.\n\n## Honest Cons\n\n**The interface looks and feels dated.** There is no way around this. Tradervue's UI has not kept pace with modern web design standards. It is functional, but it looks like a web application from 2014. For traders coming from slick platforms like TradeZella, the visual gap is jarring. This is not just cosmetic — dated UI often means dated UX patterns, slower navigation, and a steeper learning curve for new users.\n\n**There is no mobile app.** In 2026, a trading journal without a native mobile app is a significant limitation. You can access Tradervue through a mobile browser, but the experience is not optimized. If you want to tag trades, add notes, or review performance on your phone, you will be pinching and zooming.\n\n**No AI-powered insights or automated coaching.** This is the elephant in the room. Competitors like TradeZella and TraderSync have invested heavily in AI analysis that automatically identifies patterns, suggests improvements, and provides behavioral coaching. Tradervue gives you the data and leaves interpretation entirely to you. For disciplined, analytical traders this is fine. For traders who need guidance on what to look for, it is a gap.\n\n**No annual billing discount.** Paying $49/month with no option to save by committing annually is frustrating. It also means there is no switching cost — which might sound like a pro, but it signals that the company is not investing in long-term customer retention incentives.\n\n**No API access.** If you want to build custom dashboards, automate reporting, or integrate Tradervue data into other tools, you are out of luck. The platform is a closed system.\n\n## Who Should Use Tradervue (and Who Should Not)\n\nTradervue is an excellent fit for **experienced day traders and active stock traders** who already know what metrics matter and want a reliable system to track them. If you are the type of trader who builds spreadsheets, runs your own analysis, and treats journaling as a serious practice rather than a chore, Tradervue's depth will serve you well.\n\nIt is also a strong choice for **traders on a tight budget** who can stay within the 100-trade monthly limit on the free tier. Swing traders, position traders, and part-time traders may never need to pay a dollar.\n\nTradervue is **not the right choice** for beginners who need guidance on what to analyze. If you are new to trading and want a journal that tells you what you are doing wrong, you need a platform with AI coaching. It is also not ideal for **mobile-first traders** who do most of their review on a phone, or for **traders who value modern UX** and will be frustrated by the dated interface.\n\n## How Tradervue Compares to Competitors\n\n**Tradervue vs. TradeZella:** TradeZella is the modern alternative with a polished UI, AI-powered insights, and a mobile app. It costs more (starting around $30-50/month depending on the plan) but includes features Tradervue lacks. If you want a guided experience with automated pattern recognition, TradeZella wins. If you want raw analytical depth and a proven track record, Tradervue holds its own.\n\n**Tradervue vs. TraderSync:** TraderSync sits in the middle — it has a more modern interface than Tradervue and includes some AI features, with pricing starting around $30/month. TraderSync also offers an annual billing option. For most traders choosing between these two in 2026, TraderSync offers better value unless you specifically prefer Tradervue's social sharing features or its particular reporting style.\n\n## The Bottom Line\n\nTradervue is a solid, battle-tested trading journal that does exactly what it promises: track your trades, show you detailed performance analytics, and let you share results with a community of real traders. It has survived 15 years in a competitive market because the core product works reliably and the reporting depth is genuine.\n\nBut the world has moved on in important ways. No mobile app, no AI insights, no annual pricing, and a dated interface put Tradervue at a disadvantage against newer competitors that have learned from its strengths and added modern capabilities. At $49/month for the full feature set with no discount path, the value proposition is increasingly hard to justify unless you specifically want what Tradervue does differently — namely, the social sharing model and the unfiltered, do-it-yourself analytical approach.\n\nIf you are a disciplined, self-directed trader who values data over hand-holding, Tradervue remains a legitimate choice. Start with the free tier, see if the reporting style clicks with how you think about your trading, and upgrade only if you hit the trade limit or need exit analysis. Just know that in 2026, you are choosing reliability and depth over modernity and convenience.",
   "logo_url": "/logos/tradervue.svg",
   "screenshots": [],
   "website_url": "https://www.tradervue.com",
@@ -20,19 +23,35 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Up to 100 trades/month", "Basic journaling", "Basic reports"]
+        "features": [
+          "Up to 100 trades/month",
+          "Basic journaling",
+          "Basic reports"
+        ]
       },
       {
         "name": "Silver",
         "price_monthly": 29,
         "price_yearly": 0,
-        "features": ["Unlimited trades", "Enhanced journaling", "Advanced reporting", "Trade sharing"]
+        "features": [
+          "Unlimited trades",
+          "Enhanced journaling",
+          "Advanced reporting",
+          "Trade sharing"
+        ]
       },
       {
         "name": "Gold",
         "price_monthly": 49,
         "price_yearly": 0,
-        "features": ["All Silver features", "Exit analysis", "Advanced filters", "Liquidity tracking", "Commission and fee reports", "Risk analysis"]
+        "features": [
+          "All Silver features",
+          "Exit analysis",
+          "Advanced filters",
+          "Liquidity tracking",
+          "Commission and fee reports",
+          "Risk analysis"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +73,27 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex"],
-  "pros": ["Free tier with 100 trades/month is generous", "Established platform with proven reliability since 2011", "Social sharing creates learning community", "Wide broker import support"],
-  "cons": ["No annual billing discount available", "Interface looks dated compared to modern competitors", "No AI-powered insights or coaching"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "Reporting depth is genuinely best-in-class for manual trade analysis",
+    "Free tier with 100 trades/month is legitimately functional for swing traders",
+    "Broker auto-import supports dozens of platforms with reliable trade reconstruction",
+    "Social sharing is anchored to real trade data, not just chat and claims",
+    "15 years of operation means proven stability and battle-tested reliability",
+    "Exit analysis (Gold) shows max favorable/adverse excursion per trade"
+  ],
+  "cons": [
+    "Interface looks and feels dated — stuck in 2014-era web design",
+    "No native mobile app in 2026 is a significant limitation",
+    "No AI-powered insights or automated coaching of any kind",
+    "No annual billing discount — Gold costs $588/year with no way to reduce it",
+    "No API access for custom integrations or automated reporting"
+  ],
   "rating": 4.1,
   "rating_breakdown": {
     "ease_of_use": 4.2,
@@ -68,8 +105,48 @@
   "founded_year": 2011,
   "company": "Tradervue LLC",
   "headquarters": "San Francisco, California",
-  "best_for": ["stock traders", "day traders", "traders wanting community"],
-  "similar_tools": ["tradertrac", "tradezella", "tradersync"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": [
+    "Experienced day traders who know what metrics to analyze",
+    "Active stock and options traders wanting deep performance breakdowns",
+    "Budget-conscious swing traders who fit within the free tier's 100-trade limit",
+    "Self-directed traders who prefer raw data over AI-guided coaching",
+    "Traders who value community trade sharing with real execution data"
+  ],
+  "similar_tools": [
+    "tradertrac",
+    "tradezella",
+    "tradersync"
+  ],
+  "last_updated": "2026-03-30",
+  "review_status": "published",
+  "meta_title": "Tradervue Review 2026: Pricing, Features & Honest Verdict",
+  "meta_description": "Honest Tradervue review for 2026. Free tier, $29-$49/mo plans, deep trade analytics, dated UI, no mobile app. Who it's for and who should skip it.",
+  "company_background": "Tradervue LLC is a San Francisco-based company that has operated its web-based trading journal since 2011. Built by a small team of developer-traders, it is one of the longest-running dedicated trading journal platforms still in active operation. The company has maintained a focused product strategy centered on trade analytics and community sharing rather than expanding into education or AI coaching.",
+  "scraped_features": [
+    "Auto-import trades from 40+ supported brokers",
+    "Manual trade upload via execution files",
+    "Intraday chart overlays on individual trades",
+    "Performance breakdown by time of day",
+    "Performance breakdown by day of week",
+    "Custom tagging system for trade categorization",
+    "P&L tracking with commission and fee reporting",
+    "Exit analysis with max favorable and adverse excursion",
+    "Liquidity tracking on Gold tier",
+    "Risk analysis tools",
+    "Community trade sharing with real data",
+    "Advanced filtering and search across trade history",
+    "Multi-market support: stocks, options, futures, forex",
+    "Hourly performance statistics",
+    "Trade duration analysis",
+    "Position size analysis",
+    "Journal notes with trade annotations",
+    "Basic reporting on free tier",
+    "Shared trade feeds for community learning",
+    "Scaled entry and exit reconstruction"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/tradervueapp",
+    "facebook": "https://www.facebook.com/tradervueapp"
+  },
+  "enriched_at": "2026-03-30"
 }
