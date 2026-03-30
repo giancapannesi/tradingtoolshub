@@ -4,39 +4,84 @@
   "category": "brokers-us",
   "subcategories": ["active-trading", "direct-access"],
   "description_short": "Professional direct-access broker with ultra-low latency execution, competitive per-share pricing, and Lightspeed Trader platform.",
-  "description_long": "Lightspeed Trading is a professional-grade direct-access broker designed for active day traders and professionals who need the fastest possible order execution. The Lightspeed Trader platform routes orders directly to exchanges and ECNs, bypassing market makers for better fills and lower latency.\n\nCommissions follow a per-share model starting at $0.0045/share (with a $1 minimum per trade), which is competitive for high-volume traders. Volume-based discounts can bring costs down to $0.002/share. Options are $0.60 per contract, and futures are available through partnerships.\n\nLightspeed requires a $25,000 minimum to open an account (matching the PDT rule requirement for day trading), making it clear this is not a platform for beginners. The firm is a registered broker-dealer with the SEC and member of FINRA, providing full regulatory protection for client assets.",
+  "description_long": "## What Is Lightspeed Trading?\n\nLightspeed Trading is a professional-grade direct-access broker built specifically for active day traders, scalpers, and proprietary trading firms. It is not a general-purpose brokerage. There are no mutual funds, no robo-advisor, no retirement planning tools. Lightspeed exists to do one thing well: get your orders to the exchange as fast as possible with maximum control over routing.\n\nThe firm was formed in 2006 when its management team, led by CEO Stephen Ehrlich, purchased E*TRADE's professional trading unit and spun it off as an independent entity. In 2018, Lightspeed was acquired by Wedbush Securities and merged with Lime Brokerage, an agency broker known for serving high-frequency options traders. In 2020, the combined entity rebranded under the Lightspeed Financial Services Group name. Headquarters are in New York City, with additional offices in Chicago and other US locations.\n\nLightspeed is a registered broker-dealer with the SEC and a member of FINRA, NFA, and SIPC. Client accounts receive SIPC protection up to $500,000.\n\n## The Lightspeed Trader Pro Platform\n\nIn September 2025, Lightspeed launched Lightspeed Trader Pro, a ground-up rebuild of its flagship desktop platform. The original Lightspeed Trader was already respected for raw speed, but the Pro version adds a modernized interface alongside new capabilities.\n\nKey platform features include direct market access routing to over 100 destinations, including exchanges, ECNs, dark pools, and market makers. Traders get full Level 2 quote data with depth-of-book visibility, customizable montage windows for rapid order entry without leaving chart views, and hotkey support for split-second execution. The platform supports multi-threaded processing across core, pre-market, post-market, and overnight sessions, enabling 24/5 trading access to US equity markets.\n\nNew additions in the Pro version include an integrated AI Chat tool for scanning and fundamental data queries using natural language, Fly News for real-time market-moving headlines delivered both visually and audibly, and advanced Risers and Fallers tracking with expanded market filters. The platform infrastructure is hosted in data centers near major exchanges to minimize latency.\n\nLightspeed also offers Sterling Trader Pro (popular with prop firms and professional desks), RealTick Pro for hedge funds and registered investment advisors, and Eze EMS Pro for institutional order management.\n\n## Web and Mobile Trading\n\nLightspeed provides web and mobile platforms for traders who need access away from their primary workstation. The Web Trader requires only a $10,000 minimum balance (versus $25,000 for the desktop platform) and includes commission-free stock and ETF trading for accounts with at least $15,000. The mobile app mirrors many of the web platform's capabilities but is not designed to replace the desktop for serious intraday execution. These are supplementary tools, not primary trading stations.\n\n## Commission Structure\n\nLightspeed offers two pricing models for stocks and ETFs, and traders choose which structure fits their trading style. All pricing below reflects rates for accounts opened after March 1, 2024. Existing clients can request updated rates.\n\n**Per-Share Pricing (with $0.25 minimum per order):**\n- Under 250,000 shares/month: $0.0035/share\n- 250,000 to 999,999 shares: $0.0025/share\n- 1 million to 2.99 million: $0.0020/share\n- 3 million to 5.99 million: $0.0015/share\n- 6 million to 14.99 million: $0.0010/share\n- 15 million+: Contact for custom pricing\n\n**Per-Trade Pricing:**\n- Under 250 trades/month: $3.99/trade\n- 250 to 749 trades: $3.50/trade\n- 750 to 1,499 trades: $3.00/trade\n- 1,500 to 2,999 trades: $2.50/trade\n- 3,000 to 9,999 trades: $2.00/trade\n- 10,000+ trades: Contact for custom pricing\n\nThere is a $130/month platform fee for Lightspeed Trader, but it is offset against commissions generated. If you trade enough to generate $130 in commissions, the platform is effectively free.\n\nAccounts with balances under $15,000 face a $25 monthly minimum commission charge regardless of activity. Routing fees, rebates, and regulatory fees are charged separately from the base commissions.\n\n## Options Trading\n\nOptions commissions are also tiered by monthly volume:\n- Under 500 contracts: $0.50/contract\n- 500 to 1,999 contracts: $0.45/contract\n- 2,000 to 9,999 contracts: $0.35/contract\n- 10,000 to 49,999 contracts: $0.25/contract\n- 50,000 to 99,999 contracts: $0.20/contract\n- 100,000+ contracts: Contact for pricing\n\nMinimum per-order charges vary by platform: $0.50 on Lightspeed Trader/Sterling, $3.00 on Eze EMS, and $1.00 on Web and Mobile.\n\n## Margin Rates and Account Requirements\n\nLightspeed requires a $10,000 minimum for Web Trader accounts and $25,000 for the Lightspeed Trader desktop platform, which aligns with the SEC's Pattern Day Trader (PDT) rule. Portfolio Margin accounts require $175,000 ($110,000 for Livevol X users), and offer leverage beyond the standard 4:1 intraday / 2:1 overnight limits of Reg T accounts.\n\nMargin rates as of December 2025:\n- $0 to $49,999 debit balance: 11.00%\n- $50,000 to $249,999: 9.75%\n- $250,000 to $499,999: 9.25%\n- $500,000 to $999,999: 8.75%\n- $1,000,000+: 8.50%\n\nThese rates are not competitive with Interactive Brokers, which offers lower margin rates across all tiers. For traders who carry significant margin balances overnight, this cost difference adds up.\n\n## Execution Speed and Order Routing\n\nExecution speed is Lightspeed's core selling point. The platform routes orders directly to exchanges and ECNs via direct market access, bypassing the Payment for Order Flow (PFOF) model used by most retail brokers. Traders can select specific routing destinations and control exactly where their orders go.\n\nThe short-locate system provides inventory status directly in Level 2 quotes, marking stocks as easy-to-borrow (E), threshold (T), or locatable (L). For short sellers, this real-time locate access is a genuine advantage over brokers where locating hard-to-borrow shares means calling a desk or waiting.\n\nPaper trading is available through a demo account, though fills may be slower than live conditions. This is common across all brokers offering simulated trading.\n\n## How It Compares to Interactive Brokers\n\nInteractive Brokers is the most common alternative for active traders, and the comparison is not entirely in Lightspeed's favor. IBKR offers lower per-share rates ($0.0005 to $0.0035), lower margin rates, access to global markets across 150+ exchanges, and a commission-free tier (IBKR Lite) for casual traders. IBKR's Trader Workstation is more feature-rich, with integrated research, scanners, and a broader suite of analytics tools.\n\nWhere Lightspeed has an edge is in simplicity of execution and the specific needs of US equity day traders. The platform is purpose-built for rapid-fire stock trading with hotkeys, direct routing, and Level 2 depth. Lightspeed's short-locate system is more intuitive. The customer service team consists of licensed, in-house professionals rather than outsourced support. And for traders who want one platform that does US equities and options with zero distraction, Lightspeed's focused approach has real value.\n\nBut if you need futures, forex, bonds, international markets, or sophisticated portfolio analytics, Interactive Brokers is the clear choice. Lightspeed is a specialist; IBKR is a generalist that also happens to be excellent at active trading.\n\n## Who Should Use Lightspeed\n\nLightspeed is built for a narrow audience: high-volume US equity day traders who prioritize execution speed, direct market access, and routing control above all else. Prop trading firms, active scalpers making hundreds of trades per day, and professional traders who have outgrown retail platforms will find Lightspeed delivers exactly what they need without the clutter of features they will never use.\n\n## Who Should Not Use Lightspeed\n\nIf you are a beginner, a swing trader who makes a few trades per week, a buy-and-hold investor, or someone who trades fewer than 250,000 shares per month, Lightspeed will be an expensive and unnecessarily complex choice. The $25,000 desktop minimum, the $130/month platform fee, the $25 monthly minimum for smaller accounts, and the absence of commission-free trading on the desktop all add up. Casual traders should look at Interactive Brokers, Webull, or Schwab instead.\n\nLightspeed does not offer retirement accounts (IRAs), mutual funds, bonds, forex, or crypto. It is not a full-service brokerage. If you need any of those, look elsewhere.",
   "logo_url": "/logos/lightspeed.svg",
-  "screenshots": [],
+  "screenshots": [
+    {"label": "homepage", "path": "/screenshots/lightspeed/lightspeed-homepage.webp", "alt": "Lightspeed Trading homepage showing Lightspeed Trader Pro platform"},
+    {"label": "pricing", "path": "/screenshots/lightspeed/lightspeed-pricing.webp", "alt": "Lightspeed commission and fee pricing page"},
+    {"label": "trader-platform", "path": "/screenshots/lightspeed/lightspeed-trader-platform.webp", "alt": "Lightspeed Trader Pro direct-access trading platform"}
+  ],
   "website_url": "https://www.lightspeed.com",
   "affiliate_url": "",
   "affiliate_program": "",
   "affiliate_commission": "",
   "affiliate_cookie_days": 0,
+  "meta_title": "Lightspeed Trading Review 2026 — Built for Serious Day Traders",
+  "meta_description": "Lightspeed Trading review: direct-access broker with per-share pricing from $0.0035, 100+ routing destinations, Level 2 depth for day traders.",
   "pricing": {
     "has_free_tier": false,
     "starting_price": 0,
     "tiers": [
-      {"name": "Per Share", "price_monthly": 0, "price_yearly": 0, "features": ["$0.0045/share ($1 min)", "Volume discounts available", "Direct-access routing", "$25,000 minimum", "Lightspeed Trader platform"]},
-      {"name": "Per Trade", "price_monthly": 0, "price_yearly": 0, "features": ["$4.50 per trade", "Options $0.60/contract", "Direct-access routing", "$25,000 minimum"]}
+      {"name": "Per Share", "price_monthly": 0, "price_yearly": 0, "features": ["$0.0035/share ($0.25 min)", "Volume discounts to $0.001/share", "100+ routing destinations", "$25,000 minimum (desktop)", "$130/mo platform fee (offset by commissions)"]},
+      {"name": "Per Trade", "price_monthly": 0, "price_yearly": 0, "features": ["$3.99 per trade (base tier)", "Volume discounts to $2.00/trade", "Same routing access", "$25,000 minimum (desktop)"]},
+      {"name": "Options", "price_monthly": 0, "price_yearly": 0, "features": ["$0.50/contract (base tier)", "Volume discounts to $0.20/contract", "$0.50 min per order (desktop)", "Direct routing to exchanges"]},
+      {"name": "Web/Mobile", "price_monthly": 0, "price_yearly": 0, "features": ["Commission-free stocks/ETFs ($15K+ balance)", "$10,000 minimum", "No platform fee", "Limited routing options"]}
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
+    "ai_analysis": true, "backtesting": false, "paper_trading": true, "alerts": true,
     "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
     "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": false, "risk_management": true, "news_feed": true, "education": false
+    "performance_analytics": false, "risk_management": true, "news_feed": true, "education": true
   },
-  "markets": ["stocks", "options"],
-  "pros": ["Ultra-low latency direct-access execution", "Competitive per-share pricing for active traders", "Volume discounts for high-frequency trading", "Direct exchange routing for best fills"],
-  "cons": ["$25,000 minimum account requirement", "Not suitable for beginners", "Platform has a learning curve", "Limited research and education"],
+  "markets": ["stocks", "options", "futures"],
+  "pros": [
+    "Direct market access to 100+ routing destinations with exchange-level speed",
+    "Aggressive volume discounts — per-share costs drop to $0.001 for high-volume traders",
+    "Lightspeed Trader Pro platform built ground-up for rapid execution with hotkeys and Level 2",
+    "Real-time short-locate inventory visible directly in Level 2 quotes",
+    "24/5 extended-hours trading across pre-market, post-market, and overnight sessions",
+    "Licensed, in-house customer support team — not outsourced"
+  ],
+  "cons": [
+    "$25,000 minimum for desktop platform, $10,000 for web — excludes smaller accounts",
+    "$130/month platform fee unless offset by sufficient commission volume",
+    "Margin rates (8.50%-11.00%) significantly higher than Interactive Brokers",
+    "No retirement accounts, mutual funds, forex, crypto, or international markets",
+    "Complex fee structure with separate routing fees, regulatory charges, and data costs"
+  ],
   "rating": 4.1,
-  "rating_breakdown": {"ease_of_use": 3.5, "features": 4.2, "value": 4.0, "support": 4.0, "reliability": 4.5},
+  "rating_breakdown": {"ease_of_use": 3.5, "features": 4.2, "value": 4.0, "support": 4.2, "reliability": 4.5},
   "founded_year": 2006,
   "company": "Lightspeed Financial Services Group LLC",
   "headquarters": "New York, New York",
-  "best_for": ["professional day traders", "high-frequency traders", "active scalpers"],
-  "similar_tools": ["interactive-brokers", "tradestation", "charles-schwab"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": ["professional day traders", "high-frequency traders", "active scalpers", "prop trading firms"],
+  "similar_tools": ["interactive-brokers", "tradestation", "das-trader"],
+  "last_updated": "2026-03-30",
+  "review_status": "published",
+  "company_background": "Founded in 2006 when management led by CEO Stephen Ehrlich purchased E*TRADE's professional trading unit. Acquired by Wedbush Securities in 2018 and merged with Lime Brokerage (founded 2001). Rebranded as Lightspeed Financial Services Group LLC in 2020. Registered broker-dealer with SEC, member of FINRA, NFA, and SIPC. Headquartered in New York City with offices in Chicago. Launched Lightspeed Trader Pro platform in September 2025.",
+  "scraped_features": [
+    "Direct market access to 100+ routing destinations",
+    "Level 2 depth-of-book quotes with short-locate indicators",
+    "Lightspeed Trader Pro with AI Chat integration",
+    "Fly News real-time headlines with visual and audio delivery",
+    "24/5 extended-hours trading including overnight sessions",
+    "Multi-threaded processing for simultaneous session access",
+    "Customizable hotkeys and montage windows",
+    "Per-share pricing from $0.0035 with volume discounts to $0.001",
+    "Per-trade pricing from $3.99 with volume discounts to $2.00",
+    "Options trading from $0.50/contract with volume discounts",
+    "Futures trading at $1.29/side via CQG integration",
+    "Paper trading demo account",
+    "Web and mobile trading platforms",
+    "Commission-free stocks/ETFs on web/mobile ($15K+ balance)",
+    "Sterling Trader Pro and RealTick Pro for institutional use",
+    "Portfolio margin accounts with enhanced leverage",
+    "Risk management tools with daily max loss limits",
+    "Risers and Fallers tracking with market filters",
+    "Dark pool routing access",
+    "Short-locate inventory with E/T/L status indicators"
+  ],
+  "enriched_at": "2026-03-30"
 }

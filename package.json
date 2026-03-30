@@ -16,6 +16,9 @@
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
-    "@vercel/node": "^5.6.11"
+    "@vercel/node": "^5.6.11",
+    "puppeteer": "^24.40.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

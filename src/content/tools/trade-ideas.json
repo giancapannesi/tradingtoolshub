@@ -3,10 +3,23 @@
   "slug": "trade-ideas",
   "category": "stock-screeners",
   "subcategories": ["ai-scanning", "real-time-alerts"],
+  "meta_title": "Trade Ideas Review 2026 — Is the Holly AI Worth $228/Month?",
+  "meta_description": "Honest Trade Ideas review: Holly AI win rates, real-time scanning, Money Machine auto-trading, and pricing ($127-$254/mo). Worth it for day traders?",
   "description_short": "AI-powered stock scanner with Holly AI for automated trade signals, real-time alerts, and backtesting for active day traders.",
-  "description_long": "Trade Ideas is the most powerful AI-driven stock scanning platform available, built specifically for active day traders who need real-time opportunities. The platform's flagship Holly AI uses machine learning to analyze millions of trading scenarios overnight and presents the highest-probability trade setups each morning before the market opens.\n\nThe Basic plan at $127/month provides real-time data, customizable layouts, alerts, and demo trading capabilities. The Premium plan at $254/month adds Holly AI, backtesting, Smart Risk Levels, and the Channel Bar for monitoring multiple scans simultaneously.\n\nTrade Ideas is not cheap, but for serious day traders, the Holly AI and real-time scanning capabilities can pay for themselves with a single good trade. The platform is best suited for traders who are already profitable and want to scale their edge with AI-powered opportunity detection.",
+  "description_long": "## What Is Trade Ideas?\n\nTrade Ideas is a real-time stock scanning and AI-powered trade signal platform built specifically for active day traders. Founded in 2003 by Dan Mirkin and Philip Smolen, it has grown from a basic scanning tool into one of the most feature-dense platforms in the retail trading space. The company is privately held, based in Encinitas, California, and has appeared multiple times on the Inc. 5000 list of fastest-growing private companies.\n\nThe platform's core value proposition is simple: instead of manually hunting for trade setups across thousands of stocks, Trade Ideas monitors every stock and ETF in real time and surfaces opportunities the moment they trigger your criteria. Where it gets interesting — and expensive — is Holly AI, their machine-learning system that runs millions of backtests overnight and delivers a shortlist of high-probability setups before the opening bell.\n\n## Holly AI — The Flagship Feature\n\nHolly is Trade Ideas' virtual trading assistant, and it is the primary reason most traders pay for the Premium tier. The system works by running millions of backtests every night across 70+ trading strategies against the full universe of U.S. stocks. By morning, Holly filters down to only the strategies that meet strict criteria: a historical win rate above 60% and a risk-to-reward ratio of at least 2:1.\n\nThere are actually three AI algorithms — Holly, Holly 2.0, and Holly Neo — each with different risk profiles. Holly 2.0 in aggressive mode has reportedly delivered annualized returns around 33%, while the conservative variants target roughly 20% annually without leverage. The AI provides specific entry prices, stop-loss levels, and profit targets, so there is no guesswork about execution.\n\nHere is the honest assessment: Holly's 60%+ win rate sounds impressive, but it is worth noting that these are the company's own backtested figures, not independently audited live-trading results. The signals are also shared across all Premium subscribers simultaneously, which creates the crowded-trade problem — if thousands of traders hit the same entry at the same time, slippage can erode the theoretical edge. This is a real concern that Trade Ideas does not prominently address in its marketing.\n\n## Real-Time Scanning and Alerts\n\nThe scanner is where Trade Ideas genuinely earns its reputation. Unlike Finviz or basic TradingView screeners that refresh periodically, Trade Ideas streams alerts in real time the instant a condition triggers. You can build custom scans using over 500 data points including price action, volume spikes, technical patterns, and fundamental criteria.\n\nThe platform comes with 40+ pre-built scanning strategies for common setups — gap-ups, breakouts, pullbacks, unusual volume, low-float runners — so you do not need to build everything from scratch. For experienced traders who want full control, the customization depth is exceptional. For beginners, it is overwhelming.\n\n## Stock Racing and Channel Bar\n\nStock Racing is one of Trade Ideas' most distinctive features. Instead of scrolling through a spreadsheet of tickers, you see stocks visually competing in real time — like a horse race where the speed represents price performance. Your brain processes this instantly: which stocks are pulling ahead, which are fading, where momentum is shifting. It is surprisingly effective for spotting intraday momentum before it shows up on a traditional chart.\n\nThe Channel Bar is a vertical menu of 30+ pre-built trading workspaces curated by professional traders. Each template is designed for a specific strategy — premarket gappers, low-float runners, after-hours movers, bounce plays. Instead of spending hours configuring your layout, you click a Channel Bar tile and get a complete scanning workspace. For new users especially, this saves enormous setup time.\n\n## Backtesting with OddsMaker\n\nThe OddsMaker backtesting engine lets you test any scan or strategy against historical data before risking real money. You can adjust parameters and see win rate, average gain/loss, profit factor, and drawdown metrics. This is a Premium-only feature, and it is one of the strongest arguments for upgrading — being able to validate that your scan criteria actually produced profitable results historically gives you genuine confidence rather than gut-feel trading.\n\nThe backtesting is not perfect. It uses end-of-day data, not tick-by-tick, which means fast intraday moves may not be perfectly represented. But for validating the statistical edge of a scanning strategy, it is more than adequate.\n\n## Money Machine — Automated Trading\n\nMoney Machine is Trade Ideas' fully automated trading engine, available in the Premium tier. It connects to your broker (Interactive Brokers or E*TRADE) and can execute trades end-to-end: identify signals via Holly AI or custom scans, place orders, manage positions, and enforce risk limits — all without manual intervention.\n\nRisk management controls include position sizing automation, stop-loss enforcement, daily loss limits, and a pause/resume function that halts trading when drawdown thresholds are hit. There is also a Simulation Mode for paper trading automated strategies during live market hours before committing real capital.\n\nImportant caveat: Trade Ideas is clear that Money Machine is not a set-it-and-forget-it system. You still need to monitor execution logs daily, check for fills and slippage, and adjust parameters as market conditions change. The company recommends several weeks in Simulation Mode before going live. Anyone who buys Premium expecting a money printer will be disappointed.\n\n## Pricing — The Hard Truth\n\nTrade Ideas offers three tiers:\n\n- **Free (The Tester):** Delayed data, Stock Racing visualization, PiP charts, and predefined alerts. Good for exploration, useless for actual trading.\n- **Standard ($127/month or $89/month billed annually at $1,068/year):** Real-time data, 10 on-screen charts, custom layouts, paper trading, Brokerage Plus integration, and the live trading room.\n- **Premium ($254/month or $178/month billed annually at $2,136/year):** Everything in Standard plus Holly AI signals, OddsMaker backtesting, Money Machine auto-trading, Smart Risk Levels, 20 on-screen charts, and 30+ Channel Bar templates.\n\nAt $254/month for Premium, Trade Ideas is one of the most expensive retail trading tools on the market. For context, TradingView's most expensive plan is $59.95/month, and Finviz Elite is $39.50/month. You can build a capable day-trading scanning setup with TradingView for roughly one-fifth the cost.\n\nThe question is whether Holly AI and Money Machine generate enough additional edge to justify that 5x premium. If you are trading a $100K+ account and Holly helps you find even one extra winning trade per week, it pays for itself many times over. If you are trading a $5,000 account, the $3,048 annual Premium cost represents over 60% of your capital — a terrible proposition.\n\n## Broker Integrations\n\nTrade Ideas connects directly to Interactive Brokers (Pro accounts only — IB Lite is not supported) and E*TRADE for live order execution. You can also link to external platforms like ThinkOrSwim via symbol sharing. The integration is functional but limited compared to platforms that support dozens of brokers. If your broker is not Interactive Brokers or E*TRADE, you lose the auto-trading and one-click execution capabilities.\n\n## Who Should Use Trade Ideas\n\nTrade Ideas is purpose-built for active day traders who trade U.S. equities. It excels for traders who scalp intraday momentum, trade breakouts and gap plays, and need speed — both in scanning and execution. The ideal user has a funded account above $25,000 (pattern day trading rules apply), is already consistently profitable, and wants AI-assisted opportunity detection to scale up.\n\nIt is a poor fit for swing traders, position traders, long-term investors, options traders, forex or crypto traders, or anyone who trades fewer than 5-10 times per week. The cost-to-value ratio only works if you are actively using the scanning and AI features during market hours nearly every trading day.\n\n## The Honest Bottom Line\n\nTrade Ideas is the most powerful real-time stock scanner available to retail traders. The scanning engine is genuinely best-in-class, and Holly AI is a unique product that no competitor has replicated at this level. The Channel Bar and Stock Racing features solve real workflow problems that other platforms ignore.\n\nBut it is expensive, complex, and narrowly focused on U.S. equity day trading. The Trustpilot rating sits around 2.7 stars, with complaints centering on the steep learning curve, the aging desktop interface, and the lack of a mobile app. The AI signals are shared across all subscribers, creating potential crowding effects.\n\nIf you are a full-time day trader with a well-funded account, Trade Ideas is a legitimate competitive advantage worth testing. Start with the Standard plan, learn the scanner, and upgrade to Premium only after you have validated that the additional features generate measurable improvement in your results. Do not start with Premium hoping Holly will make you profitable — it will not replace trading skill, and at $254/month, it is an expensive lesson.",
   "logo_url": "/logos/trade-ideas.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/trade-ideas/trade-ideas-homepage.webp",
+      "alt": "Trade Ideas homepage showing AI-powered stock scanning platform overview"
+    },
+    {
+      "label": "pricing",
+      "path": "/screenshots/trade-ideas/trade-ideas-pricing.webp",
+      "alt": "Trade Ideas pricing page showing Free, Standard, and Premium plan details"
+    }
+  ],
   "website_url": "https://www.trade-ideas.com",
   "affiliate_url": "",
   "affiliate_program": "Trade Ideas Affiliate Program",
@@ -17,22 +30,22 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Par (Free)",
+        "name": "Free (The Tester)",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Delayed data", "Stock Racing visualization", "PiP Charts", "Predefined alerts"]
+        "features": ["Delayed data", "Stock Racing visualization", "PiP Charts", "Predefined alerts", "Technical indicators", "Trading tournaments"]
       },
       {
-        "name": "Basic",
+        "name": "Standard (Blue Bundle)",
         "price_monthly": 127,
-        "price_yearly": 999,
-        "features": ["Real-time data", "10 charts per screen", "Custom layouts", "Demo trading", "In-app trading"]
+        "price_yearly": 1068,
+        "features": ["Real-time data", "10 on-screen charts", "Custom layouts", "Paper trading", "Brokerage Plus integration", "In-app trading", "TI Wave analysis", "500+ alert data points", "Pre/after-hours data", "Sound alerts", "Live trading room"]
       },
       {
-        "name": "Premium",
+        "name": "Premium (Powder Elite)",
         "price_monthly": 254,
-        "price_yearly": 1999,
-        "features": ["All Basic features", "Holly AI signals", "Backtesting", "Smart Risk Levels", "Channel Bar", "Money Machine AI"]
+        "price_yearly": 2136,
+        "features": ["All Standard features", "Holly AI signals (3 algorithms)", "OddsMaker backtesting", "Money Machine auto-trading", "Smart Risk Levels", "20 on-screen charts", "30+ Channel Bar templates", "Compare Count windows", "RBI/GBI setup windows", "Unlimited watchlists"]
       }
     ],
     "currency": "USD"
@@ -55,21 +68,58 @@
     "education": true
   },
   "markets": ["stocks"],
-  "pros": ["Holly AI provides institutional-grade trade signals", "Real-time scanning catches opportunities as they develop", "Backtesting validates strategies against historical data", "Comprehensive alert system with custom conditions"],
-  "cons": ["Very expensive, especially the Premium plan at $254/mo", "US stocks only", "Steep learning curve to use effectively", "Overkill for casual or swing traders"],
-  "rating": 4.4,
+  "pros": [
+    "Holly AI runs millions of backtests nightly and delivers high-probability setups before market open",
+    "Best-in-class real-time scanning engine with 500+ data points and instant streaming alerts",
+    "Money Machine enables fully automated trading with built-in risk management controls",
+    "Stock Racing provides an intuitive visual way to spot momentum shifts instantly",
+    "30+ pre-built Channel Bar templates eliminate hours of workspace configuration",
+    "OddsMaker backtesting lets you validate any scan strategy against historical data before risking capital"
+  ],
+  "cons": [
+    "Premium plan at $254/month is 5x the cost of comparable TradingView or Finviz setups",
+    "Steep learning curve — the desktop interface feels dated and requires significant time investment to master",
+    "No mobile app — you are locked to desktop, which limits flexibility for traders on the go",
+    "Holly AI signals are shared across all Premium subscribers, creating potential crowded-trade slippage",
+    "Broker integration limited to Interactive Brokers (Pro only) and E*TRADE — most other brokers unsupported"
+  ],
+  "rating": 4.3,
   "rating_breakdown": {
-    "ease_of_use": 3.6,
-    "features": 4.8,
-    "value": 3.5,
+    "ease_of_use": 3.4,
+    "features": 4.9,
+    "value": 3.3,
     "support": 4.3,
     "reliability": 4.7
   },
   "founded_year": 2003,
   "company": "Trade Ideas LLC",
   "headquarters": "Encinitas, California",
-  "best_for": ["day traders", "active traders", "AI-driven traders"],
-  "similar_tools": ["finviz", "benzinga-pro", "stockstotrrade"],
-  "last_updated": "2026-03-07",
+  "company_background": "Founded in 2003 by Dan Mirkin (CEO) and Philip Smolen (CTO). Mirkin previously helped design CyberTrader, the first commercially viable Direct Access trading platform acquired by Charles Schwab for $400M in 2000. Trade Ideas is 100% privately held with no outside investors, bootstrapped from day one. Multiple-time Inc. 5000 honoree. Voted Most Trusted Trading Platform by Capterra. Executive team includes Brad Williams (COO), Shari Mirkin (CFO), Steve Gomez (Chief Client Officer), and Michael Franz (Chief Tech Wizard). All development done in-house by a USA-based team.",
+  "scraped_features": [
+    "Holly AI — 3 machine-learning algorithms (Holly, Holly 2.0, Holly Neo) running millions of nightly backtests across 70+ strategies",
+    "Real-time streaming scanner with 500+ data points and instant alert triggers",
+    "40+ pre-configured day trading scanning strategies",
+    "Stock Racing — visual horse-race style stock momentum comparison",
+    "Channel Bar — 30+ pre-built professional trading workspace templates",
+    "OddsMaker backtesting engine for historical strategy validation",
+    "Money Machine — fully automated trading engine with risk management",
+    "Brokerage Plus — direct broker integration with Interactive Brokers and E*TRADE",
+    "Smart Risk Levels — AI-calculated stop-loss and target levels",
+    "One-click chart trading and traditional order entry",
+    "Simulation Mode — paper trading during live market hours",
+    "Picture-in-Picture (PiP) charting with multiple timeframes",
+    "Compare Count windows for visual strategy comparison",
+    "RBI/GBI intraday setup windows",
+    "Pre-market and after-hours data streaming",
+    "TI Wave analysis tool",
+    "Live trading room with professional traders",
+    "Market Explorer — high-performance pre-built scans",
+    "External linking to ThinkOrSwim and other platforms",
+    "Trading tournaments and community features"
+  ],
+  "best_for": ["day traders", "active traders", "AI-driven traders", "momentum traders", "scalpers"],
+  "similar_tools": ["finviz", "benzinga-pro", "tradingview", "scanz", "blackboxstocks"],
+  "last_updated": "2026-03-30",
+  "enriched_at": "2026-03-30",
   "review_status": "published"
 }

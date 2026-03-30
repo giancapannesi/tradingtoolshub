@@ -4,9 +4,20 @@
   "category": "brokers-us",
   "subcategories": ["commission-free", "mobile-first"],
   "description_short": "Commission-free trading platform with extended hours, paper trading, and advanced charting for retail traders.",
-  "description_long": "Webull has quickly become one of the most popular commission-free trading platforms, particularly among younger traders who appreciate its modern interface and mobile-first design. The platform offers commission-free trading for US stocks, ETFs, options, and crypto, with extended hours trading from 4AM to 8PM ET.\n\nUnlike some commission-free competitors, Webull provides genuinely useful charting tools with 50+ technical indicators, 19 drawing tools, and automated chart pattern detection. The desktop application offers a more traditional trading terminal experience, while the mobile app is one of the best in the industry.\n\nWebull's built-in paper trading lets new traders practice with virtual money using real market data. The platform also offers IPO access, OTC trading, and fractional shares, making it a comprehensive choice for retail traders who want professional features without paying commissions.",
+  "description_long": "## What Is Webull?\n\nWebull is a commission-free brokerage that has carved out a distinct niche between Robinhood's simplicity and Interactive Brokers' institutional depth. Founded in 2017 by Wang Anquan, a former Alibaba and Xiaomi executive, Webull launched with a clear thesis: give retail traders professional-grade analytical tools without charging commissions. The platform now serves over 23 million users globally and went public on NASDAQ (ticker: BULL) in April 2025 via a SPAC merger with SK Growth Opportunities Corporation.\n\nWebull supports trading in US stocks, ETFs, options (up to 4-leg strategies), futures, mutual funds, crypto (50+ coins), treasuries, and event contracts. It is regulated by FINRA, SEC, and is a SIPC member with up to $500,000 in securities protection. Clearing is handled through Apex Clearing, which provides additional excess insurance.\n\n## The Commission-Free Model — How Webull Actually Makes Money\n\nLet's address the elephant in the room. Webull's primary revenue source is Payment for Order Flow (PFOF) — routing your stock and options orders to market makers like Citadel Securities and Virtu Financial, who pay Webull for the privilege of executing those trades. In 2024, PFOF accounted for approximately 50.5% of Webull's total revenue, generating $197.1 million.\n\nWhat does this mean for you? Your trades might not get the absolute best execution price. The SEC's proposed \"order competition rule\" that would have addressed PFOF was withdrawn in 2025, so this practice continues. Webull is transparent about it — they publish 606 reports — but if execution quality is your top priority, a broker like Interactive Brokers will likely do better.\n\nBeyond PFOF, Webull earns from margin interest (8.74% for standard accounts), interest on uninvested cash in customer accounts, crypto spreads (1% per trade), premium subscriptions, and stock lending.\n\n## Charting and Analytical Tools\n\nThis is where Webull punches above its weight class. For a free platform, the technical analysis toolkit is genuinely impressive.\n\nThe charting engine includes 56 technical indicators (RSI, MACD, Bollinger Bands, VWAP, and more), 19 drawing tools, and multiple chart types. The platform offers automated chart pattern detection and a historical \"Replay Mode\" that lets you scrub through past price action — a great feature for studying setups without risking capital.\n\nOrder flow visualization and volume analysis tools give you insight into where big buyers and sellers are positioned, something that used to require expensive Level 2 subscriptions or dedicated platforms like Bookmap. The \"Saturn\" markets hub provides macro data including yield curves, sector heatmaps, and net inflows — useful context that most free brokers don't offer.\n\nHowever, the stock screener is limited compared to dedicated screening tools like Finviz or Trade Ideas. There's no meaningful ETF screening capability, no ESG research, and no downloadable PDF research reports. If deep fundamental analysis is your thing, you'll need to supplement Webull with other tools.\n\n## Mobile App Experience\n\nWebull's mobile app is one of the strongest in the commission-free brokerage space, rated 4.5/5 by StockBrokers.com. It packs nearly the full desktop experience into a phone screen: all 56 indicators, drawing tools, order flow data, and AI-powered news summaries. Apple Watch support is included.\n\nThe multi-leg options interface on mobile works but feels restrictive compared to desktop. For quick trades and market monitoring, the app is excellent. For complex options strategies, you'll want the desktop platform.\n\nUser reviews on the App Store and Google Play are mixed — Android users tend to rate it more favorably than iOS users. Common complaints center on occasional bugs during transfers and account funding delays rather than the trading experience itself.\n\n## Extended Hours and Market Access\n\nWebull offers some of the broadest trading hours among retail brokers. Pre-market opens at 4:00 AM ET, and after-hours trading extends to 8:00 PM ET — giving you a 16-hour daily trading window Monday through Friday. In late 2024, Webull also launched overnight trading for select securities, further expanding access.\n\nFor crypto, trading is available 24/7 with 50+ coins including Bitcoin, Ethereum, Solana, and popular altcoins. The minimum crypto trade is just $1. One important limitation: you cannot transfer crypto to an external wallet. Your coins stay on Webull's platform.\n\nFractional shares are supported, allowing you to buy into high-priced stocks like AMZN or GOOG with as little as $5. IPO access is available under specific account requirements, letting retail traders participate in new offerings that were historically reserved for institutional investors.\n\n## Paper Trading\n\nWebull's paper trading feature is ranked #1 among brokerages by StockBrokers.com for 2026. It uses real market data with virtual funds, letting you test strategies without risk. This isn't a watered-down simulation — you get the same charting tools, order types, and market data as live trading.\n\nFor new traders, this is arguably Webull's most valuable feature. You can practice options strategies, test your day trading discipline, and build confidence before committing real capital. The paper trading account resets easily, so you can experiment with different approaches.\n\n## Webull Premium — Is It Worth $3.99/Month?\n\nLaunched in March 2025, Webull Premium costs $3.99/month or $40/year and adds several benefits over the free tier.\n\nThe headline features include reduced margin rates (as low as 3.90% compared to 8.74% standard), higher APY on uninvested cash (approximately 3.35-3.60%), Nasdaq Level 2 quotes, OPRA options data, IRA contribution matching at a rate that beats Robinhood Gold's 3%, and discounts on index options commissions.\n\nAt $40/year, this is cheap relative to competitors. Robinhood Gold costs $50/year. The margin rate reduction alone pays for itself if you carry any margin balance. The Level 2 data is a nice-to-have for active traders who want to see order book depth.\n\nThe honest take: if you trade on margin or want Level 2 data, Premium is an easy yes at this price. If you only buy and hold stocks with cash, the free tier is perfectly adequate.\n\n## Webull Smart Advisor\n\nFor hands-off investors, Webull offers Smart Advisor, a robo-advisory service managed by State Street Global Advisors. It requires only a $100 minimum with a 0.20% annual advisory fee. It provides goal tracking and personalized portfolios based on your risk tolerance.\n\nThis competes with Betterment (0.25%) and Wealthfront (0.25%) on price and is cheaper than both. However, the portfolio construction isn't as sophisticated as dedicated robo-advisors. It's a decent option if you want everything in one place, but dedicated robo-advisory platforms offer more features.\n\n## Event Contracts and Futures\n\nWebull has expanded beyond traditional securities. Futures trading is available at $1.25 per contract. In early 2026, Webull partnered with Kalshi (a CFTC-regulated prediction market exchange) to offer $0 commission event contracts covering sports, economic indicators, and crypto predictions.\n\nThese are niche features, but they signal that Webull is building toward being a one-stop trading platform rather than just a stock broker.\n\n## Account Types and Limitations\n\nWebull supports individual and joint taxable accounts, plus Traditional, Roth, and Rollover IRAs. That covers most retail investors.\n\nWhat's missing: no SEP IRAs, no inherited/beneficiary IRAs, no trust accounts, no custodial accounts (529s, UTMAs). If you need any of these, you'll have to look at Schwab, Fidelity, or Vanguard.\n\n## Customer Support — The Weak Spot\n\nThis is Webull's most significant weakness. StockBrokers.com rated Webull's customer service at 0.92 out of 10 — dead last among 11 brokers tested. Average hold times exceed 10 minutes. There's no option to speak with a human financial advisor.\n\nFor a self-directed trader who rarely needs help, this may not matter. But if something goes wrong with a transfer, a margin call, or an account issue, the lack of responsive support can be genuinely frustrating. This is a real risk factor, not a minor inconvenience.\n\n## Who Should Use Webull\n\nWebull is best for self-directed traders who want strong analytical tools without paying commissions. Active traders and options traders will appreciate the charting depth, extended hours, and Level 2 data. Mobile-first traders will find one of the best apps in the industry.\n\nThe platform hits a sweet spot for intermediate traders who have outgrown Robinhood's simplicity but don't need (or want to pay for) Interactive Brokers' complexity. The paper trading feature also makes it a strong choice for beginners who want to learn properly before trading real money.\n\n## Who Should Look Elsewhere\n\nIf you need retirement accounts beyond basic IRAs, look at Schwab or Fidelity. If execution quality matters more than zero commissions, consider Interactive Brokers. If you want human advisory services or hand-holding, Webull is not for you. And if you're trading large accounts where the PFOF execution cost could exceed what you'd pay in commissions elsewhere, run the math — sometimes \"free\" isn't cheapest.\n\n## The Bottom Line\n\nWebull delivers a compelling package: commission-free trading across multiple asset classes, above-average charting tools, best-in-class paper trading, extended hours, and a solid mobile app. The Webull Premium subscription at $40/year adds genuine value for active traders.\n\nThe trade-offs are real: PFOF-based revenue means your execution may not be optimal, customer support is among the worst in the industry, and account type options are limited. But for the target user — a self-directed trader who values tools over hand-holding — Webull offers more per dollar than almost any competitor.",
   "logo_url": "/logos/webull.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/webull/webull-homepage.webp",
+      "alt": "Webull homepage showing commission-free trading platform overview"
+    },
+    {
+      "label": "pricing",
+      "path": "/screenshots/webull/webull-pricing.webp",
+      "alt": "Webull pricing page showing commission rates, fees, and Premium subscription"
+    }
+  ],
   "website_url": "https://www.webull.com",
   "affiliate_url": "",
   "affiliate_program": "Webull Referral Program",
@@ -17,16 +28,41 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Standard",
+        "name": "Standard (Free)",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Commission-free stocks/ETFs/options", "Extended hours trading (4AM-8PM ET)", "Paper trading", "50+ indicators", "Desktop + mobile apps", "Crypto trading"]
+        "features": [
+          "Commission-free stocks, ETFs, and equity options",
+          "Extended hours trading (4AM-8PM ET)",
+          "Paper trading with real market data",
+          "56 technical indicators, 19 drawing tools",
+          "Desktop, web, and mobile apps",
+          "Crypto trading (50+ coins, 24/7)",
+          "Fractional shares ($5 minimum)",
+          "IPO access",
+          "Futures ($1.25/contract)",
+          "Social community feed"
+        ]
+      },
+      {
+        "name": "Webull Premium",
+        "price_monthly": 3.99,
+        "price_yearly": 40,
+        "features": [
+          "All Standard features",
+          "Reduced margin rates (as low as 3.90%)",
+          "Higher APY on uninvested cash (~3.35-3.60%)",
+          "Nasdaq Level 2 quotes",
+          "OPRA options market data",
+          "IRA contribution matching",
+          "Index options commission discounts"
+        ]
       }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false,
+    "ai_analysis": true,
     "backtesting": false,
     "paper_trading": true,
     "alerts": true,
@@ -42,22 +78,61 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options", "crypto"],
-  "pros": ["Commission-free across stocks, options, and crypto", "Extended hours trading 4AM-8PM ET", "Built-in paper trading with real data", "Strong charting tools for a free platform"],
-  "cons": ["No mutual funds or bonds", "Customer support can be slow", "Revenue from payment for order flow may impact execution quality"],
+  "markets": ["stocks", "options", "futures", "crypto"],
+  "pros": [
+    "Commission-free trading across stocks, ETFs, options, and 50+ cryptos",
+    "Extended hours trading 4AM-8PM ET plus overnight trading on select securities",
+    "Best-in-class paper trading — ranked #1 by StockBrokers.com for 2026",
+    "56 technical indicators, order flow analysis, and Replay Mode on a free platform",
+    "Webull Premium at $40/year is cheaper than Robinhood Gold and adds Level 2 + lower margin rates",
+    "Fractional shares, IPO access, futures, and event contracts in one platform"
+  ],
+  "cons": [
+    "Customer support ranked last (0.92/10) among major brokers — hold times exceed 10 minutes",
+    "PFOF accounts for ~50% of revenue, which may impact trade execution quality",
+    "No SEP IRAs, inherited IRAs, trust accounts, or custodial accounts (529s/UTMAs)",
+    "Crypto cannot be transferred to external wallets — coins stay on Webull",
+    "Stock screener is basic compared to dedicated tools like Finviz or Trade Ideas"
+  ],
   "rating": 4.2,
   "rating_breakdown": {
-    "ease_of_use": 4.5,
-    "features": 4.0,
+    "ease_of_use": 4.4,
+    "features": 4.2,
     "value": 4.7,
-    "support": 3.5,
+    "support": 2.5,
     "reliability": 4.2
   },
   "founded_year": 2017,
-  "company": "Webull Financial LLC",
+  "company": "Webull Corporation (NASDAQ: BULL)",
   "headquarters": "New York, New York",
-  "best_for": ["new traders", "mobile traders", "commission-conscious traders"],
-  "similar_tools": ["robinhood", "charles-schwab", "tastytrade"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": ["active traders", "options traders", "mobile traders", "commission-conscious traders"],
+  "similar_tools": ["robinhood", "charles-schwab", "tastytrade", "interactive-brokers"],
+  "last_updated": "2026-03-30",
+  "review_status": "published",
+  "company_background": "Founded in 2017 by Wang Anquan (ex-Alibaba, ex-Xiaomi). Originally backed by Xiaomi and Shunwei Capital through parent company Hunan Fumi Information Technology. Raised $150M by 2021 (unicorn status). Corporate restructuring in 2022 separated Fumi Technology as an independent third-party technology provider. Went public on NASDAQ (ticker: BULL) in April 2025 via SPAC merger with SK Growth Opportunities Corp, surging 375% in its second trading day to a ~$30B market cap. 23 million users globally. Regulated by FINRA, SEC. SIPC member. Clearing via Apex Clearing.",
+  "scraped_features": [
+    "Commission-free US stocks, ETFs, and equity options",
+    "56 technical indicators and 19 drawing tools",
+    "Historical Replay Mode for studying past price action",
+    "Order flow visualization and volume analysis",
+    "Saturn markets hub with yield curves, sector heatmaps, net inflows",
+    "Extended hours trading 4AM-8PM ET plus overnight trading",
+    "Paper trading ranked #1 among brokerages (StockBrokers.com 2026)",
+    "Fractional shares with $5 minimum",
+    "IPO access for retail investors",
+    "50+ cryptocurrencies with 24/7 trading",
+    "Futures trading at $1.25/contract",
+    "Event contracts via Kalshi partnership ($0 commission)",
+    "4-leg options strategies supported",
+    "AI-powered news summaries and market analysis",
+    "Webull Smart Advisor robo-advisory (0.20% fee, $100 min)",
+    "Apple Watch support",
+    "Turbo Trader for rapid execution on desktop",
+    "Algo orders ($0.005/share)",
+    "Social community feed",
+    "Traditional, Roth, and Rollover IRA accounts"
+  ],
+  "meta_title": "Webull Review 2026 — Commission-Free Trading Done Right?",
+  "meta_description": "Honest Webull review: $0 commissions, 56 indicators, #1-ranked paper trading, extended hours, and Premium at $40/yr. The PFOF trade-off explained.",
+  "enriched_at": "2026-03-30"
 }

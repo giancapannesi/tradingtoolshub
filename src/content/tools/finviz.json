@@ -7,7 +7,7 @@
     "market-visualization"
   ],
   "description_short": "Powerful stock screener with market heat maps, fundamentals, technical filters, and real-time quotes on the Elite plan.",
-  "description_long": "Finviz (Financial Visualizations) is one of the most widely-used stock screening and market visualization tools available. The platform offers an incredibly fast and intuitive screener that lets traders filter stocks by dozens of fundamental, technical, and descriptive criteria simultaneously.\n\nThe free version provides delayed data with access to the screener, market heat maps, sector performance views, and basic stock charts. Finviz Elite at $39.50/month unlocks real-time quotes, advanced screener features, custom presets, push alerts, and an ad-free experience.\n\nFinviz's heat maps are iconic in the trading community, providing an at-a-glance view of market performance by sector, market cap, or custom criteria. The screener's speed and breadth of filters make it an essential tool for traders looking to find opportunities quickly across the US stock market.",
+  "description_long": "## What Is Finviz?\n\nFinviz -- short for Financial Visualizations -- is a browser-based stock screener and market research platform that has been a staple of the retail trading community since 2007. Founded by Juraj Duris, Finviz is a bootstrapped, independently operated company with no venture capital funding. That independence shows in the product: no bloat, no social features shoehorned in, no pivot-of-the-month. Finviz does a few things and does them exceptionally well -- screening stocks, visualizing market data, and aggregating financial news.\n\nThe platform covers over 8,500 US-listed securities across NYSE, Nasdaq, and AMEX. It also provides overview pages for futures, forex, crypto, and bonds, though the core screener is strictly US equities. Finviz is used by millions of traders monthly, and its heat map has become one of the most recognizable images in financial media -- frequently shared on social platforms and embedded on financial news sites.\n\n## The Stock Screener -- Why It Is the Standard\n\nThe Finviz screener is arguably the best free stock screener available anywhere. It lets you filter across 67 criteria organized into three tabs: Descriptive, Fundamental, and Technical.\n\n**Descriptive filters** cover the basics -- exchange, sector, industry, country, market cap, dividend yield, float, shares outstanding, average volume, and relative volume. These are the filters you use to narrow the universe before applying deeper criteria.\n\n**Fundamental filters** include P/E ratio, forward P/E, PEG, P/S, P/B, P/FCF, EPS growth (current year, next year, past 5 years, next 5 years), sales growth, return on equity, return on assets, debt-to-equity, current ratio, gross margin, operating margin, profit margin, and payout ratio. For value investors and fundamental analysts, this is an enormous amount of data accessible through simple dropdown menus.\n\n**Technical filters** let you screen by performance period (1 week to 1 year), volatility, RSI, gap percentage, SMA and EMA proximity (20/50/200-day), candlestick patterns, beta, ATR, and chart patterns. The chart pattern filter is particularly notable -- you can scan for double tops, double bottoms, head and shoulders, ascending/descending triangles, wedges, and channels across the entire market in seconds.\n\nThe screener is fast. Not \"fast for a web tool\" -- genuinely fast. Results load in fractions of a second even when combining multiple filters. You can view results as a sortable table with tickers and metrics, as a grid of mini-charts, or as detailed snapshots showing fundamentals, news, and insider activity for each stock. The speed and usability gap between Finviz and most other free screeners is substantial.\n\n## Heat Maps -- The Iconic Market Snapshot\n\nFinviz's S&P 500 heat map is probably the platform's most widely recognized feature. Each stock is represented as a rectangle sized by market capitalization and colored by price performance -- green for up, red for down, with color intensity reflecting the magnitude of the move. You can instantly see where money is flowing: which sectors are leading, which mega-caps are dragging the index, and whether breadth is broad or narrow.\n\nThe heat map is not limited to the S&P 500. You can view the full US market, individual sectors, ETFs, and world markets. You can also change the metric from daily performance to weekly, monthly, or yearly returns, as well as view by P/E ratio, dividend yield, float short, or analyst recommendations.\n\nTraders use the heat map in several practical ways. At market open, a quick glance tells you whether the session is risk-on or risk-off. Sector rotation traders use it to identify which groups are gaining momentum before it shows up in index-level moves. Portfolio managers use it to check whether their holdings are aligned with or diverging from the broader market.\n\n## Charts and Technical Analysis\n\nFree charts show daily candlesticks with 50-day and 200-day simple moving averages, trend channels, and volume bars. They are static -- you cannot draw on them, change timeframes, or overlay custom indicators.\n\nFinviz Elite unlocks interactive charting with intraday timeframes from 1-minute to monthly, drawing tools including trend lines and Fibonacci retracements, and indicator overlays like Bollinger Bands, MACD, and RSI. Elite also adds automatic chart pattern recognition, identifying formations like wedges, triangles, double tops/bottoms, head and shoulders, and channels directly on the chart.\n\nThat said, even Elite charting is not in the same league as TradingView or thinkorswim. If advanced charting is your primary need -- custom indicators, scripting, multi-pane layouts -- Finviz is not the right tool. It is a screener first, with charting as a complement.\n\n## Finviz Elite -- What $39.50/Month Gets You\n\nFinviz Elite costs $39.50/month or $299.50/year (effectively $24.96/month on annual billing). The key upgrades over the free version:\n\n**Real-time data.** Free Finviz has a 15-20 minute delay on quotes and a 3-5 minute delay on heat maps. Elite refreshes quotes in real time at intervals of several seconds. For anyone making intraday decisions, this alone justifies the subscription.\n\n**Premarket and after-hours data.** Elite shows premarket activity from 4:00 AM to 9:30 AM and after-hours from 4:00 PM to 8:00 PM. The premarket screener is genuinely useful for gap scanners and traders who prepare watchlists before the opening bell.\n\n**Backtesting.** Elite includes a backtesting tool that lets you test screener-based strategies against up to 20 years of historical data, measuring average returns, win rates, and drawdowns.\n\n**Advanced charts.** Interactive charts with multiple timeframes, drawing tools, indicator overlays, and automatic pattern recognition.\n\n**Email alerts.** Set alerts for price changes, news events, analyst ratings changes, insider transactions, and SEC filings on stocks you follow.\n\n**Data export and API access.** Export screener results and research data to Excel. API access is available for programmatic use.\n\n**Ad-free experience.** The free version carries banner ads. Elite removes them entirely.\n\nFinviz offers a 30-day money-back guarantee on all paid subscriptions.\n\n## News, Insider Trading, and Market Data\n\nFinviz aggregates financial news from Bloomberg, Reuters, CNBC, MarketWatch, and other major outlets. Each stock's detail page shows relevant headlines alongside fundamentals and charts.\n\nThe insider trading section tracks SEC Form 4 filings, showing which executives and directors are buying or selling shares. You can filter by transaction type, value, and date -- a solid free resource for monitoring insider activity.\n\nBeyond US equities, Finviz provides overview pages for major futures (indices, energy, metals, grains, softs, meats, currencies), forex pairs, and cryptocurrencies. These pages show prices, performance, and charts but are not full-featured screeners -- you cannot apply filters to futures or forex the way you can with stocks.\n\n## Who Finviz Is Best For\n\nFinviz excels for a specific type of trader: someone who needs to scan the US stock market quickly, wants a visual snapshot of market conditions, and values speed and simplicity over feature depth.\n\n**Swing traders** who build daily watchlists based on fundamental and technical criteria will find the screener indispensable. **Value investors** can screen by P/E, P/B, debt ratios, and margins to find undervalued candidates. **Momentum traders** can filter for gap-ups, unusual volume, and technical breakout patterns. **Visual learners** who want to understand market dynamics at a glance will love the heat maps.\n\nFinviz is also a natural complement to other tools. Many traders use Finviz for idea generation and screening, then switch to TradingView for detailed charting and trade execution through a broker. The two platforms cover different strengths with minimal overlap.\n\n## Limitations -- Where Finviz Falls Short\n\nFinviz has clear boundaries that you should understand before committing:\n\n**US stocks only.** The screener covers NYSE, Nasdaq, and AMEX. There is no international market coverage -- no London, Tokyo, Hong Kong, or European exchanges. If you trade global equities, you need a different tool.\n\n**No options data or screening.** Despite options being occasionally mentioned, Finviz does not provide meaningful options chain data, implied volatility screening, or options flow. Options traders should look at OptionStrat, Unusual Whales, or their broker platform.\n\n**No direct trading.** Finviz is a research and screening tool only. You cannot place orders, connect a brokerage account, or execute trades from the platform.\n\n**No mobile app.** Finviz is browser-only. The website works on mobile browsers but there is no dedicated iOS or Android app, and the mobile experience is not optimized.\n\n**No AI or automation.** There are no AI-driven signals, automated scanning alerts on the free tier, or predictive features. Finviz provides raw data and filters -- you supply the analysis.\n\n**Basic customer support.** There is no live chat, phone support, or extensive knowledge base. Documentation is minimal. You learn Finviz by using it.\n\n## The Bottom Line\n\nFinviz is one of those tools where the free version is so good that millions of traders use it daily without ever paying. The screener's speed, filter breadth, and visual output are unmatched in the free tier. Elite is a reasonable upgrade at $24.96/month (annual) for traders who need real-time data, premarket scanning, and backtesting -- though it is not a substitute for a dedicated charting platform or trading terminal.\n\nIf you trade US stocks and do not already use Finviz, you are almost certainly missing out on the fastest way to scan the market.",
   "logo_url": "/logos/finviz.svg",
   "screenshots": [
     {
@@ -35,10 +35,13 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Basic screener",
-          "Delayed data",
-          "Heat maps",
-          "Stock charts",
+          "60+ screener filters (fundamental, technical, descriptive)",
+          "15-20 minute delayed quotes",
+          "S&P 500 and full market heat maps",
+          "Basic daily stock charts with SMA 50/200",
+          "Insider trading data and news aggregation",
+          "Futures, forex, crypto overview pages",
+          "Save up to 50 screener presets (registered)",
           "Ads shown"
         ]
       },
@@ -47,12 +50,17 @@
         "price_monthly": 39.5,
         "price_yearly": 299.5,
         "features": [
-          "Real-time quotes & charts",
-          "Advanced screener",
-          "Push alerts",
-          "Ad-free",
-          "Export/API access",
-          "ETF & fundamental data"
+          "Real-time quotes refreshed every few seconds",
+          "70+ screener filters with advanced criteria",
+          "Premarket (4 AM) and after-hours (8 PM) data",
+          "Interactive charts with intraday timeframes (1-min to monthly)",
+          "Chart pattern recognition (wedges, triangles, H&S, channels)",
+          "Drawing tools, Fibonacci, indicator overlays",
+          "Backtesting with 20+ years of historical data",
+          "Email alerts for price, news, ratings, insider, SEC filings",
+          "Data export to Excel and API access",
+          "Ad-free experience",
+          "30-day money-back guarantee"
         ]
       }
     ],
@@ -60,7 +68,7 @@
   },
   "features": {
     "ai_analysis": false,
-    "backtesting": false,
+    "backtesting": true,
     "paper_trading": false,
     "alerts": true,
     "mobile_app": false,
@@ -76,23 +84,26 @@
     "education": false
   },
   "markets": [
-    "futures",
-    "crypto",
-    "options",
     "stocks",
-    "bonds",
-    "forex"
+    "futures",
+    "forex",
+    "crypto",
+    "bonds"
   ],
   "pros": [
-    "Best-in-class stock screener with dozens of filters",
-    "Iconic heat maps for market visualization",
-    "Free tier is surprisingly useful",
-    "Fast, responsive interface"
+    "Best free stock screener available -- 60+ filters with fast, responsive results",
+    "Iconic heat maps provide instant visual market overview by sector and market cap",
+    "Generous free tier that millions of traders use daily without needing to upgrade",
+    "Screener speed is genuinely best-in-class -- results load in fractions of a second",
+    "Insider trading data and news aggregation included free for every stock",
+    "Elite premarket/after-hours data useful for gap scanners and pre-open preparation"
   ],
   "cons": [
-    "US stocks only, no international markets",
-    "Free version has delayed data and ads",
-    "No charting or trading execution"
+    "US stocks only -- no international market coverage (no LSE, TSE, European exchanges)",
+    "Free version has 15-20 minute data delay and banner ads throughout",
+    "Charting is basic even on Elite -- not comparable to TradingView or thinkorswim",
+    "No options screening, options flow, or meaningful options chain data",
+    "No mobile app -- browser-only with unoptimized mobile experience"
   ],
   "rating": 4.5,
   "rating_breakdown": {
@@ -106,35 +117,50 @@
   "company": "Finviz Inc.",
   "headquarters": "New York, New York",
   "best_for": [
-    "stock traders",
+    "stock screener users",
     "swing traders",
-    "fundamental analysts"
+    "fundamental analysts",
+    "visual market overview seekers",
+    "value investors"
   ],
   "similar_tools": [
     "trade-ideas",
     "stock-rover",
-    "benzinga-pro"
+    "benzinga-pro",
+    "tc2000"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-03-30",
   "review_status": "published",
+  "company_background": "Founded in 2007 by Juraj Duris, Finviz (Financial Visualizations) is a bootstrapped, independently operated company with no venture capital funding. The platform has grown organically into one of the most widely used stock screening tools in the world, serving millions of traders monthly including professionals at major institutions. Finviz operates with a small team and a lean product philosophy -- no feature bloat, no social gimmicks, just fast screening and clear market visualization.",
   "scraped_features": [
-    "Real-time stock screener with market heat maps",
-    "Fundamentals and technical filters",
-    "Real-time quotes and multi-layout charts",
-    "Custom alerts and advanced screening filters",
-    "ETF insights and seamless exports",
-    "Insider trading data with transaction details",
-    "Economic calendar with earnings releases",
-    "Futures, Forex, Crypto, and Bond market data",
-    "Technical pattern recognition (wedges, triangles, channels, head & shoulders)",
-    "Market trend signals (new highs/lows, overbought/oversold, unusual volume)"
+    "Stock screener with 67 filters across fundamental, technical, and descriptive categories",
+    "S&P 500 and full market heat maps with color-coded performance visualization",
+    "Real-time quotes with several-second refresh rate (Elite)",
+    "Premarket data from 4 AM and after-hours data until 8 PM (Elite)",
+    "Interactive charts with intraday timeframes from 1-minute to monthly (Elite)",
+    "Automatic chart pattern recognition: wedges, triangles, channels, H&S, double tops/bottoms (Elite)",
+    "Drawing tools including trend lines and Fibonacci retracements (Elite)",
+    "Indicator overlays: Bollinger Bands, MACD, RSI, and others (Elite)",
+    "Backtesting with 20+ years of historical data (Elite)",
+    "Insider trading tracker with SEC Form 4 filing data",
+    "Financial news aggregation from Bloomberg, Reuters, CNBC, MarketWatch, and others",
+    "Email alerts for price, news, ratings, insider transactions, SEC filings (Elite)",
+    "Futures overview: indices, energy, metals, grains, softs, meats, currencies",
+    "Forex pairs with quotes, relative performance, and charts",
+    "Cryptocurrency overview with prices and performance",
+    "Data export to Excel and API access (Elite)",
+    "Sector and industry group performance analysis",
+    "Bubble charts and group screener by sector, industry, country, and market cap"
   ],
   "unique_selling_points": [
-    "Integrated market heat maps combining advancing/declining stocks with price level analysis",
-    "Insider trading tracker with transaction value and share quantities",
-    "Technical pattern screener with 15+ chart patterns",
-    "All-in-one platform combining stocks, options, futures, forex, and crypto in single interface",
-    "Real-time news with market impact indicators on major stocks"
+    "Best-in-class free stock screener used by millions of traders daily",
+    "Iconic heat maps that have become a standard visual in financial media",
+    "67 screening filters covering fundamentals, technicals, and descriptive criteria",
+    "Insider trading tracker with transaction values and share quantities",
+    "Technical pattern screener with 15+ chart patterns across the entire market",
+    "Bootstrapped and independent -- no VC pressure, product-focused development"
   ],
-  "enriched_at": "2026-03-28"
+  "meta_title": "Finviz Review 2026 -- The Best Free Stock Screener?",
+  "meta_description": "Honest Finviz review covering the free screener, Elite ($39.50/mo), heat maps, 67 filters, backtesting, and limitations. Best free stock screener?",
+  "enriched_at": "2026-03-30"
 }
