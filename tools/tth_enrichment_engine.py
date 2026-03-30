@@ -78,6 +78,31 @@ def load_all_tools():
     return tools
 
 
+def load_gsc_signal():
+    """Load GSC impressions data to boost tools that Google is already trying to rank."""
+    gsc_file = "/srv/BusinessOps/TradingToolsHub_SEO/gsc_reports"
+    signal = {}
+    try:
+        # Find most recent GSC report
+        reports = sorted(glob.glob(os.path.join(gsc_file, "gsc_report_*.json")), reverse=True)
+        if reports:
+            with open(reports[0]) as f:
+                data = json.load(f)
+            for page in data.get('top_pages', []):
+                url = page.get('page', '')
+                imp = page.get('impressions', 0)
+                # Extract tool slug from review/alternatives URLs
+                if '/review/' in url:
+                    slug = url.split('/review/')[-1].strip('/')
+                    signal[slug] = signal.get(slug, 0) + imp
+                elif '/alternatives/' in url:
+                    slug = url.split('/alternatives/')[-1].strip('/')
+                    signal[slug] = signal.get(slug, 0) + imp
+    except Exception:
+        pass
+    return signal
+
+
 def get_enrichment_queue(tools):
     """Prioritize tools for enrichment. Returns list of thin tools sorted by priority."""
     thin_tools = []
@@ -86,9 +111,15 @@ def get_enrichment_queue(tools):
         if word_count < 500:
             thin_tools.append(t)
 
+    gsc_signal = load_gsc_signal()
+
     def priority_score(tool):
         slug = tool.get('slug', '')
         score = 0
+
+        # GSC signal boost — tools Google is already ranking get top priority
+        if slug in gsc_signal:
+            score += gsc_signal[slug] * 5  # 5 points per impression
 
         # Affiliate priority (higher = more important)
         if slug in AFFILIATE_PRIORITY:
