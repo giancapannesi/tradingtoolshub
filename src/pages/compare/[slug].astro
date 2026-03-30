@@ -119,7 +119,7 @@ const jsonLd = [
 ---
 <BaseLayout
   title={comparison.title}
-  description={metaDescription}
+  description={comparison.meta_description || metaDescription}
   jsonLd={jsonLd}
   noindex={shouldNoindex}
 >
