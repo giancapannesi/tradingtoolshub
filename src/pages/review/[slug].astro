@@ -416,6 +416,22 @@ const jsonLd = [
       </section>
     )}
 
+    <!-- Affiliate Banner -->
+    {tool.affiliate_banner && tool.affiliate_url && (
+      <div class="mb-6 flex justify-center">
+        <a href={tool.affiliate_url} target="_blank" rel="nofollow sponsored" class="inline-block rounded-xl overflow-hidden hover:opacity-90 transition-opacity">
+          <img
+            src={tool.affiliate_banner.src}
+            alt={tool.affiliate_banner.alt}
+            width={tool.affiliate_banner.width}
+            height={tool.affiliate_banner.height}
+            loading="lazy"
+            class="max-w-full h-auto"
+          />
+        </a>
+      </div>
+    )}
+
     <!-- Affiliate Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
       <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you. This helps us keep TradingToolsHub free and our reviews independent.

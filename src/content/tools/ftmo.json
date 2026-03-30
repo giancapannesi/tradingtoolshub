@@ -10,6 +10,12 @@
   "description_long": "FTMO is the world's most recognized proprietary trading firm (prop firm), offering traders the opportunity to trade with funded capital after passing a structured evaluation process. Founded in Prague in 2015, FTMO has paid out hundreds of millions of dollars in profits to successful traders.\n\nThe evaluation process consists of two phases: the FTMO Challenge (Phase 1) where traders must reach a 10% profit target within 30 days while respecting a 5% daily loss limit and 10% maximum loss limit, followed by the Verification (Phase 2) with a 5% profit target within 60 days under the same risk rules. Once both phases are passed, traders receive an FTMO Account with up to 90% profit split.\n\nFTMO supports trading on MetaTrader 4, MetaTrader 5, and cTrader across forex, indices, commodities, stocks, and crypto. Account sizes range from $10,000 to $200,000. The firm provides free trials, performance analytics, a trading journal, and account analysis tools. FTMO is known for its transparency, reliable payouts (processed biweekly), and professional trader community.",
   "logo_url": "/logos/ftmo.svg",
   "screenshots": [],
+  "affiliate_banner": {
+    "src": "https://cdn.ftmo.com/aff-banner.728x90",
+    "alt": "FTMO.com - For serious traders",
+    "width": 728,
+    "height": 90
+  },
   "website_url": "https://www.ftmo.com",
   "affiliate_url": "https://trader.ftmo.com/?affiliates=ohqfgAXDqODihRFUwLUa",
   "affiliate_program": "FTMO US Affiliate Program (JV Prop / OANDA)",
