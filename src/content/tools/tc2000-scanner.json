@@ -8,9 +8,20 @@
     "options-scanning"
   ],
   "description_short": "TC2000 by Worden Brothers is a fast, US-focused stock scanner and charting platform voted best trading software by Stocks & Commodities for 25 consecutive years.",
-  "description_long": "TC2000, developed by Worden Brothers since 1988, is a premier stock scanning and charting platform built exclusively for US equity and options traders. Its EasyScan feature processes roughly 1,000 stocks in about 2 seconds, making it one of the fastest screening tools available. The platform has earned recognition from Stocks & Commodities Magazine as the best trading software for 25 consecutive years, a testament to its enduring depth and reliability.\n\nThe platform packs over 240 technical indicators alongside 129+ fundamental variables that can be overlaid directly onto charts \u2014 a rare capability that blends technical and fundamental analysis without switching tools. Proprietary indicators like MoneyStream, Balance of Power, and Time Segmented Volume give TC2000 a unique analytical edge unavailable elsewhere. Traders can flip through 1,000 charts in under 30 minutes using spacebar navigation, and custom scan conditions are built using TC2000's PCF (Personal Criteria Formula) language. Historical condition testing, added in Version 20, allows backtesting of scan criteria against past market data.\n\nTC2000 is intentionally US-focused \u2014 it covers NYSE, NASDAQ, and AMEX stocks plus US options and ETFs, but does not support futures, forex, crypto, or international markets. Real-time data requires paid add-ons ($14.99/mo for US stocks, $9.99/mo each for options and index data), which meaningfully raises the effective cost beyond the base subscription price. An integrated brokerage is available but carries non-competitive commissions ($4.95/trade for stocks) compared to zero-commission brokers; most users trade through Schwab, Fidelity, or similar platforms instead.\n\nTC2000 is best suited for active US stock and options traders who prioritize scanning speed, charting depth, and tightly integrated analysis. It rewards traders willing to invest time in the PCF formula language, which unlocks highly customized scan criteria unavailable in most competing tools. For those focused exclusively on US equities and options, TC2000 remains one of the most capable and battle-tested platforms available.",
+  "description_long": "## What Is TC2000 Scanner?\n\nTC2000 is a stock screening and charting platform built by Worden Brothers, Inc., a family-run software company founded in 1988 and headquartered in Wilmington, North Carolina. The Worden family — led by Don Worden and his sons Peter and Doug — has been developing technical analysis tools since the late 1980s, well before most retail traders had internet access. The platform has won Stocks & Commodities Magazine's Readers' Choice Award for best trading software for over 25 consecutive years, which is a legitimate and unusual streak in an industry full of here-today-gone-tomorrow products.\n\nTC2000 is not a broker-first platform that bolted on scanning. It is a scanner-first platform that later added brokerage services. That distinction matters because the scanning and charting experience is genuinely best-in-class for US equities, while the brokerage side remains a secondary offering.\n\n## Core Features and What Makes TC2000 Unique\n\nThe heart of TC2000 is **EasyScan**, its stock and options screener. Worden Brothers claims EasyScan could scan 1,000 stocks in two seconds back in 1995. In 2026, it processes millions of data points across technical and fundamental conditions with near-instant results. The scanner uses a **Condition Wizard** that lets you build scan criteria step-by-step without writing formulas — though formula writing is available for advanced users. This is a genuine advantage over competitors like Finviz, where screening is limited to predefined filter dropdowns.\n\nTC2000 offers **240+ technical indicators** and **129+ fundamental variables** that can be overlaid on the same chart. That combination of technical and fundamental data in a single view is uncommon. Most platforms force you to switch between separate screens for charts and fundamentals.\n\nThree **proprietary indicators** — MoneyStream, Balance of Power, and Time Segmented Volume — are exclusive to TC2000 and unavailable on any other platform. These volume-based indicators have a loyal following among TC2000's long-time user base. Whether they offer a genuine edge is debatable, but they do represent unique intellectual property you cannot replicate elsewhere.\n\nThe **Spacebar chart-flipping** feature lets you flip through an entire watchlist one chart at a time by pressing the spacebar. It sounds simple, but traders who use it report reviewing 1,000 charts in 20 to 30 minutes. For visual pattern traders who want to eyeball setups rather than rely purely on scans, this is a killer workflow feature.\n\nTC2000 also includes **historical condition testing**, which lets you backtest scan conditions against past data to see how often your criteria would have triggered. This is not full strategy backtesting with entry/exit rules and P&L tracking — it is condition frequency testing. Useful, but do not confuse it with a proper backtesting engine like what you would find in TradingView or AmiBroker.\n\nOn the options side, TC2000 offers **options charting with historical and streaming bid/ask data**, intrinsic value and time value plotting, and 11 options-specific scanning variables. The options charting is genuinely innovative — plotting historical option price data as charts rather than just tables gives options traders a visual edge that most platforms lack.\n\nOther notable features include a **fully functional trading simulator** for practice, a built-in brokerage with bracket orders and multiple exit strategies, and a mobile app for iOS and Android.\n\n## Pricing Breakdown\n\nTC2000 does not offer a free tier. There is no freemium plan or limited free account. You pay from day one.\n\n**Basic Plan — $24.99/month ($249.84/year):** Includes EasyScan with 100+ pre-built scans, 240+ technical indicators, 129+ fundamental chart overlays, spacebar chart navigation, and end-of-day data. This is the entry point, but end-of-day data means you are always looking at yesterday's numbers during market hours.\n\n**Premium Plan — $49.99/month ($499.80/year):** Adds options chain and volatility tools, historical condition testing, 80+ technical scan filters, and 70+ fundamental scan filters. This is where the scanner becomes genuinely powerful.\n\n**Premium+ Plan — $99.99/month ($999.84/year):** Adds 11 options scanning variables, advanced options strategy tools, and priority support. Worth it only for dedicated options traders.\n\n**The hidden cost:** Real-time streaming data is not included in any plan. You need to add exchange data feeds at **$14.99 to $34.97 per month** depending on which exchanges you want. For an active trader who needs real-time NYSE and NASDAQ data, your actual monthly cost on the Premium plan is closer to $75 to $85, not $49.99. This is the single biggest pricing complaint from TC2000 users and it is a legitimate gripe.\n\n## Honest Pros\n\n**Scanning speed is genuinely elite.** TC2000's scan engine is among the fastest available to retail traders. When you change a condition, results update in seconds across thousands of symbols. This is not marketing fluff — the speed difference versus browser-based screeners like Finviz is immediately noticeable.\n\n**The Condition Wizard lowers the barrier to complex scans.** Building multi-condition scans without writing code is a real advantage for traders who think visually. The step-by-step builder with \"Flex\" conditions that unfold over time enables scan logic that would require scripting on other platforms.\n\n**Proprietary indicators offer something different.** MoneyStream and Balance of Power may not be magic, but they represent decades of volume analysis research that you literally cannot get anywhere else.\n\n**Chart-flipping workflow is addictive.** Once you use spacebar navigation to flip through 500 charts in 15 minutes, going back to clicking individual tickers feels painfully slow.\n\n**Decades of stability and support.** Worden Brothers has been around since 1988. They are not a VC-funded startup that might disappear. Customer support is US-based and responsive.\n\n## Honest Cons\n\n**US markets only.** No futures, no forex, no crypto, no international stocks. If you trade anything beyond US equities, ETFs, and options, TC2000 simply does not cover your universe. This is a hard dealbreaker for multi-asset traders.\n\n**Real-time data costs extra.** Paying $25 to $100 per month for software and then paying another $15 to $35 for the data to make it useful feels outdated in 2026, when platforms like TradingView include real-time data in their subscriptions.\n\n**No public API.** There is no way to programmatically access TC2000 data, export scan results to external systems, or build automated workflows. For quantitative or systematic traders, this is a non-starter.\n\n**The integrated brokerage is not competitive.** TC2000 Brokerage charges commissions when Schwab, Fidelity, and Interactive Brokers offer commission-free stock trading. The brokerage exists for convenience, not value.\n\n**The platform looks dated.** TC2000's interface is functional but it has a mid-2000s desktop application aesthetic. Younger traders accustomed to TradingView's modern web UI may find TC2000 visually unappealing, even if the underlying functionality is strong.\n\n## Who Should Use TC2000 (and Who Should Not)\n\n**TC2000 is ideal for:** Active US stock and options traders who run scans daily, swing traders who want to visually flip through charts to find setups, fundamental-technical hybrid analysts who want both data types on one chart, and experienced traders who value speed and depth over a pretty interface.\n\n**TC2000 is NOT for:** Forex, futures, or crypto traders (zero coverage), beginners who need education and community features (TC2000 has neither built in), systematic or quantitative traders who need API access, or budget-conscious traders who balk at paying extra for real-time data.\n\n## How TC2000 Compares\n\n**TC2000 vs. Finviz:** Finviz has a usable free tier and covers basic screening well, but its scan logic is limited to predefined filters with no custom conditions. TC2000's Condition Wizard and Flex conditions are dramatically more powerful. However, Finviz includes real-time data in its Elite plan ($39.50/month) with no add-on fees, and it covers international markets. If you need simple daily scans and want free or cheap, Finviz wins. If you need complex multi-condition scans with speed, TC2000 wins.\n\n**TC2000 vs. Trade Ideas:** Trade Ideas is TC2000's closest competitor in scanning power, with AI-driven scan suggestions and real-time streaming scans. Trade Ideas starts at $118/month (Standard) versus TC2000's $49.99 Premium, making TC2000 significantly cheaper. However, Trade Ideas includes real-time data in its subscription and offers simulated AI trading that TC2000 lacks. For pure scan-building flexibility and chart integration, TC2000 has the edge. For AI-assisted discovery and automated scanning, Trade Ideas leads.\n\n## The Bottom Line\n\nTC2000 Scanner is a serious tool built by serious people who have been refining stock screening software for nearly four decades. The scanning engine is genuinely fast, the Condition Wizard makes complex scans accessible, and the proprietary indicators offer something unique. If you are an active US stock or options trader who values scanning speed and charting depth over modern aesthetics and multi-asset coverage, TC2000 deserves a spot on your shortlist.\n\nBut go in with your eyes open about the real costs. The advertised $24.99 to $99.99 monthly pricing does not include the real-time data you almost certainly need, and the US-only limitation is a hard ceiling on the platform's utility. TC2000 does a few things exceptionally well — just make sure those things are what you actually need before committing.",
   "logo_url": "/logos/tc2000-scanner.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/tc2000-scanner/tc2000-scanner-homepage.webp",
+      "alt": "TC2000 Scanner homepage"
+    },
+    {
+      "label": "pricing",
+      "path": "/screenshots/tc2000-scanner/tc2000-scanner-pricing.webp",
+      "alt": "TC2000 Scanner pricing and plans"
+    }
+  ],
   "website_url": "https://www.tc2000.com",
   "affiliate_url": "",
   "affiliate_program": "None",
@@ -82,17 +93,19 @@
     "etfs"
   ],
   "pros": [
-    "Scans ~1,000 stocks in ~2 seconds \u2014 among the fastest screeners available",
-    "240+ technical indicators plus 129+ fundamental variables overlaid on the same chart",
-    "Proprietary indicators (MoneyStream, Balance of Power, Time Segmented Volume) unavailable elsewhere",
-    "Voted best trading software by Stocks & Commodities Magazine for 25 consecutive years",
-    "Spacebar chart flipping lets traders review 1,000 charts in 20\u201330 minutes"
+    "Scans thousands of stocks in seconds — among the fastest retail screeners available",
+    "Condition Wizard builds complex multi-condition scans without formula writing",
+    "240+ technical indicators plus 129+ fundamental variables on the same chart",
+    "Proprietary indicators (MoneyStream, Balance of Power, TSV) unavailable elsewhere",
+    "Spacebar chart-flipping enables reviewing 1,000 charts in 20-30 minutes",
+    "Nearly four decades of stability from a profitable family-run company"
   ],
   "cons": [
-    "US markets only \u2014 no futures, forex, crypto, or international stocks",
-    "Real-time data requires costly add-ons ($14.99\u2013$34.97/mo on top of subscription fee)",
-    "Integrated brokerage commissions are not competitive versus zero-commission brokers",
-    "No modern public API for programmatic or automated access"
+    "US stocks, ETFs, and options only — no futures, forex, crypto, or international markets",
+    "Real-time data requires add-ons costing $14.99-$34.97/month on top of subscription",
+    "No public API for programmatic access or automated workflows",
+    "Integrated brokerage charges commissions in an era of zero-commission trading",
+    "Interface looks dated compared to modern web-based platforms like TradingView"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -106,10 +119,11 @@
   "company": "Worden Brothers, Inc.",
   "headquarters": "Wilmington, North Carolina",
   "best_for": [
-    "active US stock traders",
-    "swing traders",
-    "options traders",
-    "technical and fundamental analysts"
+    "Active US stock traders who scan daily for setups",
+    "Swing traders who visually review charts to find patterns",
+    "Options traders who want historical options charting and scanning",
+    "Technical-fundamental hybrid analysts who need both data types on one chart",
+    "Experienced traders who prioritize speed and depth over modern UI"
   ],
   "similar_tools": [
     "finviz",
@@ -117,8 +131,36 @@
     "stock-rover",
     "chartmill"
   ],
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-03-30",
   "review_status": "published",
-  "meta_title": "TC2000 Scanner Review 2026: 240+ Indicators From $25/mo",
-  "meta_description": "TC2000 scans 1,000 stocks in 2 seconds with 240+ indicators and proprietary MoneyStream. Voted best 25 years running. Worth $24.99/mo? 2026 review."
+  "meta_title": "TC2000 Scanner Review 2026: Pricing, Pros & Cons",
+  "meta_description": "Honest TC2000 Scanner review covering pricing ($24.99-$99.99/mo + data fees), scanning speed, proprietary indicators, and real limitations for traders.",
+  "company_background": "TC2000 is built by Worden Brothers, Inc., a family-run technical analysis software company founded in 1988 and headquartered in Wilmington, North Carolina. Led by Don Worden and his sons Peter and Doug, the company has won Stocks & Commodities Magazine's Readers' Choice Award for best trading software for over 25 consecutive years. Unlike many modern fintech startups, Worden Brothers is a bootstrapped, profitable company with nearly four decades of continuous development.",
+  "scraped_features": [
+    "EasyScan stock and options screener with 100+ pre-built scans",
+    "Condition Wizard for building scan criteria step-by-step without formulas",
+    "Flex conditions that unfold over time for temporal scan logic",
+    "240+ technical indicators",
+    "129+ fundamental variables plottable on charts",
+    "Proprietary MoneyStream indicator",
+    "Proprietary Balance of Power indicator",
+    "Proprietary Time Segmented Volume indicator",
+    "Spacebar chart-flipping navigation",
+    "Historical condition testing (backtest scan frequency)",
+    "Options charting with historical and streaming bid/ask data",
+    "Intrinsic value and time value plotting for options",
+    "11 options-specific scanning variables",
+    "80+ technical scan filters (Premium and above)",
+    "70+ fundamental scan filters (Premium and above)",
+    "Fully functional trading simulator with free practice",
+    "Integrated brokerage with bracket orders and multiple exit strategies",
+    "Mobile app for iOS and Android",
+    "Web platform accessible from browser",
+    "Low-latency data with instant symbol switching and sorting"
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/tc2000",
+    "youtube": "https://www.youtube.com/channel/UCiuxcnIkt7qcSsHLn7p8lvQ/featured"
+  },
+  "enriched_at": "2026-03-30"
 }

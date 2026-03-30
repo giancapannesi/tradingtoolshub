@@ -8,9 +8,15 @@
     "technical-scanners"
   ],
   "description_short": "Free professional-grade stock and options scanner bundled with Charles Schwab accounts, featuring ThinkScript customization, 400+ indicators, and real-time multi-market scanning.",
-  "description_long": "thinkorswim Scanner is the built-in scanning engine of the thinkorswim trading platform, now owned by Charles Schwab and available completely free with any Schwab brokerage account. Founded in 1999 by professional options traders Tom Sosnoff and Scott Sheridan, thinkorswim was acquired by TD Ameritrade in 2009 for $749 million and later folded into the Schwab ecosystem following its 2020 acquisition of TD Ameritrade. Today it remains one of the most capable and widely used professional trading platforms available to retail traders—at no extra cost.\n\nThe scanner suite includes three specialized tools: Stock Hacker for equities and ETFs, Option Hacker for scanning options contracts by Greeks, open interest, and volume, and Spread Hacker for identifying specific multi-leg options spread configurations. Each scanner supports up to 25 simultaneous filters drawn from over 30 fundamental criteria—including cash flow, debt ratios, and revenue—plus 400+ built-in technical indicators. Hundreds of pre-built scan templates are available out of the box, and advanced users can write fully custom scan conditions using ThinkScript, thinkorswim's proprietary scripting language, enabling virtually unlimited scan logic.\n\nWhat sets thinkorswim apart from standalone screeners is its deep integration with a full-service brokerage. Scan results can be executed directly into trades without leaving the platform. PaperMoney, the built-in paper trading simulator, lets traders test scan-based strategies with virtual capital before risking real money. Real-time alerts notify traders of developing setups, and the proprietary Sizzle Index measures unusual options activity relative to historical norms—invaluable for options flow traders. Watchlists, scans, and alerts sync across desktop, web, and mobile.\n\nDespite its extraordinary feature set and unbeatable price point, thinkorswim carries meaningful trade-offs. The platform has a well-earned reputation for a steep learning curve—the interface is dense and can overwhelm traders unfamiliar with options or derivatives. The mobile app, while capable with 300+ indicators, operates as a distinctly different interface from the desktop, which frustrates users who move between devices. There is no active public API for external automation. Still, for active traders seeking institutional-grade multi-market scanning at zero platform cost, thinkorswim Scanner is a category benchmark.",
+  "description_long": "## What Is thinkorswim Scanner?\n\nthinkorswim Scanner is the built-in stock and options screening suite inside Charles Schwab's thinkorswim trading platform. Originally developed by thinkorswim Group (founded in 1999 by Tom Sosnoff and Scott Sheridan), the platform was acquired by TD Ameritrade in 2009 for $750 million, and then migrated to Charles Schwab after Schwab's $26 billion acquisition of TD Ameritrade completed in 2020. The scanner lives inside a platform that's been built by actual traders, and that pedigree shows in both its power and its complexity.\n\nUnlike standalone stock screeners that charge monthly subscriptions, thinkorswim Scanner is completely free with any Charles Schwab brokerage account. There's no minimum deposit required to open the account, which means you get institutional-grade scanning tools for $0. The catch, if you can call it that, is that you need to open a brokerage account — but Schwab doesn't charge account maintenance fees either.\n\n## Core Scanning Tools\n\nthinkorswim Scanner actually consists of three distinct scanning modules, each purpose-built for different asset classes:\n\n**Stock Hacker** is the equity screening engine. It lets you combine up to 25 filters per scan, pulling from over 400 technical indicators and 30+ fundamental criteria including cash flow metrics, debt ratios, revenue growth, and earnings data. You can screen by price action, volume anomalies, moving average crossovers, RSI levels, MACD signals, and virtually any technical condition you can define.\n\n**Option Hacker** scans the entire options chain across all optionable stocks simultaneously. This is where thinkorswim Scanner genuinely separates itself from most competitors. You can filter by implied volatility, Greeks (delta, gamma, theta, vega), open interest, volume, days to expiration, and probability of profit. The **Sizzle Index** — a proprietary metric that compares current options volume to a 5-day average — flags unusual activity that might signal institutional moves before they show up in stock price.\n\n**Spread Hacker** takes options scanning a step further by screening for multi-leg spread strategies. You define the spread type (vertical, calendar, diagonal, iron condor) and filter by max risk, probability of profit, and return on risk. No other free platform offers anything close to this capability.\n\nBeyond the three Hacker modules, thinkorswim Scanner supports **ThinkScript**, a proprietary scripting language that lets you build completely custom scan logic. If the 400+ built-in indicators don't cover your edge, you can code your own conditions from scratch. There's also an active community sharing ThinkScript code online, so you're not starting from zero.\n\n## Pricing Breakdown\n\nthinkorswim Scanner costs exactly **$0 per month**. There are no subscription tiers, no premium upgrades, and no feature gates. Every Schwab account holder gets the full scanning suite — Stock Hacker, Option Hacker, Spread Hacker, ThinkScript, all 400+ indicators, and PaperMoney paper trading.\n\nThe only costs you'll encounter are trading commissions: **$0 for stock and ETF trades**, and **$0.65 per options contract**. That options commission is standard across major brokers, so it's not a disadvantage. There are no platform fees, no data fees for equities, and no charges for real-time streaming quotes on US markets.\n\nCompared to Trade Ideas at $84-$167/month or TC2000 at $9.99-$49.99/month, the price difference is significant. You're getting a professional-grade scanner bundled free with your brokerage account.\n\n## What thinkorswim Scanner Does Well\n\n**Options scanning is best-in-class for free tools.** The combination of Option Hacker, Spread Hacker, and the Sizzle Index gives options traders scanning capabilities that rival or exceed paid alternatives. Screening for iron condors by probability of profit across the entire market in seconds is genuinely powerful.\n\n**ThinkScript customization has no ceiling.** Unlike screeners that limit you to preset filters, ThinkScript lets you code any scanning logic you can conceive. Moving average ribbon crossovers, custom volatility models, multi-timeframe confirmations — if you can write the logic, thinkorswim Scanner will run it.\n\n**Multi-asset coverage in one platform.** You can scan stocks, ETFs, options, futures, and forex without switching tools or paying for separate data feeds. The scan results feed directly into charts, option chains, and order entry, so there's zero friction between finding a setup and acting on it.\n\n**PaperMoney integration is genuinely useful.** The paper trading simulator uses real market data and lets you test scan-based strategies with $100,000 in virtual capital. You can validate whether your scan criteria actually produce profitable setups before risking real money.\n\n**Pre-built scan templates save time.** Hundreds of ready-made scans covering common setups — gap ups, high unusual volume, earnings movers, oversold bounces — work out of the box. They're also fully editable, so they serve as starting points for customization.\n\n## Where thinkorswim Scanner Falls Short\n\n**The learning curve is brutal.** thinkorswim's interface was designed for power users, and it shows. New traders will face a wall of menus, sub-panels, and configuration options that can take weeks to navigate competently. The scanner setup process alone involves multiple nested menus, filter logic that isn't always intuitive, and ThinkScript syntax that requires genuine programming effort to master.\n\n**No public API means no external automation.** If you want to pipe scan results into a Python script, a Google Sheet, or an external alerting system, you're out of luck. thinkorswim Scanner is a closed ecosystem. Trade Ideas, by contrast, offers API connectivity and bot-based automation for its higher-tier plans.\n\n**Mobile and desktop experiences are disconnected.** The thinkorswim mobile app uses a completely different interface from the desktop version. Scans you build on desktop don't always translate cleanly to mobile, and the mobile scanning capabilities are noticeably stripped down. If you switch between devices frequently, this inconsistency is frustrating.\n\n**Scan result limits and speed can be an issue.** Complex scans with many filters can be slow to return results, especially during high-volume market hours. The platform doesn't always handle large result sets gracefully, and there's no way to schedule scans to run automatically at specific times without keeping the platform open.\n\n**No AI-powered features.** While competitors like Trade Ideas have integrated AI-driven trade signals (their Holly AI), thinkorswim Scanner relies entirely on rule-based filtering. There's no machine learning pattern recognition, no predictive scoring, and no AI-generated trade ideas. Whether that matters depends on your trading style, but it's a gap in the feature set.\n\n## Who Should Use thinkorswim Scanner\n\n**Active options traders** will find the most value here. The options-specific scanning tools — Option Hacker, Spread Hacker, Sizzle Index — are legitimately the best free options scanning suite available. If you trade options with any regularity, thinkorswim Scanner should be your starting point.\n\n**Technical traders who enjoy customization** will appreciate ThinkScript and the depth of available indicators. If you like building and refining custom scan criteria, this is your playground.\n\n**Budget-conscious traders** who don't want to pay $50-$167/month for a standalone screener get an enormous amount of capability at zero cost.\n\n**Multi-asset traders** scanning across stocks, options, futures, and forex benefit from having everything under one roof.\n\n## Who Should NOT Use thinkorswim Scanner\n\n**Complete beginners** will likely find the platform overwhelming. If you're just starting out and want a simple screener to find stocks by basic criteria, Finviz's free tier is far more approachable. Come back to thinkorswim Scanner once you know what you're looking for.\n\n**Algorithmic traders** who need API access, automated execution, or external integrations should look at Trade Ideas or build custom solutions with broker APIs that support programmatic access.\n\n## How It Compares\n\n**thinkorswim Scanner vs. Trade Ideas:** Trade Ideas ($84-$167/month) offers AI-powered scanning with Holly AI, real-time alert windows, and automated trading bots. It's faster for momentum-based scanning and offers API access. But thinkorswim Scanner matches it on indicator depth, crushes it on options scanning, and costs $0. For pure stock scanning, Trade Ideas has an edge in speed and AI features. For options scanning and budget-conscious traders, thinkorswim wins.\n\n**thinkorswim Scanner vs. Finviz:** Finviz is the go-to free stock screener for simplicity and visual market maps. Its interface is clean and intuitive — the opposite of thinkorswim. But Finviz's free tier has delayed data, no options scanning, no custom scripting, and limited technical filters. Finviz Elite ($39.50/month) adds real-time data and backtesting but still can't touch thinkorswim's options capabilities or ThinkScript customization. Finviz is better for quick fundamental screens; thinkorswim Scanner is better for deep technical and options-based scanning.\n\n## The Bottom Line\n\nthinkorswim Scanner is the most powerful free stock screener available in 2025, and it's not close — especially for options traders. The combination of Stock Hacker, Option Hacker, Spread Hacker, ThinkScript customization, and 400+ indicators delivers capabilities that paid competitors charge $50-$167/month to match.\n\nThe tradeoff is complexity. This is not a tool you'll master in an afternoon. The interface demands patience, and ThinkScript has a real learning curve. If you're willing to invest the time, thinkorswim Scanner rewards that effort with scanning power that can genuinely sharpen your trading edge.\n\nFor options traders and technically-minded stock traders who want professional scanning without a monthly bill, thinkorswim Scanner is the clear first choice. Just budget a few weekends to learn it properly.",
   "logo_url": "/logos/thinkorswim-scanner.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/thinkorswim-scanner/thinkorswim-scanner-homepage.webp",
+      "alt": "thinkorswim Scanner homepage"
+    }
+  ],
   "website_url": "https://www.schwab.com/trading/thinkorswim",
   "affiliate_url": "",
   "affiliate_program": "Charles Schwab Affiliate Program",
@@ -66,17 +72,19 @@
     "crypto"
   ],
   "pros": [
-    "Completely free with any Charles Schwab brokerage account — no subscription fees",
-    "ThinkScript enables virtually unlimited custom scan logic and indicators",
-    "Scans stocks, options contracts, spreads, and futures in one integrated platform",
-    "Up to 25 filters combining 400+ technical indicators and 30+ fundamental criteria",
-    "PaperMoney paper trading lets you test scan strategies risk-free with virtual capital"
+    "Completely free with any Schwab account — no subscription, no platform fees, no data fees",
+    "Best-in-class options scanning with Option Hacker, Spread Hacker, and Sizzle Index",
+    "ThinkScript scripting language allows unlimited custom scan logic beyond preset filters",
+    "400+ technical indicators and 30+ fundamental filters with up to 25 conditions per scan",
+    "PaperMoney simulator lets you test scan strategies with $100K virtual capital in live markets",
+    "Scans stocks, ETFs, options, futures, and forex in a single integrated platform"
   ],
   "cons": [
-    "Steep learning curve — dense interface not suited for beginners",
-    "Requires opening a Schwab brokerage account to access the platform",
-    "Mobile app has a separate interface from desktop, making cross-device use inconsistent",
-    "No public API for external automation or programmatic data access"
+    "Steep learning curve with a dense, intimidating interface that takes weeks to navigate",
+    "No public API for external automation or programmatic integration",
+    "Mobile app uses a separate interface from desktop with reduced scanning capabilities",
+    "No AI-powered scanning or predictive signals — purely rule-based filtering",
+    "Complex scans can be slow during high-volume market hours"
   ],
   "rating": 4.4,
   "rating_breakdown": {
@@ -90,10 +98,11 @@
   "company": "Charles Schwab Corporation",
   "headquarters": "Westlake, Texas",
   "best_for": [
-    "options traders",
-    "active stock traders",
-    "technical analysts",
-    "multi-market traders"
+    "Options traders who need advanced chain and spread screening",
+    "Active stock traders building custom technical scan strategies",
+    "Technical analysts who want ThinkScript customization depth",
+    "Budget-conscious traders who refuse to pay monthly screener subscriptions",
+    "Multi-asset traders scanning across stocks, options, futures, and forex"
   ],
   "similar_tools": [
     "finviz",
@@ -101,8 +110,38 @@
     "tc2000",
     "stock-analysis"
   ],
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-03-30",
   "review_status": "published",
-  "meta_title": "thinkorswim Scanner 2026: Free Pro Stock & Options",
-  "meta_description": "Free professional scanner for stocks, options & futures with 400+ indicators. Beats TradingView's free tier. Read our detailed review and compare."
+  "meta_title": "thinkorswim Scanner Review 2026: Free but Powerful?",
+  "meta_description": "Honest thinkorswim Scanner review. Free options and stock scanning with ThinkScript, 400+ indicators, and Spread Hacker. Worth the learning curve?",
+  "company_background": "thinkorswim was founded in 1999 by Tom Sosnoff and Scott Sheridan as a retail options brokerage. TD Ameritrade acquired the platform in 2009 for $750 million, and it migrated to Charles Schwab following Schwab's $26 billion acquisition of TD Ameritrade, completed in 2020. The platform is now headquartered in Westlake, Texas as part of Charles Schwab Corporation.",
+  "scraped_features": [
+    "Stock Hacker equity scanner with up to 25 filters per scan",
+    "Option Hacker for scanning entire options chains by Greeks and volatility",
+    "Spread Hacker for multi-leg options strategy screening",
+    "ThinkScript custom scripting language for user-defined scan logic",
+    "400+ built-in technical indicators and studies",
+    "30+ fundamental filters including cash flow and debt ratios",
+    "Sizzle Index for detecting unusual options activity",
+    "PaperMoney paper trading simulator with virtual capital",
+    "Real-time streaming scan results",
+    "Hundreds of pre-built scan templates",
+    "Desktop platform with full customization",
+    "Web-based platform accessible from any browser",
+    "Mobile app for iOS and Android",
+    "Live-streaming news and expert commentary",
+    "Schwab Coaching and Learning Center education resources",
+    "Multi-asset coverage: stocks, ETFs, options, futures, forex",
+    "24/5 trading for 1,100+ stocks and ETFs",
+    "$0 stock and ETF commissions",
+    "Drawing tools and charting integrated with scanner results",
+    "Cross-platform sync between desktop, web, and mobile"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/charlesschwab",
+    "linkedin": "https://www.linkedin.com/company/charles-schwab",
+    "youtube": "https://www.youtube.com/channel/UCToe3dspZyw2L_JY-JmP3Mw",
+    "facebook": "https://www.facebook.com/CharlesSchwab"
+  },
+  "enriched_at": "2026-03-30"
 }
