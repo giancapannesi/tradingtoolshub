@@ -78,6 +78,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": tool.name,
+    "description": tool.description_short || tool.meta_description || `${tool.name} is a trading and finance application.`,
     "applicationCategory": "FinanceApplication",
     "operatingSystem": "Web",
     "url": tool.website_url,
