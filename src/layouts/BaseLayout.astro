@@ -12,7 +12,9 @@ interface Props {
 
 const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const siteUrl = 'https://tradingtoolshub.com';
-const fullTitle = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
+// Keep title under 60 chars for SERP display. Drop suffix if needed.
+const withSuffix = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
+const fullTitle = withSuffix.length <= 60 ? withSuffix : (title.length <= 60 ? title : title.slice(0, 57) + '...');
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
 const ogImg = ogImage || `${siteUrl}/og-default.png`;
 ---
