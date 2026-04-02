@@ -1,0 +1,80 @@
+{
+  "name": "Orderflows",
+  "slug": "orderflows",
+  "category": "order-flow-tools",
+  "subcategories": ["ninjatrader-addons", "education"],
+  "description_short": "NinjaTrader footprint charting add-on with 15+ hours of order flow education, created by ex-JP Morgan trader Michael Valtos.",
+  "description_long": "Orderflows is a NinjaTrader add-on that provides professional-grade footprint charting tools, developed by Michael Valtos, an ex-JP Morgan floor trader with decades of institutional order flow experience. The package combines footprint chart indicators with over 15 hours of structured order flow education.\n\nThe footprint charting tools include bid/ask footprint, delta footprint, volume profile, and imbalance detection indicators. What differentiates Orderflows from other NinjaTrader add-ons is the depth of the educational material — Valtos teaches order flow concepts from the perspective of someone who actually worked institutional flow on the trading floor, not just from retail chart analysis.\n\nThe education covers reading footprint charts, identifying absorption, spotting initiative vs. responsive activity, and understanding how institutional participants move markets. This makes Orderflows particularly valuable for traders who are new to order flow and want to learn the concepts alongside the tools.",
+  "logo_url": "/logos/orderflows.svg",
+  "screenshots": [],
+  "website_url": "https://orderflows.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 497,
+    "tiers": [
+      {
+        "name": "Orderflows Trader",
+        "price": 497,
+        "billing": "one-time",
+        "features": [
+          "Footprint charting for NinjaTrader",
+          "Bid/ask footprint",
+          "Delta footprint",
+          "Volume profiles",
+          "Imbalance detection",
+          "15+ hours of education"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["futures"],
+  "pros": [
+    "Created by ex-JP Morgan floor trader with genuine institutional order flow experience",
+    "15+ hours of structured education included with the software",
+    "One-time purchase — no ongoing subscription fees",
+    "Well-established in the NinjaTrader order flow community"
+  ],
+  "cons": [
+    "NinjaTrader only — no support for other platforms",
+    "High one-time cost of $497 may deter beginners",
+    "Futures markets only — no crypto or stock support",
+    "No free trial to evaluate before purchasing"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 3.8,
+    "value": 3.6,
+    "support": 4.0,
+    "reliability": 4.3
+  },
+  "founded_year": 2012,
+  "company": "Orderflows",
+  "headquarters": "International",
+  "best_for": ["NinjaTrader users", "order flow beginners with education focus", "futures traders"],
+  "similar_tools": ["jigsaw-trading", "atas", "mzpack", "ams-trading-group"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

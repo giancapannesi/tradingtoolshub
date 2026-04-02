@@ -1,0 +1,90 @@
+{
+  "name": "TradeZero",
+  "slug": "tradezero",
+  "category": "brokers",
+  "subcategories": ["commission-free", "short-selling"],
+  "description_short": "Commission-free trading broker with a standout short locate system, offering free and paid tiers for active stock traders based in Brooklyn, NY.",
+  "description_long": "TradeZero is a brokerage that combines commission-free equity trading with one of the most accessible short locate systems in retail brokerage. Founded by CEO Michael Haupt, the broker targets active traders who want zero-commission stock trades without giving up the ability to short sell hard-to-borrow shares.\n\nThe short locate system is the key differentiator. While most commission-free brokers like Robinhood offer no shorting tools, and most DMA brokers charge per-share commissions, TradeZero bridges the gap by offering both free trades and short locates. The broker provides a proprietary trading platform (ZeroPro) alongside a mobile app, with Level 2 data, direct market routing, and standard charting tools.\n\nBased in Brooklyn, New York, TradeZero offers both US and international accounts. The free tier provides commission-free equity trades, while the Pro tier ($59/month) adds features like short locates, extended routing options, and enhanced Level 2 data. The broker competes against both commission-free platforms like Robinhood and DMA brokers like CenterPoint.",
+  "logo_url": "/logos/tradezero.svg",
+  "screenshots": [],
+  "website_url": "https://tradezero.co",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price": 0,
+        "features": [
+          "Commission-free equities",
+          "ZeroWeb platform",
+          "Basic charting",
+          "Mobile app"
+        ]
+      },
+      {
+        "name": "ZeroPro",
+        "price": 59,
+        "billing": "monthly",
+        "features": [
+          "Commission-free equities",
+          "ZeroPro desktop platform",
+          "Short locate system",
+          "Direct market routing",
+          "Enhanced Level 2 data",
+          "Advanced order types"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": [
+    "Commission-free equity trades combined with short locate access — rare combination",
+    "Free tier available for basic trading without platform fees",
+    "Mobile app and web platform alongside desktop ZeroPro",
+    "Available for both US and international traders"
+  ],
+  "cons": [
+    "ZeroPro platform at $59/month required for serious short selling features",
+    "Platform technology is not as polished as major brokers",
+    "Limited market coverage — primarily stocks with basic options",
+    "Customer support can be slow during peak market hours"
+  ],
+  "rating": 3.7,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 3.5,
+    "value": 4.0,
+    "support": 3.3,
+    "reliability": 3.7
+  },
+  "founded_year": 2015,
+  "company": "TradeZero America Inc.",
+  "headquarters": "Brooklyn, NY, United States",
+  "best_for": ["commission-conscious day traders", "short sellers on a budget", "international traders"],
+  "similar_tools": ["centerpoint-securities", "cobra-trading", "robinhood", "speedtrader"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

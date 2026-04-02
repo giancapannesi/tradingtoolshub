@@ -1,0 +1,89 @@
+{
+  "name": "Trader Dale (OrderFlow.com)",
+  "slug": "trader-dale",
+  "category": "order-flow-tools",
+  "subcategories": ["ninjatrader-addons", "education"],
+  "description_short": "NinjaTrader order flow indicator suite with volume profile tools and trading education, used by over 7,000 students worldwide.",
+  "description_long": "Trader Dale, operating through OrderFlow.com, offers a suite of NinjaTrader order flow indicators focused on volume profile trading. The platform has built a community of over 7,000 students who use the indicators and educational content to trade futures based on volume-driven support and resistance levels.\n\nThe indicator suite includes volume profile tools, delta analysis, point of control (POC) tracking, and value area identification. Dale's methodology centers on using volume profiles to identify institutional accumulation and distribution zones, then trading reactions at those levels.\n\nBeyond the indicators, the education component is a significant part of the offering. Courses cover volume profile theory, practical trading setups, risk management, and live trading examples. The combination of tools and education makes this a popular choice for futures traders learning volume profile-based strategies.",
+  "logo_url": "/logos/trader-dale.svg",
+  "screenshots": [],
+  "website_url": "https://orderflow.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 299,
+    "tiers": [
+      {
+        "name": "Indicator Pack",
+        "price": 299,
+        "billing": "one-time",
+        "features": [
+          "Volume profile indicators",
+          "Delta analysis tools",
+          "POC and value area tracking",
+          "NinjaTrader integration"
+        ]
+      },
+      {
+        "name": "Full Course + Indicators",
+        "price": 599,
+        "billing": "one-time",
+        "features": [
+          "All indicators included",
+          "Full trading course",
+          "Live trading examples",
+          "Community access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["futures"],
+  "pros": [
+    "Large community of 7,000+ students provides social proof and peer support",
+    "One-time purchase model — no recurring subscription fees",
+    "Strong educational content covering volume profile theory and practical setups",
+    "Focused methodology that is easy to follow for structured learners"
+  ],
+  "cons": [
+    "NinjaTrader only — no support for Sierra Chart, ATAS, or other platforms",
+    "Futures markets only — no crypto or stock coverage",
+    "Indicator-focused approach may not suit traders who prefer discretionary analysis",
+    "High upfront cost for the full course bundle"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.5,
+    "value": 3.7,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2016,
+  "company": "Trader Dale / OrderFlow.com",
+  "headquarters": "International",
+  "best_for": ["volume profile traders", "NinjaTrader users", "order flow students"],
+  "similar_tools": ["jigsaw-trading", "orderflows", "mzpack", "atas"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

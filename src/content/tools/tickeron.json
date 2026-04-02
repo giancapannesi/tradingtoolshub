@@ -1,0 +1,99 @@
+{
+  "name": "Tickeron",
+  "slug": "tickeron",
+  "category": "ai-trading-tools",
+  "subcategories": ["ai-signals", "pattern-recognition"],
+  "description_short": "AI-powered pattern recognition and trading signal platform covering stocks, options, crypto, and forex with automated trading robots.",
+  "description_long": "Tickeron is an AI-powered trading platform that uses machine learning to identify technical chart patterns, generate trading signals, and operate automated trading robots across stocks, options, cryptocurrency, and forex markets. Founded by CEO Sergey Savastiouk and based in Reno, Nevada, the platform targets traders who want systematic, data-driven trade ideas.\n\nThe pattern recognition engine scans thousands of instruments in real-time, identifying formations like head and shoulders, double tops, flags, and channels with AI-estimated confidence levels. Each pattern includes a predicted price target, confidence score, and historical backtest data showing how similar patterns resolved in the past. The platform also offers AI trading robots that can execute strategies automatically through connected brokerage accounts.\n\nTickeron covers a broad range of markets and provides multiple subscription tiers depending on which asset classes and features you need. The AI signals should be treated as one input among many — like any pattern recognition system, the confidence scores are based on historical probabilities and do not guarantee future results. The platform works best as a screening and idea generation tool rather than a standalone trading system.",
+  "logo_url": "/logos/tickeron.svg",
+  "screenshots": [],
+  "website_url": "https://tickeron.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price": 0,
+        "features": [
+          "Limited AI pattern alerts",
+          "Basic screener access",
+          "Delayed signals"
+        ]
+      },
+      {
+        "name": "Intermediate",
+        "price": 50,
+        "billing": "monthly",
+        "features": [
+          "Real-time AI pattern recognition",
+          "Stock and ETF signals",
+          "Portfolio analysis",
+          "Backtested confidence scores"
+        ]
+      },
+      {
+        "name": "Expert",
+        "price": 100,
+        "billing": "monthly",
+        "features": [
+          "All Intermediate features",
+          "AI trading robots",
+          "Options and crypto signals",
+          "Forex coverage",
+          "Automated execution"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "options", "crypto", "forex"],
+  "pros": [
+    "AI pattern recognition covers stocks, options, crypto, and forex from one platform",
+    "Each signal includes confidence scores and historical backtest data",
+    "AI trading robots can automate strategy execution",
+    "Free tier available to evaluate pattern recognition quality"
+  ],
+  "cons": [
+    "AI confidence scores are based on historical probabilities — not guaranteed",
+    "Expert tier at $100/month is significant for individual traders",
+    "Automated robots require careful configuration to avoid losses",
+    "Pattern recognition can generate too many signals without proper filtering"
+  ],
+  "rating": 3.6,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.0,
+    "value": 3.3,
+    "support": 3.4,
+    "reliability": 3.5
+  },
+  "founded_year": 2014,
+  "company": "Tickeron Inc.",
+  "headquarters": "Reno, NV, United States",
+  "best_for": ["AI signal seekers", "pattern recognition traders", "multi-asset automated trading"],
+  "similar_tools": ["insiderfinance", "unusual-whales", "barchart"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

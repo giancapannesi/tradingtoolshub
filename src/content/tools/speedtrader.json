@@ -1,0 +1,80 @@
+{
+  "name": "SpeedTrader",
+  "slug": "speedtrader",
+  "category": "brokers",
+  "subcategories": ["dma-brokers", "day-trading"],
+  "description_short": "Direct market access stock broker for active day traders with multiple platform options, short locates, and a partnership referral program.",
+  "description_long": "SpeedTrader is a direct market access broker designed for active day traders who need fast execution and professional routing tools. The broker offers multiple platform options including DAS Trader Pro and its proprietary SpeedTrader Pro platform, giving traders flexibility in their trading interface.\n\nThe broker provides direct routing to all major exchanges and ECNs, comprehensive Level 2 data, and a short locate system for traders who need to borrow shares for short selling. SpeedTrader also offers a partnership program for educators and influencers who refer active traders, which is relatively uncommon among DMA brokers.\n\nCommissions are per-share based, with rates starting around $0.0025/share for high-volume traders. The broker requires a $30,000 minimum account balance, which reflects its focus on serious active traders rather than beginners. SpeedTrader competes directly with CenterPoint Securities and Cobra Trading in the specialized day trading broker niche.",
+  "logo_url": "/logos/speedtrader.svg",
+  "screenshots": [],
+  "website_url": "https://speedtrader.com",
+  "affiliate_url": "",
+  "affiliate_program": "SpeedTrader Partnership Program",
+  "affiliate_commission": "Revenue share on referred accounts",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Active Trader",
+        "price": 0,
+        "billing": "monthly",
+        "features": [
+          "DAS Trader Pro or SpeedTrader Pro platform",
+          "Direct market access routing",
+          "Level 2 data",
+          "Short locate system",
+          "Per-share commissions from $0.0025",
+          "$30,000 minimum balance"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["stocks"],
+  "pros": [
+    "Multiple platform options — DAS Trader Pro or proprietary SpeedTrader Pro",
+    "Competitive per-share pricing for high-volume traders",
+    "Short locate system for borrowing hard-to-find shares",
+    "Mobile app available for monitoring positions on the go"
+  ],
+  "cons": [
+    "$30,000 minimum account balance excludes smaller traders",
+    "Stocks only — no options, futures, or crypto trading",
+    "Per-share commissions are not competitive for low-volume traders",
+    "Platform fees add to the overall cost structure"
+  ],
+  "rating": 3.7,
+  "rating_breakdown": {
+    "ease_of_use": 3.3,
+    "features": 3.7,
+    "value": 3.4,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2000,
+  "company": "SpeedTrader Inc.",
+  "headquarters": "United States",
+  "best_for": ["active day traders", "high-volume traders", "short sellers"],
+  "similar_tools": ["centerpoint-securities", "cobra-trading", "tradezero"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

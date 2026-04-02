@@ -1,0 +1,89 @@
+{
+  "name": "Tradier",
+  "slug": "tradier",
+  "category": "brokers",
+  "subcategories": ["api-trading", "developer-tools"],
+  "description_short": "API-first brokerage platform designed for developers and fintech companies, offering commission-free equity trades and a robust trading API.",
+  "description_long": "Tradier is an API-first brokerage that puts developer access at the center of its offering. Unlike traditional brokers that add APIs as an afterthought, Tradier was built from the ground up as a brokerage-as-a-service platform, making it the go-to choice for fintech developers, algo traders, and companies building trading applications.\n\nThe Tradier API provides RESTful endpoints for account management, order execution, market data, and options chains. The documentation is thorough and developer-friendly, with SDKs available for multiple programming languages. Commission-free equity trading and competitive options pricing ($0.35/contract on the subscription plan) make it cost-effective for active traders and applications processing high volumes.\n\nBased in Charlotte, North Carolina with 50-100 employees, Tradier also offers a traditional trading platform for non-developers. However, its primary value proposition is the API infrastructure. Third-party platforms like TradingView and other charting tools can connect through Tradier for execution, giving developers and traders flexibility in how they build their trading workflows.",
+  "logo_url": "/logos/tradier.svg",
+  "screenshots": [],
+  "website_url": "https://tradier.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free Account",
+        "price": 0,
+        "features": [
+          "Commission-free equities",
+          "$0.35/contract options",
+          "API access",
+          "Basic trading platform"
+        ]
+      },
+      {
+        "name": "Subscription",
+        "price": 10,
+        "billing": "monthly",
+        "features": [
+          "Commission-free equities",
+          "$0.35/contract options",
+          "Full API access",
+          "Streaming market data",
+          "Advanced order types"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": [
+    "Best-in-class trading API with thorough developer documentation and SDKs",
+    "Commission-free equity trades with competitive $0.35/contract options pricing",
+    "Third-party platform integrations including TradingView for execution",
+    "Paper trading sandbox for testing strategies and API integrations"
+  ],
+  "cons": [
+    "Stocks and options only — no futures, forex, or crypto support",
+    "Trading platform itself is basic compared to Schwab or Fidelity",
+    "Smaller broker with less brand recognition than major brokerages",
+    "No proprietary research or analysis tools — purely infrastructure-focused"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 3.8,
+    "value": 4.3,
+    "support": 3.8,
+    "reliability": 4.1
+  },
+  "founded_year": 2012,
+  "company": "Tradier Inc.",
+  "headquarters": "Charlotte, NC, United States",
+  "best_for": ["algo traders", "fintech developers", "API-first trading"],
+  "similar_tools": ["alpaca", "robinhood", "tastytrade"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

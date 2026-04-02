@@ -1,0 +1,88 @@
+{
+  "name": "GoCharting",
+  "slug": "gocharting",
+  "category": "charting-platforms",
+  "subcategories": ["order-flow", "multi-asset"],
+  "description_short": "Web-based multi-asset charting platform with 21 proprietary order flow indicators, covering stocks, futures, and crypto from your browser.",
+  "description_long": "GoCharting is a web-based charting platform that brings order flow analysis to stocks, futures, and cryptocurrency markets through your browser. The platform features 21 proprietary order flow indicators including footprint charts, volume profiles, market profiles, and cumulative delta tools — an unusually broad order flow toolkit for a browser-based platform.\n\nThe multi-asset coverage is a key differentiator. While most order flow platforms focus exclusively on futures or crypto, GoCharting lets you apply the same order flow analysis across stocks, futures, and crypto markets from a single interface. The platform supports standard charting tools alongside its order flow features, so it can serve as a primary charting platform rather than just an add-on.\n\nGoCharting is registered in Dover, Delaware with an India-based development team. The platform offers a freemium model, making it accessible to traders who want to explore order flow analysis without a large upfront investment.",
+  "logo_url": "/logos/gocharting.svg",
+  "screenshots": [],
+  "website_url": "https://gocharting.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price": 0,
+        "features": [
+          "Basic charting",
+          "Limited indicators",
+          "Delayed data"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": 24.99,
+        "billing": "monthly",
+        "features": [
+          "21 proprietary order flow indicators",
+          "Footprint charts",
+          "Volume profiles",
+          "Real-time data",
+          "Multi-asset access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks", "futures", "crypto"],
+  "pros": [
+    "21 proprietary order flow indicators — unusually comprehensive for a browser-based platform",
+    "Multi-asset coverage across stocks, futures, and crypto in one platform",
+    "Free tier available to explore before committing to a paid plan",
+    "No software installation required — runs entirely in the browser"
+  ],
+  "cons": [
+    "Smaller user base and community compared to TradingView or ATAS",
+    "Browser-based may not match desktop app performance for intensive scalping",
+    "Limited broker integrations for direct trading execution",
+    "Less polished interface than more established competitors"
+  ],
+  "rating": 3.6,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 3.9,
+    "value": 4.0,
+    "support": 3.0,
+    "reliability": 3.3
+  },
+  "founded_year": 2018,
+  "company": "GoCharting Inc.",
+  "headquarters": "Dover, DE, United States",
+  "best_for": ["multi-asset traders", "browser-based order flow analysis", "budget-conscious order flow traders"],
+  "similar_tools": ["atas", "bookmap", "quantower", "exocharts"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

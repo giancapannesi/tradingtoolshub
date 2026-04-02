@@ -1,0 +1,79 @@
+{
+  "name": "OrderFlow Labs",
+  "slug": "orderflow-labs",
+  "category": "order-flow-tools",
+  "subcategories": ["multi-platform", "prop-firm-tools"],
+  "description_short": "Professional order flow indicator suite compatible with NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX, with a focus on prop firm traders.",
+  "description_long": "OrderFlow Labs provides a professional-grade order flow indicator suite designed for serious futures traders, particularly those trading at prop firms. The platform stands out from competitors by supporting multiple charting platforms including NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX, rather than locking users into a single ecosystem.\n\nThe tool suite includes footprint charts, delta analysis, volume-at-price tools, and order book analytics. The multi-platform compatibility is a genuine advantage for prop firm traders who may need to use different platforms depending on their firm's requirements or data feed setup.\n\nOrderFlow Labs targets experienced traders who already understand order flow concepts and need reliable, professional tools. The prop firm focus means the indicators are optimized for the kind of short-term futures scalping and day trading that funded traders typically do.",
+  "logo_url": "/logos/orderflow-labs.svg",
+  "screenshots": [],
+  "website_url": "https://orderflowlabs.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 49,
+    "tiers": [
+      {
+        "name": "Monthly",
+        "price": 49,
+        "billing": "monthly",
+        "features": [
+          "Full order flow indicator suite",
+          "Multi-platform support",
+          "Footprint charts",
+          "Delta analysis",
+          "Volume-at-price tools"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["futures"],
+  "pros": [
+    "Multi-platform support — works on NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX",
+    "Built with prop firm traders in mind, optimized for funded account workflows",
+    "Professional-grade tools without the premium price tag of Jigsaw or Bookmap",
+    "Focused toolset that does order flow analysis well without feature bloat"
+  ],
+  "cons": [
+    "Futures only — no crypto or stock market support",
+    "Smaller company with less established track record than ATAS or Bookmap",
+    "No educational content — assumes you already understand order flow concepts",
+    "No free trial or free tier to evaluate before purchasing"
+  ],
+  "rating": 3.7,
+  "rating_breakdown": {
+    "ease_of_use": 3.6,
+    "features": 3.8,
+    "value": 4.0,
+    "support": 3.5,
+    "reliability": 3.7
+  },
+  "founded_year": 2020,
+  "company": "OrderFlow Labs",
+  "headquarters": "International",
+  "best_for": ["prop firm traders", "multi-platform order flow users", "futures scalpers"],
+  "similar_tools": ["jigsaw-trading", "atas", "mzpack", "orderflows"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

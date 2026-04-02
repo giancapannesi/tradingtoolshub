@@ -1,0 +1,91 @@
+{
+  "name": "MZpack",
+  "slug": "mzpack",
+  "category": "order-flow-tools",
+  "subcategories": ["ninjatrader-addons", "volume-analysis"],
+  "description_short": "NinjaTrader order flow and orderbook indicator suite featuring footprint charts, divergence detection tools, and volume analysis for futures traders.",
+  "description_long": "MZpack is a NinjaTrader indicator suite focused on order flow and orderbook analysis for futures traders. The platform provides footprint charts, volume delta analysis, orderbook imbalance detection, and proprietary divergence tools that help identify when price action diverges from underlying order flow dynamics.\n\nThe divergence tools are a standout feature — they automatically detect when price makes new highs or lows but the underlying volume delta or orderbook pressure tells a different story. These divergence signals can help traders spot potential reversals or exhaustion points before they become obvious on price charts.\n\nMZpack also includes volume profile tools, cumulative delta indicators, and bid/ask analysis. The platform has an affiliate program, making it one of the few NinjaTrader order flow add-ons with a formal referral structure. The tools are aimed at intermediate to advanced futures traders who already use NinjaTrader and want to add order flow analysis to their workflow.",
+  "logo_url": "/logos/mzpack.svg",
+  "screenshots": [],
+  "website_url": "https://mzpack.pro",
+  "affiliate_url": "",
+  "affiliate_program": "MZpack Affiliate Program",
+  "affiliate_commission": "Up to 30% per sale",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 59,
+    "tiers": [
+      {
+        "name": "MZpack Monthly",
+        "price": 59,
+        "billing": "monthly",
+        "features": [
+          "Footprint charts",
+          "Volume delta analysis",
+          "Orderbook imbalance detection",
+          "Divergence tools",
+          "Volume profiles",
+          "NinjaTrader integration"
+        ]
+      },
+      {
+        "name": "MZpack Lifetime",
+        "price": 997,
+        "billing": "one-time",
+        "features": [
+          "All indicators included",
+          "Lifetime license",
+          "All future updates",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["futures"],
+  "pros": [
+    "Proprietary divergence detection tools that flag order flow vs. price discrepancies",
+    "Comprehensive footprint and volume delta analysis in one package",
+    "Lifetime license option eliminates ongoing subscription costs",
+    "Active development with regular updates and new features"
+  ],
+  "cons": [
+    "NinjaTrader only — no support for Sierra Chart or other platforms",
+    "Futures markets only — no crypto or stock coverage",
+    "Monthly subscription is on the higher end for a NinjaTrader add-on",
+    "Learning curve for the divergence tools requires time to interpret signals correctly"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 3.4,
+    "features": 4.1,
+    "value": 3.7,
+    "support": 3.6,
+    "reliability": 4.0
+  },
+  "founded_year": 2015,
+  "company": "MZpack",
+  "headquarters": "International",
+  "best_for": ["NinjaTrader order flow traders", "divergence traders", "futures volume analysts"],
+  "similar_tools": ["atas", "jigsaw-trading", "orderflows", "ams-trading-group"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "DeepCharts (Volumetrica)",
+  "slug": "deepcharts",
+  "category": "charting-platforms",
+  "subcategories": ["order-flow", "footprint-charts"],
+  "description_short": "Browser-based order flow and footprint charting platform with prop firm integration, built by Italian fintech Volumetrica Trading out of Rovigo, Italy.",
+  "description_long": "DeepCharts, developed by Volumetrica Trading, is a browser-based order flow platform that brings footprint charts, volume profiles, and DOM analysis to your web browser without any software installation. The platform is designed for futures and crypto traders who want professional order flow tools accessible from any device.\n\nA standout feature is the prop firm integration, allowing traders at funded accounts to connect their prop firm data feeds directly. The platform offers multiple footprint chart types, delta analysis, cumulative delta, and volume profile tools. Being browser-based means updates are instant and there is no need to manage desktop software versions.\n\nVolumetrica Trading is an Italian fintech company based in Rovigo, Italy, founded around 2022. The platform targets traders transitioning from basic charting to order flow analysis, offering both free and paid tiers to ease the learning curve.",
+  "logo_url": "/logos/deepcharts.svg",
+  "screenshots": [],
+  "website_url": "https://volumetricatrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price": 0,
+        "features": [
+          "Basic footprint charts",
+          "Limited market access",
+          "Browser-based access"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": 39,
+        "billing": "monthly",
+        "features": [
+          "Full footprint chart suite",
+          "Volume profiles",
+          "DOM analysis",
+          "Prop firm integration",
+          "All market data"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": ["futures", "crypto"],
+  "pros": [
+    "Fully browser-based — no software installation required, works on any device",
+    "Prop firm integration for funded traders connecting their data feeds",
+    "Free tier available for new order flow traders to get started",
+    "Italian fintech team with focused order flow development"
+  ],
+  "cons": [
+    "Relatively new platform founded around 2022, smaller user base than established competitors",
+    "Browser-based may have latency compared to native desktop applications for scalping",
+    "Limited third-party integrations compared to mature platforms like ATAS or Sierra Chart",
+    "Fewer advanced features than long-established order flow platforms"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.6,
+    "value": 4.0,
+    "support": 3.5,
+    "reliability": 3.7
+  },
+  "founded_year": 2022,
+  "company": "Volumetrica Trading",
+  "headquarters": "Rovigo, Italy",
+  "best_for": ["order flow beginners", "prop firm traders", "browser-based trading"],
+  "similar_tools": ["atas", "bookmap", "exocharts", "quantower"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

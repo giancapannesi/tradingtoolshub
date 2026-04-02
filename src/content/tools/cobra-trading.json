@@ -1,0 +1,80 @@
+{
+  "name": "Cobra Trading",
+  "slug": "cobra-trading",
+  "category": "brokers",
+  "subcategories": ["dma-brokers", "day-trading"],
+  "description_short": "Direct access broker for active day traders based in Plano, TX, offering DAS Trader Pro platform, short locates, and competitive per-share commissions.",
+  "description_long": "Cobra Trading is a direct access broker headquartered in Plano, Texas, built to serve active day traders who need professional execution tools. The broker provides DAS Trader Pro as its primary platform, offering direct market access routing, Level 2 data, and a comprehensive short locate inventory for traders who frequently short stocks.\n\nThe broker differentiates itself through competitive per-share commission rates and a focus on trader support. Cobra maintains relationships with multiple prime brokers and locate providers, giving short sellers access to a broad inventory of borrowable shares. The DAS Trader Pro platform provides hotkey-driven execution, Level 2 montage, and Time & Sales — the standard toolkit for professional day trading.\n\nWith approximately 10-20 employees, Cobra Trading is small enough to provide personalized service but large enough to maintain reliable infrastructure. The broker targets experienced day traders who understand direct market access and are willing to pay per-share commissions in exchange for superior routing and execution quality.",
+  "logo_url": "/logos/cobra-trading.svg",
+  "screenshots": [],
+  "website_url": "https://cobratrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Active Trader",
+        "price": 0,
+        "billing": "monthly",
+        "features": [
+          "DAS Trader Pro platform",
+          "Direct market access",
+          "Level 2 data",
+          "Short locate system",
+          "Per-share commissions from $0.004",
+          "Hotkey execution"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks"],
+  "pros": [
+    "Competitive per-share commission structure for high-volume day traders",
+    "Strong short locate inventory through multiple prime broker relationships",
+    "DAS Trader Pro provides professional-grade hotkey execution",
+    "Personalized support from a focused Texas-based team"
+  ],
+  "cons": [
+    "Stocks only — no options, futures, crypto, or forex",
+    "Per-share commissions are costly for low-volume or swing traders",
+    "Platform requires experience to set up and use effectively",
+    "No mobile trading app for on-the-go monitoring"
+  ],
+  "rating": 3.8,
+  "rating_breakdown": {
+    "ease_of_use": 3.2,
+    "features": 3.7,
+    "value": 3.6,
+    "support": 4.2,
+    "reliability": 4.1
+  },
+  "founded_year": 2003,
+  "company": "Cobra Trading Inc.",
+  "headquarters": "Plano, TX, United States",
+  "best_for": ["active day traders", "short sellers", "DAS Trader users"],
+  "similar_tools": ["centerpoint-securities", "speedtrader", "tradezero"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Alpaca Markets",
+  "slug": "alpaca",
+  "category": "brokers",
+  "subcategories": ["api-trading", "algo-trading"],
+  "description_short": "Commission-free API-first brokerage for developers and algorithmic traders, supporting stocks and crypto with robust REST and WebSocket APIs.",
+  "description_long": "Alpaca Markets is a commission-free, API-first brokerage designed for developers and algorithmic traders who want to build and deploy automated trading systems. The platform provides comprehensive REST and WebSocket APIs for order execution, account management, market data streaming, and position management across US stocks and cryptocurrency markets.\n\nThe API is well-documented with official SDKs for Python, JavaScript, C#, and Go, making it straightforward to integrate into trading bots, backtesting frameworks, and custom applications. Alpaca also offers a paper trading environment that mirrors the live API exactly, allowing developers to test their code without risking real capital. The commission-free model means algo traders are not penalized for high-frequency strategies that generate many small trades.\n\nAlpaca serves both individual algo traders and fintech companies that want to embed brokerage services into their own applications through the Broker API. The platform has become a popular choice in the algo trading community, particularly among Python developers who use it with libraries like Backtrader, Zipline, and custom trading frameworks. The main limitation is market coverage — stocks and crypto only, with no futures or options support.",
+  "logo_url": "/logos/alpaca.svg",
+  "screenshots": [],
+  "website_url": "https://alpaca.markets",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price": 0,
+        "features": [
+          "Commission-free stock trading",
+          "Commission-free crypto trading",
+          "Full REST and WebSocket API",
+          "Paper trading environment",
+          "IEX real-time data"
+        ]
+      },
+      {
+        "name": "Algo Trader Plus",
+        "price": 99,
+        "billing": "monthly",
+        "features": [
+          "Everything in Free",
+          "SIP real-time market data",
+          "Full Level 2 data",
+          "Higher rate limits",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": ["stocks", "crypto"],
+  "pros": [
+    "Commission-free trading with no per-share or per-trade fees for algo strategies",
+    "Excellent API documentation with SDKs for Python, JavaScript, C#, and Go",
+    "Paper trading environment mirrors live API exactly for safe testing",
+    "Active developer community and integration with popular algo trading libraries"
+  ],
+  "cons": [
+    "Stocks and crypto only — no futures, options, or forex support",
+    "No proprietary trading platform — purely API-based, requires coding skills",
+    "Free tier uses IEX data which has fewer quotes than full SIP feed",
+    "Crypto trading limited to select coins, not as comprehensive as dedicated crypto exchanges"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.0,
+    "value": 4.7,
+    "support": 3.8,
+    "reliability": 4.3
+  },
+  "founded_year": 2015,
+  "company": "AlpacaDB, Inc.",
+  "headquarters": "San Mateo, CA, United States",
+  "best_for": ["algorithmic traders", "Python developers", "fintech companies"],
+  "similar_tools": ["tradier", "robinhood", "quantconnect"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

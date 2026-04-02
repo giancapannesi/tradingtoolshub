@@ -1,0 +1,170 @@
+{
+  "name": "ATAS",
+  "slug": "atas",
+  "category": "charting-platforms",
+  "subcategories": [
+    "order-flow",
+    "volume-analysis",
+    "footprint-charts"
+  ],
+  "description_short": "Professional order flow and volume analysis platform with 70+ volume tools, footprint charts, and Smart DOM for futures, stocks, and crypto traders.",
+  "description_long": "ATAS (Advanced Trading Analytical Software) is a dedicated order flow and volume analysis platform built for traders who need to see beyond price action. With 70+ volume analysis tools, 240+ indicators, and 400+ footprint cluster variations, ATAS gives you a granular view of what's happening inside each candlestick — who's buying, who's selling, and where the real liquidity sits.\n\nThe platform connects to 25+ global exchanges including CME, CBOT, NYMEX, NYSE, NASDAQ, Eurex, and major crypto exchanges like Binance, Bybit, and OKX. Its Smart DOM shows real-time order book depth with liquidity clustering, while Smart Tape filters noise from the time and sales feed to highlight institutional-sized orders.\n\nATAS is particularly strong for futures scalpers and crypto traders who trade based on order flow imbalances, volume profiles, and market microstructure. The built-in Market Replay feature lets you backtest strategies against historical tick data with full order book reconstruction, and the integrated journal tracks your performance statistics automatically.",
+  "logo_url": "/logos/atas.svg",
+  "screenshots": [],
+  "website_url": "https://atas.net",
+  "affiliate_url": "",
+  "affiliate_program": "ATAS Referral Program",
+  "affiliate_commission": "Lifetime recurring (no cap)",
+  "affiliate_cookie_days": null,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Start",
+        "price": 0,
+        "features": [
+          "Free forever",
+          "Basic volume analysis tools",
+          "Crypto exchange connections",
+          "Limited indicator set"
+        ]
+      },
+      {
+        "name": "Plus",
+        "price": 24.95,
+        "billing": "monthly",
+        "features": [
+          "Advanced analytical tools",
+          "Broader market access",
+          "More indicators and clusters",
+          "14-day free trial"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": 69.95,
+        "billing": "monthly",
+        "features": [
+          "Full analytics suite",
+          "Advanced footprint variations",
+          "Complex strategy support",
+          "14-day free trial"
+        ]
+      },
+      {
+        "name": "Ultra",
+        "price": 89.95,
+        "billing": "monthly",
+        "features": [
+          "All ATAS features",
+          "Enhanced support",
+          "Priority data access",
+          "14-day free trial"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "futures",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "70+ volume analysis tools with 400+ footprint cluster variations — deepest order flow toolkit available",
+    "Connects to 25+ exchanges including CME, NYSE, Binance, Bybit, and OKX",
+    "Free tier available for crypto traders to get started",
+    "Built-in Market Replay for backtesting with full order book history",
+    "Smart DOM and Smart Tape filter noise to show genuine institutional activity",
+    "Integrated trading journal with automatic performance tracking"
+  ],
+  "cons": [
+    "Windows only — no Mac or Linux native support",
+    "Steeper learning curve than chart-only platforms",
+    "Pro/Ultra tiers needed for full futures and stock market access",
+    "Data feed costs are separate from platform subscription"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.4,
+    "features": 4.9,
+    "value": 4.0,
+    "support": 4.2,
+    "reliability": 4.5
+  },
+  "founded_year": 2015,
+  "company": "ATAS",
+  "headquarters": "International",
+  "best_for": [
+    "order flow traders",
+    "futures scalpers",
+    "crypto volume traders",
+    "market microstructure analysts"
+  ],
+  "similar_tools": [
+    "bookmap",
+    "sierra-chart",
+    "jigsaw-trading",
+    "quantower"
+  ],
+  "last_updated": "2026-03-31",
+  "review_status": "published",
+  "alt_meta_title": "Best ATAS Alternatives 2026: Order Flow & Volume Analysis Tools",
+  "alt_meta_description": "Top ATAS alternatives for order flow and volume analysis. Compare Bookmap, Sierra Chart, Jigsaw Trading, Quantower and more free and paid options for 2026.",
+  "scraped_features": [
+    "70+ Volume Analysis Tools — Volume Profile, VWAP, delta analysis, cumulative delta",
+    "240+ Indicators — classical TA combined with proprietary volume analytics",
+    "400+ Footprint Cluster Variations — examine buyer/seller activity inside each candle",
+    "Smart DOM — real-time order book visualization with liquidity clustering",
+    "Smart Tape — filtered time & sales showing institutional-sized orders",
+    "Market Replay — tick-by-tick historical replay with full order book reconstruction",
+    "Volume Profile — session, visible range, and fixed range profiles",
+    "Heatmap Visualization — see resting orders across price levels",
+    "Cluster Search — find specific volume patterns across timeframes",
+    "Built-in Trading Journal — automatic trade logging with statistics",
+    "One-Click Chart Trading — execute directly from charts",
+    "Multi-Monitor Support — spread analysis across multiple screens"
+  ],
+  "integrations": [
+    "CME Group (CME, CBOT, NYMEX, COMEX)",
+    "NYSE",
+    "NASDAQ",
+    "Eurex",
+    "ICE",
+    "Binance",
+    "Bybit",
+    "OKX",
+    "BitMEX",
+    "Bitget",
+    "Rithmic",
+    "CQG",
+    "Interactive Brokers"
+  ],
+  "unique_selling_points": [
+    "400+ footprint cluster variations give the deepest order flow analysis of any retail platform",
+    "Connects to 25+ global exchanges spanning futures, stocks, and crypto from a single platform",
+    "Smart DOM and Smart Tape proprietary filters remove market maker noise to reveal genuine liquidity",
+    "Built-in Market Replay reconstructs full order book history for realistic strategy backtesting",
+    "Integrated journal automatically tracks trades and generates performance statistics"
+  ],
+  "third_party_reviews": [],
+  "enriched_at": "2026-03-31"
+}

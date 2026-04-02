@@ -1,0 +1,79 @@
+{
+  "name": "Exocharts",
+  "slug": "exocharts",
+  "category": "charting-platforms",
+  "subcategories": ["order-flow", "crypto-trading"],
+  "description_short": "Order flow charting platform for futures and crypto traders with footprint charts, volume profiles, DOM, and real-time delta analysis.",
+  "description_long": "Exocharts is an order flow charting platform built for futures and cryptocurrency traders who need granular volume analysis. The platform provides footprint charts, volume profiles, depth of market (DOM), and delta analysis tools to help traders understand the buying and selling pressure behind price movements.\n\nThe platform covers both traditional futures markets and major crypto exchanges, making it a versatile choice for traders who operate across both asset classes. Exocharts offers multiple footprint visualization modes including bid/ask, delta, and volume at price, along with configurable volume profile overlays.\n\nExocharts positions itself as a focused order flow tool rather than trying to be a full-featured charting suite. This specialization means the tools it does offer are well-tuned for reading order flow, though traders looking for a broader feature set may need to pair it with another platform.",
+  "logo_url": "/logos/exocharts.svg",
+  "screenshots": [],
+  "website_url": "https://exocharts.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29,
+    "tiers": [
+      {
+        "name": "Monthly",
+        "price": 29,
+        "billing": "monthly",
+        "features": [
+          "Footprint charts",
+          "Volume profiles",
+          "DOM analysis",
+          "Delta analysis",
+          "Futures and crypto data"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["futures", "crypto"],
+  "pros": [
+    "Focused order flow toolset with clean footprint chart implementation",
+    "Covers both futures and crypto markets from one platform",
+    "Multiple footprint visualization modes for different analysis styles",
+    "Affordable pricing compared to premium order flow platforms"
+  ],
+  "cons": [
+    "No free tier — must pay to try the platform",
+    "Limited feature set beyond core order flow tools",
+    "Smaller community and fewer educational resources than ATAS or Bookmap",
+    "No backtesting or market replay functionality"
+  ],
+  "rating": 3.7,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 3.6,
+    "value": 3.9,
+    "support": 3.4,
+    "reliability": 3.8
+  },
+  "founded_year": 2020,
+  "company": "Exocharts",
+  "headquarters": "International",
+  "best_for": ["crypto order flow traders", "futures scalpers", "volume profile analysts"],
+  "similar_tools": ["atas", "bookmap", "tensorcharts", "tradinglite"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}

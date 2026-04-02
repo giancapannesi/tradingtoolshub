@@ -1,0 +1,90 @@
+{
+  "name": "Godel Terminal",
+  "slug": "godel-terminal",
+  "category": "trading-platforms",
+  "subcategories": ["terminal", "market-data"],
+  "description_short": "Web-based financial terminal providing Time & Sales, DOM, and Level 2 data for stocks and options traders seeking professional market data access.",
+  "description_long": "Godel Terminal is a web-based financial terminal that provides professional-grade market data tools including Time & Sales, Depth of Market (DOM), and Level 2 data — capabilities traditionally locked behind expensive Bloomberg or Refinitiv terminals or specialized desktop software. The platform runs entirely in the browser, making professional market data accessible without heavyweight software installations.\n\nThe terminal focuses on providing raw market data in clean, configurable displays. Time & Sales shows every trade execution with size, price, and aggressor side. The DOM displays the full order book with depth visualization. Level 2 data breaks down quotes by market maker and exchange, helping traders identify which venues are driving price.\n\nBased in Dover, Delaware, Godel Terminal targets active stock and options traders who want professional data tools without the infrastructure costs of traditional terminals. The web-based approach means you can access your data from any device with a browser, though the experience is optimized for desktop use during market hours.",
+  "logo_url": "/logos/godel-terminal.svg",
+  "screenshots": [],
+  "website_url": "https://godelterminal.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29,
+    "tiers": [
+      {
+        "name": "Basic",
+        "price": 29,
+        "billing": "monthly",
+        "features": [
+          "Time & Sales",
+          "DOM display",
+          "Basic Level 2 data",
+          "Browser-based access"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": 79,
+        "billing": "monthly",
+        "features": [
+          "Full Level 2 data",
+          "Advanced DOM tools",
+          "Options flow data",
+          "Multi-monitor layouts",
+          "Priority data feeds"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": ["stocks", "options"],
+  "pros": [
+    "Professional-grade Time & Sales, DOM, and Level 2 data in a browser",
+    "No software installation required — accessible from any device",
+    "More affordable than Bloomberg or Refinitiv terminal subscriptions",
+    "Clean, configurable market data displays"
+  ],
+  "cons": [
+    "Stocks and options only — no futures or crypto support",
+    "No trading execution — data and analysis only",
+    "Relatively unknown compared to established terminal providers",
+    "Browser-based approach may not match native app performance for data-intensive workflows"
+  ],
+  "rating": 3.5,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 3.4,
+    "value": 3.6,
+    "support": 3.2,
+    "reliability": 3.5
+  },
+  "founded_year": 2021,
+  "company": "Godel Terminal",
+  "headquarters": "Dover, DE, United States",
+  "best_for": ["market data enthusiasts", "Level 2 traders", "options flow analysts"],
+  "similar_tools": ["bookmap", "koyfin", "barchart"],
+  "last_updated": "2026-04-02",
+  "review_status": "published"
+}
