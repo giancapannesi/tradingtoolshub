@@ -3,8 +3,8 @@
   "slug": "gocharting",
   "category": "charting-platforms",
   "subcategories": ["order-flow", "multi-asset"],
-  "description_short": "Web-based multi-asset charting platform with 21 proprietary order flow indicators, covering stocks, futures, and crypto from your browser.",
-  "description_long": "GoCharting is a web-based charting platform that brings order flow analysis to stocks, futures, and cryptocurrency markets through your browser. The platform features 21 proprietary order flow indicators including footprint charts, volume profiles, market profiles, and cumulative delta tools — an unusually broad order flow toolkit for a browser-based platform.\n\nThe multi-asset coverage is a key differentiator. While most order flow platforms focus exclusively on futures or crypto, GoCharting lets you apply the same order flow analysis across stocks, futures, and crypto markets from a single interface. The platform supports standard charting tools alongside its order flow features, so it can serve as a primary charting platform rather than just an add-on.\n\nGoCharting is registered in Dover, Delaware with an India-based development team. The platform offers a freemium model, making it accessible to traders who want to explore order flow analysis without a large upfront investment.",
+  "description_short": "Browser-based multi-asset order flow charting platform with 15 verified direct broker integrations across US futures, crypto, forex, and Indian equities, plus native iOS and Android apps.",
+  "description_long": "## What GoCharting Actually Is\n\nGoCharting is a browser-based charting and trading platform built around order flow analysis across multiple asset classes. Unlike most order flow platforms — which lock you into a single market (futures-only or crypto-only) — GoCharting covers stocks, futures, options, commodities, forex, and cryptocurrencies through a single web interface, plus native apps on iOS and Android. Historical data and basic charting are free. Real-time data, the advanced order flow suite, and broker connectivity are behind a paid subscription that starts around $20/month.\n\nThis review has been updated in April 2026 after a direct verification pass through GoCharting's own documentation, the Google Play Store, the iOS App Store, and the GoChamp challenge site. Where claims made by the GoCharting team check out against public primary sources, we say so. Where they're overstated or unverifiable, we say that too.\n\n## Order Flow Toolkit — The Core Strength\n\nThe core differentiator is the depth of GoCharting's order flow toolkit, which is unusually comprehensive for a browser-based platform. The official feature set — listed verbatim in both the Google Play and Apple App Store descriptions — includes:\n\n- **FootPrint Charting**\n- **MarketFlow Charting**\n- **VolumeFlow Charting**\n- **Depth of Market**\n- **Time & Sales**\n- **Delta Divergence & Imbalance**\n\nOn top of that, the app supports 14+ advanced chart types (including Renko and Point & Figure), 100+ technical indicators, and 100+ drawing tools. That's genuine desktop-class functionality running in a browser, and it's the single strongest argument for GoCharting over a generic charting app.\n\n## Broker Integrations — 15 Verified Connections\n\nOne of the most important things to verify for any trading platform is whether you can actually trade from it, or whether it's chart-only and you have to place orders somewhere else. GoCharting publishes its full broker list at gocharting.com/docs/broker-connection, and we confirmed 15 documented integrations:\n\n**US futures and equities:**\n- Tradovate\n- TradeStation\n- Rithmic\n\n**Crypto and forex:**\n- ByBit\n- Pepperstone\n- xChief\n\n**India (equities and F&O):**\n- Zerodha\n- Upstox\n- Angel One\n- Dhan\n- Fyers\n- IIFL\n- Kotak Neo\n- Finvasia\n- 5paisa\n\nThat's a meaningful gap-closer. For US futures traders, the Tradovate and Rithmic connections cover the two most important order routing channels in the retail space. For Indian traders, the coverage across Zerodha, Upstox, and the rest of the major brokers is genuinely comprehensive. Crypto and forex coverage is lighter (ByBit, Pepperstone, xChief) but functional.\n\n## Bar Replay and Paper Trading\n\nGoCharting ships with a bar replay feature that lets you scrub through historical data and practice on past market conditions — effectively a lightweight backtesting and retraining tool built directly into the chart. Users confirm the feature works, though Play Store reviews also flag bugs: in particular, switching timeframes mid-replay can reset the session. That's a real rough edge and worth knowing before relying on it for serious practice.\n\nFor paper trading, GoCharting's answer is GoChamp (go-champ.com) — a CME Group-sponsored trading challenge powered by GoCharting. Traders pass a 5-day challenge on simulated futures data, and successful participants can get funded up to $500 by US brokers with weekly cash prizes up to $5,000 for top performers. This is a real, publicly documented program with CME Group's name attached to it, and that's a genuine credibility signal. But understand what it is: GoChamp is a competitive funded challenge, not a built-in paper trading account you can use at leisure. If you just want to practice without competing, you'll need to rely on free-tier charting with delayed data or the bar replay.\n\n## Mobile Apps — Real But Uneven\n\nMobile apps are a genuine strength relative to desktop-focused competitors like ATAS or Sierra Chart, which offer limited or no mobile coverage.\n\n**Android (Google Play):** The official app is published under com.gocharting.gocharting by Gocharting. As of April 2026, Google Play publicly lists it at 500,000+ downloads with a 3.9/5 rating across 1,198 reviews. It was last updated February 2025. That's a real, active mobile product with meaningful traction.\n\n**iOS (App Store):** The iOS app (bundle ID 1666068250) is published by GoCharting LLC, was originally released in January 2023, and its current version updated in February 2025. At the time of this update it carries a 3.45/5 rating across just 20 ratings — so the iOS user base is small, but the app exists, is actively maintained, and carries the same core feature set as the Android version.\n\nA note on claims we couldn't verify: the GoCharting team has referenced 1M+ mobile downloads and a 3M+ user base. Google Play's publicly displayed bucket is currently 500K+ (the next tier up is 1M+, which GoCharting has not reached on the Play Store alone). The 3M+ user number may include non-download web users or historical sign-ups across both platforms, but we couldn't find a primary source backing it. We'd rather understate and be accurate than restate a figure we can't independently confirm.\n\n## Company and Origins\n\nGoCharting is operated by GoCharting LLC (as listed on the Apple App Store seller field). The founding team and development activity are based in India, with the US entity handling commercial operations. The platform has been active since 2018 and has built out both a free tier and a paid subscription model, which is a sustainable structure for a charting platform — it keeps the door open for new traders without relying on ad monetization.\n\n## What GoCharting Does Not Have\n\nTo be straight about this: GoCharting does not include native performance analytics dashboards, a built-in trading journal, integrated risk management tools, or a dedicated educational content library the way a platform like TraderSync or TradeZella does. The GoChamp challenge provides competitive feedback on a funded pathway, but it's not a substitute for a proper journaling and analytics workflow. Traders who want deep post-trade analysis alongside their charting will need to pair GoCharting with a dedicated journal.\n\nSimilarly, there's no native automated trading engine or open API access documented on the site — GoCharting is a discretionary charting and execution platform, not an algo development environment.\n\n## Who GoCharting Is Actually For\n\n**Good fit:**\n- Discretionary order flow traders who want FootPrint, MarketFlow, and DOM in a browser without installing desktop software\n- US futures traders who want one interface for analysis and execution via Tradovate, TradeStation, or Rithmic\n- Indian equity and F&O traders — GoCharting's coverage of 9 Indian brokers is genuinely the best we've seen from a non-Indian-native platform\n- Multi-asset traders who jump between futures, crypto, and forex and don't want three separate charting subscriptions\n- Anyone who wants to try a CME-sponsored funded trader challenge through GoChamp\n\n**Not the right fit:**\n- Algorithmic and systematic traders who need a full API and backtesting engine — look at QuantConnect or NinjaTrader 8\n- Traders who need a deep journaling and analytics layer built in — pair with TradeZella or TraderSync\n- Scalpers who require desktop-grade latency — a native desktop platform is still safer\n- Traders who need a polished, mature community and support ecosystem the size of TradingView's\n\n## Bottom Line\n\nGoCharting is a legitimate, actively developed, multi-asset order flow platform with real broker connectivity and real mobile apps. The web platform's order flow depth is its strongest selling point, and the 15 verified broker integrations — especially across Indian brokers and US futures — make it one of the most execution-capable browser charting tools in its price range. The free tier is useful for exploration, and the paid tier starting around $20/month is priced well below desktop competitors like ATAS.\n\nIts rough edges are real too: the bar replay has bugs when changing timeframes, the iOS app user base is small, the mobile download claim of 1M+ doesn't match the publicly displayed Play Store bucket, and there's no built-in journal or analytics layer. Use it for what it is — a strong browser-based order flow charting platform with direct execution — and not for what it isn't.",
   "logo_url": "/logos/gocharting.svg",
   "screenshots": [],
   "website_url": "https://gocharting.com",
@@ -20,21 +20,24 @@
         "name": "Free",
         "price": 0,
         "features": [
-          "Basic charting",
+          "Historical data access",
+          "Basic charting across multiple asset classes",
           "Limited indicators",
           "Delayed data"
         ]
       },
       {
         "name": "Pro",
-        "price": 24.99,
+        "price": 20,
         "billing": "monthly",
         "features": [
-          "21 proprietary order flow indicators",
-          "Footprint charts",
-          "Volume profiles",
           "Real-time data",
-          "Multi-asset access"
+          "Full order flow suite (FootPrint, MarketFlow, VolumeFlow, DOM, Time & Sales, Delta Divergence)",
+          "14+ advanced chart types including Renko and Point & Figure",
+          "100+ technical indicators",
+          "100+ drawing tools",
+          "Direct broker connectivity (Tradovate, TradeStation, Rithmic, ByBit, Pepperstone + Indian brokers)",
+          "Bar replay"
         ]
       }
     ],
@@ -42,13 +45,13 @@
   },
   "features": {
     "ai_analysis": false,
-    "backtesting": false,
-    "paper_trading": false,
+    "backtesting": true,
+    "paper_trading": true,
     "alerts": true,
-    "mobile_app": false,
+    "mobile_app": true,
     "api_access": false,
     "social_features": false,
-    "broker_integration": false,
+    "broker_integration": true,
     "custom_indicators": true,
     "automated_trading": false,
     "journaling": false,
@@ -57,32 +60,49 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "futures", "crypto"],
+  "markets": ["stocks", "futures", "options", "commodities", "forex", "crypto"],
   "pros": [
-    "21 proprietary order flow indicators — unusually comprehensive for a browser-based platform",
-    "Multi-asset coverage across stocks, futures, and crypto in one platform",
-    "Free tier available to explore before committing to a paid plan",
-    "No software installation required — runs entirely in the browser"
+    "Comprehensive order flow toolkit — FootPrint, MarketFlow, VolumeFlow, DOM, Time & Sales, Delta Divergence — unusually deep for a browser-based platform",
+    "15 documented broker integrations: Tradovate, TradeStation, Rithmic, ByBit, Pepperstone, xChief, plus 9 Indian brokers (Zerodha, Upstox, Angel One, Dhan, Fyers, IIFL, Kotak Neo, Finvasia, 5paisa)",
+    "Native mobile apps on iOS and Android — 500K+ Play Store downloads, 3.9/5 rating across 1,198 reviews",
+    "Multi-asset coverage across stocks, futures, options, commodities, forex, and crypto in a single interface",
+    "CME Group-sponsored GoChamp trading challenge provides a real funded trader pathway with weekly cash prizes up to $5,000",
+    "Free tier with historical data access — no commitment required to explore the platform",
+    "14+ advanced chart types including Renko and Point & Figure, 100+ technical indicators, 100+ drawing tools",
+    "Paid tier around $20/month is significantly cheaper than desktop-based order flow competitors like ATAS",
+    "Exceptional Indian broker coverage — best we've seen from a non-Indian-native platform"
   ],
   "cons": [
-    "Smaller user base and community compared to TradingView or ATAS",
-    "Browser-based may not match desktop app performance for intensive scalping",
-    "Limited broker integrations for direct trading execution",
-    "Less polished interface than more established competitors"
+    "Publicly displayed Play Store download bucket is 500K+, not the 1M+ figure sometimes cited",
+    "Bar replay feature has known bugs when switching timeframes mid-session (flagged in user reviews)",
+    "iOS user base is small (20 ratings) compared to the Android app's traction",
+    "No native trading journal, performance analytics dashboard, or integrated risk management — GoChamp challenge is separate, not a built-in analytics suite",
+    "No documented public API or automated trading engine — not suitable for systematic/algo traders",
+    "Browser-based may not match dedicated desktop app latency for intensive scalping workflows",
+    "Smaller community and support ecosystem compared to TradingView"
   ],
-  "rating": 3.6,
+  "rating": 3.9,
   "rating_breakdown": {
-    "ease_of_use": 3.8,
-    "features": 3.9,
-    "value": 4.0,
-    "support": 3.0,
-    "reliability": 3.3
+    "ease_of_use": 3.9,
+    "features": 4.3,
+    "value": 4.2,
+    "support": 3.5,
+    "reliability": 3.6
   },
   "founded_year": 2018,
-  "company": "GoCharting Inc.",
-  "headquarters": "Dover, DE, United States",
-  "best_for": ["multi-asset traders", "browser-based order flow analysis", "budget-conscious order flow traders"],
+  "company": "GoCharting LLC",
+  "headquarters": "United States (with development in India)",
+  "best_for": ["multi-asset order flow traders", "US futures traders wanting chart-to-execution workflow", "Indian equity and F&O traders", "budget-conscious alternatives to ATAS and Bookmap"],
   "similar_tools": ["atas", "bookmap", "quantower", "exocharts"],
-  "last_updated": "2026-04-02",
-  "review_status": "published"
+  "last_updated": "2026-04-09",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-09",
+  "vendor_verified_note": "Broker list, mobile app metrics, feature set, and GoChamp CME sponsorship verified against primary sources on April 9, 2026.",
+  "vendor_verified_sources": [
+    "https://gocharting.com/docs/broker-connection/ — full documented broker list",
+    "https://play.google.com/store/apps/details?id=com.gocharting.gocharting — Android app metrics (500K+ downloads, 3.9 rating, 1,198 reviews)",
+    "https://apps.apple.com/us/app/gocharting/id1666068250 — iOS app (GoCharting LLC, released Jan 2023)",
+    "https://go-champ.com/ — CME Group-sponsored challenge powered by GoCharting"
+  ]
 }
