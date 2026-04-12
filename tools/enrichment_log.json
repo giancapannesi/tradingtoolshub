@@ -15,9 +15,44 @@
       ],
       "failed": [],
       "skipped": []
+    },
+    {
+      "date": "2026-03-30T16:26:47.865264",
+      "enriched": [
+        "alpha-vantage",
+        "bloomberg-terminal",
+        "seeking-alpha",
+        "thinkorswim-scanner",
+        "benzinga-pro",
+        "earn2trade",
+        "tc2000-scanner"
+      ],
+      "failed": [
+        "edgewonk",
+        "ftmo",
+        "motivewave",
+        "tradezella",
+        "trademetria",
+        "tradersync",
+        "coinrule",
+        "3commas",
+        "kinfo",
+        "bitsgap",
+        "koyfin",
+        "bookmap",
+        "funded-trading-plus"
+      ],
+      "skipped": []
     }
   ],
   "enriched_slugs": [
-    "tradervue"
+    "tradervue",
+    "alpha-vantage",
+    "bloomberg-terminal",
+    "seeking-alpha",
+    "thinkorswim-scanner",
+    "benzinga-pro",
+    "earn2trade",
+    "tc2000-scanner"
   ]
 }

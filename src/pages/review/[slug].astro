@@ -33,9 +33,17 @@ const toolGuides = allBlogs.filter(b =>
 );
 
 // Build FAQ schema for review pages
+// Helper: format best_for as comma-separated with "and" before the last item
+const bestForText = tool.best_for.length <= 1
+  ? tool.best_for[0] || ''
+  : tool.best_for.slice(0, -1).join(', ') + ', and ' + tool.best_for[tool.best_for.length - 1];
+
+// Helper: find the first paid tier's monthly price
+const firstPaidPrice = tool.pricing.tiers.find(t => (t.price_monthly || 0) > 0)?.price_monthly;
+
 const pricingText = tool.pricing.starting_price === 0
-  ? `${tool.name} offers a free plan. ${tool.pricing.tiers.length > 1 ? `Paid plans start at $${tool.pricing.tiers.find(t => t.price_monthly > 0)?.price_monthly || 'N/A'}/month.` : ''}`
-  : `${tool.name} starts at $${tool.pricing.starting_price}/month. ${tool.pricing.has_free_tier ? 'A free tier is also available.' : 'There is no free tier.'} ${tool.pricing.tiers.length > 1 ? `Plans range from $${tool.pricing.tiers[0].price_monthly} to $${tool.pricing.tiers[tool.pricing.tiers.length - 1].price_monthly}/month.` : ''}`;
+  ? `${tool.name} offers a free plan.${firstPaidPrice ? ` Paid plans start at $${firstPaidPrice}/month.` : ''}`
+  : `${tool.name} starts at $${tool.pricing.starting_price}/month. ${tool.pricing.has_free_tier ? 'A free tier is also available.' : 'There is no free tier.'} ${tool.pricing.tiers.length > 1 ? `Plans range from $${tool.pricing.tiers[0].price_monthly || 0} to $${tool.pricing.tiers[tool.pricing.tiers.length - 1].price_monthly || 0}/month.` : ''}`;
 
 const prosText = tool.pros.slice(0, 3).join(', ');
 const consText = tool.cons.slice(0, 3).join(', ');
@@ -351,7 +359,7 @@ const jsonLd = [
       <div class="mt-4 bg-card/50 border border-border rounded-xl p-5">
         <h3 class="text-sm font-semibold text-text mb-2">TL;DR</h3>
         <p class="text-sm text-muted leading-relaxed">
-          {tool.name} is a {category?.name?.toLowerCase() || tool.category.replace(/-/g, ' ')} tool rated {tool.rating.toFixed(1)}/5, best suited for {tool.best_for.join(' and ')}. {tool.pricing.starting_price === 0 ? `It offers a free plan${tool.pricing.tiers.length > 1 ? `, with paid plans starting at $${tool.pricing.tiers.find(t => t.price_monthly > 0)?.price_monthly || 'N/A'}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} {tool.pros[0]} and {tool.pros.length > 1 ? tool.pros[1].toLowerCase() : 'it performs well for its target audience'}.
+          {tool.name} is a {category?.name?.toLowerCase() || tool.category.replace(/-/g, ' ')} tool rated {tool.rating.toFixed(1)}/5, best suited for {bestForText}. {tool.pricing.starting_price === 0 ? `It offers a free plan${firstPaidPrice ? `, with paid plans starting at $${firstPaidPrice}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} {tool.pros[0]} and {tool.pros.length > 1 ? tool.pros[1].toLowerCase() : 'it performs well for its target audience'}.
         </p>
       </div>
     </section>

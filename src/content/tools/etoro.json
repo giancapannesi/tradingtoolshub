@@ -23,7 +23,8 @@
         "name": "Stock Trades",
         "features": [
           "Flat fee per stock trade"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "ETFs",
@@ -107,7 +108,7 @@
   "review_status": "published",
   "company_background": "eToro was founded in 2007 with the vision of a world where everyone can trade and invest in a simple and transparent way. Founded by three entrepreneurs to disrupt the world of trading and make it accessible to anyone, anywhere.",
   "scraped_features": [
-    "CopyTrader\u2122 - automatically copy moves of other investors in real time",
+    "CopyTrader™ - automatically copy moves of other investors in real time",
     "Social investing community platform",
     "Smart Portfolios - expertly curated portfolios based on themes and strategies",
     "CFD Trading with leverage and short selling",
@@ -125,7 +126,7 @@
     "News and Analysis with top analysts"
   ],
   "unique_selling_points": [
-    "CopyTrader\u2122 technology - replicate successful investor trades in real time",
+    "CopyTrader™ technology - replicate successful investor trades in real time",
     "20 global stock exchanges with 100+ cryptocurrencies in one platform",
     "Social investing community with knowledge sharing",
     "Interest-earning cash balance (up to 3.55% annual)",

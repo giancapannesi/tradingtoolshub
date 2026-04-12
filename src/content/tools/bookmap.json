@@ -25,14 +25,16 @@
           "Free tier",
           "Crypto data",
           "Delayed futures and stocks data"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Digital +",
         "features": [
           "Full futures/stocks market depth",
           "Premium indicators"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Global",
@@ -40,7 +42,8 @@
           "Full futures/stocks market depth",
           "Premium indicators",
           "Real-time professional data"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Global+",
@@ -48,7 +51,8 @@
           "Full futures/stocks market depth",
           "Premium indicators",
           "Advanced add-ons included"
-        ]
+        ],
+        "price_monthly": 0
       }
     ],
     "currency": "USD"
@@ -113,16 +117,16 @@
   "alt_meta_title": "Best Bookmap Alternatives 2026: Free Order Flow Tools",
   "alt_meta_description": "Top Bookmap alternatives for order flow and depth-of-market analysis. Sierra Chart, Jigsaw, Quantower, and more. Free and paid options compared for 2026.",
   "scraped_features": [
-    "Liquidity Heatmap \u2014 visualize resting limit orders across all price levels in real-time",
-    "Volume Bubbles \u2014 understand aggressive buying/selling and buyer/seller imbalance",
-    "Best Bid & Offer tracking \u2014 detect absorption and exhaustion at the spread",
-    "Current Order Book (DOM) \u2014 view complete depth of market with configurable columns",
-    "Nanosecond Zoom \u2014 drill into microstructure at ultra-high frame rate (40 FPS)",
-    "Stops & Icebergs Tracker \u2014 detect hidden iceberg orders and stop runs",
-    "Tradermap Pro \u2014 filter market maker bots and identify genuine liquidity",
-    "DOM Pro \u2014 combine depth visualization with execution flow for better timing",
-    "Market Pulse \u2014 monitor large trades, sweeps, and momentum shifts in real-time",
-    "Record & Replay \u2014 tick-by-tick replay of live sessions for backtesting and trade review",
+    "Liquidity Heatmap — visualize resting limit orders across all price levels in real-time",
+    "Volume Bubbles — understand aggressive buying/selling and buyer/seller imbalance",
+    "Best Bid & Offer tracking — detect absorption and exhaustion at the spread",
+    "Current Order Book (DOM) — view complete depth of market with configurable columns",
+    "Nanosecond Zoom — drill into microstructure at ultra-high frame rate (40 FPS)",
+    "Stops & Icebergs Tracker — detect hidden iceberg orders and stop runs",
+    "Tradermap Pro — filter market maker bots and identify genuine liquidity",
+    "DOM Pro — combine depth visualization with execution flow for better timing",
+    "Market Pulse — monitor large trades, sweeps, and momentum shifts in real-time",
+    "Record & Replay — tick-by-tick replay of live sessions for backtesting and trade review",
     "One-Click Chart Trading",
     "Customizable Charts and indicators",
     "Developer APIs for custom indicators and automated strategies"
