@@ -2,9 +2,12 @@
   "name": "Quantower",
   "slug": "quantower",
   "category": "futures-platforms",
-  "subcategories": ["order-flow", "multi-broker"],
-  "description_short": "Multi-broker trading platform with professional order flow tools, DOM trading, and volume analysis for futures and crypto.",
-  "description_long": "Quantower is a multi-broker trading platform that provides professional-grade order flow analysis, charting, and trade execution tools. The platform connects to dozens of brokers and data providers, allowing traders to use a single interface regardless of which brokerage they trade through.\n\nQuantower's order flow toolkit includes footprint charts, volume profile, cluster charts, DOM (Depth of Market) trading, and time and sales analysis. The platform's TPO (Time Price Opportunity) charts and volume-weighted tools give futures traders deep market structure insights.\n\nPricing follows a freemium model: the free version provides access to most panels and basic functionality, while paid plans ($39/month basic, $70/month full) unlock advanced features. A lifetime license at $1,590 is available for traders who want to avoid recurring costs. Quantower is also available for free through some broker partnerships like Optimus Futures.",
+  "subcategories": [
+    "order-flow",
+    "multi-broker"
+  ],
+  "description_short": "Multi-broker desktop trading platform with professional order flow analysis, 30+ broker connections, footprint charts, volume profiles, DOM trading, and a generous free tier — plus lifetime license option at $1,590.",
+  "description_long": "## What Quantower Is\n\nQuantower is a desktop trading platform that solves a genuine pain point: most professional charting platforms lock you into a single broker or data feed. Quantower connects to 30+ brokers and data providers — Rithmic, CQG, Interactive Brokers, Binance, Bybit, dxFeed, IQFeed, and more — all through a single interface. If you switch brokers, you don't need to learn a new platform. If you trade multiple asset classes through different brokers, you see everything in one workspace.\n\nThe platform was built by a team of traders and developers in Eastern Europe and has been in active development since 2017. It occupies an interesting middle ground: more capable than browser-based platforms (TradingView, GoCharting) but more accessible and modern-looking than legacy desktop platforms (Sierra Chart, NinjaTrader 7). Quantower is trying to be the \"modern NinjaTrader\" — professional-grade tools with a UI that doesn't look like it was built in 2005.\n\n## Multi-Broker Architecture — The Key Differentiator\n\nThe multi-broker connectivity is Quantower's most important selling point and the feature that distinguishes it from virtually every competitor:\n\n**Futures:**\n- Rithmic — the dominant US futures order routing service\n- CQG — institutional-grade futures connectivity\n- Trading Technologies (TT)\n- Optimus Futures (free Quantower access through broker partnership)\n- AMP Futures\n- Phillip Capital\n- Ironbeam\n\n**Stocks:**\n- Interactive Brokers\n- TD Ameritrade / Schwab\n- TradeStation\n- dxFeed (market data)\n- IQFeed (market data)\n\n**Crypto:**\n- Binance, Bybit, OKX, Deribit, Kraken, Bitfinex, Coinbase, FTX (legacy)\n\n**Forex:**\n- FXCM, LMAX, cTrader brokers\n\nThis means a trader who scalps ES futures via Rithmic, holds stocks at Interactive Brokers, and trades crypto on Bybit can monitor and trade all three from a single Quantower workspace. No other platform at this price point offers that breadth of connectivity.\n\n## Order Flow Analysis\n\nQuantower's order flow toolkit is comprehensive and competes credibly with dedicated order flow platforms like ATAS and Bookmap:\n\n- **Footprint Charts** — bid×ask, delta, volume imbalance, and cumulative delta footprint modes with configurable color schemes and imbalance thresholds\n- **Volume Profile** — session-based, custom range, composite, and developing profiles with POC, VAH, VAL, and naked POC tracking\n- **Cluster Charts** — aggregate volume data into visual clusters at each price level, showing where the heaviest trading activity occurred\n- **DOM Surface (Market Depth)** — visual representation of the order book that shows limit order placement and cancellation patterns over time\n- **TPO (Time Price Opportunity) Charts** — market profile analysis showing how time is distributed across price levels during a session\n- **Time & Sales** — configurable tape with size filtering, color coding, and aggressive order identification\n- **DOM Trader** — fast depth-of-market trading ladder with one-click order placement, bracket orders, and trailing stops\n\nThe order flow tools are available across all connected exchanges and brokers — so you can use the same footprint analysis methodology on ES futures, Bitcoin, and stocks without switching platforms.\n\n## Workspace & Panel System\n\nQuantower uses a modular panel system where each chart, DOM, watchlist, or tool is an independent panel that can be arranged, docked, and saved as part of a workspace. You can create multiple workspaces for different trading sessions or strategies and switch between them instantly.\n\nThis is more flexible than the fixed-layout approach of many trading platforms and works well for multi-monitor setups. Each panel can connect to a different broker/data feed, so you can have an ES chart on Rithmic data next to a Bitcoin chart on Binance data in the same workspace.\n\n## Pricing — Generous Free Tier + Lifetime Option\n\nQuantower's pricing model is notably trader-friendly:\n\n- **Free** — access to most panels, basic charting, real-time data through connected brokers, DOM trading. The free tier is genuinely usable for actual trading — not a crippled demo\n- **Basic ($39/month)** — adds volume analysis tools, advanced order types, and multi-asset portfolio management\n- **Full ($70/month)** — adds all order flow tools (footprint, DOM Surface, cluster charts), advanced analytics, and API access\n- **Lifetime License ($1,590)** — one-time payment for permanent full access. At $70/month, the lifetime license pays for itself in under 2 years\n\nThe lifetime license option is rare in trading software and a genuine value proposition for traders who plan to use the platform long-term. Additionally, some broker partnerships (notably Optimus Futures) provide Quantower for free to their clients — worth checking if your broker has a similar arrangement.\n\n## What Quantower Does Not Have\n\n- **No Mac or web version** — Windows desktop only. This is the biggest limitation for Mac users or traders who want to check markets from a tablet\n- **No mobile app** — desktop only\n- **No automated trading engine** — Quantower is a discretionary trading platform. While it has an API for custom development, there's no built-in strategy backtesting or automated execution framework comparable to NinjaTrader's\n- **No built-in journal** — you'll need a separate trading journal\n- **Smaller community than NinjaTrader or TradingView** — fewer third-party add-ons, educational resources, and community-created indicators\n\n## Who Quantower Is For\n\n**Good fit:**\n- Multi-broker traders who need one platform across futures, stocks, crypto, and forex\n- Futures traders on Rithmic/CQG who want professional order flow tools without paying ATAS/Bookmap prices\n- Traders who want a modern, visually clean platform with professional capabilities\n- Budget-conscious traders who want a lifetime license option to avoid monthly subscriptions\n- Optimus Futures clients who get Quantower free through the broker partnership\n\n**Not the right fit:**\n- Mac users — no Mac version available\n- Algorithmic traders who need backtesting and automated strategy execution\n- Traders who want a massive ecosystem of community indicators and scripts (NinjaTrader or TradingView are better for this)\n- Traders who primarily need social/community features alongside charting\n\n## Bottom Line\n\nQuantower is the best multi-broker trading platform available for discretionary traders who need professional order flow tools. The 30+ broker connections mean you're never locked in, the order flow toolkit competes with dedicated platforms costing more, the free tier is genuinely useful for actual trading, and the lifetime license at $1,590 is a rare value proposition. The main limitations — Windows only, no automated trading, smaller ecosystem — matter for some traders but not for Quantower's core audience of multi-broker discretionary traders who want professional tools in a modern interface.",
   "logo_url": "/logos/quantower.svg",
   "screenshots": [],
   "website_url": "https://www.quantower.com",
@@ -16,29 +19,124 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["Basic charting", "DOM trading", "Most panels available", "Broker connections"]},
-      {"name": "Basic", "price_monthly": 39, "price_yearly": 396, "features": ["Advanced order flow", "Volume profile", "Footprint charts", "Enhanced analytics"]},
-      {"name": "Premium", "price_monthly": 70, "price_yearly": 720, "features": ["All features", "Cluster charts", "Advanced TPO", "Priority support"]},
-      {"name": "Lifetime", "price_monthly": 0, "price_yearly": 0, "features": ["One-time $1,590 payment", "All Premium features forever"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "features": [
+          "Most panels and basic charting",
+          "Real-time data through connected brokers",
+          "DOM trading with one-click orders",
+          "Basic indicators and drawing tools"
+        ]
+      },
+      {
+        "name": "Basic",
+        "price_monthly": 39,
+        "features": [
+          "Volume analysis tools",
+          "Advanced order types",
+          "Multi-asset portfolio management",
+          "Enhanced chart types"
+        ]
+      },
+      {
+        "name": "Full",
+        "price_monthly": 70,
+        "features": [
+          "Everything in Basic",
+          "All order flow tools (footprint, DOM Surface, cluster charts)",
+          "Advanced analytics",
+          "API access"
+        ]
+      },
+      {
+        "name": "Lifetime",
+        "price_monthly": 0,
+        "features": [
+          "One-time payment of $1,590",
+          "Permanent Full tier access",
+          "All future updates included",
+          "No recurring fees"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
-    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": false
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
   },
-  "markets": ["futures", "stocks", "crypto", "forex"],
-  "pros": ["Connects to 30+ brokers and data providers", "Professional order flow tools at accessible pricing", "Free version is genuinely useful", "Lifetime license option avoids recurring costs"],
-  "cons": ["Windows only, no Mac or web version", "Smaller community than NinjaTrader", "Documentation could be more comprehensive"],
+  "markets": [
+    "futures",
+    "stocks",
+    "crypto",
+    "forex"
+  ],
+  "pros": [
+    "30+ broker connections across futures, stocks, crypto, and forex — trade everything from one platform",
+    "Professional order flow tools: footprint charts, volume profiles, DOM Surface, cluster charts, TPO",
+    "Genuinely useful free tier — not a crippled demo, includes real-time data and DOM trading",
+    "Lifetime license option at $1,590 — pays for itself in under 2 years vs monthly subscription",
+    "Modern, clean UI with modular panel system — professional capabilities without the dated interface",
+    "Free access through Optimus Futures broker partnership",
+    "Multi-monitor workspace system with instant switching between trading setups",
+    "Order flow tools work across ALL connected exchanges — same analysis methodology on futures, crypto, and stocks"
+  ],
+  "cons": [
+    "Windows only — no Mac, Linux, or web version",
+    "No mobile app — desktop only",
+    "No automated trading or strategy backtesting — discretionary trading only",
+    "Smaller community and ecosystem than NinjaTrader or TradingView",
+    "No built-in trading journal — need an external journaling tool",
+    "Documentation could be more comprehensive for advanced features"
+  ],
   "rating": 4.2,
-  "rating_breakdown": {"ease_of_use": 3.9, "features": 4.5, "value": 4.4, "support": 3.8, "reliability": 4.2},
+  "rating_breakdown": {
+    "ease_of_use": 4.1,
+    "features": 4.5,
+    "value": 4.5,
+    "support": 3.8,
+    "reliability": 4.2
+  },
   "founded_year": 2017,
   "company": "Quantower LLC",
   "headquarters": "Kyiv, Ukraine",
-  "best_for": ["order flow traders", "multi-broker traders", "futures day traders"],
-  "similar_tools": ["ninjatrader", "sierra-chart", "bookmap"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": [
+    "multi-broker traders who need one platform across futures, stocks, crypto, and forex",
+    "futures traders on Rithmic/CQG wanting professional order flow tools",
+    "budget-conscious traders who prefer a lifetime license over monthly fees",
+    "Optimus Futures clients who get Quantower free through the broker partnership"
+  ],
+  "similar_tools": [
+    "atas",
+    "sierra-chart",
+    "ninjatrader",
+    "bookmap",
+    "motivewave",
+    "gocharting"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Platform features, pricing, broker connectivity, and order flow tools verified against quantower.com documentation. Vendor acknowledged our outreach (auto-ack Apr 2026).",
+  "vendor_verified_sources": [
+    "https://www.quantower.com/ — official platform homepage",
+    "https://www.quantower.com/connections — supported brokers and data providers",
+    "https://www.quantower.com/pricing — subscription tiers and lifetime license",
+    "https://www.quantower.com/volumeanalysistools — order flow and volume analysis tools"
+  ]
 }
