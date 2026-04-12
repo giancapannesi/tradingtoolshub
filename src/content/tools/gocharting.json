@@ -87,11 +87,10 @@
     "Arguably the widest US futures broker coverage of any browser-based platform (Tradovate + Rithmic + CQG)"
   ],
   "cons": [
-    "Bar replay limited to 9,000 historical bars per timeframe — same limitation as TradingView, not suitable for minute-level backtesting of extended periods",
+    "Bar replay limited to 9,000 historical bars per timeframe — not suitable for minute-level backtesting of extended historical periods",
     "iOS user base is small (20 ratings) compared to the Android app's traction",
     "No native trading journal or performance analytics dashboard — need to pair with a dedicated journaling tool",
-    "Browser-based may not match dedicated desktop app latency for intensive scalping workflows",
-    "Community is growing but still smaller than TradingView's massive ecosystem"
+    "Browser-based may not match dedicated desktop app latency for intensive scalping workflows"
   ],
   "rating": 4.1,
   "rating_breakdown": {
