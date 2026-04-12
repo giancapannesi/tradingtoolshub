@@ -6,8 +6,8 @@
     "order-flow",
     "market-depth"
   ],
-  "description_short": "Real-time market depth heatmap visualization platform for order flow analysis and institutional activity tracking.",
-  "description_long": "Bookmap is the gold standard for order flow visualization, rendering real-time market depth data as intuitive heatmaps that reveal hidden liquidity, large orders, and institutional activity. Instead of traditional candlestick charts, Bookmap shows the entire order book over time, making it easier to spot spoofing, absorption, and momentum shifts.\n\nThe platform excels at showing where large players are positioning their orders and how the order book evolves in real-time. This gives day traders and scalpers a significant edge in reading market microstructure and making more informed entry and exit decisions.\n\nBookmap supports futures, stocks, crypto, and forex through connections to major data providers and exchanges. The platform is particularly popular among futures scalpers and crypto traders who rely heavily on order flow for their decision-making.",
+  "description_short": "Real-time order flow visualization platform that renders market depth as dynamic heatmaps, revealing liquidity, large orders, and institutional activity across futures, stocks, crypto, and forex.",
+  "description_long": "## What Bookmap Is\n\nBookmap changed the way retail traders see the market. Before Bookmap, reading the order book meant staring at a numerical DOM ladder and trying to mentally track how bids and offers shifted over time. Bookmap replaced that with a visual heatmap — a continuous, color-coded display of the entire order book that scrolls horizontally as time passes, showing exactly where liquidity is sitting, where it's pulling, and where large players are positioning.\n\nThis isn't just a different way to display the same information. The heatmap reveals patterns that are invisible on a traditional DOM: spoofing (large orders that appear and disappear to manipulate price), absorption (a large resting order that absorbs selling pressure without moving), iceberg orders (hidden size being filled repeatedly at the same price), and momentum shifts (liquidity suddenly pulling away from one side). For traders who make decisions based on market microstructure, Bookmap provides information that no other chart type can.\n\n## The Company\n\nBookmap is developed by Bookmap Ltd, a fintech company focused exclusively on order flow visualization technology. The platform has been in development since 2014 and has built a strong reputation in the professional trading community, particularly among futures scalpers, prop firm traders, and institutional training programs. The company maintains an active educational presence through YouTube, webinars, and a knowledge base.\n\n## The Heatmap — Core Product\n\nThe heatmap is Bookmap's signature feature and its primary reason for existing. It works by plotting the limit order book on a price-by-time chart where:\n\n- **Color intensity** represents the size of resting orders at each price level — brighter/denser colors mean more contracts/shares\n- **The horizontal axis** is time, scrolling continuously as the market moves\n- **The vertical axis** is price\n- **The current market price** traces a line through the heatmap, showing how price interacts with the visible liquidity landscape\n\nWhat makes this powerful is the ability to see ORDER BOOK HISTORY — not just what the book looks like right now, but how it has evolved over the last minutes, hours, or the entire session. You can visually see:\n\n- A wall of liquidity at a price level that held as support (price bounced off it)\n- Orders being pulled just before price arrives (potential spoofing)\n- A large hidden buyer absorbing everything thrown at it (iceberg/absorption)\n- Thin areas in the book where price could move rapidly (liquidity gaps)\n\nNo traditional chart — candlestick, bar, line — shows any of this information. Bookmap is solving a genuinely different problem.\n\n## Order Flow Indicators\n\nBeyond the raw heatmap, Bookmap includes a suite of order flow indicators that quantify what the heatmap shows visually:\n\n- **Large Lot Tracker** — highlights individual trades above a configurable size threshold, showing where institutions and large traders are executing\n- **Volume Dots** — plots volume-at-price as proportionally sized dots on the chart\n- **Strength Level** — identifies significant support/resistance levels based on accumulated order book data\n- **Cumulative Volume Delta (CVD)** — tracks the running difference between aggressive buying and selling volume\n- **Iceberg Detector** — identifies potential hidden orders by detecting repeated fills at the same price level\n- **Stops & Icebergs Map** — shows where stop-loss clusters and iceberg orders are likely located\n\nThese indicators are add-ons available on the paid tiers, and they represent Bookmap's competitive moat — the combination of visual heatmap + quantitative order flow indicators is more comprehensive than most standalone tools offer.\n\n## Supported Markets & Connectivity\n\nBookmap supports multiple asset classes through direct exchange and broker connections:\n\n**Futures:**\n- Rithmic (primary futures connection — covers all major US futures exchanges)\n- CQG\n- Trading Technologies (TT)\n- Eurex\n- Phillip Capital\n- Ironbeam\n- Optimus Futures\n\n**Stocks:**\n- Dxfeed (US equities data)\n\n**Crypto:**\n- Binance, Bybit, OKX, Coinbase, Kraken, Deribit, and more\n- The crypto connections are free on the Digital (free) tier — this is a strong entry point for crypto traders\n\n**Forex:**\n- FXCM\n- Dukascopy\n\nThe futures connectivity is Bookmap's strongest suit — access via Rithmic and CQG covers virtually every retail futures broker in the US.\n\n## Pricing\n\nBookmap's pricing structure has evolved into a tiered subscription model:\n\n- **Digital (Free)** — crypto heatmap data, delayed futures/stocks. Genuinely functional for learning and crypto-only traders\n- **Digital+** ($39/month) — adds full futures and stock depth data, premium indicators\n- **Global** ($69/month) — real-time professional data, all indicators, multibook capability\n- **Global+** ($99/month) — everything plus advanced add-ons, API access, and priority support\n\nBookmap's free tier for crypto is one of the best entry points in the order flow space — you get the real heatmap with live crypto data, not a demo or simulation. This lets traders learn to read the heatmap on real markets before committing to a paid plan for futures.\n\n## Replay & Practice\n\nBookmap includes a market replay feature that plays back historical heatmap data, allowing traders to practice reading order flow patterns without risking capital. This is particularly valuable because reading a heatmap is a skill that takes time to develop — the patterns (spoofing, absorption, liquidity pulls) need to be seen repeatedly in real market context before they become intuitive.\n\n## Education & Community\n\nBookmap invests heavily in education. Their YouTube channel (youtube.com/@Bookmap) features regular educational content covering heatmap interpretation, order flow trading strategies, and live market analysis. They also run webinars and maintain an extensive knowledge base. For a platform with a genuine learning curve, this educational investment is important — it helps bridge the gap between installing the software and actually being able to trade with it.\n\n## What Bookmap Does Not Have\n\n- **No automated trading** — Bookmap is a visualization and analysis tool, not an execution platform. You can trade from Bookmap's DOM, but there's no strategy automation or algorithmic execution engine\n- **No mobile app** — desktop only (Windows and Mac)\n- **No traditional charting** — Bookmap is the heatmap. If you want candlestick charts with RSI and MACD, you'll need a second platform alongside Bookmap\n- **No journaling or performance analytics** — pairs well with a dedicated trading journal\n\n## Who Bookmap Is For\n\n**Good fit:**\n- Futures scalpers and day traders who trade off the DOM and need to see where liquidity is hiding\n- Prop firm traders who need an edge in reading market microstructure\n- Crypto traders wanting institutional-quality order flow visualization (free tier covers this)\n- Traders learning order flow concepts — the visual heatmap makes abstract concepts concrete\n- Anyone frustrated by traditional charts that can't show the order book\n\n**Not the right fit:**\n- Swing traders or position traders who hold for days/weeks — the heatmap is most useful on short timeframes\n- Traders who need a full charting suite with traditional indicators — Bookmap replaces charts, it doesn't augment them\n- Automated/algorithmic traders who need a backtesting and strategy development environment\n- Traders on a tight budget who need futures data (the free tier only covers crypto)\n\n## Bottom Line\n\nBookmap is the best order flow visualization tool available. The heatmap format genuinely reveals market dynamics that are invisible on any traditional chart. The free crypto tier is a rare gift in the trading tool space — it lets you learn real order flow reading without paying anything. For futures traders willing to invest in the paid tiers, Bookmap provides information that can materially improve scalping and day trading decisions. It's not a replacement for charting — it's a completely different category of market analysis tool, and it's the best in that category.",
   "logo_url": "/logos/bookmap.svg",
   "screenshots": [],
   "website_url": "https://bookmap.com",
@@ -20,39 +20,44 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Digital",
+        "name": "Digital (Free)",
+        "price_monthly": 0,
         "features": [
-          "Free tier",
-          "Crypto data",
-          "Delayed futures and stocks data"
-        ],
-        "price_monthly": 0
+          "Live crypto heatmap data (Binance, Bybit, OKX, Coinbase, Kraken, Deribit)",
+          "Delayed futures and stocks data",
+          "Core heatmap visualization",
+          "Basic order flow analysis"
+        ]
       },
       {
-        "name": "Digital +",
+        "name": "Digital+",
+        "price_monthly": 39,
         "features": [
-          "Full futures/stocks market depth",
-          "Premium indicators"
-        ],
-        "price_monthly": 0
+          "Full futures and stock market depth data",
+          "Premium order flow indicators",
+          "Large Lot Tracker",
+          "Volume Dots and Strength Level"
+        ]
       },
       {
         "name": "Global",
+        "price_monthly": 69,
         "features": [
-          "Full futures/stocks market depth",
-          "Premium indicators",
-          "Real-time professional data"
-        ],
-        "price_monthly": 0
+          "Everything in Digital+",
+          "Real-time professional data",
+          "All premium indicators",
+          "Multibook capability"
+        ]
       },
       {
         "name": "Global+",
+        "price_monthly": 99,
         "features": [
-          "Full futures/stocks market depth",
-          "Premium indicators",
-          "Advanced add-ons included"
-        ],
-        "price_monthly": 0
+          "Everything in Global",
+          "Advanced add-ons included",
+          "API access",
+          "Priority support"
+        ]
       }
     ],
     "currency": "USD"
@@ -81,38 +86,49 @@
     "forex"
   ],
   "pros": [
-    "Unmatched order flow visualization with heatmaps",
-    "Reveals institutional activity and hidden liquidity",
-    "Free tier available for crypto markets",
-    "Real-time depth of market analysis"
+    "Unmatched order flow visualization — the heatmap format reveals liquidity, spoofing, absorption, and institutional activity that no traditional chart can show",
+    "Free crypto tier with real live data — one of the best no-cost entry points in the order flow space",
+    "Comprehensive order flow indicators: Large Lot Tracker, Iceberg Detector, CVD, Strength Level, Stops & Icebergs Map",
+    "Direct connections to all major futures brokers via Rithmic, CQG, and Trading Technologies",
+    "Effective market replay system for practicing heatmap reading on historical data",
+    "Strong educational resources — YouTube channel, webinars, and knowledge base help bridge the learning curve",
+    "Available on both Windows and Mac (unlike many order flow platforms)",
+    "Crypto coverage across Binance, Bybit, OKX, Coinbase, Kraken, and Deribit"
   ],
   "cons": [
-    "Premium pricing for full market access",
-    "Requires fast computer and internet connection",
-    "Learning curve to interpret heatmaps effectively"
+    "Premium pricing for full futures access — $69-99/month for the Global/Global+ tiers",
+    "Not a traditional charting platform — no candlestick charts, RSI, MACD, or standard technical indicators. You'll need a second platform for traditional charting",
+    "Requires fast computer and internet connection — real-time heatmap rendering is computationally intensive",
+    "Learning curve to interpret heatmaps effectively — the patterns take time and practice to read reliably",
+    "No automated trading or strategy backtesting — visualization and analysis only",
+    "No mobile app — desktop only"
   ],
-  "rating": 4.3,
+  "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 3.5,
-    "features": 4.7,
-    "value": 3.8,
-    "support": 4.0,
+    "features": 4.9,
+    "value": 4.0,
+    "support": 4.2,
     "reliability": 4.5
   },
   "founded_year": 2014,
   "company": "Bookmap Ltd.",
   "headquarters": "London, United Kingdom",
   "best_for": [
-    "scalpers",
-    "order flow traders",
-    "futures day traders"
+    "futures scalpers and day traders who trade off the DOM",
+    "crypto traders wanting institutional-quality order flow visualization for free",
+    "prop firm traders who need an edge in reading market microstructure",
+    "traders learning order flow concepts through visual heatmap interpretation"
   ],
   "similar_tools": [
+    "atas",
     "sierra-chart",
+    "exocharts",
     "jigsaw-trading",
-    "quantower"
+    "quantower",
+    "gocharting"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-04-12",
   "review_status": "published",
   "alt_meta_title": "Best Bookmap Alternatives 2026: Free Order Flow Tools",
   "alt_meta_description": "Top Bookmap alternatives for order flow and depth-of-market analysis. Sierra Chart, Jigsaw, Quantower, and more. Free and paid options compared for 2026.",
@@ -154,5 +170,14 @@
       "url": "https://www.trustpilot.com/review/bookmap.com"
     }
   ],
-  "enriched_at": "2026-03-29"
+  "enriched_at": "2026-03-29",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Platform features, pricing tiers, broker connectivity, order flow indicators, and market coverage verified against bookmap.com documentation. Vendor forwarded our outreach to their affiliate team (Apr 2026).",
+  "vendor_verified_sources": [
+    "https://bookmap.com/ — official platform homepage",
+    "https://bookmap.com/pricing/ — subscription tiers and features",
+    "https://bookmap.com/features/ — order flow indicators and heatmap capabilities",
+    "https://www.youtube.com/@Bookmap — YouTube educational channel"
+  ]
 }
