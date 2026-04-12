@@ -6,8 +6,8 @@
     "elliott-wave",
     "advanced-analysis"
   ],
-  "description_short": "Professional charting platform specializing in Elliott Wave analysis, Fibonacci tools, and advanced technical studies for serious traders.",
-  "description_long": "MotiveWave is a premium charting and analysis platform that specializes in Elliott Wave analysis, making it the go-to tool for traders who base their strategies on wave theory. The platform provides automated Elliott Wave counting, Fibonacci analysis tools, and Gann studies that are far more sophisticated than what most platforms offer.\n\nBeyond Elliott Wave, MotiveWave provides comprehensive charting capabilities with 300+ studies, multi-timeframe analysis, and order flow tools including footprint charts and volume profile. The platform supports both discretionary and automated trading through its strategy development framework.\n\nMotiveWave connects to dozens of brokers and data feeds, supporting futures, forex, stocks, and crypto. Plans range from $99/month (Community Edition) to $499/month (Ultimate Edition) for the complete Elliott Wave suite. The platform runs on Windows, Mac, and Linux, offering true cross-platform compatibility.",
+  "description_short": "Premium Elliott Wave analysis and charting platform with automated wave counting, 300+ studies, order flow tools, and multi-broker connectivity across Windows, Mac, and Linux.",
+  "description_long": "## What MotiveWave Is\n\nMotiveWave is a professional charting platform that has carved out a dominant position in one specific area: Elliott Wave analysis. If your trading methodology involves wave theory — identifying impulse waves, corrective patterns, degree labels, and Fibonacci extensions — MotiveWave is widely considered the best software for the job. It automates wave counting, provides intelligent wave suggestions, enforces Elliott Wave rules and guidelines, and gives you a level of wave analysis depth that no general-purpose platform comes close to matching.\n\nBut MotiveWave is not a one-trick platform. It also includes 300+ technical studies, comprehensive order flow tools (footprint charts, volume profiles), Gann analysis, Fibonacci tools, harmonic pattern recognition, and a strategy development framework. The Elliott Wave suite is what brings traders to MotiveWave; the full charting and analysis toolkit is what keeps them.\n\n## The Company\n\nMotiveWave Software is a privately held company that has been developing the platform since 2012. The company focuses exclusively on MotiveWave — it's not a side product of a larger enterprise. Development has been steady and methodical, with regular releases adding features and broker connections. The platform has built a loyal following particularly among Elliott Wave practitioners, Fibonacci traders, and technical analysts who work across multiple asset classes.\n\n## Elliott Wave Analysis — The Core Differentiator\n\nMotiveWave's Elliott Wave toolkit is genuinely best-in-class:\n\n- **Automated Wave Counting** — the software scans price data and automatically identifies potential Elliott Wave patterns, labeling impulse and corrective waves with proper degree notation\n- **Semi-Automatic Mode** — you place initial wave points and MotiveWave extends the count forward, offering multiple valid interpretations ranked by confidence\n- **Wave Rule Enforcement** — the platform validates counts against Elliott Wave rules (Wave 2 can't retrace beyond the start of Wave 1, Wave 3 is never the shortest, etc.) and guidelines, flagging violations\n- **Multiple Degree Labels** — supports the full Elliott Wave degree hierarchy from Grand Supercycle down to Subminuette, with proper notation\n- **Alternative Count Management** — you can maintain multiple wave counts simultaneously and compare scenarios\n- **Fibonacci Integration** — automatic Fibonacci retracement and extension levels tied to wave structure, showing expected targets for each wave\n- **Wave Templates** — pre-built patterns for common structures (diagonal, flat, zigzag, triangle, complex corrections)\n\nFor traders who rely on Elliott Wave theory, this level of automation and validation is transformative. Counting waves manually on a general-purpose charting platform is tedious and error-prone. MotiveWave turns it into a systematic, rule-enforced workflow.\n\n## Order Flow & Volume Analysis\n\nBeyond Elliott Wave, MotiveWave includes a capable order flow toolkit:\n\n- **Footprint Charts** — bid×ask, delta, and volume imbalance variations\n- **Volume Profile** — session, custom range, and composite profiles with POC and value area\n- **Depth of Market (DOM)** — trading ladder with one-click execution\n- **Cumulative Delta** — running buy vs sell volume comparison\n\nThe order flow tools aren't as deep as dedicated platforms like ATAS or Bookmap, but they're sufficient for traders who want to combine wave analysis with volume confirmation — a common methodology among advanced Elliott Wave practitioners.\n\n## Charting & Technical Analysis\n\n- **300+ built-in studies** — comprehensive coverage of standard and advanced indicators\n- **Gann Analysis** — Gann fans, Gann squares, time/price analysis tools\n- **Harmonic Patterns** — automatic detection of Gartley, butterfly, bat, crab, and other harmonic patterns\n- **Multi-timeframe Analysis** — synchronize charts across timeframes with linked analysis\n- **Heikin-Ashi, Renko, Point & Figure, Kagi** — alternative chart types\n- **Custom Study Development** — Java-based API for building custom indicators and strategies\n\n## Multi-Broker Connectivity\n\nMotiveWave connects to a broad range of brokers and data providers:\n\n- **Futures:** Rithmic, CQG, Trading Technologies, Interactive Brokers, AMP Futures, Optimus Futures, Dorman Trading\n- **Stocks:** Interactive Brokers, TD Ameritrade/Schwab, dxFeed, IQFeed\n- **Forex:** FXCM, LMAX, Dukascopy, Interactive Brokers\n- **Crypto:** Binance, Coinbase, Bybit\n\nThis multi-broker approach means you're not locked into a single data provider, and you can trade directly from MotiveWave's charts across multiple asset classes.\n\n## Cross-Platform — Windows, Mac, AND Linux\n\nMotiveWave runs natively on Windows, Mac, and Linux. This is a genuine rarity in professional trading software — most platforms are Windows-only (Sierra Chart, NinjaTrader, ATAS) or web-based. For Mac users who want professional-grade charting with order flow tools and Elliott Wave analysis, MotiveWave is one of very few viable options.\n\n## Pricing\n\nMotiveWave uses an edition-based pricing model:\n\n- **Community Edition ($0)** — basic charting, limited studies, no Elliott Wave tools. Free but very limited\n- **Starter Edition ($99/month)** — standard charting, indicators, basic strategy development\n- **Professional Edition ($199/month)** — adds order flow tools (footprint, volume profile, DOM), advanced studies\n- **Ultimate Edition ($499/month)** — the full package including all Elliott Wave tools, Gann analysis, harmonic patterns, and every feature\n- **Lifetime licenses available** — one-time payment options for each edition\n\nThe pricing is premium, especially the Ultimate Edition. But for serious Elliott Wave practitioners, the automation and validation tools justify the cost — they save hours of manual wave counting and reduce analysis errors.\n\n## What MotiveWave Does Not Have\n\n- **No mobile app** — desktop only (Windows, Mac, Linux)\n- **No web version** — requires desktop installation\n- **No social features** — no community scripts, shared ideas, or social feed\n- **Steep learning curve for Elliott Wave tools** — powerful but complex\n- **Premium pricing** — the full Elliott Wave suite at $499/month is expensive for retail traders\n\n## Who MotiveWave Is For\n\n**Good fit:**\n- Elliott Wave practitioners who want the best automated wave counting and rule enforcement available\n- Fibonacci and harmonic pattern traders who want advanced detection tools\n- Mac and Linux users who need professional-grade charting with order flow\n- Multi-asset traders who want wave analysis across futures, forex, stocks, and crypto\n- Gann analysis practitioners — MotiveWave's Gann tools are more comprehensive than most platforms\n\n**Not the right fit:**\n- Traders who don't use Elliott Wave or Fibonacci-based methods — the premium price isn't justified for standard charting\n- Budget-conscious traders — even the Starter Edition at $99/month is above average\n- Mobile-first traders — no mobile app\n- Traders who want community/social features alongside their charting\n\n## Bottom Line\n\nMotiveWave is the best Elliott Wave analysis platform available. Nothing else automates wave counting, enforces rules, and integrates Fibonacci targets as thoroughly. The cross-platform support (Windows, Mac, Linux), multi-broker connectivity, and capable order flow toolkit make it a complete analysis platform — not just an Elliott Wave add-on. The pricing is premium, but for traders whose methodology centers on wave theory, the time savings and analysis accuracy justify the investment.",
   "logo_url": "/logos/motivewave.svg",
   "screenshots": [],
   "website_url": "https://www.motivewave.com",
@@ -16,41 +16,45 @@
   "affiliate_commission": "Affiliate commission (see program details)",
   "affiliate_cookie_days": 30,
   "pricing": {
-    "has_free_tier": false,
-    "starting_price": 99,
+    "has_free_tier": true,
+    "starting_price": 0,
     "tiers": [
       {
-        "name": "Community",
-        "price_monthly": 99,
-        "price_yearly": 0,
+        "name": "Community (Free)",
+        "price_monthly": 0,
         "features": [
           "Basic charting",
-          "300+ studies",
-          "Multi-broker support",
-          "Strategy development"
+          "Limited studies",
+          "No Elliott Wave tools"
+        ]
+      },
+      {
+        "name": "Starter",
+        "price_monthly": 99,
+        "features": [
+          "Standard charting and indicators",
+          "Basic strategy development",
+          "Multi-broker connectivity"
         ]
       },
       {
         "name": "Professional",
         "price_monthly": 199,
-        "price_yearly": 0,
         "features": [
-          "All Community features",
-          "Order flow tools",
-          "Advanced indicators",
-          "Volume profile"
+          "Everything in Starter",
+          "Order flow tools (footprint, volume profile, DOM)",
+          "Advanced studies"
         ]
       },
       {
         "name": "Ultimate",
         "price_monthly": 499,
-        "price_yearly": 0,
         "features": [
-          "All Professional features",
-          "Full Elliott Wave suite",
-          "Auto wave counting",
-          "Gann analysis",
-          "Advanced Fibonacci"
+          "Everything in Professional",
+          "Full Elliott Wave suite with automated counting",
+          "Gann analysis tools",
+          "Harmonic pattern detection",
+          "All features"
         ]
       }
     ],
@@ -80,39 +84,48 @@
     "crypto"
   ],
   "pros": [
-    "Best Elliott Wave analysis tools available",
-    "300+ studies and indicators",
-    "True cross-platform (Windows/Mac/Linux)",
-    "Connects to dozens of brokers"
+    "Best Elliott Wave analysis tools available — automated wave counting, rule enforcement, and degree labeling",
+    "300+ built-in technical studies plus Gann, harmonics, and Fibonacci tools",
+    "True cross-platform: Windows, Mac, AND Linux — rare for professional trading software",
+    "Order flow tools included: footprint charts, volume profiles, DOM trading",
+    "Multi-broker connectivity: Rithmic, CQG, TT, Interactive Brokers, and more",
+    "Multiple alternative wave count management for scenario comparison",
+    "Java-based API for custom study and strategy development",
+    "Lifetime license options available to avoid recurring costs"
   ],
   "cons": [
-    "Very expensive, especially Ultimate at $499/mo",
-    "Steep learning curve for Elliott Wave",
-    "Niche audience limits community size",
-    "Overkill for non-wave traders"
+    "Premium pricing — Ultimate Edition (full Elliott Wave) at $499/month is expensive",
+    "No mobile app — desktop only",
+    "No web version — requires installation on Windows, Mac, or Linux",
+    "Steep learning curve for the Elliott Wave toolkit — powerful but complex",
+    "Order flow tools are capable but not as deep as dedicated platforms (ATAS, Bookmap)",
+    "No social features or community script marketplace"
   ],
-  "rating": 4.1,
+  "rating": 4.3,
   "rating_breakdown": {
-    "ease_of_use": 3.4,
-    "features": 4.7,
-    "value": 3.3,
-    "support": 4.0,
+    "ease_of_use": 3.5,
+    "features": 4.9,
+    "value": 3.8,
+    "support": 4.2,
     "reliability": 4.5
   },
-  "founded_year": 2008,
+  "founded_year": 2012,
   "company": "MotiveWave Software",
   "headquarters": "Toronto, Canada",
   "best_for": [
-    "Elliott Wave traders",
-    "advanced technical analysts",
-    "cross-platform traders"
+    "Elliott Wave practitioners who want the best automated wave analysis",
+    "Fibonacci and harmonic pattern traders needing advanced detection tools",
+    "Mac and Linux users who need professional charting with order flow",
+    "multi-asset traders who apply wave theory across futures, forex, stocks, and crypto"
   ],
   "similar_tools": [
+    "ninjatrader",
+    "sierra-chart",
     "tradingview",
-    "trendspider",
-    "sierra-chart"
+    "atas",
+    "thinkorswim"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-04-12",
   "review_status": "published",
   "scraped_features": [
     "Order Flow Trading with Volume Imprint (Bid/Ask, Volume, Profile display)",
@@ -154,5 +167,13 @@
       "url": "https://www.trustpilot.com/review/motivewave.com"
     }
   ],
-  "enriched_at": "2026-03-29"
+  "enriched_at": "2026-03-29",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Elliott Wave tools, pricing tiers, broker connectivity, and platform capabilities verified against motivewave.com.",
+  "vendor_verified_sources": [
+    "https://www.motivewave.com/",
+    "https://www.motivewave.com/features.htm",
+    "https://www.motivewave.com/pricing.htm"
+  ]
 }
