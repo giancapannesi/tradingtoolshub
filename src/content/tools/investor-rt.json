@@ -2,7 +2,10 @@
   "name": "Investor/RT",
   "slug": "investor-rt",
   "category": "charting-platforms",
-  "subcategories": ["order-flow", "volume-analysis"],
+  "subcategories": [
+    "order-flow",
+    "volume-analysis"
+  ],
   "description_short": "Professional charting platform by Linn Software with VolumeScope footprint charting and OrderFlowMetrics, serving traders since the 1990s.",
   "description_long": "Investor/RT, developed by Linn Software, is a veteran charting and analysis platform that has been serving traders since the 1990s. The platform has evolved over decades to include modern order flow tools alongside its traditional charting capabilities, most notably the VolumeScope footprint charting module and OrderFlowMetrics analytics.\n\nVolumeScope provides detailed footprint chart visualization with bid/ask analysis, delta profiling, and volume-at-price breakdowns. OrderFlowMetrics adds a layer of quantitative analysis to the visual footprint data, helping traders identify statistically significant order flow patterns. The platform supports stocks, futures, and options markets through connections to multiple data providers.\n\nBased in Conyers, Georgia, Linn Software has maintained and updated Investor/RT continuously for over two decades. This longevity means the platform is stable and well-tested, though the interface reflects its heritage and may feel dated compared to newer competitors. The platform supports both Windows and macOS, which is unusual in the order flow space where most tools are Windows-only.",
   "logo_url": "/logos/investor-rt.svg",
@@ -18,18 +21,17 @@
     "tiers": [
       {
         "name": "Standard",
-        "price": 50,
         "billing": "monthly",
         "features": [
           "Full charting suite",
           "Technical indicators",
           "Multi-market data",
           "Windows and macOS support"
-        ]
+        ],
+        "price_monthly": 50
       },
       {
         "name": "Premium (with VolumeScope)",
-        "price": 89,
         "billing": "monthly",
         "features": [
           "Everything in Standard",
@@ -37,7 +39,8 @@
           "OrderFlowMetrics",
           "Advanced volume analysis",
           "Priority support"
-        ]
+        ],
+        "price_monthly": 89
       }
     ],
     "currency": "USD"
@@ -59,7 +62,11 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "futures", "options"],
+  "markets": [
+    "stocks",
+    "futures",
+    "options"
+  ],
   "pros": [
     "Decades of development since the 1990s — extremely stable and mature platform",
     "Supports both Windows and macOS — rare for order flow platforms",
@@ -83,8 +90,17 @@
   "founded_year": 1995,
   "company": "Linn Software, Inc.",
   "headquarters": "Conyers, GA, United States",
-  "best_for": ["veteran traders", "macOS order flow users", "multi-asset analysts"],
-  "similar_tools": ["sierra-chart", "atas", "multicharts", "quantower"],
+  "best_for": [
+    "veteran traders",
+    "macOS order flow users",
+    "multi-asset analysts"
+  ],
+  "similar_tools": [
+    "sierra-chart",
+    "atas",
+    "multicharts",
+    "quantower"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

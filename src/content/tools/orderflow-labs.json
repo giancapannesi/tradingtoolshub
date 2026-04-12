@@ -2,7 +2,10 @@
   "name": "OrderFlow Labs",
   "slug": "orderflow-labs",
   "category": "order-flow-tools",
-  "subcategories": ["multi-platform", "prop-firm-tools"],
+  "subcategories": [
+    "multi-platform",
+    "prop-firm-tools"
+  ],
   "description_short": "Professional order flow indicator suite compatible with NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX, with a focus on prop firm traders.",
   "description_long": "OrderFlow Labs provides a professional-grade order flow indicator suite designed for serious futures traders, particularly those trading at prop firms. The platform stands out from competitors by supporting multiple charting platforms including NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX, rather than locking users into a single ecosystem.\n\nThe tool suite includes footprint charts, delta analysis, volume-at-price tools, and order book analytics. The multi-platform compatibility is a genuine advantage for prop firm traders who may need to use different platforms depending on their firm's requirements or data feed setup.\n\nOrderFlow Labs targets experienced traders who already understand order flow concepts and need reliable, professional tools. The prop firm focus means the indicators are optimized for the kind of short-term futures scalping and day trading that funded traders typically do.",
   "logo_url": "/logos/orderflow-labs.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Monthly",
-        "price": 49,
         "billing": "monthly",
         "features": [
           "Full order flow indicator suite",
@@ -26,7 +28,8 @@
           "Footprint charts",
           "Delta analysis",
           "Volume-at-price tools"
-        ]
+        ],
+        "price_monthly": 49
       }
     ],
     "currency": "USD"
@@ -48,7 +51,9 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["futures"],
+  "markets": [
+    "futures"
+  ],
   "pros": [
     "Multi-platform support — works on NinjaTrader, Sierra Chart, MotiveWave, and EdgeProX",
     "Built with prop firm traders in mind, optimized for funded account workflows",
@@ -72,8 +77,17 @@
   "founded_year": 2020,
   "company": "OrderFlow Labs",
   "headquarters": "International",
-  "best_for": ["prop firm traders", "multi-platform order flow users", "futures scalpers"],
-  "similar_tools": ["jigsaw-trading", "atas", "mzpack", "orderflows"],
+  "best_for": [
+    "prop firm traders",
+    "multi-platform order flow users",
+    "futures scalpers"
+  ],
+  "similar_tools": [
+    "jigsaw-trading",
+    "atas",
+    "mzpack",
+    "orderflows"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

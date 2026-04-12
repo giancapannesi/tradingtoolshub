@@ -2,7 +2,10 @@
   "name": "TradingLite",
   "slug": "tradinglite",
   "category": "charting-platforms",
-  "subcategories": ["order-flow", "crypto-trading"],
+  "subcategories": [
+    "order-flow",
+    "crypto-trading"
+  ],
   "description_short": "Crypto-focused order flow platform with real-time heatmaps, liquidity visualization, and 500+ community-built analysis tools accessible from your browser.",
   "description_long": "TradingLite is a browser-based crypto trading platform specializing in order flow visualization through real-time heatmaps and liquidity analysis. The platform renders order book depth as color-coded heatmaps, making it easy to spot large resting orders, liquidity walls, and potential support/resistance zones in cryptocurrency markets.\n\nA major differentiator is the community ecosystem — TradingLite has over 500 community-built tools and indicators that users can share and use. This creates a constantly expanding toolkit beyond what the core development team provides. The community aspect gives TradingLite a collaborative feel similar to TradingView's Pine Script ecosystem but focused specifically on crypto order flow.\n\nBased in Brussels, Belgium and founded in 2019, TradingLite connects to major cryptocurrency exchanges. The platform is designed specifically for crypto traders and does not cover traditional markets like stocks or futures. For crypto order flow analysis, it competes directly with Bookmap's crypto features and TensorCharts.",
   "logo_url": "/logos/tradinglite.svg",
@@ -18,16 +21,15 @@
     "tiers": [
       {
         "name": "Free",
-        "price": 0,
         "features": [
           "Basic heatmap visualization",
           "Limited exchanges",
           "Community tools access"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Pro",
-        "price": 24.99,
         "billing": "monthly",
         "features": [
           "Full heatmap suite",
@@ -35,7 +37,8 @@
           "Advanced liquidity tools",
           "500+ community indicators",
           "Priority data feeds"
-        ]
+        ],
+        "price_monthly": 24.99
       }
     ],
     "currency": "USD"
@@ -57,7 +60,9 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["crypto"],
+  "markets": [
+    "crypto"
+  ],
   "pros": [
     "500+ community-built tools create a constantly expanding indicator library",
     "Real-time heatmaps make order book depth intuitive to read",
@@ -81,8 +86,16 @@
   "founded_year": 2019,
   "company": "TradingLite",
   "headquarters": "Brussels, Belgium",
-  "best_for": ["crypto order flow traders", "heatmap analysts", "community-driven analysis"],
-  "similar_tools": ["bookmap", "tensorcharts", "exocharts"],
+  "best_for": [
+    "crypto order flow traders",
+    "heatmap analysts",
+    "community-driven analysis"
+  ],
+  "similar_tools": [
+    "bookmap",
+    "tensorcharts",
+    "exocharts"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

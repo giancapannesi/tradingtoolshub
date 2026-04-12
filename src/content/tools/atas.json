@@ -22,46 +22,46 @@
     "tiers": [
       {
         "name": "Start",
-        "price": 0,
         "features": [
           "Free forever",
           "Basic volume analysis tools",
           "Crypto exchange connections",
           "Limited indicator set"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Plus",
-        "price": 24.95,
         "billing": "monthly",
         "features": [
           "Advanced analytical tools",
           "Broader market access",
           "More indicators and clusters",
           "14-day free trial"
-        ]
+        ],
+        "price_monthly": 24.95
       },
       {
         "name": "Pro",
-        "price": 69.95,
         "billing": "monthly",
         "features": [
           "Full analytics suite",
           "Advanced footprint variations",
           "Complex strategy support",
           "14-day free trial"
-        ]
+        ],
+        "price_monthly": 69.95
       },
       {
         "name": "Ultra",
-        "price": 89.95,
         "billing": "monthly",
         "features": [
           "All ATAS features",
           "Enhanced support",
           "Priority data access",
           "14-day free trial"
-        ]
+        ],
+        "price_monthly": 89.95
       }
     ],
     "currency": "USD"

@@ -2,7 +2,10 @@
   "name": "MZpack",
   "slug": "mzpack",
   "category": "order-flow-tools",
-  "subcategories": ["ninjatrader-addons", "volume-analysis"],
+  "subcategories": [
+    "ninjatrader-addons",
+    "volume-analysis"
+  ],
   "description_short": "NinjaTrader 8 order flow and orderbook indicator suite built around six modules — mzFootprint, mzVolumeProfile, mzBigTrade, mzMarketDepth, mzVolumeDelta, and mzDeltaDivergence — with a separate automated strategy pipeline and a public API for custom development.",
   "description_long": "## What MZpack Actually Is\n\nMZpack is a long-running NinjaTrader indicator and strategy vendor that specialises exclusively in order flow and orderbook analysis. Rather than shipping a single monolithic product, MZpack is built as a modular suite: six separate order flow indicators that can be bought individually or as a single package, a matching automated-strategy pipeline, and a public API for developers who want to build their own logic on top of MZpack's order flow engine. It has been active since 2016 (the copyright line on mzpack.pro reads © 2016 MZpack) and is run by founder Mikhail Zhelnov, who corresponds with customers personally from mikhail@mzpack.pro and signs emails as \"Member of NinjaTrader Ecosystem.\"\n\nThis review was upgraded in April 2026 after direct verification against mzpack.pro, the product pages, and the newly launched docs.mzpack.pro documentation site. Where specific features, prices, and version numbers are quoted below, they come from MZpack's own primary source pages on the date of upgrade.\n\n## The Six-Indicator Package — MZpack Indicators w/ Divergence\n\nThe flagship product is **MZpack Indicators w/ Divergence for NinjaTrader 8**, currently on version 4.2.0 (released March 23, 2026, introducing LVN/HVN — Low and High Volume Node — detection and display). The package bundles six order flow modules that each focus on a distinct piece of market microstructure:\n\n- **mzFootprint** — Footprint chart with imbalances and absorptions, predicted values, a statistics grid, delta rate, support/resistance zones, and Cluster Zones (LVN/HVN).\n- **mzVolumeProfile** — Periodic and custom volume profiles plus TPO profiles with splitting, dividing, merging, and stacked profiles.\n- **mzBigTrade** — Big trade detection, iceberg orders, aggressive versus smart trades, and DOM pressure/support tracking.\n- **mzMarketDepth** — Historical and real-time DOM with unlimited depth, multiple market-maker aggregation, plots of bid/offer totals and delta, liquidity migration, and DOM imbalance.\n- **mzVolumeDelta** — Volume/delta modes, cumulative delta, and iceberg detection.\n- **mzDeltaDivergence** — Price/delta divergence detection, volume/delta modes, cumulative delta, and iceberg handling.\n\nAll six share a common framework: tape reconstruction, three order flow modes (BidAsk, UpDownTick, and a hybrid), chart levels with alerts and notifications, working-time controls, and explicit Crypto/NSE volume handling. That's the kind of detail you only get from a vendor who has been iterating on one problem — NT8 order flow — for close to a decade.\n\n## Strategies, API, and Custom Development\n\nMZpack isn't just a discretionary trading product. Alongside the indicator package they sell a parallel **MZpack Strategies w/ Divergence** product for automated trading — a pipeline with entry, exit, trail, and filter components plus built-in risk management — and they ship a public **MZpack API** that NinjaScript/C# developers can use to build their own strategies on top of the order flow engine. For traders who want custom work done, MZpack offers NinjaScript/C# code reviewing from $300 per project and a paid license-transfer service for moving installations between machines.\n\nThe API and strategy pipeline are the features that separate MZpack from pure-discretionary order flow add-ons like Jigsaw Trading or OrderFlows. If you want to systematise your order flow edge, MZpack gives you the plumbing to do it inside NinjaTrader 8 itself.\n\n## Supported Markets and Data\n\nThis is an area where the previous version of this review got it wrong. MZpack is not futures-only. The indicator suite officially supports **futures, forex, stocks, and crypto**, with one caveat: mzMarketDepth cannot be used on forex (forex doesn't expose a true Level 2 book to NT8). For the rest of the indicators, Level 1 data is sufficient; only mzMarketDepth requires Level 2. The tools support both historical data and NinjaTrader's Market Replay for practice and review.\n\nOn the system side, MZpack requires NinjaTrader 8.0.26.1 or higher on Windows 8.1/10 64-bit. Minimum specs are modest (Intel Core i3, 4GB RAM, HDD) but for a smooth tape reconstruction experience the vendor recommends an i9/Ryzen 9 with 8–16GB RAM and SSD/NVMe storage. Order flow is genuinely CPU-heavy — if you've run ATAS or Bookmap on a weak machine, you'll know why.\n\n## Pricing — EUR, Not USD\n\nMZpack is based in Georgia (the country; phone +995 and EU payment partner mycommerce.com), and all pricing is quoted in **euros**. The current structure on the main package page is:\n\n- **14-day free trial** — no credit card required. There is also a permanently free version with limited functionality for traders who just want to explore the framework.\n- **Monthly (1 device):** €49/month auto-renewal\n- **Monthly (2 devices):** €59/month auto-renewal\n- **6 months (1 device):** available at a discount to monthly\n- **Lifetime (1 device):** €399 for the 6-indicator package (originally priced at €1,200 — currently displayed as a 65% discount)\n- **Lifetime (2 or 3 devices):** scales up to €549\n- **Strategies-only (lifetime):** €399\n- **Indicators + Strategies bundle (lifetime):** €599 (originally €1,600)\n\nIndividual indicators can also be purchased separately on lifetime licenses: mzFootprint at €229, mzVolumeProfile at €229, mzBigTrade at €209, mzMarketDepth at €209, mzDeltaDivergence at €199, and mzVolumeDelta at €149. All updates within the license period are free, and for lifetime licenses that means free updates forever.\n\nAt the current exchange rate, the €399 lifetime package sits around $430 USD — materially cheaper than Bookmap's comparable tier and in the same ballpark as Jigsaw Trading's package pricing. For traders already committed to NinjaTrader 8, that's a serious value proposition.\n\n## NinjaTrader 7 Legacy Support\n\nMZpack still maintains a separate product line for NinjaTrader 7, which is unusual. NT7 has been superseded by NT8 for years but some desks and prop firms still run it, and MZpack's willingness to keep legacy support alive is a credibility signal for anyone locked into an older NT7 workflow.\n\n## Customer Ratings and Community\n\nOn mzpack.pro the flagship package has a **4.84/5 rating from 79 customer ratings and 82 written reviews**. Reviews are concentrated in exactly the kind of detail that suggests long-term users rather than drive-by buyers — customers praising the fine-tuning, the API flexibility, and the responsiveness of support. MZpack also runs a public Discord community and a dedicated helpdesk at mzpack.freshdesk.com.\n\nOne honest caveat: all of those reviews are hosted on MZpack's own site. We weren't able to find a meaningful cluster of independent reviews on EliteTrader, FuturesIO, or similar forums to cross-check.\n\n## Who MZpack Is For\n\n**Good fit:**\n- NinjaTrader 8 futures traders who want a deep, modular order flow indicator suite at a lifetime price\n- Algo and quant traders who want to build automated strategies on top of a proven order flow engine via the MZpack API\n- Traders who value direct contact with the vendor — Mikhail Zhelnov personally answers support queries\n- Cross-asset traders who want one suite covering futures, stocks, crypto, and (partially) forex on NT8\n- Anyone running a legacy NinjaTrader 7 setup who still wants active order flow development\n\n**Not the right fit:**\n- Traders on platforms other than NinjaTrader (there is no Sierra Chart, TradingView, or MT5 version)\n- Beginners who don't already understand order flow concepts — the learning curve on footprint, delta, and DOM imbalance is real, and MZpack assumes you know the basics\n- Traders who want a turnkey execution platform — MZpack is indicators and strategies for NT8, not a broker-connected trading terminal of its own\n- Forex-only traders who need full DOM (mzMarketDepth doesn't work on forex)\n\n## Bottom Line\n\nMZpack is a specialist NinjaTrader 8 order flow vendor with close to a decade of focused development, a modular product structure, a public API, a matching automated-strategy pipeline, a lifetime-license pricing model, and a founder who shows up personally on support emails. It's not a beginner tool and it's not a competitor to all-in-one platforms like ATAS or Bookmap — it's a direct add-on for traders who have already chosen NinjaTrader 8 and want the most advanced third-party order flow toolkit available on that specific platform.",
   "logo_url": "/logos/mzpack.svg",
@@ -18,17 +21,16 @@
     "tiers": [
       {
         "name": "Free Trial",
-        "price": 0,
         "billing": "14-day trial",
         "features": [
           "14-day free trial, no credit card required",
           "Full access to MZpack Indicators w/ Divergence",
           "Permanently free limited version also available"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "MZpack Indicators Monthly",
-        "price": 49,
         "billing": "monthly",
         "features": [
           "1 device, auto-renewal",
@@ -38,40 +40,41 @@
           "Chart levels with alerts and notifications",
           "Free updates and support during license period",
           "€59/mo option available for 2 devices"
-        ]
+        ],
+        "price_monthly": 49
       },
       {
         "name": "MZpack Indicators Lifetime",
-        "price": 399,
         "billing": "one-time",
         "features": [
           "All 6 order flow indicators — lifetime license",
           "1 device (€469 for 2 devices, €549 for 3 devices)",
           "Free updates forever",
           "Individual indicators also sold separately (mzFootprint €229, mzVolumeProfile €229, mzBigTrade €209, mzMarketDepth €209, mzDeltaDivergence €199, mzVolumeDelta €149)"
-        ]
+        ],
+        "price_monthly": 399
       },
       {
         "name": "MZpack Strategies Lifetime",
-        "price": 399,
         "billing": "one-time",
         "features": [
           "MZpack Strategies w/ Divergence — automated strategy pipeline",
           "Entry, exit, trail, and filter components",
           "Built-in risk management",
           "Builds on the MZpack order flow engine"
-        ]
+        ],
+        "price_monthly": 399
       },
       {
         "name": "Indicators + Strategies Bundle",
-        "price": 599,
         "billing": "one-time",
         "features": [
           "All 6 indicators + full strategies pipeline",
           "Best value for combined discretionary and algo workflows",
           "Originally priced at €1,600",
           "Free updates forever"
-        ]
+        ],
+        "price_monthly": 599
       }
     ],
     "currency": "EUR"
@@ -93,7 +96,12 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["futures", "forex", "stocks", "crypto"],
+  "markets": [
+    "futures",
+    "forex",
+    "stocks",
+    "crypto"
+  ],
   "pros": [
     "Six purpose-built order flow modules (mzFootprint, mzVolumeProfile, mzBigTrade, mzMarketDepth, mzVolumeDelta, mzDeltaDivergence) that each go unusually deep — LVN/HVN, iceberg detection, liquidity migration, predicted values, and DOM imbalance are all first-class features, not afterthoughts",
     "Parallel automated-strategy product (MZpack Strategies w/ Divergence) for traders who want to systematise order flow setups inside NinjaTrader 8 without leaving the platform",
@@ -132,7 +140,13 @@
     "Discretionary traders who want LVN/HVN, cluster zones, and iceberg detection in one package",
     "NinjaTrader 7 legacy users who still want active development"
   ],
-  "similar_tools": ["atas", "bookmap", "jigsaw-trading", "orderflows", "quantower"],
+  "similar_tools": [
+    "atas",
+    "bookmap",
+    "jigsaw-trading",
+    "orderflows",
+    "quantower"
+  ],
   "last_updated": "2026-04-09",
   "review_status": "published",
   "vendor_verified": true,

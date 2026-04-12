@@ -2,7 +2,10 @@
   "name": "TensorCharts",
   "slug": "tensorcharts",
   "category": "charting-platforms",
-  "subcategories": ["order-flow", "crypto-trading"],
+  "subcategories": [
+    "order-flow",
+    "crypto-trading"
+  ],
   "description_short": "Crypto order book heatmap and trade flow analysis platform with GPU-accelerated rendering for real-time liquidity visualization.",
   "description_long": "TensorCharts is a cryptocurrency-focused order flow platform that specializes in order book heatmaps and trade flow analysis. The platform uses GPU-accelerated rendering to display real-time order book depth as smooth, high-frame-rate heatmaps, allowing traders to see large resting orders, liquidity shifts, and spoofing attempts as they happen.\n\nThe GPU acceleration is a genuine technical differentiator — it allows TensorCharts to render dense order book data at higher frame rates than most competitors, which matters when trying to spot rapid changes in market microstructure. The platform includes tools for analyzing trade flow, including large trade detection, buy/sell imbalance visualization, and cumulative volume delta.\n\nTensorCharts connects to major crypto exchanges and focuses exclusively on cryptocurrency markets. The platform is browser-based, requiring no software installation. It competes directly with Bookmap and TradingLite in the crypto order flow visualization space, differentiating primarily on rendering performance and the specific way it presents order book dynamics.",
   "logo_url": "/logos/tensorcharts.svg",
@@ -18,16 +21,15 @@
     "tiers": [
       {
         "name": "Free",
-        "price": 0,
         "features": [
           "Basic heatmap visualization",
           "Limited exchange connections",
           "Standard refresh rate"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Pro",
-        "price": 19.99,
         "billing": "monthly",
         "features": [
           "GPU-accelerated rendering",
@@ -35,7 +37,8 @@
           "Advanced trade flow analysis",
           "Large trade detection",
           "High-frame-rate heatmaps"
-        ]
+        ],
+        "price_monthly": 19.99
       }
     ],
     "currency": "USD"
@@ -57,7 +60,9 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["crypto"],
+  "markets": [
+    "crypto"
+  ],
   "pros": [
     "GPU-accelerated rendering provides smoother, higher frame-rate heatmaps than competitors",
     "Effective at visualizing large resting orders and spoofing attempts in real-time",
@@ -81,8 +86,16 @@
   "founded_year": 2018,
   "company": "TensorCharts",
   "headquarters": "International",
-  "best_for": ["crypto heatmap traders", "order book analysts", "liquidity visualization"],
-  "similar_tools": ["bookmap", "tradinglite", "exocharts"],
+  "best_for": [
+    "crypto heatmap traders",
+    "order book analysts",
+    "liquidity visualization"
+  ],
+  "similar_tools": [
+    "bookmap",
+    "tradinglite",
+    "exocharts"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

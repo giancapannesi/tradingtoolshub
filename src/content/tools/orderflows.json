@@ -2,7 +2,10 @@
   "name": "Orderflows",
   "slug": "orderflows",
   "category": "order-flow-tools",
-  "subcategories": ["ninjatrader-addons", "education"],
+  "subcategories": [
+    "ninjatrader-addons",
+    "education"
+  ],
   "description_short": "NinjaTrader footprint charting add-on with 15+ hours of order flow education, created by ex-JP Morgan trader Michael Valtos.",
   "description_long": "Orderflows is a NinjaTrader add-on that provides professional-grade footprint charting tools, developed by Michael Valtos, an ex-JP Morgan floor trader with decades of institutional order flow experience. The package combines footprint chart indicators with over 15 hours of structured order flow education.\n\nThe footprint charting tools include bid/ask footprint, delta footprint, volume profile, and imbalance detection indicators. What differentiates Orderflows from other NinjaTrader add-ons is the depth of the educational material — Valtos teaches order flow concepts from the perspective of someone who actually worked institutional flow on the trading floor, not just from retail chart analysis.\n\nThe education covers reading footprint charts, identifying absorption, spotting initiative vs. responsive activity, and understanding how institutional participants move markets. This makes Orderflows particularly valuable for traders who are new to order flow and want to learn the concepts alongside the tools.",
   "logo_url": "/logos/orderflows.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Orderflows Trader",
-        "price": 497,
         "billing": "one-time",
         "features": [
           "Footprint charting for NinjaTrader",
@@ -27,7 +29,8 @@
           "Volume profiles",
           "Imbalance detection",
           "15+ hours of education"
-        ]
+        ],
+        "price_monthly": 497
       }
     ],
     "currency": "USD"
@@ -49,7 +52,9 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["futures"],
+  "markets": [
+    "futures"
+  ],
   "pros": [
     "Created by ex-JP Morgan floor trader with genuine institutional order flow experience",
     "15+ hours of structured education included with the software",
@@ -73,8 +78,17 @@
   "founded_year": 2012,
   "company": "Orderflows",
   "headquarters": "International",
-  "best_for": ["NinjaTrader users", "order flow beginners with education focus", "futures traders"],
-  "similar_tools": ["jigsaw-trading", "atas", "mzpack", "ams-trading-group"],
+  "best_for": [
+    "NinjaTrader users",
+    "order flow beginners with education focus",
+    "futures traders"
+  ],
+  "similar_tools": [
+    "jigsaw-trading",
+    "atas",
+    "mzpack",
+    "ams-trading-group"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

@@ -2,7 +2,10 @@
   "name": "AMS Trading Group",
   "slug": "ams-trading-group",
   "category": "order-flow-tools",
-  "subcategories": ["ninjatrader-addons", "footprint-charts"],
+  "subcategories": [
+    "ninjatrader-addons",
+    "footprint-charts"
+  ],
   "description_short": "DeltaPrint indicator suite for NinjaTrader featuring footprint charts, BookFlow DOM analysis, MarketProfile tools, and ZoneDecoder for futures trading.",
   "description_long": "AMS Trading Group produces the DeltaPrint suite, a collection of NinjaTrader indicators designed for order flow and market profile analysis. The suite includes several distinct tools: DeltaPrint for footprint charting, BookFlow for advanced DOM (depth of market) visualization, MarketProfile for TPO-based analysis, and ZoneDecoder for identifying key supply and demand zones.\n\nDeltaPrint is the flagship tool, providing multiple footprint chart modes including bid/ask delta, volume at price, and imbalance detection. BookFlow extends standard DOM functionality with historical depth visualization, showing how the order book has evolved over time rather than just a snapshot of current bids and offers.\n\nThe MarketProfile tool provides TPO (Time Price Opportunity) profiles that help traders identify value areas and initial balance ranges — standard market profile concepts popularized by CBOT traders. ZoneDecoder automates the identification of support and resistance zones based on volume clusters. The tools are sold individually or as bundles, giving traders flexibility to buy only what they need.",
   "logo_url": "/logos/ams-trading-group.svg",
@@ -18,18 +21,17 @@
     "tiers": [
       {
         "name": "DeltaPrint",
-        "price": 149,
         "billing": "one-time",
         "features": [
           "Footprint charts",
           "Bid/ask delta",
           "Volume at price",
           "Imbalance detection"
-        ]
+        ],
+        "price_monthly": 149
       },
       {
         "name": "Full Suite",
-        "price": 497,
         "billing": "one-time",
         "features": [
           "DeltaPrint footprint",
@@ -37,7 +39,8 @@
           "MarketProfile TPO",
           "ZoneDecoder",
           "All future updates"
-        ]
+        ],
+        "price_monthly": 497
       }
     ],
     "currency": "USD"
@@ -59,7 +62,9 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["futures"],
+  "markets": [
+    "futures"
+  ],
   "pros": [
     "Modular suite — buy individual tools or the full bundle based on your needs",
     "BookFlow provides historical DOM visualization beyond standard Level 2",
@@ -83,8 +88,17 @@
   "founded_year": 2014,
   "company": "AMS Trading Group",
   "headquarters": "International",
-  "best_for": ["NinjaTrader market profile traders", "footprint chart users", "auction theory traders"],
-  "similar_tools": ["mzpack", "orderflows", "jigsaw-trading", "atas"],
+  "best_for": [
+    "NinjaTrader market profile traders",
+    "footprint chart users",
+    "auction theory traders"
+  ],
+  "similar_tools": [
+    "mzpack",
+    "orderflows",
+    "jigsaw-trading",
+    "atas"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

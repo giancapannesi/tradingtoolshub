@@ -2,7 +2,10 @@
   "name": "Exocharts",
   "slug": "exocharts",
   "category": "charting-platforms",
-  "subcategories": ["order-flow", "crypto-trading"],
+  "subcategories": [
+    "order-flow",
+    "crypto-trading"
+  ],
   "description_short": "Order flow charting platform for futures and crypto traders with footprint charts, volume profiles, DOM, and real-time delta analysis.",
   "description_long": "Exocharts is an order flow charting platform built for futures and cryptocurrency traders who need granular volume analysis. The platform provides footprint charts, volume profiles, depth of market (DOM), and delta analysis tools to help traders understand the buying and selling pressure behind price movements.\n\nThe platform covers both traditional futures markets and major crypto exchanges, making it a versatile choice for traders who operate across both asset classes. Exocharts offers multiple footprint visualization modes including bid/ask, delta, and volume at price, along with configurable volume profile overlays.\n\nExocharts positions itself as a focused order flow tool rather than trying to be a full-featured charting suite. This specialization means the tools it does offer are well-tuned for reading order flow, though traders looking for a broader feature set may need to pair it with another platform.",
   "logo_url": "/logos/exocharts.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Monthly",
-        "price": 29,
         "billing": "monthly",
         "features": [
           "Footprint charts",
@@ -26,7 +28,8 @@
           "DOM analysis",
           "Delta analysis",
           "Futures and crypto data"
-        ]
+        ],
+        "price_monthly": 29
       }
     ],
     "currency": "USD"
@@ -48,7 +51,10 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["futures", "crypto"],
+  "markets": [
+    "futures",
+    "crypto"
+  ],
   "pros": [
     "Focused order flow toolset with clean footprint chart implementation",
     "Covers both futures and crypto markets from one platform",
@@ -72,8 +78,17 @@
   "founded_year": 2020,
   "company": "Exocharts",
   "headquarters": "International",
-  "best_for": ["crypto order flow traders", "futures scalpers", "volume profile analysts"],
-  "similar_tools": ["atas", "bookmap", "tensorcharts", "tradinglite"],
+  "best_for": [
+    "crypto order flow traders",
+    "futures scalpers",
+    "volume profile analysts"
+  ],
+  "similar_tools": [
+    "atas",
+    "bookmap",
+    "tensorcharts",
+    "tradinglite"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

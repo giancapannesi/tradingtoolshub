@@ -2,7 +2,10 @@
   "name": "SpeedTrader",
   "slug": "speedtrader",
   "category": "brokers",
-  "subcategories": ["dma-brokers", "day-trading"],
+  "subcategories": [
+    "dma-brokers",
+    "day-trading"
+  ],
   "description_short": "Direct market access stock broker for active day traders with multiple platform options, short locates, and a partnership referral program.",
   "description_long": "SpeedTrader is a direct market access broker designed for active day traders who need fast execution and professional routing tools. The broker offers multiple platform options including DAS Trader Pro and its proprietary SpeedTrader Pro platform, giving traders flexibility in their trading interface.\n\nThe broker provides direct routing to all major exchanges and ECNs, comprehensive Level 2 data, and a short locate system for traders who need to borrow shares for short selling. SpeedTrader also offers a partnership program for educators and influencers who refer active traders, which is relatively uncommon among DMA brokers.\n\nCommissions are per-share based, with rates starting around $0.0025/share for high-volume traders. The broker requires a $30,000 minimum account balance, which reflects its focus on serious active traders rather than beginners. SpeedTrader competes directly with CenterPoint Securities and Cobra Trading in the specialized day trading broker niche.",
   "logo_url": "/logos/speedtrader.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Active Trader",
-        "price": 0,
         "billing": "monthly",
         "features": [
           "DAS Trader Pro or SpeedTrader Pro platform",
@@ -27,7 +29,8 @@
           "Short locate system",
           "Per-share commissions from $0.0025",
           "$30,000 minimum balance"
-        ]
+        ],
+        "price_monthly": 0
       }
     ],
     "currency": "USD"
@@ -49,7 +52,9 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks"],
+  "markets": [
+    "stocks"
+  ],
   "pros": [
     "Multiple platform options — DAS Trader Pro or proprietary SpeedTrader Pro",
     "Competitive per-share pricing for high-volume traders",
@@ -73,8 +78,16 @@
   "founded_year": 2000,
   "company": "SpeedTrader Inc.",
   "headquarters": "United States",
-  "best_for": ["active day traders", "high-volume traders", "short sellers"],
-  "similar_tools": ["centerpoint-securities", "cobra-trading", "tradezero"],
+  "best_for": [
+    "active day traders",
+    "high-volume traders",
+    "short sellers"
+  ],
+  "similar_tools": [
+    "centerpoint-securities",
+    "cobra-trading",
+    "tradezero"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

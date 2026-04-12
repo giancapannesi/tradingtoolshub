@@ -2,7 +2,10 @@
   "name": "ClusterDelta",
   "slug": "clusterdelta",
   "category": "order-flow-tools",
-  "subcategories": ["metatrader", "multi-platform"],
+  "subcategories": [
+    "metatrader",
+    "multi-platform"
+  ],
   "description_short": "Footprint and order flow indicators for MetaTrader, cTrader, NinjaTrader, and a standalone platform, developed by a small team based in Kyiv, Ukraine.",
   "description_long": "ClusterDelta provides footprint chart and order flow indicators that work across multiple trading platforms including MetaTrader 4/5, cTrader, NinjaTrader, and their own standalone ClusterDelta application. This multi-platform approach is particularly valuable for forex and futures traders who use MetaTrader — a platform that lacks native order flow tools.\n\nThe indicator suite includes footprint charts, volume clusters, delta analysis, cumulative delta, and volume profile tools. The MetaTrader integration is a standout feature since most order flow tools target NinjaTrader or proprietary platforms, leaving MT4/MT5 users with few options. ClusterDelta fills this gap by bringing futures market order flow data into the MetaTrader environment.\n\nDeveloped by a micro team based in Kyiv, Ukraine, ClusterDelta has been serving the order flow community for over a decade. The platform sources tick data from futures exchanges and displays it within whatever charting platform the trader prefers. The small team size means updates and support may be slower than larger competitors, but the multi-platform flexibility is genuinely useful for traders who do not want to switch from their existing setup.",
   "logo_url": "/logos/clusterdelta.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Monthly",
-        "price": 29,
         "billing": "monthly",
         "features": [
           "Footprint charts",
@@ -26,18 +28,20 @@
           "Delta analysis",
           "Volume profiles",
           "MetaTrader, cTrader, or NinjaTrader integration"
-        ]
+        ],
+        "price_monthly": 29
       },
       {
         "name": "Annual",
-        "price": 249,
         "billing": "yearly",
         "features": [
           "All monthly features",
           "Discounted annual rate",
           "Standalone ClusterDelta app",
           "All platform integrations"
-        ]
+        ],
+        "price_monthly": 20.75,
+        "price_yearly": 249
       }
     ],
     "currency": "USD"
@@ -59,7 +63,10 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["futures", "forex"],
+  "markets": [
+    "futures",
+    "forex"
+  ],
   "pros": [
     "Works on MetaTrader 4/5 — one of very few order flow tools for MT4/MT5 users",
     "Multi-platform support including cTrader, NinjaTrader, and standalone app",
@@ -83,8 +90,17 @@
   "founded_year": 2010,
   "company": "ClusterDelta",
   "headquarters": "Kyiv, Ukraine",
-  "best_for": ["MetaTrader order flow traders", "forex traders wanting futures data", "multi-platform users"],
-  "similar_tools": ["atas", "mzpack", "orderflow-labs", "quantower"],
+  "best_for": [
+    "MetaTrader order flow traders",
+    "forex traders wanting futures data",
+    "multi-platform users"
+  ],
+  "similar_tools": [
+    "atas",
+    "mzpack",
+    "orderflow-labs",
+    "quantower"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

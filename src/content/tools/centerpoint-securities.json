@@ -2,7 +2,10 @@
   "name": "CenterPoint Securities",
   "slug": "centerpoint-securities",
   "category": "brokers",
-  "subcategories": ["dma-brokers", "day-trading"],
+  "subcategories": [
+    "dma-brokers",
+    "day-trading"
+  ],
   "description_short": "Direct market access broker built for active day traders, offering professional-grade routing, short locates, and competitive per-share pricing.",
   "description_long": "CenterPoint Securities is a direct market access (DMA) broker built specifically for active day traders who need professional-grade order routing and execution. The broker provides Level 2 data, direct market routing to specific exchanges and ECNs, and one of the most comprehensive short locate inventories in the retail brokerage space.\n\nThe short locate system is a standout feature — CenterPoint maintains relationships with multiple locate providers, giving traders access to hard-to-borrow shares that are unavailable at larger brokers. For short sellers, this alone can justify the higher per-share commissions. Order routing options include direct access to NYSE, NASDAQ, ARCA, BATS, and other venues, with the ability to route to specific market makers.\n\nCenterPoint is a small operation (1-10 employees) focused entirely on serving active traders. This means personalized support but also limited technology development compared to larger brokers. The platform is DAS Trader-based, which is industry standard for DMA trading but not as polished as proprietary platforms from Schwab or Fidelity. Commissions start at $0.004/share with volume discounts available.",
   "logo_url": "/logos/centerpoint-securities.svg",
@@ -18,7 +21,6 @@
     "tiers": [
       {
         "name": "Active Trader",
-        "price": 0,
         "billing": "monthly",
         "features": [
           "DAS Trader platform",
@@ -27,7 +29,8 @@
           "Short locate system",
           "$0.004/share commission (volume discounts available)",
           "Exchange and ECN routing"
-        ]
+        ],
+        "price_monthly": 0
       }
     ],
     "currency": "USD"
@@ -49,7 +52,9 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks"],
+  "markets": [
+    "stocks"
+  ],
   "pros": [
     "One of the best short locate systems in retail brokerage for hard-to-borrow shares",
     "Direct market access with routing to specific exchanges and ECNs",
@@ -73,8 +78,16 @@
   "founded_year": 2010,
   "company": "CenterPoint Securities LLC",
   "headquarters": "United States",
-  "best_for": ["active day traders", "short sellers", "DMA routing traders"],
-  "similar_tools": ["cobra-trading", "speedtrader", "tradezero"],
+  "best_for": [
+    "active day traders",
+    "short sellers",
+    "DMA routing traders"
+  ],
+  "similar_tools": [
+    "cobra-trading",
+    "speedtrader",
+    "tradezero"
+  ],
   "last_updated": "2026-04-02",
   "review_status": "published"
 }

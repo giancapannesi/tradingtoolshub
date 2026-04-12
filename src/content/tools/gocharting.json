@@ -21,17 +21,16 @@
     "tiers": [
       {
         "name": "Free",
-        "price": 0,
         "features": [
           "Historical data access",
           "Basic charting across multiple asset classes",
           "Limited indicators",
           "Delayed data"
-        ]
+        ],
+        "price_monthly": 0
       },
       {
         "name": "Pro",
-        "price": 20,
         "billing": "monthly",
         "features": [
           "Real-time data",
@@ -41,7 +40,8 @@
           "100+ drawing tools",
           "Direct broker connectivity (Tradovate, TradeStation, Rithmic, ByBit, Pepperstone + Indian brokers)",
           "Bar replay"
-        ]
+        ],
+        "price_monthly": 20
       }
     ],
     "currency": "USD"
