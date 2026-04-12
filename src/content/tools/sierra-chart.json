@@ -2,9 +2,12 @@
   "name": "Sierra Chart",
   "slug": "sierra-chart",
   "category": "charting-platforms",
-  "subcategories": ["futures-charting", "order-flow"],
-  "description_short": "High-performance charting platform for futures traders with advanced order flow analysis and ultra-low latency.",
-  "description_long": "Sierra Chart is a professional-grade charting and trading platform that has earned a devoted following among futures and forex traders who demand maximum performance and customization. The platform is built in C++ for minimal latency and maximum stability, making it a preferred choice for scalpers and high-frequency day traders.\n\nThe platform offers advanced order flow visualization including footprint charts, volume profiles, depth of market ladders, and heatmaps similar to Bookmap. Its ACSIL (Advanced Custom Study Interface and Language) provides C/C++ level access for creating custom studies and automated trading systems.\n\nSierra Chart's pricing is refreshingly simple: $24/month for the Standard package that includes all charting functionality, or $36/month for packages with additional real-time data. The platform connects to all major futures data feeds and brokers.",
+  "subcategories": [
+    "futures-charting",
+    "order-flow"
+  ],
+  "description_short": "Professional-grade C++ charting and trading platform built for futures scalpers and order flow traders, with ACSIL custom development, comprehensive broker connectivity via Rithmic, CQG, and Trading Technologies, and pricing starting at $26/month.",
+  "description_long": "## What Sierra Chart Is\n\nSierra Chart is a Windows-based charting and trading platform that has been in active development since the early 2000s. It is written entirely in C++ — not a web wrapper, not an Electron app, not Java — and that architectural decision defines everything about the platform. Sierra Chart is fast. Exceptionally, measurably fast. For futures scalpers trading the ES, NQ, or CL who need their DOM ladder updating with zero perceptible lag, Sierra Chart has been the go-to platform for over two decades.\n\nThe platform occupies a specific niche: it is built for traders who prioritize execution speed, data integrity, and deep customization over visual polish. It looks dated. The UI could generously be described as functional. But the traders who use Sierra Chart don't use it because it's pretty — they use it because nothing else matches its combination of speed, stability, and programmability at the price point.\n\n## The Company\n\nSierra Chart is developed and maintained by Sierra Chart Engineering, a small operation based in Colorado. Unlike VC-funded trading platforms chasing growth metrics, Sierra Chart has been self-funded and profitable for over twenty years. The development team is small, focused, and deeply technical. Support is handled through their extensive documentation system and a community forum. Responses to technical questions are typically thorough and come directly from the development team.\n\nThis matters because it means Sierra Chart doesn't chase trends. Features are added methodically, tested extensively, and documented thoroughly before release. The trade-off is that modern UX improvements happen slowly — but the platform's core engine is rock-solid.\n\n## Performance & Architecture\n\nThe C++ architecture is Sierra Chart's defining technical advantage. Every component — charting, order routing, data processing, custom study execution — runs as compiled native code. This eliminates the overhead that web-based and Java-based platforms carry, which directly translates to:\n\n- **Lower latency on DOM interactions** — critical for scalpers who need instant order placement\n- **Higher chart update rates** — Sierra Chart can handle tick-by-tick rendering on multiple charts simultaneously without degradation\n- **Better stability under load** — the platform is known for running 24/7 for weeks without crashes or memory leaks, even with dozens of charts and studies active\n- **Efficient memory usage** — can handle years of historical tick data without the bloat that browser-based platforms struggle with\n\nFor traders running multiple monitors with 10+ charts, each loaded with volume profiles and footprint studies, Sierra Chart's performance advantage over browser-based alternatives is not subtle — it's dramatic.\n\n## Order Flow Analysis\n\nSierra Chart's order flow toolkit is comprehensive and has been refined over many years:\n\n- **Numbers Bars (Footprint Charts)** — Sierra Chart's implementation of footprint charting shows bid/ask volume at each price level within each bar. The Numbers Bars system is highly configurable — you can display delta, total volume, bid×ask, diagonal delta, and more\n- **Volume Profiles** — both session-based and custom-range volume profiles with POC (Point of Control), value area high/low, and developing profiles\n- **Market Depth / DOM Ladder** — a fast, configurable depth of market display with one-click trading. The DOM is one of Sierra Chart's strongest features — traders frequently cite its speed and responsiveness as the primary reason they chose the platform\n- **Market Depth Historical Graph** — visual representation of how the order book evolves over time, similar to Bookmap's heatmap but rendered natively in C++\n- **Time and Sales** — configurable tape with filtering, color coding, and cumulative delta tracking\n- **Volume Weighted Average Price (VWAP)** — multiple VWAP studies including anchored, rolling, and multi-day\n\nThe order flow tools compete directly with ATAS, Bookmap, and Jigsaw — but at a significantly lower price point ($26/mo vs $70-90/mo for comparable setups on those platforms).\n\n## ACSIL — The Programming Interface\n\nACSIL (Advanced Custom Study Interface and Language) is Sierra Chart's C/C++ programming interface that allows traders to build custom studies, indicators, and fully automated trading systems. This is not a simplified scripting language like Pine Script — ACSIL gives you direct access to C++ with full control over:\n\n- Custom technical indicators and studies\n- Automated trading systems with complex order management\n- Custom drawing tools\n- Data processing and analysis\n- Integration with external data sources and APIs\n\nFor systematic traders who want maximum performance from their custom code, ACSIL is a genuine advantage. Custom studies written in ACSIL execute as compiled C++ — they run at native speed, not interpreted script speed. The learning curve is steep (you need to know C/C++), but the payoff in execution performance is significant.\n\nSierra Chart also supports a simpler spreadsheet-based study system for traders who want custom calculations without writing C++ code.\n\n## Supported Brokers & Data Feeds\n\nSierra Chart connects to virtually every major futures broker and data provider:\n\n**Order Routing / Trading:**\n- Rithmic (R | Trader)\n- CQG (CQG Web API)\n- Trading Technologies (TT FIX Adapter)\n- Teton Order Routing\n- Denali Exchange Data Feed\n- Interactive Brokers\n- TD Ameritrade / Schwab (legacy)\n- Generic FIX Protocol support\n\n**Market Data:**\n- CME Group (direct)\n- ICE\n- Eurex\n- Denali Exchange Data Feed (Sierra Chart's own managed data service)\n- IQFeed (DTN)\n- Rithmic data\n- CQG data\n\nThe Denali data feed deserves special mention — it's Sierra Chart's own managed data service that provides clean, exchange-direct market data. Many Sierra Chart users prefer Denali over third-party data providers because it's optimized specifically for the platform and priced competitively.\n\n## Pricing\n\nSierra Chart's pricing is straightforward and notably affordable for a professional-grade platform:\n\n- **Service Package 3** — $26/month: Full charting, all studies and indicators, ACSIL access, simulated trading. This is the base package most traders start with.\n- **Service Package 5** — $36/month: Everything in Package 3 plus additional real-time exchange data packages\n- **Service Package 11** — $56/month: Premium package with the most comprehensive data coverage\n\nThere are no hidden fees, no feature gating behind higher tiers (all charting and order flow tools are available on the base package), and no per-trade commissions from Sierra Chart. Data feed costs from your broker or exchange are separate and standard across all platforms.\n\nAt $26/month for a platform that includes footprint charts, volume profiles, DOM trading, ACSIL, and replay — Sierra Chart is one of the best values in professional trading software.\n\n## Replay & Simulation\n\nSierra Chart includes a comprehensive chart replay system that lets you replay historical market data tick-by-tick or at accelerated speeds. This is useful for:\n\n- Practicing order flow reading and DOM scalping without risking capital\n- Backtesting manual strategies against historical market conditions\n- Testing ACSIL automated trading systems against historical data\n- Training new traders on real market dynamics\n\nThe replay system uses actual historical tick data, not simulated data, so the market behavior you practice against is genuine.\n\n## What Sierra Chart Does Not Have\n\n- **No web version** — Sierra Chart is Windows-only desktop software. It can run on Mac/Linux via Wine or a virtual machine, but there is no native Mac or web client\n- **No mobile app** — there is no iOS or Android app\n- **No modern UI** — the interface uses traditional Windows controls and has not been modernized. It looks like software from the early 2000s\n- **No built-in social/community features** — no shared scripts marketplace or social feed within the platform\n- **No cloud sync** — chart layouts and settings are stored locally\n\nThese are real limitations for traders who want mobile access, a polished visual experience, or cross-device workflows. But for Sierra Chart's core audience — professional futures scalpers sitting at a multi-monitor desktop setup — none of these matter.\n\n## Who Sierra Chart Is For\n\n**Good fit:**\n- Futures scalpers and day traders who need the absolute lowest latency DOM and chart execution\n- Order flow traders who want footprint charts, volume profiles, and depth visualization at a budget price\n- Systematic traders who want to build automated strategies in C/C++ with native execution speed\n- Multi-monitor desktop traders who need rock-solid stability running dozens of charts simultaneously\n- Budget-conscious professionals who want ATAS/Bookmap-level tools at a fraction of the price\n\n**Not the right fit:**\n- Traders who want a modern, visually polished interface\n- Anyone who needs mobile or web access\n- Beginners who want a gentle learning curve — Sierra Chart rewards expertise, not exploration\n- Mac users who don't want to deal with Wine or virtual machines\n- Traders who primarily trade stocks or crypto (Sierra Chart's strength is futures)\n\n## Bottom Line\n\nSierra Chart is the Toyota Hilux of trading platforms — not flashy, not comfortable, built to last forever, and it will get the job done when everything else breaks. If you trade futures professionally from a desktop and you care more about execution speed and data integrity than visual polish, Sierra Chart at $26/month is genuinely hard to beat. The dated interface is a legitimate drawback, but the traders who stick with Sierra Chart — and many have used it for 10-15+ years — do so because nothing else combines its speed, stability, and customizability at the price.",
   "logo_url": "/logos/sierra-chart.svg",
   "screenshots": [],
   "website_url": "https://www.sierrachart.com",
@@ -14,19 +17,41 @@
   "affiliate_cookie_days": 0,
   "pricing": {
     "has_free_tier": false,
-    "starting_price": 24,
+    "starting_price": 26,
     "tiers": [
       {
-        "name": "Standard",
-        "price_monthly": 24,
-        "price_yearly": 264,
-        "features": ["Full charting suite", "Order flow tools", "Volume profile", "Footprint charts", "ACSIL custom studies"]
+        "name": "Package 3",
+        "price_monthly": 26,
+        "price_yearly": 286,
+        "features": [
+          "Full charting suite with all studies and indicators",
+          "Order flow tools: Numbers Bars (footprint), volume profiles, DOM",
+          "Market depth historical graph (heatmap)",
+          "ACSIL C/C++ custom study development",
+          "Chart replay with historical tick data",
+          "Simulated trading",
+          "Connect to external data services"
+        ]
       },
       {
-        "name": "Advanced",
+        "name": "Package 5",
         "price_monthly": 36,
         "price_yearly": 396,
-        "features": ["All Standard features", "Real-time data feeds", "Advanced market depth", "Additional exchange data"]
+        "features": [
+          "Everything in Package 3",
+          "Additional real-time exchange data packages",
+          "Denali Exchange Data Feed access"
+        ]
+      },
+      {
+        "name": "Package 11",
+        "price_monthly": 56,
+        "price_yearly": 616,
+        "features": [
+          "Everything in Package 5",
+          "Most comprehensive data coverage",
+          "Premium exchange data packages"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,22 +73,65 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["futures", "forex", "stocks"],
-  "pros": ["Ultra-low latency C++ engine for maximum performance", "Advanced order flow tools at a budget price", "Highly customizable with ACSIL C/C++ programming", "Extremely stable and reliable"],
-  "cons": ["Steep learning curve, not beginner-friendly", "Dated user interface", "Windows only, no Mac or web version"],
+  "markets": [
+    "futures",
+    "forex",
+    "stocks"
+  ],
+  "pros": [
+    "Fastest charting engine available — native C++ with zero web/Java overhead, measurably lower latency than browser-based alternatives",
+    "Comprehensive order flow suite: Numbers Bars (footprint), volume profiles, market depth heatmap, DOM ladder, time & sales — all included at base price",
+    "ACSIL C/C++ programming interface for building custom studies and automated trading systems at native execution speed",
+    "Connects to all major futures brokers and data feeds: Rithmic, CQG, Trading Technologies, Interactive Brokers, Denali",
+    "Exceptionally affordable for a professional platform — $26/month includes everything, no feature gating",
+    "Denali managed data feed provides exchange-direct data optimized for Sierra Chart",
+    "Rock-solid stability — known for running 24/7 for weeks without crashes even under heavy load",
+    "Comprehensive chart replay system with actual historical tick data for practice and backtesting",
+    "Over 20 years of continuous development and a loyal, knowledgeable user community"
+  ],
+  "cons": [
+    "Windows only — no native Mac, Linux, or web version (Wine/VM workaround available but not ideal)",
+    "No mobile app — desktop only, no iOS or Android",
+    "Dated user interface — functional but visually stuck in the early 2000s",
+    "Steep learning curve — the platform rewards technical expertise, not casual exploration",
+    "ACSIL requires C/C++ knowledge — no simplified scripting language for basic custom indicators",
+    "No built-in social features, shared script marketplace, or community feed"
+  ],
   "rating": 4.3,
   "rating_breakdown": {
     "ease_of_use": 3.2,
     "features": 4.8,
-    "value": 4.7,
+    "value": 4.9,
     "support": 3.8,
     "reliability": 4.9
   },
   "founded_year": 2001,
   "company": "Sierra Chart",
   "headquarters": "Henderson, Nevada",
-  "best_for": ["futures traders", "scalpers", "order flow traders"],
-  "similar_tools": ["ninjatrader", "bookmap", "quantower"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "best_for": [
+    "futures scalpers and day traders who need ultra-low latency",
+    "order flow traders wanting professional tools at a budget price",
+    "systematic traders building automated strategies in C/C++",
+    "multi-monitor desktop traders who prioritize stability over aesthetics"
+  ],
+  "similar_tools": [
+    "atas",
+    "bookmap",
+    "quantower",
+    "ninjatrader",
+    "jigsaw-trading",
+    "motivewave"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Platform features, pricing, broker connectivity, ACSIL development interface, and Denali data feed verified against sierrachart.com documentation. Vendor contacted us directly requesting a call (Apr 2026), confirming active engagement.",
+  "vendor_verified_sources": [
+    "https://www.sierrachart.com/ — official platform homepage",
+    "https://www.sierrachart.com/index.php?page=doc/SupportedDataAndTradingServices.html — supported brokers and data feeds",
+    "https://www.sierrachart.com/index.php?page=doc/ACS_Introduction.html — ACSIL programming documentation",
+    "https://www.sierrachart.com/index.php?page=doc/MarketDepthHistoricalGraph.html — market depth historical graph (heatmap)",
+    "https://www.sierrachart.com/index.php?page=doc/SierraChartServicePackages.html — pricing packages"
+  ]
 }
