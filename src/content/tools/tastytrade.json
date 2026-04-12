@@ -2,9 +2,12 @@
   "name": "Tastytrade",
   "slug": "tastytrade",
   "category": "brokers-us",
-  "subcategories": ["options-focused", "futures"],
-  "description_short": "Options-focused brokerage with industry-leading pricing, probability-based tools, and built-in trading education.",
-  "description_long": "Tastytrade (formerly Tastyworks) is the #1-rated platform for options trading, designed by the founders of ThinkorSwim specifically for options and futures traders. The platform's pricing is highly competitive: $1 per option contract with a $10 cap per leg, making it the cheapest option for multi-leg strategies.\n\nThe platform visualizes risk through probability curves and Greeks displays that make complex options positions easy to understand. The one-click roll, close, and adjustment tools streamline position management. Tastytrade also integrates live streaming content from the Tastylive network, providing continuous education and trade idea generation throughout the trading day.\n\nFutures trading is available with competitive rates, and the platform supports stocks, ETFs, and crypto as well. Tastytrade is best suited for traders who are comfortable with options and want a platform built from the ground up for that purpose.",
+  "subcategories": [
+    "options-focused",
+    "futures"
+  ],
+  "description_short": "Options-first brokerage and trading platform built by the founders of thinkorswim, featuring $0 stock commissions, $1/contract options with no close fees, and tastylive — the largest live financial media network for options traders.",
+  "description_long": "## What tastytrade Is\n\ntastytrade is an options-first brokerage and trading platform created by Tom Sosnoff, Tony Battista, and Scott Sheridan — the same team that built thinkorswim, which they sold to TD Ameritrade in 2009 for $750 million. After selling thinkorswim, they spent the next decade building tastylive (formerly tastytrade the media network) — a live financial media platform that has become the largest options trading education network in the world. Then in 2017, they launched tastytrade (the brokerage) to give their audience a platform to actually trade on.\n\nThis origin story matters because it defines everything about tastytrade: the platform was built by people who have been in the options business for decades, who understand what active options traders need, and who already had millions of engaged viewers learning options strategies through their daily live shows. The media network came first; the brokerage was built to serve it.\n\n## The tastylive Media Network\n\ntastylive (youtube.com/@tastylive, formerly tastytrade) is a live financial media network that broadcasts 8+ hours of live programming every market day. This isn't recorded content played back — it's live shows with real-time market analysis, options strategy discussions, and trade ideas being discussed as the market moves.\n\nKey shows include:\n- **tastylive** — the flagship morning show hosted by Tom Sosnoff and Tony Battista\n- **Options Jive** — deep dives into specific options strategies and their historical performance\n- **Market Measures** — data-driven segments analyzing strategy performance with backtested statistics\n- **Bootstrapping** — entrepreneurship and business discussions\n\nThe show format is research-heavy: the tastylive team regularly publishes backtested strategy performance data, probability analyses, and statistical breakdowns of options selling strategies. This data-driven approach to options education is unique in the industry — most options \"education\" is anecdotal. tastylive backs its strategy recommendations with historical data.\n\n## The Platform — Built for Options Sellers\n\ntastytrade's trading platform is purpose-built for options strategies, particularly for options sellers (premium collectors). Key features:\n\n- **Trade Page** — the main trading interface showing options chains, probability curves, and Greeks at a glance. Designed for scanning and executing multi-leg options strategies quickly\n- **Curve Analysis** — visual P&L diagrams for any options position or strategy, similar to OptionStrat's but integrated into the brokerage\n- **Portfolio Beta Weighting** — shows your entire portfolio's directional exposure as a single beta-weighted delta number\n- **Follow Feed** — see and optionally follow trades made by tastylive show hosts and verified traders\n- **Watchlist** — custom watchlists with IV rank, IV percentile, and options-specific metrics\n- **Pairs Trading** — built-in tools for correlation analysis and pair trade execution\n\nThe platform defaults to showing options-relevant data first: implied volatility rank, probability of profit, expected move, and theta decay are front and center rather than buried in menus. This makes it faster to find and execute options strategies compared to general-purpose platforms.\n\n## Pricing — Aggressively Low\n\ntastytrade's commission structure is one of the cheapest in the industry for active options traders:\n\n- **Stocks and ETFs** — $0 commissions\n- **Options** — $1 per contract to open, $0 to close. Capped at $10 per leg for large orders\n- **Futures** — $1.25 per contract per side\n- **Crypto** — 1% fee on buy/sell\n\nThe $0 closing commission on options is significant for active traders who adjust or roll positions frequently — you pay to enter but never to exit. The $10 cap on large orders means a 50-contract trade costs $10, not $50.\n\n## Mobile App\n\nThe tastytrade mobile app is well-designed and covers the full trading experience — options chains, strategy execution, P&L curves, and portfolio management. It's not an afterthought; the app was designed alongside the desktop platform.\n\n## tastytrade vs thinkorswim\n\nThis comparison is inevitable given the shared founders. In brief:\n- **thinkorswim** has more advanced charting, more indicators, and a more powerful scripting language (thinkScript)\n- **tastytrade** has lower commissions, a simpler interface focused on options, and the tastylive media integration\n- **thinkorswim** serves a broader audience; **tastytrade** serves active options traders specifically\n\n## What tastytrade Does Not Have\n\n- **Limited charting** — functional but basic compared to TradingView or thinkorswim\n- **No advanced scripting language** — no equivalent of thinkScript for custom indicators\n- **No order flow tools** — no footprint charts, volume profiles, or DOM analysis\n- **Limited stock research** — the platform is optimized for options, not equity fundamental analysis\n- **No API** — no programmatic trading access\n\n## Who tastytrade Is For\n\n**Good fit:**\n- Active options sellers who trade premium strategies (iron condors, strangles, verticals, covered calls)\n- Traders who want the lowest possible options commissions ($1 open, $0 close)\n- Fans of the tastylive shows who want to trade alongside the content they watch\n- Options traders who value probability-based, data-driven strategy selection\n- Anyone transitioning from thinkorswim who wants a simpler, cheaper options-focused platform\n\n**Not the right fit:**\n- Traders who need advanced charting and technical analysis tools\n- Algorithmic or systematic traders who need API access\n- Buy-and-hold stock investors who don't trade options\n- Order flow traders — no DOM, footprint, or tape reading tools\n\n## Bottom Line\n\ntastytrade is the best brokerage for active options traders who sell premium. The commission structure ($1 open, $0 close) is genuinely the cheapest for options-heavy strategies, the platform is purpose-built for options workflow, and the tastylive media network provides the best free options education available. Tom Sosnoff and team built thinkorswim, sold it, and then built something better for the specific audience they know best — active options sellers.",
   "logo_url": "/logos/tastytrade.svg",
   "screenshots": [],
   "website_url": "https://tastytrade.com",
@@ -17,10 +20,16 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Standard",
+        "name": "Standard Account",
         "price_monthly": 0,
-        "price_yearly": 0,
-        "features": ["Commission-free stocks/ETFs", "$1/contract options ($10 cap)", "Competitive futures rates", "Probability tools", "Risk visualization", "Tastylive integration"]
+        "features": [
+          "$0 stock and ETF commissions",
+          "$1/contract options (open), $0 to close, $10 cap per leg",
+          "$1.25/contract futures",
+          "Full platform access — desktop, web, and mobile",
+          "tastylive media integration",
+          "Curve analysis and P&L visualization"
+        ]
       }
     ],
     "currency": "USD"
@@ -42,22 +51,63 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "crypto"],
-  "pros": ["Best options pricing with $10/leg cap", "Probability-based tools built for options", "Tastylive content for continuous education", "One-click position management"],
-  "cons": ["Limited charting compared to ThinkorSwim", "Not ideal for stock-only traders", "Crypto selection is limited", "No forex trading"],
-  "rating": 4.5,
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "crypto"
+  ],
+  "pros": [
+    "Built by the founders of thinkorswim — Tom Sosnoff, Tony Battista, Scott Sheridan",
+    "Cheapest options commissions: $1 to open, $0 to close, capped at $10/leg for large orders",
+    "$0 stock and ETF commissions",
+    "Platform purpose-built for options selling strategies — IV rank, probability of profit, and theta front and center",
+    "tastylive media network: 8+ hours of live daily programming with data-driven options strategy analysis",
+    "Follow Feed lets you see and optionally replicate trades from tastylive hosts",
+    "Portfolio beta weighting shows entire portfolio exposure as a single number",
+    "Well-designed mobile app with full trading capability",
+    "Curve analysis with visual P&L diagrams integrated into the brokerage"
+  ],
+  "cons": [
+    "Basic charting compared to TradingView or thinkorswim — functional but limited",
+    "No advanced scripting or custom indicator development",
+    "No order flow tools — no footprint charts, volume profiles, or DOM",
+    "No API for programmatic trading",
+    "Limited stock research and fundamental analysis tools — options-focused platform",
+    "1% crypto trading fee is higher than dedicated crypto exchanges"
+  ],
+  "rating": 4.4,
   "rating_breakdown": {
-    "ease_of_use": 4.2,
-    "features": 4.5,
+    "ease_of_use": 4.3,
+    "features": 4.2,
     "value": 4.8,
-    "support": 4.3,
-    "reliability": 4.5
+    "support": 4.2,
+    "reliability": 4.4
   },
   "founded_year": 2017,
-  "company": "Tastytrade Inc.",
-  "headquarters": "Chicago, Illinois",
-  "best_for": ["options traders", "futures traders", "probability-based traders"],
-  "similar_tools": ["interactive-brokers", "charles-schwab", "webull"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "company": "tastytrade, Inc.",
+  "headquarters": "Chicago, Illinois, United States",
+  "best_for": [
+    "active options sellers who trade premium strategies",
+    "traders who want the lowest possible options commissions",
+    "tastylive viewers who want to trade alongside the shows",
+    "options traders who value probability-based, data-driven strategy selection"
+  ],
+  "similar_tools": [
+    "optionsstrat",
+    "thinkorswim",
+    "interactive-brokers",
+    "webull",
+    "option-alpha"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Commission structure, platform features, tastylive integration, and founding team verified against tastytrade.com.",
+  "vendor_verified_sources": [
+    "https://tastytrade.com/",
+    "https://tastytrade.com/pricing/",
+    "https://www.youtube.com/@tastylive"
+  ]
 }
