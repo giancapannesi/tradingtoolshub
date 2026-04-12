@@ -2,9 +2,12 @@
   "name": "TC2000",
   "slug": "tc2000",
   "category": "charting-platforms",
-  "subcategories": ["stock-charting", "scanning"],
-  "description_short": "Fast charting and scanning platform with integrated brokerage for US stocks and options traders.",
-  "description_long": "TC2000 by Worden Brothers has been a staple in the stock charting world for decades, known for its blazing-fast scanning engine and clean charting interface. The platform combines powerful stock screening with real-time charting and an integrated brokerage for seamless trade execution.\n\nTC2000's EasyScan feature lets traders build custom stock scans using plain English conditions, making it accessible even for those without programming experience. The charting engine is highly responsive and supports custom indicators through their proprietary PCF (Personal Criteria Formula) language.\n\nThe integrated TC2000 Brokerage offers competitive commissions for stocks and options, eliminating the need to switch between charting and execution platforms. Plans range from Basic at $24.99/mo to Premium+ at $99.99/mo, with real-time market data available as add-ons.",
+  "subcategories": [
+    "stock-charting",
+    "scanning"
+  ],
+  "description_short": "Stock scanning and charting platform by Worden Brothers with EasyScan plain-English stock screening, integrated TC2000 Brokerage for seamless execution, and 30+ years of development serving active stock and options traders.",
+  "description_long": "## What TC2000 Is\n\nTC2000 is a stock screening and charting platform built by Worden Brothers — a family-run software company that has been building trading tools since 1993. That's over 30 years of continuous development focused on one thing: helping stock traders find, analyze, and execute trades efficiently.\n\nThe platform is built around two core strengths: its scanning/screening engine (which is genuinely one of the fastest and most flexible in the retail space) and its integrated brokerage (which lets you go from finding a trade to executing it without leaving the platform). TC2000 doesn't try to be everything — it's not an order flow platform, it's not a charting-first platform like TradingView, and it's not an algo development environment. What it is: the best stock screener with built-in charting and execution for traders who scan for setups and act on them quickly.\n\n## The Company — Worden Brothers\n\nWorden Brothers (officially TC2000.com, Inc.) is a family-run business based in North Carolina. Don Worden, the company's founder, was a pioneer in technical analysis and authored multiple books on volume analysis including \"Volume Cycles in the Stock Market.\" The company has passed through multiple generations and continues to develop TC2000 as its primary product.\n\nThis matters because TC2000 isn't a VC-funded startup that might pivot or shut down — it's a family business with 30+ years of track record and a loyal user base. The platform has evolved from a DOS-based stock scanning tool through Windows software to today's web and desktop platform while maintaining its core identity as a screener-first tool.\n\n## EasyScan — The Scanning Engine\n\nEasyScan is TC2000's signature feature and the primary reason traders choose it over competing platforms. It lets you build stock scans using plain-English conditions without needing to write code:\n\n- **\"Price crossed above the 50-day moving average today\"**\n- **\"Volume is at least 2x the 50-day average and RSI is below 30\"**\n- **\"Stock hit a new 52-week high and is in the Technology sector\"**\n\nEach condition is selected from dropdown menus, not typed as code. The scanning engine processes thousands of stocks in seconds and returns results in real time. You can combine multiple conditions with AND/OR logic, save scans for reuse, and set alerts when new stocks match your criteria.\n\nFor traders who build their workflow around scanning for specific technical setups (breakouts, pullbacks, volume surges, gap plays), EasyScan dramatically reduces the time between \"I have a setup idea\" and \"here are the stocks that match right now.\"\n\n### PCF — Personal Criteria Formulas\n\nFor more advanced users, TC2000 also supports PCF (Personal Criteria Formula) — a proprietary formula language that lets you create custom indicators, scan criteria, and conditions that go beyond what the dropdown menus offer. PCF is simpler than Pine Script or ACSIL but powerful enough for most custom screening needs.\n\n## Charting\n\nTC2000's charting is clean, fast, and functional. It supports:\n\n- Standard chart types (candlestick, bar, line, area)\n- 70+ built-in technical indicators\n- Custom indicators via PCF\n- Multiple chart layouts and workspaces\n- Drawing tools (trend lines, channels, Fibonacci)\n- Annotations and notes on charts\n\nThe charting isn't as feature-rich as TradingView (no community scripts, no social features, fewer chart types), but it's faster and more tightly integrated with the scanning engine. When you click on a scan result, the chart loads instantly — and that workflow speed is TC2000's competitive advantage.\n\n## Integrated Brokerage — TC2000 Brokerage\n\nTC2000 Brokerage is a fully integrated broker built into the platform. You can:\n\n- Execute stock and options trades directly from the chart or scanner\n- Use hotkeys for rapid order entry\n- Set bracket orders, trailing stops, and OCO (one-cancels-other) orders\n- View positions, P&L, and account balances within the same interface\n\nCommissions are competitive: $4.95 per stock trade and $0.65 per options contract. The brokerage eliminates the friction of switching between a charting platform and a separate broker — you scan, chart, and trade all in one place.\n\nNote: you don't have to use TC2000 Brokerage. TC2000 works as a standalone charting and scanning platform, and many users pair it with their own broker for execution.\n\n## Watchlists & Organization\n\nTC2000 has a robust watchlist system that supports:\n\n- Custom watchlists with drag-and-drop organization\n- Dynamic scan-based watchlists (automatically updated as stocks enter/exit scan criteria)\n- Industry group and sector watchlists\n- Index component watchlists\n- Color-coded sorting and ranking within lists\n\nThe ability to create dynamic watchlists based on scan criteria is particularly useful — it means your watchlists are always current without manual maintenance.\n\n## Platform Availability\n\n- **Web app** — runs in any modern browser, no installation required\n- **Desktop app** — Windows and Mac native applications with faster performance\n- **Mobile** — iOS app for monitoring on the go (limited functionality compared to desktop)\n\n## Pricing\n\nTC2000 offers three subscription tiers:\n\n- **Silver ($12/month)** — basic charting and scanning, delayed data, limited features\n- **Gold ($29.99/month)** — real-time streaming quotes, full scanning, alerts, PCF custom formulas, all charting tools\n- **Platinum ($89.98/month)** — everything in Gold plus historical condition testing, enhanced data, and priority support\n\nReal-time streaming data is included in Gold and Platinum tiers. Options data is available as an add-on.\n\n## What TC2000 Does Not Have\n\n- **No futures, forex, or crypto** — stocks and options only (US markets)\n- **No order flow analysis** — no footprint charts, volume profiles, or DOM tools\n- **No automated trading** — no strategy backtesting or algorithmic execution\n- **No social features** — no community scripts, shared ideas, or social feed\n- **No API** — no programmatic access for custom development\n- **Limited mobile app** — iOS only, reduced functionality compared to desktop/web\n\n## Who TC2000 Is For\n\n**Good fit:**\n- Stock traders who build their workflow around scanning for technical setups\n- Active traders who want scanning + charting + execution in one integrated platform\n- Options traders who want to screen and trade options alongside stocks\n- Non-programmers who want powerful scanning without needing to write code (EasyScan)\n- Traders who value speed — fast scans, fast charts, fast execution\n\n**Not the right fit:**\n- Futures, forex, or crypto traders — US stocks/options only\n- Order flow traders — no volume profile, footprint, or DOM tools\n- Algorithmic traders — no backtesting or automation\n- Traders who want a large community of shared indicators and social features (TradingView is better)\n\n## Bottom Line\n\nTC2000 is the best stock scanning platform for traders who don't want to write code. EasyScan makes powerful screening accessible, the charting is fast and clean, and the integrated brokerage eliminates the gap between finding a trade and executing it. After 30+ years, Worden Brothers has built a platform that does scanning better than anyone — and everything else in TC2000 exists to support that core strength. If you trade US stocks and options and your workflow starts with \"find stocks matching my criteria,\" TC2000 is the tool to beat.",
   "logo_url": "/logos/tc2000.svg",
   "screenshots": [],
   "website_url": "https://www.tc2000.com",
@@ -14,25 +17,38 @@
   "affiliate_cookie_days": 0,
   "pricing": {
     "has_free_tier": false,
-    "starting_price": 24.99,
+    "starting_price": 12,
     "tiers": [
       {
-        "name": "Basic",
-        "price_monthly": 24.99,
-        "price_yearly": 249.90,
-        "features": ["Real-time charting", "Basic scanning", "Watchlists", "Standard indicators"]
+        "name": "Silver",
+        "price_monthly": 12,
+        "features": [
+          "Basic charting and scanning",
+          "Delayed data",
+          "Limited watchlists",
+          "Standard indicators"
+        ]
       },
       {
-        "name": "Premium",
-        "price_monthly": 49.99,
-        "price_yearly": 499.90,
-        "features": ["All Basic features", "EasyScan conditions", "Custom PCF formulas", "Advanced alerts"]
+        "name": "Gold",
+        "price_monthly": 29.99,
+        "features": [
+          "Real-time streaming quotes",
+          "Full EasyScan scanning",
+          "PCF custom formulas",
+          "All charting tools and indicators",
+          "Alerts and notifications"
+        ]
       },
       {
-        "name": "Premium+",
-        "price_monthly": 99.99,
-        "price_yearly": 999.90,
-        "features": ["All Premium features", "Historical condition testing", "Advanced layouts", "Priority data"]
+        "name": "Platinum",
+        "price_monthly": 89.98,
+        "features": [
+          "Everything in Gold",
+          "Historical condition testing",
+          "Enhanced data packages",
+          "Priority support"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,22 +70,59 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks", "options"],
-  "pros": ["Lightning-fast scanning engine", "EasyScan uses plain English conditions", "Integrated brokerage for seamless execution", "Decades of reliability and trust"],
-  "cons": ["Limited to US stocks and options only", "Real-time data costs extra", "No crypto or forex support"],
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "EasyScan stock screening — build powerful scans using plain-English conditions, no coding required",
+    "Blazing-fast scanning engine processes thousands of stocks in seconds with real-time results",
+    "Integrated TC2000 Brokerage — scan, chart, and trade all in one platform with competitive commissions",
+    "30+ years of development by Worden Brothers — stable, mature product with a loyal user base",
+    "PCF formula language for custom indicators and advanced scan criteria",
+    "Dynamic watchlists that auto-update based on scan criteria",
+    "Available on web, Windows desktop, Mac desktop, and iOS — flexible platform access",
+    "Clean, fast charting with 70+ indicators and tight integration with scanner results"
+  ],
+  "cons": [
+    "US stocks and options only — no futures, forex, or crypto",
+    "No order flow analysis — no footprint charts, volume profiles, or DOM tools",
+    "No automated trading or strategy backtesting capability",
+    "No community/social features — no shared scripts or trading ideas feed",
+    "No API for programmatic access or custom development",
+    "iOS-only mobile app with limited functionality compared to desktop"
+  ],
   "rating": 4.3,
   "rating_breakdown": {
-    "ease_of_use": 4.4,
+    "ease_of_use": 4.6,
     "features": 4.2,
-    "value": 4.0,
-    "support": 4.3,
-    "reliability": 4.7
+    "value": 4.2,
+    "support": 4.0,
+    "reliability": 4.5
   },
   "founded_year": 1993,
-  "company": "Worden Brothers Inc.",
-  "headquarters": "Durham, North Carolina",
-  "best_for": ["stock traders", "options traders", "swing traders"],
-  "similar_tools": ["tradingview", "trendspider", "finviz"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "company": "TC2000.com, Inc. (Worden Brothers)",
+  "headquarters": "United States (North Carolina)",
+  "best_for": [
+    "stock traders who scan for technical setups without writing code",
+    "active traders wanting scanning + charting + execution in one platform",
+    "options traders who screen and trade US options alongside stocks",
+    "non-programmers who want powerful screening via EasyScan plain-English interface"
+  ],
+  "similar_tools": [
+    "finviz",
+    "trade-ideas",
+    "stock-rover",
+    "trendspider",
+    "benzinga-pro"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Platform features, pricing tiers, EasyScan, PCF formulas, and integrated brokerage verified against tc2000.com.",
+  "vendor_verified_sources": [
+    "https://www.tc2000.com/",
+    "https://www.tc2000.com/plans"
+  ]
 }
