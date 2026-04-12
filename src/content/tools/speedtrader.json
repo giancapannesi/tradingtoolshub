@@ -6,8 +6,8 @@
     "dma-brokers",
     "day-trading"
   ],
-  "description_short": "Direct market access stock broker for active day traders with multiple platform options, short locates, and a partnership referral program.",
-  "description_long": "SpeedTrader is a direct market access broker designed for active day traders who need fast execution and professional routing tools. The broker offers multiple platform options including DAS Trader Pro and its proprietary SpeedTrader Pro platform, giving traders flexibility in their trading interface.\n\nThe broker provides direct routing to all major exchanges and ECNs, comprehensive Level 2 data, and a short locate system for traders who need to borrow shares for short selling. SpeedTrader also offers a partnership program for educators and influencers who refer active traders, which is relatively uncommon among DMA brokers.\n\nCommissions are per-share based, with rates starting around $0.0025/share for high-volume traders. The broker requires a $30,000 minimum account balance, which reflects its focus on serious active traders rather than beginners. SpeedTrader competes directly with CenterPoint Securities and Cobra Trading in the specialized day trading broker niche.",
+  "description_short": "Direct market access (DMA) broker for active day traders and scalpers, offering sub-millisecond execution, multiple routing options, Level 2 data, and short locate services for US equities.",
+  "description_long": "## What SpeedTrader Is\n\nSpeedTrader is a direct market access (DMA) broker designed specifically for active day traders who need fast execution, multiple order routing options, and professional-grade tools. This is not a platform for casual investors or buy-and-hold portfolios — SpeedTrader exists for traders who execute dozens or hundreds of trades per day and need their orders hitting the exchange in sub-millisecond timeframes.\n\nThe company was founded in 1999 during the height of the day trading boom and has operated continuously since then, making it one of the longest-running DMA brokers for retail traders. SpeedTrader is a division of Mint Global Markets and is a member of FINRA and SIPC.\n\n## Direct Market Access — The Core Value\n\nThe defining feature of SpeedTrader is direct market access. Unlike retail brokers that route orders through market makers or internal order flow (payment for order flow model), SpeedTrader sends your orders directly to exchanges and ECNs:\n\n- **ARCA, NASDAQ, NYSE, BATS/EDGX** — direct exchange routing\n- **Multiple ECN routing options** — choose where your order goes for optimal fill quality\n- **Sub-millisecond execution** — orders reach the exchange as fast as technically possible from retail infrastructure\n- **No payment for order flow** — your orders aren't sold to market makers\n\nFor scalpers who trade on small price movements, the difference between DMA execution and retail broker routing can be the difference between a profitable and unprofitable strategy.\n\n## Level 2 and Market Data\n\nSpeedTrader provides professional-grade market data:\n\n- **Full Level 2 / Market Depth** — see all orders at every price level across exchanges\n- **Time & Sales** — real-time tape of every execution\n- **Pre-market and after-hours data** — extended hours trading support\n- **Multiple data display options** — customizable Level 2 montage\n\n## Short Locating\n\nSpeedTrader offers short locate services — the ability to find and borrow hard-to-borrow shares for short selling. This is essential for short sellers who trade momentum stocks where shares are difficult to borrow. The locate desk provides real-time availability and pricing for hard-to-borrow securities.\n\n## Trading Platforms\n\nSpeedTrader offers multiple platform options:\n\n- **SpeedTrader PRO** — the flagship desktop platform with DMA routing, hotkeys, Level 2, and multi-monitor support\n- **Sterling Trader Pro** — a professional alternative platform with its own DMA infrastructure\n- **DAS Trader Pro** — another professional DMA platform option\n- **Mobile Trading** — basic mobile access for order monitoring and execution\n\nThe multi-platform approach means traders can choose the execution interface that best fits their workflow — SpeedTrader doesn't force you into a single platform.\n\n## Pricing & Commissions\n\nSpeedTrader's commission structure is designed for active traders:\n\n- **Per Share pricing** — starting at $0.0025/share (min $1.00/trade), scaling down with volume\n- **Per Trade pricing** — $4.49 per trade for lower-frequency traders\n- **ECN rebates/fees** — pass-through pricing for exchange routing (add/remove liquidity)\n- **Short locate fees** — variable based on share availability and demand\n- **Platform fees** — vary by chosen platform (SpeedTrader PRO, Sterling, DAS)\n- **Minimum account** — $25,000 (Pattern Day Trader requirement)\n\nThe per-share pricing with volume tiers is competitive for high-volume traders. A trader executing 100,000+ shares/day will see significantly lower per-share costs than on any retail commission-free broker (where the cost is hidden in execution quality).\n\n## What SpeedTrader Does Not Have\n\n- **Not for beginners** — $25,000 minimum, complex commission structure, professional tools\n- **No fractional shares** — whole shares only\n- **No crypto, forex, or futures** — US equities and options only\n- **No free tier** — paid platform with minimum balance requirements\n- **Limited charting** — the platform is execution-focused, not charting-focused. Most SpeedTrader users run a separate charting platform (TradingView, DAS, etc.)\n\n## Who SpeedTrader Is For\n\n**Good fit:**\n- Active day traders executing 50+ trades per day who need DMA execution quality\n- Scalpers who trade on small price movements where execution speed determines profitability\n- Short sellers who need reliable short locate services for hard-to-borrow shares\n- Professional traders who want multiple routing options and exchange-direct order flow\n- Prop firm traders and funded traders who need professional execution infrastructure\n\n**Not the right fit:**\n- Casual investors or swing traders — the minimum balance and commission structure don't make sense\n- Beginners — the platform assumes professional-level trading knowledge\n- Traders who want integrated charting — SpeedTrader is an execution platform, not a charting platform\n- Anyone trading less than $25,000 — doesn't meet the account minimum\n\n## Bottom Line\n\nSpeedTrader is a professional DMA broker for serious day traders. If you execute dozens of trades daily on US equities and your edge depends on execution speed and routing quality, SpeedTrader provides the infrastructure that commission-free retail brokers fundamentally cannot. The $25,000 minimum and professional pricing mean this isn't for everyone — but for its target audience, the execution quality difference is real and measurable.",
   "logo_url": "/logos/speedtrader.svg",
   "screenshots": [],
   "website_url": "https://speedtrader.com",
@@ -20,17 +20,24 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Active Trader",
-        "billing": "monthly",
+        "name": "Per Share",
+        "price_monthly": 0,
         "features": [
-          "DAS Trader Pro or SpeedTrader Pro platform",
-          "Direct market access routing",
-          "Level 2 data",
-          "Short locate system",
-          "Per-share commissions from $0.0025",
-          "$30,000 minimum balance"
-        ],
-        "price_monthly": 0
+          "Starting at $0.0025/share (min $1.00/trade)",
+          "Volume discounts available",
+          "ECN pass-through pricing",
+          "$25,000 account minimum"
+        ]
+      },
+      {
+        "name": "Per Trade",
+        "price_monthly": 0,
+        "features": [
+          "$4.49 per trade",
+          "Simpler pricing for lower volume",
+          "Same DMA execution quality",
+          "$25,000 account minimum"
+        ]
       }
     ],
     "currency": "USD"
@@ -56,38 +63,54 @@
     "stocks"
   ],
   "pros": [
-    "Multiple platform options — DAS Trader Pro or proprietary SpeedTrader Pro",
-    "Competitive per-share pricing for high-volume traders",
-    "Short locate system for borrowing hard-to-find shares",
-    "Mobile app available for monitoring positions on the go"
+    "Direct market access with sub-millisecond execution — orders go straight to exchanges, not market makers",
+    "Multiple exchange routing options: ARCA, NASDAQ, NYSE, BATS/EDGX, and ECNs",
+    "No payment for order flow — your orders aren't sold to market makers",
+    "Professional short locate services for hard-to-borrow shares",
+    "Multiple platform options: SpeedTrader PRO, Sterling Trader Pro, DAS Trader Pro",
+    "Per-share pricing with volume tiers — competitive for high-volume traders",
+    "Extended hours trading support with pre-market and after-hours data",
+    "Full Level 2 market depth across all exchanges"
   ],
   "cons": [
-    "$30,000 minimum account balance excludes smaller traders",
-    "Stocks only — no options, futures, or crypto trading",
-    "Per-share commissions are not competitive for low-volume traders",
-    "Platform fees add to the overall cost structure"
+    "$25,000 minimum account — Pattern Day Trader requirement",
+    "Complex commission structure — per-share, per-trade, ECN fees, platform fees",
+    "Limited charting — execution-focused platform, most users need a separate charting tool",
+    "US equities and options only — no futures, forex, or crypto",
+    "Not beginner-friendly — assumes professional trading knowledge",
+    "No fractional shares"
   ],
-  "rating": 3.7,
+  "rating": 4.1,
   "rating_breakdown": {
     "ease_of_use": 3.3,
-    "features": 3.7,
-    "value": 3.4,
-    "support": 3.8,
-    "reliability": 4.0
+    "features": 4.3,
+    "value": 4.0,
+    "support": 4.2,
+    "reliability": 4.5
   },
-  "founded_year": 2000,
-  "company": "SpeedTrader Inc.",
+  "founded_year": 1999,
+  "company": "SpeedTrader (Division of Mint Global Markets)",
   "headquarters": "United States",
   "best_for": [
-    "active day traders",
-    "high-volume traders",
-    "short sellers"
+    "active day traders executing 50+ trades daily who need DMA execution",
+    "scalpers whose edge depends on execution speed and routing quality",
+    "short sellers who need reliable short locate services",
+    "prop firm traders who need professional execution infrastructure"
   ],
   "similar_tools": [
-    "centerpoint-securities",
     "cobra-trading",
-    "tradezero"
+    "centerpoint-securities",
+    "lightspeed",
+    "tradezero",
+    "interactive-brokers"
   ],
-  "last_updated": "2026-04-02",
-  "review_status": "published"
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "DMA execution, routing options, commission structure, and platform options verified against speedtrader.com.",
+  "vendor_verified_sources": [
+    "https://www.speedtrader.com/",
+    "https://www.speedtrader.com/pricing/"
+  ]
 }

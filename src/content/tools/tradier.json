@@ -6,8 +6,8 @@
     "api-trading",
     "developer-tools"
   ],
-  "description_short": "API-first brokerage platform designed for developers and fintech companies, offering commission-free equity trades and a robust trading API.",
-  "description_long": "Tradier is an API-first brokerage that puts developer access at the center of its offering. Unlike traditional brokers that add APIs as an afterthought, Tradier was built from the ground up as a brokerage-as-a-service platform, making it the go-to choice for fintech developers, algo traders, and companies building trading applications.\n\nThe Tradier API provides RESTful endpoints for account management, order execution, market data, and options chains. The documentation is thorough and developer-friendly, with SDKs available for multiple programming languages. Commission-free equity trading and competitive options pricing ($0.35/contract on the subscription plan) make it cost-effective for active traders and applications processing high volumes.\n\nBased in Charlotte, North Carolina with 50-100 employees, Tradier also offers a traditional trading platform for non-developers. However, its primary value proposition is the API infrastructure. Third-party platforms like TradingView and other charting tools can connect through Tradier for execution, giving developers and traders flexibility in how they build their trading workflows.",
+  "description_short": "API-first brokerage offering commission-free stock trading, $0.35/contract options, and a developer-friendly trading API used by 100+ third-party platforms and fintech applications.",
+  "description_long": "## What Tradier Is\n\nTradier is an API-first brokerage that approaches the trading business differently from traditional brokers. While most brokers build their own trading platform and treat the API as a secondary feature, Tradier built the API first and treats the brokerage as infrastructure that third-party platforms plug into. The result is a broker that powers over 100 third-party trading applications, platforms, and fintech products through its API — while also offering its own web and mobile trading interface for individual traders.\n\nFounded in 2012 and headquartered in Charlotte, North Carolina, Tradier is a FINRA member broker-dealer. The company serves two audiences: individual traders who use Tradier's own platform or one of its partner platforms, and developers/fintechs who integrate Tradier's brokerage API into their own products.\n\n## The API — Tradier's Core Product\n\nTradier's REST API provides:\n\n- **Market data** — real-time and historical quotes, options chains, time & sales\n- **Trading** — order placement, modification, and cancellation across equities and options\n- **Account management** — positions, balances, history, P&L\n- **Options-specific** — full options chain data, Greeks, multi-leg order support\n- **Streaming** — real-time WebSocket data feeds\n\nThe API is used by platforms like OptionStrat, Option Alpha, and dozens of other trading tools. For developers building trading applications, Tradier provides the brokerage backbone so they don't need to become a broker-dealer themselves.\n\n## Individual Trading\n\nFor individual traders, Tradier offers:\n\n- **Commission-free stock and ETF trading**\n- **$0.35/contract options** on the subscription plan ($10/month flat fee)\n- **No per-trade options commission on subscription plan** — just $0.35/contract\n- **Web trading dashboard** — functional but basic compared to dedicated platforms\n- **Mobile app** — iOS and Android for basic trading and monitoring\n- **Options trading** — multi-leg strategies, spread orders\n\nThe subscription pricing model ($10/month for $0.35/contract options) is attractive for active options traders — it's cheaper than most brokers for traders who execute more than a few options trades per month.\n\n## Pricing\n\n- **Free Account** — $0 stock/ETF commissions, $0.35/contract options (standard)\n- **Subscription ($10/month)** — $0 stock/ETF commissions, $0.35/contract options with no per-trade fee\n- **API access** — included with brokerage account, no additional API fees\n- **No account minimum** — open an account with any amount\n\n## Who Tradier Is For\n\n**Good fit:**\n- Developers and fintech builders who need a brokerage API to power their trading application\n- Active options traders who want cheap per-contract pricing ($0.35/contract)\n- Users of Tradier-integrated platforms (OptionStrat, Option Alpha, etc.) who need a brokerage connection\n- Traders who want to use multiple front-end platforms with a single brokerage account\n\n**Not the right fit:**\n- Traders who want advanced charting or a feature-rich trading platform — Tradier's own platform is basic\n- Futures, forex, or crypto traders — US equities and options only\n- Traders who want research, news, and education integrated into their broker platform\n\n## Bottom Line\n\nTradier is the best broker for developers and the cheapest option for active options traders who use third-party platforms. The API-first approach means you're not locked into Tradier's own (basic) platform — you can trade through any of 100+ integrated applications. If you use OptionStrat, Option Alpha, or any other Tradier-connected platform, this is the brokerage that makes the connection work.",
   "logo_url": "/logos/tradier.svg",
   "screenshots": [],
   "website_url": "https://tradier.com",
@@ -21,25 +21,22 @@
     "tiers": [
       {
         "name": "Free Account",
+        "price_monthly": 0,
         "features": [
-          "Commission-free equities",
-          "$0.35/contract options",
-          "API access",
-          "Basic trading platform"
-        ],
-        "price_monthly": 0
+          "$0 stock/ETF commissions",
+          "$0.35/contract options (standard pricing)",
+          "API access included",
+          "Web and mobile trading"
+        ]
       },
       {
         "name": "Subscription",
-        "billing": "monthly",
+        "price_monthly": 10,
         "features": [
-          "Commission-free equities",
-          "$0.35/contract options",
-          "Full API access",
-          "Streaming market data",
-          "Advanced order types"
-        ],
-        "price_monthly": 10
+          "Everything in Free",
+          "$0.35/contract options with no per-trade fee",
+          "Best value for 10+ options trades per month"
+        ]
       }
     ],
     "currency": "USD"
@@ -66,38 +63,47 @@
     "options"
   ],
   "pros": [
-    "Best-in-class trading API with thorough developer documentation and SDKs",
-    "Commission-free equity trades with competitive $0.35/contract options pricing",
-    "Third-party platform integrations including TradingView for execution",
-    "Paper trading sandbox for testing strategies and API integrations"
+    "API-first brokerage — powers 100+ third-party trading platforms and fintech applications",
+    "Commission-free stock and ETF trading",
+    "$0.35/contract options on the $10/month subscription — among the cheapest for active options traders",
+    "Developer-friendly REST API with real-time streaming, trading, and market data",
+    "No account minimum — accessible to all account sizes",
+    "Integrates with OptionStrat, Option Alpha, and dozens of other trading tools",
+    "Subscription model eliminates per-trade options fees"
   ],
   "cons": [
-    "Stocks and options only — no futures, forex, or crypto support",
-    "Trading platform itself is basic compared to Schwab or Fidelity",
-    "Smaller broker with less brand recognition than major brokerages",
-    "No proprietary research or analysis tools — purely infrastructure-focused"
+    "Tradier's own trading platform is basic — most users trade through third-party platforms",
+    "US equities and options only — no futures, forex, or crypto",
+    "Limited research, news, and education features",
+    "No advanced charting or technical analysis tools",
+    "Smaller broker with less brand recognition than Schwab or Interactive Brokers",
+    "Mobile app is functional but basic"
   ],
   "rating": 4.0,
   "rating_breakdown": {
-    "ease_of_use": 4.0,
+    "ease_of_use": 3.8,
     "features": 3.8,
-    "value": 4.3,
+    "value": 4.5,
     "support": 3.8,
-    "reliability": 4.1
+    "reliability": 4.3
   },
   "founded_year": 2012,
-  "company": "Tradier Inc.",
-  "headquarters": "Charlotte, NC, United States",
+  "company": "Tradier, Inc.",
+  "headquarters": "Charlotte, North Carolina, United States",
   "best_for": [
-    "algo traders",
-    "fintech developers",
-    "API-first trading"
+    "developers building trading applications who need a brokerage API",
+    "active options traders who want $0.35/contract pricing",
+    "users of OptionStrat, Option Alpha, and other Tradier-integrated platforms",
+    "traders who want to use multiple front-end platforms with one broker account"
   ],
   "similar_tools": [
+    "interactive-brokers",
     "alpaca",
-    "robinhood",
-    "tastytrade"
+    "tastytrade",
+    "webull"
   ],
-  "last_updated": "2026-04-02",
-  "review_status": "published"
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12"
 }

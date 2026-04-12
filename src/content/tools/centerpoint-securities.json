@@ -6,8 +6,8 @@
     "dma-brokers",
     "day-trading"
   ],
-  "description_short": "Direct market access broker built for active day traders, offering professional-grade routing, short locates, and competitive per-share pricing.",
-  "description_long": "CenterPoint Securities is a direct market access (DMA) broker built specifically for active day traders who need professional-grade order routing and execution. The broker provides Level 2 data, direct market routing to specific exchanges and ECNs, and one of the most comprehensive short locate inventories in the retail brokerage space.\n\nThe short locate system is a standout feature — CenterPoint maintains relationships with multiple locate providers, giving traders access to hard-to-borrow shares that are unavailable at larger brokers. For short sellers, this alone can justify the higher per-share commissions. Order routing options include direct access to NYSE, NASDAQ, ARCA, BATS, and other venues, with the ability to route to specific market makers.\n\nCenterPoint is a small operation (1-10 employees) focused entirely on serving active traders. This means personalized support but also limited technology development compared to larger brokers. The platform is DAS Trader-based, which is industry standard for DMA trading but not as polished as proprietary platforms from Schwab or Fidelity. Commissions start at $0.004/share with volume discounts available.",
+  "description_short": "Premium DMA broker for professional day traders and short sellers, known for the industry's best short locate inventory, sub-penny routing, and DAS Trader Pro/Sterling Trader Pro platform access.",
+  "description_long": "## What CenterPoint Securities Is\n\nCenterPoint Securities is a premium direct market access broker that has built its reputation on one thing: having the best short locate inventory in the retail DMA space. For short sellers who trade momentum stocks, low-float runners, and hard-to-borrow names, CenterPoint's short availability is frequently cited as the best available to non-institutional traders.\n\nFounded in 2009 and headquartered in San Diego, California, CenterPoint is a FINRA member broker-dealer. The company has grown particularly fast in recent years as day trading and short selling gained mainstream attention, and it has become one of the most recognized names among active equity day traders — especially those who follow traders like Ross Cameron (Warrior Trading) and other prominent day trading educators who use CenterPoint.\n\n## Short Locate Inventory — The Core Advantage\n\nCenterPoint's short locate desk is its primary competitive advantage:\n\n- **Largest retail short locate inventory** — access to shares that are difficult or impossible to borrow at other brokers\n- **Pre-market locates** — request and receive short locates before the market opens\n- **Easy-to-borrow (ETB) list** — extensive list of shares available for shorting without a locate\n- **Competitive locate pricing** — transparent fee structure based on share availability and demand\n- **Real-time availability** — see what's available to short before committing\n\nFor short sellers, this is everything. If you trade a strategy that involves shorting momentum stocks or low-float runners, CenterPoint's locate inventory directly affects how many trading opportunities you can act on.\n\n## Execution & Routing\n\n- **DAS Trader Pro and Sterling Trader Pro** — both professional platforms available\n- **Direct routing** to all major US exchanges and ECNs\n- **Sub-penny routing** — access to sub-penny price improvement venues\n- **Professional-grade execution** — sub-millisecond order handling\n- **Pre-market and after-hours trading** — extended hours access\n\n## Pricing\n\nCenterPoint uses tiered per-share pricing that scales with volume:\n\n- **Per Share** — starting at $0.004/share for lower volume, dropping to $0.002/share or lower for high volume\n- **ECN pass-through** — standard exchange fees/rebates\n- **Short locate fees** — variable, depends on share availability (can range from $0.01 to $1.00+ per share for hard-to-borrow names)\n- **DAS Trader Pro** — $150/month platform fee (waived with sufficient trading volume)\n- **$50,000 recommended minimum** — higher than most DMA brokers, reflecting the professional positioning\n- **$25,000 minimum** for Pattern Day Trader compliance\n\n## Who CenterPoint Securities Is For\n\n**Good fit:**\n- Short sellers who need the best possible short locate inventory\n- Active day traders who trade momentum stocks and low-float runners\n- Traders who follow prominent day trading educators (many recommend CenterPoint)\n- Professional traders who want premium execution quality and are willing to pay for it\n\n**Not the right fit:**\n- Budget-conscious traders — CenterPoint is premium-priced with higher minimums\n- Long-only traders — the short locate advantage doesn't apply\n- Beginners — the platform and pricing assume professional-level trading\n- Futures, forex, or crypto traders — US equities only\n\n## Bottom Line\n\nCenterPoint Securities is the premium choice for short sellers and active equity day traders. The short locate inventory is genuinely the best available at the retail level — and for traders whose strategies depend on being able to short hard-to-borrow shares, that advantage alone justifies the premium pricing. CenterPoint is not the cheapest DMA broker, but it's the one that serious short sellers consistently choose.",
   "logo_url": "/logos/centerpoint-securities.svg",
   "screenshots": [],
   "website_url": "https://centerpointsecurities.com",
@@ -21,16 +21,14 @@
     "tiers": [
       {
         "name": "Active Trader",
-        "billing": "monthly",
+        "price_monthly": 0,
         "features": [
-          "DAS Trader platform",
-          "Direct market access routing",
-          "Level 2 data",
-          "Short locate system",
-          "$0.004/share commission (volume discounts available)",
-          "Exchange and ECN routing"
-        ],
-        "price_monthly": 0
+          "Per-share pricing starting at $0.004/share",
+          "Volume discounts to $0.002/share and below",
+          "DAS Trader Pro ($150/mo, waivable with volume)",
+          "Short locate desk access",
+          "$25,000-$50,000 account minimum"
+        ]
       }
     ],
     "currency": "USD"
@@ -56,38 +54,47 @@
     "stocks"
   ],
   "pros": [
-    "One of the best short locate systems in retail brokerage for hard-to-borrow shares",
-    "Direct market access with routing to specific exchanges and ECNs",
-    "Personalized support from a small team focused exclusively on active traders",
-    "Per-share pricing with volume discounts suits high-frequency day traders"
+    "Best short locate inventory in the retail DMA space — access to shares unavailable elsewhere",
+    "Pre-market short locates available before market open",
+    "DAS Trader Pro and Sterling Trader Pro platform options",
+    "Sub-penny routing for price improvement",
+    "Professional-grade execution with direct exchange access",
+    "Endorsed by prominent day trading educators (Warrior Trading, etc.)",
+    "Extended hours trading: pre-market and after-hours"
   ],
   "cons": [
-    "Stocks only — no options, futures, or crypto",
-    "Per-share commissions are more expensive than commission-free brokers for low-volume traders",
-    "Very small team (1-10 people) limits technology development pace",
-    "DAS Trader platform has a steeper learning curve than modern broker apps"
+    "Premium pricing — higher per-share rates than budget DMA brokers",
+    "$25,000-$50,000 account minimums — targets professional traders",
+    "$150/month DAS Trader platform fee (waivable with volume)",
+    "Short locate fees can be expensive for hard-to-borrow names",
+    "US equities only — no futures, forex, or crypto",
+    "Not beginner-friendly"
   ],
-  "rating": 3.9,
+  "rating": 4.3,
   "rating_breakdown": {
-    "ease_of_use": 3.2,
-    "features": 3.8,
-    "value": 3.5,
-    "support": 4.3,
-    "reliability": 4.2
+    "ease_of_use": 3.4,
+    "features": 4.5,
+    "value": 3.8,
+    "support": 4.5,
+    "reliability": 4.6
   },
-  "founded_year": 2010,
-  "company": "CenterPoint Securities LLC",
-  "headquarters": "United States",
+  "founded_year": 2009,
+  "company": "CenterPoint Securities, LLC",
+  "headquarters": "San Diego, California, United States",
   "best_for": [
-    "active day traders",
-    "short sellers",
-    "DMA routing traders"
+    "short sellers who need the best possible short locate inventory",
+    "active day traders who trade momentum stocks and low-float runners",
+    "professional traders willing to pay premium for premium execution",
+    "traders who follow Warrior Trading and similar educators recommending CenterPoint"
   ],
   "similar_tools": [
     "cobra-trading",
     "speedtrader",
+    "lightspeed",
     "tradezero"
   ],
-  "last_updated": "2026-04-02",
-  "review_status": "published"
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12"
 }

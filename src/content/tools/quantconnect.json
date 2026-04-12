@@ -2,9 +2,12 @@
   "name": "QuantConnect",
   "slug": "quantconnect",
   "category": "trading-bots",
-  "subcategories": ["algorithmic-trading", "quantitative-research"],
-  "description_short": "Open-source algorithmic trading platform with cloud-based research, backtesting, and live deployment in Python and C# across all major asset classes.",
-  "description_long": "QuantConnect is an open-source algorithmic trading and quantitative research platform that enables traders to design, backtest, and deploy trading strategies using Python or C#. The platform provides institutional-quality data, a cloud-based IDE, and integration with multiple brokerages for live trading.\n\nThe LEAN Algorithm Framework is QuantConnect's open-source engine, available on GitHub and capable of running locally or in the cloud. The cloud platform provides free tier access with backtesting capabilities, while paid plans unlock more backtesting nodes, live trading, and Alpha Streams — a marketplace where algorithm developers can license their strategies to institutional investors.\n\nQuantConnect has added significant AI capabilities through its MCP (Model Context Protocol) server and Ask Mia AI assistant. The MCP server connects large language models directly to the QuantConnect API, allowing users to create projects, run backtests, deploy live algorithms, and manage strategies through natural language prompts. This effectively lowers the barrier to algorithmic trading — non-programmers can develop and deploy strategies by conversing with an AI assistant rather than writing code from scratch. The AI integration works across the QuantConnect cloud platform, local development environments like Cursor and Windsurf, and any IDE with MCP support.\n\nQuantConnect provides tick-level data for US equities going back to 1998, forex data from 2004, crypto data from multiple exchanges, and futures and options data. The platform supports event-driven and scheduled universe selection, portfolio construction, risk management, and execution models. It integrates with Interactive Brokers, OANDA, Coinbase, Bitfinex, and other brokerages for live trading.",
+  "subcategories": [
+    "algorithmic-trading",
+    "quantitative-research"
+  ],
+  "description_short": "Open-source algorithmic trading platform with cloud-based backtesting, live deployment to multiple brokerages, support for Python and C#, and the world's largest quant trading community.",
+  "description_long": "## What QuantConnect Is\n\nQuantConnect is an open-source algorithmic trading platform that lets you research, backtest, and deploy automated trading strategies in Python or C#. Unlike discretionary trading platforms (TradingView, NinjaTrader, Sierra Chart), QuantConnect is built entirely for systematic, code-driven trading. You write a strategy in code, backtest it against years of historical data, and deploy it live to a connected brokerage — all from a browser-based IDE.\n\nFounded in 2012 by Jared Broad, QuantConnect has grown into the largest open-source quantitative trading platform, with 250,000+ community members and a GitHub repository that is actively maintained. The platform is used by individual quant traders, hedge funds, prop firms, and financial institutions for strategy research and deployment.\n\n## Cloud-Based Research & Backtesting\n\nQuantConnect's Lean engine (the open-source backtesting and execution engine) runs in the cloud:\n\n- **Multi-asset backtesting** — stocks, options, futures, forex, and crypto\n- **Tick-level historical data** — backtests run on granular, tick-level market data going back 20+ years for US equities\n- **Fast execution** — cloud infrastructure means backtests run in minutes, not hours\n- **No data management** — QuantConnect hosts the data; you don't need to download, clean, or store historical data locally\n- **Walk-forward optimization** — built-in tools for parameter optimization and out-of-sample testing\n\nThe cloud model solves one of the biggest pain points in quant trading: data management. Getting clean, split-adjusted, survivorship-bias-free historical data is expensive and time-consuming. QuantConnect provides it free with the platform.\n\n## LEAN Engine — Open Source\n\nThe backtesting and execution engine (LEAN) is fully open source on GitHub. This means:\n\n- **Transparency** — you can inspect exactly how the engine handles order fills, slippage, and data processing\n- **Local deployment** — run LEAN on your own infrastructure if you prefer\n- **Community contributions** — the engine is improved by thousands of developers worldwide\n- **No vendor lock-in** — if QuantConnect the company disappeared, the engine would continue to exist\n\n## Live Trading & Brokerage Connections\n\nStrategies that backtest well can be deployed live through QuantConnect's connections to:\n\n- **Interactive Brokers** — the most popular connection for US equities, options, and futures\n- **Alpaca** — commission-free stock trading API\n- **Coinbase, Binance, Bybit** — crypto exchanges\n- **OANDA** — forex\n- **Terminal Link** — Bloomberg terminal connectivity\n- **Paper trading** — simulated live trading for testing before going live with real money\n\nLive strategies run on QuantConnect's cloud servers, meaning you don't need to keep a computer running 24/7. Your algorithm executes in the cloud and sends orders to your brokerage.\n\n## Alpha Streams / Alpha Market\n\nQuantConnect's Alpha Market allows quant developers to license their strategies to institutional investors. If you build a strategy that performs well, you can submit it to the Alpha Market where hedge funds and asset managers can allocate capital to it. This creates a potential revenue stream for quant developers beyond trading their own capital.\n\n## Community & Education\n\nQuantConnect has the largest quant trading community:\n\n- **250,000+ members** in the community forum\n- **Open-source strategy library** — browse, clone, and modify community-shared strategies\n- **Boot Camp** — structured learning path for algorithmic trading with QuantConnect\n- **Documentation** — comprehensive API reference and tutorial library\n- **YouTube** — educational content on quant strategy development\n\n## Pricing\n\n- **Free** — cloud backtesting with limited compute, community access, basic data\n- **Individual ($8/month)** — increased compute, live trading deployment, more data access\n- **Team ($20/month)** — collaboration features, shared projects, priority compute\n- **Institution (custom)** — enterprise deployment, dedicated infrastructure, Terminal Link\n\nThe free tier is genuinely functional for learning and basic strategy research. The paid tiers unlock the compute power and data access needed for serious strategy development.\n\n## What QuantConnect Does Not Have\n\n- **No discretionary trading tools** — no charts for manual trading, no DOM, no tape\n- **Requires coding ability** — Python or C# is mandatory. There's no drag-and-drop strategy builder\n- **No real-time manual execution** — you can't use QuantConnect to place manual trades during market hours\n- **Learning curve** — understanding the LEAN engine API, data objects, and algorithm framework takes time\n\n## Who QuantConnect Is For\n\n**Good fit:**\n- Quantitative traders who write strategies in Python or C#\n- Developers who want an open-source, transparent backtesting engine\n- Quant researchers who need tick-level historical data without managing their own data infrastructure\n- Algorithmic traders who want cloud-based strategy deployment to live brokerages\n- Data scientists applying ML/AI to financial markets\n\n**Not the right fit:**\n- Discretionary traders who trade from charts, DOM, or tape — QuantConnect has no manual trading interface\n- Non-programmers — coding is required, there's no visual strategy builder\n- Day traders who need real-time charting and quick manual execution\n\n## Bottom Line\n\nQuantConnect is the best platform for algorithmic trading strategy development. The combination of open-source transparency, cloud-based backtesting with tick-level data, live deployment to multiple brokerages, and a 250,000+ community makes it the de facto standard for retail quant traders. If you can write Python or C# and want to build, test, and deploy automated trading strategies, there is no better starting point.",
   "logo_url": "/logos/quantconnect.svg",
   "screenshots": [],
   "website_url": "https://www.quantconnect.com",
@@ -20,25 +23,45 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["1 backtest node", "Community data", "Cloud IDE", "Paper trading"]
+        "features": [
+          "1 backtest node",
+          "Community data",
+          "Cloud IDE",
+          "Paper trading"
+        ]
       },
       {
         "name": "Researcher",
         "price_monthly": 8,
         "price_yearly": 84,
-        "features": ["2 backtest nodes", "Jupyter notebooks", "100GB data access", "Email support"]
+        "features": [
+          "2 backtest nodes",
+          "Jupyter notebooks",
+          "100GB data access",
+          "Email support"
+        ]
       },
       {
         "name": "Team",
         "price_monthly": 20,
         "price_yearly": 216,
-        "features": ["5 backtest nodes", "2 live trading nodes", "Full dataset access", "Priority support"]
+        "features": [
+          "5 backtest nodes",
+          "2 live trading nodes",
+          "Full dataset access",
+          "Priority support"
+        ]
       },
       {
         "name": "Trading Firm",
         "price_monthly": 40,
         "price_yearly": 432,
-        "features": ["10 backtest nodes", "5 live trading nodes", "Dedicated support", "Custom data integration"]
+        "features": [
+          "10 backtest nodes",
+          "5 live trading nodes",
+          "Dedicated support",
+          "Custom data integration"
+        ]
       }
     ],
     "currency": "USD"
@@ -60,22 +83,62 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Open-source LEAN engine — fully transparent", "Institutional-quality data with tick resolution", "Python and C# support with cloud IDE", "Free tier is genuinely useful for learning", "Active community and extensive documentation"],
-  "cons": ["Steep learning curve — requires programming skills", "Cloud computing costs add up for heavy backtesting", "Live trading setup can be complex", "No visual strategy builder — though AI assistant reduces the need for manual coding", "Data outside US equities can be limited on free tier"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Open-source LEAN engine — fully transparent backtesting and execution, inspect every line of code",
+    "Cloud-based backtesting with tick-level historical data going back 20+ years — no data management needed",
+    "Live deployment to Interactive Brokers, Alpaca, Coinbase, Binance, OANDA, and more",
+    "Python and C# support — use industry-standard languages, not proprietary scripting",
+    "250,000+ community members — the largest quant trading community available",
+    "Alpha Market for licensing strategies to institutional investors",
+    "Free tier is genuinely functional for learning and basic strategy research",
+    "Multi-asset support: stocks, options, futures, forex, and crypto"
+  ],
+  "cons": [
+    "Requires Python or C# coding ability — no visual strategy builder",
+    "No discretionary trading tools — no charts for manual trading, no DOM, no tape",
+    "Learning curve for the LEAN engine API and algorithm framework",
+    "Cloud dependency — backtesting and live trading run on QuantConnect's servers",
+    "Free tier has limited compute — serious strategy development needs a paid plan",
+    "Not suitable for manual day trading or real-time discretionary execution"
+  ],
   "rating": 4.4,
   "rating_breakdown": {
-    "ease_of_use": 3.8,
+    "ease_of_use": 3.5,
     "features": 4.8,
-    "value": 4.5,
+    "value": 4.6,
     "support": 4.2,
-    "reliability": 4.6
+    "reliability": 4.5
   },
   "founded_year": 2012,
   "company": "QuantConnect Corporation",
-  "headquarters": "New York, New York",
-  "best_for": ["quant developers", "algorithmic traders", "data scientists"],
-  "similar_tools": ["ninjatrader", "tradestation", "multicharts"],
-  "last_updated": "2026-04-03",
-  "review_status": "published"
+  "headquarters": "United States",
+  "best_for": [
+    "quantitative traders who write strategies in Python or C#",
+    "developers who want an open-source, transparent backtesting engine",
+    "algorithmic traders who want cloud deployment to live brokerages",
+    "data scientists applying ML and AI to financial markets"
+  ],
+  "similar_tools": [
+    "alpaca",
+    "zipline",
+    "backtrader",
+    "ninjatrader",
+    "metatrader-5"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_sources": [
+    "https://www.quantconnect.com/",
+    "https://www.quantconnect.com/pricing",
+    "https://github.com/QuantConnect/Lean"
+  ]
 }

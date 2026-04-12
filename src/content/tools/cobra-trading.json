@@ -6,8 +6,8 @@
     "dma-brokers",
     "day-trading"
   ],
-  "description_short": "Direct access broker for active day traders based in Plano, TX, offering DAS Trader Pro platform, short locates, and competitive per-share commissions.",
-  "description_long": "Cobra Trading is a direct access broker headquartered in Plano, Texas, built to serve active day traders who need professional execution tools. The broker provides DAS Trader Pro as its primary platform, offering direct market access routing, Level 2 data, and a comprehensive short locate inventory for traders who frequently short stocks.\n\nThe broker differentiates itself through competitive per-share commission rates and a focus on trader support. Cobra maintains relationships with multiple prime brokers and locate providers, giving short sellers access to a broad inventory of borrowable shares. The DAS Trader Pro platform provides hotkey-driven execution, Level 2 montage, and Time & Sales — the standard toolkit for professional day trading.\n\nWith approximately 10-20 employees, Cobra Trading is small enough to provide personalized service but large enough to maintain reliable infrastructure. The broker targets experienced day traders who understand direct market access and are willing to pay per-share commissions in exchange for superior routing and execution quality.",
+  "description_short": "Direct market access broker for active equity day traders, offering DAS Trader Pro integration, competitive per-share pricing starting at $0.003/share, short locate desk, and personalized customer service.",
+  "description_long": "## What Cobra Trading Is\n\nCobra Trading is a direct market access (DMA) broker that competes in the same space as SpeedTrader, CenterPoint Securities, and Lightspeed — brokers built for active day traders who need fast execution, professional routing, and short selling capabilities. What distinguishes Cobra from its competitors is its emphasis on personalized customer service and its transparent, competitive commission structure.\n\nFounded in 2003 and headquartered in Austin, Texas, Cobra Trading is a FINRA member broker-dealer that caters to active equity day traders. The company is smaller than the big-name DMA brokers, which works in their favor — traders consistently report better customer service and more responsive support compared to larger firms.\n\n## DMA Execution & Routing\n\nLike other professional DMA brokers, Cobra Trading routes orders directly to exchanges and ECNs:\n\n- **Direct routing** to NYSE, NASDAQ, ARCA, BATS, EDGX, and other venues\n- **Multiple routing options** — traders choose their routing strategy based on rebate/fee structure and fill quality\n- **Sterling Trader Pro and DAS Trader Pro** — both professional trading platforms available\n- **Sub-millisecond execution** — professional-grade speed for active scalpers\n\n## Short Locate Services\n\nCobra Trading maintains an active short locate desk that provides access to hard-to-borrow shares. This is one of Cobra's strengths — traders report good availability and competitive locate pricing compared to larger brokers. For short sellers who trade momentum stocks, this is a critical service.\n\n## Customer Service — The Differentiator\n\nCobra Trading's most frequently cited advantage is customer service. Because they're a smaller firm, traders get direct access to real people:\n\n- Dedicated account representatives\n- Fast response times on technical and trading issues\n- Personalized onboarding for new accounts\n- Responsive short locate desk with real-time communication\n\nIn the DMA broker space where competitors can feel impersonal, Cobra's service quality is a genuine competitive advantage.\n\n## Pricing\n\n- **Per Share** — starting at $0.003/share, scaling down with volume\n- **ECN pass-through** — standard add/remove liquidity fees from exchanges\n- **Short locate fees** — variable based on availability\n- **No monthly platform fee** for DAS Trader (included with active trading)\n- **$30,000 minimum account** for DAS Trader Pro access\n- **$25,000 minimum** for Pattern Day Trader compliance\n\n## What Cobra Trading Does Not Have\n\n- **No proprietary charting platform** — uses DAS Trader Pro and Sterling Trader Pro (third-party)\n- **US equities and options only** — no futures, forex, or crypto\n- **No mobile trading** — desktop platforms only\n- **Not for beginners** — $25,000-$30,000 minimums, professional tools\n- **Smaller firm** — less name recognition than Interactive Brokers or Schwab\n\n## Who Cobra Trading Is For\n\n**Good fit:**\n- Active day traders who value personalized customer service alongside professional execution\n- Short sellers who need reliable, competitively-priced short locate services\n- Traders who want DAS Trader Pro or Sterling Trader Pro with competitive commissions\n- Prop firm traders looking for a broker that treats smaller accounts with the same attention as large ones\n\n**Not the right fit:**\n- Casual or swing traders — the commission structure and minimums are for active traders only\n- Anyone who needs futures, forex, or crypto trading\n- Traders who want a built-in charting platform — Cobra is execution-focused\n\n## Bottom Line\n\nCobra Trading is the DMA broker you choose when you want professional execution quality AND someone who picks up the phone when you call. The per-share pricing is competitive, the short locate desk is responsive, and the customer service consistently stands out in an industry where traders often feel like account numbers. If you're an active equity day trader who values the relationship with your broker, Cobra is worth a serious look.",
   "logo_url": "/logos/cobra-trading.svg",
   "screenshots": [],
   "website_url": "https://cobratrading.com",
@@ -20,17 +20,15 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Active Trader",
-        "billing": "monthly",
+        "name": "Per Share",
+        "price_monthly": 0,
         "features": [
-          "DAS Trader Pro platform",
-          "Direct market access",
-          "Level 2 data",
-          "Short locate system",
-          "Per-share commissions from $0.004",
-          "Hotkey execution"
-        ],
-        "price_monthly": 0
+          "Starting at $0.003/share",
+          "Volume discounts available",
+          "ECN pass-through pricing",
+          "DAS Trader Pro included with active trading",
+          "$25,000-$30,000 account minimum"
+        ]
       }
     ],
     "currency": "USD"
@@ -56,38 +54,48 @@
     "stocks"
   ],
   "pros": [
-    "Competitive per-share commission structure for high-volume day traders",
-    "Strong short locate inventory through multiple prime broker relationships",
-    "DAS Trader Pro provides professional-grade hotkey execution",
-    "Personalized support from a focused Texas-based team"
+    "Personalized customer service — dedicated reps, fast response, real human support",
+    "Competitive per-share pricing starting at $0.003/share with volume discounts",
+    "Reliable short locate desk with good availability for hard-to-borrow shares",
+    "DAS Trader Pro and Sterling Trader Pro platform options",
+    "Direct market access to all major US exchanges and ECNs",
+    "No monthly platform fee for DAS Trader with active trading",
+    "FINRA member broker-dealer with 20+ years of operation"
   ],
   "cons": [
-    "Stocks only — no options, futures, crypto, or forex",
-    "Per-share commissions are costly for low-volume or swing traders",
-    "Platform requires experience to set up and use effectively",
-    "No mobile trading app for on-the-go monitoring"
+    "$25,000-$30,000 account minimums",
+    "US equities and options only — no futures, forex, or crypto",
+    "No proprietary charting — relies on third-party platforms",
+    "No mobile trading — desktop only",
+    "Smaller firm with less name recognition",
+    "Not beginner-friendly"
   ],
-  "rating": 3.8,
+  "rating": 4.2,
   "rating_breakdown": {
-    "ease_of_use": 3.2,
-    "features": 3.7,
-    "value": 3.6,
-    "support": 4.2,
-    "reliability": 4.1
+    "ease_of_use": 3.5,
+    "features": 4.0,
+    "value": 4.3,
+    "support": 4.8,
+    "reliability": 4.4
   },
   "founded_year": 2003,
-  "company": "Cobra Trading Inc.",
-  "headquarters": "Plano, TX, United States",
+  "company": "Cobra Trading, Inc.",
+  "headquarters": "Austin, Texas, United States",
   "best_for": [
-    "active day traders",
-    "short sellers",
-    "DAS Trader users"
+    "active day traders who value personalized customer service",
+    "short sellers who need reliable short locate services",
+    "traders who want DAS or Sterling Trader Pro with competitive commissions",
+    "prop firm traders looking for a broker that treats all accounts with attention"
   ],
   "similar_tools": [
-    "centerpoint-securities",
     "speedtrader",
-    "tradezero"
+    "centerpoint-securities",
+    "lightspeed",
+    "tradezero",
+    "interactive-brokers"
   ],
-  "last_updated": "2026-04-02",
-  "review_status": "published"
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12"
 }
