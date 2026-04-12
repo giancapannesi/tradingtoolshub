@@ -2,9 +2,12 @@
   "name": "Jigsaw Trading",
   "slug": "jigsaw-trading",
   "category": "futures-platforms",
-  "subcategories": ["order-flow", "dom-trading"],
-  "description_short": "Premium order flow trading platform with advanced DOM, tape reading, and auction market analysis tools for professional scalpers.",
-  "description_long": "Jigsaw Trading is a specialized order flow platform designed for professional futures scalpers and day traders who base their decisions on reading the tape, depth of market, and auction dynamics. The platform provides advanced DOM (Depth of Market) tools that go far beyond standard Level 2 displays.\n\nJigsaw's Reconstructed Tape filters out noise and highlights the most significant trades, while the Summary Tape aggregates activity at each price level. The Auction Vista tool visualizes how the auction unfolds over time, showing absorption, initiative activity, and exhaustion patterns.\n\nAt $197/month for the professional package, Jigsaw is a premium tool aimed at experienced traders who already understand order flow concepts. The 14-day free trial lets prospective users evaluate whether the toolset matches their trading style. Jigsaw integrates with NinjaTrader, Sierra Chart, and other popular futures platforms.",
+  "subcategories": [
+    "order-flow",
+    "dom-trading"
+  ],
+  "description_short": "Specialized order flow platform for professional futures scalpers, offering advanced DOM tools, Reconstructed Tape, Auction Vista, and depth-based trade analytics that integrate with NinjaTrader, Sierra Chart, and MultiCharts.",
+  "description_long": "## What Jigsaw Trading Is\n\nJigsaw Trading is not a charting platform. It is a DOM (Depth of Market) and tape reading tool, purpose-built for futures traders who make decisions by reading order flow — not by looking at candlestick patterns or technical indicators. Where platforms like TradingView or NinjaTrader give you charts with overlaid studies, Jigsaw gives you the raw auction process: who is buying, who is selling, where are the large orders, and how is the market absorbing or rejecting activity at each price level.\n\nThis is a niche product for a niche audience. If you don't know what absorption, initiative activity, or auction exhaustion mean, Jigsaw is not the tool to start with. But if those concepts are central to your trading methodology, Jigsaw is arguably the best implementation of DOM-based trading tools available.\n\n## The Company\n\nJigsaw Trading was founded by Peter Davies, a UK-based professional trader with decades of experience in futures order flow trading. Davies built Jigsaw out of frustration with the DOM tools available in mainstream platforms — he wanted something that specifically focused on making tape reading more efficient and quantifiable. The company is small and focused: it does one thing (order flow via the DOM) and does it with the depth of someone who actually trades with these tools daily.\n\nDavies is active in the trading education community and has produced extensive content on DOM trading methodology. This matters because Jigsaw isn't just a tool — it comes with a framework for how to read and trade from the DOM, which is critical given the steep learning curve.\n\n## Reconstructed Tape — Filtering the Noise\n\nThe standard time and sales feed (tape) in any platform is noisy. Thousands of small trades stream past per second on liquid instruments like the ES or NQ, and it's nearly impossible to extract useful information from the raw feed. Jigsaw's Reconstructed Tape solves this by:\n\n- Filtering out insignificant trades below configurable size thresholds\n- Aggregating rapid-fire executions at the same price into single large entries\n- Color-coding by aggressor (buyer vs seller initiated)\n- Highlighting unusually large trades that stand out from the norm\n\nThe result is a tape that shows you what matters — the large trades, the aggressive orders, the institutional activity — without burying that information under thousands of retail-sized fills. This is the feature that most Jigsaw users cite as the single most valuable tool in the platform.\n\n## Summary Tape — Aggregated Price Level Activity\n\nThe Summary Tape aggregates all trading activity at each price level into a single running display, showing:\n\n- Total volume traded at each price\n- Buy vs sell volume split (delta)\n- Imbalance between aggressive buying and selling\n- Running comparison across price levels\n\nThis gives you a bird's-eye view of where the heaviest activity is occurring without needing to process the raw tape. Combined with the DOM, it shows you both where orders are resting (DOM) and where they're actually executing (Summary Tape).\n\n## Auction Vista — The Signature Visualization\n\nAuction Vista is Jigsaw's most distinctive and innovative tool. It provides a visual representation of how the market auction process unfolds over time:\n\n- Shows the DOM's evolution — how resting orders appear, accumulate, and get filled or pulled\n- Visualizes absorption (a large resting order that absorbs aggressive selling without price moving)\n- Reveals initiative vs responsive activity (who is driving the auction vs who is responding)\n- Displays exhaustion patterns where aggressive activity dries up at a price level\n\nAuction Vista effectively gives you a historical view of the DOM — something that traditional platforms don't provide. Instead of only seeing the current snapshot of resting orders, you can see how the order book has changed over the past minutes or hours and what patterns preceded major price moves.\n\n## Platform Integrations\n\nJigsaw is not a standalone platform — it integrates as an add-on to existing trading platforms:\n\n- **NinjaTrader 8** — the most popular integration\n- **Sierra Chart** — for Sierra Chart users who want Jigsaw's DOM tools\n- **MultiCharts** — additional platform support\n\nThis means you keep your existing charting setup and add Jigsaw's DOM tools on top. For traders already committed to NinjaTrader or Sierra Chart, this is an advantage — you don't need to switch platforms. For traders who want an all-in-one solution, it means managing two software installations.\n\n## Depth & Sales — Trade Entry Analysis\n\nJigsaw's Depth & Sales window combines the DOM ladder with trade execution data in a single view, showing:\n\n- Resting limit orders at each price level (the book)\n- Actual executions happening in real time (the tape)\n- Your own orders and positions overlaid on the same display\n- One-click trade entry with configurable bracket orders\n\nThe tight integration between book data and execution data means you're making trading decisions with the most complete picture of the auction available, all in one window.\n\n## Education & Methodology\n\nJigsaw invests heavily in education, and this is where Peter Davies' background as an active trader is most visible:\n\n- **Jigsaw Trading YouTube** — extensive library of DOM trading methodology videos, live market analysis, and tool tutorials\n- **Trading methodology documentation** — not just \"how to use the software\" but \"how to read the DOM and make trading decisions\"\n- **Regular webinars** — live sessions covering order flow concepts and trade analysis\n- **Learning curve support** — the platform includes guided tutorials for each tool\n\nThis educational component is important because Jigsaw's tools are powerful but require significant skill to use effectively. The education helps bridge the gap between \"I have the tools\" and \"I know how to trade with them.\"\n\n## Pricing\n\nJigsaw's pricing reflects its positioning as a professional, premium tool:\n\n- **14-Day Free Trial** — full access to all tools with no commitment\n- **Jigsaw Daytradr (Lifetime License)** — $597 one-time purchase for Reconstructed Tape, Summary Tape, DOM tools\n- **Auction Vista Add-on** — additional cost for the advanced auction visualization\n- **Platform Subscription** — $37/month for continued access to updates and support after the initial license\n\nThe pricing has moved toward a one-time license model rather than the previous $197/month subscription. The lifetime license at $597 is competitive for a professional tool — it pays for itself quickly if the tools improve your trading edge.\n\n## What Jigsaw Does Not Have\n\n- **No charting** — Jigsaw is a DOM/tape tool, not a charting platform. You need a separate platform (NinjaTrader, Sierra Chart) for charts\n- **Futures only** — no stocks, crypto, or forex support\n- **No automated trading** — entirely manual/discretionary\n- **No mobile app** — desktop only, Windows\n- **Requires an existing platform** — can't run standalone\n\n## Who Jigsaw Trading Is For\n\n**Good fit:**\n- Professional futures scalpers and day traders who make decisions based on the DOM and tape\n- NinjaTrader or Sierra Chart users who want superior order flow tools layered on top of their existing setup\n- Traders who understand order flow concepts and want the best implementation of DOM-based analysis\n- Prop firm traders who trade on short timeframes and need to read market microstructure\n\n**Not the right fit:**\n- Beginners — Jigsaw assumes you already understand order flow, auction theory, and tape reading\n- Swing or position traders — the tools are optimized for short-timeframe, active scalping\n- Traders who need charting, indicators, or technical analysis — Jigsaw doesn't do any of that\n- Anyone who trades stocks, crypto, or forex — futures only\n\n## Bottom Line\n\nJigsaw Trading is the best DOM and tape reading tool available for futures traders. The Reconstructed Tape, Summary Tape, and Auction Vista each solve real problems that no other platform addresses as well. The education component is a genuine differentiator — you're not just buying software, you're getting a methodology. The price tag and steep learning curve mean it's not for everyone, but for professional futures scalpers who trade from the DOM, Jigsaw is a best-in-class tool that can meaningfully improve trade selection and timing.",
   "logo_url": "/logos/jigsaw-trading.svg",
   "screenshots": [],
   "website_url": "https://www.jigsawtrading.com",
@@ -13,29 +16,113 @@
   "affiliate_commission": "",
   "affiliate_cookie_days": 0,
   "pricing": {
-    "has_free_tier": false,
-    "starting_price": 197,
+    "has_free_tier": true,
+    "starting_price": 0,
     "tiers": [
-      {"name": "Professional", "price_monthly": 197, "price_yearly": 0, "features": ["Advanced DOM tools", "Reconstructed Tape", "Summary Tape", "Auction Vista", "Platform integrations", "14-day free trial"]}
+      {
+        "name": "14-Day Free Trial",
+        "price_monthly": 0,
+        "features": [
+          "Full access to all tools",
+          "Reconstructed Tape, Summary Tape, DOM tools",
+          "Auction Vista preview",
+          "No commitment required"
+        ]
+      },
+      {
+        "name": "Daytradr Lifetime",
+        "price_monthly": 0,
+        "features": [
+          "One-time payment of $597",
+          "Reconstructed Tape",
+          "Summary Tape",
+          "Depth & Sales DOM",
+          "Platform integrations (NinjaTrader, Sierra Chart, MultiCharts)"
+        ]
+      },
+      {
+        "name": "Ongoing Support",
+        "price_monthly": 37,
+        "features": [
+          "Continued updates and improvements",
+          "Technical support",
+          "New feature access",
+          "Required after initial license period"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": false,
-    "mobile_app": false, "api_access": false, "social_features": false, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": false, "journaling": false,
-    "performance_analytics": false, "risk_management": false, "news_feed": false, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["futures"],
-  "pros": ["Best-in-class DOM and tape reading tools", "Reconstructed Tape filters market noise", "Auction Vista reveals market dynamics visually", "14-day free trial available"],
-  "cons": ["Very expensive at $197/month", "Futures only", "Steep learning curve for order flow concepts", "Requires existing platform (NinjaTrader/Sierra Chart)"],
-  "rating": 4.1,
-  "rating_breakdown": {"ease_of_use": 3.3, "features": 4.6, "value": 3.4, "support": 4.0, "reliability": 4.3},
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Best-in-class Reconstructed Tape — filters noise, highlights institutional-sized trades and aggressive activity",
+    "Auction Vista provides historical DOM visualization that no other platform offers",
+    "Summary Tape aggregates price level activity for bird's-eye view of where volume is executing",
+    "Founded and developed by Peter Davies, an active professional futures trader",
+    "Extensive education: YouTube, webinars, methodology documentation — not just software tutorials",
+    "Integrates with NinjaTrader 8, Sierra Chart, and MultiCharts — works alongside your existing platform",
+    "14-day free trial with full access to all tools",
+    "Lifetime license option at $597 — competitive for a professional-grade tool"
+  ],
+  "cons": [
+    "Futures only — no stocks, crypto, or forex support",
+    "Requires an existing platform (NinjaTrader, Sierra Chart) — not standalone",
+    "Steep learning curve — assumes prior understanding of order flow and auction theory",
+    "No charting capability — DOM and tape tools only",
+    "Windows only, no Mac or web version",
+    "Not for swing/position traders — optimized for short-timeframe scalping"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 3.2,
+    "features": 4.8,
+    "value": 4.0,
+    "support": 4.5,
+    "reliability": 4.6
+  },
   "founded_year": 2011,
-  "company": "Jigsaw Trading Ltd.",
-  "headquarters": "London, United Kingdom",
-  "best_for": ["futures scalpers", "order flow traders", "professional day traders"],
-  "similar_tools": ["bookmap", "sierra-chart", "quantower"],
-  "last_updated": "2026-03-07",
-  "review_status": "published"
+  "company": "Jigsaw Trading Ltd",
+  "headquarters": "United Kingdom",
+  "best_for": [
+    "professional futures scalpers who trade from the DOM and tape",
+    "NinjaTrader or Sierra Chart users who want superior order flow tools",
+    "prop firm traders who need to read market microstructure on short timeframes",
+    "experienced traders who want a methodology-driven approach to DOM trading"
+  ],
+  "similar_tools": [
+    "atas",
+    "bookmap",
+    "sierra-chart",
+    "quantower",
+    "orderflows"
+  ],
+  "last_updated": "2026-04-12",
+  "review_status": "published",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-04-12",
+  "vendor_verified_note": "Platform features, DOM tools, Auction Vista, platform integrations, and pricing verified against jigsawtrading.com. Outreach sent Apr 2026.",
+  "vendor_verified_sources": [
+    "https://www.jigsawtrading.com/ — official homepage",
+    "https://www.jigsawtrading.com/features/ — tool overview",
+    "https://www.jigsawtrading.com/pricing/ — pricing and license options"
+  ]
 }
