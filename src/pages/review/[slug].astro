@@ -357,9 +357,9 @@ const jsonLd = [
         </ul>
       </div>
       <div class="mt-4 bg-card/50 border border-border rounded-xl p-5">
-        <h3 class="text-sm font-semibold text-text mb-2">TL;DR</h3>
+        <h3 class="text-sm font-semibold text-text mb-2">Summary</h3>
         <p class="text-sm text-muted leading-relaxed">
-          {tool.name} is a {category?.name?.toLowerCase() || tool.category.replace(/-/g, ' ')} tool rated {tool.rating.toFixed(1)}/5, best suited for {bestForText}. {tool.pricing.starting_price === 0 ? `It offers a free plan${firstPaidPrice ? `, with paid plans starting at $${firstPaidPrice}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} {tool.pros[0]} and {tool.pros.length > 1 ? tool.pros[1].toLowerCase() : 'it performs well for its target audience'}.
+          {tool.name} is a {category?.name?.toLowerCase() || tool.category.replace(/-/g, ' ')} tool rated {tool.rating.toFixed(1)}/5, best suited for {bestForText}. {tool.pricing.starting_price === 0 ? `It offers a free plan${firstPaidPrice ? `, with paid plans starting at $${firstPaidPrice}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} Key strengths: {tool.pros[0].split(' — ')[0].split(' including ')[0].split(' (')[0].toLowerCase()}{tool.pros.length > 1 ? ` and ${tool.pros[1].split(' — ')[0].split(' including ')[0].split(' (')[0].toLowerCase()}` : ''}.
         </p>
       </div>
     </section>
