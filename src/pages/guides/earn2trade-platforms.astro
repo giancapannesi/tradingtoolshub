@@ -1,0 +1,178 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const cta = (medium: string) => `${AFFIL}&utm_source=tth&utm_medium=${medium}&utm_campaign=tcp-apr14`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Earn2Trade Platforms — Tradovate vs NinjaTrader vs Finamark (2026)",
+  "author": { "@type": "Organization", "name": "TradingToolsHub" },
+  "datePublished": "2026-04-13",
+  "dateModified": "2026-04-13",
+  "description": "Earn2Trade now supports Tradovate, NinjaTrader, and Finamark — all free with your subscription. Here's how each platform compares and which one to pick."
+};
+---
+<BaseLayout
+  title="Earn2Trade Platforms — Tradovate vs NinjaTrader vs Finamark (2026)"
+  description="Earn2Trade now supports Tradovate, NinjaTrader, and Finamark — all free with your Trader Career Path subscription. Side-by-side comparison, pros, cons, and how to pick the right one."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Trader Career Path</a> ·
+      <span class="text-text">Platforms</span>
+    </nav>
+
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">50% Off — Apr 14 to 24</div>
+        <div class="text-sm text-text">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> · auto-applies</div>
+      </div>
+      <a href={cta('platforms-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">Claim 50% →</a>
+    </div>
+
+    <div class="flex items-center gap-2 mb-4">
+      <span class="text-[10px] bg-primary/20 text-primary border border-primary/30 px-2 py-0.5 rounded font-bold tracking-wider">NEW IN 2026</span>
+    </div>
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">Tradovate vs NinjaTrader vs Finamark on Earn2Trade</h1>
+    <p class="text-lg text-muted leading-relaxed mb-6">
+      Earn2Trade's <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path</a> ships with free licenses to three trading platforms: NinjaTrader (the incumbent), Finamark (the dark horse), and as of 2026, <strong class="text-text">Tradovate</strong> — the new web-based option futures traders have been asking about for years. You can switch between them mid-evaluation. Data feed is included for all three. Here's how to decide which one fits your workflow.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The 30-second version</h2>
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <p class="text-muted leading-relaxed mb-2"><strong class="text-text">Pick Tradovate if:</strong> You want to trade from any browser, you don't want to install software, you use multiple computers, or you want a modern UI. This is the NEW 2026 option and for many traders it will be the obvious choice.</p>
+      <p class="text-muted leading-relaxed mb-2"><strong class="text-text">Pick NinjaTrader if:</strong> You want the most powerful charting, third-party indicator support, automated strategy building, or order-flow / footprint charting. It's the heavyweight.</p>
+      <p class="text-muted leading-relaxed"><strong class="text-text">Pick Finamark if:</strong> You want a lighter, simpler alternative, or you've specifically used Finamark before and like it. It's the underdog and works fine, but most new traders pick NT or Tradovate.</p>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Tradovate — the new cloud option</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Tradovate was acquired by NinjaTrader Group, and in 2026 Earn2Trade integrated it as a first-class platform for the Trader Career Path and Gauntlet Mini. This is a big deal because Tradovate is web-based — you log in from any browser, on any computer, and you're trading. No install, no configuration files, no local data cache.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      For Earn2Trade candidates, this solves a real pain point. Traders who split time between a home desktop and a laptop have historically had to juggle NinjaTrader workspaces, sync settings between machines, and deal with the Windows-only dependency. Tradovate runs on anything with a browser, including Macs and Chromebooks.
+    </p>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">What Tradovate is good at</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Browser-based, nothing to install, trade from any OS</li>
+      <li>Clean modern UI — easier to learn for newer traders</li>
+      <li>Fast execution, low latency for a cloud platform</li>
+      <li>Mobile app for order management (not for primary trading, but fine for monitoring)</li>
+      <li>Built-in DOM, basic charting, bracket orders</li>
+      <li>Tight integration with the Earn2Trade dashboard — fills sync automatically</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">Where Tradovate is weaker</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Charting is basic compared to NinjaTrader. No footprint, no market profile, limited custom indicators.</li>
+      <li>No strategy automation — you can't run custom EAs/algorithms inside Tradovate itself (you'd need a third-party API wrapper).</li>
+      <li>Smaller indicator library. If you rely on a specific NinjaTrader indicator, it won't exist on Tradovate.</li>
+      <li>Depends on a stable internet connection. No offline workspace.</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">NinjaTrader — the incumbent heavyweight</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      NinjaTrader has been Earn2Trade's default platform since the beginning. A free license comes with your subscription, which on its own is a ~$60/month value. NinjaTrader is what most prop trading communities, YouTube educators, and indicator developers build around — the ecosystem is massive.
+    </p>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">What NinjaTrader is good at</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>The best charting of the three — footprint, market profile, custom bar types, multi-timeframe setups</li>
+      <li>Massive third-party indicator ecosystem — thousands of free and paid indicators</li>
+      <li>NinjaScript for building automated strategies and custom indicators yourself</li>
+      <li>Strategy backtester with full historical data</li>
+      <li>Order flow tools (bookmap-style, though not as deep as standalone bookmap)</li>
+      <li>Advanced order types, ATM strategies, template-based bracket orders</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">Where NinjaTrader is weaker</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Windows only. Mac users need Parallels, Boot Camp, or a separate Windows machine.</li>
+      <li>Steeper learning curve — the interface can overwhelm new traders</li>
+      <li>Configuration lives locally, so switching machines means copying workspaces and settings</li>
+      <li>Occasional version incompatibility when Earn2Trade updates the connector</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Finamark — the lightweight underdog</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Finamark is a browser-based futures platform included with your Earn2Trade subscription. It's a competent, straightforward DOM and chart platform — think of it as a simpler Tradovate. It's been the "free also" option for years; most Earn2Trade candidates either ignore it or discover it late.
+    </p>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">What Finamark is good at</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Simple and fast — browser-based, no install</li>
+      <li>Good for DOM/ladder trading</li>
+      <li>Clean charts for scalpers who don't need extensive indicators</li>
+      <li>Free as part of the Earn2Trade bundle</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">Where Finamark falls short</h3>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Small community — not many tutorials, less third-party content</li>
+      <li>Limited charting features compared to NinjaTrader and even Tradovate</li>
+      <li>No strategy automation or custom scripting</li>
+      <li>Unlikely to be the platform you move to once you're funded — most traders graduate away from it</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Side-by-side comparison</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm border border-border rounded-xl overflow-hidden my-6">
+        <thead class="bg-card">
+          <tr class="text-left text-text">
+            <th class="px-4 py-3">Feature</th>
+            <th class="px-4 py-3">Tradovate</th>
+            <th class="px-4 py-3">NinjaTrader</th>
+            <th class="px-4 py-3">Finamark</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border text-muted">
+          <tr><td class="px-4 py-2">Runs on</td><td class="px-4 py-2">Browser (any OS)</td><td class="px-4 py-2">Windows only</td><td class="px-4 py-2">Browser (any OS)</td></tr>
+          <tr><td class="px-4 py-2">Install required</td><td class="px-4 py-2">No</td><td class="px-4 py-2">Yes (500MB+)</td><td class="px-4 py-2">No</td></tr>
+          <tr><td class="px-4 py-2">Charting depth</td><td class="px-4 py-2">Good</td><td class="px-4 py-2">Excellent</td><td class="px-4 py-2">Basic</td></tr>
+          <tr><td class="px-4 py-2">Indicator ecosystem</td><td class="px-4 py-2">Small</td><td class="px-4 py-2">Massive</td><td class="px-4 py-2">Tiny</td></tr>
+          <tr><td class="px-4 py-2">Strategy automation</td><td class="px-4 py-2">Via API only</td><td class="px-4 py-2">NinjaScript (full)</td><td class="px-4 py-2">No</td></tr>
+          <tr><td class="px-4 py-2">Order flow / footprint</td><td class="px-4 py-2">No</td><td class="px-4 py-2">Yes</td><td class="px-4 py-2">No</td></tr>
+          <tr><td class="px-4 py-2">DOM / ladder</td><td class="px-4 py-2">Yes</td><td class="px-4 py-2">Yes</td><td class="px-4 py-2">Yes</td></tr>
+          <tr><td class="px-4 py-2">Multi-device sync</td><td class="px-4 py-2">Native</td><td class="px-4 py-2">Manual workspace copy</td><td class="px-4 py-2">Native</td></tr>
+          <tr><td class="px-4 py-2">Mobile app</td><td class="px-4 py-2">Yes</td><td class="px-4 py-2">Yes (monitoring only)</td><td class="px-4 py-2">Limited</td></tr>
+          <tr><td class="px-4 py-2">Best for</td><td class="px-4 py-2">New traders, Mac users, multi-device</td><td class="px-4 py-2">Advanced charting, automation</td><td class="px-4 py-2">Simple scalping</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Which one should I actually pick?</h2>
+    <p class="text-muted leading-relaxed mb-4"><strong class="text-text">If you're new to Earn2Trade and don't have a strong existing preference:</strong> Start with Tradovate. It's the fastest to get up and running, and the UI will feel familiar if you've used any modern broker. You can always switch to NinjaTrader later if you hit a wall.</p>
+    <p class="text-muted leading-relaxed mb-4"><strong class="text-text">If you rely on advanced charting or order flow:</strong> NinjaTrader. It's not a contest. Tradovate's charting will feel limited within a week.</p>
+    <p class="text-muted leading-relaxed mb-4"><strong class="text-text">If you're on Mac and don't want Parallels:</strong> Tradovate, then Finamark as a backup. NinjaTrader is a no-go.</p>
+    <p class="text-muted leading-relaxed mb-4"><strong class="text-text">If you trade algorithmically or want to build a custom strategy:</strong> NinjaTrader. NinjaScript is the only first-class strategy-building environment in this group.</p>
+    <p class="text-muted leading-relaxed mb-4"><strong class="text-text">If you want to test them all:</strong> You can. Your Earn2Trade subscription includes access to all three simultaneously. Many traders start evaluation on Tradovate and keep NinjaTrader open on a second monitor for deeper charts.</p>
+
+    <div class="bg-card border border-border rounded-2xl p-6 my-10 text-center">
+      <h3 class="text-xl font-bold text-text mb-2">Ready to try Tradovate on Earn2Trade?</h3>
+      <p class="text-sm text-muted mb-4">50% off first 2 months — code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> auto-applies.</p>
+      <a href={cta('platforms-cta-main')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl">Start Trader Career Path →</a>
+    </div>
+
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Related</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a></li>
+        <li>→ <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Every TCP rule explained</a></li>
+        <li>→ <a href="/guides/earn2trade-consistency-rule/" class="text-primary hover:underline">The consistency rule that fails 91% of candidates</a></li>
+        <li>→ <a href="/review/tradovate/" class="text-primary hover:underline">Full Tradovate review</a></li>
+        <li>→ <a href="/review/ninjatrader/" class="text-primary hover:underline">NinjaTrader review</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay.</p>
+    </footer>
+
+  </article>
+</BaseLayout>

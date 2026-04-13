@@ -1,0 +1,252 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const cta = (medium: string) => `${AFFIL}&utm_source=tth&utm_medium=${medium}&utm_campaign=tcp-apr14`;
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://tradingtoolshub.com/guides/" },
+      { "@type": "ListItem", "position": 3, "name": "Trader Career Path Rules" }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Trader Career Path Rules — Every TCP Rule Explained (2026)",
+    "author": { "@type": "Organization", "name": "TradingToolsHub" },
+    "datePublished": "2026-04-13",
+    "dateModified": "2026-04-13",
+    "image": "https://tradingtoolshub.com/og/trader-career-path-rules.png",
+    "description": "Every Trader Career Path rule explained in plain English — 10-day minimum, EOD drawdown, daily loss limits, consistency rule, and the contract ladder."
+  }
+];
+---
+<BaseLayout
+  title="Trader Career Path Rules — Every TCP Rule Explained (2026)"
+  description="Every Trader Career Path rule explained in plain English: 10-day minimum, EOD drawdown, daily loss limits, consistency rule, contract ladder, and the rules that fail 91% of candidates."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/" class="hover:text-primary">Prop Firms</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Trader Career Path</a> ·
+      <span class="text-text">Rules</span>
+    </nav>
+
+    <!-- Active promo strip -->
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">50% Off — Apr 14 to 24</div>
+        <div class="text-sm text-text">Use code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> · auto-applies via our link</div>
+      </div>
+      <a href={cta('rules-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">Claim 50% →</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">Trader Career Path Rules — Every TCP Rule Explained</h1>
+    <p class="text-lg text-muted leading-relaxed mb-8">
+      The Trader Career Path® has six hard rules. Four of them are simple to understand. Two of them fail 91% of candidates. Here's every rule in plain English, how Earn2Trade actually measures it, and the traps that blow accounts before day 10.
+    </p>
+
+    <p class="text-sm text-muted mb-8">
+      Want the full product overview first? Read our <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path review</a> for pricing, scaling ladder, and the Apr 14–24 50% off promo. This page is the rules-only deep dive.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">The six objectives, in Earn2Trade's own words</h2>
+    <p class="text-muted mb-4">These are the six pass/fail conditions pulled directly from the Earn2Trade evaluation dashboard:</p>
+    <ol class="space-y-3 text-muted mb-10 list-decimal pl-6">
+      <li><strong class="text-text">Trade at least 10 days.</strong> You can't pass on day 9, even if you hit your profit target.</li>
+      <li><strong class="text-text">Only trade during approved times.</strong> Approved hours are US regular futures sessions. Overnight and holiday sessions are typically closed.</li>
+      <li><strong class="text-text">Follow the progression ladder.</strong> Contract size is capped based on account equity — you can't max out on day one.</li>
+      <li><strong class="text-text">Do not reach or dip below the daily loss limit.</strong> If you touch it intraday, you fail. No "rounding" or "it bounced back."</li>
+      <li><strong class="text-text">Do not reach or dip below the minimum account balance.</strong> This is the EOD drawdown line — it's recalculated every close.</li>
+      <li><strong class="text-text">Maintain consistency.</strong> No single day can dominate your P&L. This is the rule that breaks most traders on the way out.</li>
+    </ol>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 1 — The 10-day minimum</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      You have to trade at least 10 distinct days during your evaluation. That's 10 days where you placed at least one trade that hit a fill. Opening a position and immediately closing it for a scratch counts. Sitting at the screen without pulling the trigger does not.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      This is the rule most "lucky one-trade passes" run into. A trader might hit their $3,000 profit goal on day 3 and think they're done — they're not. They still owe seven more trading days before Earn2Trade will even look at whether they passed.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">The trap:</strong> You hit your target early, get nervous about losing it, and start over-trading the remaining days "just to stay active." This is how traders who were up $3,000 on day 3 end up at $1,500 on day 10 and fail the consistency rule. The fix is to treat the 10-day minimum as a feature, not a bug — plan a 10-day rhythm from day one, not a race to the target.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 2 — Approved trading times</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Trading is restricted to approved session windows. For US futures (the only markets TCP allows — CME, COMEX, NYMEX, CBOT), that's essentially the regular US electronic session. Overnight electronic trading, holiday sessions, and the few minutes around the daily close are typically blocked.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The exact approved-time window depends on the instrument (ES has slightly different hours than GC, for example). Earn2Trade publishes the current list in the trader dashboard. The key thing to know: if you're used to trading the 3 AM European open of ES, you can't do that here.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">The trap:</strong> A trade that accidentally fills during a restricted window is an instant fail, not a warning. Set your platform to block orders outside approved hours if you're prone to middle-of-the-night "checking the chart" mistakes.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 3 — The progression ladder (contract scaling)</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      You can't size up to max contracts on day one. TCP uses a progression ladder tied to your current account equity. The smaller the account, the smaller the maximum size you're allowed to hold at any moment.
+    </p>
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <h3 class="font-semibold text-text mb-2">TCP contract ladder caps</h3>
+      <ul class="text-sm text-muted space-y-1">
+        <li><strong class="text-text">TCP25:</strong> up to 3 contracts max at any time</li>
+        <li><strong class="text-text">TCP50:</strong> up to 6 contracts max</li>
+        <li><strong class="text-text">TCP100:</strong> up to 12 contracts max</li>
+      </ul>
+      <p class="text-xs text-muted mt-3">These are the hard ceilings. The ladder itself requires certain equity milestones before you can access the higher sizes within the cap — you can't open day one of TCP100 and immediately trade 12 contracts. Consult your dashboard for the current equity-gated steps.</p>
+    </div>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">The trap:</strong> Traders who come from unlimited-size evaluations (some forex prop firms) will try to sneak an "oversized" trade past the ladder. TCP's platform enforces it at the order level — the order will reject, not warn. That's actually a kindness. You can't accidentally break this rule, only deliberately.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 4 — The daily loss limit</h2>
+    <p class="text-muted leading-relaxed mb-6">
+      Every TCP tier has a hard daily loss limit. If your intraday equity (realized + unrealized) touches or drops below the daily loss line, the evaluation is failed — instantly, automatically, no appeal.
+    </p>
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <h3 class="font-semibold text-text mb-2">Daily loss limits by tier</h3>
+      <table class="text-sm text-muted w-full">
+        <thead><tr class="text-left text-text"><th class="pb-2">Tier</th><th class="pb-2">Virtual Capital</th><th class="pb-2">Daily Loss Limit</th><th class="pb-2">As % of capital</th></tr></thead>
+        <tbody class="divide-y divide-border">
+          <tr><td class="py-2">TCP25</td><td>$25,000</td><td>$550</td><td>2.2%</td></tr>
+          <tr><td class="py-2">TCP50</td><td>$50,000</td><td>$1,100</td><td>2.2%</td></tr>
+          <tr><td class="py-2">TCP100</td><td>$100,000</td><td>$2,200</td><td>2.2%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-muted leading-relaxed mb-4">
+      All three tiers have exactly a 2.2% daily loss limit. That's the consistent scaling. What matters is how you think about it: it is not a stop loss, it is a circuit breaker. A good trading plan treats the daily loss limit as "the line I never approach." If you're designing trades where the stop is 80% of the daily loss, you're already trading too big.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">The trap:</strong> Revenge trading. You take a losing trade, you're down 60% of your daily loss, and you try to make it back with a larger position. This is the single most common reason traders touch the daily line. A hard personal rule: if you hit 50% of the daily loss limit, you stop trading for the day. Earn2Trade doesn't enforce this rule — you have to.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 5 — EOD drawdown (not trailing)</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      The maximum drawdown on TCP is End-of-Day (EOD), not intraday trailing. This is good news. It means your account has an absolute floor that is recalculated after the close, based on your locked-in balance. If you have an unrealized spike during the session that raises your high-water mark, the EOD drawdown does not follow it intraday — it only updates at the close.
+    </p>
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <h3 class="font-semibold text-text mb-2">EOD drawdown by tier</h3>
+      <table class="text-sm text-muted w-full">
+        <thead><tr class="text-left text-text"><th class="pb-2">Tier</th><th class="pb-2">Starting Balance</th><th class="pb-2">Min Balance (EOD floor)</th><th class="pb-2">Max Drawdown</th></tr></thead>
+        <tbody class="divide-y divide-border">
+          <tr><td class="py-2">TCP25</td><td>$25,000</td><td>$23,500</td><td>$1,500</td></tr>
+          <tr><td class="py-2">TCP50</td><td>$50,000</td><td>$48,000</td><td>$2,000</td></tr>
+          <tr><td class="py-2">TCP100</td><td>$100,000</td><td>$96,500</td><td>$3,500</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong>Why EOD beats trailing:</strong> On a trailing drawdown (used by Apex, Topstep, and most other prop firms), a $2,000 unrealized spike during the day raises your high-water mark permanently. If you then give back $1,500 of it on the same day, a trailing system counts that as $1,500 of drawdown — and you can fail the evaluation on a winning trade. EOD doesn't do that. Your drawdown line only updates when you actually lock in gains by closing positions and surviving to the close.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Compare that to the daily loss limit — which IS intraday. The daily loss limit tells you how far you can drop in a single session. The EOD drawdown tells you how far the account can drop over the whole evaluation. Both are enforced. You have to stay above both lines.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rule 6 — The consistency rule (the killer)</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      This is the rule that fails the most candidates at the very end. Earn2Trade's consistency rule says: no single trading day can dominate your total profit. The exact threshold isn't published as a fixed number — Earn2Trade reviews your full P&L distribution when assessing the pass.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The practical reading: your best day shouldn't be wildly larger than your average day. If you have ten trading days and nine of them made $50 while day four made $2,950, you technically have $3,400 of profit and you technically cleared the TCP50 goal — but Earn2Trade will look at that distribution and conclude you had one lucky day and nine flat days, not ten consistent days. That's not what a funded account needs.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The consistency rule is why the pass rate is 8.89%. Lots of traders can hit $3,000 of profit in 10 days. Not many can do it where no single day is more than 30–40% of the total.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">How to actually trade for consistency:</strong>
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li>Design your system around a target per-day number, not a total. If you need $3,000 in 10 days, aim for $300 per day. If you hit $600 in one session, STOP — you already have your day's profit and anything more than ~40% of the total from one day risks the consistency rule.</li>
+      <li>Keep your position size flat across days. Don't trade 1 contract on Monday and 5 on Thursday. Pick a size and stick with it.</li>
+      <li>Don't chase "catching up." If you have a scratch day, the next day is still a $300 day, not a $600 day.</li>
+      <li>If one day is already way over target, spend the remaining days trading much smaller — you're intentionally bringing your average up, not your total.</li>
+    </ul>
+    <p class="text-muted leading-relaxed mb-4">
+      For the full tactical breakdown, see our deep dive on the <a href="/guides/earn2trade-consistency-rule/" class="text-primary hover:underline">Earn2Trade consistency rule</a>.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">What TCP does NOT have</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      It's worth knowing what Earn2Trade does NOT enforce, because some rules from other prop firms will leak into your thinking:
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li><strong class="text-text">No weekend hold restriction</strong> — You can hold overnight as long as the position is within approved session times. Gap risk is on you though.</li>
+      <li><strong class="text-text">No news trading ban</strong> — Unlike some firms, TCP does not blackout FOMC, NFP, or CPI windows. You can trade them. You probably shouldn't, but you can.</li>
+      <li><strong class="text-text">No EA or automation ban</strong> — TCP allows automated and algorithmic trading on approved platforms. NinjaTrader strategies, Tradovate automation, Finamark scripts — all permitted.</li>
+      <li><strong class="text-text">No minimum trade count per day</strong> — You don't have to trade every day. The 10-day minimum is a lower floor, not a schedule.</li>
+      <li><strong class="text-text">No stop-loss requirement</strong> — You don't have to attach a stop to every trade. That would be insane given the daily loss limit, but it's not technically required.</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rules specific to your funded account (post-evaluation)</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Once you pass and receive a funded account from Earn2Trade's prop partner, the rules mostly carry over. But two things change:
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li><strong class="text-text">If you choose LiveSim:</strong> EOD drawdown stays. Daily loss limit stays. Progression ladder stays. The only difference is now your profits pay real money on the 80/20 split. Until your first $5,000 in withdrawals, you stay on LiveSim. After that, you convert to Live (or you can go Live immediately if you pay the $139 activation upfront).</li>
+      <li><strong class="text-text">If you choose Live immediately:</strong> Drawdown rules switch to a trailing intraday model, not EOD. This is the one place where TCP gets harder post-evaluation. Most traders should start on LiveSim specifically to avoid that switch until they're confident.</li>
+    </ul>
+
+    <!-- CTA mid -->
+    <div class="bg-card border border-border rounded-2xl p-6 my-10 text-center">
+      <h3 class="text-xl font-bold text-text mb-2">Ready to start the Trader Career Path?</h3>
+      <p class="text-sm text-muted mb-4">Pick your tier and go direct to checkout — code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> auto-applies during the Apr 14–24 promo window.</p>
+      <a href={cta('rules-cta-mid')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl">Start TCP50 (50% off) →</a>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-12 mb-4">Rules FAQ</h2>
+    <div class="space-y-3 mb-10">
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">What happens if I accidentally hit the daily loss limit?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">The evaluation is failed immediately and automatically. You can purchase a reset ($55 for TCP25, $65 for TCP50, $100 for TCP100) or wait for your next rebill, which includes a free reset. There's no appeal and no "near-miss" forgiveness.</p>
+      </details>
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">Does weekend hold cause any problem?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">TCP does not forbid weekend hold, but practically: futures markets close at 5 PM ET Friday and reopen Sunday 6 PM ET. Any open position during the market close is exposed to gap risk at Sunday's reopen. Most candidates flatten before Friday close.</p>
+      </details>
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">Can I use automated trading / EAs / algorithms?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">Yes. TCP is one of the more permissive futures prop firms on automation. NinjaTrader strategies, Tradovate bots, and third-party copy services are allowed. The only caveat: the consistency rule still applies — an EA that produces one huge winning day and many tiny days will fail the consistency check.</p>
+      </details>
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">How does the "reach or dip below" language work on the daily loss?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">It is inclusive of the limit itself. If your daily loss limit is $1,100, touching exactly -$1,100 is a failure, not a save. Design your risk so your worst possible outcome is at most -$900 or -$1,000 — leave a buffer.</p>
+      </details>
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">Is there a maximum trading days or time limit?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">No. The evaluation continues indefinitely as long as you keep paying the monthly subscription. You can take 3 months or 3 weeks — there is no deadline. You only need to satisfy the minimum 10 days, the profit goal, and not break drawdown or daily loss rules.</p>
+      </details>
+      <details class="bg-card border border-border rounded-xl p-4">
+        <summary class="font-semibold text-text cursor-pointer">What if I fail the consistency rule but hit everything else?</summary>
+        <p class="text-sm text-muted mt-3 leading-relaxed">You don't get funded. Earn2Trade reviews the P&L distribution during your final pass check. If one day dominates the total profit, they'll tell you to reset and run another evaluation. Resets are cheaper than new subscriptions (TCP50 reset is $65 vs $190 sub) and your current subscription period continues.</p>
+      </details>
+    </div>
+
+    <!-- Go deeper -->
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Go deeper into Earn2Trade</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a> — pricing, scaling ladder, 50% off promo</li>
+        <li>→ <a href="/guides/earn2trade-consistency-rule/" class="text-primary hover:underline">The Earn2Trade consistency rule — why 91% fail</a></li>
+        <li>→ <a href="/guides/earn2trade-platforms/" class="text-primary hover:underline">Tradovate vs NinjaTrader vs Finamark on Earn2Trade</a></li>
+        <li>→ <a href="/review/earn2trade/" class="text-primary hover:underline">Earn2Trade brand review</a></li>
+        <li>→ <a href="/blog/earn2trade-pass-rate-analysis/" class="text-primary hover:underline">What Earn2Trade's 8.89% pass rate actually means</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay. We only cover firms we've personally vetted. Rules and pricing are subject to change — always confirm the current terms on <a href={cta('rules-footer-verify')} target="_blank" rel="nofollow sponsored noopener" class="text-primary hover:underline">earn2trade.com</a> before signing up.</p>
+      <p class="mt-3">Futures trading involves substantial risk of loss and is not suitable for every investor. Past performance is not indicative of future results.</p>
+    </footer>
+
+  </article>
+</BaseLayout>

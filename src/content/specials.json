@@ -1,6 +1,36 @@
 {
-  "last_updated": "2026-04-06",
+  "last_updated": "2026-04-13",
   "specials": [
+    {
+      "slug": "earn2trade",
+      "tool_name": "Earn2Trade \u2014 Trader Career Path",
+      "deal_title": "Earn2Trade: 50% OFF Trader Career Path (Apr 14\u201324)",
+      "deal_description": "50% off all Trader Career Path subscriptions for the first 2 months. TCP25 $75, TCP50 $95, TCP100 $175. Tradovate now integrated. Use code ToolsTradingHub (auto-applies via our link).",
+      "deal_type": "limited_time",
+      "discount_percent": 50,
+      "promo_code": "ToolsTradingHub",
+      "start_date": "2026-04-14",
+      "end_date": "2026-04-24",
+      "source_url": "/prop-firms/trader-career-path/",
+      "category": "Prop Firm",
+      "affiliate_commission": "25%\u219215%\u21925% lifetime (90-day cookie)",
+      "recurring": false
+    },
+    {
+      "slug": "earn2trade",
+      "tool_name": "Earn2Trade \u2014 Easter Sale",
+      "deal_title": "Earn2Trade: 60% OFF Easter Special (ends Apr 13)",
+      "deal_description": "60% off all Trader Career Path subscriptions for the first 60 days. TCP25 $60, TCP50 $76, TCP100 $140. Ends tonight at midnight CT. Use code happyapril.",
+      "deal_type": "limited_time",
+      "discount_percent": 60,
+      "promo_code": "happyapril",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-13",
+      "source_url": "/prop-firms/trader-career-path/",
+      "category": "Prop Firm",
+      "affiliate_commission": "25%\u219215%\u21925% lifetime (90-day cookie)",
+      "recurring": false
+    },
     {
       "slug": "apex-trader-funding",
       "tool_name": "Apex Trader Funding",
@@ -116,5 +146,5 @@
       "affiliate_commission": "15% recurring"
     }
   ],
-  "total": 8
+  "total": 10
 }

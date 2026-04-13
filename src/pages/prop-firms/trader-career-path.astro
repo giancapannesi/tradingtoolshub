@@ -1,0 +1,363 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Direct-to-checkout affiliate links (a_bid=2e8e8a14 is the TCP creative ID)
+const AFFIL_TCP = (plan: 'TCP25' | 'TCP50' | 'TCP100') =>
+  `https://www.earn2trade.com/purchase?plan=${plan}&a_pid=ToolsTradingHub&a_bid=2e8e8a14`;
+// Default plan for the generic CTAs (hero, banner, final CTA) — TCP50 is the most popular tier
+const AFFIL_DEFAULT = AFFIL_TCP('TCP50');
+const cta = (medium: string, plan: 'TCP25' | 'TCP50' | 'TCP100' | null = null) => {
+  const base = plan ? AFFIL_TCP(plan) : AFFIL_DEFAULT;
+  return `${base}&utm_source=tth&utm_medium=${medium}&utm_campaign=tcp-apr14`;
+};
+
+// Promo state — flip `activePromo` manually as windows change.
+// Easter (happyapril) is the current promo ending Apr 13 23:59 CT.
+// ToolsTradingHub 50% kicks in Apr 14 00:00 → Apr 24 23:59 CT.
+const now = new Date();
+const apr14 = new Date('2026-04-14T00:00:00-05:00'); // CT
+const apr25 = new Date('2026-04-25T00:00:00-05:00');
+const activePromo = now < apr14
+  ? { label: 'EASTER 60% OFF', code: 'happyapril', off: 60, ends: 'Apr 13 — ends tonight at midnight CT', blurb: '60% off for the first 60 days of your subscription.' }
+  : now < apr25
+  ? { label: 'SPRING 50% OFF', code: 'ToolsTradingHub', off: 50, ends: 'Ends Apr 24 · 11:59 PM CT', blurb: '50% off for the first 2 months. Valid Apr 14 – Apr 24.' }
+  : { label: null, code: null, off: 0, ends: '', blurb: '' };
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Trader Career Path®",
+    "description": "Earn2Trade's 3-step funded futures trading evaluation that scales traders from a $25K virtual account up to a $400K live funded account.",
+    "brand": { "@type": "Brand", "name": "Earn2Trade" },
+    "category": "Prop Trading Firm",
+    "offers": [
+      { "@type": "Offer", "name": "TCP25", "price": "150.00", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "TCP50", "price": "190.00", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "TCP100", "price": "350.00", "priceCurrency": "USD" }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "reviewCount": "1200"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is the Trader Career Path?", "acceptedAnswer": { "@type": "Answer", "text": "The Trader Career Path® is Earn2Trade's 3-step funded futures evaluation. You pass a single evaluation (TCP25, TCP50, or TCP100), receive a guaranteed funded account from their prop partner, withdraw your full profit target, and the account automatically scales up — $100K → $150K → $200K → up to $400K. It's one of the few programs where one pass unlocks a lifetime scaling ladder." } },
+      { "@type": "Question", "name": "How much does the Trader Career Path cost?", "acceptedAnswer": { "@type": "Answer", "text": "Regular pricing is TCP25 $150/mo, TCP50 $190/mo, TCP100 $350/mo. During the current promo, pricing drops to TCP25 $60, TCP50 $76, TCP100 $140 for the first billing period. Resets run $55, $65, and $100 respectively, with a free reset on every rebill." } },
+      { "@type": "Question", "name": "What is the pass rate?", "acceptedAnswer": { "@type": "Answer", "text": "Earn2Trade publicly reports an 8.89% pass rate on Trader Career Path® and Gauntlet Mini™ evaluations in 2025. That is calculated as passed subscriptions divided by new subscriptions. We show that number because Earn2Trade shows it — most prop firms hide this data." } },
+      { "@type": "Question", "name": "What platforms can I use?", "acceptedAnswer": { "@type": "Answer", "text": "NinjaTrader (free license included), Finamark (free license included), and Tradovate — newly integrated in 2026. Data feed is included in the subscription during evaluation." } },
+      { "@type": "Question", "name": "Which markets can I trade?", "acceptedAnswer": { "@type": "Answer", "text": "Futures only — CME, COMEX, NYMEX, and CBOT. Stocks, options, forex, crypto, and CFDs are not permitted." } },
+      { "@type": "Question", "name": "What is the profit split?", "acceptedAnswer": { "@type": "Answer", "text": "80% to the trader, 20% to Earn2Trade. There is a one-time $139 LiveSim® activation fee taken from your first withdrawal — no upfront activation fee on the subscription itself." } },
+      { "@type": "Question", "name": "Does Earn2Trade accept US traders?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Earn2Trade is US-based, CFTC-friendly, and accepts traders from the US, India, and most other regions. Pricing is available in USD and INR." } }
+    ]
+  }
+];
+---
+<BaseLayout
+  title="Trader Career Path Review 2026 — Earn2Trade's $25K → $400K Scaling Ladder"
+  description="Deep review of Earn2Trade's Trader Career Path®. Pricing, rules, pass rate, profit split, and the current 50% off promo. The only US futures prop firm with a lifetime scaling ladder."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <!-- Breadcrumb -->
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/" class="hover:text-primary">Prop Firms</a> ·
+      <span class="text-text">Trader Career Path</span>
+    </nav>
+
+    <!-- Promo banner -->
+    {activePromo.label && (
+      <div class="relative bg-gradient-to-r from-featured/20 via-primary/10 to-featured/20 border border-featured/40 rounded-2xl p-5 md:p-6 mb-8 overflow-hidden">
+        <div class="absolute top-0 right-0 bg-featured text-black text-[10px] font-black tracking-wider px-3 py-1 rounded-bl-xl">LIMITED TIME</div>
+        <div class="flex flex-col md:flex-row items-start md:items-center gap-4">
+          <div class="flex-1">
+            <div class="text-xs uppercase tracking-wider text-featured font-bold mb-1">{activePromo.label}</div>
+            <h2 class="text-xl md:text-2xl font-bold text-text mb-1">Trader Career Path — {activePromo.off}% Off</h2>
+            <p class="text-sm text-muted">{activePromo.blurb} · <span class="text-featured">{activePromo.ends}</span></p>
+            <p class="text-xs text-muted mt-2">Use code <code class="bg-card px-2 py-0.5 rounded text-featured font-mono">{activePromo.code}</code> at checkout, or click below and it auto-applies.</p>
+          </div>
+          <a href={cta('pillar-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex items-center justify-center px-6 py-3 text-sm md:text-base font-bold text-black bg-featured hover:bg-yellow-400 rounded-xl whitespace-nowrap transition-colors">
+            Claim {activePromo.off}% Off →
+          </a>
+        </div>
+      </div>
+    )}
+
+    <!-- Hero -->
+    <header class="mb-10">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs bg-card border border-border px-2 py-0.5 rounded text-muted">Prop Firm Review</span>
+        <span class="text-xs bg-card border border-border px-2 py-0.5 rounded text-muted">Futures</span>
+        <span class="text-xs bg-green-500/20 text-green-400 border border-green-500/30 px-2 py-0.5 rounded">US-Accessible</span>
+        <span class="text-xs bg-primary/20 text-primary border border-primary/30 px-2 py-0.5 rounded">NEW: Tradovate</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">
+        The Trader Career Path®
+      </h1>
+      <p class="text-lg md:text-xl text-muted leading-relaxed max-w-3xl">
+        Earn2Trade's signature program. One evaluation. One pass. A scaling ladder that takes you from a $25K virtual account to a $400K funded account — without ever retaking a challenge.
+      </p>
+    </header>
+
+    <!-- Why it's different -->
+    <section class="grid md:grid-cols-3 gap-4 mb-12">
+      <div class="bg-card border border-border rounded-xl p-5">
+        <div class="text-featured text-2xl font-bold">$25K → $400K</div>
+        <p class="text-sm text-muted mt-1">Scaling ladder. Pass once, upgrade automatically as you withdraw profit. No re-challenges.</p>
+      </div>
+      <div class="bg-card border border-border rounded-xl p-5">
+        <div class="text-featured text-2xl font-bold">80/20 Split</div>
+        <p class="text-sm text-muted mt-1">80% of every dollar you pull from the market is yours. No upfront activation fee on the sub.</p>
+      </div>
+      <div class="bg-card border border-border rounded-xl p-5">
+        <div class="text-featured text-2xl font-bold">8.89%</div>
+        <p class="text-sm text-muted mt-1">Publicly disclosed 2025 pass rate. Most prop firms hide this. Earn2Trade publishes it.</p>
+      </div>
+    </section>
+
+    <!-- The 5-step ladder -->
+    <section class="mb-14">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">The scaling ladder</h2>
+      <p class="text-muted mb-6">You pick your starting point. The ladder does the rest. Every time you fully withdraw the profit target, the account auto-upgrades.</p>
+      <div class="space-y-3">
+        <div class="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
+          <div class="bg-primary/20 text-primary font-bold text-sm px-3 py-1 rounded">STEP 1</div>
+          <div class="flex-1"><span class="text-text font-semibold">$100K Evaluation</span> <span class="text-muted text-sm">— virtual capital, pass the test</span></div>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
+          <div class="bg-primary/20 text-primary font-bold text-sm px-3 py-1 rounded">STEP 2</div>
+          <div class="flex-1"><span class="text-text font-semibold">$100K Live or LiveSim® Account</span> <span class="text-muted text-sm">— first funded account, you keep 80% of profit</span></div>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
+          <div class="bg-primary/20 text-primary font-bold text-sm px-3 py-1 rounded">STEP 3</div>
+          <div class="flex-1"><span class="text-text font-semibold">$150K Live Account</span> <span class="text-muted text-sm">— first auto-upgrade after you hit profit target</span></div>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-4 flex items-center gap-4">
+          <div class="bg-primary/20 text-primary font-bold text-sm px-3 py-1 rounded">STEP 4</div>
+          <div class="flex-1"><span class="text-text font-semibold">$200K Live Account</span> <span class="text-muted text-sm">— second upgrade</span></div>
+        </div>
+        <div class="bg-gradient-to-r from-featured/10 to-primary/10 border border-featured/40 rounded-xl p-4 flex items-center gap-4">
+          <div class="bg-featured text-black font-bold text-sm px-3 py-1 rounded">STEP 5</div>
+          <div class="flex-1"><span class="text-text font-semibold">$400K Live Account</span> <span class="text-muted text-sm">— drawdown fixed to $388K. Top of the ladder.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing table -->
+    <section class="mb-14">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">Pick your starting account</h2>
+      <p class="text-muted mb-6">You can start anywhere. Most traders start at TCP50 — it's the balance of risk, buying power, and monthly cost.</p>
+      <div class="grid md:grid-cols-3 gap-4">
+        <!-- TCP25 -->
+        <div class="bg-card border border-border rounded-xl p-5 flex flex-col">
+          <h3 class="text-xl font-bold text-text">TCP25</h3>
+          <p class="text-xs text-muted mb-3">$25,000 virtual capital</p>
+          <div class="flex items-baseline gap-2 mb-1">
+            {activePromo.off > 0 && <span class="text-muted text-sm line-through">$150</span>}
+            <span class="text-3xl font-bold text-featured">${activePromo.off === 60 ? '60' : activePromo.off === 50 ? '75' : '150'}</span>
+            <span class="text-sm text-muted">/mo</span>
+          </div>
+          <ul class="text-sm text-muted space-y-1 mt-3 mb-4">
+            <li>Profit goal: $1,750</li>
+            <li>EOD drawdown: $1,500</li>
+            <li>Daily loss limit: $550</li>
+            <li>Up to 3 contracts</li>
+            <li>Reset: $55</li>
+          </ul>
+          <a href={cta('pillar-price-tcp25', 'TCP25')} target="_blank" rel="nofollow sponsored noopener" class="mt-auto inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg">
+            Start TCP25 →
+          </a>
+        </div>
+        <!-- TCP50 — MOST POPULAR -->
+        <div class="bg-card border-2 border-featured rounded-xl p-5 flex flex-col relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-featured text-black text-[10px] font-black tracking-wider px-3 py-1 rounded-full">MOST POPULAR</div>
+          <h3 class="text-xl font-bold text-text">TCP50</h3>
+          <p class="text-xs text-muted mb-3">$50,000 virtual capital</p>
+          <div class="flex items-baseline gap-2 mb-1">
+            {activePromo.off > 0 && <span class="text-muted text-sm line-through">$190</span>}
+            <span class="text-3xl font-bold text-featured">${activePromo.off === 60 ? '76' : activePromo.off === 50 ? '95' : '190'}</span>
+            <span class="text-sm text-muted">/mo</span>
+          </div>
+          <ul class="text-sm text-muted space-y-1 mt-3 mb-4">
+            <li>Profit goal: $3,000</li>
+            <li>EOD drawdown: $2,000</li>
+            <li>Daily loss limit: $1,100</li>
+            <li>Up to 6 contracts</li>
+            <li>Reset: $65</li>
+          </ul>
+          <a href={cta('pillar-price-tcp50', 'TCP50')} target="_blank" rel="nofollow sponsored noopener" class="mt-auto inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-black bg-featured hover:bg-yellow-400 rounded-lg">
+            Start TCP50 →
+          </a>
+        </div>
+        <!-- TCP100 -->
+        <div class="bg-card border border-border rounded-xl p-5 flex flex-col">
+          <h3 class="text-xl font-bold text-text">TCP100</h3>
+          <p class="text-xs text-muted mb-3">$100,000 virtual capital</p>
+          <div class="flex items-baseline gap-2 mb-1">
+            {activePromo.off > 0 && <span class="text-muted text-sm line-through">$350</span>}
+            <span class="text-3xl font-bold text-featured">${activePromo.off === 60 ? '140' : activePromo.off === 50 ? '175' : '350'}</span>
+            <span class="text-sm text-muted">/mo</span>
+          </div>
+          <ul class="text-sm text-muted space-y-1 mt-3 mb-4">
+            <li>Profit goal: $6,000</li>
+            <li>EOD drawdown: $3,500</li>
+            <li>Daily loss limit: $2,200</li>
+            <li>Up to 12 contracts</li>
+            <li>Reset: $100</li>
+          </ul>
+          <a href={cta('pillar-price-tcp100', 'TCP100')} target="_blank" rel="nofollow sponsored noopener" class="mt-auto inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-lg">
+            Start TCP100 →
+          </a>
+        </div>
+      </div>
+      <p class="text-xs text-muted mt-3">Every tier: free reset on rebill · no upfront activation fee · 80/20 profit split · NinjaTrader + Tradovate + Finamark.</p>
+    </section>
+
+    <!-- The Rules -->
+    <section class="mb-14">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">The rules that matter</h2>
+      <p class="text-muted mb-6">Simple to read, hard to execute. This is where most traders blow up before day 10.</p>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="font-semibold text-text mb-2">Minimum 10 trading days</h3>
+          <p class="text-sm text-muted">You have to trade at least 10 days before your evaluation can complete. This is the consistency gate — it keeps traders from hitting a lucky home run and walking out with a funded account they can't actually manage.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="font-semibold text-text mb-2">EOD drawdown, not trailing</h3>
+          <p class="text-sm text-muted">Earn2Trade uses end-of-day drawdown. It's recalculated after the close based on your locked-in balance. Easier to trade than a live trailing drawdown — you don't get stopped out by an unrealized spike.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="font-semibold text-text mb-2">Progression ladder on contracts</h3>
+          <p class="text-sm text-muted">You can't jump to max contracts on day one. There's a scaling ladder based on account equity that forces you to prove you can manage the size before you get access to it.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="font-semibold text-text mb-2">Consistency rule</h3>
+          <p class="text-sm text-muted">No single day can dominate your P&L. One lucky trade on day 3 won't pass you — you need spread-out, repeatable performance. This is the rule most candidates fail on at the very end.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tradovate hook -->
+    <section class="mb-14 bg-gradient-to-br from-primary/10 via-card to-featured/5 border border-primary/30 rounded-2xl p-6 md:p-8">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs bg-primary/20 text-primary border border-primary/30 px-2 py-0.5 rounded font-bold">NEW IN 2026</span>
+      </div>
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-3">Tradovate is now live</h2>
+      <p class="text-muted leading-relaxed">
+        Earn2Trade has officially integrated <strong>Tradovate</strong> into the Trader Career Path product suite. For futures traders who've wanted the web-based speed of Tradovate with the scaling funded-account model of Earn2Trade, this is the combination you've been waiting on. No local install, trade from any browser, and the integration works across all three TCP tiers.
+      </p>
+      <p class="text-muted leading-relaxed mt-3">
+        NinjaTrader and Finamark are still included free. You don't have to choose — pick the platform that fits your workflow.
+      </p>
+    </section>
+
+    <!-- Who it's for -->
+    <section class="mb-14">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-2">Who the Trader Career Path is actually for</h2>
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        <div>
+          <h3 class="text-lg font-semibold text-green-400 mb-3">✓ You'll love it if</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li>— You trade futures on CME/COMEX/NYMEX/CBOT. TCP is built for you.</li>
+            <li>— You hate trailing drawdowns that stop you out on unrealized spikes.</li>
+            <li>— You want to pass <em>once</em> and scale, not re-buy a challenge every month.</li>
+            <li>— You're a US trader and want a CFTC-friendly firm.</li>
+            <li>— You want real pass-rate transparency — Earn2Trade publishes theirs.</li>
+            <li>— You want multiple platform options (Tradovate + NinjaTrader + Finamark).</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-red-400 mb-3">✗ Look elsewhere if</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li>— You trade forex, stocks, options, crypto, or CFDs. Not allowed.</li>
+            <li>— You want a 90% or 100% profit split (Apex, Goat go higher).</li>
+            <li>— You want instant funding with no challenge at all.</li>
+            <li>— You day-trade once a week. 10-day minimum will break you.</li>
+            <li>— You need a free reset every single time you bust (TCP is one free per rebill, not unlimited).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA with QR code -->
+    <section class="mb-14 bg-card border border-border rounded-2xl p-6 md:p-10">
+      <div class="grid md:grid-cols-[1fr_auto] gap-8 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold text-text mb-3">Ready to start?</h2>
+          <p class="text-muted leading-relaxed mb-4">
+            {activePromo.off > 0 ? `Right now you save ${activePromo.off}% on your first ${activePromo.off === 60 ? '60 days' : '2 months'} with code ` : 'Start the evaluation with our affiliate code '}
+            <code class="bg-featured/20 text-featured px-2 py-0.5 rounded font-mono text-sm">{activePromo.code || 'ToolsTradingHub'}</code>.
+            Pick TCP25 to dip your toe, TCP50 if you want real buying power, TCP100 if you're serious.
+          </p>
+          <p class="text-muted text-sm mb-5">
+            Full disclosure: we're an Earn2Trade affiliate. If you sign up through our link, we earn a commission at no extra cost to you. We only promote firms we've personally vetted — Earn2Trade publishes their 8.89% pass rate, which is the kind of honesty we like to see.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href={cta('pillar-cta-main')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex items-center justify-center px-6 py-3 text-base font-bold text-black bg-featured hover:bg-yellow-400 rounded-xl">
+              Start the Trader Career Path →
+            </a>
+            <a href="/review/earn2trade/" class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-text bg-card hover:bg-card-hover border border-border rounded-xl">
+              Read full Earn2Trade review
+            </a>
+          </div>
+        </div>
+
+        <!-- QR — tasteful, small, right-aligned -->
+        <div class="hidden md:flex flex-col items-center gap-2 p-4 bg-white rounded-xl">
+          <img src="/qr/tcp-affiliate-pillar.png" alt="Scan to start the Trader Career Path on your phone" width="140" height="140" class="rounded" />
+          <p class="text-[10px] text-slate-700 font-semibold uppercase tracking-wider text-center">Scan to sign up<br/>on your phone</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-14">
+      <h2 class="text-2xl md:text-3xl font-bold text-text mb-6">Frequently asked questions</h2>
+      <div class="space-y-3">
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">What exactly is the Trader Career Path?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">Earn2Trade's 3-step funded futures evaluation. You pass once, then the account auto-scales from your starting size up to $400K as you withdraw profit. One of the only prop programs with a lifetime scaling ladder instead of a reset cycle.</p>
+        </details>
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">What's the pass rate and can I trust it?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">8.89% in 2025, per Earn2Trade's own public disclosure. Most prop firms don't publish this number at all — that they do is a point in their favor. It means 1 in ~11 candidates passes. Plan accordingly.</p>
+        </details>
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">What's the catch on the profit split?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">80% to you, 20% to Earn2Trade. There's a one-time $139 LiveSim® activation fee taken from your first withdrawal — not upfront. No monthly activation fee, no hidden data fee during evaluation (data is included). Live account data fees start when you switch to a real funded account.</p>
+        </details>
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">What markets can I actually trade?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">Futures only. CME, COMEX, NYMEX, CBOT. That's ES, NQ, YM, RTY, CL, GC, SI, ZB, ZN, ZC, ZW, and the rest. No stocks, no options, no forex, no crypto, no CFDs. If futures isn't your game, TCP isn't your program.</p>
+        </details>
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">Tradovate vs NinjaTrader — which should I pick?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">Tradovate if you want browser-based, trade from any machine, no install, and minimal setup. NinjaTrader if you want advanced charting, strategy builders, and the widest indicator ecosystem. Both are free with your subscription. You can even switch mid-evaluation.</p>
+        </details>
+        <details class="bg-card border border-border rounded-xl p-5 group">
+          <summary class="font-semibold text-text cursor-pointer">Is the 50% off promo worth waiting for?</summary>
+          <p class="text-muted text-sm mt-3 leading-relaxed">If you're reading this before April 14, the current Easter 60% deal beats the 50% deal (use code <code class="text-featured">happyapril</code> before midnight CT on Apr 13). If you're reading it on or after April 14, the 50% deal with code <code class="text-featured">ToolsTradingHub</code> is the one to grab — it runs through Apr 24.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Final QR + mobile-friendly version -->
+    <section class="md:hidden mb-10 bg-white rounded-2xl p-6 text-center">
+      <img src="/qr/tcp-affiliate-pillar.png" alt="Scan to start the Trader Career Path" width="180" height="180" class="mx-auto rounded" />
+      <p class="text-xs text-slate-700 font-semibold uppercase tracking-wider mt-3">Scan with another phone to sign up</p>
+    </section>
+
+    <!-- Footer disclosure -->
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay. We only recommend firms we've personally vetted. Earn2Trade's full Trader Career Path® terms, rules, and pricing are subject to change — always confirm details on <a href={cta('pillar-footer-verify')} target="_blank" rel="nofollow sponsored noopener" class="text-primary hover:underline">earn2trade.com</a>.</p>
+      <p class="mt-3">Futures trading involves substantial risk of loss and is not suitable for every investor. Past performance is not indicative of future results. Hypothetical trading results have inherent limitations. Read Earn2Trade's full risk disclosure before trading.</p>
+    </footer>
+
+  </div>
+</BaseLayout>

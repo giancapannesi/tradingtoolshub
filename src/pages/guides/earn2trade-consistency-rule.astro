@@ -1,0 +1,174 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const cta = (medium: string) => `${AFFIL}&utm_source=tth&utm_medium=${medium}&utm_campaign=tcp-apr14`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Earn2Trade Consistency Rule — Why 91% Fail (2026)",
+  "author": { "@type": "Organization", "name": "TradingToolsHub" },
+  "datePublished": "2026-04-13",
+  "dateModified": "2026-04-13",
+  "description": "Earn2Trade's consistency rule fails more candidates than any other. Here's how it works, how Earn2Trade measures it, and how to actually trade to beat it."
+};
+---
+<BaseLayout
+  title="Earn2Trade Consistency Rule — Why 91% of Candidates Fail (2026)"
+  description="The consistency rule is the single biggest reason traders fail the Trader Career Path. Here's how Earn2Trade measures consistency, the math behind the 8.89% pass rate, and how to trade to pass it."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Trader Career Path</a> ·
+      <span class="text-text">Consistency Rule</span>
+    </nav>
+
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">50% Off — Apr 14 to 24</div>
+        <div class="text-sm text-text">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> · auto-applies</div>
+      </div>
+      <a href={cta('consistency-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">Claim 50% →</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">The Earn2Trade Consistency Rule</h1>
+    <p class="text-lg text-muted leading-relaxed mb-4">
+      Of the six rules on the <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Trader Career Path</a>, five are mechanical. You either broke them or you didn't. The sixth rule — consistency — is a judgment call. It's the single biggest reason Earn2Trade's published 2025 pass rate is 8.89%, and it's the rule most candidates don't realize is lethal until the end of their evaluation.
+    </p>
+    <p class="text-muted leading-relaxed mb-8">
+      This page explains what the consistency rule actually is, how Earn2Trade measures it, the math behind a passing P&L distribution, and the three most common ways traders blow consistency without realizing.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">What the consistency rule actually says</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Earn2Trade's own phrasing from the evaluation dashboard is just two words: <em>"Maintain consistency."</em> That's it. There is no public formula. No specific percentage. No documented threshold.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      What we know comes from reverse-engineering the rule by looking at what passes and what fails. Earn2Trade reviews your full P&L distribution when assessing whether to promote you to the funded stage. They want to see that your profit came from repeatable performance, not from one outlier day.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The practical threshold that trader communities have converged on: <strong class="text-text">no single day should represent more than 30–40% of your total profit</strong>. Some traders have passed with one day closer to 50% of the total, but that's risky. Under 30% is safe. Above 50% is almost certainly a fail.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Two P&L distributions, same total profit, different outcomes</h2>
+    <p class="text-muted leading-relaxed mb-4">Let's run the numbers on two TCP50 candidates. Both hit the $3,000 profit goal. Both trade 10 days. Both stay within daily loss and EOD drawdown. Only one passes.</p>
+
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <h3 class="font-semibold text-text mb-3">Candidate A — consistent</h3>
+      <table class="text-sm text-muted w-full">
+        <thead><tr class="text-left text-text"><th class="pb-2">Day</th><th class="pb-2">P&L</th><th class="pb-2">% of total</th></tr></thead>
+        <tbody class="divide-y divide-border">
+          <tr><td class="py-1">1</td><td>+$280</td><td>9.3%</td></tr>
+          <tr><td class="py-1">2</td><td>+$315</td><td>10.5%</td></tr>
+          <tr><td class="py-1">3</td><td>-$120</td><td>—</td></tr>
+          <tr><td class="py-1">4</td><td>+$420</td><td>14.0%</td></tr>
+          <tr><td class="py-1">5</td><td>+$350</td><td>11.7%</td></tr>
+          <tr><td class="py-1">6</td><td>+$290</td><td>9.7%</td></tr>
+          <tr><td class="py-1">7</td><td>-$60</td><td>—</td></tr>
+          <tr><td class="py-1">8</td><td>+$510</td><td>17.0%</td></tr>
+          <tr><td class="py-1">9</td><td>+$400</td><td>13.3%</td></tr>
+          <tr><td class="py-1">10</td><td>+$615</td><td>20.5%</td></tr>
+          <tr class="font-semibold text-text"><td class="pt-2">Total</td><td>+$3,000</td><td>max day: 20.5%</td></tr>
+        </tbody>
+      </table>
+      <p class="text-xs text-green-400 mt-3">✓ PASSES consistency. Biggest day is 20.5% of total. Spread is natural.</p>
+    </div>
+
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <h3 class="font-semibold text-text mb-3">Candidate B — one big day</h3>
+      <table class="text-sm text-muted w-full">
+        <thead><tr class="text-left text-text"><th class="pb-2">Day</th><th class="pb-2">P&L</th><th class="pb-2">% of total</th></tr></thead>
+        <tbody class="divide-y divide-border">
+          <tr><td class="py-1">1</td><td>+$80</td><td>2.7%</td></tr>
+          <tr><td class="py-1">2</td><td>+$120</td><td>4.0%</td></tr>
+          <tr><td class="py-1">3</td><td>-$50</td><td>—</td></tr>
+          <tr><td class="py-1">4</td><td>+$2,100</td><td>70.0%</td></tr>
+          <tr><td class="py-1">5</td><td>+$60</td><td>2.0%</td></tr>
+          <tr><td class="py-1">6</td><td>+$90</td><td>3.0%</td></tr>
+          <tr><td class="py-1">7</td><td>-$40</td><td>—</td></tr>
+          <tr><td class="py-1">8</td><td>+$180</td><td>6.0%</td></tr>
+          <tr><td class="py-1">9</td><td>+$240</td><td>8.0%</td></tr>
+          <tr><td class="py-1">10</td><td>+$220</td><td>7.3%</td></tr>
+          <tr class="font-semibold text-text"><td class="pt-2">Total</td><td>+$3,000</td><td>max day: 70.0%</td></tr>
+        </tbody>
+      </table>
+      <p class="text-xs text-red-400 mt-3">✗ FAILS consistency. Day 4 represents 70% of the total. One lucky day, nine flat days.</p>
+    </div>
+
+    <p class="text-muted leading-relaxed mb-4">
+      Both candidates technically hit the profit target. Only Candidate A shows the distribution of a trader who can repeat results on a funded account. Candidate B might be an excellent discretionary trader, but their P&L looks like a gambler's run — and that's not something Earn2Trade will put real capital behind.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The three ways traders blow consistency without realizing</h2>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">1. The "catch-up" trade</h3>
+    <p class="text-muted leading-relaxed mb-4">
+      You have three flat days. On day 4 you size up to "make up for lost time" and hit a $1,200 win. It feels like progress. It's actually a consistency rule landmine. Every dollar of that $1,200 is a dollar you're going to have to balance out with many tiny days to keep the distribution healthy. The easier fix is to never size up to "catch up" — just keep trading your plan and let the average climb naturally.
+    </p>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">2. The "news day" home run</h3>
+    <p class="text-muted leading-relaxed mb-4">
+      FOMC, NFP, CPI — TCP allows you to trade them, and sometimes you catch a move. If you put on a 5-contract position during NFP and ride it to +$2,500, congratulations, you just broke consistency. The fix: trade news days at the same size as your normal session, or skip them entirely during evaluation. The time to exploit news is on a funded account, not during the audition.
+    </p>
+
+    <h3 class="text-xl font-semibold text-text mt-6 mb-3">3. The "I was up and I sized in" spiral</h3>
+    <p class="text-muted leading-relaxed mb-4">
+      You start a day flat, win three trades, and feel invincible. You double your size on trade four and it works too. By end of day you're up $1,800 on what should have been a $300 day. Now you need nine more disciplined days to balance this out — and any one of them that bleeds out in revenge-trading (because you're now playing with "house money") will fail you on a completely different rule.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The winning playbook: trade for consistency from day one</h2>
+    <ul class="list-disc pl-6 text-muted space-y-3 mb-6">
+      <li><strong class="text-text">Calculate your daily target first.</strong> TCP50 goal is $3,000 over 10+ days. That's $300/day. TCP25 is $175/day. TCP100 is $600/day. Your daily target is your plan, not the weekly or total.</li>
+      <li><strong class="text-text">Stop trading when you hit 2x your daily target.</strong> If you hit $600 on a TCP50 day, you're done. Don't "let winners run." Don't add. Close out and walk away. The extra profit is not worth the consistency risk.</li>
+      <li><strong class="text-text">Size flat across all days.</strong> If you trade 2 contracts on Monday, trade 2 contracts on Thursday. Varying size creates uneven days, and uneven days break consistency even when the total looks good.</li>
+      <li><strong class="text-text">Don't chase scratches.</strong> A scratch day (even a small loss day) is fine — it actually HELPS your consistency because it keeps the distribution natural. Don't try to force a winner on a day where nothing is working.</li>
+      <li><strong class="text-text">Plan for 12–15 trading days, not 10.</strong> The 10-day minimum is a floor. The consistency rule gets easier with more days in the distribution. If you plan for 12–15 days, one oversized day matters less because it's competing with more small days.</li>
+      <li><strong class="text-text">Review the distribution at the end of each week.</strong> Divide each day's profit by the running total. If any day is already above 35%, your next sessions need to be specifically small and boring to bring that percentage down.</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">What about the trader who hits the target on day 3?</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      This is the most painful scenario. You trade well for three days, make a bigger-than-planned winner, and suddenly you're already at +$2,800 out of the $3,000 target. You still have seven days to go on the minimum, and if you trade normally you'll probably add to that total — which makes day 3 look proportionally smaller and actually IMPROVES your consistency math.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The trap: you freeze. You stop trading because "you don't want to lose it" and sit out the remaining days. Earn2Trade sees 3 days of real trading and 7 days of zeros. That's not a distribution, that's a hit-and-run, and it fails consistency even though the math looks fine.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The right move: trade smaller for the remaining 7 days. Half your normal size. Target $50–$100/day. You're not trying to add much more to the total — you're trying to keep day 3 from being 90% of the total. Seven days of small winners plus your big day 3 gives Earn2Trade a distribution that looks like this: <em>"Trader had one great day and then managed risk carefully for a week without giving it back."</em> That's exactly the profile they want to fund.
+    </p>
+
+    <!-- CTA mid -->
+    <div class="bg-card border border-border rounded-2xl p-6 my-10 text-center">
+      <h3 class="text-xl font-bold text-text mb-2">Apply what you just read</h3>
+      <p class="text-sm text-muted mb-4">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> auto-applies during the Apr 14–24 50% off window.</p>
+      <a href={cta('consistency-cta-mid')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl">Start Trader Career Path →</a>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">One more thing: does the consistency rule apply to funded accounts?</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Yes, but more loosely. During evaluation, consistency is a pass/fail gate. On a funded account, Earn2Trade's partner prop firm monitors ongoing consistency as part of their risk management — but by that point, if you're already a funded trader, you've proven you can trade consistently. The firm's concern on live accounts is more about sudden deviations (5x normal size, entering exotic instruments) than the day-to-day P&L distribution that matters during evaluation.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      In practice: pass the evaluation with disciplined consistency, then continue the same habits on the funded account. You won't get flagged. The traders who get into trouble on funded accounts are the ones who trade small during evaluation and then "blow it out" once they're funded.
+    </p>
+
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Related reading</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a></li>
+        <li>→ <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Every TCP rule explained</a></li>
+        <li>→ <a href="/guides/earn2trade-platforms/" class="text-primary hover:underline">Tradovate vs NinjaTrader on Earn2Trade</a></li>
+        <li>→ <a href="/blog/earn2trade-pass-rate-analysis/" class="text-primary hover:underline">What Earn2Trade's 8.89% pass rate actually means</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay. We recommend firms we've personally vetted. Always verify current rules on earn2trade.com before signing up.</p>
+    </footer>
+
+  </article>
+</BaseLayout>

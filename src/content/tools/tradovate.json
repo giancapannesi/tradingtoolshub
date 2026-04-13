@@ -7,11 +7,11 @@
     "execution-platforms"
   ],
   "description_short": "Tradovate is a cloud-based futures trading platform offering commission-free membership plans, advanced charting, DOM trading, and API access for automated strategies.",
-  "description_long": "Tradovate is a modern, cloud-based futures trading platform built for active traders who want professional-grade execution tools without the limitations of legacy desktop software. Available via web browser and mobile app, the platform requires no software installation and syncs positions, charts, and settings across all devices in real time.\n\nThe platform is built around a membership-based pricing model that can significantly reduce trading costs for high-frequency futures traders. The free Starter plan charges standard per-contract commissions, while monthly and annual memberships eliminate those commissions entirely — traders pay only exchange fees. This model is especially attractive for those trading high-volume products like E-mini S&P 500, crude oil, or gold futures.\n\nTradovate includes a capable charting suite with dozens of built-in technical indicators, drawing tools, and multiple chart types. The Depth of Market (DOM) ladder enables fast order entry and position management, while a full API allows developers to build and deploy automated trading strategies. A simulation mode with live market data lets traders practice without risking capital.\n\nIn 2021, Tradovate was acquired by NinjaTrader Group, bolstering the platform's long-term development and institutional backing. The platform covers all major CME Group products, giving access to equity index, energy, metals, agricultural, and interest rate futures. Tradovate is best suited for dedicated futures traders seeking a streamlined, cloud-native experience with cost-efficient commission structures rather than a comprehensive multi-asset charting environment.",
+  "description_long": "Tradovate is a modern, cloud-based futures trading platform built for active traders who want professional-grade execution tools without the limitations of legacy desktop software. Available via web browser and mobile app, the platform requires no software installation and syncs positions, charts, and settings across all devices in real time.\n\nThe platform is built around a membership-based pricing model that can significantly reduce trading costs for high-frequency futures traders. The free Starter plan charges standard per-contract commissions, while monthly and annual memberships eliminate those commissions entirely \u2014 traders pay only exchange fees. This model is especially attractive for those trading high-volume products like E-mini S&P 500, crude oil, or gold futures.\n\nTradovate includes a capable charting suite with dozens of built-in technical indicators, drawing tools, and multiple chart types. The Depth of Market (DOM) ladder enables fast order entry and position management, while a full API allows developers to build and deploy automated trading strategies. A simulation mode with live market data lets traders practice without risking capital.\n\nIn 2021, Tradovate was acquired by NinjaTrader Group, bolstering the platform's long-term development and institutional backing. The platform covers all major CME Group products, giving access to equity index, energy, metals, agricultural, and interest rate futures. Tradovate is best suited for dedicated futures traders seeking a streamlined, cloud-native experience with cost-efficient commission structures rather than a comprehensive multi-asset charting environment.",
   "logo_url": "/logos/tradovate.svg",
   "screenshots": [],
   "website_url": "https://www.tradovate.com",
-  "affiliate_url": "",
+  "affiliate_url": "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14",
   "affiliate_program": "",
   "affiliate_commission": "",
   "affiliate_cookie_days": 0,
@@ -99,7 +99,7 @@
     "Clean, modern interface with fast DOM-based order execution"
   ],
   "cons": [
-    "Limited to futures markets only — no stocks, options, or spot forex",
+    "Limited to futures markets only \u2014 no stocks, options, or spot forex",
     "No backtesting engine for strategy development or historical testing",
     "Charting tools less advanced than dedicated platforms like TradingView",
     "Monthly membership cost may not be justified for low-volume traders"
@@ -127,8 +127,22 @@
     "tradingview",
     "tastytrade"
   ],
-  "last_updated": "2026-03-11",
+  "last_updated": "2026-04-13",
   "review_status": "published",
-  "meta_title": "Tradovate Review 2026",
-  "meta_description": "Tradovate is a cloud-based futures trading platform offering commission-free membership plans, advanced charting, DOM trading, and API access for."
+  "meta_title": "Tradovate Review 2026 \u2014 Now Integrated with Earn2Trade Trader Career Path",
+  "meta_description": "Tradovate is a cloud-based futures platform with commission-free membership, advanced charting, and API access. Now fully integrated with Earn2Trade Trader Career Path.",
+  "e2t_integration_note": {
+    "live_since": "2026",
+    "available_on": [
+      "TCP25",
+      "TCP50",
+      "TCP100",
+      "GAU50",
+      "GAU100",
+      "GAU150",
+      "GAU200"
+    ],
+    "related_page": "/prop-firms/trader-career-path/",
+    "notes": "As of 2026, Tradovate is fully integrated into Earn2Trade's Trader Career Path and Gauntlet Mini product suite. Traders can use Tradovate's web-based platform across every Earn2Trade evaluation tier, with the data feed and subscription included during the evaluation period."
+  }
 }
