@@ -2,10 +2,14 @@
   "name": "Stock Rover",
   "slug": "stock-rover",
   "category": "stock-screeners",
-  "subcategories": ["fundamental-analysis", "research", "portfolio-management"],
+  "subcategories": [
+    "fundamental-analysis",
+    "research",
+    "portfolio-management"
+  ],
   "description_short": "Deep fundamental analysis and stock screening platform for value investors and long-term portfolio builders.",
   "description_long": "## What Is Stock Rover?\n\nStock Rover is a web-based investment research platform built specifically for fundamental analysis. Founded in 2008 by software engineers Howard Reisman and Andrew Martin, the platform was born out of their own frustration with cobbling together multiple websites, browser tabs, and spreadsheets to research stocks for their personal portfolios. Rather than accept the fragmented workflow that most retail investors endure, they built an integrated research workstation that puts screening, comparison, charting, and portfolio analytics under one roof.\n\nThe result is a platform that Barron's described as packing more useful, context-appropriate information onto a page than any other website. That density is both Stock Rover's greatest strength and its most common criticism. For investors who want depth, it delivers. For those who want simplicity, it overwhelms.\n\n## Screening: Where Stock Rover Truly Excels\n\nStock Rover's screener is the core of the platform, and it is significantly more powerful than what you will find on Finviz, Yahoo Finance, or most competing tools. Depending on your subscription tier, you have access to between 275 and 700+ financial metrics to filter on, compared to roughly 67 filters on Finviz. The coverage spans 8,500+ North American stocks, 4,000 ETFs, and 40,000 mutual funds.\n\nWhat sets the screener apart is not just the quantity of metrics but the depth. You can filter on Piotroski F-Score, Price to Graham Number, Price to Lynch Fair Value, Greenblatt Return on Capital, Shiller PE, Sloan Ratio, and dozens of other value-investing-specific criteria. The platform includes pre-built guru strategy screens modeled after the approaches of Warren Buffett (Buffettology Inspired), Benjamin Graham, and others. The Buffettology screen, for example, requires 10 years of generally increasing EPS with no negative earnings years, long-term debt no more than 5 times annual earnings, average ROE above 15% over the past decade, and average ROIC above 12%.\n\nOn Premium Plus, you can build custom metrics using an equation builder and run historical screens to see how a strategy would have performed. You can also run screens on the results of other screens, which enables multi-stage filtering that is difficult to replicate elsewhere.\n\n## Portfolio Analytics and Management\n\nStock Rover's portfolio tools go well beyond basic tracking. The platform offers correlation analysis to understand how your holdings move relative to each other, Monte Carlo simulations for stress-testing your portfolio under thousands of randomized market scenarios, and a Future Income tool that projects your dividend income forward on a monthly basis based on current holdings and historical dividend growth rates.\n\nThe rebalancing tool lets you set target allocations and see exactly what trades you need to execute to get back on target. Brokerage integration through Yodlee supports Fidelity, Charles Schwab, E*TRADE, Merrill Edge, T. Rowe Price, Vanguard, and Interactive Brokers, with linked portfolios updating nightly or on demand.\n\nThe platform also includes a Trade Evaluator that helps you assess the impact of a potential trade on your portfolio before you execute it. For dividend investors specifically, Stock Rover provides 22 unique dividend financial metrics, which is more granular coverage than most dedicated dividend tools offer.\n\n## Charting: Fundamental-First Approach\n\nStock Rover's charting is functional but designed with a fundamentals-first philosophy. The standout capability is overlaying fundamental data directly onto price charts, so you can see how revenue growth, margin expansion, or debt reduction correlates with stock price movement over time. The platform supports over 240 financial charting metrics alongside 16 technical indicators.\n\nHowever, the charting is not competitive with TradingView or Finviz for technical analysis. There are no drawing tools to speak of, no advanced chart patterns, and no multi-timeframe analysis in the way active traders expect. If you primarily use charts for technical analysis, Stock Rover is the wrong tool.\n\n## Research Reports and Ratings\n\nThe Premium Plus tier includes proprietary stock ratings across value, growth, quality, and sentiment dimensions, along with fair value estimates. The platform calculates 7 different fair value metrics, 6 forward free cash flow calculations, and 4 margin of safety calculations. Research reports are available as an add-on for $49.99/year with a plan subscription or $99.99/year standalone.\n\nStock Rover sources its data from Zacks, Intrinio, and Quandl, which are institutional-grade providers. The data is reliable, though as with any fundamental data platform, there can be occasional discrepancies in less commonly reported metrics.\n\n## Pricing: Genuinely Good Value\n\nStock Rover offers four tiers. The Free plan provides basic screening with 5 years of financial history across 8,500+ stocks. Essentials at $7.99/month ($79.99/year, $139.99 for two years) adds 275+ metrics, comprehensive charting, comparison tools, and brokerage integration. Premium at $17.99/month ($179.99/year, $319.99 for two years) unlocks 375+ metrics, 10 years of financial history, portfolio analytics, Monte Carlo simulations, data export, and rebalancing tools. Premium Plus at $27.99/month ($279.99/year, $479.99 for two years) provides the full 700+ metrics, custom equations, stock ratings, fair value assessments, and priority support.\n\nNew signups get a 14-day free trial of Premium Plus with no credit card required. Compared to Finviz Elite at $39.50/month, Stock Rover Premium Plus offers substantially more fundamental analysis depth at a lower price point. The two-year plans bring the monthly cost of Premium Plus down to about $20/month.\n\n## Stock Rover vs. Finviz: Different Tools for Different Investors\n\nThis is the comparison most prospective users want to make, and the honest answer is that these platforms serve fundamentally different use cases. Finviz excels at visual market scanning with its iconic heat maps, quick pattern recognition, and technical screener speed. Stock Rover excels at deep fundamental research with dramatically more metrics, longer historical data, and actual portfolio management tools.\n\nIf you are a swing trader who wants to find setups quickly based on technical patterns, use Finviz. If you are a value investor building a long-term portfolio who needs to evaluate a company's financial health across a decade of data, use Stock Rover. Some investors use both, with Finviz for daily scanning and Stock Rover for deep-dive research on candidates.\n\n## Who Should Use Stock Rover\n\nStock Rover is purpose-built for buy-and-hold investors, value investors, dividend investors, and anyone who makes investment decisions based primarily on fundamental analysis. It is an excellent tool for retirement portfolio management, income investing, and implementing quantitative value strategies like those described by Graham, Buffett, or Greenblatt.\n\nIt is explicitly not designed for day traders, options traders, forex traders, or crypto traders. There is no real-time streaming data, no options chain, no Level 2 quotes, and no automated trading. The platform covers North American markets only, so international investors will need supplementary tools.\n\n## The Bottom Line\n\nStock Rover occupies a specific niche and fills it exceptionally well. For fundamental investors who want the deepest screening capabilities available at an affordable price, it is the best tool on the market. The portfolio analytics, dividend projections, and Monte Carlo simulations add real analytical value that you would typically need a Bloomberg terminal or FactSet subscription to access. The learning curve is real, and the interface prioritizes information density over visual appeal, but investors who push through the initial complexity tend to become loyal users. At $7.99 to $27.99 per month, it is one of the best values in investment research software.",
-  "meta_title": "Stock Rover Review 2026 — Best Research Platform for Value Investors?",
+  "meta_title": "Stock Rover Review 2026: Research for Investors",
   "meta_description": "Stock Rover review: 700+ fundamental metrics, guru screeners, portfolio analytics & Monte Carlo simulations from $7.99/mo. Is it right for you?",
   "logo_url": "/logos/stock-rover.svg",
   "screenshots": [
@@ -33,28 +37,70 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Basic screening with 8,500+ stocks, 4,000 ETFs, 40,000 funds", "5-year financial history", "Limited watchlists", "Basic charting"]
+        "features": [
+          "Basic screening with 8,500+ stocks, 4,000 ETFs, 40,000 funds",
+          "5-year financial history",
+          "Limited watchlists",
+          "Basic charting"
+        ]
       },
       {
         "name": "Essentials",
         "price_monthly": 7.99,
         "price_yearly": 79.99,
         "price_2year": 139.99,
-        "features": ["275+ financial metrics", "5 years of financial history", "Investment comparison tools", "Comprehensive charting", "Portfolio management", "Brokerage integration", "Real-time alerts", "Investment library", "Ad-free experience"]
+        "features": [
+          "275+ financial metrics",
+          "5 years of financial history",
+          "Investment comparison tools",
+          "Comprehensive charting",
+          "Portfolio management",
+          "Brokerage integration",
+          "Real-time alerts",
+          "Investment library",
+          "Ad-free experience"
+        ]
       },
       {
         "name": "Premium",
         "price_monthly": 17.99,
         "price_yearly": 179.99,
         "price_2year": 319.99,
-        "features": ["All Essentials features", "375+ financial metrics (100+ additional)", "10 years of financial history", "Data export", "Ranked screening", "100+ chartable metrics", "Advanced alerting", "Detailed portfolio analytics", "Trade Evaluator", "Dividend income projections", "Monte Carlo simulation", "Correlation analysis", "Rebalancing tools", "Multi-monitor support", "Integrated notes"]
+        "features": [
+          "All Essentials features",
+          "375+ financial metrics (100+ additional)",
+          "10 years of financial history",
+          "Data export",
+          "Ranked screening",
+          "100+ chartable metrics",
+          "Advanced alerting",
+          "Detailed portfolio analytics",
+          "Trade Evaluator",
+          "Dividend income projections",
+          "Monte Carlo simulation",
+          "Correlation analysis",
+          "Rebalancing tools",
+          "Multi-monitor support",
+          "Integrated notes"
+        ]
       },
       {
         "name": "Premium Plus",
         "price_monthly": 27.99,
         "price_yearly": 279.99,
         "price_2year": 479.99,
-        "features": ["All Premium features", "700+ financial metrics (300+ additional)", "Custom metrics and equation builder", "Historical and equation screening", "180+ ETF screening metrics", "Stock ratings and fair value assessment", "Scoring system (value, growth, quality, sentiment)", "Investor warnings", "Valuation, ratio, and multiple metric charts", "Top priority email support"]
+        "features": [
+          "All Premium features",
+          "700+ financial metrics (300+ additional)",
+          "Custom metrics and equation builder",
+          "Historical and equation screening",
+          "180+ ETF screening metrics",
+          "Stock ratings and fair value assessment",
+          "Scoring system (value, growth, quality, sentiment)",
+          "Investor warnings",
+          "Valuation, ratio, and multiple metric charts",
+          "Top priority email support"
+        ]
       }
     ],
     "research_reports_addon": {
@@ -83,7 +129,11 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "etfs", "mutual-funds"],
+  "markets": [
+    "stocks",
+    "etfs",
+    "mutual-funds"
+  ],
   "pros": [
     "Deepest fundamental screening available with up to 700+ financial metrics",
     "10 years of historical financial data for trend analysis",
@@ -112,16 +162,47 @@
   "headquarters": "Braintree, Massachusetts",
   "company_background": {
     "founded": 2008,
-    "founders": ["Howard Reisman", "Andrew Martin"],
+    "founders": [
+      "Howard Reisman",
+      "Andrew Martin"
+    ],
     "ceo": "Howard Reisman",
     "origin_story": "Co-founders Howard Reisman and Andrew Martin, both software engineers and active individual investors, were frustrated with juggling multiple websites, browser tabs, and spreadsheets to research stocks. They built Stock Rover as an integrated investment research platform for their own use, then opened it to the public.",
     "previous_ventures": "Howard Reisman previously founded Heroix, a system management software company for corporate data centers.",
-    "data_providers": ["Zacks", "Intrinio", "Quandl"],
-    "notable_recognition": ["Investopedia Best Buy-and-Hold Screener 2024", "AAII CI Editor's Choice", "Featured in Barron's, Forbes, Better Investing"],
-    "broker_integrations": ["Fidelity", "Charles Schwab", "E*TRADE", "Merrill Edge", "T. Rowe Price", "Vanguard", "Interactive Brokers"]
+    "data_providers": [
+      "Zacks",
+      "Intrinio",
+      "Quandl"
+    ],
+    "notable_recognition": [
+      "Investopedia Best Buy-and-Hold Screener 2024",
+      "AAII CI Editor's Choice",
+      "Featured in Barron's, Forbes, Better Investing"
+    ],
+    "broker_integrations": [
+      "Fidelity",
+      "Charles Schwab",
+      "E*TRADE",
+      "Merrill Edge",
+      "T. Rowe Price",
+      "Vanguard",
+      "Interactive Brokers"
+    ]
   },
-  "best_for": ["value investors", "fundamental analysts", "long-term investors", "dividend investors", "retirement portfolio managers"],
-  "similar_tools": ["finviz", "marketsmith", "zacks", "gurufocus", "simply-wall-st"],
+  "best_for": [
+    "value investors",
+    "fundamental analysts",
+    "long-term investors",
+    "dividend investors",
+    "retirement portfolio managers"
+  ],
+  "similar_tools": [
+    "finviz",
+    "marketsmith",
+    "zacks",
+    "gurufocus",
+    "simply-wall-st"
+  ],
   "last_updated": "2026-03-30",
   "review_status": "published",
   "scraped_features": [
