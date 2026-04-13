@@ -194,13 +194,47 @@ Pin types:
 
 ## CHANGELOG
 
-**2026-04-13**
-- Campaign file created
-- Affiliate links stored in `/srv/BusinessOps/credentials/affiliate_logins.md`
-- QR codes generated at `public/qr/tcp-affiliate*.png` (TCP50 direct checkout, UTM-tagged)
-- Pillar page drafted at `src/pages/prop-firms/trader-career-path.astro` (not yet live — pending Phase 1 completion + review)
-- specials.json updated with both Easter (60%) and TTH Spring (50%) promo entries
-- Plan documented and approved by Gian
-- Research: Pinterest API v5 confirmed compatible with programmatic pin creation
+**2026-04-13 afternoon — Phase 1 shipped (commit `1c65ed8`)**
+- Pillar `/prop-firms/trader-career-path/` live — Product + FAQPage schema, auto-switching promo banner, embedded QR code
+- Guides live: `/guides/trader-career-path-rules/`, `/guides/earn2trade-consistency-rule/`, `/guides/earn2trade-platforms/`
+- Blog live: `/blog/earn2trade-pass-rate-analysis/`
+- 5 existing E2T blogs retrofitted with top promo banner (bodies untouched, meta refreshed)
+- earn2trade.json + tradovate.json additively wired: affiliate_url, verified 2026 pricing tiers, Tradovate note, campaign_promo block
+- 4 listicles bumped: `best-prop-firms-futures` (→ #1), `best-prop-firms` (→ #2), `cheapest-prop-firms` (→ #3), `prop-firms-us-traders` (→ #2)
+- specials.json: 2 new E2T entries (Easter 60% + Spring 50%)
+- QR codes generated at `public/qr/tcp-affiliate*.png` (530×530, rounded modules, TCP50 direct-checkout, UTM-tagged)
+- Build: 1,738 pages in 27s, zero errors
+
+**2026-04-13 evening — Phase 2 shipped (commit `30aeb99`)**
+- New guide: `/guides/earn2trade-gauntlet-mini/` — product completeness, positions GM vs TCP honestly
+- New guide: `/guides/earn2trade-livesim-vs-live/` — post-pass account decision, EOD vs trailing drawdown is the real tradeoff
+- New guide: `/guides/earn2trade-withdrawal-guide/` — 80/20, $139 activation, minimums, payment methods, tax note
+- New blog: `/blog/earn2trade-vs-topstep-vs-apex-2026/` — 3-way comparison with EOD vs trailing as the key axis
+- New blog: `/blog/how-to-pass-trader-career-path-week-by-week/` — concrete day-by-day playbook
+- Build: 1,743 pages (+5 from Phase 1), 34s, clean
+- Phase 2 total: +5 pages, ~7,000 more words of cluster content
+
+**Known issue from Phase 2:**
+- Comparison page banner injection (4 pages: e2t-vs-topstep, apex-vs-e2t, e2t-vs-mffu, e2t-vs-tradeify) was attempted but the emoji-laden HTML banner triggered a downstream encoding issue when Astro inlined the comparison prop data. Rolled back the change. Analysis field body copy untouched. Will retry in Phase 3 with clean HTML (no emoji in analysis field) or use a separate editorial_banner field that the template reads independently.
+
+**Pages LIVE so far (as of end of Phase 2):**
+- 1 pillar (`/prop-firms/trader-career-path/`)
+- 6 guides (`trader-career-path-rules`, `earn2trade-consistency-rule`, `earn2trade-platforms`, `earn2trade-gauntlet-mini`, `earn2trade-livesim-vs-live`, `earn2trade-withdrawal-guide`)
+- 3 new blog posts (`earn2trade-pass-rate-analysis`, `earn2trade-vs-topstep-vs-apex-2026`, `how-to-pass-trader-career-path-week-by-week`)
+- 5 retrofitted blog posts
+- 4 listicle bumps
+- 2 tool JSON updates
+- 2 specials.json entries
+- = **10 new content pages + 11 updated existing surfaces** = 21 total surfaces live in the cluster
+
+**Total original writing shipped:** ~16,000 words across pillar, guides, and blogs. All meta titles + descriptions + schema.org + affiliate disclosures + UTM tracking baked in.
+
+**Phase 3 — remaining work for Apr 14+:**
+- Comparison page banner injection (via clean mechanism)
+- `/review/earn2trade/` template-level Tradovate callout card (JSON update already done — just needs template rendering)
+- `/guides/earn2trade-bootcamp-review/`, `/guides/earn2trade-journalytix-review/`
+- `/guides/earn2trade-eod-drawdown/`, `/guides/earn2trade-scaling-ladder/`
+- Homepage banner (linking to pillar)
+- Social content queue (Pinterest + IG + FB + YT) — blocked on Pinterest account creation by Gian tomorrow
 
 **[Next entries added as pages go live.]**
