@@ -1,0 +1,147 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const cta = (m: string) => `${AFFIL}&utm_source=tth&utm_medium=${m}&utm_campaign=tcp-apr14`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Earn2Trade LiveSim vs Live Account — Which to Pick After Passing TCP",
+  "author": { "@type": "Organization", "name": "TradingToolsHub" },
+  "datePublished": "2026-04-13",
+  "dateModified": "2026-04-13",
+  "description": "After passing Earn2Trade's Trader Career Path, you choose between a LiveSim paper-traded account or a Live real-capital account. Here's which one to pick and why."
+};
+---
+<BaseLayout
+  title="Earn2Trade LiveSim vs Live — Which Account to Pick After Passing TCP (2026)"
+  description="After passing the Trader Career Path, you choose between LiveSim (paper-traded, no upfront fee) or Live (real capital, $139 upfront, trailing drawdown). Here's which and why."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Trader Career Path</a> ·
+      <span class="text-text">LiveSim vs Live</span>
+    </nav>
+
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">50% Off — Apr 14 to 24</div>
+        <div class="text-sm text-text">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> · auto-applies</div>
+      </div>
+      <a href={cta('livesim-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">Start TCP →</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">LiveSim vs Live — which account should you pick after passing TCP?</h1>
+    <p class="text-lg text-muted leading-relaxed mb-6">
+      When you pass Earn2Trade's <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path</a>, you get a funding offer from their prop partner with two options: <strong class="text-text">LiveSim®</strong> (paper-traded, converts to live after first $5,000 in withdrawals) or <strong class="text-text">Live</strong> (real capital from day one, $139 activation upfront, and — this is important — your drawdown type changes). Most guides gloss over this decision. It's actually the most important choice you'll make on your funded account journey.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The TL;DR</h2>
+    <div class="bg-card border border-border rounded-xl p-5 my-6">
+      <p class="text-muted leading-relaxed"><strong class="text-text">Pick LiveSim.</strong> Almost everyone should. It keeps your EOD drawdown structure from the evaluation, requires no upfront payment, pays real cash on withdrawals, and has the shortest setup time. Pick Live only if you have a very specific reason — see below.</p>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">What LiveSim actually is</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      LiveSim is a simulated account funded by Earn2Trade's prop partner. Your fills are calculated against the real-time CME data feed, but no actual orders touch the live market. When you profit, you file a withdrawal — and the partner pays you real money at the 80/20 split (minus the $139 one-time activation, deducted from your first withdrawal).
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Here's the important part that's easy to miss: <strong class="text-text">LiveSim accounts use the same EOD drawdown you had during evaluation</strong>. Your max drawdown line is recalculated daily after the close. If you had unrealized P&L intraday that later gave back, the drawdown line doesn't follow it. This is the same protective structure you passed under.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      LiveSim conversion: after you've withdrawn a cumulative $5,000 (net of the 20% profit split), you auto-convert to a Live account. You can also manually request a switch earlier if you prefer.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">What Live actually is</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      A Live account is a real brokerage account with real capital, opened with Earn2Trade's prop partner broker. Your orders route to the real market. You pay the $139 activation fee upfront (not deducted from a future withdrawal). You pay monthly data fees ($140–$156 per exchange, depending on provider) that Non-professional LiveSim users avoid.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      And — this is the critical part most candidates don't know — <strong class="text-text">Live accounts use trailing drawdown, not EOD</strong>. The drawdown line updates intraday based on your peak equity. This is the same trailing structure Topstep and Apex use. It's stricter than the EOD drawdown you trained on during evaluation. If you've built your trading around the EOD pattern, switching to trailing will feel like the rules changed mid-game — because they did.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Side-by-side comparison</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm border border-border rounded-xl overflow-hidden my-6">
+        <thead class="bg-card">
+          <tr class="text-left text-text">
+            <th class="px-4 py-3">Feature</th>
+            <th class="px-4 py-3">LiveSim®</th>
+            <th class="px-4 py-3">Live Account</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border text-muted">
+          <tr><td class="px-4 py-2">Real market exposure</td><td class="px-4 py-2">No (simulated)</td><td class="px-4 py-2">Yes</td></tr>
+          <tr><td class="px-4 py-2">Real money on withdrawals</td><td class="px-4 py-2"><strong class="text-text">Yes, 80/20 split</strong></td><td class="px-4 py-2">Yes, 80/20 split</td></tr>
+          <tr><td class="px-4 py-2">Drawdown type</td><td class="px-4 py-2"><strong class="text-text">EOD</strong> (same as evaluation)</td><td class="px-4 py-2">Trailing intraday</td></tr>
+          <tr><td class="px-4 py-2">Upfront fee</td><td class="px-4 py-2">$0 (deducted from first withdrawal)</td><td class="px-4 py-2">$139 upfront</td></tr>
+          <tr><td class="px-4 py-2">Monthly data fees</td><td class="px-4 py-2">Included</td><td class="px-4 py-2">$140–$156/exchange</td></tr>
+          <tr><td class="px-4 py-2">Setup time</td><td class="px-4 py-2">~2 business days</td><td class="px-4 py-2">Longer — broker paperwork required</td></tr>
+          <tr><td class="px-4 py-2">Can you switch later?</td><td class="px-4 py-2">Yes, manual switch to Live any time</td><td class="px-4 py-2">No, one-way (can't go back to LiveSim)</td></tr>
+          <tr><td class="px-4 py-2">Auto-conversion</td><td class="px-4 py-2">After $5K in withdrawals (net)</td><td class="px-4 py-2">N/A (already Live)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The drawdown switch is the real tradeoff</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Here's a concrete example. You're on TCP50 → funded at $50K.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      You open a 2-contract ES trade that goes +$800 unrealized intraday. You decide to let it breathe and it reverses back to +$200. You close for a $200 win.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">On LiveSim (EOD drawdown):</strong> The drawdown line only updates at the close. Your max equity high-water mark for the day is the $200 you actually closed with, not the $800 you saw intraday. No drawdown event.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">On Live (trailing drawdown):</strong> The drawdown line updates to reflect the $800 intraday peak. Giving back $600 of unrealized profit is now counted as $600 of drawdown. If your drawdown buffer was $1,500, you've used 40% of it on a winning trade. Take a similar move on another day and you can fail the funded account on two consecutive winning trades.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Most successful Earn2Trade traders stay on LiveSim indefinitely for exactly this reason. The 20% profit split is identical on both accounts. The only advantage Live offers is real market fills — and for futures traders who pass TCP with a strategy that was tuned for EOD drawdown, switching to trailing can silently break the strategy.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">When should you pick Live instead?</h2>
+    <p class="text-muted leading-relaxed mb-4">Only three scenarios make sense:</p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li><strong class="text-text">You need real fill data for a regulated strategy.</strong> Some firms doing specific market-making or liquidity-provision strategies need actual market participation. Most retail traders don't.</li>
+      <li><strong class="text-text">You specifically want trailing drawdown for discipline.</strong> Some traders prefer trailing because it forces them to take profits on unrealized gains rather than let them breathe. If you're the kind of trader who can't close a winner and always gives back, trailing drawdown becomes a forced-exit feature.</li>
+      <li><strong class="text-text">You want to avoid the LiveSim activation fee on your first withdrawal.</strong> Mathematically this makes no difference ($139 upfront vs $139 deducted later) — but some traders prefer the psychological cleanness of paying once and never thinking about it.</li>
+    </ul>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Is LiveSim "real"?</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      This is the question every new trader asks. Short answer: yes, the money is real; the orders are simulated.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Your LiveSim fills use real-time CME market data, real spreads, and real liquidity calculations. When you profit and file a withdrawal, Earn2Trade's prop partner pays you real US dollars out of their balance sheet, minus the 20% firm split. Your fills don't move the market — nobody's paying or receiving your trades on the other side — but your bank account is very much real.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Community data shows 94.77% of passed Earn2Trade candidates in 2025 were on LiveSim rather than Live. That's not a sign that 94.77% of traders are unsure — it's the overwhelming majority recognizing that LiveSim's EOD drawdown structure is the right fit for futures traders passing a program that was built around EOD drawdown.
+    </p>
+
+    <div class="bg-card border border-border rounded-2xl p-6 my-10 text-center">
+      <h3 class="text-xl font-bold text-text mb-2">Not funded yet? Start the evaluation.</h3>
+      <p class="text-sm text-muted mb-4">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> auto-applies 50% off TCP50 during Apr 14–24.</p>
+      <a href={cta('livesim-cta-main')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl">Start Trader Career Path →</a>
+    </div>
+
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Related</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a></li>
+        <li>→ <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Every TCP rule explained</a></li>
+        <li>→ <a href="/guides/earn2trade-withdrawal-guide/" class="text-primary hover:underline">How Earn2Trade withdrawals work</a></li>
+        <li>→ <a href="/guides/earn2trade-consistency-rule/" class="text-primary hover:underline">The consistency rule that fails 91%</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay.</p>
+    </footer>
+
+  </article>
+</BaseLayout>

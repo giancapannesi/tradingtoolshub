@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL_TCP = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const AFFIL_GM = "https://www.earn2trade.com/gauntlet-mini?a_pid=ToolsTradingHub&a_bid=f38a33c1";
+const ctaTcp = (m: string) => `${AFFIL_TCP}&utm_source=tth&utm_medium=${m}&utm_campaign=tcp-apr14`;
+const ctaGm = (m: string) => `${AFFIL_GM}&utm_source=tth&utm_medium=${m}&utm_campaign=tcp-apr14`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Earn2Trade Gauntlet Mini Review — $50K–$200K Futures Evaluation",
+  "author": { "@type": "Organization", "name": "TradingToolsHub" },
+  "datePublished": "2026-04-13",
+  "dateModified": "2026-04-13",
+  "description": "Full review of the Earn2Trade Gauntlet Mini intraday futures evaluation — pricing, rules, account sizes, and how it compares to the Trader Career Path."
+};
+---
+<BaseLayout
+  title="Earn2Trade Gauntlet Mini Review — $50K–$200K Futures Evaluation (2026)"
+  description="The Gauntlet Mini is Earn2Trade's intraday futures evaluation. Pricing ($170–$550), drawdown rules, profit splits, and how it compares to the Trader Career Path."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Earn2Trade</a> ·
+      <span class="text-text">Gauntlet Mini</span>
+    </nav>
+
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">Most traders should start with TCP, not Gauntlet Mini</div>
+        <div class="text-sm text-text">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> applies 50% off TCP Apr 14–24</div>
+      </div>
+      <a href={ctaTcp('gm-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">See TCP instead →</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">The Gauntlet Mini — Earn2Trade's intraday evaluation</h1>
+    <p class="text-lg text-muted leading-relaxed mb-6">
+      The Gauntlet Mini is Earn2Trade's <em>intraday</em> futures evaluation — a different product from the <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path</a>. It uses the same underlying rules (EOD drawdown, 10-day minimum, 80/20 split) but it's positioned for traders who specifically want an intraday-only product with larger starting accounts and no scaling ladder. This is the deep review.
+    </p>
+
+    <div class="bg-card border border-border rounded-xl p-5 my-8">
+      <h3 class="font-semibold text-text mb-3">Who Gauntlet Mini is for</h3>
+      <p class="text-sm text-muted mb-2">You should choose Gauntlet Mini over the Trader Career Path ONLY if:</p>
+      <ul class="list-disc pl-6 text-sm text-muted space-y-1">
+        <li>You want to start at $100K, $150K, or $200K — bigger than TCP's $25K–$100K tiers</li>
+        <li>You trade strictly intraday and don't care about a scaling ladder</li>
+        <li>You want a single, self-contained evaluation per purchase (no automatic upgrades)</li>
+      </ul>
+      <p class="text-sm text-muted mt-3">For everyone else — especially beginner and intermediate traders — the Trader Career Path is the better product because it scales you up automatically after passing. Gauntlet Mini is the specialist's choice.</p>
+    </div>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Gauntlet Mini pricing and account sizes</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm border border-border rounded-xl overflow-hidden my-6">
+        <thead class="bg-card">
+          <tr class="text-left text-text">
+            <th class="px-4 py-3">Tier</th>
+            <th class="px-4 py-3">Virtual Capital</th>
+            <th class="px-4 py-3">Profit Goal</th>
+            <th class="px-4 py-3">EOD Drawdown</th>
+            <th class="px-4 py-3">Daily Loss</th>
+            <th class="px-4 py-3">Max Contracts</th>
+            <th class="px-4 py-3">Monthly</th>
+            <th class="px-4 py-3">Reset</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border text-muted">
+          <tr><td class="px-4 py-2">GAU50</td><td class="px-4 py-2">$50,000</td><td class="px-4 py-2">$3,000</td><td class="px-4 py-2">$2,000</td><td class="px-4 py-2">$1,100</td><td class="px-4 py-2">6</td><td class="px-4 py-2">$170</td><td class="px-4 py-2">Dynamic</td></tr>
+          <tr><td class="px-4 py-2">GAU100</td><td class="px-4 py-2">$100,000</td><td class="px-4 py-2">$6,000</td><td class="px-4 py-2">$3,500</td><td class="px-4 py-2">$2,200</td><td class="px-4 py-2">12</td><td class="px-4 py-2">$315</td><td class="px-4 py-2">$100</td></tr>
+          <tr><td class="px-4 py-2">GAU150</td><td class="px-4 py-2">$150,000</td><td class="px-4 py-2">$9,000</td><td class="px-4 py-2">$4,500</td><td class="px-4 py-2">$3,300</td><td class="px-4 py-2">15</td><td class="px-4 py-2">$375</td><td class="px-4 py-2">$130</td></tr>
+          <tr><td class="px-4 py-2">GAU200</td><td class="px-4 py-2">$200,000</td><td class="px-4 py-2">$11,000</td><td class="px-4 py-2">$6,000</td><td class="px-4 py-2">$4,400</td><td class="px-4 py-2">16</td><td class="px-4 py-2">$550</td><td class="px-4 py-2">$155</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-muted mb-6">All prices USD, monthly subscription. India pricing available (INR, exchange rate fixed at 2025 rate). EOD drawdown, 10-day minimum, 80/20 profit split apply across all tiers.</p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Rules — mostly identical to TCP, with a key twist</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      The six core rules are the same as the Trader Career Path: 10 trading days minimum, approved session times only, progression ladder on contracts, daily loss limit, EOD drawdown, consistency rule. See our <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">full TCP rules deep dive</a> — it applies directly to Gauntlet Mini.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The key difference: <strong class="text-text">Gauntlet Mini is intraday-only.</strong> You cannot hold positions overnight or across the close. This is stricter than TCP, which technically doesn't forbid overnight holds (even if most candidates avoid them for gap risk). If your strategy needs any multi-session holding, Gauntlet Mini is not your product.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">GAU50 vs TCP50 — the direct comparison</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Here's the head-to-head that most candidates need to see, because GAU50 and TCP50 look almost identical on the pricing page:
+    </p>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm border border-border rounded-xl overflow-hidden my-6">
+        <thead class="bg-card">
+          <tr class="text-left text-text">
+            <th class="px-4 py-3">Feature</th>
+            <th class="px-4 py-3">GAU50</th>
+            <th class="px-4 py-3">TCP50</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-border text-muted">
+          <tr><td class="px-4 py-2">Virtual capital</td><td class="px-4 py-2">$50,000</td><td class="px-4 py-2">$50,000</td></tr>
+          <tr><td class="px-4 py-2">Profit goal</td><td class="px-4 py-2">$3,000</td><td class="px-4 py-2">$3,000</td></tr>
+          <tr><td class="px-4 py-2">Monthly (regular)</td><td class="px-4 py-2">$170</td><td class="px-4 py-2">$190</td></tr>
+          <tr><td class="px-4 py-2">Monthly (50% off)</td><td class="px-4 py-2">No promo active</td><td class="px-4 py-2"><strong class="text-text">$95 (Apr 14-24)</strong></td></tr>
+          <tr><td class="px-4 py-2">Overnight holds allowed</td><td class="px-4 py-2">No — intraday only</td><td class="px-4 py-2">Yes (rare, gap risk)</td></tr>
+          <tr><td class="px-4 py-2">Scaling after pass</td><td class="px-4 py-2">No ladder — you stay at $50K</td><td class="px-4 py-2"><strong class="text-text">Yes — auto-scales to $400K</strong></td></tr>
+          <tr><td class="px-4 py-2">Reset cost</td><td class="px-4 py-2">Dynamic (varies)</td><td class="px-4 py-2">$65 fixed</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">The verdict:</strong> TCP50 wins this matchup for almost everyone. It's $20 cheaper at full price, currently 50% off during our promo, has a fixed $65 reset cost, allows overnight holds if needed, and most importantly auto-scales your account to $400K after passing. GAU50's only advantage is slightly less stringent overnight hold enforcement — and that's an advantage that actively encourages bad habits anyway.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Where Gauntlet Mini becomes the better choice: <strong class="text-text">GAU150 and GAU200</strong> — account sizes that TCP doesn't offer. If you specifically want to start at $150K or $200K of buying power, Gauntlet Mini is your only option from Earn2Trade. Those tiers exist for experienced traders who know exactly how much capital they need to run their strategy.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The LiveSim activation fee — unique to Gauntlet Mini's funded accounts</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Gauntlet Mini's funded accounts (for Non-professional CME status) have a <strong class="text-text">$139 one-time activation fee</strong>. This is deducted from your first withdrawal, not paid upfront. Professional CME status pays $140/month/exchange data fees instead. Most retail traders are Non-professional and get the better $139 one-time option.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      This is the same structure as TCP LiveSim — it's not a Gauntlet Mini-specific charge. The only reason it comes up here is because Gauntlet Mini's pricing page emphasizes it more prominently. Don't let it scare you; $139 deducted from a first withdrawal is essentially a free product until you make real money.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Our recommendation</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Unless you specifically need a $150K or $200K starting account with intraday-only rules, <strong class="text-text">use the Trader Career Path instead of Gauntlet Mini.</strong> TCP50 is cheaper during the current promo, has the scaling ladder, has a fixed reset cost, and the overnight-hold flexibility is a feature (for swing management), not a bug.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The traders we've seen who pick Gauntlet Mini over TCP and are happy with that choice are: (1) experienced prop traders who want a specific large account size, (2) traders who have explicitly bad habits around overnight holds and want the platform to enforce discipline, (3) traders who are running an intraday-only algorithm and don't need the scaling ladder because they're running many accounts. If you're not in one of those three groups, TCP is the right pick.
+    </p>
+
+    <div class="bg-card border border-border rounded-2xl p-6 my-10">
+      <div class="grid md:grid-cols-2 gap-4">
+        <div>
+          <h3 class="text-lg font-bold text-text mb-2">Start the Trader Career Path</h3>
+          <p class="text-sm text-muted mb-3">Scaling ladder to $400K. 50% off Apr 14–24.</p>
+          <a href={ctaTcp('gm-cta-tcp')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-5 py-2.5 rounded-lg">Start TCP50 →</a>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-text mb-2">Start Gauntlet Mini</h3>
+          <p class="text-sm text-muted mb-3">$150K or $200K intraday evaluation. No current promo.</p>
+          <a href={ctaGm('gm-cta-gm')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-card hover:bg-card-hover border border-border text-text font-semibold text-sm px-5 py-2.5 rounded-lg">View Gauntlet Mini →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Related</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a></li>
+        <li>→ <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Every TCP rule explained (applies to GM too)</a></li>
+        <li>→ <a href="/guides/earn2trade-platforms/" class="text-primary hover:underline">Tradovate vs NinjaTrader vs Finamark</a></li>
+        <li>→ <a href="/review/earn2trade/" class="text-primary hover:underline">Earn2Trade brand review</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay.</p>
+    </footer>
+
+  </article>
+</BaseLayout>

@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const AFFIL = "https://www.earn2trade.com/purchase?plan=TCP50&a_pid=ToolsTradingHub&a_bid=2e8e8a14";
+const cta = (m: string) => `${AFFIL}&utm_source=tth&utm_medium=${m}&utm_campaign=tcp-apr14`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Earn2Trade Withdrawal Guide — How Payouts Actually Work (2026)",
+  "author": { "@type": "Organization", "name": "TradingToolsHub" },
+  "datePublished": "2026-04-13",
+  "dateModified": "2026-04-13",
+  "description": "How Earn2Trade withdrawals actually work — 80/20 split, $139 activation fee, minimum thresholds, processing time, crypto payouts, and withdrawal mechanics."
+};
+---
+<BaseLayout
+  title="Earn2Trade Withdrawal Guide — How Payouts Work (2026)"
+  description="Complete guide to Earn2Trade withdrawals: 80/20 profit split, $139 one-time LiveSim activation, minimum thresholds, payment methods, processing times, and the rules that matter."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+
+    <nav class="text-xs text-muted mb-4">
+      <a href="/" class="hover:text-primary">Home</a> ·
+      <a href="/prop-firms/trader-career-path/" class="hover:text-primary">Trader Career Path</a> ·
+      <span class="text-text">Withdrawal Guide</span>
+    </nav>
+
+    <div class="bg-gradient-to-r from-featured/15 via-primary/10 to-featured/15 border border-featured/40 rounded-xl p-4 mb-8 flex flex-wrap items-center gap-3">
+      <div class="flex-1 min-w-[240px]">
+        <div class="text-[11px] uppercase tracking-wider text-featured font-bold">50% Off — Apr 14 to 24</div>
+        <div class="text-sm text-text">Code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code> · auto-applies</div>
+      </div>
+      <a href={cta('withdraw-banner-top')} target="_blank" rel="nofollow sponsored noopener" class="bg-featured hover:bg-yellow-400 text-black font-bold text-sm px-4 py-2 rounded-lg">Start TCP →</a>
+    </div>
+
+    <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">How Earn2Trade withdrawals actually work</h1>
+    <p class="text-lg text-muted leading-relaxed mb-6">
+      Most questions about prop firm withdrawals sound simple — "when do I get paid?" — but the answer depends on which account type you're on, whether you've cleared the activation fee, and how Earn2Trade's prop partner processes the payout. This is the plain-English breakdown for Trader Career Path and Gauntlet Mini funded traders.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The core split: 80/20, and what it actually means</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Every dollar of profit on an Earn2Trade funded account is split 80/20: <strong class="text-text">you keep 80%, Earn2Trade's prop partner keeps 20%</strong>. This is a clean split — no tiered rates, no performance thresholds, no changes as you scale up the ladder from $100K to $400K.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Example: you net +$5,000 of profit in a month. You submit a withdrawal for $5,000. Earn2Trade deducts $1,000 (the 20% firm share) and pays you $4,000 — minus any fees or the LiveSim activation if it's your first payout.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      The split is below the industry's best rates. Apex Trader Funding pays 100% on the first $25K of cumulative profits. Topstep pays 90/10 after the first $10K. But those rates come with trailing drawdown and (in Apex's case) no explicit scaling ladder. Earn2Trade's 80/20 is the price of the EOD drawdown + automatic scaling structure — see our <a href="/blog/earn2trade-vs-topstep-vs-apex-2026/" class="text-primary hover:underline">3-way comparison</a> for the full tradeoff.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">The $139 LiveSim activation fee</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      If you pick a <a href="/guides/earn2trade-livesim-vs-live/" class="text-primary hover:underline">LiveSim account</a> after passing (recommended for most traders), there's a <strong class="text-text">$139 one-time activation fee</strong>. But — and this is the important part — <strong class="text-text">you don't pay it upfront</strong>. It's deducted from your first withdrawal.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      So if your first profit withdrawal is, say, $2,500:
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-1 mb-4">
+      <li>Gross profit: $2,500</li>
+      <li>Earn2Trade 20% split: -$500</li>
+      <li>LiveSim one-time activation: -$139</li>
+      <li><strong class="text-text">Net to you: $1,861</strong></li>
+    </ul>
+    <p class="text-muted leading-relaxed mb-4">
+      From your second withdrawal onwards, only the 20% split applies. The $139 is a one-time hit, paid only once per funded account, and only if you're on LiveSim.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      If you pick a Live account instead, you pay the $139 upfront at activation. Mathematically identical — it's just paid at the beginning instead of the end.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Minimum withdrawal amounts</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Earn2Trade's prop partner doesn't publish a fixed minimum withdrawal amount publicly — it's noted in the funded account paperwork you sign after passing. Industry-standard minimums for futures prop firms sit in the $500–$1,000 range, and Earn2Trade is consistent with this.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Practically: don't try to withdraw $80 or $200. Let your funded account accumulate a meaningful amount (at least $500, ideally $1,000+) before you request a payout. This minimizes the mental tax of constantly thinking about withdrawals and maximizes the amount of capital you have working for you between payouts.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Payment methods</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Earn2Trade's prop partner supports multiple payout methods. The options that matter to most traders:
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li><strong class="text-text">Bank transfer (wire / ACH):</strong> Standard for US traders. 2–5 business days processing typical. Some banks charge an incoming wire fee ($15–$25).</li>
+      <li><strong class="text-text">International wire:</strong> For non-US traders. 3–7 business days, bank fees on both sides. Check your receiving bank's fee schedule.</li>
+      <li><strong class="text-text">Cryptocurrency:</strong> Available in some regions for traders who prefer to avoid banking rails. Processing time shorter than wire (24–48 hours typical), but the network fees depend on chain congestion. Good option for international traders in banking-unfriendly regions.</li>
+      <li><strong class="text-text">PayPal:</strong> May be available for smaller amounts. Fastest processing but PayPal's own fee structure applies.</li>
+    </ul>
+    <p class="text-muted leading-relaxed mb-4">
+      The exact payout options available to you depend on your region and what Earn2Trade's prop partner currently supports. This changes from time to time — always check your funded account dashboard for current options.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Processing time — from request to funds in your account</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Here's the realistic timeline:
+    </p>
+    <ul class="list-disc pl-6 text-muted space-y-2 mb-6">
+      <li><strong class="text-text">Day 0:</strong> Submit withdrawal request in dashboard.</li>
+      <li><strong class="text-text">Day 1–3:</strong> Earn2Trade's prop partner reviews and approves the request.</li>
+      <li><strong class="text-text">Day 3–5:</strong> Payment processor initiates the transfer.</li>
+      <li><strong class="text-text">Day 5–10:</strong> Funds land in your account (depends on method — crypto faster, wire slower).</li>
+    </ul>
+    <p class="text-muted leading-relaxed mb-4">
+      Plan for 5–10 business days end-to-end on your first withdrawal. Subsequent withdrawals are typically faster because the banking/crypto rails are already set up.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Withdrawal frequency — how often you can cash out</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Earn2Trade's funded accounts support frequent withdrawals — typically once per month or bi-weekly, depending on your account setup and the prop partner's current policy. Some traders request every 30 days; others wait until they have a meaningful amount accumulated.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">A consideration for TCP traders specifically:</strong> withdrawing triggers the scaling ladder on TCP. When you withdraw the full profit target from your current account size, you auto-upgrade to the next tier on the ladder (e.g., $100K → $150K). So withdrawals aren't just cash-outs — they're the mechanism for scaling up your account. This is one of the best features of TCP and a key reason to pick it over Gauntlet Mini.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Tax implications (not advice, just reality)</h2>
+    <p class="text-muted leading-relaxed mb-4">
+      Prop firm payouts are generally classified as self-employment income, not capital gains. This matters for taxes — self-employment income is subject to self-employment tax in addition to income tax, while capital gains (for short-term holding) are subject to regular income tax but not SE tax. The trade is with the prop firm's capital, not yours, so from the IRS's perspective you're providing a service (trading skill) rather than investing your own money.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      Earn2Trade's prop partner will issue you a 1099-NEC or equivalent tax form if your annual earnings cross the reporting threshold ($600 in the US). Keep track of your withdrawal amounts and any fees paid — both are relevant for tax filing.
+    </p>
+    <p class="text-muted leading-relaxed mb-4">
+      <strong class="text-text">This is not tax advice.</strong> Talk to a CPA who understands prop trader income if you're making meaningful money from Earn2Trade. The treatment can vary by country and individual situation.
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-bold text-text mt-10 mb-4">Troubleshooting — common withdrawal issues</h2>
+    <ul class="list-disc pl-6 text-muted space-y-3 mb-6">
+      <li><strong class="text-text">"My withdrawal is taking longer than expected."</strong> First withdrawals are always slower because your payment details need KYC verification and the payment rail needs to be established. 7–10 business days is normal. If it's been more than 15 business days, email Earn2Trade support with your account ID.</li>
+      <li><strong class="text-text">"My withdrawal was less than I expected."</strong> Check: (1) Is this your first withdrawal? The $139 LiveSim activation is deducted from the first payout. (2) Did you receive the 80% figure, not the gross? 20% goes to the prop partner. (3) Are there banking fees on the receiving side? Some banks charge $15–$25 for incoming wires.</li>
+      <li><strong class="text-text">"I want to withdraw but haven't hit the minimum."</strong> Keep trading. Withdraw when you have a meaningful amount. Small withdrawals are both annoying to process and cost you more in fees as a percentage.</li>
+      <li><strong class="text-text">"I changed my mind about LiveSim vs Live."</strong> LiveSim → Live: yes, you can request a switch at any time. Live → LiveSim: no, it's one-way. Choose Live only if you're sure.</li>
+    </ul>
+
+    <div class="bg-card border border-border rounded-2xl p-6 my-10 text-center">
+      <h3 class="text-xl font-bold text-text mb-2">Not funded yet?</h3>
+      <p class="text-sm text-muted mb-4">Pass the evaluation first. 50% off TCP Apr 14–24, code <code class="bg-featured/20 text-featured px-1.5 py-0.5 rounded font-mono text-xs">ToolsTradingHub</code>.</p>
+      <a href={cta('withdraw-cta-main')} target="_blank" rel="nofollow sponsored noopener" class="inline-flex bg-featured hover:bg-yellow-400 text-black font-bold px-6 py-3 rounded-xl">Start Trader Career Path →</a>
+    </div>
+
+    <div class="border-t border-border pt-8 mt-10">
+      <h2 class="text-xl font-bold text-text mb-4">Related</h2>
+      <ul class="space-y-2 text-sm">
+        <li>→ <a href="/prop-firms/trader-career-path/" class="text-primary hover:underline">Trader Career Path full review</a></li>
+        <li>→ <a href="/guides/earn2trade-livesim-vs-live/" class="text-primary hover:underline">LiveSim vs Live — which to pick</a></li>
+        <li>→ <a href="/guides/trader-career-path-rules/" class="text-primary hover:underline">Every TCP rule explained</a></li>
+        <li>→ <a href="/blog/earn2trade-vs-topstep-vs-apex-2026/" class="text-primary hover:underline">Earn2Trade vs Topstep vs Apex comparison</a></li>
+      </ul>
+    </div>
+
+    <footer class="border-t border-border pt-6 mt-10 text-xs text-muted leading-relaxed">
+      <p><strong class="text-text">Affiliate disclosure:</strong> TradingToolsHub earns a commission when you sign up for Earn2Trade through the links on this page. This does not change the price you pay. Nothing in this article is tax advice — consult a CPA for your specific tax situation.</p>
+    </footer>
+
+  </article>
+</BaseLayout>
