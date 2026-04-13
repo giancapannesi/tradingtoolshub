@@ -100,5 +100,7 @@
     "quantconnect"
   ],
   "last_updated": "2026-04-02",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Alpaca Markets Review 2026",
+  "meta_description": "Commission-free API-first brokerage for developers and algorithmic traders, supporting stocks and crypto with robust REST and WebSocket APIs."
 }

@@ -8,7 +8,7 @@
     "funded-trading"
   ],
   "description_short": "My Funded Futures is a futures-focused prop firm offering fast payouts, no activation fees, and a simplified one-phase evaluation with up to 90% profit splits.",
-  "description_long": "My Funded Futures (MFFU) is a futures proprietary trading firm founded in 2023 by Matthew Leech, quickly establishing itself as one of the most trader-friendly prop firms in the industry. With over 16,000 Trustpilot reviews averaging 4.9 out of 5 stars, MFFU has built a strong reputation for transparency, fair rules, and fast capital access for futures traders trading CME Group instruments including ES, NQ, YM, RTY, CL, and GC.\n\nWhat sets MFFU apart from the competition is its elimination of activation fees \u2014 a cost that most competitors charge at $149 to $300 or more just to access a funded account after passing an evaluation. Combined with industry-leading payout speeds (first payout in as little as 15\u201320 minutes, subsequent payouts in seconds), MFFU offers a genuinely streamlined path to getting paid. The firm boasts a roughly 25% pass rate on evaluations, approximately double the industry average, reflecting its trader-centric rule structure.\n\nMFFU offers three main account types \u2014 Core, Rapid, and Pro \u2014 each with different drawdown methodologies and profit split arrangements. Core accounts use end-of-day trailing drawdown with 80/20 splits, Rapid accounts use intraday trailing drawdown with 90/10 splits, and Pro accounts offer EOD trailing with 80/20 splits but no consistency rules on funded accounts. All plans support trading through Rithmic, NinjaTrader, Tradovate, TradingView (via Rithmic), ATAS, and Volumetrica, giving traders flexibility in their platform of choice.\n\nAfter achieving five consecutive profitable payouts, MFFU traders become eligible to transition to a real live trading account, providing a genuine long-term career pathway. The firm is futures-only and does not support stocks, options, forex, or crypto, making it specifically suited for traders focused on futures markets who value straightforward rules, competitive pricing, and rapid access to their earned capital.",
+  "description_long": "My Funded Futures (MFFU) is a futures proprietary trading firm founded in 2023 by Matthew Leech, quickly establishing itself as one of the most trader-friendly prop firms in the industry. With over 16,000 Trustpilot reviews averaging 4.9 out of 5 stars, MFFU has built a strong reputation for transparency, fair rules, and fast capital access for futures traders trading CME Group instruments including ES, NQ, YM, RTY, CL, and GC.\n\nWhat sets MFFU apart from the competition is its elimination of activation fees — a cost that most competitors charge at $149 to $300 or more just to access a funded account after passing an evaluation. Combined with industry-leading payout speeds (first payout in as little as 15–20 minutes, subsequent payouts in seconds), MFFU offers a genuinely streamlined path to getting paid. The firm boasts a roughly 25% pass rate on evaluations, approximately double the industry average, reflecting its trader-centric rule structure.\n\nMFFU offers three main account types — Core, Rapid, and Pro — each with different drawdown methodologies and profit split arrangements. Core accounts use end-of-day trailing drawdown with 80/20 splits, Rapid accounts use intraday trailing drawdown with 90/10 splits, and Pro accounts offer EOD trailing with 80/20 splits but no consistency rules on funded accounts. All plans support trading through Rithmic, NinjaTrader, Tradovate, TradingView (via Rithmic), ATAS, and Volumetrica, giving traders flexibility in their platform of choice.\n\nAfter achieving five consecutive profitable payouts, MFFU traders become eligible to transition to a real live trading account, providing a genuine long-term career pathway. The firm is futures-only and does not support stocks, options, forex, or crypto, making it specifically suited for traders focused on futures markets who value straightforward rules, competitive pricing, and rapid access to their earned capital.",
   "logo_url": "/logos/my-funded-futures.svg",
   "screenshots": [],
   "website_url": "https://myfundedfutures.com",
@@ -135,14 +135,14 @@
     "futures"
   ],
   "pros": [
-    "No activation fees \u2014 eliminates $149\u2013$300+ cost charged by most competitors",
-    "Industry-leading payout speed with first payout in as little as 15\u201320 minutes",
+    "No activation fees — eliminates $149–$300+ cost charged by most competitors",
+    "Industry-leading payout speed with first payout in as little as 15–20 minutes",
     "~25% evaluation pass rate, roughly double the industry average",
     "No consistency rules on funded Pro accounts, giving traders full flexibility",
     "Clear path to a real live trading account after 5 consecutive payouts"
   ],
   "cons": [
-    "Futures-only \u2014 no support for stocks, forex, options, or crypto",
+    "Futures-only — no support for stocks, forex, options, or crypto",
     "No proprietary mobile app; active mobile trading depends on Tradovate",
     "Relatively new firm (founded 2023) with a shorter track record than legacy competitors",
     "Monthly subscription fees are non-refundable on failed evaluations"
@@ -171,5 +171,7 @@
     "bulenox"
   ],
   "last_updated": "2026-03-18",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "My Funded Futures Review 2026",
+  "meta_description": "My Funded Futures is a futures-focused prop firm offering fast payouts, no activation fees, and a simplified one-phase evaluation with up to 90% profit."
 }

@@ -8,7 +8,7 @@
     "one-time-fee"
   ],
   "description_short": "Futures-only prop firm founded by French traders offering one-time evaluation fees, EOD drawdown rules, and up to 90% profit splits with fast payouts via Phidias Wallet.",
-  "description_long": "Phidias PropFirm is a Gibraltar-registered proprietary trading firm founded in 2023 by experienced French futures traders. The firm specializes exclusively in CME and CBOT futures markets, covering stock index futures (ES, NQ, YM, RTY), forex futures (6E, 6B, 6J), commodities (CL, GC, SI, NG), bonds (ZT, ZF, ZN, ZB), and crypto micro contracts (MBT, MET). With a philosophy built around trader-friendly rules and transparent costs, Phidias positions itself as a competitive alternative to firms with strict intraday drawdown limits and recurring fees.\n\nOne of Phidias's most compelling features is its pricing model \u2014 evaluations are one-time payments with no activation fees, no data feed fees, and no monthly subscriptions. The Fundamental lineup starts at roughly $116 for a $50K account and scales to approximately $173 for $150K. Static accounts ($25K) are available for around $55, making Phidias one of the more affordable entry points in the futures prop firm space. Frequent promotions (including codes offering up to 80% off evaluations) further reduce the barrier to entry.\n\nDrawdown is calculated end-of-day (EOD), meaning intraday dips that recover before close do not count against the trader \u2014 a meaningfully more forgiving rule than the intraday trailing drawdown used by many competitors. CASH account holders earn an 80% profit split subject to monthly payout caps, while LIVE accounts \u2014 unlocked after $75K in cumulative CASH withdrawals \u2014 offer up to a 90% split, no payout caps, and daily withdrawals processed in 1\u20134 hours via the proprietary Phidias Wallet platform launched in 2025. Traders must log 10 profitable trading days before requesting their first withdrawal.\n\nPhidias supports any Rithmic-compatible platform, including Sierra Chart, Quantower, ATAS, Bookmap, and MotiveWave. News trading is permitted across all account types. Prohibited strategies include fully automated or HFT systems, bond tick arbitrage, spread trading between maturities, and holding inverse positions across accounts simultaneously. Traders may hold up to 15 funded accounts at once (5 Fundamental + 5 Swing + 5 Static).",
+  "description_long": "Phidias PropFirm is a Gibraltar-registered proprietary trading firm founded in 2023 by experienced French futures traders. The firm specializes exclusively in CME and CBOT futures markets, covering stock index futures (ES, NQ, YM, RTY), forex futures (6E, 6B, 6J), commodities (CL, GC, SI, NG), bonds (ZT, ZF, ZN, ZB), and crypto micro contracts (MBT, MET). With a philosophy built around trader-friendly rules and transparent costs, Phidias positions itself as a competitive alternative to firms with strict intraday drawdown limits and recurring fees.\n\nOne of Phidias's most compelling features is its pricing model — evaluations are one-time payments with no activation fees, no data feed fees, and no monthly subscriptions. The Fundamental lineup starts at roughly $116 for a $50K account and scales to approximately $173 for $150K. Static accounts ($25K) are available for around $55, making Phidias one of the more affordable entry points in the futures prop firm space. Frequent promotions (including codes offering up to 80% off evaluations) further reduce the barrier to entry.\n\nDrawdown is calculated end-of-day (EOD), meaning intraday dips that recover before close do not count against the trader — a meaningfully more forgiving rule than the intraday trailing drawdown used by many competitors. CASH account holders earn an 80% profit split subject to monthly payout caps, while LIVE accounts — unlocked after $75K in cumulative CASH withdrawals — offer up to a 90% split, no payout caps, and daily withdrawals processed in 1–4 hours via the proprietary Phidias Wallet platform launched in 2025. Traders must log 10 profitable trading days before requesting their first withdrawal.\n\nPhidias supports any Rithmic-compatible platform, including Sierra Chart, Quantower, ATAS, Bookmap, and MotiveWave. News trading is permitted across all account types. Prohibited strategies include fully automated or HFT systems, bond tick arbitrage, spread trading between maturities, and holding inverse positions across accounts simultaneously. Traders may hold up to 15 funded accounts at once (5 Fundamental + 5 Swing + 5 Static).",
   "logo_url": "/logos/phidias-propfirm.svg",
   "screenshots": [],
   "website_url": "https://phidias.io",
@@ -96,13 +96,13 @@
   ],
   "pros": [
     "One-time evaluation fees with no monthly subscription, activation, or data feed costs",
-    "EOD drawdown calculation \u2014 intraday dips that recover before close don't count",
+    "EOD drawdown calculation — intraday dips that recover before close don't count",
     "Up to 90% profit split on LIVE accounts with no payout caps and daily withdrawals",
     "News trading permitted on all account types",
-    "Fast 1\u20134 hour payouts via proprietary Phidias Wallet"
+    "Fast 1–4 hour payouts via proprietary Phidias Wallet"
   ],
   "cons": [
-    "Futures only \u2014 no spot forex, stocks, options, or spot crypto",
+    "Futures only — no spot forex, stocks, options, or spot crypto",
     "Relatively new firm (2023) with limited long-term track record",
     "CASH accounts have monthly payout caps that restrict earning potential until $75K threshold",
     "Rithmic-compatible platform required adds a setup learning curve for beginners"
@@ -131,5 +131,7 @@
     "elite-trader-funding"
   ],
   "last_updated": "2026-03-15",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Phidias PropFirm Review 2026",
+  "meta_description": "Futures-only prop firm founded by French traders offering one-time evaluation fees, EOD drawdown rules, and up to 90% profit splits with fast payouts via."
 }

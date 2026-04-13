@@ -2,7 +2,11 @@
   "name": "SMB Capital",
   "slug": "smb-capital",
   "category": "prop-firms",
-  "subcategories": ["institutional", "professional-training", "prop-education"],
+  "subcategories": [
+    "institutional",
+    "professional-training",
+    "prop-education"
+  ],
   "description_short": "Professional proprietary trading firm offering elite training programs, mentorship, and a path to trading firm capital.",
   "description_long": "SMB Capital is a New York City-based proprietary trading firm that also offers professional-grade trading education. Founded by Mike Bellafiore (author of 'One Good Trade' and 'The PlayBook'), SMB combines institutional trading experience with structured educational programs.\n\nSMB's training approach is modeled on how professional trading firms develop talent, with an emphasis on developing a trading playbook, understanding market microstructure, and building mental discipline. The firm offers remote training programs, live trading education, and mentorship from active professional traders.\n\nWhat makes SMB unique is that it is an actual proprietary trading firm with real traders, not just an education company. Top students may have the opportunity to trade firm capital. Programs range from online courses to intensive multi-week training sessions, with pricing typically in the $5,000-$10,000 range.",
   "logo_url": "/logos/smb-capital.svg",
@@ -16,27 +20,88 @@
     "has_free_tier": false,
     "starting_price": 0,
     "tiers": [
-      {"name": "Online Training", "price_monthly": 0, "price_yearly": 0, "features": ["Video courses", "Trading Playbook methodology", "Market analysis", "Custom pricing"]},
-      {"name": "Intensive Program", "price_monthly": 0, "price_yearly": 0, "features": ["Multi-week training", "Live mentorship", "Professional trader access", "Path to firm capital", "Custom pricing"]}
+      {
+        "name": "Online Training",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Video courses",
+          "Trading Playbook methodology",
+          "Market analysis",
+          "Custom pricing"
+        ]
+      },
+      {
+        "name": "Intensive Program",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Multi-week training",
+          "Live mentorship",
+          "Professional trader access",
+          "Path to firm capital",
+          "Custom pricing"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": false,
-    "mobile_app": false, "api_access": false, "social_features": true, "broker_integration": false,
-    "custom_indicators": false, "automated_trading": false, "journaling": true,
-    "performance_analytics": false, "risk_management": true, "news_feed": false, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["stocks", "options"],
-  "pros": ["Training by an actual proprietary trading firm", "Mike Bellafiore's PlayBook methodology is proven", "Potential path to trading firm capital", "Focus on professional-grade skills"],
-  "cons": ["Expensive programs ($5,000-$10,000+)", "Not suitable for complete beginners", "NYC-centric for in-person programs", "Pricing not transparent on website"],
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Training by an actual proprietary trading firm",
+    "Mike Bellafiore's PlayBook methodology is proven",
+    "Potential path to trading firm capital",
+    "Focus on professional-grade skills"
+  ],
+  "cons": [
+    "Expensive programs ($5,000-$10,000+)",
+    "Not suitable for complete beginners",
+    "NYC-centric for in-person programs",
+    "Pricing not transparent on website"
+  ],
   "rating": 4.3,
-  "rating_breakdown": {"ease_of_use": 3.5, "features": 4.2, "value": 3.5, "support": 4.5, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.2,
+    "value": 3.5,
+    "support": 4.5,
+    "reliability": 4.5
+  },
   "founded_year": 2005,
   "company": "SMB Capital LLC",
   "headquarters": "New York, New York",
-  "best_for": ["aspiring professional traders", "serious day traders", "traders seeking prop firm capital"],
-  "similar_tools": ["warrior-trading", "bear-bull-traders", "investopedia-academy"],
+  "best_for": [
+    "aspiring professional traders",
+    "serious day traders",
+    "traders seeking prop firm capital"
+  ],
+  "similar_tools": [
+    "warrior-trading",
+    "bear-bull-traders",
+    "investopedia-academy"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "SMB Capital Review 2026",
+  "meta_description": "Professional proprietary trading firm offering elite training programs, mentorship, and a path to trading firm capital."
 }

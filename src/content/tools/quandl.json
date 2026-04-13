@@ -9,7 +9,7 @@
     "economic-data"
   ],
   "description_short": "Nasdaq's financial data marketplace with 250+ datasets and a unified RESTful API covering stocks, options, futures, forex, and economic indicators.",
-  "description_long": "Quandl, now operating as Nasdaq Data Link, is a leading financial and alternative data marketplace originally founded in 2012 and acquired by Nasdaq in December 2018. Rebranded in September 2021, the platform serves over 650,000 financial professionals worldwide, offering access to more than 250 curated datasets from Nasdaq and third-party data providers through a single, standardized API.\n\nThe platform operates as a data marketplace where users subscribe to individual datasets covering equities, options, futures, forex, economic indicators, and alternative data. Free datasets \u2014 including Federal Reserve data, real estate metrics, and consumer sentiment indices \u2014 are available at no cost with a free account. Premium datasets are priced \u00e0 la carte per subscription, with free sample data available before committing to a purchase, making it easy to evaluate data quality before spending.\n\nNasdaq Data Link is built API-first, offering a RESTful interface that returns data in CSV, JSON, or XML formats. Official SDKs are available for Python, R, Ruby, and Excel, making integration straightforward for quantitative analysts and developers. Premium subscribers see rate limits increase from 50,000 API calls per day on the free tier to 720,000 per day, along with full database bulk download capabilities. The platform also integrates natively with QuantConnect for algorithmic trading workflows.\n\nWhat distinguishes Nasdaq Data Link is the combination of Nasdaq's institutional-grade data infrastructure with a curated marketplace of third-party alternative datasets \u2014 all accessible through one API. This makes it a primary resource for quants, data scientists, and institutional investors seeking both traditional financial data and differentiated alternative datasets for systematic alpha generation.",
+  "description_long": "Quandl, now operating as Nasdaq Data Link, is a leading financial and alternative data marketplace originally founded in 2012 and acquired by Nasdaq in December 2018. Rebranded in September 2021, the platform serves over 650,000 financial professionals worldwide, offering access to more than 250 curated datasets from Nasdaq and third-party data providers through a single, standardized API.\n\nThe platform operates as a data marketplace where users subscribe to individual datasets covering equities, options, futures, forex, economic indicators, and alternative data. Free datasets — including Federal Reserve data, real estate metrics, and consumer sentiment indices — are available at no cost with a free account. Premium datasets are priced à la carte per subscription, with free sample data available before committing to a purchase, making it easy to evaluate data quality before spending.\n\nNasdaq Data Link is built API-first, offering a RESTful interface that returns data in CSV, JSON, or XML formats. Official SDKs are available for Python, R, Ruby, and Excel, making integration straightforward for quantitative analysts and developers. Premium subscribers see rate limits increase from 50,000 API calls per day on the free tier to 720,000 per day, along with full database bulk download capabilities. The platform also integrates natively with QuantConnect for algorithmic trading workflows.\n\nWhat distinguishes Nasdaq Data Link is the combination of Nasdaq's institutional-grade data infrastructure with a curated marketplace of third-party alternative datasets — all accessible through one API. This makes it a primary resource for quants, data scientists, and institutional investors seeking both traditional financial data and differentiated alternative datasets for systematic alpha generation.",
   "logo_url": "/logos/quandl.svg",
   "screenshots": [],
   "website_url": "https://data.nasdaq.com",
@@ -39,7 +39,7 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "\u00c0 la carte dataset subscriptions",
+          "À la carte dataset subscriptions",
           "250+ premium datasets available",
           "5,000 API calls per 10 minutes",
           "720,000 API calls per day",
@@ -83,7 +83,7 @@
     "Free data samples available before committing to premium dataset subscriptions"
   ],
   "cons": [
-    "Premium dataset pricing is opaque \u2014 no standardized public price table",
+    "Premium dataset pricing is opaque — no standardized public price table",
     "Purely API and developer-focused with no visual dashboard or charting UI",
     "Individual dataset subscriptions can be costly for independent or retail traders",
     "Free tier API rate limits are restrictive for high-frequency or bulk data needs"
@@ -112,5 +112,7 @@
     "tiingo"
   ],
   "last_updated": "2026-03-21",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Quandl (Nasdaq Data Link) Review 2026",
+  "meta_description": "Nasdaq's financial data marketplace with 250+ datasets and a unified RESTful API covering stocks, options, futures, forex, and economic indicators."
 }

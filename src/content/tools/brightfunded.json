@@ -7,14 +7,14 @@
     "2-step-challenge",
     "cfd-trading"
   ],
-  "description_short": "Netherlands-based prop firm founded in 2023 offering 2-step funded challenges with 80\u2013100% profit splits, ~4-hour payouts, and a unique Trade2Earn loyalty program.",
-  "description_long": "BrightFunded is a rapidly growing proprietary trading firm headquartered in Amsterdam, Netherlands, and operated by Bright Global FZCO. Since launching in 2023, the firm has onboarded over 10,000 funded traders across 168 countries and distributed more than $8.2 million in payouts. Their straightforward 2-step evaluation model offers account sizes from $5,000 up to $200,000, with a maximum total allocation of $400,000 per trader.\n\nThe challenge structure requires traders to hit an 8% profit target in Phase 1 and a 5% target in Phase 2, while respecting a 5% daily loss limit and 10% maximum drawdown across both phases. A minimum of 5 trading days per phase applies by default, though this and other parameters can be modified through paid add-ons \u2014 including weekly payouts, a 90% profit split upgrade, and full challenge fee refunds. Challenge fees start at $55 for a $5,000 account and scale to $297 for a $200,000 account, all of which are refundable upon passing.\n\nBrightFunded supports trading on cTrader, DXtrade, and MetaTrader 5 \u2014 all available on desktop, web, and mobile. Automated trading via Expert Advisors is fully supported on MT5 and cTrader. One standout feature is the Trade2Earn loyalty program, which awards tokens on every trade (including losses) redeemable for free challenges, profit split boosts, and other perks. Payouts average around 4 hours and are guaranteed within 24 hours.\n\nThe platform covers 150+ CFD instruments across forex (49 pairs), crypto (40+ assets), indices, and commodities. Profit splits begin at 80% and can scale to 100% through the unlimited scaling plan, with account sizes growing every few months without restrictions. The affiliate program offers 10\u201315% tiered commissions paid in USDC or bank transfer.",
+  "description_short": "Netherlands-based prop firm founded in 2023 offering 2-step funded challenges with 80–100% profit splits, ~4-hour payouts, and a unique Trade2Earn loyalty program.",
+  "description_long": "BrightFunded is a rapidly growing proprietary trading firm headquartered in Amsterdam, Netherlands, and operated by Bright Global FZCO. Since launching in 2023, the firm has onboarded over 10,000 funded traders across 168 countries and distributed more than $8.2 million in payouts. Their straightforward 2-step evaluation model offers account sizes from $5,000 up to $200,000, with a maximum total allocation of $400,000 per trader.\n\nThe challenge structure requires traders to hit an 8% profit target in Phase 1 and a 5% target in Phase 2, while respecting a 5% daily loss limit and 10% maximum drawdown across both phases. A minimum of 5 trading days per phase applies by default, though this and other parameters can be modified through paid add-ons — including weekly payouts, a 90% profit split upgrade, and full challenge fee refunds. Challenge fees start at $55 for a $5,000 account and scale to $297 for a $200,000 account, all of which are refundable upon passing.\n\nBrightFunded supports trading on cTrader, DXtrade, and MetaTrader 5 — all available on desktop, web, and mobile. Automated trading via Expert Advisors is fully supported on MT5 and cTrader. One standout feature is the Trade2Earn loyalty program, which awards tokens on every trade (including losses) redeemable for free challenges, profit split boosts, and other perks. Payouts average around 4 hours and are guaranteed within 24 hours.\n\nThe platform covers 150+ CFD instruments across forex (49 pairs), crypto (40+ assets), indices, and commodities. Profit splits begin at 80% and can scale to 100% through the unlimited scaling plan, with account sizes growing every few months without restrictions. The affiliate program offers 10–15% tiered commissions paid in USDC or bank transfer.",
   "logo_url": "/logos/brightfunded.svg",
   "screenshots": [],
   "website_url": "https://brightfunded.com",
   "affiliate_url": "",
   "affiliate_program": "BrightFunded Affiliate Program",
-  "affiliate_commission": "10\u201315% tiered commission per referral challenge purchase",
+  "affiliate_commission": "10–15% tiered commission per referral challenge purchase",
   "affiliate_cookie_days": 30,
   "pricing": {
     "has_free_tier": false,
@@ -111,9 +111,9 @@
     "Competitive challenge fees with full refund on passing"
   ],
   "cons": [
-    "Founded in 2023 \u2014 limited long-term track record compared to established firms",
+    "Founded in 2023 — limited long-term track record compared to established firms",
     "No dedicated standalone app; mobile trading requires third-party platform apps",
-    "CFD-only \u2014 no futures, stocks, or options markets available",
+    "CFD-only — no futures, stocks, or options markets available",
     "API access not available; algorithmic trading limited to EA-based platforms"
   ],
   "rating": 4.2,
@@ -140,5 +140,7 @@
     "topstep"
   ],
   "last_updated": "2026-03-16",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "BrightFunded Review 2026",
+  "meta_description": "Netherlands-based prop firm founded in 2023 offering 2-step funded challenges with 80–100% profit splits, ~4-hour payouts, and a unique Trade2Earn loyalty."
 }

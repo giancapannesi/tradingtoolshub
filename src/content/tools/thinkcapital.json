@@ -8,13 +8,13 @@
     "funded-accounts"
   ],
   "description_short": "ThinkCapital is a prop firm backed by regulated broker ThinkMarkets, offering 1-, 2-, and 3-step challenges across 4,000+ instruments with up to 90% profit splits.",
-  "description_long": "ThinkCapital is a proprietary trading firm launched in July 2024, built on the infrastructure of ThinkMarkets \u2014 a globally regulated broker with over a decade of experience and regulatory oversight from the FCA (UK), ASIC (Australia), and CySEC (Cyprus). This institutional backing gives ThinkCapital a level of credibility and financial stability that is rare among prop firms, which are often standalone startups with limited operating histories.\n\nTraders can choose from three challenge structures: the Nexus (3-step) for a more accessible entry with progressive profit targets of 7%, 6%, and 5%; the Lightning (1-step) for traders seeking rapid funding with a single 10% target; and the Dual Step (2-step) as a middle-ground at 8% then 5%. All accounts carry a static 8% maximum drawdown (Lightning uses 6% trailing) and a 4% daily drawdown, with a minimum of 3 trading days per phase and leverage up to 1:100. Challenge fees start at $39 for a $5K Nexus account, with frequent promo codes cutting 25\u201340% off listed prices.\n\nThe trading environment spans over 4,000 instruments including 50+ forex pairs, major indices (US30, NAS100, GER40), commodities (gold, silver, WTI/Brent oil), crypto (BTC and ETH at 1:2 leverage), and ETFs. Markets are accessed through MetaTrader 5, the proprietary ThinkTrader platform on desktop, web, and mobile, or TradingView with direct chart-trading integration. Expert Advisors are permitted as a paid add-on. ThinkTrader includes standout tools like a TrendRisk Scanner and Traders' Gym \u2014 a historical simulation environment for strategy practice.\n\nPayout splits default to 80% to the trader, upgradable to 90% via a fee add-on of approximately 25% on the challenge price. Payouts are bi-weekly by default, with weekly payouts unlockable over time and a scaling path up to $1.5 million in allocated capital. Challenge fees are refunded upon successful completion. The affiliate program offers tiered commissions ranging from 10% at the Starter level to 25% for Master-tier partners (300+ referrals), paid via crypto or bank transfer.",
+  "description_long": "ThinkCapital is a proprietary trading firm launched in July 2024, built on the infrastructure of ThinkMarkets — a globally regulated broker with over a decade of experience and regulatory oversight from the FCA (UK), ASIC (Australia), and CySEC (Cyprus). This institutional backing gives ThinkCapital a level of credibility and financial stability that is rare among prop firms, which are often standalone startups with limited operating histories.\n\nTraders can choose from three challenge structures: the Nexus (3-step) for a more accessible entry with progressive profit targets of 7%, 6%, and 5%; the Lightning (1-step) for traders seeking rapid funding with a single 10% target; and the Dual Step (2-step) as a middle-ground at 8% then 5%. All accounts carry a static 8% maximum drawdown (Lightning uses 6% trailing) and a 4% daily drawdown, with a minimum of 3 trading days per phase and leverage up to 1:100. Challenge fees start at $39 for a $5K Nexus account, with frequent promo codes cutting 25–40% off listed prices.\n\nThe trading environment spans over 4,000 instruments including 50+ forex pairs, major indices (US30, NAS100, GER40), commodities (gold, silver, WTI/Brent oil), crypto (BTC and ETH at 1:2 leverage), and ETFs. Markets are accessed through MetaTrader 5, the proprietary ThinkTrader platform on desktop, web, and mobile, or TradingView with direct chart-trading integration. Expert Advisors are permitted as a paid add-on. ThinkTrader includes standout tools like a TrendRisk Scanner and Traders' Gym — a historical simulation environment for strategy practice.\n\nPayout splits default to 80% to the trader, upgradable to 90% via a fee add-on of approximately 25% on the challenge price. Payouts are bi-weekly by default, with weekly payouts unlockable over time and a scaling path up to $1.5 million in allocated capital. Challenge fees are refunded upon successful completion. The affiliate program offers tiered commissions ranging from 10% at the Starter level to 25% for Master-tier partners (300+ referrals), paid via crypto or bank transfer.",
   "logo_url": "/logos/thinkcapital.svg",
   "screenshots": [],
   "website_url": "https://thinkcapital.com",
   "affiliate_url": "",
   "affiliate_program": "ThinkCapital Affiliate Program",
-  "affiliate_commission": "10%\u201325% per referral (tiered by volume)",
+  "affiliate_commission": "10%–25% per referral (tiered by volume)",
   "affiliate_cookie_days": 30,
   "pricing": {
     "has_free_tier": false,
@@ -108,13 +108,13 @@
     "Three challenge formats (1-step, 2-step, 3-step) accommodate different trading styles and risk tolerances",
     "4,000+ tradeable instruments spanning forex, indices, commodities, crypto, and ETFs",
     "TradingView integration and MT5 support alongside the proprietary ThinkTrader platform",
-    "Scaling path up to $1.5M allocated capital with frequent 25\u201340% promotional discounts"
+    "Scaling path up to $1.5M allocated capital with frequent 25–40% promotional discounts"
   ],
   "cons": [
-    "Founded July 2024 \u2014 very limited long-term payout track record to evaluate",
+    "Founded July 2024 — very limited long-term payout track record to evaluate",
     "90% profit split requires a paid add-on costing approximately 25% more than the base challenge fee",
     "Lightning plan's 6% trailing drawdown is tighter than most competitors and can catch active traders",
-    "No futures or exchange-traded options \u2014 all instruments are CFD-based only"
+    "No futures or exchange-traded options — all instruments are CFD-based only"
   ],
   "rating": 4.0,
   "rating_breakdown": {
@@ -140,5 +140,7 @@
     "funded-trader"
   ],
   "last_updated": "2026-03-15",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "ThinkCapital Review 2026",
+  "meta_description": "ThinkCapital is a prop firm backed by regulated broker ThinkMarkets, offering 1-, 2-, and 3-step challenges across 4,000+ instruments with up to 90%."
 }

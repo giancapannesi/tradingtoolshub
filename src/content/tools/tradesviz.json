@@ -2,7 +2,10 @@
   "name": "TradesViz",
   "slug": "tradesviz",
   "category": "trading-journals",
-  "subcategories": ["performance-tracking", "multi-asset"],
+  "subcategories": [
+    "performance-tracking",
+    "multi-asset"
+  ],
   "description_short": "Feature-rich trading journal with 100+ metrics, advanced charting, and a generous free tier for all asset classes.",
   "description_long": "TradesViz has earned a loyal following by offering one of the most feature-rich trading journals at an accessible price point. The platform boasts over 100 actionable metrics, advanced visualization tools, and supports every major asset class including stocks, options, futures, forex, and crypto.\n\nThe free tier is notably generous, providing core journaling and analytics capabilities that many competitors lock behind paywalls. The Pro tier at $19/month adds advanced features like custom dashboards, API access, and enhanced reporting, while the Elite tier at $39/month unlocks everything including priority support.\n\nTradesViz excels at data visualization, offering interactive charts and graphs that help traders identify patterns in their performance. The platform supports import from dozens of brokers and data formats, making migration from other journals straightforward.",
   "logo_url": "/logos/tradesviz.svg",
@@ -20,19 +23,35 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Core journaling", "Basic analytics", "Broker imports", "100+ metrics"]
+        "features": [
+          "Core journaling",
+          "Basic analytics",
+          "Broker imports",
+          "100+ metrics"
+        ]
       },
       {
         "name": "Pro",
         "price_monthly": 19,
         "price_yearly": 199,
-        "features": ["All Free features", "Custom dashboards", "API access", "Enhanced reporting", "Advanced filters"]
+        "features": [
+          "All Free features",
+          "Custom dashboards",
+          "API access",
+          "Enhanced reporting",
+          "Advanced filters"
+        ]
       },
       {
         "name": "Elite",
         "price_monthly": 39,
         "price_yearly": 399,
-        "features": ["All Pro features", "Priority support", "Advanced data export", "Custom integrations"]
+        "features": [
+          "All Pro features",
+          "Priority support",
+          "Advanced data export",
+          "Custom integrations"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +73,24 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["100+ actionable metrics across all asset classes", "Generous free tier with real analytics", "Excellent data visualization and charting", "Wide broker import support"],
-  "cons": ["Interface can feel cluttered with so many metrics", "No AI-powered analysis", "No mobile app available"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "100+ actionable metrics across all asset classes",
+    "Generous free tier with real analytics",
+    "Excellent data visualization and charting",
+    "Wide broker import support"
+  ],
+  "cons": [
+    "Interface can feel cluttered with so many metrics",
+    "No AI-powered analysis",
+    "No mobile app available"
+  ],
   "rating": 4.2,
   "rating_breakdown": {
     "ease_of_use": 3.8,
@@ -68,8 +102,18 @@
   "founded_year": 2019,
   "company": "TradesViz",
   "headquarters": "San Jose, California",
-  "best_for": ["data-driven traders", "budget-conscious traders", "multi-asset traders"],
-  "similar_tools": ["tradertrac", "trademetria", "tradervue"],
+  "best_for": [
+    "data-driven traders",
+    "budget-conscious traders",
+    "multi-asset traders"
+  ],
+  "similar_tools": [
+    "tradertrac",
+    "trademetria",
+    "tradervue"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TradesViz Review 2026: Feature-rich trading journal",
+  "meta_description": "Feature-rich trading journal with 100+ metrics, advanced charting, and a generous free tier for all asset classes."
 }

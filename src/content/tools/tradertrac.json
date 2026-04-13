@@ -2,7 +2,11 @@
   "name": "TraderTrac",
   "slug": "tradertrac",
   "category": "trading-journals",
-  "subcategories": ["journaling", "ai-analysis", "performance-tracking"],
+  "subcategories": [
+    "journaling",
+    "ai-analysis",
+    "performance-tracking"
+  ],
   "description_short": "AI-powered trading journal with psychological analysis, pattern detection, and automated performance reports at an affordable price.",
   "description_long": "TraderTrac is a modern trading journal built for retail traders who want AI-powered insights without the premium price tag. Unlike legacy journals that simply log trades, TraderTrac uses advanced AI to analyze your trading psychology, detect behavioral patterns, and generate weekly performance reports automatically.\n\nThe platform supports stocks, options, futures, and forex with automatic P&L calculation, win rate tracking, and detailed analytics dashboards. The AI coach offers five analysis modes including pattern detection, psychological profiling, risk assessment, market context analysis, and comprehensive journal reviews.\n\nTraderTrac stands out for its generous free tier (5 AI credits per month), clean modern interface, and the fact that it costs roughly 75% less than competitors like TradeZella or Edgewonk while offering more AI capabilities.",
   "logo_url": "/logos/tradertrac.svg",
@@ -16,27 +20,93 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["Unlimited trades", "Basic analytics", "5 AI credits/month", "Weekly AI report (first free)"]},
-      {"name": "Pro", "price_monthly": 14.99, "price_yearly": 149.99, "features": ["Everything in Free", "Unlimited AI analysis", "Weekly AI reports", "Advanced analytics", "Export data", "Priority support"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Unlimited trades",
+          "Basic analytics",
+          "5 AI credits/month",
+          "Weekly AI report (first free)"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 14.99,
+        "price_yearly": 149.99,
+        "features": [
+          "Everything in Free",
+          "Unlimited AI analysis",
+          "Weekly AI reports",
+          "Advanced analytics",
+          "Export data",
+          "Priority support"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": true, "backtesting": false, "paper_trading": false, "alerts": false,
-    "mobile_app": false, "api_access": false, "social_features": false, "broker_integration": false,
-    "custom_indicators": false, "automated_trading": false, "journaling": true,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": false
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex"],
-  "pros": ["AI-powered psychological analysis unique in this price range", "Generous free tier with 5 AI credits per month", "75% cheaper than TradeZella and Edgewonk", "Clean, modern interface with dark mode", "Automated weekly performance reports"],
-  "cons": ["No broker integration for auto-import yet", "No mobile app (web-only, mobile responsive)", "Smaller community compared to established players", "No backtesting features"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "AI-powered psychological analysis unique in this price range",
+    "Generous free tier with 5 AI credits per month",
+    "75% cheaper than TradeZella and Edgewonk",
+    "Clean, modern interface with dark mode",
+    "Automated weekly performance reports"
+  ],
+  "cons": [
+    "No broker integration for auto-import yet",
+    "No mobile app (web-only, mobile responsive)",
+    "Smaller community compared to established players",
+    "No backtesting features"
+  ],
   "rating": 4.5,
-  "rating_breakdown": {"ease_of_use": 4.7, "features": 4.3, "value": 4.9, "support": 4.2, "reliability": 4.4},
+  "rating_breakdown": {
+    "ease_of_use": 4.7,
+    "features": 4.3,
+    "value": 4.9,
+    "support": 4.2,
+    "reliability": 4.4
+  },
   "founded_year": 2025,
   "company": "Cosmic Phoenix LLC",
   "headquarters": "Wyoming, USA",
-  "best_for": ["budget-conscious traders", "psychology-focused traders", "AI journal seekers"],
-  "similar_tools": ["tradezella", "edgewonk", "tradervue", "tradersync"],
+  "best_for": [
+    "budget-conscious traders",
+    "psychology-focused traders",
+    "AI journal seekers"
+  ],
+  "similar_tools": [
+    "tradezella",
+    "edgewonk",
+    "tradervue",
+    "tradersync"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TraderTrac Review 2026: AI-powered trading journal",
+  "meta_description": "AI-powered trading journal with psychological analysis, pattern detection, and automated performance reports at an affordable price."
 }

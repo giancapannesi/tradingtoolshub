@@ -8,7 +8,7 @@
     "international-markets"
   ],
   "description_short": "ChartMill is a Belgium-based stock screener with 180+ filters, proprietary trend and value indicators, and 263 pre-built strategies for US, Canadian, and European markets.",
-  "description_long": "ChartMill is a Belgium-based stock screener launched in 2008, offering over 180 technical, fundamental, and descriptive filters across 22,000+ stocks from US, Canadian, and European exchanges. Powered by Barchart data, it covers markets that many US-centric tools overlook, making it a compelling option for traders with international exposure. The platform positions itself as a serious analytical tool without the premium price tag of larger competitors like TradingView or TC2000.\n\nWhat distinguishes ChartMill are its proprietary metrics: the ChartMill Value Indicator, Weinstein Indicator, and Trend Indicator provide unique rating systems for quickly assessing stock quality and momentum. The platform also includes 263 pre-built screening strategies called Trading Ideas, giving beginners and intermediate traders ready-made scans based on proven technical setups. Candlestick pattern detection is integrated directly into the screener, and a dedicated Stock Analyzer enables deep-dive fundamental and technical analysis on individual securities. Watchlists and alerts round out the core feature set.\n\nPricing is straightforward: a free tier provides 6,000 credits per month \u2014 credits are consumed when running screens, viewing charts, or generating reports \u2014 sufficient for light use but constraining for active traders. The paid plan unlocks unlimited access for $34.97 per month or $299.97 per year (approximately $25 per month), representing meaningful savings over most US-based competitors. Historical data extends back 10 years, supporting pattern research and basic backtesting, though the backtesting functionality is acknowledged as limited compared to dedicated platforms.\n\nChartMill's primary drawbacks are its 15-minute data delay on all plans \u2014 there is no real-time data option \u2014 making it unsuitable for day trading or scalping. Charting tools are functional but basic compared to TradingView, the platform covers only stocks and ETFs with no forex, crypto, futures, or options support, and customer support response times have been noted as slower than competitors. Despite these limitations, ChartMill delivers strong value for swing traders and fundamental investors seeking deep screening capabilities at an accessible price.",
+  "description_long": "ChartMill is a Belgium-based stock screener launched in 2008, offering over 180 technical, fundamental, and descriptive filters across 22,000+ stocks from US, Canadian, and European exchanges. Powered by Barchart data, it covers markets that many US-centric tools overlook, making it a compelling option for traders with international exposure. The platform positions itself as a serious analytical tool without the premium price tag of larger competitors like TradingView or TC2000.\n\nWhat distinguishes ChartMill are its proprietary metrics: the ChartMill Value Indicator, Weinstein Indicator, and Trend Indicator provide unique rating systems for quickly assessing stock quality and momentum. The platform also includes 263 pre-built screening strategies called Trading Ideas, giving beginners and intermediate traders ready-made scans based on proven technical setups. Candlestick pattern detection is integrated directly into the screener, and a dedicated Stock Analyzer enables deep-dive fundamental and technical analysis on individual securities. Watchlists and alerts round out the core feature set.\n\nPricing is straightforward: a free tier provides 6,000 credits per month — credits are consumed when running screens, viewing charts, or generating reports — sufficient for light use but constraining for active traders. The paid plan unlocks unlimited access for $34.97 per month or $299.97 per year (approximately $25 per month), representing meaningful savings over most US-based competitors. Historical data extends back 10 years, supporting pattern research and basic backtesting, though the backtesting functionality is acknowledged as limited compared to dedicated platforms.\n\nChartMill's primary drawbacks are its 15-minute data delay on all plans — there is no real-time data option — making it unsuitable for day trading or scalping. Charting tools are functional but basic compared to TradingView, the platform covers only stocks and ETFs with no forex, crypto, futures, or options support, and customer support response times have been noted as slower than competitors. Despite these limitations, ChartMill delivers strong value for swing traders and fundamental investors seeking deep screening capabilities at an accessible price.",
   "logo_url": "/logos/chartmill.svg",
   "screenshots": [],
   "website_url": "https://www.chartmill.com",
@@ -92,13 +92,13 @@
     "180+ filters combining technical, fundamental, and descriptive criteria in one screener",
     "263 pre-built Trading Ideas strategies make onboarding easy for beginners",
     "Proprietary Value, Trend, and Weinstein indicators offer unique stock rating systems",
-    "Covers US, Canadian, and European markets \u2014 rare among stock screeners",
+    "Covers US, Canadian, and European markets — rare among stock screeners",
     "Affordable pricing with a generous free tier for exploratory use"
   ],
   "cons": [
     "15-minute data delay on all plans makes it unsuitable for day trading",
     "Charting and drawing tools are basic compared to TradingView or TC2000",
-    "Stocks and ETFs only \u2014 no forex, crypto, futures, or options support",
+    "Stocks and ETFs only — no forex, crypto, futures, or options support",
     "Backtesting is limited and not suitable for systematic strategy development"
   ],
   "rating": 4.2,
@@ -125,5 +125,7 @@
     "tc2000"
   ],
   "last_updated": "2026-03-12",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "ChartMill Review 2026",
+  "meta_description": "ChartMill is a Belgium-based stock screener with 180+ filters, proprietary trend and value indicators, and 263 pre-built strategies for US, Canadian, and."
 }

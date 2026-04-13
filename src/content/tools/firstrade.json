@@ -7,8 +7,8 @@
     "options-broker",
     "retirement-accounts"
   ],
-  "description_short": "Commission-free US broker with $0 stock, ETF, and options trades and no per-contract fees \u2014 a standout for cost-conscious options traders.",
-  "description_long": "Firstrade Securities is a US-based online brokerage founded in 1985, making it one of the longest-running discount brokers in the country. Originally serving the Chinese-American community in New York, it has grown into a fully licensed broker-dealer offering commission-free trading on stocks, ETFs, options, and mutual funds to a broad retail audience across the United States.\n\nWhat sets Firstrade apart is its options pricing model: $0 per trade with no per-contract fee. Most competitors charge $0.65 per contract, so active options traders can save significantly, especially on multi-leg strategies or high-volume trades. This pricing structure makes Firstrade one of the most cost-effective platforms for retail options traders in the US market.\n\nThe platform supports a wide range of account types including individual taxable accounts, joint accounts, IRAs (Traditional, Roth, SEP, SIMPLE), custodial accounts, and investment club accounts. Firstrade also offers a well-rated mobile app, real-time quotes, price alerts, research tools, and educational resources to support traders at various experience levels.\n\nThe trade-off is that Firstrade lacks some of the advanced tools found on platforms like Thinkorswim or Interactive Brokers \u2014 no paper trading simulator, no proprietary screener with deep customization, and no API access for algorithmic strategies. It is best suited for buy-and-hold investors, options traders who prioritize zero per-contract fees, and bilingual (English/Chinese) users who value multilingual customer support.",
+  "description_short": "Commission-free US broker with $0 stock, ETF, and options trades and no per-contract fees — a standout for cost-conscious options traders.",
+  "description_long": "Firstrade Securities is a US-based online brokerage founded in 1985, making it one of the longest-running discount brokers in the country. Originally serving the Chinese-American community in New York, it has grown into a fully licensed broker-dealer offering commission-free trading on stocks, ETFs, options, and mutual funds to a broad retail audience across the United States.\n\nWhat sets Firstrade apart is its options pricing model: $0 per trade with no per-contract fee. Most competitors charge $0.65 per contract, so active options traders can save significantly, especially on multi-leg strategies or high-volume trades. This pricing structure makes Firstrade one of the most cost-effective platforms for retail options traders in the US market.\n\nThe platform supports a wide range of account types including individual taxable accounts, joint accounts, IRAs (Traditional, Roth, SEP, SIMPLE), custodial accounts, and investment club accounts. Firstrade also offers a well-rated mobile app, real-time quotes, price alerts, research tools, and educational resources to support traders at various experience levels.\n\nThe trade-off is that Firstrade lacks some of the advanced tools found on platforms like Thinkorswim or Interactive Brokers — no paper trading simulator, no proprietary screener with deep customization, and no API access for algorithmic strategies. It is best suited for buy-and-hold investors, options traders who prioritize zero per-contract fees, and bilingual (English/Chinese) users who value multilingual customer support.",
   "logo_url": "/logos/firstrade.svg",
   "screenshots": [],
   "website_url": "https://www.firstrade.com",
@@ -62,7 +62,7 @@
     "fixed-income"
   ],
   "pros": [
-    "$0 options trades with no per-contract fee \u2014 rare among US brokers",
+    "$0 options trades with no per-contract fee — rare among US brokers",
     "Truly commission-free on stocks, ETFs, and mutual funds",
     "Wide range of account types including multiple IRA varieties",
     "Bilingual support in English and Chinese",
@@ -98,5 +98,7 @@
     "robinhood"
   ],
   "last_updated": "2026-03-08",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Firstrade Review 2026",
+  "meta_description": "Commission-free US broker with $0 stock, ETF, and options trades and no per-contract fees — a standout for cost-conscious options traders."
 }

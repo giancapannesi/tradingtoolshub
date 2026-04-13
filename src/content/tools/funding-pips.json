@@ -8,7 +8,7 @@
     "evaluation-challenges"
   ],
   "description_short": "Dubai-based prop firm offering 2-step, 1-step, and instant funding programs with up to 100% profit splits and $200M+ in total payouts.",
-  "description_long": "Funding Pips is a proprietary trading firm founded in August 2022 and headquartered in Dubai, UAE under the legal entity Ankh Prop \u2013 FZCO. Despite being relatively new to the prop firm space, the company has grown rapidly, claiming over 2 million registered traders and $200M+ in total payouts. Its diverse program lineup \u2014 2-Step Standard, 2-Step Pro, 1-Step, and Zero (Instant Funding) \u2014 gives traders flexibility based on their risk tolerance and trading style.\n\nChallenge fees start at just $29 for the 2-Step Pro $5K account, making Funding Pips accessible to newer traders. The standout feature is its profit-split structure: traders can earn anywhere from 60% up to 100% depending on the payout frequency they choose. The Zero (Instant Funding) program offers a 95% split with no profit target required, appealing to experienced traders who want to skip evaluation phases.\n\nFunding Pips supports MetaTrader 5, cTrader, and Match Trader across desktop, web, and mobile. MT5 was re-added in March 2025 after a hiatus, and cTrader carries a $20 surcharge. Tradeable instruments include forex, indices, metals, energies, and crypto (~48 instruments total), though individual stocks, options, and futures are not available.\n\nThe affiliate program is automatically activated upon purchasing any challenge, offering up to 10% commission on referrals plus a unique 5% discount code for referred traders. With a 4.5/5 Trustpilot rating from over 43,000 reviews, Funding Pips has built a strong reputation for fast payouts and transparent rules, though its limited instrument count and platform surcharges are minor drawbacks.",
+  "description_long": "Funding Pips is a proprietary trading firm founded in August 2022 and headquartered in Dubai, UAE under the legal entity Ankh Prop – FZCO. Despite being relatively new to the prop firm space, the company has grown rapidly, claiming over 2 million registered traders and $200M+ in total payouts. Its diverse program lineup — 2-Step Standard, 2-Step Pro, 1-Step, and Zero (Instant Funding) — gives traders flexibility based on their risk tolerance and trading style.\n\nChallenge fees start at just $29 for the 2-Step Pro $5K account, making Funding Pips accessible to newer traders. The standout feature is its profit-split structure: traders can earn anywhere from 60% up to 100% depending on the payout frequency they choose. The Zero (Instant Funding) program offers a 95% split with no profit target required, appealing to experienced traders who want to skip evaluation phases.\n\nFunding Pips supports MetaTrader 5, cTrader, and Match Trader across desktop, web, and mobile. MT5 was re-added in March 2025 after a hiatus, and cTrader carries a $20 surcharge. Tradeable instruments include forex, indices, metals, energies, and crypto (~48 instruments total), though individual stocks, options, and futures are not available.\n\nThe affiliate program is automatically activated upon purchasing any challenge, offering up to 10% commission on referrals plus a unique 5% discount code for referred traders. With a 4.5/5 Trustpilot rating from over 43,000 reviews, Funding Pips has built a strong reputation for fast payouts and transparent rules, though its limited instrument count and platform surcharges are minor drawbacks.",
   "logo_url": "/logos/funding-pips.svg",
   "screenshots": [],
   "website_url": "https://www.fundingpips.com",
@@ -122,7 +122,7 @@
   "cons": [
     "No individual stocks, options, or futures available (~48 instruments only)",
     "cTrader requires a $20 surcharge",
-    "No standalone mobile app \u2014 relies on third-party platform mobile clients",
+    "No standalone mobile app — relies on third-party platform mobile clients",
     "Mid-tier pricing not fully transparent without promotional discounts"
   ],
   "rating": 4.3,
@@ -134,7 +134,7 @@
     "reliability": 4.4
   },
   "founded_year": 2022,
-  "company": "Ankh Prop \u2013 FZCO",
+  "company": "Ankh Prop – FZCO",
   "headquarters": "IFZA Business Park, DDP, Dubai, UAE",
   "best_for": [
     "forex traders",
@@ -149,5 +149,7 @@
     "apex-trader-funding"
   ],
   "last_updated": "2026-03-17",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Funding Pips Review 2026",
+  "meta_description": "Dubai-based prop firm offering 2-step, 1-step, and instant funding programs with up to 100% profit splits and $200M+ in total payouts."
 }

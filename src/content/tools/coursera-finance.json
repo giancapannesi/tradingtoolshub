@@ -8,7 +8,7 @@
     "behavioral-finance"
   ],
   "description_short": "Yale University's Financial Markets course taught by Nobel laureate Robert Shiller, covering CAPM, behavioral finance, risk management, and market structure.",
-  "description_long": "Coursera Financial Markets is one of the most prestigious online finance courses available, delivered by Robert Shiller \u2014 Nobel Prize winner in Economics (2013) and Sterling Professor at Yale University. Spanning approximately 33 hours of video content across 7 modules, the course explores the theoretical and behavioral foundations of financial markets rather than practical trading techniques.\n\nThe curriculum covers a broad range of topics including CAPM, behavioral finance, risk management, insurance, stocks, bonds, options, the 2008 mortgage crisis, market regulation, investment banking, and the role of brokers and exchanges. Shiller's unique perspective challenges efficient market theory and emphasizes the psychological and sociological forces that drive market behavior, making this course particularly valuable for building a deep conceptual understanding of finance.\n\nThe course is free to audit on Coursera, though graded assignments and a shareable LinkedIn certificate require a one-time purchase of approximately $49\u2013$99. Coursera Plus subscribers ($59/month or $399/year) gain access to this and thousands of other courses. The platform offers a polished mobile experience, peer-reviewed assignments, student salon discussions, chalk talks, and expert interviews that supplement the core lectures.\n\nWhile Coursera Financial Markets is not a trading tool and provides no brokerage, charting, or order execution capabilities, it is widely regarded as one of the best low-cost resources for understanding market fundamentals. It suits aspiring investors, finance students, and professionals who want a rigorous academic foundation \u2014 grounded in behavioral economics \u2014 before engaging with active markets.",
+  "description_long": "Coursera Financial Markets is one of the most prestigious online finance courses available, delivered by Robert Shiller — Nobel Prize winner in Economics (2013) and Sterling Professor at Yale University. Spanning approximately 33 hours of video content across 7 modules, the course explores the theoretical and behavioral foundations of financial markets rather than practical trading techniques.\n\nThe curriculum covers a broad range of topics including CAPM, behavioral finance, risk management, insurance, stocks, bonds, options, the 2008 mortgage crisis, market regulation, investment banking, and the role of brokers and exchanges. Shiller's unique perspective challenges efficient market theory and emphasizes the psychological and sociological forces that drive market behavior, making this course particularly valuable for building a deep conceptual understanding of finance.\n\nThe course is free to audit on Coursera, though graded assignments and a shareable LinkedIn certificate require a one-time purchase of approximately $49–$99. Coursera Plus subscribers ($59/month or $399/year) gain access to this and thousands of other courses. The platform offers a polished mobile experience, peer-reviewed assignments, student salon discussions, chalk talks, and expert interviews that supplement the core lectures.\n\nWhile Coursera Financial Markets is not a trading tool and provides no brokerage, charting, or order execution capabilities, it is widely regarded as one of the best low-cost resources for understanding market fundamentals. It suits aspiring investors, finance students, and professionals who want a rigorous academic foundation — grounded in behavioral economics — before engaging with active markets.",
   "logo_url": "/logos/coursera-finance.svg",
   "screenshots": [],
   "website_url": "https://www.coursera.org/learn/financial-markets-global",
@@ -90,7 +90,7 @@
     "One of the highest-rated finance courses on Coursera with millions of learners"
   ],
   "cons": [
-    "Theory-focused \u2014 does not teach practical trade execution or strategy",
+    "Theory-focused — does not teach practical trade execution or strategy",
     "Certificate and graded access require payment",
     "No interactive tools, simulators, or real-time market data",
     "Better suited as supplemental education than a standalone trading resource"
@@ -119,5 +119,7 @@
     "tastytrade"
   ],
   "last_updated": "2026-03-20",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Coursera Financial Markets Review 2026",
+  "meta_description": "Yale University's Financial Markets course taught by Nobel laureate Robert Shiller, covering CAPM, behavioral finance, risk management, and market."
 }

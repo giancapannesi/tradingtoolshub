@@ -2,7 +2,10 @@
   "name": "Chartlog",
   "slug": "chartlog",
   "category": "trading-journals",
-  "subcategories": ["chart-journals", "visual-analysis"],
+  "subcategories": [
+    "chart-journals",
+    "visual-analysis"
+  ],
   "description_short": "Visual-first trading journal that auto-captures chart screenshots and overlays trade data for pattern recognition.",
   "description_long": "Chartlog takes a visual-first approach to trade journaling, automatically capturing chart screenshots at the time of your trades and overlaying entry/exit points, P&L, and other metrics directly on the charts. This makes it exceptionally easy to review your trades visually and spot patterns in your setups.\n\nThe platform supports auto-import from most brokers and generates detailed analytics reports on your trading performance. Chartlog's strength is in making the review process fast and visual rather than forcing traders to wade through spreadsheets and data tables.\n\nWith three tiers from Lite ($14.99/mo) to Pro ($39.99/mo), Chartlog scales with your needs. The Lite plan covers basic journaling for casual traders, while Pro unlocks advanced analytics and unlimited chart storage for active day traders.",
   "logo_url": "/logos/chartlog.svg",
@@ -20,19 +23,33 @@
         "name": "Lite",
         "price_monthly": 14.99,
         "price_yearly": 161.88,
-        "features": ["Basic journaling", "Auto chart capture", "Limited analytics"]
+        "features": [
+          "Basic journaling",
+          "Auto chart capture",
+          "Limited analytics"
+        ]
       },
       {
         "name": "Standard",
         "price_monthly": 29.99,
         "price_yearly": 305.88,
-        "features": ["All Lite features", "Advanced analytics", "Multiple accounts", "Custom tags"]
+        "features": [
+          "All Lite features",
+          "Advanced analytics",
+          "Multiple accounts",
+          "Custom tags"
+        ]
       },
       {
         "name": "Pro",
         "price_monthly": 39.99,
         "price_yearly": 383.88,
-        "features": ["All Standard features", "Unlimited chart storage", "Priority support", "Advanced reports"]
+        "features": [
+          "All Standard features",
+          "Unlimited chart storage",
+          "Priority support",
+          "Advanced reports"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +71,23 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex"],
-  "pros": ["Auto chart screenshots make visual review effortless", "Trade data overlaid directly on charts", "Good value at the Lite tier", "Fast review workflow saves time"],
-  "cons": ["No free tier available", "Fewer analytical features than top competitors", "No AI-powered insights"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "Auto chart screenshots make visual review effortless",
+    "Trade data overlaid directly on charts",
+    "Good value at the Lite tier",
+    "Fast review workflow saves time"
+  ],
+  "cons": [
+    "No free tier available",
+    "Fewer analytical features than top competitors",
+    "No AI-powered insights"
+  ],
   "rating": 3.9,
   "rating_breakdown": {
     "ease_of_use": 4.5,
@@ -68,8 +99,18 @@
   "founded_year": 2020,
   "company": "Chartlog",
   "headquarters": "Toronto, Canada",
-  "best_for": ["visual learners", "day traders", "chart pattern traders"],
-  "similar_tools": ["tradezella", "tradersync", "tradervue"],
+  "best_for": [
+    "visual learners",
+    "day traders",
+    "chart pattern traders"
+  ],
+  "similar_tools": [
+    "tradezella",
+    "tradersync",
+    "tradervue"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Chartlog Review 2026",
+  "meta_description": "Visual-first trading journal that auto-captures chart screenshots and overlays trade data for pattern recognition."
 }

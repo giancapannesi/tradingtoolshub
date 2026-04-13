@@ -9,7 +9,7 @@
     "multi-asset"
   ],
   "description_short": "Broker-backed prop firm offering 1-step, 2-step, and 3-step evaluations with 300+ instruments, EA support, and payouts within 3 business days.",
-  "description_long": "FXIFY is a proprietary trading firm founded in April 2023 and headquartered in London, United Kingdom by co-founders David Bhidey and Peter Brown. Unlike many simulated prop firms, FXIFY operates through a broker-backed model via its partner FXPIG, meaning trader evaluation accounts run through actual brokerage infrastructure on MetaTrader 4, MetaTrader 5, and DXTrade. Since its launch, FXIFY has paid out over $30 million to funded traders worldwide, attracting more than 500,000 monthly visitors and ranking among the top 15 most-searched prop firms globally.\n\nFXIFY offers four evaluation pathways to suit different trading styles and risk tolerance. The 3-Step Challenge starts at $59 for a $5,000 account and is the most affordable entry point. The 1-Step and 2-Step Challenges begin at $75 and $99 respectively, offering faster paths to a funded account. For traders who want immediate access, the Instant Funding option bypasses evaluation entirely at a premium fee \u2014 for example, $899 for a $25,000 account. Account sizes range from $5,000 to $400,000, with a scaling plan that can grow simulated capital up to $4,000,000. FXIFY also operates a separate Futures trading platform at fxifyfutures.com, launched after a successful open beta with over 100,000 traders.\n\nOne of FXIFY's key differentiators is its openness to diverse trading strategies. Algorithmic trading, Expert Advisors, martingale, grid trading, and news trading are all fully permitted \u2014 a significant advantage for systematic traders. The base profit split is 80%, upgradeable to 90% through an optional add-on or through scaling milestones. Payouts are processed within 3 business days via RISE or bank wire, with a $50 minimum withdrawal. Optional add-ons let traders customize their plan further, including leverage increases to 1:50 (+25% fee), bi-weekly payouts (+5% fee), and performance protection (+15% fee).\n\nThe platform covers 300+ tradable instruments across forex pairs, stock CFDs, indices, precious metals, and over 80 cryptocurrency CFDs, making FXIFY one of the more crypto-friendly prop firms in the industry. While FXIFY does not offer a dedicated mobile app, traders can use the MT4 and MT5 mobile applications on iOS and Android, or access DXTrade via its web interface for mobile trading.",
+  "description_long": "FXIFY is a proprietary trading firm founded in April 2023 and headquartered in London, United Kingdom by co-founders David Bhidey and Peter Brown. Unlike many simulated prop firms, FXIFY operates through a broker-backed model via its partner FXPIG, meaning trader evaluation accounts run through actual brokerage infrastructure on MetaTrader 4, MetaTrader 5, and DXTrade. Since its launch, FXIFY has paid out over $30 million to funded traders worldwide, attracting more than 500,000 monthly visitors and ranking among the top 15 most-searched prop firms globally.\n\nFXIFY offers four evaluation pathways to suit different trading styles and risk tolerance. The 3-Step Challenge starts at $59 for a $5,000 account and is the most affordable entry point. The 1-Step and 2-Step Challenges begin at $75 and $99 respectively, offering faster paths to a funded account. For traders who want immediate access, the Instant Funding option bypasses evaluation entirely at a premium fee — for example, $899 for a $25,000 account. Account sizes range from $5,000 to $400,000, with a scaling plan that can grow simulated capital up to $4,000,000. FXIFY also operates a separate Futures trading platform at fxifyfutures.com, launched after a successful open beta with over 100,000 traders.\n\nOne of FXIFY's key differentiators is its openness to diverse trading strategies. Algorithmic trading, Expert Advisors, martingale, grid trading, and news trading are all fully permitted — a significant advantage for systematic traders. The base profit split is 80%, upgradeable to 90% through an optional add-on or through scaling milestones. Payouts are processed within 3 business days via RISE or bank wire, with a $50 minimum withdrawal. Optional add-ons let traders customize their plan further, including leverage increases to 1:50 (+25% fee), bi-weekly payouts (+5% fee), and performance protection (+15% fee).\n\nThe platform covers 300+ tradable instruments across forex pairs, stock CFDs, indices, precious metals, and over 80 cryptocurrency CFDs, making FXIFY one of the more crypto-friendly prop firms in the industry. While FXIFY does not offer a dedicated mobile app, traders can use the MT4 and MT5 mobile applications on iOS and Android, or access DXTrade via its web interface for mobile trading.",
   "logo_url": "/logos/fxify.svg",
   "screenshots": [],
   "website_url": "https://www.fxify.com",
@@ -26,7 +26,7 @@
         "price_monthly": 59,
         "price_yearly": 0,
         "features": [
-          "$5K\u2013$200K account sizes",
+          "$5K–$200K account sizes",
           "Lowest evaluation fee starting at $59",
           "Three evaluation phases",
           "80% profit split",
@@ -38,7 +38,7 @@
         "price_monthly": 75,
         "price_yearly": 0,
         "features": [
-          "$5K\u2013$400K account sizes",
+          "$5K–$400K account sizes",
           "Single evaluation phase",
           "No time limit on challenge",
           "80% profit split",
@@ -50,7 +50,7 @@
         "price_monthly": 99,
         "price_yearly": 0,
         "features": [
-          "$10K\u2013$400K account sizes",
+          "$10K–$400K account sizes",
           "Two evaluation phases",
           "80% profit split",
           "Scaling up to $4M capital",
@@ -104,7 +104,7 @@
     "Scaling up to $4M in simulated capital with 3-business-day payouts"
   ],
   "cons": [
-    "Founded in 2023 \u2014 limited long-term track record compared to established firms",
+    "Founded in 2023 — limited long-term track record compared to established firms",
     "No dedicated mobile app; relies entirely on MT4/MT5 or DXTrade mobile",
     "Optional add-ons (90% split, bi-weekly payouts, leverage boost) can significantly increase total cost",
     "Instant Funding fees are substantially higher than challenge-based alternatives"
@@ -133,5 +133,7 @@
     "apex-trader-funding"
   ],
   "last_updated": "2026-03-17",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "FXIFY Review 2026",
+  "meta_description": "Broker-backed prop firm offering 1-step, 2-step, and 3-step evaluations with 300+ instruments, EA support, and payouts within 3 business days."
 }

@@ -100,7 +100,7 @@
     "Rules Engine enabled automated webhook and SMS alerts without custom code"
   ],
   "cons": [
-    "Service permanently shut down August 31, 2024 \u2014 no longer operational",
+    "Service permanently shut down August 31, 2024 — no longer operational",
     "Incomplete ticker coverage with missing symbols reported by users",
     "Customer support was frequently unresponsive to escalations",
     "Some data feeds (e.g., delayed NASDAQ intraday) carried undisclosed third-party surcharges"
@@ -129,5 +129,7 @@
     "intrinio"
   ],
   "last_updated": "2026-03-22",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "IEX Cloud Review 2026",
+  "meta_description": "IEX Cloud (retired Aug 2024) was a financial data API platform delivering 50+ institutional-grade datasets with real-time streaming and credit-based."
 }

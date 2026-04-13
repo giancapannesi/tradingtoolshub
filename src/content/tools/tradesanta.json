@@ -2,7 +2,10 @@
   "name": "TradeSanta",
   "slug": "tradesanta",
   "category": "trading-bots",
-  "subcategories": ["crypto-bots", "beginner-friendly"],
+  "subcategories": [
+    "crypto-bots",
+    "beginner-friendly"
+  ],
   "description_short": "User-friendly crypto trading bot with DCA and Grid strategies, simple setup templates, and support for major exchanges.",
   "description_long": "TradeSanta is a cloud-based crypto trading bot platform that emphasizes simplicity and ease of use. The platform offers pre-built bot templates that new users can deploy in minutes, making automated crypto trading accessible even to those with no programming or technical analysis experience.\n\nThe bot supports two main strategies: DCA (Dollar-Cost Averaging) for accumulation during downtrends, and Grid for profiting from sideways markets. Users can customize parameters including order size, price deviation, take-profit targets, and technical indicator triggers (RSI, MACD, Bollinger Bands).\n\nTradeSanta connects to major exchanges including Binance, Coinbase, Kraken, Huobi, and OKX. Plans range from a free tier with 2 bots to the Maximum plan at $49/month with unlimited bots. The cloud-based architecture means bots run 24/7 without needing your computer to be on.",
   "logo_url": "/logos/tradesanta.svg",
@@ -16,29 +19,104 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["2 active bots", "DCA + Grid strategies", "Major exchange support"]},
-      {"name": "Basic", "price_monthly": 18, "price_yearly": 180, "features": ["49 active bots", "All strategies", "Technical indicators"]},
-      {"name": "Advanced", "price_monthly": 32, "price_yearly": 312, "features": ["99 active bots", "Advanced features", "Priority support"]},
-      {"name": "Maximum", "price_monthly": 49, "price_yearly": 480, "features": ["Unlimited bots", "All features", "VIP support"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "2 active bots",
+          "DCA + Grid strategies",
+          "Major exchange support"
+        ]
+      },
+      {
+        "name": "Basic",
+        "price_monthly": 18,
+        "price_yearly": 180,
+        "features": [
+          "49 active bots",
+          "All strategies",
+          "Technical indicators"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "price_monthly": 32,
+        "price_yearly": 312,
+        "features": [
+          "99 active bots",
+          "Advanced features",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Maximum",
+        "price_monthly": 49,
+        "price_yearly": 480,
+        "features": [
+          "Unlimited bots",
+          "All features",
+          "VIP support"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
-    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["crypto"],
-  "pros": ["Very easy setup with pre-built templates", "Free tier with 2 active bots", "Cloud-based 24/7 operation", "Affordable pricing compared to competitors"],
-  "cons": ["Crypto only", "Limited strategy options (DCA and Grid only)", "No backtesting capability", "Less customizable than 3Commas"],
+  "markets": [
+    "crypto"
+  ],
+  "pros": [
+    "Very easy setup with pre-built templates",
+    "Free tier with 2 active bots",
+    "Cloud-based 24/7 operation",
+    "Affordable pricing compared to competitors"
+  ],
+  "cons": [
+    "Crypto only",
+    "Limited strategy options (DCA and Grid only)",
+    "No backtesting capability",
+    "Less customizable than 3Commas"
+  ],
   "rating": 3.9,
-  "rating_breakdown": {"ease_of_use": 4.5, "features": 3.5, "value": 4.3, "support": 3.8, "reliability": 3.8},
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 3.5,
+    "value": 4.3,
+    "support": 3.8,
+    "reliability": 3.8
+  },
   "founded_year": 2018,
   "company": "TradeSanta LLC",
   "headquarters": "Tallinn, Estonia",
-  "best_for": ["crypto beginners", "simple bot users", "budget-conscious traders"],
-  "similar_tools": ["3commas", "pionex", "cryptohopper"],
+  "best_for": [
+    "crypto beginners",
+    "simple bot users",
+    "budget-conscious traders"
+  ],
+  "similar_tools": [
+    "3commas",
+    "pionex",
+    "cryptohopper"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TradeSanta Review 2026",
+  "meta_description": "User-friendly crypto trading bot with DCA and Grid strategies, simple setup templates, and support for major exchanges."
 }

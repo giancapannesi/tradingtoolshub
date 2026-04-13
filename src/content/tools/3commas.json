@@ -2,7 +2,10 @@
   "name": "3Commas",
   "slug": "3commas",
   "category": "trading-bots",
-  "subcategories": ["crypto-bots", "portfolio-management"],
+  "subcategories": [
+    "crypto-bots",
+    "portfolio-management"
+  ],
   "description_short": "Leading crypto trading bot platform with DCA bots, grid bots, signal bots, and smart portfolio management across 20+ exchanges.",
   "description_long": "3Commas is one of the most established crypto trading bot platforms, offering automated trading across 20+ cryptocurrency exchanges including Binance, Coinbase, Kraken, and Bybit. The platform provides multiple bot types including DCA (Dollar-Cost Averaging) bots, Grid bots, and Signal bots that can execute strategies 24/7 without manual intervention.\n\nThe SmartTrade terminal adds advanced order types like trailing stop-loss, take-profit ladders, and simultaneous stop-loss/take-profit orders that most exchanges don't natively support. The portfolio management dashboard gives a unified view of holdings across all connected exchanges.\n\nPlans range from Free (with basic features) to Pro at $99/month with all bot types, futures trading support, and unlimited concurrent bots. Annual subscriptions offer approximately 50% savings. The AI Assistant is included in all plans and provides trading insights and bot configuration suggestions.",
   "logo_url": "/logos/3commas.svg",
@@ -16,29 +19,108 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["SmartTrade", "1 DCA bot", "Portfolio tracker", "AI Assistant"]},
-      {"name": "Starter", "price_monthly": 29, "price_yearly": 174, "features": ["All Free features", "Multiple bots", "Backtesting", "Signal bots"]},
-      {"name": "Advanced", "price_monthly": 49, "price_yearly": 294, "features": ["All Starter features", "Grid bots", "More concurrent bots", "Advanced analytics"]},
-      {"name": "Pro", "price_monthly": 99, "price_yearly": 594, "features": ["All features", "Futures bots", "Unlimited bots", "Priority support"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "SmartTrade",
+          "1 DCA bot",
+          "Portfolio tracker",
+          "AI Assistant"
+        ]
+      },
+      {
+        "name": "Starter",
+        "price_monthly": 29,
+        "price_yearly": 174,
+        "features": [
+          "All Free features",
+          "Multiple bots",
+          "Backtesting",
+          "Signal bots"
+        ]
+      },
+      {
+        "name": "Advanced",
+        "price_monthly": 49,
+        "price_yearly": 294,
+        "features": [
+          "All Starter features",
+          "Grid bots",
+          "More concurrent bots",
+          "Advanced analytics"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 99,
+        "price_yearly": 594,
+        "features": [
+          "All features",
+          "Futures bots",
+          "Unlimited bots",
+          "Priority support"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": true, "backtesting": true, "paper_trading": true, "alerts": true,
-    "mobile_app": true, "api_access": true, "social_features": true, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": true
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["crypto"],
-  "pros": ["Connects to 20+ crypto exchanges", "Multiple bot types for different strategies", "Free tier available with basic functionality", "AI Assistant helps configure bots"],
-  "cons": ["Crypto only, no stocks or forex", "Suffered a security breach in 2022", "Complex setup for beginners", "Pro plan is expensive at $99/mo"],
+  "markets": [
+    "crypto"
+  ],
+  "pros": [
+    "Connects to 20+ crypto exchanges",
+    "Multiple bot types for different strategies",
+    "Free tier available with basic functionality",
+    "AI Assistant helps configure bots"
+  ],
+  "cons": [
+    "Crypto only, no stocks or forex",
+    "Suffered a security breach in 2022",
+    "Complex setup for beginners",
+    "Pro plan is expensive at $99/mo"
+  ],
   "rating": 4.1,
-  "rating_breakdown": {"ease_of_use": 3.8, "features": 4.5, "value": 3.9, "support": 3.8, "reliability": 4.0},
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.5,
+    "value": 3.9,
+    "support": 3.8,
+    "reliability": 4.0
+  },
   "founded_year": 2017,
   "company": "3Commas Tech OÜ",
   "headquarters": "Tallinn, Estonia",
-  "best_for": ["crypto traders", "automated traders", "portfolio managers"],
-  "similar_tools": ["pionex", "cryptohopper", "tradesanta"],
+  "best_for": [
+    "crypto traders",
+    "automated traders",
+    "portfolio managers"
+  ],
+  "similar_tools": [
+    "pionex",
+    "cryptohopper",
+    "tradesanta"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "3Commas Review 2026",
+  "meta_description": "Leading crypto trading bot platform with DCA bots, grid bots, signal bots, and smart portfolio management across 20+ exchanges."
 }

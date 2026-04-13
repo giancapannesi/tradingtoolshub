@@ -2,7 +2,10 @@
   "name": "The Funded Trader",
   "slug": "the-funded-trader",
   "category": "prop-firms",
-  "subcategories": ["funded-accounts", "multi-asset"],
+  "subcategories": [
+    "funded-accounts",
+    "multi-asset"
+  ],
   "description_short": "Growing prop firm offering forex, crypto, and indices funded accounts up to $600K with multiple challenge types and up to 90% profit split.",
   "description_long": "The Funded Trader (TFT) is a proprietary trading firm that provides funded accounts for forex, indices, commodities, and crypto trading. The firm offers multiple challenge types to accommodate different trading styles and experience levels, including Standard, Rapid, Royal, and Knight challenges.\n\nAccount sizes range from $5,000 to $600,000 (via scaling), with profit targets typically set at 8-10% for Phase 1 and 5% for Phase 2. The maximum profit split reaches 90% for consistent performers. TFT supports trading through MetaTrader 4, MetaTrader 5, and cTrader, and allows EAs, news trading, and weekend holding on most challenge types.\n\nThe firm has gained popularity through competitive pricing, frequent promotions, and a strong social media presence. However, TFT has faced some controversy regarding payout delays and rule changes, which has affected its reputation among some traders. The firm continues to operate and has made efforts to improve transparency and payout reliability.",
   "logo_url": "/logos/the-funded-trader.svg",
@@ -20,31 +23,56 @@
         "name": "$5K Standard",
         "price_monthly": 65,
         "price_yearly": 0,
-        "features": ["$5,000 funded account", "8% Phase 1 target", "5% Phase 2 target", "80% profit split"]
+        "features": [
+          "$5,000 funded account",
+          "8% Phase 1 target",
+          "5% Phase 2 target",
+          "80% profit split"
+        ]
       },
       {
         "name": "$25K Standard",
         "price_monthly": 189,
         "price_yearly": 0,
-        "features": ["$25,000 funded account", "8% Phase 1 target", "5% Phase 2 target", "80% profit split"]
+        "features": [
+          "$25,000 funded account",
+          "8% Phase 1 target",
+          "5% Phase 2 target",
+          "80% profit split"
+        ]
       },
       {
         "name": "$50K Standard",
         "price_monthly": 289,
         "price_yearly": 0,
-        "features": ["$50,000 funded account", "8% Phase 1 target", "5% Phase 2 target", "80% profit split"]
+        "features": [
+          "$50,000 funded account",
+          "8% Phase 1 target",
+          "5% Phase 2 target",
+          "80% profit split"
+        ]
       },
       {
         "name": "$100K Standard",
         "price_monthly": 489,
         "price_yearly": 0,
-        "features": ["$100,000 funded account", "8% Phase 1 target", "5% Phase 2 target", "80% profit split"]
+        "features": [
+          "$100,000 funded account",
+          "8% Phase 1 target",
+          "5% Phase 2 target",
+          "80% profit split"
+        ]
       },
       {
         "name": "$200K Standard",
         "price_monthly": 949,
         "price_yearly": 0,
-        "features": ["$200,000 funded account", "8% Phase 1 target", "5% Phase 2 target", "90% profit split"]
+        "features": [
+          "$200,000 funded account",
+          "8% Phase 1 target",
+          "5% Phase 2 target",
+          "90% profit split"
+        ]
       }
     ],
     "currency": "USD"
@@ -66,9 +94,24 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["forex", "crypto"],
-  "pros": ["Multiple challenge types for different trading styles", "Scaling plan up to $600K", "Low starting price from $65", "News trading and EA allowed on most challenges", "Supports MT4, MT5, and cTrader"],
-  "cons": ["History of payout delays has eroded trust", "Rule changes have frustrated existing traders", "Profit split starts at 80% (lower than FTMO's 90%)", "Customer support response times can be slow", "Less established track record than FTMO or Topstep"],
+  "markets": [
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Multiple challenge types for different trading styles",
+    "Scaling plan up to $600K",
+    "Low starting price from $65",
+    "News trading and EA allowed on most challenges",
+    "Supports MT4, MT5, and cTrader"
+  ],
+  "cons": [
+    "History of payout delays has eroded trust",
+    "Rule changes have frustrated existing traders",
+    "Profit split starts at 80% (lower than FTMO's 90%)",
+    "Customer support response times can be slow",
+    "Less established track record than FTMO or Topstep"
+  ],
   "rating": 3.9,
   "rating_breakdown": {
     "ease_of_use": 4.0,
@@ -80,8 +123,18 @@
   "founded_year": 2021,
   "company": "The Funded Trader LLC",
   "headquarters": "Liberty Hill, Texas",
-  "best_for": ["forex traders", "budget-conscious prop firm traders", "EA traders"],
-  "similar_tools": ["ftmo", "funded-next", "apex-trader-funding"],
+  "best_for": [
+    "forex traders",
+    "budget-conscious prop firm traders",
+    "EA traders"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "funded-next",
+    "apex-trader-funding"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "The Funded Trader Review 2026",
+  "meta_description": "Growing prop firm offering forex, crypto, and indices funded accounts up to $600K with multiple challenge types and up to 90% profit split."
 }

@@ -2,7 +2,10 @@
   "name": "Journalytix",
   "slug": "journalytix",
   "category": "trading-journals",
-  "subcategories": ["futures-journals", "real-time"],
+  "subcategories": [
+    "futures-journals",
+    "real-time"
+  ],
   "description_short": "Real-time futures trading journal with automated trade logging, risk analytics, and news integration for NinjaTrader users.",
   "description_long": "Journalytix is a specialized trading journal built primarily for futures traders, with deep integration into NinjaTrader and other popular futures platforms. Unlike most journals that work with post-trade data, Journalytix captures and analyzes your trades in real-time as they happen.\n\nThe platform automatically logs every trade, tracks your risk exposure, and overlays economic news events on your trade timeline so you can see how macro events affected your decisions. The built-in leaderboard adds a competitive element that motivates traders to improve their consistency.\n\nJournalytix uses a single-tier pricing model at $47/month or $399/year, giving every subscriber access to all features. It is particularly popular among prop firm futures traders and NinjaTrader users who need real-time journaling without manual data entry.",
   "logo_url": "/logos/journalytix.svg",
@@ -20,7 +23,15 @@
         "name": "Standard",
         "price_monthly": 47,
         "price_yearly": 399,
-        "features": ["Unlimited trade logging", "Real-time analysis", "Risk analytics", "Trade classification", "News overlay", "Leaderboard access", "NinjaTrader integration"]
+        "features": [
+          "Unlimited trade logging",
+          "Real-time analysis",
+          "Risk analytics",
+          "Trade classification",
+          "News overlay",
+          "Leaderboard access",
+          "NinjaTrader integration"
+        ]
       }
     ],
     "currency": "USD"
@@ -42,9 +53,20 @@
     "news_feed": true,
     "education": false
   },
-  "markets": ["futures"],
-  "pros": ["Real-time trade logging eliminates manual entry", "News overlay shows macro impact on your trades", "Leaderboard adds competitive motivation", "Single tier means all features for everyone"],
-  "cons": ["Only supports futures trading", "Higher price point at $47/mo with no free tier", "Limited platform integrations beyond NinjaTrader"],
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Real-time trade logging eliminates manual entry",
+    "News overlay shows macro impact on your trades",
+    "Leaderboard adds competitive motivation",
+    "Single tier means all features for everyone"
+  ],
+  "cons": [
+    "Only supports futures trading",
+    "Higher price point at $47/mo with no free tier",
+    "Limited platform integrations beyond NinjaTrader"
+  ],
   "rating": 4.1,
   "rating_breakdown": {
     "ease_of_use": 4.0,
@@ -56,8 +78,18 @@
   "founded_year": 2018,
   "company": "Journalytix",
   "headquarters": "London, United Kingdom",
-  "best_for": ["futures traders", "NinjaTrader users", "prop firm traders"],
-  "similar_tools": ["edgewonk", "tradersync", "tradezella"],
+  "best_for": [
+    "futures traders",
+    "NinjaTrader users",
+    "prop firm traders"
+  ],
+  "similar_tools": [
+    "edgewonk",
+    "tradersync",
+    "tradezella"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Journalytix Review 2026",
+  "meta_description": "Real-time futures trading journal with automated trade logging, risk analytics, and news integration for NinjaTrader users."
 }

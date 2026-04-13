@@ -7,7 +7,7 @@
     "futures-focused"
   ],
   "description_short": "Popular futures-focused prop firm with one-step evaluation, generous rules, and funded accounts from $25K to $300K with 100% of first $25K profit.",
-  "description_long": "Apex Trader Funding is a rapidly growing proprietary trading firm focused exclusively on futures trading. Unlike many prop firms that require multi-phase evaluations, Apex uses a simple one-step evaluation process: meet the profit target within the evaluation period while staying within risk parameters, and you receive a funded account.\n\nApex offers evaluation accounts ranging from $25,000 to $300,000, with profit targets proportional to account size. The risk rules are considered among the most generous in the prop firm industry \u2014 there is no daily drawdown limit (only a trailing threshold), traders can trade during news events, and positions can be held overnight. The profit split is 100% of the first $25,000 in profits, then 90/10 thereafter.\n\nThe platform supports trading through NinjaTrader, Tradovate, Rithmic, and WealthCharts. Apex is particularly popular for its frequent promotions (often 50-80% off evaluation fees), reset options, and the ability to run multiple funded accounts simultaneously. The firm has paid out over $300 million to traders since its founding.",
+  "description_long": "Apex Trader Funding is a rapidly growing proprietary trading firm focused exclusively on futures trading. Unlike many prop firms that require multi-phase evaluations, Apex uses a simple one-step evaluation process: meet the profit target within the evaluation period while staying within risk parameters, and you receive a funded account.\n\nApex offers evaluation accounts ranging from $25,000 to $300,000, with profit targets proportional to account size. The risk rules are considered among the most generous in the prop firm industry — there is no daily drawdown limit (only a trailing threshold), traders can trade during news events, and positions can be held overnight. The profit split is 100% of the first $25,000 in profits, then 90/10 thereafter.\n\nThe platform supports trading through NinjaTrader, Tradovate, Rithmic, and WealthCharts. Apex is particularly popular for its frequent promotions (often 50-80% off evaluation fees), reset options, and the ability to run multiple funded accounts simultaneously. The firm has paid out over $300 million to traders since its founding.",
   "logo_url": "/logos/apex-trader-funding.svg",
   "screenshots": [],
   "website_url": "https://www.apextraderfunding.com",
@@ -98,7 +98,7 @@
     "futures"
   ],
   "pros": [
-    "One-step evaluation \u2014 simpler than multi-phase firms",
+    "One-step evaluation — simpler than multi-phase firms",
     "100% of first $25K in profits",
     "No daily drawdown limit",
     "Can trade during news events",
@@ -106,7 +106,7 @@
     "Multiple funded accounts allowed simultaneously"
   ],
   "cons": [
-    "Futures only \u2014 no forex, stocks, or crypto",
+    "Futures only — no forex, stocks, or crypto",
     "Trailing threshold can be confusing for beginners",
     "Monthly evaluation fees add up if you reset multiple times",
     "Payout processing can take 5-10 business days",
@@ -144,5 +144,7 @@
     "Generous profit splitting: 100% of first $25K profit",
     "Quick one-step evaluation process"
   ],
-  "enriched_at": "2026-03-29"
+  "enriched_at": "2026-03-29",
+  "meta_title": "Apex Trader Funding Review 2026",
+  "meta_description": "Popular futures-focused prop firm with one-step evaluation, generous rules, and funded accounts from $25K to $300K with 100% of first $25K profit."
 }

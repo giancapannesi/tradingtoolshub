@@ -102,5 +102,7 @@
     "quantower"
   ],
   "last_updated": "2026-04-02",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "ClusterDelta Review 2026",
+  "meta_description": "Footprint and order flow indicators for MetaTrader, cTrader, NinjaTrader, and a standalone platform, developed by a small team based in Kyiv, Ukraine."
 }

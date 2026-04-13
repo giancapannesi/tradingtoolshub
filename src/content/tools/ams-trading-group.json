@@ -100,5 +100,7 @@
     "atas"
   ],
   "last_updated": "2026-04-02",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "AMS Trading Group Review 2026",
+  "meta_description": "DeltaPrint indicator suite for NinjaTrader featuring footprint charts, BookFlow DOM analysis, MarketProfile tools, and ZoneDecoder for futures trading."
 }

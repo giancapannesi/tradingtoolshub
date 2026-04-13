@@ -2,7 +2,10 @@
   "name": "Zacks Investment Research",
   "slug": "zacks",
   "category": "stock-screeners",
-  "subcategories": ["earnings-research", "ranking-system"],
+  "subcategories": [
+    "earnings-research",
+    "ranking-system"
+  ],
   "description_short": "Stock research platform with the proprietary Zacks Rank system, earnings estimates, and quantitative screening for value-oriented investors.",
   "description_long": "Zacks Investment Research is known for its proprietary Zacks Rank system, which rates stocks from 1 (Strong Buy) to 5 (Strong Sell) based on earnings estimate revisions. The system has a proven track record, with Zacks #1 ranked stocks historically outperforming the market by a significant margin.\n\nThe free tier provides basic stock quotes, Zacks Rank ratings, and limited research. Zacks Premium at $249/year adds the full stock screener, premium research reports, earnings calendars, and access to the complete Zacks Rank database with detailed scoring breakdowns.\n\nZacks is particularly strong for earnings-focused investors, providing comprehensive earnings estimate data, surprise history, and consensus estimates from Wall Street analysts. The stock screener lets users filter by Zacks Rank, value scores, growth scores, and numerous fundamental criteria.",
   "logo_url": "/logos/zacks.svg",
@@ -16,28 +19,98 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["Basic quotes", "Zacks Rank ratings", "Limited research", "Earnings calendar"]},
-      {"name": "Premium", "price_monthly": 0, "price_yearly": 249, "features": ["Full stock screener", "Premium research reports", "Zacks Rank database", "Focus List", "Bull/Bear of the Day"]},
-      {"name": "Ultimate", "price_monthly": 0, "price_yearly": 2995, "features": ["All Premium features", "Real-time alerts", "Zacks Confidential", "Private screens"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Basic quotes",
+          "Zacks Rank ratings",
+          "Limited research",
+          "Earnings calendar"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 0,
+        "price_yearly": 249,
+        "features": [
+          "Full stock screener",
+          "Premium research reports",
+          "Zacks Rank database",
+          "Focus List",
+          "Bull/Bear of the Day"
+        ]
+      },
+      {
+        "name": "Ultimate",
+        "price_monthly": 0,
+        "price_yearly": 2995,
+        "features": [
+          "All Premium features",
+          "Real-time alerts",
+          "Zacks Confidential",
+          "Private screens"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": false, "alerts": true,
-    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": false,
-    "custom_indicators": false, "automated_trading": false, "journaling": false,
-    "performance_analytics": false, "risk_management": false, "news_feed": true, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
   },
-  "markets": ["stocks"],
-  "pros": ["Zacks Rank has a proven track record of outperformance", "Excellent earnings estimate data and analysis", "Free tier provides useful Zacks Rank ratings", "Comprehensive fundamental screening"],
-  "cons": ["Premium at $249/year is moderate cost", "Ultimate at $2,995/year is very expensive", "US stocks only", "No charting or technical analysis tools"],
+  "markets": [
+    "stocks"
+  ],
+  "pros": [
+    "Zacks Rank has a proven track record of outperformance",
+    "Excellent earnings estimate data and analysis",
+    "Free tier provides useful Zacks Rank ratings",
+    "Comprehensive fundamental screening"
+  ],
+  "cons": [
+    "Premium at $249/year is moderate cost",
+    "Ultimate at $2,995/year is very expensive",
+    "US stocks only",
+    "No charting or technical analysis tools"
+  ],
   "rating": 4.1,
-  "rating_breakdown": {"ease_of_use": 4.2, "features": 4.0, "value": 4.0, "support": 3.8, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.0,
+    "value": 4.0,
+    "support": 3.8,
+    "reliability": 4.5
+  },
   "founded_year": 1978,
   "company": "Zacks Investment Research Inc.",
   "headquarters": "Chicago, Illinois",
-  "best_for": ["value investors", "earnings-focused traders", "quantitative screeners"],
-  "similar_tools": ["finviz", "stock-rover", "marketsmith"],
+  "best_for": [
+    "value investors",
+    "earnings-focused traders",
+    "quantitative screeners"
+  ],
+  "similar_tools": [
+    "finviz",
+    "stock-rover",
+    "marketsmith"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Zacks Investment Research Review 2026: Stock research pla...",
+  "meta_description": "Stock research platform with the proprietary Zacks Rank system, earnings estimates, and quantitative screening for value-oriented investors."
 }

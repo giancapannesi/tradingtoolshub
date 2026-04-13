@@ -2,7 +2,10 @@
   "name": "Investopedia",
   "slug": "investopedia",
   "category": "trading-education",
-  "subcategories": ["financial-education", "paper-trading"],
+  "subcategories": [
+    "financial-education",
+    "paper-trading"
+  ],
   "description_short": "The world's leading financial education website with 30,000+ articles, free stock simulator, comprehensive dictionary, and structured courses for all levels.",
   "description_long": "Investopedia is the world's most visited financial education website, serving over 30 million monthly visitors with a vast library of articles, tutorials, definitions, and courses covering every aspect of investing, trading, personal finance, and economics. Founded in 1999, Investopedia has become the de facto reference resource for financial terminology and concepts.\n\nBeyond its encyclopedic content library (30,000+ articles), Investopedia offers a free Stock Simulator where users can practice trading with $100,000 in virtual money using real market data. The simulator supports stocks, options, and short selling, making it an excellent tool for beginners to learn without risk. Users can also compete with friends and the community through portfolio challenges.\n\nInvestopedia Academy offers paid courses ($99-$199 each) taught by industry professionals, covering topics from stock trading fundamentals to advanced options strategies, technical analysis, and personal finance. The site also provides broker reviews, investment calculators, a mortgage calculator, and daily market analysis. The editorial team maintains strict accuracy standards and regularly updates content to reflect current market conditions.",
   "logo_url": "/logos/investopedia.svg",
@@ -20,13 +23,25 @@
         "name": "Free Content",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["30,000+ free articles", "Financial dictionary", "Stock simulator ($100K virtual)", "Market news & analysis", "Investment calculators"]
+        "features": [
+          "30,000+ free articles",
+          "Financial dictionary",
+          "Stock simulator ($100K virtual)",
+          "Market news & analysis",
+          "Investment calculators"
+        ]
       },
       {
         "name": "Academy Courses",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Individual courses $99-$199 each", "Expert instructors", "Video lessons", "Quizzes & exercises", "Certificate of completion"]
+        "features": [
+          "Individual courses $99-$199 each",
+          "Expert instructors",
+          "Video lessons",
+          "Quizzes & exercises",
+          "Certificate of completion"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +63,27 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Most comprehensive free financial education resource", "Stock simulator is excellent for beginners", "Highly trusted editorial standards", "Covers every financial topic imaginable", "Academy courses are well-structured"],
-  "cons": ["Academy courses are relatively expensive ($99-$199 each)", "Stock simulator uses delayed data", "Ad-heavy experience on free content", "Not a trading platform — education only", "Some content is surface-level for advanced traders"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Most comprehensive free financial education resource",
+    "Stock simulator is excellent for beginners",
+    "Highly trusted editorial standards",
+    "Covers every financial topic imaginable",
+    "Academy courses are well-structured"
+  ],
+  "cons": [
+    "Academy courses are relatively expensive ($99-$199 each)",
+    "Stock simulator uses delayed data",
+    "Ad-heavy experience on free content",
+    "Not a trading platform — education only",
+    "Some content is surface-level for advanced traders"
+  ],
   "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 4.8,
@@ -62,8 +95,18 @@
   "founded_year": 1999,
   "company": "Dotdash Meredith (IAC)",
   "headquarters": "New York, New York",
-  "best_for": ["beginners", "financial education", "paper trading practice"],
-  "similar_tools": ["warrior-trading", "tastylive", "option-alpha"],
+  "best_for": [
+    "beginners",
+    "financial education",
+    "paper trading practice"
+  ],
+  "similar_tools": [
+    "warrior-trading",
+    "tastylive",
+    "option-alpha"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Investopedia Review 2026",
+  "meta_description": "The world's leading financial education website with 30,000+ articles, free stock simulator, comprehensive dictionary, and structured courses for all."
 }

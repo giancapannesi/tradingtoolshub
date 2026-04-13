@@ -2,7 +2,10 @@
   "name": "TradeZella",
   "slug": "tradezella",
   "category": "trading-journals",
-  "subcategories": ["ai-journals", "trade-replay"],
+  "subcategories": [
+    "ai-journals",
+    "trade-replay"
+  ],
   "description_short": "Feature-rich trading journal with trade replay, backtesting, and advanced analytics for serious traders.",
   "description_long": "TradeZella is one of the most popular trading journal platforms on the market, designed for traders who want comprehensive post-trade analysis and visual replay capabilities. The platform automatically imports trades from most major brokers and provides detailed breakdowns of performance by strategy, setup, time of day, and dozens of other filters.\n\nThe standout feature is TradeZella's Trade Replay, which lets you visually step through your trades tick-by-tick to understand what happened and why. Combined with full backtesting capabilities in the Pro plan, it gives traders a complete toolkit for strategy refinement and performance improvement.\n\nTradeZella is particularly popular among prop firm traders who need to manage multiple accounts and track performance across different funding challenges. The Pro plan supports up to 20 accounts, making it ideal for traders juggling several prop firm evaluations simultaneously.",
   "logo_url": "/logos/tradezella.svg",
@@ -20,13 +23,24 @@
         "name": "Basic",
         "price_monthly": 29,
         "price_yearly": 288,
-        "features": ["One trading account", "Trade journaling", "Basic analytics", "Manual and auto import"]
+        "features": [
+          "One trading account",
+          "Trade journaling",
+          "Basic analytics",
+          "Manual and auto import"
+        ]
       },
       {
         "name": "Pro",
         "price_monthly": 49,
         "price_yearly": 399,
-        "features": ["Up to 20 trading accounts", "Trade Replay", "Full backtesting", "Advanced analytics", "Priority support"]
+        "features": [
+          "Up to 20 trading accounts",
+          "Trade Replay",
+          "Full backtesting",
+          "Advanced analytics",
+          "Priority support"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +62,24 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Excellent trade replay feature for visual learning", "Supports up to 20 accounts on Pro plan", "Automatic broker imports from most platforms", "Beautiful dashboard with actionable insights"],
-  "cons": ["No free tier available", "Basic plan limited to single account", "Can be overwhelming for beginners with all the data points"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Excellent trade replay feature for visual learning",
+    "Supports up to 20 accounts on Pro plan",
+    "Automatic broker imports from most platforms",
+    "Beautiful dashboard with actionable insights"
+  ],
+  "cons": [
+    "No free tier available",
+    "Basic plan limited to single account",
+    "Can be overwhelming for beginners with all the data points"
+  ],
   "rating": 4.5,
   "rating_breakdown": {
     "ease_of_use": 4.3,
@@ -62,8 +91,19 @@
   "founded_year": 2021,
   "company": "TradeZella Inc.",
   "headquarters": "Miami, Florida",
-  "best_for": ["day traders", "prop firm traders", "swing traders"],
-  "similar_tools": ["tradertrac", "edgewonk", "tradersync", "tradervue"],
+  "best_for": [
+    "day traders",
+    "prop firm traders",
+    "swing traders"
+  ],
+  "similar_tools": [
+    "tradertrac",
+    "edgewonk",
+    "tradersync",
+    "tradervue"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TradeZella Review 2026: Feature-rich trading journal",
+  "meta_description": "Feature-rich trading journal with trade replay, backtesting, and advanced analytics for serious traders."
 }

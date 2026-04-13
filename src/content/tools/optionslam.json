@@ -8,7 +8,7 @@
     "options-research"
   ],
   "description_short": "Specialized earnings options analytics platform providing historical price reaction data, implied move calculations, and volatility ratings for earnings-event traders.",
-  "description_long": "OptionSlam is a niche but deeply respected data and analytics platform built exclusively around earnings-event options trading. Since 2006, it has provided traders with the historical earnings reaction data, implied volatility metrics, and screening tools needed to evaluate straddle, strangle, and directional trades around earnings announcements.\n\nThe platform's flagship metrics include the Earnings Volatility Rating (EVR), a proprietary score measuring how sensitive a stock has historically been to its own earnings surprises, and up to three Implied Move (IM) calculations derived from real-time market data. These tools help traders identify stocks with predictable or explosive earnings reactions and size positions accordingly.\n\nOptionSlam's INSIDER membership unlocks the full suite of tools, including backtesting capabilities for earnings strategies, email alerts for upcoming earnings events, Excel export for custom analysis, and access to weekly implied volatility reports and trending stocks data. The free tier provides limited access to the earnings calendar and basic historical data, making it useful for casual reference but insufficient for active traders.\n\nThe platform is not a broker or charting tool \u2014 it is a pure research and data resource. It is widely used by volatility traders, premium sellers, and straddle traders who want a dedicated edge around earnings events. Communities like SteadyOptions openly endorse it as a core part of their earnings research workflow.",
+  "description_long": "OptionSlam is a niche but deeply respected data and analytics platform built exclusively around earnings-event options trading. Since 2006, it has provided traders with the historical earnings reaction data, implied volatility metrics, and screening tools needed to evaluate straddle, strangle, and directional trades around earnings announcements.\n\nThe platform's flagship metrics include the Earnings Volatility Rating (EVR), a proprietary score measuring how sensitive a stock has historically been to its own earnings surprises, and up to three Implied Move (IM) calculations derived from real-time market data. These tools help traders identify stocks with predictable or explosive earnings reactions and size positions accordingly.\n\nOptionSlam's INSIDER membership unlocks the full suite of tools, including backtesting capabilities for earnings strategies, email alerts for upcoming earnings events, Excel export for custom analysis, and access to weekly implied volatility reports and trending stocks data. The free tier provides limited access to the earnings calendar and basic historical data, making it useful for casual reference but insufficient for active traders.\n\nThe platform is not a broker or charting tool — it is a pure research and data resource. It is widely used by volatility traders, premium sellers, and straddle traders who want a dedicated edge around earnings events. Communities like SteadyOptions openly endorse it as a core part of their earnings research workflow.",
   "logo_url": "/logos/optionslam.svg",
   "screenshots": [],
   "website_url": "https://www.optionslam.com",
@@ -82,7 +82,7 @@
     "Screener filters for both directional and non-directional earnings strategies"
   ],
   "cons": [
-    "Extremely narrow focus \u2014 not useful outside of earnings-event trading",
+    "Extremely narrow focus — not useful outside of earnings-event trading",
     "No monthly billing option; annual commitment required for paid tier",
     "Outdated interface compared to modern analytics platforms",
     "No mobile app or broker integration"
@@ -111,5 +111,7 @@
     "optionalpha"
   ],
   "last_updated": "2026-03-19",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "OptionSlam Review 2026",
+  "meta_description": "Specialized earnings options analytics platform providing historical price reaction data, implied move calculations, and volatility ratings for."
 }

@@ -2,7 +2,10 @@
   "name": "Riskalyze",
   "slug": "riskalyze",
   "category": "risk-management",
-  "subcategories": ["portfolio-risk", "advisor-tools"],
+  "subcategories": [
+    "portfolio-risk",
+    "advisor-tools"
+  ],
   "description_short": "Portfolio risk analysis platform that quantifies investment risk with a patented Risk Number, used by 20,000+ financial advisors.",
   "description_long": "Riskalyze (now Nitrogen) is the industry-leading portfolio risk analysis platform used by over 20,000 financial advisors and wealth management firms. The platform assigns a patented 'Risk Number' from 1-99 to every portfolio, enabling clear communication about risk tolerance and alignment between advisors and clients.\n\nThe platform analyzes portfolio risk using Monte Carlo simulations and historical scenario analysis, providing probability-weighted outcomes for any given portfolio. Advisors can stress-test portfolios against historical events (2008 crash, COVID selloff, etc.) and propose optimized alternatives.\n\nWhile Riskalyze is primarily an enterprise tool for financial advisors, retail traders can benefit from similar risk quantification concepts. The platform's approach to understanding risk tolerance and portfolio alignment has influenced how the entire industry thinks about risk management.",
   "logo_url": "/logos/riskalyze.svg",
@@ -16,26 +19,76 @@
     "has_free_tier": false,
     "starting_price": 0,
     "tiers": [
-      {"name": "Enterprise", "price_monthly": 0, "price_yearly": 0, "features": ["Risk Number scoring", "Portfolio analysis", "Scenario testing", "Client reporting", "Custom pricing for firms"]}
+      {
+        "name": "Enterprise",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Risk Number scoring",
+          "Portfolio analysis",
+          "Scenario testing",
+          "Client reporting",
+          "Custom pricing for firms"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": true, "paper_trading": false, "alerts": true,
-    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": false, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": false
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
   },
-  "markets": ["stocks", "options", "futures"],
-  "pros": ["Patented Risk Number simplifies risk communication", "Monte Carlo simulations for probability analysis", "Stress testing against historical scenarios", "Industry standard used by 20,000+ advisors"],
-  "cons": ["Enterprise pricing not transparent", "Primarily for financial advisors, not retail", "Requires significant portfolio data", "Not a trading tool per se"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures"
+  ],
+  "pros": [
+    "Patented Risk Number simplifies risk communication",
+    "Monte Carlo simulations for probability analysis",
+    "Stress testing against historical scenarios",
+    "Industry standard used by 20,000+ advisors"
+  ],
+  "cons": [
+    "Enterprise pricing not transparent",
+    "Primarily for financial advisors, not retail",
+    "Requires significant portfolio data",
+    "Not a trading tool per se"
+  ],
   "rating": 4.2,
-  "rating_breakdown": {"ease_of_use": 4.0, "features": 4.3, "value": 3.8, "support": 4.3, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 4.0,
+    "features": 4.3,
+    "value": 3.8,
+    "support": 4.3,
+    "reliability": 4.5
+  },
   "founded_year": 2011,
   "company": "Nitrogen (formerly Riskalyze)",
   "headquarters": "Auburn, California",
-  "best_for": ["financial advisors", "wealth managers", "portfolio managers"],
-  "similar_tools": ["edgewonk"],
+  "best_for": [
+    "financial advisors",
+    "wealth managers",
+    "portfolio managers"
+  ],
+  "similar_tools": [
+    "edgewonk"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Riskalyze Review 2026",
+  "meta_description": "Portfolio risk analysis platform that quantifies investment risk with a patented Risk Number, used by 20,000+ financial advisors."
 }

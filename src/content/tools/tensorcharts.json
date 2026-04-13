@@ -97,5 +97,7 @@
     "exocharts"
   ],
   "last_updated": "2026-04-02",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TensorCharts Review 2026",
+  "meta_description": "Crypto order book heatmap and trade flow analysis platform with GPU-accelerated rendering for real-time liquidity visualization."
 }

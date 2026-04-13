@@ -8,7 +8,7 @@
     "evaluation-programs"
   ],
   "description_short": "Bulenox is a futures prop firm offering funded accounts from $10K to $250K with 100% profit on first $10K earned and a 90/10 split beyond that.",
-  "description_long": "Bulenox is a futures proprietary trading firm founded in 2022 and incorporated in Delaware. It provides traders access to simulated funded accounts ranging from $10,000 to $250,000, with the goal of progressing through an evaluation phase (Qualification) into a Funded account, and ultimately a Master (fully funded) account. The firm supports 42 futures instruments across CME, NYMEX, COMEX, and CBOT, executed via NinjaTrader 8 on low-latency servers in Chicago and New York.\n\nOne of Bulenox's standout features is its profit structure: traders keep 100% of the first $10,000 in profits with no commission, then transition to a 90/10 split (90% to trader) on all profits beyond that threshold. Payouts are processed every Wednesday with a $1,000 minimum withdrawal. A 40% consistency rule applies \u2014 no single trading day can account for more than 40% of total profit at the time of a withdrawal request, though violating this rule does not reset the account, it simply delays that payout.\n\nThe platform supports automated trading via Expert Advisors (EAs), making it one of the few prop firms welcoming algo traders. There is no time limit on the evaluation phase, allowing traders to pass at their own pace without pressure. Monthly subscription fees range from approximately $115 for the $10K account to $535 for the $250K account, with frequent promotional discounts (up to 75% off) available via coupon codes.\n\nBulenox covers a broad range of futures markets including equity indices (ES, NQ, YM, RTY), currencies, metals, energy, agriculture, and even Micro Bitcoin futures (MBT) \u2014 a rare inclusion among futures prop firms. Its competitive profit split, algo-friendly rules, and no-time-limit evaluation make it a strong option for both discretionary and systematic futures traders.",
+  "description_long": "Bulenox is a futures proprietary trading firm founded in 2022 and incorporated in Delaware. It provides traders access to simulated funded accounts ranging from $10,000 to $250,000, with the goal of progressing through an evaluation phase (Qualification) into a Funded account, and ultimately a Master (fully funded) account. The firm supports 42 futures instruments across CME, NYMEX, COMEX, and CBOT, executed via NinjaTrader 8 on low-latency servers in Chicago and New York.\n\nOne of Bulenox's standout features is its profit structure: traders keep 100% of the first $10,000 in profits with no commission, then transition to a 90/10 split (90% to trader) on all profits beyond that threshold. Payouts are processed every Wednesday with a $1,000 minimum withdrawal. A 40% consistency rule applies — no single trading day can account for more than 40% of total profit at the time of a withdrawal request, though violating this rule does not reset the account, it simply delays that payout.\n\nThe platform supports automated trading via Expert Advisors (EAs), making it one of the few prop firms welcoming algo traders. There is no time limit on the evaluation phase, allowing traders to pass at their own pace without pressure. Monthly subscription fees range from approximately $115 for the $10K account to $535 for the $250K account, with frequent promotional discounts (up to 75% off) available via coupon codes.\n\nBulenox covers a broad range of futures markets including equity indices (ES, NQ, YM, RTY), currencies, metals, energy, agriculture, and even Micro Bitcoin futures (MBT) — a rare inclusion among futures prop firms. Its competitive profit split, algo-friendly rules, and no-time-limit evaluation make it a strong option for both discretionary and systematic futures traders.",
   "logo_url": "/logos/bulenox.svg",
   "screenshots": [],
   "website_url": "https://bulenox.com",
@@ -124,17 +124,17 @@
     "crypto"
   ],
   "pros": [
-    "100% profit retention on first $10,000 earned \u2014 industry-leading structure",
+    "100% profit retention on first $10,000 earned — industry-leading structure",
     "No time limit on evaluation phase reduces pressure on traders",
     "Algo and Expert Advisor trading fully permitted",
     "42 futures instruments including rare Micro Bitcoin (MBT) access",
     "Frequent promotions (up to 75% off) make entry costs very low"
   ],
   "cons": [
-    "Futures only \u2014 no stocks, forex spot, options, or CFDs",
+    "Futures only — no stocks, forex spot, options, or CFDs",
     "Monthly fees recur until reaching Master phase, costs add up if evaluation is slow",
     "Newer firm (founded 2022) with a shorter track record than established competitors",
-    "NinjaTrader 8 only \u2014 no support for other platforms like Tradovate or Rithmic"
+    "NinjaTrader 8 only — no support for other platforms like Tradovate or Rithmic"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -160,5 +160,7 @@
     "tradeify"
   ],
   "last_updated": "2026-03-18",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Bulenox Review 2026",
+  "meta_description": "Bulenox is a futures prop firm offering funded accounts from $10K to $250K with 100% profit on first $10K earned and a 90/10 split beyond that."
 }

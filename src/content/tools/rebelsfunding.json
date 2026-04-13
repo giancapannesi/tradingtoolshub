@@ -8,7 +8,7 @@
     "simulated-funding"
   ],
   "description_short": "RebelsFunding is a Slovak prop firm offering challenge-based funding up to $640K with no time limits, challenge fees starting at $25, and up to 200% fee refunds on passing.",
-  "description_long": "RebelsFunding is a proprietary trading firm founded in 2023 and headquartered in Bratislava, Slovakia, offering simulated funded accounts of up to $640,000 to traders who pass their multi-tier challenge system. The firm's standout feature is the complete absence of any time limit on challenge completion, allowing traders to work at their own pace rather than under the artificial deadline pressure common at competing prop firms.\n\nThe firm offers five challenge tiers \u2014 Copper (4-phase), Bronze (3-phase), Silver (2-phase), Gold (1-phase), and Diamond (1-phase with no daily drawdown limit) \u2014 with one-time challenge fees starting at just $25 for the entry-level Copper $5K account. Profit splits begin at 80% in the first month and scale to 90% thereafter, with payout requests available as early as 14 days after the first trade and a $50 minimum. Traders who successfully pass a challenge can receive up to 200% of their original challenge fee back as a refund, making the effective cost among the lowest in the industry.\n\nThe platform operates on RF-Trader, a proprietary web-based trading system built on FDC Tech infrastructure with integrated TradingView charting and a dedicated Android mobile app. Notably, RebelsFunding does not support MetaTrader 4 or 5 \u2014 a common friction point for traders migrating from other firms. Instrument coverage is primarily forex-focused with approximately 40 currency pairs, alongside 4 metals, 2 energies, 7 crypto assets, and 10 equity CFDs, which is more limited in breadth than larger competitors.\n\nRebelsFunding suits cost-conscious traders who want an affordable, pressure-free entry into funded trading, particularly those comfortable trading on a proprietary platform. The no-consistency-rule policy adds further flexibility. As a firm founded in 2023 with a small team, its long-term payout track record is still developing, so traders should weigh the attractive pricing against the relatively limited operational history.",
+  "description_long": "RebelsFunding is a proprietary trading firm founded in 2023 and headquartered in Bratislava, Slovakia, offering simulated funded accounts of up to $640,000 to traders who pass their multi-tier challenge system. The firm's standout feature is the complete absence of any time limit on challenge completion, allowing traders to work at their own pace rather than under the artificial deadline pressure common at competing prop firms.\n\nThe firm offers five challenge tiers — Copper (4-phase), Bronze (3-phase), Silver (2-phase), Gold (1-phase), and Diamond (1-phase with no daily drawdown limit) — with one-time challenge fees starting at just $25 for the entry-level Copper $5K account. Profit splits begin at 80% in the first month and scale to 90% thereafter, with payout requests available as early as 14 days after the first trade and a $50 minimum. Traders who successfully pass a challenge can receive up to 200% of their original challenge fee back as a refund, making the effective cost among the lowest in the industry.\n\nThe platform operates on RF-Trader, a proprietary web-based trading system built on FDC Tech infrastructure with integrated TradingView charting and a dedicated Android mobile app. Notably, RebelsFunding does not support MetaTrader 4 or 5 — a common friction point for traders migrating from other firms. Instrument coverage is primarily forex-focused with approximately 40 currency pairs, alongside 4 metals, 2 energies, 7 crypto assets, and 10 equity CFDs, which is more limited in breadth than larger competitors.\n\nRebelsFunding suits cost-conscious traders who want an affordable, pressure-free entry into funded trading, particularly those comfortable trading on a proprietary platform. The no-consistency-rule policy adds further flexibility. As a firm founded in 2023 with a small team, its long-term payout track record is still developing, so traders should weigh the attractive pricing against the relatively limited operational history.",
   "logo_url": "/logos/rebelsfunding.svg",
   "screenshots": [],
   "website_url": "https://www.rebelsfunding.com",
@@ -125,16 +125,16 @@
     "energies"
   ],
   "pros": [
-    "No time limit on challenge completion \u2014 trade at your own pace",
+    "No time limit on challenge completion — trade at your own pace",
     "Industry-lowest entry fees starting at just $25",
     "Up to 200% challenge fee refund upon passing",
     "No consistency rule provides maximum trading flexibility",
     "Profit split scales from 80% to 90% after first month"
   ],
   "cons": [
-    "No MetaTrader 4 or 5 support \u2014 proprietary platform only",
+    "No MetaTrader 4 or 5 support — proprietary platform only",
     "Limited instrument selection compared to major competitors",
-    "Founded in 2023 \u2014 shorter track record than established prop firms",
+    "Founded in 2023 — shorter track record than established prop firms",
     "Diamond plan offers a lower 75% profit split"
   ],
   "rating": 3.9,
@@ -161,5 +161,7 @@
     "topstep"
   ],
   "last_updated": "2026-03-15",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "RebelsFunding Review 2026",
+  "meta_description": "RebelsFunding is a Slovak prop firm offering challenge-based funding up to $640K with no time limits, challenge fees starting at $25, and up to 200% fee."
 }

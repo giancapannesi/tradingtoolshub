@@ -8,7 +8,7 @@
     "portfolio-management"
   ],
   "description_short": "M1 Finance is a free automated investing platform built around customizable 'Pie' portfolios with fractional shares, automatic rebalancing, and zero trading commissions.",
-  "description_long": "M1 Finance occupies a unique niche as a hybrid between a robo-advisor and a self-directed brokerage. Its proprietary 'Pie' system lets investors build portfolios by selecting stocks and ETFs as slices of a pie chart, with automatic rebalancing to maintain target allocations. With no trading commissions and full support for fractional shares, M1 makes disciplined portfolio management accessible to investors with any account size.\n\nThe platform is purpose-built for passive, long-term investors. Scheduled deposits are automatically invested according to Pie allocations, and dividends are reinvested seamlessly without manual intervention. M1 also offers M1 Borrow, which allows eligible investors to draw a portfolio-backed line of credit at competitive margin rates \u2014 a powerful liquidity tool that avoids triggering a taxable sale.\n\nM1 Premium at $3 per month (or $36 billed annually) unlocks a second afternoon trading window, lower interest rates on M1 Borrow, smart transfer automation, and tax-minimization features. The platform supports taxable brokerage accounts, traditional IRAs, Roth IRAs, and SEP IRAs, making it equally useful for everyday and retirement investing.\n\nThe core limitation is that M1 is designed exclusively for buy-and-hold investors. There is no options trading, no crypto, no charting or technical analysis tools, no paper trading, and no real-time order types beyond market orders. Active traders or anyone needing complex order routing will need to look elsewhere. M1 excels precisely because it removes the temptation to over-trade.",
+  "description_long": "M1 Finance occupies a unique niche as a hybrid between a robo-advisor and a self-directed brokerage. Its proprietary 'Pie' system lets investors build portfolios by selecting stocks and ETFs as slices of a pie chart, with automatic rebalancing to maintain target allocations. With no trading commissions and full support for fractional shares, M1 makes disciplined portfolio management accessible to investors with any account size.\n\nThe platform is purpose-built for passive, long-term investors. Scheduled deposits are automatically invested according to Pie allocations, and dividends are reinvested seamlessly without manual intervention. M1 also offers M1 Borrow, which allows eligible investors to draw a portfolio-backed line of credit at competitive margin rates — a powerful liquidity tool that avoids triggering a taxable sale.\n\nM1 Premium at $3 per month (or $36 billed annually) unlocks a second afternoon trading window, lower interest rates on M1 Borrow, smart transfer automation, and tax-minimization features. The platform supports taxable brokerage accounts, traditional IRAs, Roth IRAs, and SEP IRAs, making it equally useful for everyday and retirement investing.\n\nThe core limitation is that M1 is designed exclusively for buy-and-hold investors. There is no options trading, no crypto, no charting or technical analysis tools, no paper trading, and no real-time order types beyond market orders. Active traders or anyone needing complex order routing will need to look elsewhere. M1 excels precisely because it removes the temptation to over-trade.",
   "logo_url": "/logos/m1-finance.svg",
   "screenshots": [],
   "website_url": "https://www.m1.com",
@@ -74,7 +74,7 @@
   ],
   "pros": [
     "Pie system makes diversified portfolio construction visual and intuitive",
-    "Truly commission-free with fractional shares \u2014 invest any dollar amount",
+    "Truly commission-free with fractional shares — invest any dollar amount",
     "Automatic rebalancing and dividend reinvestment require zero ongoing effort",
     "M1 Borrow offers competitive portfolio line-of-credit without selling positions",
     "Supports taxable, traditional IRA, Roth IRA, and SEP IRA accounts"
@@ -109,5 +109,7 @@
     "wealthfront"
   ],
   "last_updated": "2026-03-08",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "M1 Finance Review 2026",
+  "meta_description": "M1 Finance is a free automated investing platform built around customizable 'Pie' portfolios with fractional shares, automatic rebalancing, and zero."
 }

@@ -8,7 +8,7 @@
     "performance-analytics"
   ],
   "description_short": "A completely free, ad-free trading journal with performance analytics, trade setups, and risk/reward tracking for stocks, options, futures, forex, and crypto.",
-  "description_long": "Stonk Journal is a free web-based trading journal built for retail traders who want a clean, capable journaling experience without subscriptions, ads, or data monetization. The platform launched as a personal project and has grown to thousands of users who rely on it daily to log and review their trades across multiple asset classes.\n\nThe platform centers on fast trade entry with rich metadata: each trade entry supports tags, a confidence meter, image attachments, and freeform notes. Trade setups automatically calculate Risk/Reward ratios, helping traders maintain strategy consistency before entering a position. Setups can be converted into live trades with a single click, streamlining the pre-trade and post-trade workflow.\n\nPerformance analytics are a core strength. Stonk Journal generates charts visualizing trade executions alongside actionable statistics including win rate, profit factor, average winner, and average loser. Multiple accounts and portfolios can be maintained simultaneously, making it easy to segregate strategies, brokers, or asset classes without mixing data.\n\nThe primary trade-off for being entirely free is the lack of broker integration or automatic trade import\u2014all trades must be entered manually. Stonk Journal sustains itself through voluntary user donations and maintains an educational blog covering trading psychology, journaling best practices, and risk management concepts. For traders seeking a zero-cost, privacy-respecting alternative to premium journaling tools, Stonk Journal delivers a surprisingly complete feature set.",
+  "description_long": "Stonk Journal is a free web-based trading journal built for retail traders who want a clean, capable journaling experience without subscriptions, ads, or data monetization. The platform launched as a personal project and has grown to thousands of users who rely on it daily to log and review their trades across multiple asset classes.\n\nThe platform centers on fast trade entry with rich metadata: each trade entry supports tags, a confidence meter, image attachments, and freeform notes. Trade setups automatically calculate Risk/Reward ratios, helping traders maintain strategy consistency before entering a position. Setups can be converted into live trades with a single click, streamlining the pre-trade and post-trade workflow.\n\nPerformance analytics are a core strength. Stonk Journal generates charts visualizing trade executions alongside actionable statistics including win rate, profit factor, average winner, and average loser. Multiple accounts and portfolios can be maintained simultaneously, making it easy to segregate strategies, brokers, or asset classes without mixing data.\n\nThe primary trade-off for being entirely free is the lack of broker integration or automatic trade import—all trades must be entered manually. Stonk Journal sustains itself through voluntary user donations and maintains an educational blog covering trading psychology, journaling best practices, and risk management concepts. For traders seeking a zero-cost, privacy-respecting alternative to premium journaling tools, Stonk Journal delivers a surprisingly complete feature set.",
   "logo_url": "/logos/stonk-journal.svg",
   "screenshots": [],
   "website_url": "https://stonkjournal.com",
@@ -69,7 +69,7 @@
     "Solid performance analytics including win rate and profit factor"
   ],
   "cons": [
-    "No broker integration or automatic trade import \u2014 manual entry only",
+    "No broker integration or automatic trade import — manual entry only",
     "No mobile app for on-the-go trade logging",
     "Some user reports of data loss issues",
     "Limited advanced analytics compared to paid competitors"
@@ -98,5 +98,7 @@
     "mango-db"
   ],
   "last_updated": "2026-03-11",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Stonk Journal Review 2026",
+  "meta_description": "A completely free, ad-free trading journal with performance analytics, trade setups, and risk/reward tracking for stocks, options, futures, forex, and."
 }

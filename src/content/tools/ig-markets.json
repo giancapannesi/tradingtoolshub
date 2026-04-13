@@ -2,7 +2,10 @@
   "name": "IG Markets",
   "slug": "ig-markets",
   "category": "brokers-forex",
-  "subcategories": ["cfd-trading", "spread-betting"],
+  "subcategories": [
+    "cfd-trading",
+    "spread-betting"
+  ],
   "description_short": "World's largest CFD and spread betting provider with 17,000+ markets, ProRealTime charting, and 50 years of trading heritage.",
   "description_long": "IG Markets (commonly known as IG) is the world's largest CFD provider by revenue and one of the most established names in online trading, founded in 1974. The platform offers CFDs and spread betting (in select jurisdictions) across over 17,000 markets including forex, indices, shares, commodities, cryptocurrencies, and more.\n\nIG's proprietary web platform is clean and intuitive, while serious traders can access ProRealTime — a professional-grade charting and automated trading platform included free with an active account. IG also supports MetaTrader 4 and offers L2 Dealer for direct market access (DMA) trading on shares.\n\nThe broker is regulated by the FCA, ASIC, BaFin, and other top-tier regulators. US clients can access forex trading through IG's US entity. IG's educational resources are among the best in the industry, with IG Academy offering structured courses from beginner to advanced levels. The platform also provides real-time Reuters and Twitter feeds, economic calendars, and client sentiment data.",
   "logo_url": "/logos/ig-markets.svg",
@@ -20,13 +23,23 @@
         "name": "Standard",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Forex spreads from 0.6 pips", "No minimum deposit", "17,000+ markets", "ProRealTime included"]
+        "features": [
+          "Forex spreads from 0.6 pips",
+          "No minimum deposit",
+          "17,000+ markets",
+          "ProRealTime included"
+        ]
       },
       {
         "name": "Professional",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Higher leverage limits", "Reduced margins", "No negative balance protection", "Requires professional qualification"]
+        "features": [
+          "Higher leverage limits",
+          "Reduced margins",
+          "No negative balance protection",
+          "Requires professional qualification"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +61,26 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["forex", "stocks", "crypto", "futures", "options"],
-  "pros": ["50+ years of operating history — highly trusted", "17,000+ tradable markets", "ProRealTime professional charting included free", "Excellent educational content via IG Academy", "Regulated by FCA, ASIC, and other top authorities"],
-  "cons": ["CFDs not available to US clients (forex only)", "Inactivity fee of $12/month after 2 years", "Spread betting only available in UK/Ireland", "Share CFD commissions can be high"],
+  "markets": [
+    "forex",
+    "stocks",
+    "crypto",
+    "futures",
+    "options"
+  ],
+  "pros": [
+    "50+ years of operating history — highly trusted",
+    "17,000+ tradable markets",
+    "ProRealTime professional charting included free",
+    "Excellent educational content via IG Academy",
+    "Regulated by FCA, ASIC, and other top authorities"
+  ],
+  "cons": [
+    "CFDs not available to US clients (forex only)",
+    "Inactivity fee of $12/month after 2 years",
+    "Spread betting only available in UK/Ireland",
+    "Share CFD commissions can be high"
+  ],
   "rating": 4.3,
   "rating_breakdown": {
     "ease_of_use": 4.4,
@@ -62,8 +92,18 @@
   "founded_year": 1974,
   "company": "IG Group Holdings plc",
   "headquarters": "London, United Kingdom",
-  "best_for": ["CFD traders", "spread bettors", "multi-asset traders"],
-  "similar_tools": ["oanda", "pepperstone", "forex-com"],
+  "best_for": [
+    "CFD traders",
+    "spread bettors",
+    "multi-asset traders"
+  ],
+  "similar_tools": [
+    "oanda",
+    "pepperstone",
+    "forex-com"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "IG Markets Review 2026",
+  "meta_description": "World's largest CFD and spread betting provider with 17,000+ markets, ProRealTime charting, and 50 years of trading heritage."
 }

@@ -2,7 +2,10 @@
   "name": "RiskReward.io",
   "slug": "riskreward-io",
   "category": "risk-management",
-  "subcategories": ["position-sizing", "risk-calculator"],
+  "subcategories": [
+    "position-sizing",
+    "risk-calculator"
+  ],
   "description_short": "Free online risk/reward calculator and position sizing tool for traders, with visual trade planning and R-multiple tracking across all markets.",
   "description_long": "RiskReward.io is a focused risk management tool designed to help traders calculate optimal position sizes, visualize risk/reward ratios, and plan trades with proper risk management before entering positions. The platform addresses one of the most critical aspects of trading that many traders neglect: sizing positions correctly relative to account size and risk tolerance.\n\nThe core calculator allows traders to input their account size, risk percentage per trade, entry price, stop loss, and target price to instantly calculate the optimal position size, dollar risk, potential reward, and R-multiple (risk/reward ratio). The visual trade planner shows entries, stops, and targets on a price scale, making it easy to see the risk/reward profile at a glance.\n\nRiskReward.io supports stocks, forex (with pip calculations), futures (with contract specifications), and crypto. Traders can save trade plans, track their R-multiples over time, and analyze their risk management consistency. The tool integrates well as a companion to any charting platform or broker, filling the gap that most platforms leave in pre-trade risk analysis. The basic calculator is free, with a premium tier adding portfolio-level risk analysis and trade history tracking.",
   "logo_url": "/logos/riskreward-io.svg",
@@ -20,13 +23,24 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Position size calculator", "R/R ratio calculator", "Visual trade planner", "Basic trade log"]
+        "features": [
+          "Position size calculator",
+          "R/R ratio calculator",
+          "Visual trade planner",
+          "Basic trade log"
+        ]
       },
       {
         "name": "Premium",
         "price_monthly": 9.99,
         "price_yearly": 79.99,
-        "features": ["Portfolio risk analysis", "Unlimited trade history", "R-multiple tracking", "Risk reports", "Multi-account support"]
+        "features": [
+          "Portfolio risk analysis",
+          "Unlimited trade history",
+          "R-multiple tracking",
+          "Risk reports",
+          "Multi-account support"
+        ]
       }
     ],
     "currency": "USD"
@@ -48,9 +62,26 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["stocks", "forex", "futures", "crypto"],
-  "pros": ["Simple and focused — does one thing well", "Free tier covers basic risk calculations", "Visual trade planning is intuitive", "Supports multiple asset classes with correct calculations", "Helps enforce disciplined position sizing"],
-  "cons": ["Very niche — only covers risk/position sizing", "No charting or market data", "No broker integration for direct execution", "Premium features are basic compared to full journals", "Limited community and support resources"],
+  "markets": [
+    "stocks",
+    "forex",
+    "futures",
+    "crypto"
+  ],
+  "pros": [
+    "Simple and focused — does one thing well",
+    "Free tier covers basic risk calculations",
+    "Visual trade planning is intuitive",
+    "Supports multiple asset classes with correct calculations",
+    "Helps enforce disciplined position sizing"
+  ],
+  "cons": [
+    "Very niche — only covers risk/position sizing",
+    "No charting or market data",
+    "No broker integration for direct execution",
+    "Premium features are basic compared to full journals",
+    "Limited community and support resources"
+  ],
   "rating": 4.0,
   "rating_breakdown": {
     "ease_of_use": 4.7,
@@ -62,8 +93,18 @@
   "founded_year": 2020,
   "company": "RiskReward.io",
   "headquarters": "United States",
-  "best_for": ["all traders", "risk-focused traders", "beginners learning position sizing"],
-  "similar_tools": ["tradersync", "edgewonk", "tradervue"],
+  "best_for": [
+    "all traders",
+    "risk-focused traders",
+    "beginners learning position sizing"
+  ],
+  "similar_tools": [
+    "tradersync",
+    "edgewonk",
+    "tradervue"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "RiskReward.io Review 2026",
+  "meta_description": "Free online risk/reward calculator and position sizing tool for traders, with visual trade planning and R-multiple tracking across all markets."
 }

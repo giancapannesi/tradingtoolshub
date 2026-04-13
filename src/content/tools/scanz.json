@@ -8,8 +8,8 @@
     "day-trading",
     "us-equities"
   ],
-  "description_short": "Professional real-time stock scanner with 100+ filters, best-in-class news streaming, and Level II data \u2014 all bundled into one all-inclusive plan for active day traders.",
-  "description_long": "Scanz (formerly EquityFeed) is one of the oldest real-time stock scanning platforms in existence, with roots dating back to 1998 when its founders helped pioneer modern stock screening technology. Now on version 3.0, Scanz is a fully web-based platform purpose-built for active day traders who need fast, comprehensive market scanning with no software installation required. The platform scans markets from 4:00 AM to 8:00 PM EST, covering pre-market and after-hours sessions.\n\nAt its core, Scanz offers a Pro Scanner with 100+ filters spanning price, volume, technical indicators, and fundamentals \u2014 alongside 70+ pre-built scans crafted by professional traders. Its News Scanner aggregates real-time feeds from 100+ sources including press releases, financial blogs, and SEC filings, and is widely considered one of the fastest news feeds in the industry. Level I and Level II data are bundled at no extra cost, and the Breakouts module delivers real-time signals for gaps, volume spikes, and breakout patterns. Dollar volume data \u2014 a unique Scanz feature not offered by most competitors \u2014 further distinguishes the platform for momentum traders.\n\nScanz operates on a single all-inclusive plan at $169/month (or approximately $1,970/year), with a 14-day free trial available. The company enforces a strict no-refund policy after the trial ends. Broker integrations currently include Schwab and Interactive Brokers, with more planned. Notable limitations include no backtesting engine, no dedicated mobile app, no API access, and coverage restricted to US equities on NYSE, NASDAQ, and OTC markets.\n\nScanz is best suited for serious active day traders and momentum traders who rely on real-time data speed and deep scanning customization to identify intraday opportunities. Its all-inclusive pricing eliminates the frustrating \u00e0 la carte add-ons common on competing platforms, but the $169/month cost is difficult to justify for swing traders, long-term investors, or anyone needing multi-asset coverage.",
+  "description_short": "Professional real-time stock scanner with 100+ filters, best-in-class news streaming, and Level II data — all bundled into one all-inclusive plan for active day traders.",
+  "description_long": "Scanz (formerly EquityFeed) is one of the oldest real-time stock scanning platforms in existence, with roots dating back to 1998 when its founders helped pioneer modern stock screening technology. Now on version 3.0, Scanz is a fully web-based platform purpose-built for active day traders who need fast, comprehensive market scanning with no software installation required. The platform scans markets from 4:00 AM to 8:00 PM EST, covering pre-market and after-hours sessions.\n\nAt its core, Scanz offers a Pro Scanner with 100+ filters spanning price, volume, technical indicators, and fundamentals — alongside 70+ pre-built scans crafted by professional traders. Its News Scanner aggregates real-time feeds from 100+ sources including press releases, financial blogs, and SEC filings, and is widely considered one of the fastest news feeds in the industry. Level I and Level II data are bundled at no extra cost, and the Breakouts module delivers real-time signals for gaps, volume spikes, and breakout patterns. Dollar volume data — a unique Scanz feature not offered by most competitors — further distinguishes the platform for momentum traders.\n\nScanz operates on a single all-inclusive plan at $169/month (or approximately $1,970/year), with a 14-day free trial available. The company enforces a strict no-refund policy after the trial ends. Broker integrations currently include Schwab and Interactive Brokers, with more planned. Notable limitations include no backtesting engine, no dedicated mobile app, no API access, and coverage restricted to US equities on NYSE, NASDAQ, and OTC markets.\n\nScanz is best suited for serious active day traders and momentum traders who rely on real-time data speed and deep scanning customization to identify intraday opportunities. Its all-inclusive pricing eliminates the frustrating à la carte add-ons common on competing platforms, but the $169/month cost is difficult to justify for swing traders, long-term investors, or anyone needing multi-asset coverage.",
   "logo_url": "/logos/scanz.svg",
   "screenshots": [],
   "website_url": "https://scanz.com",
@@ -28,7 +28,7 @@
         "features": [
           "100+ scan filters (price, volume, technical, fundamental)",
           "70+ pre-built expert scans",
-          "Real-time scanning 4:00 AM \u2013 8:00 PM EST",
+          "Real-time scanning 4:00 AM – 8:00 PM EST",
           "News Scanner with 100+ real-time sources",
           "Breakouts module (gaps, volume spikes, breakouts)",
           "Level I and Level II data included",
@@ -65,15 +65,15 @@
   "pros": [
     "Extremely fast real-time scanning with pre-market and after-hours coverage",
     "Best-in-class news scanner aggregating 100+ sources including SEC filings",
-    "Level I and Level II data bundled \u2014 no add-on fees",
+    "Level I and Level II data bundled — no add-on fees",
     "All-inclusive single plan eliminates confusing tier upgrades",
     "Unique dollar volume data not offered by most competitors"
   ],
   "cons": [
     "Expensive at $169/month with a strict no-refund policy",
-    "No backtesting capability \u2014 significant gap for strategy development",
+    "No backtesting capability — significant gap for strategy development",
     "No mobile app and no API access",
-    "US equities only \u2014 no options, futures, forex, or crypto"
+    "US equities only — no options, futures, forex, or crypto"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -99,5 +99,7 @@
     "stockbeep"
   ],
   "last_updated": "2026-03-13",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Scanz Review 2026",
+  "meta_description": "Professional real-time stock scanner with 100+ filters, best-in-class news streaming, and Level II data — all bundled into one all-inclusive plan for."
 }

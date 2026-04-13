@@ -2,7 +2,10 @@
   "name": "Trademetria",
   "slug": "trademetria",
   "category": "trading-journals",
-  "subcategories": ["performance-tracking", "multi-asset"],
+  "subcategories": [
+    "performance-tracking",
+    "multi-asset"
+  ],
   "description_short": "Multi-asset trading journal with portfolio tracking, risk analysis, and detailed performance metrics for all markets.",
   "description_long": "Trademetria is a versatile trading journal that caters to traders across all asset classes, from stocks and options to forex, futures, and crypto. The platform emphasizes comprehensive performance tracking with detailed breakdowns by strategy, instrument, time period, and risk metrics.\n\nThe free plan allows up to 30 orders per month with a single account, making it a solid entry point for newer traders. The paid tiers unlock unlimited trade imports, multiple account management, and advanced analytics including detailed P&L attribution and risk analysis.\n\nTrademetria's strength lies in its balance of simplicity and depth. The interface is clean and intuitive, but under the hood, there are powerful analytics tools for traders who want to dig deep into their performance data. Auto-import from major brokers keeps the journaling process efficient.",
   "logo_url": "/logos/trademetria.svg",
@@ -20,19 +23,35 @@
         "name": "Free",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["30 orders/month", "1 account", "Up to 3 open positions", "Basic analytics"]
+        "features": [
+          "30 orders/month",
+          "1 account",
+          "Up to 3 open positions",
+          "Basic analytics"
+        ]
       },
       {
         "name": "Basic",
         "price_monthly": 29.95,
         "price_yearly": 215,
-        "features": ["Unlimited orders", "Multiple accounts", "Advanced analytics", "Auto-import"]
+        "features": [
+          "Unlimited orders",
+          "Multiple accounts",
+          "Advanced analytics",
+          "Auto-import"
+        ]
       },
       {
         "name": "Pro",
         "price_monthly": 39.95,
         "price_yearly": 279,
-        "features": ["All Basic features", "Priority support", "Advanced risk analysis", "Custom reports", "API access"]
+        "features": [
+          "All Basic features",
+          "Priority support",
+          "Advanced risk analysis",
+          "Custom reports",
+          "API access"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +73,24 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex", "crypto"],
-  "pros": ["Free tier available for light trading", "Good multi-asset support across all markets", "Clean, intuitive interface", "Annual billing saves up to 40%"],
-  "cons": ["Free tier is very limited at 30 orders/month", "Fewer advanced features than top competitors", "No AI-powered analysis"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Free tier available for light trading",
+    "Good multi-asset support across all markets",
+    "Clean, intuitive interface",
+    "Annual billing saves up to 40%"
+  ],
+  "cons": [
+    "Free tier is very limited at 30 orders/month",
+    "Fewer advanced features than top competitors",
+    "No AI-powered analysis"
+  ],
   "rating": 4.0,
   "rating_breakdown": {
     "ease_of_use": 4.3,
@@ -68,8 +102,18 @@
   "founded_year": 2017,
   "company": "Trademetria",
   "headquarters": "New York, New York",
-  "best_for": ["multi-asset traders", "beginners", "budget-conscious traders"],
-  "similar_tools": ["tradertrac", "tradervue", "tradesviz"],
+  "best_for": [
+    "multi-asset traders",
+    "beginners",
+    "budget-conscious traders"
+  ],
+  "similar_tools": [
+    "tradertrac",
+    "tradervue",
+    "tradesviz"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Trademetria Review 2026: Multi-asset trading journal",
+  "meta_description": "Multi-asset trading journal with portfolio tracking, risk analysis, and detailed performance metrics for all markets."
 }

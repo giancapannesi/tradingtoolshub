@@ -2,7 +2,11 @@
   "name": "cTrader Store",
   "slug": "ctrader-store",
   "category": "trading-bots",
-  "subcategories": ["marketplace", "indicators", "automated-trading"],
+  "subcategories": [
+    "marketplace",
+    "indicators",
+    "automated-trading"
+  ],
   "description_short": "Marketplace for trading indicators, bots, and tools built on the cTrader platform, with prop firm challenge integrations.",
   "description_long": "cTrader Store is a marketplace where traders can buy and sell custom indicators, automated trading bots (cBots), and trading tools built on the cTrader platform. Launched as an extension of Spotware's cTrader ecosystem, the store has become a hub for algorithmic trading resources.\n\nThe store features hundreds of products ranging from free community indicators to premium algorithmic trading systems. Categories include technical indicators, cBots for automated execution, risk management tools, and utilities. Each product includes reviews, version history, and compatibility information.\n\nWhat makes cTrader Store particularly interesting in 2026 is its integration with prop firm challenges. Several products are specifically designed to help traders pass funded account evaluations, with built-in risk management and drawdown protection. The affiliate program offers up to 20% commission on all sales referred through your links, making it a unique monetization opportunity in the trading tools space.",
   "logo_url": "/logos/ctrader-store.svg",
@@ -16,8 +20,28 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free Products", "price_monthly": 0, "price_yearly": 0, "features": ["Community indicators", "Basic cBots", "Open source tools"]},
-      {"name": "Premium Products", "price_monthly": 0, "price_yearly": 0, "features": ["Varies by product ($10-$500+)", "Premium indicators", "Advanced cBots", "Prop firm tools", "Risk management systems"]}
+      {
+        "name": "Free Products",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Community indicators",
+          "Basic cBots",
+          "Open source tools"
+        ]
+      },
+      {
+        "name": "Premium Products",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Varies by product ($10-$500+)",
+          "Premium indicators",
+          "Advanced cBots",
+          "Prop firm tools",
+          "Risk management systems"
+        ]
+      }
     ],
     "currency": "USD"
   },
@@ -38,9 +62,24 @@
     "news_feed": false,
     "education": false
   },
-  "markets": ["forex", "futures", "stocks", "crypto"],
-  "pros": ["Free products available alongside premium offerings", "Prop firm challenge-specific tools", "Active developer community", "Integrates directly with cTrader platform"],
-  "cons": ["Requires cTrader platform (not standalone)", "Quality varies widely across products", "No refund policy on some products", "Smaller ecosystem than MetaTrader marketplace"],
+  "markets": [
+    "forex",
+    "futures",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "Free products available alongside premium offerings",
+    "Prop firm challenge-specific tools",
+    "Active developer community",
+    "Integrates directly with cTrader platform"
+  ],
+  "cons": [
+    "Requires cTrader platform (not standalone)",
+    "Quality varies widely across products",
+    "No refund policy on some products",
+    "Smaller ecosystem than MetaTrader marketplace"
+  ],
   "rating": 3.8,
   "rating_breakdown": {
     "ease_of_use": 3.5,
@@ -52,8 +91,18 @@
   "founded_year": 2021,
   "company": "Spotware Systems",
   "headquarters": "Limassol, Cyprus",
-  "best_for": ["cTrader platform users", "algo traders seeking ready-made bots", "prop firm challenge takers"],
-  "similar_tools": ["metatrader-5", "ninjatrader", "quantconnect"],
+  "best_for": [
+    "cTrader platform users",
+    "algo traders seeking ready-made bots",
+    "prop firm challenge takers"
+  ],
+  "similar_tools": [
+    "metatrader-5",
+    "ninjatrader",
+    "quantconnect"
+  ],
   "last_updated": "2026-03-28",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "cTrader Store Review 2026",
+  "meta_description": "Marketplace for trading indicators, bots, and tools built on the cTrader platform, with prop firm challenge integrations."
 }

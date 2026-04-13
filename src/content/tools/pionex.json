@@ -2,7 +2,10 @@
   "name": "Pionex",
   "slug": "pionex",
   "category": "trading-bots",
-  "subcategories": ["crypto-bots", "free-bots"],
+  "subcategories": [
+    "crypto-bots",
+    "free-bots"
+  ],
   "description_short": "Free built-in crypto trading bots on an exchange with 16 bot types, 0.05% fees, and no monthly subscription required.",
   "description_long": "Pionex is unique in the crypto trading bot space because it is both an exchange and a bot platform, with all 16 trading bots available completely free. Instead of charging monthly subscriptions, Pionex earns revenue through trading fees (0.05% maker and taker), which are among the lowest in the industry.\n\nThe platform offers a wide variety of bot types including Grid Trading Bot, DCA Bot, Arbitrage Bot, Rebalancing Bot, Martingale Bot, and the popular Infinity Grid for long-term holding with automated profit-taking. Each bot is configured through a simple interface that suggests optimal parameters based on market conditions.\n\nPionex aggregates liquidity from Binance and Huobi, ensuring deep order books and fast execution. The platform supports both spot and futures trading, with bots available for both. The mobile app provides full bot management on the go, making Pionex one of the most accessible automated trading platforms available.",
   "logo_url": "/logos/pionex.svg",
@@ -16,26 +19,76 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free", "price_monthly": 0, "price_yearly": 0, "features": ["All 16 trading bots", "0.05% maker/taker fees", "Spot and futures bots", "Mobile app", "No subscription needed"]}
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All 16 trading bots",
+          "0.05% maker/taker fees",
+          "Spot and futures bots",
+          "Mobile app",
+          "No subscription needed"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": true, "backtesting": false, "paper_trading": false, "alerts": true,
-    "mobile_app": true, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": false, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": true
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
   },
-  "markets": ["crypto"],
-  "pros": ["All bots completely free with no subscription", "0.05% trading fees are among the lowest", "16 different bot types for varied strategies", "Simple setup with AI-suggested parameters"],
-  "cons": ["Crypto only, no stocks or forex", "Limited to Pionex exchange liquidity", "Less customization than subscription-based competitors", "Fewer advanced features than 3Commas"],
+  "markets": [
+    "crypto"
+  ],
+  "pros": [
+    "All bots completely free with no subscription",
+    "0.05% trading fees are among the lowest",
+    "16 different bot types for varied strategies",
+    "Simple setup with AI-suggested parameters"
+  ],
+  "cons": [
+    "Crypto only, no stocks or forex",
+    "Limited to Pionex exchange liquidity",
+    "Less customization than subscription-based competitors",
+    "Fewer advanced features than 3Commas"
+  ],
   "rating": 4.2,
-  "rating_breakdown": {"ease_of_use": 4.5, "features": 4.0, "value": 4.9, "support": 3.8, "reliability": 4.0},
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.0,
+    "value": 4.9,
+    "support": 3.8,
+    "reliability": 4.0
+  },
   "founded_year": 2019,
   "company": "Pionex",
   "headquarters": "Singapore",
-  "best_for": ["crypto beginners", "passive crypto investors", "budget-conscious traders"],
-  "similar_tools": ["3commas", "cryptohopper", "tradesanta"],
+  "best_for": [
+    "crypto beginners",
+    "passive crypto investors",
+    "budget-conscious traders"
+  ],
+  "similar_tools": [
+    "3commas",
+    "cryptohopper",
+    "tradesanta"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Pionex Review 2026",
+  "meta_description": "Free built-in crypto trading bots on an exchange with 16 bot types, 0.05% fees, and no monthly subscription required."
 }

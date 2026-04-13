@@ -7,8 +7,8 @@
     "performance-analytics",
     "psychology-tools"
   ],
-  "description_short": "Trading Vault is a structured trading journal built around a Plan \u2192 Execute \u2192 Review workflow, offering broker sync, performance analytics, and psychology-focused tools for serious traders.",
-  "description_long": "Trading Vault is a web-based trading journal designed to help traders improve through a disciplined, three-phase workflow: Plan, Execute, and Review. Rather than simply logging trades after the fact, the platform encourages pre-trade planning with ideal risk-to-reward targets and directional predictions, then guides traders through post-trade reflection to identify what went right or wrong.\n\nThe platform offers automatic broker synchronization via MT5, one-click file uploads, and custom CSV imports, making it accessible to traders across brokers and markets. Performance analytics include equity curves, account growth charts, consistency scores, and detailed breakdowns by trading pair, session time, and day of week \u2014 helping traders identify their true edge.\n\nPsychology is a first-class feature in Trading Vault, not an afterthought. The journaling interface is designed to capture the mental state and reasoning behind each trade, giving traders the data to recognize emotional patterns that hurt performance over time. This distinguishes it from analytics-only journals that focus purely on numbers.\n\nTrading Vault offers a free-forever tier covering essential journaling features, making it accessible to newer traders, while the Pro plan unlocks advanced analytics, deeper insights, and additional stat widgets. The platform is web-only with no mobile app currently available. Founded in 2019 and headquartered in Panama, Trading Vault has built a loyal following among forex traders in particular, with user reviews consistently praising its intuitive design, MT5 auto-import, and responsive support team.",
+  "description_short": "Trading Vault is a structured trading journal built around a Plan → Execute → Review workflow, offering broker sync, performance analytics, and psychology-focused tools for serious traders.",
+  "description_long": "Trading Vault is a web-based trading journal designed to help traders improve through a disciplined, three-phase workflow: Plan, Execute, and Review. Rather than simply logging trades after the fact, the platform encourages pre-trade planning with ideal risk-to-reward targets and directional predictions, then guides traders through post-trade reflection to identify what went right or wrong.\n\nThe platform offers automatic broker synchronization via MT5, one-click file uploads, and custom CSV imports, making it accessible to traders across brokers and markets. Performance analytics include equity curves, account growth charts, consistency scores, and detailed breakdowns by trading pair, session time, and day of week — helping traders identify their true edge.\n\nPsychology is a first-class feature in Trading Vault, not an afterthought. The journaling interface is designed to capture the mental state and reasoning behind each trade, giving traders the data to recognize emotional patterns that hurt performance over time. This distinguishes it from analytics-only journals that focus purely on numbers.\n\nTrading Vault offers a free-forever tier covering essential journaling features, making it accessible to newer traders, while the Pro plan unlocks advanced analytics, deeper insights, and additional stat widgets. The platform is web-only with no mobile app currently available. Founded in 2019 and headquartered in Panama, Trading Vault has built a loyal following among forex traders in particular, with user reviews consistently praising its intuitive design, MT5 auto-import, and responsive support team.",
   "logo_url": "/logos/tradervault.svg",
   "screenshots": [],
   "website_url": "https://trading-vault.com",
@@ -29,7 +29,7 @@
           "Manual trade entry",
           "CSV import",
           "Basic performance stats",
-          "Plan \u2192 Execute \u2192 Review workflow"
+          "Plan → Execute → Review workflow"
         ]
       },
       {
@@ -75,14 +75,14 @@
     "crypto"
   ],
   "pros": [
-    "Structured Plan \u2192 Execute \u2192 Review workflow encourages trading discipline",
+    "Structured Plan → Execute → Review workflow encourages trading discipline",
     "Free tier available with genuine core journaling features",
     "MT5 automatic broker sync reduces manual data entry",
     "Strong focus on trading psychology alongside performance data",
     "Intuitive, clean design praised consistently by users"
   ],
   "cons": [
-    "No mobile app \u2014 web-only limits on-the-go journaling",
+    "No mobile app — web-only limits on-the-go journaling",
     "Small user review base makes reliability hard to assess",
     "Explicit multi-market support (stocks, crypto) not well documented",
     "No public API or third-party integrations beyond MT5"
@@ -111,5 +111,7 @@
     "myfxbook"
   ],
   "last_updated": "2026-03-12",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Trading Vault Review 2026",
+  "meta_description": "Trading Vault is a structured trading journal built around a Plan → Execute → Review workflow, offering broker sync, performance analytics, and."
 }

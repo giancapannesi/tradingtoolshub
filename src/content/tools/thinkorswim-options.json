@@ -8,8 +8,8 @@
     "paper-trading",
     "futures-trading"
   ],
-  "description_short": "Charles Schwab's professional-grade trading platform with industry-leading options tools, ~450 indicators, and built-in paper trading \u2014 all completely free.",
-  "description_long": "thinkorswim is a professional-grade trading platform originally founded in 1999 by options trading pioneers Tom Sosnoff and Scott Sheridan. Acquired by TD Ameritrade in 2009 and now operated under Charles Schwab following its 2020 acquisition, it remains one of the most feature-rich retail trading platforms available. The platform is entirely free \u2014 no monthly subscription, no platform fee \u2014 with options trading at just $0.65 per contract and $0 base commission, making it exceptional value for active options traders of any experience level.\n\nThe platform's core strength lies in its deeply integrated options toolset. Traders get a full options chain embedded directly into charts, probability analysis overlays, risk profile visualizations, and multi-leg spread construction across all standard strategies. thinkScript, the platform's proprietary scripting language, allows users to build fully custom indicators, scanners, and strategy backtests. With approximately 450 built-in technical indicators and studies, the charting engine rivals dedicated charting platforms while remaining free of charge.\n\nthinkorswim is available in three versions: a full-featured desktop application, a browser-based web platform requiring no download, and mobile apps for iOS and Android. The standout paperMoney feature provides a virtual trading simulator using live market data, ideal for testing strategies without financial risk. Additional capabilities include live CNBC streaming, 24/5 extended-hours trading on major S&P 500 and Nasdaq-100 stocks (added in 2025), support for 65+ forex pairs, micro and standard futures contracts, and spot and futures cryptocurrency trading.\n\nDespite its strengths, thinkorswim carries a steep learning curve that can overwhelm newer traders \u2014 the desktop interface is dense and complex by design. The mobile app, while functional and feature-rich, presents a noticeably different UI from the desktop, which some users find inconsistent. Additionally, following Schwab's full platform migration in May 2024, the old TD Ameritrade API was discontinued; the replacement Schwab Trader API has had limited and inconsistent availability for retail developers, which is a notable gap for algorithmic traders.",
+  "description_short": "Charles Schwab's professional-grade trading platform with industry-leading options tools, ~450 indicators, and built-in paper trading — all completely free.",
+  "description_long": "thinkorswim is a professional-grade trading platform originally founded in 1999 by options trading pioneers Tom Sosnoff and Scott Sheridan. Acquired by TD Ameritrade in 2009 and now operated under Charles Schwab following its 2020 acquisition, it remains one of the most feature-rich retail trading platforms available. The platform is entirely free — no monthly subscription, no platform fee — with options trading at just $0.65 per contract and $0 base commission, making it exceptional value for active options traders of any experience level.\n\nThe platform's core strength lies in its deeply integrated options toolset. Traders get a full options chain embedded directly into charts, probability analysis overlays, risk profile visualizations, and multi-leg spread construction across all standard strategies. thinkScript, the platform's proprietary scripting language, allows users to build fully custom indicators, scanners, and strategy backtests. With approximately 450 built-in technical indicators and studies, the charting engine rivals dedicated charting platforms while remaining free of charge.\n\nthinkorswim is available in three versions: a full-featured desktop application, a browser-based web platform requiring no download, and mobile apps for iOS and Android. The standout paperMoney feature provides a virtual trading simulator using live market data, ideal for testing strategies without financial risk. Additional capabilities include live CNBC streaming, 24/5 extended-hours trading on major S&P 500 and Nasdaq-100 stocks (added in 2025), support for 65+ forex pairs, micro and standard futures contracts, and spot and futures cryptocurrency trading.\n\nDespite its strengths, thinkorswim carries a steep learning curve that can overwhelm newer traders — the desktop interface is dense and complex by design. The mobile app, while functional and feature-rich, presents a noticeably different UI from the desktop, which some users find inconsistent. Additionally, following Schwab's full platform migration in May 2024, the old TD Ameritrade API was discontinued; the replacement Schwab Trader API has had limited and inconsistent availability for retail developers, which is a notable gap for algorithmic traders.",
   "logo_url": "/logos/thinkorswim-options.svg",
   "screenshots": [],
   "website_url": "https://www.schwab.com/trading/thinkorswim",
@@ -26,7 +26,7 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Free platform access \u2014 no subscription fee",
+          "Free platform access — no subscription fee",
           "$0 commission on stocks and ETFs",
           "$0.65 per options contract (no base commission)",
           "$2.25 per futures contract per side",
@@ -75,7 +75,7 @@
     "Covers stocks, options, futures, forex, and crypto in one platform"
   ],
   "cons": [
-    "Steep learning curve \u2014 desktop interface is dense and complex",
+    "Steep learning curve — desktop interface is dense and complex",
     "Mobile app has an inconsistent UI experience compared to desktop",
     "New Schwab Trader API has limited and inconsistent retail developer access",
     "Advanced features like portfolio margin and futures require separate approval"
@@ -104,5 +104,7 @@
     "etrade-options"
   ],
   "last_updated": "2026-03-15",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "thinkorswim Options Review 2026",
+  "meta_description": "Charles Schwab's professional-grade trading platform with industry-leading options tools, ~450 indicators, and built-in paper trading — all completely."
 }

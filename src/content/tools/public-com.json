@@ -8,7 +8,7 @@
     "multi-asset"
   ],
   "description_short": "Commission-free social investing platform offering stocks, ETFs, options, crypto, and bonds with a built-in investor community and AI-powered insights.",
-  "description_long": "Public.com is a commission-free brokerage built around social investing, allowing users to follow other investors, share portfolios, and discuss market ideas within the app. Launched in 2019, the platform has grown into a multi-asset broker supporting stocks, ETFs, options, crypto, bonds, and alternative investments, all from a single account.\n\nOne of Public's standout features is its social layer \u2014 every trade and portfolio move can optionally be shared with the community, making it popular with newer investors who want to learn from others. The platform also offers Alpha, an AI-powered analysis tool that synthesizes earnings calls, news, and analyst sentiment into plain-language summaries for any ticker.\n\nPublic offers a High-Yield Cash Account (HYCA) that competes with top savings rates, making it attractive as both a brokerage and a cash management solution. The free tier covers core trading with no commissions on stocks and ETFs, while Public Premium ($10/month) unlocks higher HYCA rates, advanced analytics, priority support, and extended research features.\n\nThe platform is particularly well-suited to beginner and intermediate investors who value community and education alongside execution. Active traders seeking advanced charting, complex options strategies, or futures will find Public's toolset limited compared to specialist platforms like tastytrade or thinkorswim.",
+  "description_long": "Public.com is a commission-free brokerage built around social investing, allowing users to follow other investors, share portfolios, and discuss market ideas within the app. Launched in 2019, the platform has grown into a multi-asset broker supporting stocks, ETFs, options, crypto, bonds, and alternative investments, all from a single account.\n\nOne of Public's standout features is its social layer — every trade and portfolio move can optionally be shared with the community, making it popular with newer investors who want to learn from others. The platform also offers Alpha, an AI-powered analysis tool that synthesizes earnings calls, news, and analyst sentiment into plain-language summaries for any ticker.\n\nPublic offers a High-Yield Cash Account (HYCA) that competes with top savings rates, making it attractive as both a brokerage and a cash management solution. The free tier covers core trading with no commissions on stocks and ETFs, while Public Premium ($10/month) unlocks higher HYCA rates, advanced analytics, priority support, and extended research features.\n\nThe platform is particularly well-suited to beginner and intermediate investors who value community and education alongside execution. Active traders seeking advanced charting, complex options strategies, or futures will find Public's toolset limited compared to specialist platforms like tastytrade or thinkorswim.",
   "logo_url": "/logos/public-com.svg",
   "screenshots": [],
   "website_url": "https://public.com",
@@ -112,5 +112,7 @@
     "sofi-invest"
   ],
   "last_updated": "2026-03-08",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Public.com Review 2026",
+  "meta_description": "Commission-free social investing platform offering stocks, ETFs, options, crypto, and bonds with a built-in investor community and AI-powered insights."
 }

@@ -2,7 +2,10 @@
   "name": "TipRanks",
   "slug": "tipranks",
   "category": "news-data-feeds",
-  "subcategories": ["analyst-ratings", "investment-research"],
+  "subcategories": [
+    "analyst-ratings",
+    "investment-research"
+  ],
   "description_short": "Financial accountability platform that tracks and ranks Wall Street analysts, hedge fund managers, and financial bloggers based on their actual performance.",
   "description_long": "TipRanks is a financial data platform that differentiates itself by tracking the actual performance of Wall Street analysts, hedge fund managers, corporate insiders, and financial bloggers. Rather than just showing consensus ratings, TipRanks ranks experts based on their historical accuracy and average returns, helping investors identify which voices are actually worth following.\n\nThe platform's Smart Score is a proprietary composite rating (1-10) that combines eight market factors: analyst consensus, blogger sentiment, hedge fund activity, insider trading, investor sentiment, news sentiment, technical analysis, and fundamental analysis. Stocks scoring 8-10 have historically outperformed the market. TipRanks tracks over 8,000 Wall Street analysts and 8,000+ financial bloggers.\n\nBeyond analyst tracking, TipRanks offers stock screening, portfolio analysis, dividend data, institutional ownership tracking, and SEC filing analysis. The platform integrates with several major brokerages (Schwab, E*TRADE, Interactive Brokers) to provide ratings directly within trading platforms. The free tier offers basic analyst ratings, while Ultimate ($49.95/mo) unlocks Smart Score, advanced screeners, and portfolio tracking.",
   "logo_url": "/logos/tipranks.svg",
@@ -20,19 +23,36 @@
         "name": "Basic",
         "price_monthly": 0,
         "price_yearly": 0,
-        "features": ["Basic analyst ratings", "Limited stock data", "News feed", "Ad-supported"]
+        "features": [
+          "Basic analyst ratings",
+          "Limited stock data",
+          "News feed",
+          "Ad-supported"
+        ]
       },
       {
         "name": "Premium",
         "price_monthly": 29.95,
         "price_yearly": 199,
-        "features": ["Smart Score access", "Top analyst picks", "Hedge fund portfolios", "Advanced screeners", "No ads"]
+        "features": [
+          "Smart Score access",
+          "Top analyst picks",
+          "Hedge fund portfolios",
+          "Advanced screeners",
+          "No ads"
+        ]
       },
       {
         "name": "Ultimate",
         "price_monthly": 49.95,
         "price_yearly": 499,
-        "features": ["Everything in Premium", "AI-powered analysis", "Portfolio monitoring", "Insider trading alerts", "Expert-only signals"]
+        "features": [
+          "Everything in Premium",
+          "AI-powered analysis",
+          "Portfolio monitoring",
+          "Insider trading alerts",
+          "Expert-only signals"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +74,24 @@
     "news_feed": true,
     "education": true
   },
-  "markets": ["stocks", "options"],
-  "pros": ["Unique analyst accountability and performance tracking", "Smart Score has strong historical outperformance record", "Tracks hedge fund and insider activity", "Integrates with major brokerages", "Clean, intuitive interface"],
-  "cons": ["Premium/Ultimate required for most useful features", "Limited to US and some international equities", "No charting or technical analysis tools", "Smart Score is backward-looking and not predictive", "Some data may be delayed on free tier"],
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Unique analyst accountability and performance tracking",
+    "Smart Score has strong historical outperformance record",
+    "Tracks hedge fund and insider activity",
+    "Integrates with major brokerages",
+    "Clean, intuitive interface"
+  ],
+  "cons": [
+    "Premium/Ultimate required for most useful features",
+    "Limited to US and some international equities",
+    "No charting or technical analysis tools",
+    "Smart Score is backward-looking and not predictive",
+    "Some data may be delayed on free tier"
+  ],
   "rating": 4.2,
   "rating_breakdown": {
     "ease_of_use": 4.5,
@@ -68,8 +103,18 @@
   "founded_year": 2012,
   "company": "TipRanks Ltd.",
   "headquarters": "Tel Aviv, Israel",
-  "best_for": ["fundamental investors", "research-driven traders", "analyst followers"],
-  "similar_tools": ["seeking-alpha", "koyfin", "benzinga-pro"],
+  "best_for": [
+    "fundamental investors",
+    "research-driven traders",
+    "analyst followers"
+  ],
+  "similar_tools": [
+    "seeking-alpha",
+    "koyfin",
+    "benzinga-pro"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "TipRanks Review 2026",
+  "meta_description": "Financial accountability platform that tracks and ranks Wall Street analysts, hedge fund managers, and financial bloggers based on their actual."
 }

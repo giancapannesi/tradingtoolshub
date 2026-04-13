@@ -90,5 +90,7 @@
     "ams-trading-group"
   ],
   "last_updated": "2026-04-02",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Orderflows Review 2026",
+  "meta_description": "NinjaTrader footprint charting add-on with 15+ hours of order flow education, created by ex-JP Morgan trader Michael Valtos."
 }

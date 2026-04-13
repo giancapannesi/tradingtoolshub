@@ -2,7 +2,10 @@
   "name": "Topstep",
   "slug": "topstep",
   "category": "prop-firms",
-  "subcategories": ["funded-accounts", "futures-focused"],
+  "subcategories": [
+    "funded-accounts",
+    "futures-focused"
+  ],
   "description_short": "Veteran futures prop firm with a structured Trading Combine evaluation, risk management coaching, and funded accounts up to $150K.",
   "description_long": "Topstep is one of the original and most respected futures-focused proprietary trading firms, founded in 2012 in Chicago. The firm pioneered the online prop firm evaluation model and has funded thousands of traders through its Trading Combine program.\n\nThe evaluation process involves trading a simulated futures account while meeting profit targets and adhering to risk rules. Topstep offers account sizes of $50K, $100K, and $150K. The key differentiator is Topstep's focus on risk management — the firm provides coaching, performance analytics, and daily loss limits designed to instill disciplined trading habits. Traders must demonstrate consistent profitability rather than hitting profit targets through one or two lucky trades.\n\nOnce funded, traders receive a 100% profit split on the first $5,000, then 90/10 thereafter. Payouts are processed quickly, and funded traders can withdraw profits at any time. Topstep supports trading through NinjaTrader, Tradovate, and other major futures platforms. The firm has a strong community with live trading rooms, educational webinars, and an active Discord.",
   "logo_url": "/logos/topstep.svg",
@@ -20,19 +23,34 @@
         "name": "$50K Trading Combine",
         "price_monthly": 165,
         "price_yearly": 0,
-        "features": ["$50,000 buying power", "$3,000 profit target", "5 contracts max", "$2,000 daily loss limit"]
+        "features": [
+          "$50,000 buying power",
+          "$3,000 profit target",
+          "5 contracts max",
+          "$2,000 daily loss limit"
+        ]
       },
       {
         "name": "$100K Trading Combine",
         "price_monthly": 325,
         "price_yearly": 0,
-        "features": ["$100,000 buying power", "$6,000 profit target", "10 contracts max", "$3,000 daily loss limit"]
+        "features": [
+          "$100,000 buying power",
+          "$6,000 profit target",
+          "10 contracts max",
+          "$3,000 daily loss limit"
+        ]
       },
       {
         "name": "$150K Trading Combine",
         "price_monthly": 375,
         "price_yearly": 0,
-        "features": ["$150,000 buying power", "$9,000 profit target", "15 contracts max", "$4,500 daily loss limit"]
+        "features": [
+          "$150,000 buying power",
+          "$9,000 profit target",
+          "15 contracts max",
+          "$4,500 daily loss limit"
+        ]
       }
     ],
     "currency": "USD"
@@ -54,9 +72,23 @@
     "news_feed": false,
     "education": true
   },
-  "markets": ["futures"],
-  "pros": ["One of the most established and trusted prop firms", "Strong emphasis on risk management and trader development", "100% profit split on first $5,000", "Active community with live trading rooms", "Consistent and reliable payout history"],
-  "cons": ["Futures only — no forex or equities", "Evaluation rules can be restrictive (consistency requirement)", "Monthly fees accumulate during evaluation period", "Automated trading not permitted", "Smaller maximum account size than some competitors"],
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "One of the most established and trusted prop firms",
+    "Strong emphasis on risk management and trader development",
+    "100% profit split on first $5,000",
+    "Active community with live trading rooms",
+    "Consistent and reliable payout history"
+  ],
+  "cons": [
+    "Futures only — no forex or equities",
+    "Evaluation rules can be restrictive (consistency requirement)",
+    "Monthly fees accumulate during evaluation period",
+    "Automated trading not permitted",
+    "Smaller maximum account size than some competitors"
+  ],
   "rating": 4.2,
   "rating_breakdown": {
     "ease_of_use": 4.1,
@@ -68,8 +100,18 @@
   "founded_year": 2012,
   "company": "Topstep LLC",
   "headquarters": "Chicago, Illinois",
-  "best_for": ["futures traders", "disciplined traders", "risk-conscious traders"],
-  "similar_tools": ["ftmo", "apex-trader-funding", "the-funded-trader"],
+  "best_for": [
+    "futures traders",
+    "disciplined traders",
+    "risk-conscious traders"
+  ],
+  "similar_tools": [
+    "ftmo",
+    "apex-trader-funding",
+    "the-funded-trader"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Topstep Review 2026: Veteran futures prop firm",
+  "meta_description": "Veteran futures prop firm with a structured Trading Combine evaluation, risk management coaching, and funded accounts up to $150K."
 }

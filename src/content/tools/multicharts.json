@@ -2,7 +2,10 @@
   "name": "MultiCharts",
   "slug": "multicharts",
   "category": "charting-platforms",
-  "subcategories": ["automated-trading", "backtesting"],
+  "subcategories": [
+    "automated-trading",
+    "backtesting"
+  ],
   "description_short": "Professional charting and automated trading platform with EasyLanguage support, portfolio backtesting, and multi-broker connectivity.",
   "description_long": "MultiCharts is a professional trading platform that supports both discretionary and automated trading, with powerful strategy backtesting and optimization tools. The platform is compatible with TradeStation's EasyLanguage, making it easy for traders to migrate their custom studies and strategies.\n\nMultiCharts excels at portfolio-level backtesting, allowing traders to test strategies across multiple symbols simultaneously with realistic slippage and commission modeling. The Strategy Optimization engine uses genetic algorithms to find optimal parameter combinations without testing every possible permutation.\n\nThe platform connects to dozens of brokers and data feeds, giving traders flexibility in choosing their execution and data providers. MultiCharts uses a one-time licensing model ($1,497 for the standard edition) rather than monthly subscriptions, which makes it cost-effective for long-term users. A free edition with limited features is also available.",
   "logo_url": "/logos/multicharts.svg",
@@ -16,27 +19,91 @@
     "has_free_tier": true,
     "starting_price": 0,
     "tiers": [
-      {"name": "Free Edition", "price_monthly": 0, "price_yearly": 0, "features": ["Basic charting", "1 data feed", "Manual trading", "Limited indicators"]},
-      {"name": "Lifetime License", "price_monthly": 0, "price_yearly": 0, "features": ["One-time $1,497", "All features", "EasyLanguage support", "Portfolio backtesting", "Strategy optimization", "Multi-broker"]}
+      {
+        "name": "Free Edition",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Basic charting",
+          "1 data feed",
+          "Manual trading",
+          "Limited indicators"
+        ]
+      },
+      {
+        "name": "Lifetime License",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time $1,497",
+          "All features",
+          "EasyLanguage support",
+          "Portfolio backtesting",
+          "Strategy optimization",
+          "Multi-broker"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": true, "paper_trading": true, "alerts": true,
-    "mobile_app": false, "api_access": true, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": true, "risk_management": true, "news_feed": false, "education": false
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
   },
-  "markets": ["stocks", "options", "futures", "forex"],
-  "pros": ["One-time licensing eliminates recurring costs", "EasyLanguage compatible for easy migration", "Portfolio-level backtesting with genetic optimization", "Connects to dozens of brokers and data feeds"],
-  "cons": ["High upfront cost at $1,497", "Windows only", "Smaller community than NinjaTrader or TradingView", "Interface feels dated"],
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex"
+  ],
+  "pros": [
+    "One-time licensing eliminates recurring costs",
+    "EasyLanguage compatible for easy migration",
+    "Portfolio-level backtesting with genetic optimization",
+    "Connects to dozens of brokers and data feeds"
+  ],
+  "cons": [
+    "High upfront cost at $1,497",
+    "Windows only",
+    "Smaller community than NinjaTrader or TradingView",
+    "Interface feels dated"
+  ],
   "rating": 4.2,
-  "rating_breakdown": {"ease_of_use": 3.5, "features": 4.6, "value": 4.2, "support": 3.8, "reliability": 4.5},
+  "rating_breakdown": {
+    "ease_of_use": 3.5,
+    "features": 4.6,
+    "value": 4.2,
+    "support": 3.8,
+    "reliability": 4.5
+  },
   "founded_year": 2005,
   "company": "MultiCharts LLC",
   "headquarters": "Cincinnati, Ohio",
-  "best_for": ["algorithmic traders", "strategy developers", "TradeStation migrants"],
-  "similar_tools": ["tradestation", "ninjatrader", "sierra-chart"],
+  "best_for": [
+    "algorithmic traders",
+    "strategy developers",
+    "TradeStation migrants"
+  ],
+  "similar_tools": [
+    "tradestation",
+    "ninjatrader",
+    "sierra-chart"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "MultiCharts Review 2026",
+  "meta_description": "Professional charting and automated trading platform with EasyLanguage support, portfolio backtesting, and multi-broker connectivity."
 }

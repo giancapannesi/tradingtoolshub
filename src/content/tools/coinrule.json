@@ -7,8 +7,8 @@
     "no-code-automation",
     "rule-based-trading"
   ],
-  "description_short": "No-code crypto and stock trading bot with 350+ strategy templates, AI-trained models, and support for 30+ exchanges \u2014 built for traders who don't code.",
-  "description_long": "Coinrule is a no-code automated trading platform founded in London in 2018 and backed by Y Combinator. It lets traders build rule-based strategies using a visual \"if-this-then-that\" interface without writing a single line of code. With over 350 pre-built strategy templates and AI models trained on 1.7 million live user strategies, Coinrule significantly lowers the barrier to algorithmic trading for retail users of all skill levels.\n\nThe platform supports 30+ centralized cryptocurrency exchanges including Binance, Coinbase, Kraken, OKX, Bybit, KuCoin, and Hyperliquid, as well as on-chain trading on Base, Arbitrum, and Binance Smart Chain. As of February 2026, Coinrule expanded into stocks and ETFs via broker integrations with Alpaca, E*TRADE, Trading 212, and Webull \u2014 making it one of the few bots bridging crypto and traditional equities in a single interface.\n\nSecurity is handled responsibly: exchange connections use API keys scoped to read and trade only (no withdrawal permissions), and all keys are encrypted per user. TradingView webhook integration allows traders to trigger Coinrule rules from TradingView alerts, enabling signal-based automation without a public API. A full mobile app for iOS and Android includes push notifications, an emergency stop button accessible from the lock screen, and biometric security.\n\nPricing spans from a free Starter plan (2 live rules, 1 exchange, $3K monthly volume) to a $449.99/mo Pro plan with a dedicated server and $5M monthly volume cap. The Trader plan at $59.99/mo is the sweet spot for active users and includes unlimited templates, 3 exchanges, and a 1-on-1 training session. All paid plans come with a 14-day money-back guarantee.",
+  "description_short": "No-code crypto and stock trading bot with 350+ strategy templates, AI-trained models, and support for 30+ exchanges — built for traders who don't code.",
+  "description_long": "Coinrule is a no-code automated trading platform founded in London in 2018 and backed by Y Combinator. It lets traders build rule-based strategies using a visual \"if-this-then-that\" interface without writing a single line of code. With over 350 pre-built strategy templates and AI models trained on 1.7 million live user strategies, Coinrule significantly lowers the barrier to algorithmic trading for retail users of all skill levels.\n\nThe platform supports 30+ centralized cryptocurrency exchanges including Binance, Coinbase, Kraken, OKX, Bybit, KuCoin, and Hyperliquid, as well as on-chain trading on Base, Arbitrum, and Binance Smart Chain. As of February 2026, Coinrule expanded into stocks and ETFs via broker integrations with Alpaca, E*TRADE, Trading 212, and Webull — making it one of the few bots bridging crypto and traditional equities in a single interface.\n\nSecurity is handled responsibly: exchange connections use API keys scoped to read and trade only (no withdrawal permissions), and all keys are encrypted per user. TradingView webhook integration allows traders to trigger Coinrule rules from TradingView alerts, enabling signal-based automation without a public API. A full mobile app for iOS and Android includes push notifications, an emergency stop button accessible from the lock screen, and biometric security.\n\nPricing spans from a free Starter plan (2 live rules, 1 exchange, $3K monthly volume) to a $449.99/mo Pro plan with a dedicated server and $5M monthly volume cap. The Trader plan at $59.99/mo is the sweet spot for active users and includes unlimited templates, 3 exchanges, and a 1-on-1 training session. All paid plans come with a 14-day money-back guarantee.",
   "logo_url": "/logos/coinrule.svg",
   "screenshots": [],
   "website_url": "https://coinrule.com",
@@ -107,7 +107,7 @@
   "cons": [
     "Pro plan at $449.99/mo is prohibitively expensive for most retail traders",
     "Free tier is severely limited with only 2 rules and a $3K monthly volume cap",
-    "No historical backtesting \u2014 demo mode uses real market data only, not historical data",
+    "No historical backtesting — demo mode uses real market data only, not historical data",
     "No public API; programmatic control is only possible via TradingView webhooks"
   ],
   "rating": 4.1,
@@ -134,5 +134,7 @@
     "bitsgap"
   ],
   "last_updated": "2026-03-19",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Coinrule Review 2026",
+  "meta_description": "No-code crypto and stock trading bot with 350+ strategy templates, AI-trained models, and support for 30+ exchanges — built for traders who don't code."
 }

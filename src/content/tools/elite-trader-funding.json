@@ -8,7 +8,7 @@
     "evaluation-programs"
   ],
   "description_short": "Elite Trader Funding is a futures-only prop firm offering 6 evaluation types, 100% profit split on first $12,500, and accounts up to $300K with same-day funding options.",
-  "description_long": "Elite Trader Funding is a futures-focused proprietary trading firm founded in 2022 in Wilmington, Delaware. The firm stands out by offering six distinct evaluation pathways \u2014 1-Step, Fast Track, End of Day (EOD), Static, Diamond Hands, and Direct to Funded \u2014 giving traders far more flexibility than most competitors. Account sizes range from $10,000 to $300,000, and traders can access real capital through the firm's LIVE ELITE program after passing their simulation milestones.\n\nThe platform supports three professional-grade trading platforms: Tradovate, NinjaTrader, and TradingView, covering Windows, Mac, iOS, and Android users. Futures markets available include stock indices, currencies, cryptocurrencies, metals, energies, and agricultural commodities via CME, COMEX, NYMEX, and SMFE. News trading is permitted, and select evaluation types have no minimum trading day requirements, making it possible to get funded in a single day via Fast Track or Direct to Funded accounts.\n\nProfit splits are among the most competitive in the industry: traders keep 100% of the first $12,500 in lifetime sim-funded profits, then move to a 90/10 split (90% to trader). LIVE ELITE traders gain access to daily payouts on real capital. The Direct to Funded option ($599\u2013$699) lets experienced traders skip evaluations entirely, while Diamond Hands ($365/mo) offers a subscription-style path for traders who prefer monthly access over one-time fees.\n\nAs of September 2025, traders are limited to 5 active sim-funded accounts (down from 20), and the criteria for receiving a LIVE ELITE invitation remain somewhat opaque. The firm claims to have paid out over $12 million to more than 13,000 funded traders, establishing a reasonable track record for a firm of its age. Frequent promotional discounts of 50\u201390% off evaluation fees make it accessible for traders at varying budget levels.",
+  "description_long": "Elite Trader Funding is a futures-focused proprietary trading firm founded in 2022 in Wilmington, Delaware. The firm stands out by offering six distinct evaluation pathways — 1-Step, Fast Track, End of Day (EOD), Static, Diamond Hands, and Direct to Funded — giving traders far more flexibility than most competitors. Account sizes range from $10,000 to $300,000, and traders can access real capital through the firm's LIVE ELITE program after passing their simulation milestones.\n\nThe platform supports three professional-grade trading platforms: Tradovate, NinjaTrader, and TradingView, covering Windows, Mac, iOS, and Android users. Futures markets available include stock indices, currencies, cryptocurrencies, metals, energies, and agricultural commodities via CME, COMEX, NYMEX, and SMFE. News trading is permitted, and select evaluation types have no minimum trading day requirements, making it possible to get funded in a single day via Fast Track or Direct to Funded accounts.\n\nProfit splits are among the most competitive in the industry: traders keep 100% of the first $12,500 in lifetime sim-funded profits, then move to a 90/10 split (90% to trader). LIVE ELITE traders gain access to daily payouts on real capital. The Direct to Funded option ($599–$699) lets experienced traders skip evaluations entirely, while Diamond Hands ($365/mo) offers a subscription-style path for traders who prefer monthly access over one-time fees.\n\nAs of September 2025, traders are limited to 5 active sim-funded accounts (down from 20), and the criteria for receiving a LIVE ELITE invitation remain somewhat opaque. The firm claims to have paid out over $12 million to more than 13,000 funded traders, establishing a reasonable track record for a firm of its age. Frequent promotional discounts of 50–90% off evaluation fees make it accessible for traders at varying budget levels.",
   "logo_url": "/logos/elite-trader-funding.svg",
   "screenshots": [],
   "website_url": "https://www.elitetraderfunding.com",
@@ -25,7 +25,7 @@
         "price_monthly": 75,
         "price_yearly": 0,
         "features": [
-          "Account sizes $10K\u2013$300K",
+          "Account sizes $10K–$300K",
           "Standard trailing or static drawdown rules",
           "News trading allowed",
           "$75 flat reset fee if breached",
@@ -96,10 +96,10 @@
     "100% profit split on first $12,500 in lifetime sim-funded profits",
     "Same-day funding possible via Fast Track and Direct to Funded",
     "News trading allowed with no minimum trading days on select plans",
-    "Frequent 50\u201390% promotional discounts make entry costs very low"
+    "Frequent 50–90% promotional discounts make entry costs very low"
   ],
   "cons": [
-    "Futures only \u2014 no spot forex, equities, options, or spot crypto",
+    "Futures only — no spot forex, equities, options, or spot crypto",
     "LIVE ELITE invitation criteria are opaque and not clearly defined",
     "Maximum of 5 active sim-funded accounts (reduced from 20 in Sept 2025)",
     "$80/month activation fee adds ongoing cost once funded"
@@ -128,5 +128,7 @@
     "bulenox"
   ],
   "last_updated": "2026-03-17",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "Elite Trader Funding Review 2026",
+  "meta_description": "Elite Trader Funding is a futures-only prop firm offering 6 evaluation types, 100% profit split on first $12,500, and accounts up to $300K with same-day."
 }

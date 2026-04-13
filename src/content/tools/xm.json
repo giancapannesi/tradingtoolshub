@@ -2,7 +2,10 @@
   "name": "XM",
   "slug": "xm",
   "category": "brokers-forex",
-  "subcategories": ["micro-accounts", "education"],
+  "subcategories": [
+    "micro-accounts",
+    "education"
+  ],
   "description_short": "Global forex broker with micro accounts from $5, 1000+ instruments, and award-winning education and research content.",
   "description_long": "XM is one of the largest global forex and CFD brokers, serving over 10 million clients across 190 countries. The broker is known for its low entry barrier with micro accounts starting from just $5, making it one of the most accessible forex brokers for beginners.\n\nXM offers over 1,000 tradable instruments including forex pairs, stocks, commodities, indices, and crypto. The broker provides three account types: Micro (1,000 unit lots), Standard (100,000 unit lots), and XM Zero (raw spreads with commission). All accounts have negative balance protection.\n\nXM's education program is one of the most comprehensive in the industry, with daily webinars, video tutorials, seminars, and a research team that publishes regular market analysis. The broker is regulated by multiple authorities including CySEC, ASIC, and FSC.",
   "logo_url": "/logos/xm.svg",
@@ -16,28 +19,100 @@
     "has_free_tier": true,
     "starting_price": 5,
     "tiers": [
-      {"name": "Micro", "price_monthly": 0, "price_yearly": 0, "features": ["$5 minimum deposit", "1K lot size", "1.6 pip EUR/USD", "No commissions", "MT4/MT5"]},
-      {"name": "Standard", "price_monthly": 0, "price_yearly": 0, "features": ["$5 minimum deposit", "100K lot size", "1.6 pip EUR/USD", "No commissions"]},
-      {"name": "XM Zero", "price_monthly": 0, "price_yearly": 0, "features": ["$100 minimum deposit", "0.0 pip spreads", "$3.50/side/lot", "Raw pricing"]}
+      {
+        "name": "Micro",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$5 minimum deposit",
+          "1K lot size",
+          "1.6 pip EUR/USD",
+          "No commissions",
+          "MT4/MT5"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$5 minimum deposit",
+          "100K lot size",
+          "1.6 pip EUR/USD",
+          "No commissions"
+        ]
+      },
+      {
+        "name": "XM Zero",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "$100 minimum deposit",
+          "0.0 pip spreads",
+          "$3.50/side/lot",
+          "Raw pricing"
+        ]
+      }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false, "backtesting": false, "paper_trading": true, "alerts": true,
-    "mobile_app": true, "api_access": false, "social_features": false, "broker_integration": true,
-    "custom_indicators": true, "automated_trading": true, "journaling": false,
-    "performance_analytics": false, "risk_management": true, "news_feed": true, "education": true
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": true,
+    "education": true
   },
-  "markets": ["forex", "stocks", "crypto"],
-  "pros": ["$5 minimum deposit with micro lots", "Award-winning education and research", "10M+ clients globally shows trust", "Negative balance protection on all accounts"],
-  "cons": ["Not available to US residents", "Spreads on Micro/Standard above average", "Limited cryptocurrency selection", "Withdrawal processing can take 2-5 days"],
+  "markets": [
+    "forex",
+    "stocks",
+    "crypto"
+  ],
+  "pros": [
+    "$5 minimum deposit with micro lots",
+    "Award-winning education and research",
+    "10M+ clients globally shows trust",
+    "Negative balance protection on all accounts"
+  ],
+  "cons": [
+    "Not available to US residents",
+    "Spreads on Micro/Standard above average",
+    "Limited cryptocurrency selection",
+    "Withdrawal processing can take 2-5 days"
+  ],
   "rating": 4.1,
-  "rating_breakdown": {"ease_of_use": 4.4, "features": 4.0, "value": 4.3, "support": 4.0, "reliability": 4.2},
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.0,
+    "value": 4.3,
+    "support": 4.0,
+    "reliability": 4.2
+  },
   "founded_year": 2009,
   "company": "Trading Point Holdings Ltd.",
   "headquarters": "Limassol, Cyprus",
-  "best_for": ["forex beginners", "micro account traders", "education-seeking traders"],
-  "similar_tools": ["etoro", "oanda", "pepperstone"],
+  "best_for": [
+    "forex beginners",
+    "micro account traders",
+    "education-seeking traders"
+  ],
+  "similar_tools": [
+    "etoro",
+    "oanda",
+    "pepperstone"
+  ],
   "last_updated": "2026-03-07",
-  "review_status": "published"
+  "review_status": "published",
+  "meta_title": "XM Review 2026: Global forex broker",
+  "meta_description": "Global forex broker with micro accounts from $5, 1000+ instruments, and award-winning education and research content."
 }
