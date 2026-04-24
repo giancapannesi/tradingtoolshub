@@ -1,0 +1,160 @@
+{
+  "name": "Top One Futures",
+  "slug": "top-one-futures",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "instant-funded"
+  ],
+  "description_short": "Top One Futures is a Wyoming-based futures prop firm offering Elite Access, Instant Sim Funded, and S2F Sim PRO accounts from $25K to $150K with a 90% profit split, EOD drawdown, and sub-24-hour payouts.",
+  "description_long": "Top One Futures is a futures-focused proprietary trading firm headquartered in Cheyenne, Wyoming. The firm launched in 2024 and has grown quickly, passing 3,700 verified Trustpilot reviews at a 4.8/5 average within its first year. Top One operates in a crowded US futures-prop market, but differentiates on payout speed, news-trading freedom, and a multi-product lineup that covers both challenge and instant-funded traders.\n\nThe product range covers four lines. Elite Access is the newest tier — an instant one-step path with account sizes from $25K to $150K, monthly subscriptions starting at $39/month for $25K and scaling to $185/month for $150K. Instant Sim Funded skips the evaluation entirely in exchange for a one-time fee between roughly $39 (promo $25K) and $470 ($150K). The original S2F Sim PRO and IGNITE Instant Funding lines remain available with one-time fees in the $131–$479 range, typically discounted 40–60% through rotating promo codes.\n\nPayout mechanics favor active traders. The first payout requires 6% profit over starting balance, the second requires 5%, and the third and all subsequent payouts drop to 4%. Processing time is advertised at under 24 hours and the support team publishes a sub-60-second average live-chat response. News trading is allowed across every product including FOMC, CPI, and NFP events with no restrictions — a meaningful differentiator versus competitors that impose news windows on funded accounts. Drawdown is calculated end-of-day on most accounts with an optional intraday mode for traders who prefer tighter risk rails.\n\nSupported platforms are Tradovate (primary), NinjaTrader Prop, and TradingView. The firm offers an uncapped affiliate program starting at 10% commission and scaling to 20% at the Diamond tier, with an additional 5% second-tier override on sub-affiliate first-time sales. Commissions cover Elite/Instant Sim purchases, recurring subscriptions, reset fees ($5 flat), and activation fees, making Top One one of the more aggressive affiliate payout structures in the futures-prop space.",
+  "logo_url": "",
+  "screenshots": [],
+  "website_url": "https://www.toponefutures.com",
+  "affiliate_url": "",
+  "affiliate_program": "Top One Futures Affiliate Program",
+  "affiliate_commission": "10–20% tiered (Bronze 10% → Diamond 20%) + 5% second-tier override. Recurring on subscriptions, resets, and activation fees.",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 39,
+    "tiers": [
+      {
+        "name": "Elite Access $25K",
+        "price_monthly": 39,
+        "price_yearly": 0,
+        "features": [
+          "Instant one-step funding",
+          "$25K simulated account",
+          "90% profit split",
+          "EOD drawdown (intraday option available)",
+          "News trading allowed (FOMC, CPI, NFP)",
+          "Tradovate, NinjaTrader, TradingView"
+        ]
+      },
+      {
+        "name": "Elite Access $50K",
+        "price_monthly": 63,
+        "price_yearly": 0,
+        "features": [
+          "Instant one-step funding",
+          "$50K simulated account",
+          "90% profit split",
+          "EOD drawdown",
+          "News trading allowed"
+        ]
+      },
+      {
+        "name": "Elite Access $100K",
+        "price_monthly": 125,
+        "price_yearly": 0,
+        "features": [
+          "Instant one-step funding",
+          "$100K simulated account",
+          "90% profit split",
+          "EOD drawdown",
+          "News trading allowed"
+        ]
+      },
+      {
+        "name": "Elite Access $150K",
+        "price_monthly": 185,
+        "price_yearly": 0,
+        "features": [
+          "Instant one-step funding",
+          "$150K simulated account",
+          "90% profit split",
+          "EOD drawdown",
+          "News trading allowed"
+        ]
+      },
+      {
+        "name": "Instant Sim Funded $50K",
+        "price_monthly": 340,
+        "price_yearly": 0,
+        "features": [
+          "One-time fee (no recurring)",
+          "No evaluation required",
+          "$50K instant simulated account",
+          "90% profit split",
+          "EOD drawdown",
+          "Promo discounts frequently available"
+        ]
+      },
+      {
+        "name": "Instant Sim Funded $100K",
+        "price_monthly": 411,
+        "price_yearly": 0,
+        "features": [
+          "One-time fee (no recurring)",
+          "No evaluation required",
+          "$100K instant simulated account",
+          "90% profit split",
+          "EOD drawdown"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Sub-24-hour payout processing with support response under a minute on live chat",
+    "Progressive payout thresholds reduce to 4% after the third withdrawal",
+    "News trading allowed across every product including FOMC, CPI, and NFP",
+    "Choice of EOD or intraday drawdown lets traders match risk mode to style",
+    "Aggressive affiliate program — 10–20% tiered plus 5% second-tier on sub-affiliates"
+  ],
+  "cons": [
+    "Young firm (launched 2024) — less operating history than Topstep, Apex, or FTMO",
+    "Frequent rotating promo codes make true pricing hard to compare without reading the fine print",
+    "No proprietary mobile app — mobile trading depends on Tradovate or NinjaTrader",
+    "Smaller platform footprint than competitors (three platforms vs five+ at rivals)"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.4,
+    "features": 4.2,
+    "value": 4.5,
+    "support": 4.6,
+    "reliability": 4.3
+  },
+  "founded_year": 2024,
+  "company": "Top One Futures",
+  "headquarters": "Cheyenne, Wyoming",
+  "best_for": [
+    "futures day traders who want fast payouts",
+    "traders who need news-event freedom",
+    "instant-funding traders avoiding multi-phase evaluations",
+    "affiliates looking for aggressive tiered commissions"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "my-funded-futures",
+    "tradeify"
+  ],
+  "last_updated": "2026-04-24",
+  "review_status": "published",
+  "meta_title": "Top One Futures Review 2026",
+  "meta_description": "Top One Futures is a Wyoming-based futures prop firm with Elite Access, Instant Sim Funded, and S2F Sim PRO accounts — 90% split, EOD drawdown, sub-24h payouts."
+}

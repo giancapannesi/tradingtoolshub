@@ -1,0 +1,161 @@
+{
+  "name": "Lucid Trading",
+  "slug": "lucid-trading",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "instant-funded"
+  ],
+  "description_short": "Lucid Trading is a US futures prop firm offering LucidPro, LucidFlex, LucidDirect, and LucidMaxx account lines with 90% splits, 15-minute average payout processing, and both CQG and Rithmic data feeds.",
+  "description_long": "Lucid Trading is a US-based futures proprietary trading firm founded in 2025 by AJ Campanella. In a crowded field of first-year prop firms, Lucid has differentiated on execution speed — more than 14,000 funded traders, over $10M in documented payouts, and an advertised 15-minute average payout-processing time — enough to earn a 4.8/5 Trustpilot rating in its first year of operation.\n\nThe product lineup includes four distinct account lines at sizes from $25K to $150K. LucidFlex is the permissive option: no daily loss limit in the funded stage, no consistency rule, and a straight 90/10 profit split with roughly five minimum winning days before payout. LucidPro applies an approximate 40% consistency requirement with a buffer-based, multi-cycle payout model. LucidDirect is the fast-payout-per-cycle product with a strict 20% consistency rule and an instant-style withdrawal cadence. LucidPro and LucidDirect both pay the trader 100% of the first $10,000 in withdrawals before transitioning to a 90/10 split. LucidMaxx rounds out the line as a scaling product at higher account sizes.\n\nRisk and trading rules lean trader-friendly. Drawdown is calculated end-of-day rather than trailing intraday, so traders cannot be stopped out by a single candle wick. News trading is allowed across every product, including FOMC, NFP, and CPI events. Algorithmic and automated strategies are permitted, though pure high-frequency trading bots are prohibited. Swing trading is not allowed — all positions must be closed intraday — which makes Lucid a strict day-trading product, not suitable for traders who rely on overnight holds.\n\nPlatform coverage is the broadest among the new wave of futures prop firms. CQG feed access covers NinjaTrader, Tradovate, and TradingView, while Rithmic feed access covers MotiveWave, Quantower, and Sierra Chart. That dual-feed lineup supports order-flow traders on Sierra and Quantower as well as mainstream day traders on Tradovate and TradingView. The affiliate program pays 12% flat commission on all qualifying referral purchases, with payouts on the 10th of each month and no 90-day hold — unusually fast terms for the industry. Paid advertising is not permitted for affiliate promotion.",
+  "logo_url": "",
+  "screenshots": [],
+  "website_url": "https://lucidtrading.com",
+  "affiliate_url": "",
+  "affiliate_program": "Lucid Trading Affiliate Program",
+  "affiliate_commission": "12% flat on all qualifying purchases. Payouts by the 10th of each month, no 90-day hold.",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "LucidFlex $25K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time evaluation fee (see site for current promo price)",
+          "$25K simulated account",
+          "No daily loss limit in funded stage",
+          "No consistency rule",
+          "90/10 profit split",
+          "EOD drawdown",
+          "~5 minimum winning days before payout"
+        ]
+      },
+      {
+        "name": "LucidFlex $50K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time evaluation fee",
+          "$50K simulated account",
+          "No daily loss limit",
+          "90/10 split",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "LucidPro $50K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time evaluation fee",
+          "$50K simulated account",
+          "~40% consistency requirement",
+          "Buffer-based multi-cycle payouts",
+          "100% of first $10K in withdrawals, then 90/10",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "LucidPro $100K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time evaluation fee",
+          "$100K simulated account",
+          "~40% consistency rule",
+          "100% of first $10K, then 90/10"
+        ]
+      },
+      {
+        "name": "LucidDirect $50K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "One-time evaluation fee",
+          "$50K simulated account",
+          "20% strict consistency rule",
+          "Instant-style payout cadence",
+          "100% of first $10K, then 90/10",
+          "EOD drawdown"
+        ]
+      },
+      {
+        "name": "LucidMaxx $150K",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Scaling product at larger size",
+          "$150K simulated account",
+          "90/10 split terms",
+          "EOD drawdown"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "15-minute average payout processing — among the fastest in the industry",
+    "Dual data feeds (CQG and Rithmic) support both mainstream and order-flow platforms",
+    "LucidFlex has no daily loss limit and no consistency rule in the funded stage",
+    "LucidPro and LucidDirect pay 100% of first $10K in withdrawals before split",
+    "News trading allowed across every account including FOMC, NFP, and CPI"
+  ],
+  "cons": [
+    "Swing trading prohibited — positions must close intraday (strict day-trading only)",
+    "Young firm (founded 2025) — limited operating history versus veteran competitors",
+    "HFT bots prohibited (though general algos and automated strategies are permitted)",
+    "Exact one-time fees rotate with promotions — hard to compare without visiting site",
+    "Paid-advertising restrictions limit how affiliates can promote"
+  ],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.6,
+    "value": 4.6,
+    "support": 4.5,
+    "reliability": 4.4
+  },
+  "founded_year": 2025,
+  "company": "Lucid Trading",
+  "headquarters": "United States",
+  "best_for": [
+    "futures day traders who want ultra-fast payouts",
+    "order-flow traders on Sierra Chart, Quantower, or MotiveWave",
+    "traders who want a no-consistency-rule funded account (LucidFlex)",
+    "algo traders (non-HFT) who need bot-friendly rules"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "tradeify",
+    "my-funded-futures"
+  ],
+  "last_updated": "2026-04-24",
+  "review_status": "published",
+  "meta_title": "Lucid Trading Review 2026",
+  "meta_description": "Lucid Trading is a US futures prop firm with LucidPro, Flex, Direct, and Maxx accounts — 90% split, 15-min payouts, CQG and Rithmic feeds, no swing trading."
+}

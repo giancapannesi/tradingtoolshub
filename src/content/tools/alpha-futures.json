@@ -1,0 +1,161 @@
+{
+  "name": "Alpha Futures",
+  "slug": "alpha-futures",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "instant-funded"
+  ],
+  "description_short": "Alpha Futures is a UK-based futures prop firm offering Standard, Advanced, and Zero plans with EOD trailing drawdown, 90% profit splits, and weekly payouts after five winning days.",
+  "description_long": "Alpha Futures is a London-area proprietary trading firm founded in April 2024 by George David Kohler. Operated by Alpha Futures Limited (UK Companies House #15655643) from a Harpenden, Hertfordshire office, the firm has built an unusually strong early reputation — a 4.9/5 Trustpilot rating across 2,500+ verified reviews places it ahead of most established US competitors on trader satisfaction.\n\nThe product line covers three distinct evaluation paths. The Standard plan is the entry-level option at $79/month for $50K, $159/month for $100K, or $239/month for $150K, each with a $149 one-time activation fee. Standard accounts start at a 70% profit split and scale to 90% after five approved payouts. The Advanced plan is more expensive — $139/month for $50K, $279/month for $100K, $419/month for $150K — but pays a flat 90% split from the first withdrawal with no consistency rule on the qualified phase. The Zero plan is Alpha's instant-funding product, priced at $79–$239/month with no activation fee, and skips the evaluation entirely with a 90% split.\n\nRisk management is Alpha's core pitch. The Maximum Loss Limit is calculated end-of-day on every account, trails upward at session close only, and locks at starting balance — it will never trigger intraday on a wick or news spike. That trader-friendly structure is one reason the firm polls so well on Trustpilot. Consistency rules apply during evaluation (50% on Standard/Advanced, none on Zero) and qualified traders receive bi-weekly payouts on Standard or weekly payouts on Advanced/Zero after five winning days with at least $200 profit each. Processing is 48 business hours via ACH, Wire, SWIFT, Wise, or Rise, with a $1,000 minimum and $15,000 per-request cap.\n\nSupported platforms are Tradovate, NinjaTrader, Quantower, TradingView (through Tradovate), plus Alpha's proprietary Deepchart and Deepdom order-flow tools — platform choice locks at purchase. Automated trading is a significant limitation: Expert Advisors, bots, and high-frequency strategies are prohibited across every product, which rules Alpha out for algo-focused traders. News trading is unrestricted during evaluation and on Advanced qualified accounts, but Standard and Zero qualified accounts enforce a two-minute buffer before and after high-impact events. The affiliate program pays 15% recurring commission with weekly payouts.",
+  "logo_url": "",
+  "screenshots": [],
+  "website_url": "https://alpha-futures.com",
+  "affiliate_url": "",
+  "affiliate_program": "Alpha Futures Affiliate Program",
+  "affiliate_commission": "15% recurring commission on all plans",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 79,
+    "tiers": [
+      {
+        "name": "Standard $50K",
+        "price_monthly": 79,
+        "price_yearly": 0,
+        "features": [
+          "$149 one-time activation fee",
+          "$50K simulated account",
+          "2-step evaluation (profit target + consistency rule)",
+          "70% profit split scaling to 90% after 5 payouts",
+          "EOD trailing drawdown (locks at starting balance)",
+          "Bi-weekly payouts ($200–$15K per request)",
+          "2-minute news buffer on qualified accounts"
+        ]
+      },
+      {
+        "name": "Standard $100K",
+        "price_monthly": 159,
+        "price_yearly": 0,
+        "features": [
+          "$149 activation fee",
+          "$100K simulated account",
+          "70% → 90% profit split",
+          "EOD trailing drawdown",
+          "Bi-weekly payouts"
+        ]
+      },
+      {
+        "name": "Advanced $50K",
+        "price_monthly": 139,
+        "price_yearly": 0,
+        "features": [
+          "$149 activation fee",
+          "$50K simulated account",
+          "90% profit split from day one",
+          "No consistency rule on qualified phase",
+          "EOD trailing drawdown",
+          "Weekly payouts after 5 winning days",
+          "Unrestricted news trading"
+        ]
+      },
+      {
+        "name": "Advanced $100K",
+        "price_monthly": 279,
+        "price_yearly": 0,
+        "features": [
+          "$149 activation fee",
+          "$100K simulated account",
+          "90% profit split day one",
+          "Weekly payouts"
+        ]
+      },
+      {
+        "name": "Zero $25K",
+        "price_monthly": 79,
+        "price_yearly": 0,
+        "features": [
+          "No activation fee",
+          "Instant $25K simulated account (no evaluation)",
+          "90% profit split",
+          "EOD trailing drawdown",
+          "Weekly payouts after 5 winning days"
+        ]
+      },
+      {
+        "name": "Zero $50K",
+        "price_monthly": 119,
+        "price_yearly": 0,
+        "features": [
+          "No activation fee",
+          "Instant $50K simulated account",
+          "90% profit split",
+          "Weekly payouts"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "4.9/5 Trustpilot across 2,500+ reviews — among the highest trader-satisfaction scores in the industry",
+    "EOD trailing drawdown that locks at starting balance — cannot trigger intraday on a wick",
+    "Three distinct plans fit evaluation, fast-scale, and instant-funding traders",
+    "Advanced plan pays 90% from day one with no consistency rule on qualified phase",
+    "Multiple payout rails — ACH, Wire, SWIFT, Wise, Rise — processed in 48 business hours"
+  ],
+  "cons": [
+    "Expert Advisors, bots, and HFT prohibited across every product — not for algo traders",
+    "News buffer (2 minutes) enforced on Standard and Zero qualified accounts",
+    "Platform choice locks at purchase — cannot switch platforms mid-account",
+    "Standard plan requires 5 payouts before full 90% split unlocks",
+    "UK entity may add friction for some US traders on payout methods"
+  ],
+  "rating": 4.7,
+  "rating_breakdown": {
+    "ease_of_use": 4.6,
+    "features": 4.4,
+    "value": 4.7,
+    "support": 4.8,
+    "reliability": 4.8
+  },
+  "founded_year": 2024,
+  "company": "Alpha Futures Limited",
+  "headquarters": "Harpenden, United Kingdom",
+  "best_for": [
+    "futures day traders who want EOD risk rules",
+    "traders prioritizing payout reliability and support quality",
+    "traders who want a 90%-from-day-one plan (Advanced)",
+    "international traders needing Wise or Rise payouts"
+  ],
+  "similar_tools": [
+    "topstep",
+    "apex-trader-funding",
+    "tradeify",
+    "my-funded-futures"
+  ],
+  "last_updated": "2026-04-24",
+  "review_status": "published",
+  "meta_title": "Alpha Futures Review 2026",
+  "meta_description": "Alpha Futures is a UK futures prop firm with Standard, Advanced, and Zero plans — 90% split, EOD trailing drawdown, weekly payouts, 4.9/5 Trustpilot."
+}
