@@ -1,0 +1,180 @@
+{
+  "name": "FundedNext Futures",
+  "slug": "funded-next-futures",
+  "category": "prop-firms",
+  "subcategories": [
+    "futures-prop-firms",
+    "evaluation-accounts",
+    "instant-funded"
+  ],
+  "description_short": "FundedNext Futures is the CME-futures arm of FundedNext, offering Rapid, Legacy, and Bolt challenges at $25K–$100K on Tradovate, NinjaTrader, and TradingView with EOD trailing drawdown, 80% profit split, and 24-hour payout guarantees.",
+  "description_long": "FundedNext Futures is the futures-focused product line from FundedNext, the Dubai-headquartered proprietary trading brand that originally made its name in forex and CFD markets. The futures side launched as a separate product in 2024 on real CME infrastructure via Tradovate — distinct from the company's MT4/MT5 forex flagship and covered here as its own profile at fundednext.com/futures.\n\nThe lineup is built around three challenges. The Rapid Challenge is the aggressive-trader path: no benchmark-days requirement, $1,500/$3,000/$5,000 profit targets on $25K/$50K/$100K accounts, and funded-account payouts every 3 days. List prices run $109.99 to $279.99 before recurring promo codes typically drop fees 10–30%. The Legacy Challenge is the deliberate-trader path: five-benchmark-day minimum, lower $1,250/$2,500/$6,000 profit targets, payouts every 5 days, list pricing $79.99 to $249.99. Legacy funded accounts opened after November 21, 2025 also get a permanent exemption from the consistency rule — a meaningful ergonomics upgrade for longer-term traders. The Bolt Challenge is the newcomer: $50K-only, $69.99 one-time fee, 6% profit target ($3,000), and a unique payout structure that lets traders withdraw on day one of the funded account once the $52,100 buffer is met.\n\nRisk and payout mechanics are trader-friendly. Drawdown is calculated end-of-day and trails with session closes rather than intraday wicks — the same EOD-trailing structure preferred by firms like Alpha Futures and Apex Trader Funding. Daily loss limits apply during challenge phase only, with a 40% consistency cap on the biggest winning day for Legacy, Bolt, and Rapid-funded accounts. The Brand Promise pays a $1,000 bonus if any withdrawal takes longer than 24 hours to process — a rare hard guarantee in the prop-firm space. Minimum withdrawal is $250 to $500 depending on account size, and the firm caps traders at five active funded accounts simultaneously.\n\nSupported platforms are Tradovate (primary), NinjaTrader, and TradingView through Tradovate — matching the industry-standard CME futures stack. News trading is permitted across every account type including FOMC, CPI, and NFP windows. Algorithmic and automated strategies are allowed, with explicit prohibitions only on latency arbitrage and spoofing-style order spam. The profit split is a flat 80% on all three challenges, lower than the 90% offered by some competitors but paired with FundedNext's documented payout record — $284M+ paid across the forex and futures sides combined and over 60,000 Trustpilot reviews at brand level.",
+  "logo_url": "",
+  "screenshots": [],
+  "website_url": "https://fundednext.com/futures",
+  "affiliate_url": "",
+  "affiliate_program": "FundedNext Affiliate Program (covers both forex and futures product lines)",
+  "affiliate_commission": "10% of challenge fee (shared program with FundedNext forex)",
+  "affiliate_cookie_days": 30,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 69,
+    "tiers": [
+      {
+        "name": "Bolt Challenge $50K",
+        "price_monthly": 69,
+        "price_yearly": 0,
+        "features": [
+          "$69.99 one-time fee",
+          "$50K simulated account (only size offered)",
+          "6% profit target ($3,000)",
+          "No minimum benchmark days",
+          "Day-1 payout eligibility after $52,100 buffer",
+          "EOD trailing drawdown ($2,000 max loss)",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "Legacy Challenge $25K",
+        "price_monthly": 79,
+        "price_yearly": 0,
+        "features": [
+          "$79.99 one-time fee (list)",
+          "$25K simulated account",
+          "$1,250 profit target",
+          "5 minimum benchmark days",
+          "Payouts every 5 days once funded",
+          "EOD trailing drawdown ($1,000)",
+          "80% profit split",
+          "Consistency rule waived on funded accounts opened after Nov 21, 2025"
+        ]
+      },
+      {
+        "name": "Legacy Challenge $50K",
+        "price_monthly": 149,
+        "price_yearly": 0,
+        "features": [
+          "$149.99 one-time fee (list)",
+          "$50K simulated account",
+          "$2,500 profit target",
+          "EOD trailing drawdown ($2,000)",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "Legacy Challenge $100K",
+        "price_monthly": 249,
+        "price_yearly": 0,
+        "features": [
+          "$249.99 one-time fee (list)",
+          "$100K simulated account",
+          "$6,000 profit target",
+          "EOD trailing drawdown ($3,000)",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "Rapid Challenge $25K",
+        "price_monthly": 109,
+        "price_yearly": 0,
+        "features": [
+          "$109.99 one-time fee (list)",
+          "$25K simulated account",
+          "$1,500 profit target",
+          "No minimum benchmark days",
+          "Payouts every 3 days once funded",
+          "EOD trailing drawdown ($1,000)",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "Rapid Challenge $50K",
+        "price_monthly": 199,
+        "price_yearly": 0,
+        "features": [
+          "$199.99 one-time fee (list)",
+          "$50K simulated account",
+          "$3,000 profit target",
+          "Payouts every 3 days",
+          "EOD trailing drawdown ($2,000)",
+          "80% profit split"
+        ]
+      },
+      {
+        "name": "Rapid Challenge $100K",
+        "price_monthly": 279,
+        "price_yearly": 0,
+        "features": [
+          "$279.99 one-time fee (list)",
+          "$100K simulated account",
+          "$5,000 profit target",
+          "Payouts every 3 days",
+          "EOD trailing drawdown ($2,500)",
+          "80% profit split"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": true,
+    "alerts": false,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": false
+  },
+  "markets": [
+    "futures"
+  ],
+  "pros": [
+    "Brand Promise — $1,000 bonus if any withdrawal takes longer than 24 hours",
+    "Three distinct challenges fit aggressive (Rapid), patient (Legacy), and no-benchmark (Bolt) styles",
+    "Rapid funded accounts pay out every 3 days — among the most frequent payout cadences in the industry",
+    "Legacy funded accounts opened after Nov 21, 2025 have no consistency restriction",
+    "Real CME futures pricing via Tradovate — not synthetic CFD feeds"
+  ],
+  "cons": [
+    "80% profit split is lower than the 90% offered by Apex, Alpha Futures, and several peers",
+    "Bolt Challenge only available at $50K — no $25K or $100K options",
+    "Latency arbitrage and spoofing-style algos prohibited (general bots still allowed)",
+    "40% consistency cap applies to most challenge and funded accounts",
+    "Maximum 5 active funded accounts — smaller cap than Apex's uncapped stacking"
+  ],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.5,
+    "value": 4.3,
+    "support": 4.6,
+    "reliability": 4.6
+  },
+  "founded_year": 2024,
+  "company": "FundedNext (futures division)",
+  "headquarters": "Dubai, United Arab Emirates",
+  "best_for": [
+    "futures day traders who want a 24-hour payout guarantee",
+    "traders who want payouts every 3 days (Rapid) or 5 days (Legacy)",
+    "aggressive traders who want a no-benchmark challenge (Rapid or Bolt)",
+    "traders who already know the FundedNext brand from forex and want to stay in-ecosystem"
+  ],
+  "similar_tools": [
+    "apex-trader-funding",
+    "topstep",
+    "my-funded-futures",
+    "tradeify"
+  ],
+  "last_updated": "2026-04-24",
+  "review_status": "published",
+  "meta_title": "FundedNext Futures Review 2026",
+  "meta_description": "FundedNext Futures offers Rapid, Legacy, and Bolt challenges at $25K–$100K on Tradovate and NinjaTrader — 80% split, EOD trailing drawdown, 24h payout guarantee."
+}
