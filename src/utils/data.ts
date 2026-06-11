@@ -4,8 +4,12 @@ import path from 'node:path';
 export interface ToolPricing {
   has_free_tier: boolean;
   starting_price: number;
-  tiers: { name: string; price_monthly: number; price_yearly: number; features: string[] }[];
+  tiers: { name: string; price_monthly: number; price_yearly?: number; price_one_time?: number; features: string[] }[];
   currency: string;
+  price_low?: number;
+  price_high?: number;
+  pricing_summary?: string;
+  free_plan_answer?: string;
 }
 
 export interface ToolFeatures {

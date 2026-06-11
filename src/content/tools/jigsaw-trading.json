@@ -6,8 +6,8 @@
     "order-flow",
     "dom-trading"
   ],
-  "description_short": "Specialized order flow platform for professional futures scalpers, offering advanced DOM tools, Reconstructed Tape, Auction Vista, and depth-based trade analytics that integrate with NinjaTrader, Sierra Chart, and MultiCharts.",
-  "description_long": "## What Jigsaw Trading Is\n\nJigsaw Trading is not a charting platform. It is a DOM (Depth of Market) and tape reading tool, purpose-built for futures traders who make decisions by reading order flow — not by looking at candlestick patterns or technical indicators. Where platforms like TradingView or NinjaTrader give you charts with overlaid studies, Jigsaw gives you the raw auction process: who is buying, who is selling, where are the large orders, and how is the market absorbing or rejecting activity at each price level.\n\nThis is a niche product for a niche audience. If you don't know what absorption, initiative activity, or auction exhaustion mean, Jigsaw is not the tool to start with. But if those concepts are central to your trading methodology, Jigsaw is arguably the best implementation of DOM-based trading tools available.\n\n## The Company\n\nJigsaw Trading was founded by Peter Davies, a UK-based professional trader with decades of experience in futures order flow trading. Davies built Jigsaw out of frustration with the DOM tools available in mainstream platforms — he wanted something that specifically focused on making tape reading more efficient and quantifiable. The company is small and focused: it does one thing (order flow via the DOM) and does it with the depth of someone who actually trades with these tools daily.\n\nDavies is active in the trading education community and has produced extensive content on DOM trading methodology. This matters because Jigsaw isn't just a tool — it comes with a framework for how to read and trade from the DOM, which is critical given the steep learning curve.\n\n## Reconstructed Tape — Filtering the Noise\n\nThe standard time and sales feed (tape) in any platform is noisy. Thousands of small trades stream past per second on liquid instruments like the ES or NQ, and it's nearly impossible to extract useful information from the raw feed. Jigsaw's Reconstructed Tape solves this by:\n\n- Filtering out insignificant trades below configurable size thresholds\n- Aggregating rapid-fire executions at the same price into single large entries\n- Color-coding by aggressor (buyer vs seller initiated)\n- Highlighting unusually large trades that stand out from the norm\n\nThe result is a tape that shows you what matters — the large trades, the aggressive orders, the institutional activity — without burying that information under thousands of retail-sized fills. This is the feature that most Jigsaw users cite as the single most valuable tool in the platform.\n\n## Summary Tape — Aggregated Price Level Activity\n\nThe Summary Tape aggregates all trading activity at each price level into a single running display, showing:\n\n- Total volume traded at each price\n- Buy vs sell volume split (delta)\n- Imbalance between aggressive buying and selling\n- Running comparison across price levels\n\nThis gives you a bird's-eye view of where the heaviest activity is occurring without needing to process the raw tape. Combined with the DOM, it shows you both where orders are resting (DOM) and where they're actually executing (Summary Tape).\n\n## Auction Vista — The Signature Visualization\n\nAuction Vista is Jigsaw's most distinctive and innovative tool. It provides a visual representation of how the market auction process unfolds over time:\n\n- Shows the DOM's evolution — how resting orders appear, accumulate, and get filled or pulled\n- Visualizes absorption (a large resting order that absorbs aggressive selling without price moving)\n- Reveals initiative vs responsive activity (who is driving the auction vs who is responding)\n- Displays exhaustion patterns where aggressive activity dries up at a price level\n\nAuction Vista effectively gives you a historical view of the DOM — something that traditional platforms don't provide. Instead of only seeing the current snapshot of resting orders, you can see how the order book has changed over the past minutes or hours and what patterns preceded major price moves.\n\n## Platform Integrations\n\nJigsaw is not a standalone platform — it integrates as an add-on to existing trading platforms:\n\n- **NinjaTrader 8** — the most popular integration\n- **Sierra Chart** — for Sierra Chart users who want Jigsaw's DOM tools\n- **MultiCharts** — additional platform support\n\nThis means you keep your existing charting setup and add Jigsaw's DOM tools on top. For traders already committed to NinjaTrader or Sierra Chart, this is an advantage — you don't need to switch platforms. For traders who want an all-in-one solution, it means managing two software installations.\n\n## Depth & Sales — Trade Entry Analysis\n\nJigsaw's Depth & Sales window combines the DOM ladder with trade execution data in a single view, showing:\n\n- Resting limit orders at each price level (the book)\n- Actual executions happening in real time (the tape)\n- Your own orders and positions overlaid on the same display\n- One-click trade entry with configurable bracket orders\n\nThe tight integration between book data and execution data means you're making trading decisions with the most complete picture of the auction available, all in one window.\n\n## Education & Methodology\n\nJigsaw invests heavily in education, and this is where Peter Davies' background as an active trader is most visible:\n\n- **Jigsaw Trading YouTube** — extensive library of DOM trading methodology videos, live market analysis, and tool tutorials\n- **Trading methodology documentation** — not just \"how to use the software\" but \"how to read the DOM and make trading decisions\"\n- **Regular webinars** — live sessions covering order flow concepts and trade analysis\n- **Learning curve support** — the platform includes guided tutorials for each tool\n\nThis educational component is important because Jigsaw's tools are powerful but require significant skill to use effectively. The education helps bridge the gap between \"I have the tools\" and \"I know how to trade with them.\"\n\n## Pricing\n\nJigsaw's pricing reflects its positioning as a professional, premium tool:\n\n- **14-Day Free Trial** — full access to all tools with no commitment\n- **Jigsaw Daytradr (Lifetime License)** — $597 one-time purchase for Reconstructed Tape, Summary Tape, DOM tools\n- **Auction Vista Add-on** — additional cost for the advanced auction visualization\n- **Platform Subscription** — $37/month for continued access to updates and support after the initial license\n\nThe pricing has moved toward a one-time license model rather than the previous $197/month subscription. The lifetime license at $597 is competitive for a professional tool — it pays for itself quickly if the tools improve your trading edge.\n\n## What Jigsaw Does Not Have\n\n- **No charting** — Jigsaw is a DOM/tape tool, not a charting platform. You need a separate platform (NinjaTrader, Sierra Chart) for charts\n- **Futures only** — no stocks, crypto, or forex support\n- **No automated trading** — entirely manual/discretionary\n- **No mobile app** — desktop only, Windows\n- **Requires an existing platform** — can't run standalone\n\n## Who Jigsaw Trading Is For\n\n**Good fit:**\n- Professional futures scalpers and day traders who make decisions based on the DOM and tape\n- NinjaTrader or Sierra Chart users who want superior order flow tools layered on top of their existing setup\n- Traders who understand order flow concepts and want the best implementation of DOM-based analysis\n- Prop firm traders who trade on short timeframes and need to read market microstructure\n\n**Not the right fit:**\n- Beginners — Jigsaw assumes you already understand order flow, auction theory, and tape reading\n- Swing or position traders — the tools are optimized for short-timeframe, active scalping\n- Traders who need charting, indicators, or technical analysis — Jigsaw doesn't do any of that\n- Anyone who trades stocks, crypto, or forex — futures only\n\n## Bottom Line\n\nJigsaw Trading is the best DOM and tape reading tool available for futures traders. The Reconstructed Tape, Summary Tape, and Auction Vista each solve real problems that no other platform addresses as well. The education component is a genuine differentiator — you're not just buying software, you're getting a methodology. The price tag and steep learning curve mean it's not for everyone, but for professional futures scalpers who trade from the DOM, Jigsaw is a best-in-class tool that can meaningfully improve trade selection and timing.",
+  "description_short": "Jigsaw daytradr — a professional-grade, standalone order flow, DOM and trade execution platform built for serious futures and equities day traders. Connects directly to CQG, Rithmic, StoneX, Tradovate, Interactive Brokers and IQFeed. Includes charts, Reconstructed Tape, Auction Vista, Trade Simulator, Pace of Tape, Journalytix analytics, and daily Market Intelligence briefings. Not a casual-trader tool — this is a premium product at a premium price, built for people who trade size and make decisions from the order book.",
+  "description_long": "## Who This Is For — And Who It Isn't\n\nUp front: **Jigsaw is a professional-grade tool, not a beginner platform.** Lifetime licences start at $579 and go up to $1,979, plus a $50/month or $500/year subscription if you want to trade real money. On top of the price tag, the tools assume you already understand order flow, auction theory, and tape reading — there is no \"learn as you go\" shortcut.\n\nIf you're a casual or part-time trader, a swing/position trader, or someone still learning the basics of the market, this is not the right tool. You'd be over-paying for capability you can't yet use.\n\nIf you're a serious futures or equities day trader — prop-firm, retail pro, or full-time discretionary scalper — and you make money (or want to) by reading the order book and the tape, this is one of the best-regarded tools in the category.\n\n## What Jigsaw Trading Is\n\nJigsaw Trading's flagship product is **daytradr** — a standalone, multi-threaded order flow, depth-of-market and trade execution platform built for professional day traders. It connects directly to CQG, Rithmic, StoneX, Tradovate, Interactive Brokers, and IQFeed, which means a futures or equities trader can run their entire workflow — market data, charts, DOM, order entry, journaling, performance analytics — inside Jigsaw without needing NinjaTrader, Sierra Chart, or any other host platform.\n\nFor traders who already live inside NinjaTrader 7/8, MetaTrader 5, or MultiCharts.NET, Jigsaw also offers the **Platform Bridge** — a separate integration path that lets you layer Jigsaw's tools on top of your existing setup. But that's the secondary use case, not the main product.\n\nThis is a niche, pro-focused platform. If you don't know what absorption, initiative activity, or auction exhaustion mean, this is not the first tool you should buy. But if reading the tape and the DOM is central to how you trade, Jigsaw is one of the deepest implementations available anywhere.\n\n## The Company\n\nJigsaw Trading was founded by **Peter Davies**, a UK-based professional trader with decades of experience in futures order flow trading. Davies built Jigsaw out of frustration with the DOM tools available in mainstream platforms — he wanted something that specifically focused on making tape reading more efficient and quantifiable. The company is small and focused, and Davies still appears in live market sessions, YouTube content, and customer support regularly.\n\nBecause Davies is an active trader, Jigsaw ships with both the software and an opinionated methodology for how to actually use it. That combination — tool plus framework — is a large part of why long-time Jigsaw customers tend to stay.\n\n## daytradr — The Flagship Platform\n\ndaytradr is a full trading platform, not an add-on. The core components:\n\n- **Depth & Sales (DOM / Price Ladder)** — the signature order-entry window. Shows resting orders, executions, trader positioning / stop locations, order cancellations, stacking and iceberging, trade balance, order queue position, and per-price P&L. One-click trading with configurable brackets and auto-exit strategies.\n- **Reconstructed Tape** — filters out insignificant trades, aggregates rapid-fire executions at the same price, color-codes by aggressor, highlights unusually large trades. The feature most Jigsaw users cite as the single most valuable tool.\n- **Summary Tape** — aggregates all trading activity at each price level: total volume, buy/sell delta, imbalance, and running comparison across levels.\n- **Auction Vista** — a heatmap-style chart that visualises how the market auction unfolds: liquidity shading, Large Trade Circles from Jigsaw's proprietary algorithms, absorption patterns, and direct trade management straight off the chart.\n- **LTF Charts** — a full \"out of the box\" charting package designed for lower-timeframe active traders.\n- **Trade Simulator** — realistic fills on limit orders and realistic slippage on market and stop orders, using daytradr's own DOM. Ideal for learning, testing strategies, and prop-firm evaluation practice.\n- **Smart Gauges** — including the **Pace of Tape (PoT)** gauge (over 50 styles) measuring trading pace vs. recent historical average, plus market-depth meters, order-book pulling/stacking indicators, and trade-filtered meters.\n- **Order Flow Event Alerts** — iceberg alerts, block trade alerts, large trade alerts, and divergence alerts.\n- **Execution tools** — one-click trading, auto order types, volume-based stops, automated exit strategies, exchange-traded spread support, custom sessions, and workspace management.\n\n## Charts Included\n\ndaytradr includes a full charting package — it is not purely a DOM tool:\n\n- Candlestick and industry-standard chart types\n- **JT Footprint** charts\n- **JT Reversal Footprint** charts\n- **JT Market Profile** (traditional market profile)\n- **Auction Vista** heatmap\n- Price Delta, Cumulative Delta, Volume Delta Bars, Depth Histogram, Flip Charts\n- **JT CSI** (Cumulative Sheep Index) and other custom indicators\n\nFull list on Jigsaw's own documentation at daytradr.jigsawtrading.com/charts.html.\n\n## Trade Journal & Performance Analytics (Journalytix)\n\nIncluded with every Jigsaw lifetime bundle — not a paid add-on. Journalytix is Jigsaw's web-based trade journal that captures order and position data within seconds of execution, and provides:\n\n- Profitability breakdowns by time of day, day of week, instrument and account\n- Monthly / weekly / daily performance calendars with trade count, P&L, win rate, max drawdown and max gain\n- 30-minute interval performance tracking inside the trading day\n- Combination-factor analysis to pinpoint what is actually driving wins and losses\n- \"What-if\" analysis on historical trades\n- Leaderboard with a consistency-rating algorithm modelled on prop-firm go-live standards\n\n## Market Intelligence — Daily Pre-Market Briefings\n\nMarket Intelligence is a separate Jigsaw product: an AI-generated, pre-market briefing system for futures traders, delivered daily before the open. It covers ES, NQ, GC, CL, ZC, ZN and 6E (with more markets being added), and includes:\n\n- Overnight action summary and session themes\n- News items tagged with red/yellow/green severity and directional arrows\n- Scheduled economic releases, Fed speakers, and earnings with expected-vs-actual comparisons\n- Risk calendar timeline of market-moving events, filtered per instrument\n- Session-by-session action plan for what to watch\n- Key levels and flow data — price levels, COT positioning, ETF flows, institutional sentiment\n\nPricing: included with the daytradr Core 4Life bundle + live-trading subscription, or available standalone at $50/month or $500/year.\n\n## Platform Bridge (Optional)\n\nFor traders who prefer to stay inside an existing ecosystem, the **Jigsaw Platform Bridge** integrates Jigsaw's tools with:\n\n- **NinjaTrader 7 / 8**\n- **MetaTrader 5**\n- **MultiCharts.NET** (and MultiCharts.NET SE)\n\nThis is an alternative route, not a requirement. daytradr itself runs standalone with direct broker and data connections.\n\n## Operating Systems & Markets\n\n- **Windows** — native installation\n- **Mac** — via Bootcamp or Parallels\n- **Markets**: Futures and exchange-traded spreads (primary), plus NYSE stocks via Interactive Brokers TWS and IQFeed, and global equities across US, Europe, Hong Kong, Sydney and Osaka. Crypto and forex are not supported.\n\n## Education & Methodology\n\nJigsaw invests heavily in education, and every lifetime bundle includes real training — not just software tutorials:\n\n- **Jigsaw Trading YouTube** — extensive library of DOM methodology, live market analysis, and tool walkthroughs\n- **Advanced Order Flow Training Pack** — included with every lifetime tier\n- **Institutional training** — trading with price and order flow strategies\n- **Customer-exclusive trading education** — a separate library for paid customers\n- **Live chat room** — ongoing community and trade discussion\n- **1-on-1 consultation chats** — included with every bundle\n- **Regular webinars** — live sessions on order flow concepts and trade analysis\n\nThis matters because Jigsaw's tools are powerful but require genuine skill to use well. The education is a real differentiator, not a marketing afterthought.\n\n## Pricing — Be Realistic About Total Cost\n\nJigsaw is not cheap and is not pretending to be. The pricing model is built for professionals, not casual traders, and the total cost of ownership is higher than the headline lifetime figure suggests.\n\n**Three lifetime-licence tiers** — all three contain the **same daytradr software**, and differ only in the education and training included:\n\n- **Independent** — $579 one-time purchase\n- **Professional** — $879 one-time purchase\n- **Institutional** — $1,979 one-time purchase\n\nAll lifetime tiers include: daytradr platform licence for 2 PCs for life, Journalytix trade analytics, Trade Simulator, live chat room, leaderboard access, free lifetime updates, and hands-on support.\n\n**Live-trading subscription (required for real-money trading):** $50/month or $500/year. Covers live-trade licensing for 2 PCs, Market Intelligence daily briefings, real-time news and audio feeds, real-time economic calendar with pre-release warnings, advanced real-time analytics, real-time cloud journaling, and priority support.\n\n**Realistic first-year cost for a live trader:** $579 (Independent lifetime) + $500 (annual live subscription) = **~$1,079 in year one**, then ~$500/year ongoing. Add broker data fees and exchange-data subscriptions on top of that, and that's before your trading capital. If $1,000+ in tooling costs for year one is a problem, this isn't the platform for you — go learn on something free first.\n\n**SIM / demo / prop-firm evaluation trading:** free — no subscription required. Jigsaw's rule is \"if it's not real money, it's free,\" which makes the platform unusually well-priced for traders still working through prop-firm evaluations before going live.\n\n**Money-back guarantee:** 14 days on the software cost. This is a refund after purchase, not a free trial — the software is paid for up front and refunded on request within 14 days. Training is non-refundable.\n\n## What Jigsaw Does Not Have\n\n- **No automated / algorithmic trading** — entirely manual and discretionary\n- **No crypto or forex** — futures and equities only\n- **No mobile app** — desktop only (Windows native, Mac via Bootcamp / Parallels)\n\n## Who Jigsaw Trading Is For\n\n**Good fit:**\n- Professional futures scalpers and full-time discretionary day traders who make decisions from the DOM and tape\n- Prop-firm traders running evaluations — the free SIM + realistic-fill Trade Simulator + Journalytix consistency leaderboard map directly onto most prop firm go-live requirements\n- Experienced retail pros already trading live, trading real size, and looking for better DOM and order-flow tooling than mainstream platforms ship with\n- Futures and equities traders who want a full standalone professional platform — charts, DOM, execution, journal, analytics — without stitching together multiple vendors\n- Traders already inside NinjaTrader, MetaTrader 5, or MultiCharts.NET who want to add Jigsaw's DOM and order flow tools on top via the Platform Bridge\n- Traders who value a founder-led product with an opinionated methodology, not just generic software\n\n**Not the right fit:**\n- Beginners still learning trading basics — the learning curve is steep and assumes prior knowledge of order flow, auction theory, and tape reading\n- Casual or part-time retail traders who can't justify $1,000+ in year-one tooling costs\n- Swing and position traders — the platform is built for short-timeframe active trading, not multi-day positions\n- Anyone trading crypto or forex\n- Traders who want full automated or algorithmic execution\n\n## Community Reception & Third-Party Reviews\n\nWe looked at how Jigsaw is received outside its own marketing:\n\n- **Trustpilot:** 4.7 out of 5 (\"Excellent\") across ~34 customer reviews as of early 2026. Recurring themes: responsive support (\"feels more like a family business\"), a CEO who actually engages with user suggestions, and reports of serious prop-firm traders using the platform.\n- **YouTube:** Jigsaw's channel has ~26,000 subscribers with years of DOM methodology walkthroughs, live market sessions, and tool tutorials — unusually deep educational library for an order-flow vendor.\n- **John Grady (CEO, No BS DayTrading):** \"I think it is the best platform hands-down — you just see certain things in it that you don't see in other platforms. It clearly shows volume ebb and flow. Customer service is excellent, any time you have a problem they respond very quickly.\"\n- **Elite Trader forum history:** threads track real product development over the years — Trade Simulator release, Platform Bridge for NinjaTrader and MetaTrader 5, Journalytix launch, trailing stops + limits. This is a product that has been shipping continuously, not a static tool.\n- **Fair-balance critical views:** not everyone is a fan. Some experienced forum users have described Jigsaw as a \"one-man shop\" and questioned institutional uptake. Heavier-size traders on the Tradovate bridge have flagged it as better suited to smaller position sizes. These are minority views and not universal, but they exist and are worth weighing.\n\n## A Note on Outdated Pricing Claims\n\nA lot of third-party review sites still quote Jigsaw pricing at \"$197/month\" or \"$597 lifetime\". Neither is correct and, per Jigsaw, the $197/month figure was never real. The actual current pricing is the three lifetime tiers ($579 / $879 / $1,979) plus the optional $50/month or $500/year live-trading subscription documented above. If you see a review quoting monthly software pricing, it's out of date.\n\n## Bottom Line\n\nJigsaw daytradr is a full, standalone, **professional-grade** order flow, DOM, charting, execution and analytics platform — not a plug-in, not a beginner tool, and not cheap. The Reconstructed Tape, Summary Tape, Auction Vista, Pace of Tape, Trade Simulator, and Journalytix analytics are each strong tools in their own right, and the lifetime-licence pricing is unusually trader-friendly in a market dominated by recurring SaaS.\n\nBut the price tag, the live-data subscription, and the learning curve all add up, and this is not a platform you buy on a whim. If you're a casual or part-time trader, look elsewhere — you'll pay for capability you can't yet use. If you're a serious, full-time futures or equities day trader who makes decisions from the order book and the tape — and who wants an active-trader founder, a real support team, a 26,000-subscriber education library, and a platform that has been shipping continuously since 2011 behind your workflow — Jigsaw is a genuinely best-in-class option and is worth the investment.",
   "logo_url": "/logos/jigsaw-trading.svg",
   "screenshots": [],
   "website_url": "https://www.jigsawtrading.com",
@@ -16,86 +16,122 @@
   "affiliate_commission": "",
   "affiliate_cookie_days": 0,
   "pricing": {
-    "has_free_tier": true,
-    "starting_price": 0,
+    "has_free_tier": false,
+    "starting_price": 579,
     "tiers": [
       {
-        "name": "14-Day Free Trial",
+        "name": "Independent (Lifetime)",
         "price_monthly": 0,
         "features": [
-          "Full access to all tools",
-          "Reconstructed Tape, Summary Tape, DOM tools",
-          "Auction Vista preview",
-          "No commitment required"
+          "$579 one-time purchase",
+          "daytradr platform — 2 PCs for life",
+          "Reconstructed Tape, Summary Tape, Depth & Sales DOM",
+          "Auction Vista, Footprint, Market Profile, Delta charts",
+          "Trade Simulator with realistic fills and slippage",
+          "Pace of Tape and Smart Gauges",
+          "Order Flow Event Alerts (iceberg, block, large trade, divergence)",
+          "Journalytix trade journal & performance analytics",
+          "Free lifetime updates + hands-on support",
+          "Advanced Order Flow Training Pack",
+          "Live chat room + leaderboard + 1-on-1 consultations"
         ]
       },
       {
-        "name": "Daytradr Lifetime",
+        "name": "Professional (Lifetime)",
         "price_monthly": 0,
         "features": [
-          "One-time payment of $597",
-          "Reconstructed Tape",
-          "Summary Tape",
-          "Depth & Sales DOM",
-          "Platform integrations (NinjaTrader, Sierra Chart, MultiCharts)"
+          "$879 one-time purchase",
+          "Everything in Independent",
+          "Additional Jigsaw education / training package",
+          "Same daytradr software as all other tiers"
         ]
       },
       {
-        "name": "Ongoing Support",
-        "price_monthly": 37,
+        "name": "Institutional (Lifetime)",
+        "price_monthly": 0,
         "features": [
-          "Continued updates and improvements",
-          "Technical support",
-          "New feature access",
-          "Required after initial license period"
+          "$1,979 one-time purchase",
+          "Everything in Professional",
+          "Institutional trading education — price and order flow strategies",
+          "Same daytradr software as all other tiers"
+        ]
+      },
+      {
+        "name": "Live Trading Subscription (required for real-money trading)",
+        "price_monthly": 50,
+        "features": [
+          "$50/month or $500/year",
+          "Live-trade license for 2 PCs",
+          "Market Intelligence — daily pre-market briefings",
+          "Real-time news and audio feeds",
+          "Real-time economic calendar with pre-release warnings",
+          "Advanced real-time analytics",
+          "Real-time cloud-based trade journaling",
+          "Priority support",
+          "SIM / demo / prop-firm evaluation trading remains free"
         ]
       }
     ],
-    "currency": "USD"
+    "currency": "USD",
+    "price_low": 579,
+    "price_high": 1979,
+    "pricing_summary": "Jigsaw Trading uses a lifetime-licence model. Three one-time tiers — Independent $579, Professional $879, Institutional $1,979 — all contain the same daytradr software. Real-money trading additionally requires a live-trading subscription at $50/month or $500/year. SIM, demo and prop-firm evaluation trading is free. A 14-day money-back guarantee applies to the software cost.",
+    "free_plan_answer": "No. Jigsaw Trading does not offer a free plan for live trading. The cheapest lifetime licence is $579 one-time (Independent), and real-money trading also requires a $50/month or $500/year live-trading subscription. Jigsaw does not offer a free trial — instead it offers a 14-day money-back guarantee on the software cost. SIM, demo and prop-firm evaluation trading is free for existing licence holders."
   },
   "features": {
-    "ai_analysis": false,
+    "ai_analysis": true,
     "backtesting": false,
     "paper_trading": true,
-    "alerts": false,
+    "alerts": true,
     "mobile_app": false,
     "api_access": false,
-    "social_features": false,
+    "social_features": true,
     "broker_integration": true,
-    "custom_indicators": false,
+    "custom_indicators": true,
     "automated_trading": false,
-    "journaling": false,
-    "performance_analytics": false,
-    "risk_management": false,
-    "news_feed": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": true,
     "education": true
   },
   "markets": [
-    "futures"
+    "futures",
+    "stocks"
   ],
   "pros": [
-    "Best-in-class Reconstructed Tape — filters noise, highlights institutional-sized trades and aggressive activity",
-    "Auction Vista provides historical DOM visualization that no other platform offers",
-    "Summary Tape aggregates price level activity for bird's-eye view of where volume is executing",
-    "Founded and developed by Peter Davies, an active professional futures trader",
-    "Extensive education: YouTube, webinars, methodology documentation — not just software tutorials",
-    "Integrates with NinjaTrader 8, Sierra Chart, and MultiCharts — works alongside your existing platform",
-    "14-day free trial with full access to all tools",
-    "Lifetime license option at $597 — competitive for a professional-grade tool"
+    "daytradr is a full standalone platform — connects directly to CQG, Rithmic, StoneX, Tradovate, Interactive Brokers and IQFeed, no third-party host required",
+    "Best-in-class Reconstructed Tape and Summary Tape — filter tape noise and surface institutional-sized activity",
+    "Auction Vista heatmap + Large Trade Circles give a historical view of how the DOM evolved",
+    "Full charting included — candlestick, footprint, reversal footprint, market profile, Auction Vista, delta variants",
+    "Trade Simulator with realistic fills and slippage — ideal for learning and prop-firm evaluations",
+    "Pace of Tape (50+ styles) and other Smart Gauges for reading market rhythm in real time",
+    "Order Flow Event Alerts — iceberg, block trade, large trade, divergence",
+    "Journalytix trade journal and performance analytics included with every lifetime bundle",
+    "Market Intelligence — AI-generated daily pre-market briefings for ES, NQ, GC, CL, ZC, ZN, 6E",
+    "Runs on Windows natively and on Mac via Bootcamp / Parallels",
+    "Optional Platform Bridge for NinjaTrader 7/8, MetaTrader 5 and MultiCharts.NET users",
+    "Founded and run by Peter Davies, an active professional futures trader",
+    "Trustpilot 4.7/5 across ~34 reviews — recurring praise for support responsiveness and CEO engagement",
+    "Active YouTube channel with ~26,000 subscribers and years of DOM methodology content",
+    "On-record third-party endorsement from John Grady (CEO, No BS DayTrading) calling it the \"best platform hands-down\"",
+    "Lifetime-license model ($579 / $879 / $1,979) with 14-day money-back guarantee on the software cost",
+    "Free SIM, demo and prop-firm evaluation trading — no subscription required for non-live accounts"
   ],
   "cons": [
-    "Futures only — no stocks, crypto, or forex support",
-    "Requires an existing platform (NinjaTrader, Sierra Chart) — not standalone",
     "Steep learning curve — assumes prior understanding of order flow and auction theory",
-    "No charting capability — DOM and tape tools only",
-    "Windows only, no Mac or web version",
-    "Not for swing/position traders — optimized for short-timeframe scalping"
+    "Live-trading subscription ($50/month or $500/year) is required on top of the lifetime software license for real-money trading",
+    "No automated or algorithmic trading — fully discretionary",
+    "No crypto or forex support — futures and equities only",
+    "No mobile app — desktop only",
+    "Not optimised for swing or position traders — built for short-timeframe active trading",
+    "Small, founder-led company rather than a large vendor — some experienced forum users have flagged the \"one-man shop\" concern, though the product has been shipping and evolving continuously since 2011"
   ],
   "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 3.2,
     "features": 4.8,
-    "value": 4.0,
+    "value": 4.2,
     "support": 4.5,
     "reliability": 4.6
   },
@@ -104,9 +140,10 @@
   "headquarters": "United Kingdom",
   "best_for": [
     "professional futures scalpers who trade from the DOM and tape",
-    "NinjaTrader or Sierra Chart users who want superior order flow tools",
-    "prop firm traders who need to read market microstructure on short timeframes",
-    "experienced traders who want a methodology-driven approach to DOM trading"
+    "futures and equities traders who want a single standalone platform — charts, DOM, execution, journal, analytics — without stitching vendors together",
+    "NinjaTrader, MetaTrader 5 or MultiCharts.NET users who want Jigsaw's DOM tools via the Platform Bridge",
+    "prop-firm traders running evaluations who need realistic simulation, a real-time journal and a consistency leaderboard",
+    "experienced traders who want an opinionated methodology and an active-trader founder behind the tool"
   ],
   "similar_tools": [
     "atas",
@@ -115,16 +152,22 @@
     "quantower",
     "orderflows"
   ],
-  "last_updated": "2026-04-12",
+  "last_updated": "2026-04-22",
   "review_status": "published",
   "vendor_verified": true,
-  "vendor_verified_date": "2026-04-12",
-  "vendor_verified_note": "Platform features, DOM tools, Auction Vista, platform integrations, and pricing verified against jigsawtrading.com. Outreach sent Apr 2026.",
+  "vendor_verified_date": "2026-04-22",
+  "vendor_verified_note": "Full rewrite on 2026-04-22 following primary-source feedback from Gonzalo Rivero (Marketing Lead, Jigsaw Trading) on behalf of Peter Davies. Corrected: daytradr is a standalone platform (not an add-on), equities are supported via IBKR + IQFeed, full charting is included, Trade Simulator and Pace of Tape are included, Journalytix journal + analytics are included with every bundle, Market Intelligence is a first-party AI product, Mac is supported via Bootcamp/Parallels, pricing is three lifetime tiers ($579 / $879 / $1,979) plus an optional $50/mo or $500/yr live-trading subscription, and the trial is a 14-day money-back guarantee (not a free trial).",
   "vendor_verified_sources": [
     "https://www.jigsawtrading.com/ — official homepage",
-    "https://www.jigsawtrading.com/features/ — tool overview",
-    "https://www.jigsawtrading.com/pricing/ — pricing and license options"
+    "https://www.jigsawtrading.com/trading-software/ — daytradr platform overview, broker connections, OS support, tools and features",
+    "https://www.jigsawtrading.com/trading-education/ — lifetime-license pricing tiers (Independent / Professional / Institutional) and money-back guarantee wording",
+    "https://www.jigsawtrading.com/blog/jigsaw-pricing-explained/ — full pricing model including $50/mo or $500/yr live-trading subscription and included components",
+    "https://daytradr.jigsawtrading.com/charts.html — included chart types (candlestick, footprint, reversal footprint, market profile, Auction Vista heatmap, delta variants)",
+    "https://www.jigsawtrading.com/market-intelligence-for-futures-traders/ — Market Intelligence pre-market briefing product",
+    "https://www.jigsawtrading.com/trade-journal-analytics/ — Journalytix trade journal and performance analytics",
+    "https://www.jigsawtrading.com/customer-exclusive-trading-education/ — customer-only education library",
+    "Email from Gonzalo Rivero (Marketing Lead, Jigsaw Trading), 2026-04-22 — corrections list covering 10 factual issues"
   ],
-  "meta_title": "Jigsaw Trading Review 2026: DOM & Tape Reading",
-  "meta_description": "Jigsaw Trading review — Reconstructed Tape, Auction Vista, DOM tools for futures scalpers. Built by a professional trader. $597 lifetime license."
+  "meta_title": "Jigsaw daytradr Review 2026: Pro Order Flow & DOM Platform",
+  "meta_description": "Jigsaw daytradr — professional-grade standalone order flow platform for serious futures and equities day traders. DOM, Reconstructed Tape, Auction Vista, full charting, Trade Simulator, Market Intelligence. CQG, Rithmic, Tradovate, IBKR. Lifetime from $579 + $500/yr live data. Not a beginner tool."
 }
