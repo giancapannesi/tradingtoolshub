@@ -1,0 +1,111 @@
+{
+  "name": "InsiderEdge",
+  "slug": "insideredge",
+  "category": "stock-screeners",
+  "subcategories": [
+    "insider-trading",
+    "news-data-feeds",
+    "unusual-activity"
+  ],
+  "description_short": "Insider and Congress trading intelligence platform that tracks SEC filings, detects insider clusters, and connects Congressional trades to committee assignments.",
+  "description_long": "InsiderEdge is an insider trading intelligence platform built for retail traders who want to see what corporate insiders and members of Congress are doing with their money — and more importantly, understand what it means.\n\nUnlike raw SEC filing feeds that dump every Form 4 on your screen, InsiderEdge processes insider transactions through a multi-layer analysis engine. It detects insider clusters (multiple executives at the same company trading in the same direction), connects Congressional trades to committee assignments, and filters out routine noise like 10b5-1 plan sales and post-IPO lockup selling.\n\n## What Makes InsiderEdge Different\n\nMost insider trading tools show you data. InsiderEdge tells you whether that data actually matters.\n\nWhen 7 executives sell $6 billion of a stock that just IPO'd and is up 85%, that's not a bearish signal — that's a payday. InsiderEdge identifies this context automatically: price action relative to the trade, whether selling is routine profit-taking vs conviction-driven, and whether the insider's trading pattern is opportunistic or scheduled.\n\n## The Congress Connection\n\nInsiderEdge tracks all disclosed Congressional trades and maps them to committee assignments. A senator on the Armed Services Committee buying defense stocks before a major contract announcement is a different kind of signal than a backbencher rebalancing their portfolio. InsiderEdge surfaces these connections with full transparency about the evidence chain.\n\n## Cluster Detection\n\nWhen multiple insiders at the same company trade in the same direction within a short window, it's statistically more significant than any single insider trade. InsiderEdge's cluster detection engine identifies these patterns and ranks them by conviction — accounting for who's trading (CEO vs director vs 10% holder), how much of their holdings they're moving, and whether the price action supports or contradicts the trade.\n\n## Built Into TraderTrac\n\nInsiderEdge is integrated directly into the TraderTrac trading journal platform. Insider Pro subscribers get the full intelligence feed alongside their trade journal, AI coaching, and performance analytics — making it easy to cross-reference insider activity with your own trading decisions.\n\n## Pricing\n\nInsiderEdge is available as part of the Insider Pro plan at $24.99/month or $249.99/year, which also includes full TraderTrac Pro access (AI journal, unlimited trades, weekly reports). This makes it significantly cheaper than standalone insider trading platforms like Unusual Whales ($57/month) or InsiderFinance ($99/month).",
+  "logo_url": "/logos/insideredge.svg",
+  "screenshots": [],
+  "website_url": "https://tradertrac.com/edge",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Limited insider activity feed",
+          "Basic Congress trade tracking",
+          "5 free trades in journal"
+        ]
+      },
+      {
+        "name": "Insider Pro",
+        "price_monthly": 24.99,
+        "price_yearly": 249.99,
+        "features": [
+          "Full insider cluster intelligence",
+          "Congress-to-committee connection mapping",
+          "Conviction scoring and context analysis",
+          "Daily insider activity digest",
+          "Smart Money feed with price context",
+          "Full TraderTrac Pro included (AI journal, unlimited trades, weekly reports)"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": true,
+    "education": false
+  },
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Insider cluster detection goes beyond raw Form 4 filings",
+    "Congress trade-to-committee mapping unavailable on most platforms",
+    "Context-aware scoring filters out routine profit-taking and 10b5-1 plans",
+    "Includes full TraderTrac Pro journal at no extra cost",
+    "Significantly cheaper than Unusual Whales ($57/mo) or InsiderFinance ($99/mo)",
+    "Daily intelligence digest delivered via email"
+  ],
+  "cons": [
+    "No standalone plan — requires TraderTrac account",
+    "US equities only (no international insider data)",
+    "No mobile app yet (mobile-responsive web)",
+    "Newer platform — building track record"
+  ],
+  "rating": 4.3,
+  "rating_breakdown": {
+    "ease_of_use": 4.5,
+    "features": 4.2,
+    "value": 4.8,
+    "support": 4.1,
+    "reliability": 4.2
+  },
+  "founded_year": 2026,
+  "company": "Cosmic Phoenix LLC",
+  "headquarters": "Wyoming, USA",
+  "best_for": [
+    "Traders who follow insider and Congress activity",
+    "Swing traders looking for conviction-based entries",
+    "Budget-conscious traders who want insider data without paying $100+/month"
+  ],
+  "similar_tools": [
+    "unusual-whales",
+    "insiderfinance",
+    "tipranks",
+    "finviz",
+    "tradertrac"
+  ],
+  "last_updated": "2026-05-08",
+  "review_status": "published",
+  "meta_title": "InsiderEdge Review 2026: Insider & Congress Trading Intelligence",
+  "meta_description": "InsiderEdge tracks insider clusters and Congress trades with context-aware scoring. $24.99/mo includes full TraderTrac Pro. Compare to Unusual Whales & InsiderFinance."
+}
