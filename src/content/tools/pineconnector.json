@@ -1,0 +1,140 @@
+{
+  "name": "PineConnector",
+  "slug": "pineconnector",
+  "category": "trading-indicators",
+  "subcategories": [
+    "trade-automation",
+    "broker-bridge"
+  ],
+  "description_short": "TradingView-to-broker execution bridge that turns Pine Script alerts into automated trades on MT4/MT5. Connects TradingView analysis to live trade execution.",
+  "description_long": "## What Is PineConnector?\n\nPineConnector solves a specific problem that thousands of TradingView users face: you've built (or found) a Pine Script strategy that works well in backtesting, but TradingView can't execute trades on your MetaTrader 4/5 broker account. PineConnector bridges that gap — it converts TradingView alerts into actual trade executions on MT4/MT5.\n\nThe concept is simple: your Pine Script strategy generates an alert on TradingView. That alert fires a webhook to PineConnector's servers. PineConnector translates the alert into a trade command and sends it to an Expert Advisor (EA) running on your MT4/MT5 terminal, which executes the trade on your broker account. The entire chain — from Pine Script signal to live trade — happens in seconds.\n\nThis turns TradingView from a pure charting platform into a trading automation platform, at least for MT4/MT5 brokers.\n\n## How the Setup Works\n\nGetting PineConnector running involves four components:\n\n1. **PineConnector License** — You purchase a license key that links your TradingView account to PineConnector's webhook relay service.\n\n2. **Pine Script Alert Setup** — Your Pine Script strategy must be configured to send alerts in PineConnector's specific syntax. The alert message contains the trade command (buy, sell, close), lot size, stop loss, take profit, and other parameters in a structured format. PineConnector provides documentation and template code for common setups.\n\n3. **PineConnector EA on MT4/MT5** — You install PineConnector's Expert Advisor on your MetaTrader terminal. The EA listens for incoming commands from PineConnector's servers and executes them as trades on your broker account.\n\n4. **VPS for 24/7 Operation** — Since MetaTrader must be running for the EA to receive commands, most users run MT4/MT5 on a Virtual Private Server (VPS) that stays online 24/7. This adds a cost ($5-20/month for a basic Windows VPS) but is essential for reliable automation.\n\nThe setup process takes 30-60 minutes for someone comfortable with MT4/MT5 and Pine Script. PineConnector provides video tutorials and a setup guide, but this is not a plug-and-play tool for beginners. You need to understand alert syntax, EA installation, and basic VPS management.\n\n## Alert Syntax and Trade Commands\n\nPineConnector's alert syntax is straightforward but requires precision. A typical alert message looks like:\n\n`YOUR_LICENSE_KEY,buy,EURUSD,risk=1,sl=50,tp=100`\n\nThis tells PineConnector to execute a buy on EUR/USD with 1% risk, 50 pip stop loss, and 100 pip take profit. The syntax supports:\n\n- Market orders (buy, sell)\n- Pending orders (buylimit, selllimit, buystop, sellstop)\n- Position management (close, closepartial, breakeven, trailstop)\n- Risk-based lot sizing (calculates lot size based on account balance and risk percentage)\n- Multiple take profit levels (partial closes at different targets)\n\nThe risk-based lot sizing is particularly valuable — instead of specifying fixed lot sizes, you define risk as a percentage of your account, and PineConnector calculates the appropriate position size based on the stop distance. This is proper risk management that many retail traders skip when trading manually.\n\n## Execution Speed and Reliability\n\nThe critical question for any automation bridge: how fast and how reliable?\n\nExecution speed averages 1-3 seconds from TradingView alert to MT4/MT5 order fill. This includes TradingView's alert processing, webhook delivery to PineConnector, relay to your EA, and broker execution. For swing trading and position trading, this latency is negligible. For scalping or high-frequency strategies, it's too slow — you'd need direct API access or co-located servers.\n\nReliability depends on multiple links in the chain. If TradingView's servers, PineConnector's relay, your VPS, or your MT4/MT5 connection experience issues, trades can fail to execute. PineConnector logs all commands and provides a dashboard showing execution status, so you can monitor for failures. In practice, the reliability is high for the vast majority of alerts, but you should never assume 100% execution — always have failsafe monitoring.\n\nThe most common failure point is the VPS connection. If your MT4/MT5 disconnects from the broker or the EA crashes, incoming commands queue but don't execute. Running MT4/MT5 on a reliable VPS with auto-restart configured mitigates this.\n\n## Pricing\n\nPineConnector offers tiered pricing based on the number of MT4/MT5 accounts you want to connect:\n\n- **Starter ($29.95/month)** supports 1 MT4/MT5 account. This is sufficient for most individual traders running a single strategy on one broker.\n\n- **Standard ($49.95/month)** supports up to 3 accounts. Useful if you run the same strategy across multiple broker accounts or run different strategies on separate accounts.\n\n- **Pro ($79.95/month)** supports up to 5 accounts with priority relay speed. For traders managing multiple strategies or accounts.\n\nAll plans include the EA download, full alert syntax support, execution logging, and email support. There are also annual billing options with modest discounts.\n\nNote that PineConnector costs are on top of your TradingView subscription (you need at least Essential for webhook alerts) and VPS costs ($5-20/month). The total cost of automation via this route is $47-110+/month when you add everything up.\n\n## What PineConnector Is NOT\n\nIt's important to be clear about what PineConnector doesn't do:\n\n- **It doesn't generate trading signals.** PineConnector executes your signals. You need a working Pine Script strategy or manual alert setup first.\n\n- **It doesn't work with non-MT4/MT5 brokers.** If your broker uses a proprietary platform (like Interactive Brokers' TWS), PineConnector won't connect. For non-MT4/MT5 brokers, look at alternatives like TradersPost or direct API integration.\n\n- **It doesn't backtest or optimize strategies.** That's TradingView's domain. PineConnector only handles the execution side.\n\n- **It doesn't guarantee profitable trading.** Automating a bad strategy just means losing money faster without having to watch.\n\n## Who Should Use PineConnector\n\nPineConnector is best for:\n\n- **Pine Script developers** who have built strategies on TradingView and want to automate execution on MT4/MT5\n- **Forex traders** using MT4/MT5 brokers who want to leverage TradingView's superior charting and Pine Script capabilities\n- **Swing and position traders** where 1-3 second execution latency doesn't impact strategy performance\n- **Copy traders** who want to mirror signals from a TradingView strategy across multiple MT4/MT5 accounts\n\nPineConnector is less ideal for:\n\n- Scalpers or HFT traders — execution latency is too high\n- Traders using non-MT4/MT5 brokers (Interactive Brokers, TradeStation, etc.)\n- Beginners who don't have a tested strategy to automate\n- Traders uncomfortable with VPS setup and EA configuration\n\n## Alternatives\n\nTradersPost offers similar TradingView-to-broker automation but supports more broker platforms beyond MT4/MT5. TradingView's native broker integration (for supported brokers) allows direct execution without a third-party bridge but with less automation sophistication. For Interactive Brokers users, direct API integration via Python is more reliable than any bridge tool.\n\n## Verdict\n\nPineConnector is the best solution for a specific, common need: executing TradingView Pine Script strategies on MT4/MT5 brokers. The setup isn't trivial, but once configured, it works reliably with reasonable execution speed. The risk-based position sizing is a genuinely useful feature. At $29.95/month for single-account use, the cost is reasonable if you're actively trading a strategy that benefits from automation. Just be realistic about the total cost (TradingView + PineConnector + VPS) and the requirement for a VPS running 24/7.",
+  "logo_url": "/logos/pineconnector.svg",
+  "screenshots": [],
+  "website_url": "https://www.pineconnector.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29.95,
+    "tiers": [
+      {
+        "name": "Starter",
+        "price_monthly": 29.95,
+        "price_yearly": 299.40,
+        "features": [
+          "1 MT4/MT5 account connection",
+          "Full alert syntax support",
+          "Risk-based position sizing",
+          "Execution logging dashboard",
+          "Expert Advisor download",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Standard",
+        "price_monthly": 49.95,
+        "price_yearly": 499.40,
+        "features": [
+          "Up to 3 MT4/MT5 accounts",
+          "Everything in Starter",
+          "Multi-account execution",
+          "Partial close and trailing stop commands"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 79.95,
+        "price_yearly": 799.40,
+        "features": [
+          "Up to 5 MT4/MT5 accounts",
+          "Everything in Standard",
+          "Priority relay speed",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": true,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Bridges the gap between TradingView's charting and MT4/MT5 execution — solves a real problem",
+    "Risk-based position sizing calculates lot size from account balance and risk percentage",
+    "Supports complex order management — partial closes, trailing stops, breakeven moves",
+    "Execution logging dashboard provides transparency on trade execution status",
+    "Straightforward alert syntax once you learn it"
+  ],
+  "cons": [
+    "Requires a VPS running 24/7 for reliable operation — adds $5-20/mo to total cost",
+    "1-3 second execution latency makes it unsuitable for scalping or HFT strategies",
+    "Only works with MT4/MT5 — no support for other broker platforms",
+    "Setup is technical — not accessible for traders without MT4/MT5 EA experience"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 3.4,
+    "features": 4.2,
+    "value": 3.9,
+    "support": 4.0,
+    "reliability": 4.3
+  },
+  "founded_year": 2019,
+  "company": "PineConnector",
+  "headquarters": "Online",
+  "best_for": [
+    "Pine Script automation",
+    "MT4/MT5 traders",
+    "TradingView strategy execution"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "tradingview-indicators",
+    "3commas"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "PineConnector provides a webhook-based execution bridge between TradingView and MetaTrader 4/5 platforms. The company enables traders to automate Pine Script strategies on live broker accounts, handling order relay, risk-based position sizing, and execution logging.",
+  "scraped_features": [
+    "Webhook relay from TradingView alerts to MT4/MT5 Expert Advisor",
+    "Risk-based lot sizing — calculate position size from account balance and risk %",
+    "Market, limit, and stop order support",
+    "Partial close and multiple take profit levels",
+    "Trailing stop and breakeven automation",
+    "Multi-account execution (Standard/Pro plans)",
+    "Execution logging dashboard with status monitoring",
+    "Structured alert syntax for Pine Script integration"
+  ],
+  "unique_selling_points": [
+    "Most popular TradingView-to-MT4/MT5 execution bridge",
+    "Risk-based position sizing built into the alert syntax",
+    "Supports complex order management (partials, trailing, breakeven)",
+    "Execution logging for monitoring and debugging trade flow"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "PineConnector Review 2026: TradingView to MT4/MT5 Bridge",
+  "meta_description": "PineConnector review: automate Pine Script strategies on MT4/MT5. Covers setup, execution speed, pricing from $29.95/mo, and honest pros/cons.",
+  "enriched_at": "2026-06-11"
+}

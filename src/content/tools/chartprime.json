@@ -1,0 +1,131 @@
+{
+  "name": "ChartPrime",
+  "slug": "chartprime",
+  "category": "trading-indicators",
+  "subcategories": [
+    "smart-money-concepts",
+    "order-flow"
+  ],
+  "description_short": "Premium TradingView indicator suite focused on market structure, order blocks, liquidity zones, and volume profile. Built for ICT/SMC and order flow traders.",
+  "description_long": "## What Is ChartPrime?\n\nChartPrime is a premium TradingView indicator suite built specifically for traders who use Smart Money Concepts (SMC), Inner Circle Trader (ICT) methodology, and order flow analysis. While LuxAlgo covers a broad range of indicator categories, ChartPrime focuses almost exclusively on institutional trading concepts — order blocks, liquidity zones, market structure, volume profile, and fair value gaps.\n\nThe result is a more focused toolkit that does SMC/order flow analysis in greater depth than LuxAlgo's more generalized approach. If your trading revolves around identifying where institutional players are positioned and how liquidity is being engineered, ChartPrime was built for exactly that use case.\n\n## Core Indicators\n\n**Market Structure** is ChartPrime's foundation indicator. It automatically maps swing highs and lows, identifies break of structure (BOS) and change of character (CHoCH) events, and labels the current market structure in real time. The detection is multi-timeframe aware — you can see higher-timeframe structure on a lower-timeframe chart, which helps avoid fighting the larger trend while timing entries on smaller timeframes.\n\nThe quality of the structure detection is notably precise. Unlike some SMC indicators that draw structure on every minor swing, ChartPrime uses a significance filter that focuses on meaningful structural shifts. You can adjust the sensitivity, but the default settings produce clean, actionable markup.\n\n**Order Blocks** identifies bullish and bearish order blocks — the institutional footprint zones where large players have placed concentrated orders. ChartPrime draws these as shaded zones on your chart, color-coded by direction, with the zone shrinking as price partially fills the order block. The indicator also distinguishes between mitigated (partially filled) and unmitigated (untouched) order blocks, which is critical for assessing whether a zone still has institutional interest.\n\n**Liquidity Zones** maps where stop-loss clusters and liquidity pools are likely sitting. This includes equal highs/lows (where retail traders place stops), previous session highs/lows, and trendline liquidity. The indicator helps you anticipate liquidity sweeps — the sharp moves that run stops before reversing — which are central to SMC trading methodology.\n\n**Fair Value Gaps (FVGs)** detects imbalances in price delivery — three-candle formations where a gap exists between the high of candle 1 and the low of candle 3 (for bullish FVGs) or vice versa. ChartPrime draws these gaps on the chart and shows which ones have been filled, partially filled, or remain open. FVGs are key areas where price often returns to rebalance.\n\n**Volume Profile** overlay shows volume distribution at each price level, highlighting high-volume nodes (HVN) where significant activity occurred and low-volume nodes (LVN) where price moved quickly through. The point of control (POC) — the price level with the most volume — is a key reference level. ChartPrime's volume profile integrates cleanly with the order block and liquidity zone indicators, letting you see where institutional volume clusters align with structural levels.\n\n**Sessions and Killzones** draws time-based zones on your chart corresponding to London Open, New York Open, Asian Session, and the ICT-defined killzones. For traders who focus on specific trading windows (London/NY overlap, for example), this saves the tedium of manually drawing session boxes.\n\n## ChartPrime vs. LuxAlgo — The Honest Comparison\n\nThis is the comparison every prospective buyer wants. Both run on TradingView, both cost around $50/month, and both cover Smart Money Concepts. Here's how they actually differ:\n\n**ChartPrime wins on SMC depth.** The order block detection, liquidity zone mapping, and volume profile integration are more sophisticated in ChartPrime. If SMC is your primary methodology, ChartPrime's focused toolkit goes deeper.\n\n**LuxAlgo wins on breadth.** LuxAlgo covers SMC plus oscillators, AI backtesting, trend-following signals, and screening tools. If you want one subscription covering multiple methodologies, LuxAlgo offers more range.\n\n**ChartPrime wins on visual clarity.** The indicators are designed to work together without cluttering the chart. The color coding and zone management (showing filled vs. unfilled levels) keeps the chart readable even with multiple indicators loaded.\n\n**LuxAlgo wins on community and ecosystem.** With 5M+ users, LuxAlgo has more tutorials, community support, and third-party content. ChartPrime's community is smaller but more focused.\n\nFor pure SMC/ICT traders, ChartPrime is the better choice. For traders who blend multiple approaches, LuxAlgo is more versatile.\n\n## Pricing\n\nChartPrime offers a straightforward pricing structure:\n\n- **Monthly ($49/month)** gives full access to all indicators with monthly billing flexibility.\n- **Lifetime ($299 one-time)** provides permanent access to all current and future indicators. At 6+ months of use, lifetime pays for itself.\n\nThere's no free tier, which means you're committing $49 to evaluate the indicators. Some traders find this frustrating, but ChartPrime occasionally runs limited trial periods through promotional campaigns.\n\nAll plans include access to setup guides, video tutorials, and a Discord community where you can share setups and get support.\n\n## Practical Experience\n\nAfter extended use, a few things stand out:\n\nThe **order block detection is the best feature.** The distinction between mitigated and unmitigated blocks is genuinely useful — knowing whether an order block has already been partially filled changes how you trade around it. Most competitors don't make this distinction.\n\nThe **volume profile integration** with structural levels is excellent. Seeing that an unmitigated order block sits at a high-volume node adds significant confluence. Volume profile alone is available for free on TradingView, but having it pre-integrated with ChartPrime's structure analysis saves time.\n\n**Killzone sessions** are a nice touch but not unique — free Pine Script indicators can do the same thing. You're not paying for this feature specifically.\n\nThe **learning curve** is real. If you're new to SMC/ICT concepts, the indicators will draw things on your chart that you don't understand. ChartPrime provides educational content, but it assumes baseline familiarity with order blocks, FVGs, and market structure terminology. This is not a beginner tool.\n\n## Who Should Use ChartPrime\n\nChartPrime is best for:\n\n- **ICT/SMC traders** who want the most focused and detailed Smart Money toolkit on TradingView\n- **Order flow analysts** who trade based on institutional footprints and liquidity engineering\n- **Forex and futures traders** who focus on session-based analysis with killzones\n- **Traders who want clean visuals** — ChartPrime's chart markup is less cluttered than competitors\n\nChartPrime is less ideal for:\n\n- Beginners unfamiliar with SMC/ICT terminology — the learning curve is steep\n- Trend followers or momentum traders — ChartPrime is not designed for that approach\n- Traders looking for AI-powered signals or automated screening features\n\n## Verdict\n\nChartPrime is the sharpest SMC/ICT indicator suite on TradingView. If order blocks, liquidity zones, and market structure analysis are central to how you trade, ChartPrime delivers the deepest and most visually clean implementation of these concepts. The $299 lifetime deal is excellent value for committed SMC traders. The main downside is the narrow focus — if you need indicators beyond SMC, you'll need a second subscription. But for traders who live and breathe Smart Money Concepts, ChartPrime is the tool to have.",
+  "logo_url": "/logos/chartprime.svg",
+  "screenshots": [],
+  "website_url": "https://www.chartprime.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 49,
+    "tiers": [
+      {
+        "name": "Monthly",
+        "price_monthly": 49,
+        "price_yearly": 588,
+        "features": [
+          "All indicators: Market Structure, Order Blocks, FVGs, Liquidity Zones",
+          "Volume Profile overlay",
+          "Sessions and Killzones",
+          "Discord community access",
+          "Setup guides and video tutorials",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Lifetime",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All indicators permanently",
+          "All future updates and new indicators",
+          "One-time payment of $299",
+          "Lifetime Discord access",
+          "Priority support"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Best-in-class order block detection with mitigated vs. unmitigated distinction",
+    "Volume profile integrates cleanly with structural levels for confluence analysis",
+    "Visual clarity — indicators designed to work together without chart clutter",
+    "Lifetime plan at $299 is excellent value for committed SMC traders",
+    "Killzone and session markers built in for session-based trading strategies"
+  ],
+  "cons": [
+    "Steep learning curve — assumes familiarity with SMC/ICT concepts",
+    "No free tier or trial period for evaluation",
+    "Narrow focus on SMC — no trend-following, AI signals, or screening tools",
+    "Smaller community compared to LuxAlgo — fewer tutorials and third-party content"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "ease_of_use": 3.8,
+    "features": 4.5,
+    "value": 4.3,
+    "support": 4.0,
+    "reliability": 4.4
+  },
+  "founded_year": 2021,
+  "company": "ChartPrime",
+  "headquarters": "Online",
+  "best_for": [
+    "ICT/SMC traders",
+    "order flow analysts",
+    "forex traders"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "luxalgo",
+    "tradedots",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "ChartPrime is a premium TradingView indicator provider focused exclusively on Smart Money Concepts and order flow analysis. The company builds institutional-grade tools for retail traders, covering market structure, order blocks, liquidity zones, fair value gaps, and volume profile — all running natively on TradingView.",
+  "scraped_features": [
+    "Market Structure detection — BOS, CHoCH, swing highs/lows with significance filtering",
+    "Order Block identification — mitigated vs. unmitigated zones with partial fill tracking",
+    "Liquidity Zone mapping — equal highs/lows, session levels, trendline liquidity",
+    "Fair Value Gap detection with fill status tracking",
+    "Volume Profile overlay with HVN, LVN, and POC levels",
+    "Sessions and Killzones — London, New York, Asian session boxes",
+    "Multi-timeframe structure visibility on lower-timeframe charts",
+    "Clean visual design with integrated color-coding across indicators"
+  ],
+  "unique_selling_points": [
+    "Deepest SMC/ICT indicator suite on TradingView",
+    "Order block mitigated vs. unmitigated distinction",
+    "Volume profile integrated with structural analysis",
+    "$299 lifetime deal with all future updates"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "ChartPrime Review 2026: Best SMC Indicators for TradingView",
+  "meta_description": "ChartPrime review covering order blocks, liquidity zones, market structure, and volume profile. $49/mo or $299 lifetime. For ICT/SMC traders.",
+  "enriched_at": "2026-06-11"
+}

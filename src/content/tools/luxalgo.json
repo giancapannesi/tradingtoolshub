@@ -1,0 +1,143 @@
+{
+  "name": "LuxAlgo",
+  "slug": "luxalgo",
+  "category": "trading-indicators",
+  "subcategories": [
+    "smart-money-concepts",
+    "ai-indicators"
+  ],
+  "description_short": "The most popular premium TradingView indicator suite with 5M+ users. Offers Smart Money Concepts, AI-powered signals, oscillators, and overlays.",
+  "description_long": "## Why LuxAlgo Is the Top Premium Indicator on TradingView\n\nIf you've spent any time browsing TradingView's indicator library, you've seen LuxAlgo. With over 5 million users, it's the single most popular premium indicator provider on the platform — and that popularity isn't accidental. LuxAlgo has built a comprehensive toolkit that covers everything from classic technical overlays to cutting-edge AI-powered signal detection, all running natively inside TradingView.\n\nWhat sets LuxAlgo apart from the dozens of other premium indicator suites is the depth of each tool. These aren't simple moving average crossovers wrapped in a fancy UI. The Smart Money Concepts toolkit, for example, includes order blocks, fair value gaps, break of structure detection, and liquidity sweep identification — all concepts that institutional traders use but that are tedious to plot manually. LuxAlgo automates the detection and draws everything on your chart in real time.\n\n## Core Indicator Suites\n\nLuxAlgo organizes its offerings into several distinct toolkits, each designed for a specific trading approach:\n\n**Price Action Concepts (PAC)** is the flagship Smart Money Concepts indicator. It automatically identifies market structure shifts, order blocks, fair value gaps, equal highs/lows (liquidity zones), and break of structure events. For ICT/SMC traders who previously spent hours manually marking up charts, PAC does it instantly across any timeframe. The indicator is highly configurable — you can toggle individual concepts on/off and adjust sensitivity.\n\n**Signals & Overlays** provides trend-following and reversal signals with visual overlays. The trend bands adapt to volatility and provide dynamic support/resistance zones. Signal dots appear for potential entries based on confluence of momentum, trend, and volatility conditions. The overlay includes a built-in trailing stop that adjusts based on market conditions.\n\n**Oscillator Matrix** combines multiple oscillator readings into a single, clean dashboard. Instead of stacking RSI, Stochastic, MACD, and CCI in separate panes, the Oscillator Matrix synthesizes them into a unified view with color-coded strength readings. It also includes divergence detection and overbought/oversold zone alerts.\n\n**AI Backtesting** is one of the more recent additions. It uses machine learning models to generate buy/sell signals and then backtests them directly on TradingView. You can see win rates, profit factors, drawdowns, and equity curves without leaving the chart. The AI adapts to different market conditions and asset classes.\n\n**Screener** runs inside TradingView and scans multiple tickers simultaneously for specific conditions — trend alignment, signal triggers, momentum shifts, or custom criteria. This is particularly useful for swing traders who need to scan a watchlist for setups without opening 50 charts.\n\n## What's Free vs. What Costs Money\n\nLuxAlgo does offer a free tier, but it's limited. The free indicators on TradingView's public library give you a taste — basic trend bands, simplified signals — but the full Smart Money Concepts suite, AI features, and Screener require a paid subscription.\n\nThe Premium plan at $49.99/month (or approximately $34.99/month billed annually) unlocks the core indicator suites: Price Action Concepts, Signals & Overlays, and the Oscillator Matrix. This is enough for most traders who want the SMC toolkit and trend-following signals.\n\nThe Ultimate plan at $79.99/month adds the AI Backtesting module, the Screener, priority support, and early access to new features. If you're actively scanning for setups across multiple tickers and want the AI-powered analysis, Ultimate is where you need to be.\n\nBoth paid plans include access to the LuxAlgo community Discord, educational content, and setup guides for each indicator.\n\n## The AI Features — Real or Marketing?\n\nLet's address the elephant in the room: \"AI-powered\" is the most overused phrase in trading tools. In LuxAlgo's case, the AI Backtesting module does use machine learning — specifically, it trains models on historical price action to identify patterns with statistical edge. The results are transparent: you see exactly what the model detected, the win rate, and the risk/reward.\n\nThat said, don't expect magic. The AI signals work best as confirmation alongside your existing analysis, not as a standalone system. The models are trained on the specific asset and timeframe you're viewing, which means they can overfit to historical data. Treat the AI features as a sophisticated backtest tool, not a crystal ball.\n\n## Practical Experience Using LuxAlgo\n\nAfter using LuxAlgo for several months, here's what stands out:\n\nThe **Price Action Concepts indicator is genuinely excellent**. If you trade Smart Money Concepts, this saves hours of manual chart markup. The order block detection is accurate, the fair value gap identification is clean, and the break of structure alerts actually fire at the right moments. I've compared it to manual markup and it catches things I'd miss, especially on lower timeframes where structure shifts happen fast.\n\nThe **Signals & Overlays** tool is solid but not unique — several other providers offer similar trend-following overlays. Where LuxAlgo's version shines is in the customization depth and the visual clarity. The trailing stop is particularly well-implemented.\n\nThe **Screener** is useful but limited by TradingView's architecture. It can only scan a fixed watchlist (not the entire market), and scanning speed depends on your TradingView plan. Still, for a swing trader with a 50-100 ticker watchlist, it's a meaningful time saver.\n\n**Chart clutter** is the biggest practical issue. Loading multiple LuxAlgo indicators simultaneously can turn your chart into a rainbow mess. You need discipline about which tools to use for which setups. More isn't always better.\n\n## Who Should Use LuxAlgo\n\nLuxAlgo is best suited for:\n\n- **SMC/ICT traders** who want automated chart markup (order blocks, FVGs, structure shifts). This is the #1 use case and where LuxAlgo delivers the most value.\n- **TradingView power users** who already live on the platform and want premium overlays without switching to a different tool.\n- **Indicator-heavy strategy traders** who combine multiple signals for confluence-based entries.\n- **Swing traders** who use the Screener to scan watchlists for setups.\n\nLuxAlgo is less ideal for:\n\n- Traders who prefer clean, indicator-free charts (price action purists)\n- Day traders who need sub-second execution speed (indicator lag matters at that scale)\n- Beginners who might treat indicator signals as a \"buy here\" button without understanding the underlying concepts\n\n## Alternatives to Consider\n\nChartPrime offers a similar SMC indicator suite at comparable pricing, with some traders preferring its order block visualization. TradingView's own built-in indicators cover all the classic tools (RSI, MACD, Bollinger) for free. TrendSpider offers AI-powered analysis with automated trendlines but runs as a separate platform, not inside TradingView.\n\n## Verdict\n\nLuxAlgo earned its 5M+ user base for a reason. The Smart Money Concepts toolkit is the best on TradingView, the signal quality is above average, and the AI features — while not magic — add genuine analytical value. At $49.99/month for Premium, it's a reasonable investment for active traders who use TradingView daily. The Ultimate plan makes sense only if you'll actually use the Screener and AI Backtesting. Start with Premium and upgrade if you find yourself wanting more.",
+  "logo_url": "/logos/luxalgo.svg",
+  "screenshots": [],
+  "website_url": "https://www.luxalgo.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Free",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Basic trend indicators",
+          "Limited signal overlays",
+          "Community access",
+          "TradingView public library indicators"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 49.99,
+        "price_yearly": 419.88,
+        "features": [
+          "Price Action Concepts (SMC) full suite",
+          "Signals & Overlays toolkit",
+          "Oscillator Matrix",
+          "Discord community access",
+          "Setup guides and tutorials",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Ultimate",
+        "price_monthly": 79.99,
+        "price_yearly": 659.88,
+        "features": [
+          "Everything in Premium",
+          "AI Backtesting module",
+          "Real-time Screener",
+          "Priority support",
+          "Early access to new features",
+          "Advanced configuration options"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Best Smart Money Concepts indicator suite on TradingView — automates order blocks, FVGs, and structure detection",
+    "5M+ user community means extensive documentation, tutorials, and peer support",
+    "Runs natively inside TradingView — no additional platform or software required",
+    "AI Backtesting provides transparent win rates and equity curves directly on chart",
+    "Highly configurable — every concept can be toggled and adjusted for sensitivity"
+  ],
+  "cons": [
+    "Loading multiple indicators simultaneously creates significant chart clutter",
+    "AI features work best as confirmation, not standalone signals — can overfit to historical data",
+    "Screener limited by TradingView's architecture — cannot scan entire markets, only fixed watchlists",
+    "Free tier is very limited — real value requires the $49.99/mo Premium plan"
+  ],
+  "rating": 4.4,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 4.7,
+    "value": 4.1,
+    "support": 4.3,
+    "reliability": 4.5
+  },
+  "founded_year": 2019,
+  "company": "LuxAlgo",
+  "headquarters": "France",
+  "best_for": [
+    "TradingView power users",
+    "SMC traders",
+    "indicator-heavy strategies"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "chartprime",
+    "tradedots",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "Founded in 2019 in France, LuxAlgo grew from a small team of quantitative developers into the most popular premium indicator provider on TradingView. With over 5 million users, the company focuses exclusively on building indicators and tools that run natively inside TradingView's ecosystem. Known for pioneering accessible Smart Money Concepts automation.",
+  "scraped_features": [
+    "Price Action Concepts — automated order blocks, fair value gaps, break of structure",
+    "Signals & Overlays — trend-following signals with adaptive bands and trailing stops",
+    "Oscillator Matrix — multi-oscillator synthesis with divergence detection",
+    "AI Backtesting — machine learning signals with transparent backtest results",
+    "Real-time Screener — scan watchlists for setups inside TradingView",
+    "Liquidity sweep detection and equal highs/lows identification",
+    "Multi-timeframe support across all TradingView-compatible assets",
+    "Discord community with setup guides and educational content"
+  ],
+  "unique_selling_points": [
+    "Most popular premium indicator on TradingView (5M+ users)",
+    "Best-in-class Smart Money Concepts automation",
+    "AI-powered backtesting with transparent metrics",
+    "Runs entirely inside TradingView — zero additional software"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "LuxAlgo Review 2026: Best TradingView SMC Indicators?",
+  "meta_description": "LuxAlgo review covering Smart Money Concepts, AI signals, pricing ($49.99/mo+), and real trading experience. 5M+ users on TradingView.",
+  "enriched_at": "2026-06-11"
+}

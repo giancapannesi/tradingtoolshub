@@ -1,0 +1,121 @@
+{
+  "name": "Autochartist",
+  "slug": "autochartist",
+  "category": "trading-indicators",
+  "subcategories": [
+    "pattern-recognition",
+    "automated-analysis"
+  ],
+  "description_short": "Automated chart pattern recognition tool available through 50+ broker partnerships. Identifies chart patterns, Fibonacci patterns, and key levels across all major markets.",
+  "description_long": "## What Is Autochartist?\n\nAutochartist is an automated market scanning tool that continuously monitors financial markets for chart patterns, Fibonacci patterns, and key support/resistance levels. Founded in 2004 and headquartered in Cyprus, it has built a solid reputation as one of the most reliable automated pattern recognition engines in the retail trading space.\n\nLike Trading Central, Autochartist operates primarily through broker partnerships — it's available for free through 50+ participating brokers. Unlike Trading Central, Autochartist also offers some direct access options and has a more visible retail-facing presence, making it more accessible to traders who want to evaluate the tool before committing to a specific broker.\n\n## How Autochartist Identifies Patterns\n\nAutochartist's core engine scans price charts across thousands of instruments in real time, looking for three categories of patterns:\n\n**Chart Patterns** include the classical formations every technical analyst knows: head and shoulders, double tops/bottoms, triangles (ascending, descending, symmetrical), channels, wedges, and flags. When Autochartist identifies a pattern, it provides: the pattern type, the expected completion zone, a forecast price range, the quality rating (based on clarity, uniformity, and initial trend strength), and the expected timeframe for the move.\n\nWhat makes Autochartist's pattern detection credible is its quality scoring. Each identified pattern gets a score from 1-10 based on multiple factors — how cleanly the pattern formed, how uniform the price action is within the pattern, and whether the volume characteristics support the expected breakout direction. This helps filter out low-quality patterns that form on noise rather than meaningful structure.\n\n**Fibonacci Patterns** go beyond basic Fibonacci retracements. Autochartist identifies completed Fibonacci patterns — ABCD patterns, Gartley patterns, butterfly patterns, and other harmonic structures — and projects completion zones for patterns still forming. For harmonic traders, this automates what is otherwise an extremely manual and eye-straining process of measuring multiple price swings against Fibonacci ratios.\n\n**Key Levels** identifies horizontal support and resistance levels that price has respected multiple times. The tool ranks these levels by significance (how many touches, how recently, how strong the reaction was) and alerts you when price approaches a key level. This is genuinely useful for setting stop losses and take profits at levels the market has demonstrated respect for.\n\n## Volatility Analysis and Risk Management\n\nOne of Autochartist's underappreciated features is its **volatility analysis** engine. It calculates the statistical expected range for each instrument based on historical volatility, time of day, and day of week. This tells you, for example, that EUR/USD typically moves 45 pips between 8am and 12pm London time on a Tuesday — useful for setting realistic profit targets and stop distances.\n\nThe **Performance Statistics** dashboard shows you how Autochartist's pattern calls have performed historically. You can filter by pattern type, instrument, timeframe, and quality rating to see actual hit rates. This transparency is rare in the trading tools space, where most providers avoid publishing track records.\n\nAutochartist also provides a **risk calculator** that sizes positions based on your account balance, risk percentage, and the stop distance implied by the pattern. This is a simple but practical feature that helps less experienced traders avoid oversizing.\n\n## The MT4/MT5 Plugin\n\nThe most popular way to use Autochartist is through the MetaTrader 4/5 plugin. Once installed (typically provided by your broker), it adds a panel directly inside MT4/MT5 that displays:\n\n- Active patterns with entry/target/stop levels\n- Pattern quality ratings\n- Expected movement forecasts\n- Key level alerts\n- Volatility analysis for the current instrument\n\nThe plugin integrates cleanly into MetaTrader's interface and doesn't slow down the platform noticeably. Pattern alerts can be configured to push to your phone or email, so you don't need to stare at the screen waiting for setups.\n\nAutochartist also offers a web-based interface and TradingView integration through select brokers, though the MT4/MT5 plugin remains the primary delivery mechanism.\n\n## Accuracy and Real-World Performance\n\nAutochartist publishes its forecast accuracy data, which shows roughly 60-70% of identified patterns reaching at least the minimum forecast level. That sounds good until you consider that the forecast range is wide — the minimum target is often modest relative to the risk. When you filter for higher-quality patterns (rating 7+), the accuracy improves but the number of signals decreases significantly.\n\nIn practice, Autochartist works best as a **scanning tool**, not a signal service. It tells you where patterns are forming so you can evaluate them with your own analysis. Traders who blindly follow every signal will get mediocre results. Traders who use Autochartist to find patterns and then apply their own entry timing, position sizing, and risk management can extract genuine value.\n\n## Pricing — It's (Usually) Free\n\nFor most retail traders, Autochartist is free. If your broker partners with Autochartist, you get full access at no cost. Major brokers offering Autochartist include IC Markets, Pepperstone, AxiTrader, FP Markets, and many others.\n\nFor traders whose broker doesn't offer it, direct access options exist but are less prominently marketed. Some brokers offer it only to funded accounts or accounts above a minimum balance.\n\n## Who Should Use Autochartist\n\nAutochartist is best for:\n\n- **Pattern traders** who want automated scanning across multiple instruments and timeframes\n- **Forex traders** on MT4/MT5 who want a clean, integrated pattern detection plugin\n- **Harmonic traders** who need automated Fibonacci pattern identification\n- **Risk-conscious traders** who value the volatility analysis and position sizing tools\n\nAutochartist is less ideal for:\n\n- Traders focused on Smart Money Concepts (order blocks, fair value gaps) — not Autochartist's domain\n- Day traders needing real-time order flow or market microstructure analysis\n- Traders who want deep customization or the ability to create custom scanning criteria\n\n## Alternatives\n\nTrading Central offers similar broker-integrated pattern recognition with a more institutional slant. LuxAlgo provides customizable indicators on TradingView with SMC capabilities. TrendSpider combines AI pattern detection with a standalone platform and more advanced automation.\n\n## Verdict\n\nAutochartist does one thing well: it scans markets for chart patterns and presents them clearly with quality ratings and price targets. It won't replace your trading strategy, but it will save you hours of manual chart scanning. The fact that it's free through most major brokers makes it an easy recommendation — if your broker offers it, turn it on. The volatility analysis alone is worth the (zero) price of admission. Just don't treat it as a signal service; treat it as a scanner that tells you where to look.",
+  "logo_url": "/logos/autochartist.svg",
+  "screenshots": [],
+  "website_url": "https://www.autochartist.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Broker-Integrated",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Free through 50+ participating brokers",
+          "Automated chart pattern recognition",
+          "Fibonacci and harmonic pattern detection",
+          "Key levels identification",
+          "Volatility analysis and risk calculator",
+          "MT4/MT5 plugin",
+          "Push and email alerts",
+          "Performance statistics dashboard"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": true,
+    "risk_management": true,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Free through 50+ major broker partnerships — zero cost for most traders",
+    "Pattern quality scoring (1-10) helps filter noise from genuine setups",
+    "Volatility analysis provides statistical expected ranges for realistic target setting",
+    "Clean MT4/MT5 plugin integration that doesn't slow down the platform",
+    "Publishes actual forecast accuracy data — rare transparency for a pattern tool"
+  ],
+  "cons": [
+    "Pattern recognition is limited to classical formations — no SMC or order flow analysis",
+    "Forecast ranges can be wide, making raw accuracy numbers misleading",
+    "No ability to create custom scanning criteria or modify detection parameters",
+    "Primarily designed for forex/CFD — less useful for US equities or options traders"
+  ],
+  "rating": 4.0,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 3.8,
+    "value": 4.6,
+    "support": 3.6,
+    "reliability": 4.0
+  },
+  "founded_year": 2004,
+  "company": "Autochartist Ltd.",
+  "headquarters": "Limassol, Cyprus",
+  "best_for": [
+    "pattern traders",
+    "forex traders",
+    "broker-integrated tools"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "trading-central",
+    "luxalgo",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "Founded in 2004 in Cyprus, Autochartist has grown into one of the most widely-used automated pattern recognition engines in retail trading. Available through 50+ broker partnerships worldwide, the company focuses on chart pattern detection, Fibonacci analysis, and volatility-based risk management tools. Known for publishing performance statistics transparently.",
+  "scraped_features": [
+    "Automated chart pattern recognition with quality scoring",
+    "Fibonacci and harmonic pattern identification (ABCD, Gartley, Butterfly)",
+    "Key support/resistance level detection ranked by significance",
+    "Volatility analysis with expected range calculations",
+    "Performance statistics dashboard with historical accuracy data",
+    "MT4/MT5 plugin with integrated alerts",
+    "Risk calculator for position sizing",
+    "Web interface and select TradingView integration"
+  ],
+  "unique_selling_points": [
+    "Free through 50+ major broker partnerships",
+    "Quality scoring system filters low-probability patterns",
+    "Volatility analysis for realistic target and stop setting",
+    "Published performance statistics with actual accuracy data"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "Autochartist Review 2026: Free Pattern Recognition Tool",
+  "meta_description": "Autochartist review: free chart pattern recognition through 50+ brokers. Covers Fibonacci detection, quality scoring, accuracy data, and honest verdict.",
+  "enriched_at": "2026-06-11"
+}

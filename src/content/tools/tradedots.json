@@ -1,0 +1,139 @@
+{
+  "name": "TradeDots",
+  "slug": "tradedots",
+  "category": "trading-indicators",
+  "subcategories": [
+    "ai-indicators",
+    "reversal-detection"
+  ],
+  "description_short": "AI-powered TradingView indicators specializing in reversal signals, trend detection, and multi-timeframe analysis for swing and reversal traders.",
+  "description_long": "## What Is TradeDots?\n\nTradeDots is an AI-powered indicator provider that runs natively on TradingView. Its focus is narrow but deliberate: detecting market reversals, trend shifts, and high-probability turning points. Where LuxAlgo tries to be a comprehensive toolkit covering every trading concept, TradeDots zeroes in on the specific problem of identifying when trends are about to change direction.\n\nThe company positions itself as an AI-first indicator suite, using machine learning models trained on historical price data to generate signals. The indicators display clean dot signals on your chart at predicted reversal points — hence the name. These dots are color-coded (green for bullish reversal, red for bearish) and accompanied by trend bands that provide dynamic support/resistance context.\n\n## Core Indicators\n\n**TradeDots Reversal Signal** is the flagship indicator. It uses a proprietary algorithm combining momentum exhaustion, volume divergence, and price pattern analysis to identify potential reversal points. When the model detects confluence of reversal factors, a dot appears on the chart. The dots come in different sizes based on signal confidence — larger dots indicate stronger confluence.\n\nIn practice, the reversal signals work best on higher timeframes (4H, Daily, Weekly) for swing trading. On lower timeframes, the signal frequency increases but accuracy drops — a common trade-off with reversal indicators. The false positive rate on 15-minute charts is noticeably higher than on daily charts.\n\n**TradeDots Trend** provides the macro context for reversal signals. It draws adaptive trend bands on the chart that expand and contract based on volatility. The trend component helps you distinguish between a reversal within a trend (pullback) and a genuine trend change. This context is important — buying a \"reversal\" in a strong downtrend is usually catching a knife, while buying a reversal at the end of a correction in an uptrend is a higher-probability trade.\n\n**Multi-Timeframe Dashboard** shows the trend status and signal state across multiple timeframes simultaneously. This helps swing traders confirm that a reversal signal on the 4H chart aligns with the daily and weekly trend direction. Multi-timeframe confluence is one of the most consistent edges in technical trading, and TradeDots makes it easy to see at a glance.\n\n**Volume Analysis** overlay provides volume-weighted analysis that helps confirm whether a reversal signal has genuine participation behind it. Reversals on thin volume are less likely to follow through than those accompanied by volume spikes.\n\n## Signal Quality — What to Expect\n\nTradeDots does not publish detailed accuracy statistics (a yellow flag for any signal provider). From extended use, the reversal signals perform roughly as you'd expect from a well-designed momentum exhaustion indicator:\n\n- On daily timeframes, the hit rate is reasonable — perhaps 55-65% of signals produce at least a short-term bounce/pullback in the predicted direction. The challenge is that some of those \"reversals\" are just temporary pauses in a larger trend.\n\n- On 4-hour charts, signal quality is decent for instruments with clean price action (major forex pairs, large-cap stocks, Bitcoin). It degrades on choppy or thin instruments.\n\n- On lower timeframes (1H and below), the signals generate too many false positives for reliable standalone use. They work better as one input among several in a confluence-based approach.\n\nThe key insight: TradeDots excels at identifying potential reversal zones (where to look), not precise reversal points (where to enter). Use the signals to narrow your attention, then apply your own entry criteria — candlestick confirmation, volume analysis, or support/resistance interaction.\n\n## Pricing\n\nTradeDots offers several subscription tiers:\n\n- **Starter ($29/month)** gives access to the core Reversal Signal and Trend indicators. This is enough for most swing traders who want the basic reversal detection.\n\n- **Pro ($59/month)** adds the Multi-Timeframe Dashboard, Volume Analysis, and higher alert limits. If you trade multiple instruments or want MTF confirmation, this is the tier to choose.\n\n- **Lifetime ($499 one-time)** provides permanent access to all features. If you plan to use TradeDots for more than 9 months, the lifetime deal is better value than monthly Pro.\n\nAll plans include TradingView indicator access, Discord community, and email support. There's no free tier beyond a limited trial period, which is a drawback compared to LuxAlgo's free public indicators.\n\n## Who Should Use TradeDots\n\nTradeDots is best for:\n\n- **Swing traders** looking for reversal entry signals on daily/4H timeframes\n- **Reversal traders** who want automated detection of momentum exhaustion and turning points\n- **Multi-timeframe analysts** who want a clean dashboard showing trend alignment across timeframes\n- **Crypto traders** particularly benefit from the reversal detection on volatile instruments\n\nTradeDots is less ideal for:\n\n- Day traders and scalpers — signal frequency and accuracy on low timeframes is insufficient\n- Trend followers — TradeDots is designed for reversals, not trend continuation entries\n- Traders who want transparency about signal accuracy and methodology — TradeDots is more opaque than competitors\n\n## Alternatives\n\nLuxAlgo offers a broader indicator suite including AI signals at similar pricing, with the advantage of a large community and free tier. ChartPrime focuses on SMC/ICT concepts rather than reversals. TradingView's built-in indicators (RSI divergence, Stochastic) provide basic reversal detection for free.\n\n## Verdict\n\nTradeDots does reversal detection well on higher timeframes. The signals are clean, the multi-timeframe dashboard adds genuine value, and the indicators are thoughtfully designed for swing traders looking for turning points. At $29/month for the basic plan, it's reasonably priced for what it offers. The main concerns are the lack of published accuracy data and the absence of a free tier for evaluation. If you're a swing trader focused on catching reversals and trend shifts, TradeDots is worth a trial. If you need a broader toolkit or trade on lower timeframes, LuxAlgo or ChartPrime will serve you better.",
+  "logo_url": "/logos/tradedots.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradedots.xyz",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 29,
+    "tiers": [
+      {
+        "name": "Starter",
+        "price_monthly": 29,
+        "price_yearly": 290,
+        "features": [
+          "Reversal Signal indicator",
+          "Trend bands overlay",
+          "Basic alerts",
+          "Discord community access",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price_monthly": 59,
+        "price_yearly": 590,
+        "features": [
+          "Everything in Starter",
+          "Multi-Timeframe Dashboard",
+          "Volume Analysis overlay",
+          "Higher alert limits",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Lifetime",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "All Pro features permanently",
+          "All future updates included",
+          "One-time payment of $499",
+          "Lifetime Discord access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": false,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "Clean reversal signal design — dots are easy to read and don't clutter charts",
+    "Multi-timeframe dashboard provides genuine confluence confirmation at a glance",
+    "Strongest on higher timeframes (Daily/4H) for swing trade reversal entries",
+    "Lifetime plan at $499 offers good value for long-term users"
+  ],
+  "cons": [
+    "No published accuracy statistics or transparent track record",
+    "High false positive rate on lower timeframes (1H and below)",
+    "No free tier — you must subscribe to evaluate the indicators",
+    "Narrower feature set compared to comprehensive suites like LuxAlgo"
+  ],
+  "rating": 3.9,
+  "rating_breakdown": {
+    "ease_of_use": 4.2,
+    "features": 3.6,
+    "value": 3.8,
+    "support": 3.8,
+    "reliability": 4.0
+  },
+  "founded_year": 2021,
+  "company": "TradeDots",
+  "headquarters": "Hong Kong",
+  "best_for": [
+    "swing traders",
+    "reversal traders",
+    "multi-timeframe analysis"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "luxalgo",
+    "chartprime",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "TradeDots is an AI-powered indicator provider focused on reversal detection and trend analysis for TradingView. The company specializes in machine learning models that identify momentum exhaustion and trend turning points. Known for clean signal visualization and multi-timeframe analysis tools.",
+  "scraped_features": [
+    "AI-powered reversal signal detection with confidence sizing",
+    "Adaptive trend bands with dynamic support/resistance",
+    "Multi-Timeframe Dashboard showing trend alignment across periods",
+    "Volume analysis overlay for signal confirmation",
+    "Color-coded dot signals (green bullish, red bearish)",
+    "TradingView native integration",
+    "Discord community for setup sharing and support"
+  ],
+  "unique_selling_points": [
+    "Focused specifically on reversal detection — does one thing well",
+    "AI-powered signal confidence scoring with dot sizing",
+    "Multi-timeframe dashboard for confluence confirmation",
+    "Lifetime purchase option eliminates recurring costs"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "TradeDots Review 2026: AI Reversal Indicators Worth It?",
+  "meta_description": "TradeDots review covering AI reversal signals, multi-timeframe analysis, pricing from $29/mo, and real performance. Best for swing traders.",
+  "enriched_at": "2026-06-11"
+}

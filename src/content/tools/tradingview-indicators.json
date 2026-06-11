@@ -1,0 +1,154 @@
+{
+  "name": "TradingView Built-in Indicators",
+  "slug": "tradingview-indicators",
+  "category": "trading-indicators",
+  "subcategories": [
+    "free-indicators",
+    "community-scripts"
+  ],
+  "description_short": "TradingView's free indicator library with 100+ built-in indicators and 100,000+ community-published Pine Scripts. The world's largest collection of trading indicators.",
+  "description_long": "## Why TradingView's Built-in Indicators Deserve Their Own Review\n\nBefore spending money on premium indicators like LuxAlgo, ChartPrime, or TradeDots, every trader should understand what they already get for free inside TradingView. The platform includes 100+ built-in technical indicators and gives access to a community library of over 100,000 published Pine Scripts — many of which rival paid alternatives in quality.\n\nThe sheer volume of free indicators available on TradingView is its most underappreciated feature. New traders immediately jump to premium subscriptions, while experienced traders know that most profitable strategies use simple, time-tested indicators — all of which are available at zero cost on TradingView's free tier.\n\n## The Built-in Indicator Categories\n\nTradingView organizes its built-in indicators into several categories:\n\n**Trend Indicators** include the foundational tools that every technical analyst uses:\n- Moving Averages (SMA, EMA, WMA, DEMA, TEMA, Hull MA, VWMA) with full customization of period, source, and offset\n- Ichimoku Cloud with all five components (Tenkan, Kijun, Senkou A/B, Chikou)\n- Supertrend with adjustable ATR multiplier\n- Parabolic SAR\n- ADX/DMI for trend strength measurement\n\n**Momentum/Oscillator Indicators** cover the tools traders use to identify overbought/oversold conditions and momentum shifts:\n- RSI (Relative Strength Index) with customizable period and source\n- MACD with signal line and histogram\n- Stochastic Oscillator (both regular and Stochastic RSI)\n- CCI (Commodity Channel Index)\n- Williams %R\n- Momentum and Rate of Change (ROC)\n- Money Flow Index (MFI)\n\n**Volume Indicators** provide insight into market participation:\n- Volume with moving average overlay\n- On Balance Volume (OBV)\n- Volume Weighted Average Price (VWAP) — one of the most used indicators for intraday traders\n- Accumulation/Distribution\n- Chaikin Money Flow\n- Volume Profile (available on paid plans)\n\n**Volatility Indicators** measure market uncertainty and help with position sizing:\n- Bollinger Bands with customizable standard deviation multiplier\n- Average True Range (ATR)\n- Keltner Channels\n- Donchian Channels\n- Historical Volatility\n\n**Support/Resistance Tools** help identify price levels:\n- Pivot Points (Traditional, Fibonacci, Woodie, Camarilla, DM)\n- Auto Fibonacci Retracement and Extension\n- VWAP bands and anchored VWAP\n\nEvery built-in indicator is fully customizable — you can change periods, colors, line widths, sources (close, open, high, low, hl2, hlc3, ohlc4), and display options. You can also set alerts on any indicator value crossing a threshold, which makes even the free indicators actionable for trading.\n\n## The Community Script Library — 100,000+ Free Indicators\n\nThe community library is where TradingView's free indicator offering becomes extraordinary. Over 100,000 indicators and strategies have been published by users worldwide, covering:\n\n- **Custom oscillators** that combine multiple built-in indicators into unique readings\n- **Smart Money Concepts** — free versions of order block, FVG, and market structure indicators exist in the community library (search for \"SMC\" or \"order blocks\")\n- **Multi-timeframe dashboards** that show indicator states across timeframes in a table on your chart\n- **Volume-weighted indicators** that add volume confirmation to traditional signals\n- **Divergence scanners** that automatically detect RSI, MACD, or Stochastic divergence\n- **Session-based tools** like London/NY killzone markers and session VWAP\n- **Strategy scripts** with built-in backtesting that show historical buy/sell signals with profit/loss statistics\n\nThe quality varies enormously — from world-class tools by professional quants to beginner experiments that barely work. The key filtering mechanisms are:\n\n1. **Likes and favorites** — scripts with thousands of likes have been validated by the community\n2. **Trusted author status** — TradingView badges indicate developers with proven track records\n3. **Open source vs. invite-only** — open source scripts let you inspect the code and verify what the indicator actually does\n\nSome community scripts are genuinely remarkable. Indicators like LonesomeTheBlue's \"Support Resistance with Breaks\" and LuxAlgo's free offerings (yes, LuxAlgo publishes free indicators alongside their premium suite) have tens of thousands of users and provide functionality that other platforms charge for.\n\n## Pine Script — Build Your Own\n\nEvery TradingView user can write custom indicators using Pine Script, TradingView's proprietary programming language. Pine Script v6 is designed specifically for financial indicators — the syntax is clean, the documentation is excellent, and you can build a functional custom indicator in 10-20 lines of code.\n\nPractical Pine Script use cases for non-programmers:\n\n- Combine two existing indicators into a single pane (e.g., RSI + Stochastic)\n- Create a multi-timeframe table that shows trend direction across daily/weekly/monthly\n- Build custom alerts that fire only when multiple conditions align\n- Modify community scripts to match your specific parameters\n\nYou don't need to be a programmer. Pine Script's documentation includes copy-paste examples for common patterns, and the community Q&A forum has answered virtually every beginner question.\n\n## Free Tier Limitations\n\nTradingView's free Basic plan limits you to 3 indicators per chart. This constraint forces prioritization — you can't load 15 indicators and hope for confluence. Many experienced traders argue this limitation actually improves trading by forcing simplicity.\n\nPaid plans increase the indicator limit:\n- Essential: 5 indicators per chart\n- Plus: 10 indicators per chart\n- Premium: 25 indicators per chart\n\nVolume Profile is only available on paid plans, which is a notable limitation since it's one of the most useful volume analysis tools. VWAP, however, is available on all plans.\n\nServer-side alerts on indicator conditions require a paid plan for more than basic alert capacity. If you want alerts on RSI crossing 70 across 20 tickers simultaneously, you'll need at least Essential.\n\n## When Free Indicators Are Enough (and When They're Not)\n\nFree TradingView indicators are sufficient for:\n\n- **Trend identification** — MA crossovers, Supertrend, ADX\n- **Entry timing** — RSI, Stochastic, MACD divergence\n- **Volatility assessment** — Bollinger Bands, ATR, Keltner\n- **Intraday reference levels** — VWAP, pivot points\n- **Basic multi-timeframe analysis** — via community MTF scripts\n\nYou might benefit from premium indicators when:\n\n- You trade Smart Money Concepts and want automated order block/FVG detection (LuxAlgo, ChartPrime)\n- You need AI-powered signal generation beyond traditional indicators\n- You want integrated screening/scanning within TradingView's interface\n- You need backtesting with machine learning models\n\nThe honest truth: 90% of retail traders would be better served mastering RSI, VWAP, and moving averages than paying $50/month for premium indicators they don't fully understand. The best indicator is the one you know inside and out.\n\n## Who Should Start Here\n\n- **Every trader, period.** Before paying for any premium indicator, spend at least 3 months using TradingView's built-in tools. Learn what RSI divergence looks like. Understand how VWAP acts as intraday support/resistance. Watch how Bollinger Band squeezes precede volatility expansions. These are the concepts that premium indicators are built on.\n\n- **Budget-conscious traders** who want professional-grade analysis without subscription costs.\n\n- **Pine Script learners** who want to build custom tools on top of the free foundation.\n\n## Verdict\n\nTradingView's built-in indicators are the best free trading tool in existence. The 100+ built-ins cover every major technical analysis concept, the 100,000+ community scripts extend that to virtually anything you can imagine, and Pine Script lets you build whatever's left. Most traders don't need premium indicators — they need to master the free ones first. Start here, get profitable with simple tools, and only then evaluate whether premium additions would add meaningful edge to your trading.",
+  "logo_url": "/logos/tradingview.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradingview.com/scripts/",
+  "affiliate_url": "https://www.tradingview.com/?aff_id=164723",
+  "affiliate_program": "TradingView Affiliate Program",
+  "affiliate_commission": "30% recurring, 90-day cookie",
+  "affiliate_cookie_days": 90,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Basic (Free)",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "100+ built-in indicators",
+          "100,000+ community scripts",
+          "3 indicators per chart",
+          "Pine Script editor",
+          "Basic alerts",
+          "VWAP, RSI, MACD, Bollinger Bands, and all classics"
+        ]
+      },
+      {
+        "name": "Essential",
+        "price_monthly": 12.95,
+        "price_yearly": 155.40,
+        "features": [
+          "5 indicators per chart",
+          "20 server-side alerts",
+          "No ads",
+          "All Basic features"
+        ]
+      },
+      {
+        "name": "Plus",
+        "price_monthly": 29.95,
+        "price_yearly": 299.40,
+        "features": [
+          "10 indicators per chart",
+          "100 server-side alerts",
+          "Volume Profile",
+          "Custom timeframes"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price_monthly": 59.95,
+        "price_yearly": 599.40,
+        "features": [
+          "25 indicators per chart",
+          "400 server-side alerts",
+          "Second-based intervals",
+          "All pro features"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": false,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": true,
+    "api_access": false,
+    "social_features": true,
+    "broker_integration": true,
+    "custom_indicators": true,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "100+ built-in indicators covering every major technical analysis concept — completely free",
+    "100,000+ community scripts including free SMC, divergence, and MTF tools",
+    "Pine Script lets anyone build custom indicators with minimal programming knowledge",
+    "Every indicator is fully customizable — periods, sources, colors, and display options",
+    "Community quality filters (likes, trusted authors, open source) help find best scripts"
+  ],
+  "cons": [
+    "Free tier limits to 3 indicators per chart — forces prioritization",
+    "Volume Profile requires a paid plan despite being a core analysis tool",
+    "Community script quality varies wildly — filtering takes time and experience",
+    "No AI-powered analysis or automated pattern detection in built-in tools"
+  ],
+  "rating": 4.6,
+  "rating_breakdown": {
+    "ease_of_use": 4.7,
+    "features": 4.5,
+    "value": 4.9,
+    "support": 4.2,
+    "reliability": 4.7
+  },
+  "founded_year": 2011,
+  "company": "TradingView Inc.",
+  "headquarters": "New York, New York",
+  "best_for": [
+    "all traders",
+    "beginners",
+    "budget-conscious traders"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "luxalgo",
+    "chartprime",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "TradingView's indicator library is part of the TradingView platform (founded 2011, 100M+ users). The built-in indicators and community script ecosystem represent the largest free collection of trading indicators available anywhere, powered by Pine Script — TradingView's purpose-built programming language for financial analysis.",
+  "scraped_features": [
+    "100+ built-in indicators: RSI, MACD, Bollinger Bands, VWAP, Ichimoku, ATR, and more",
+    "100,000+ community-published Pine Scripts",
+    "Pine Script v6 editor for custom indicator development",
+    "Full customization of all indicator parameters, colors, and display",
+    "Server-side alerts on any indicator condition",
+    "Strategy backtesting with built-in Pine Script strategies",
+    "Community quality filtering — likes, favorites, trusted author badges",
+    "Multi-timeframe indicator support",
+    "Open source script inspection for community indicators"
+  ],
+  "unique_selling_points": [
+    "Largest free indicator library in existence (100+ built-in + 100K+ community)",
+    "Pine Script makes custom indicator creation accessible to non-programmers",
+    "Enough free tools to build profitable strategies without any paid subscriptions",
+    "Community validation helps identify highest-quality free scripts"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "TradingView Indicators Review 2026: Free Tools You Need",
+  "meta_description": "Complete guide to TradingView's 100+ free built-in indicators and 100K+ community scripts. RSI, VWAP, MACD, Pine Script, and why most traders don't need premium.",
+  "enriched_at": "2026-06-11"
+}

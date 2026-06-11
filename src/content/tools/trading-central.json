@@ -1,0 +1,119 @@
+{
+  "name": "Trading Central",
+  "slug": "trading-central",
+  "category": "trading-indicators",
+  "subcategories": [
+    "institutional-analysis",
+    "pattern-recognition"
+  ],
+  "description_short": "Institutional-grade technical analysis provider used by 180+ brokers. Offers automated chart patterns, pivot points, and adaptive candlestick recognition.",
+  "description_long": "## What Is Trading Central?\n\nTrading Central is one of the oldest and most established names in automated technical analysis. Founded in 1999 in Paris, it has spent over two decades building institutional-grade pattern recognition technology that powers the analysis tools inside 180+ broker platforms worldwide. If you've ever seen \"analyst views\" or \"technical insight\" panels inside your broker's trading platform, there's a good chance Trading Central is the engine behind them.\n\nUnlike most tools reviewed on this site, Trading Central isn't primarily a retail product you sign up for directly. It operates primarily as a B2B provider — brokers license Trading Central's technology and integrate it into their platforms as a value-add for their clients. This means you might already have access to Trading Central through your broker without even knowing it.\n\n## How Trading Central Works\n\nTrading Central's core technology continuously scans markets across all major asset classes — stocks, forex, indices, commodities, crypto — using over 300 mathematical models to identify chart patterns, support/resistance levels, and price targets in real time.\n\nThe analysis is presented as directional views: bullish, bearish, or neutral, with specific entry zones, target prices, and invalidation levels. Each view includes a visual chart markup showing the identified pattern and projected price movement. These aren't black-box signals — you see exactly what pattern was detected and the technical reasoning behind the call.\n\n**Featured Analysis** provides daily analyst-curated trade ideas on major instruments. These combine the algorithmic pattern detection with human analyst review, offering a hybrid approach that filters out lower-probability setups.\n\n**TC Market Buzz** is the sentiment analysis engine. It monitors news sources, social media, and market data to quantify sentiment around specific instruments. The buzz score helps gauge whether current market attention supports or contradicts the technical view.\n\n**Adaptive Candlestick Recognition** automatically identifies and labels candlestick patterns on your chart — engulfing patterns, dojis, hammers, morning/evening stars — with context about how reliable each pattern has been historically for that specific instrument.\n\n**Adaptive Divergence Convergence (ADC)** is Trading Central's proprietary indicator that combines elements of MACD, RSI, and proprietary momentum measures into a single oscillator. It adapts its parameters based on the instrument's volatility characteristics.\n\n## Who Gets Access\n\nThis is where Trading Central differs from every other tool in this category. You generally can't buy a direct retail subscription. Instead, access comes through one of three paths:\n\n1. **Broker integration** — The most common route. Brokers like FXCM, Avatrade, Saxo Bank, IC Markets, and many others include Trading Central in their platforms. Some offer it to all clients; others restrict it to funded or premium accounts.\n\n2. **TradingView integration** — Trading Central has a presence on TradingView through partner integrations, though it's less prominent than standalone indicator providers like LuxAlgo.\n\n3. **Direct institutional access** — Hedge funds, asset managers, and proprietary trading firms can license Trading Central's API for integration into their own systems.\n\nBecause access is typically bundled with your broker, pricing is effectively free for retail traders — your broker absorbs the cost. However, this also means the depth of integration varies wildly between brokers. Some offer the full suite (Featured Analysis + Market Buzz + candlestick recognition + ADC); others offer a stripped-down version with just daily analyst views.\n\n## The Quality of the Analysis\n\nTrading Central's pattern recognition is genuinely above average. The mathematical models have been refined over 25+ years, and the system does a good job of identifying classical chart patterns — head and shoulders, double tops/bottoms, channels, triangles — with reasonable accuracy. The price targets and invalidation levels are specific and actionable, not vague.\n\nThe analyst views are updated multiple times per day, so you're not working with stale calls. When a pattern invalidates (price breaks through the stop level), the view updates promptly rather than silently disappearing.\n\nThat said, the analysis tends to be conservative and mainstream. Don't expect cutting-edge Smart Money Concepts or order flow analysis. Trading Central excels at classical technical analysis — patterns, support/resistance, momentum — executed at institutional scale and speed.\n\n## Limitations\n\nThe biggest limitation is that **you don't choose Trading Central — your broker chooses it for you**. If your broker doesn't partner with Trading Central, you can't add it. This lack of direct retail access is frustrating for traders who want consistent tools across multiple accounts or platforms.\n\n**Customization is minimal.** Unlike LuxAlgo or TradingView's built-in indicators, you can't tweak Trading Central's parameters, change sensitivity, or modify the display. You get the analysis as-is.\n\n**Educational depth is limited** for retail users. The institutional-first approach means documentation assumes a certain level of technical analysis knowledge. There's no beginner-friendly onboarding or tutorial series.\n\nThe **analyst views can feel generic** on major pairs and indices. EUR/USD and S&P 500 analysis is available everywhere — Trading Central's edge is more apparent on less-covered instruments where independent analysis is harder to find.\n\n## Who Should Use Trading Central\n\nTrading Central is best for:\n\n- **Traders already at partner brokers** who want to leverage the free analysis tools included in their account\n- **Forex and CFD traders** using brokers with deep Trading Central integration (FXCM, IC Markets, Avatrade)\n- **Traders who value classical technical analysis** — patterns, pivots, support/resistance — executed with institutional rigor\n- **Busy traders** who want pre-packaged trade ideas as a starting point for their own analysis\n\nTrading Central is less ideal for:\n\n- Traders who want to customize indicator parameters\n- SMC/ICT traders looking for order blocks and liquidity zones\n- Retail traders whose broker doesn't offer Trading Central integration\n\n## Alternatives\n\nAutochartist offers similar automated pattern recognition with broader direct retail availability. LuxAlgo and ChartPrime provide more customizable indicator suites on TradingView. TrendSpider combines AI pattern detection with its own standalone platform.\n\n## Verdict\n\nTrading Central is a solid, proven technical analysis engine that has stood the test of time. Its strength is reliability and institutional credibility — the pattern recognition works, the analyst views are actionable, and the system has been refined over 25 years. The weakness is accessibility: if your broker offers it, use it (it's free); if not, you can't easily get it. For traders at partner brokers, it's a valuable free resource that provides professional-grade chart pattern analysis without the cost of a standalone subscription.",
+  "logo_url": "/logos/trading-central.svg",
+  "screenshots": [],
+  "website_url": "https://www.tradingcentral.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": true,
+    "starting_price": 0,
+    "tiers": [
+      {
+        "name": "Broker-Integrated",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "Free through participating brokers",
+          "Automated chart pattern recognition",
+          "Daily analyst views with targets and stops",
+          "Adaptive candlestick recognition",
+          "Market Buzz sentiment analysis",
+          "Coverage varies by broker partnership"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": false,
+    "paper_trading": false,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": false,
+    "broker_integration": true,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": false,
+    "performance_analytics": false,
+    "risk_management": false,
+    "news_feed": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "futures",
+    "forex",
+    "crypto"
+  ],
+  "pros": [
+    "25+ years of institutional-grade pattern recognition refined across all market conditions",
+    "Free for retail traders through 180+ broker partnerships — no separate subscription needed",
+    "Provides specific entry zones, targets, and invalidation levels — not vague directional calls",
+    "Market Buzz sentiment analysis adds a useful layer beyond pure technicals",
+    "Analysis updates multiple times daily and promptly invalidates broken patterns"
+  ],
+  "cons": [
+    "No direct retail subscription — access depends entirely on your broker offering it",
+    "Zero customization of indicator parameters or display settings",
+    "Classical technical analysis only — no Smart Money Concepts or order flow tools",
+    "Quality and depth of integration varies significantly between broker platforms"
+  ],
+  "rating": 4.1,
+  "rating_breakdown": {
+    "ease_of_use": 4.3,
+    "features": 4.0,
+    "value": 4.5,
+    "support": 3.7,
+    "reliability": 4.2
+  },
+  "founded_year": 1999,
+  "company": "Trading Central S.A.",
+  "headquarters": "Paris, France",
+  "best_for": [
+    "institutional traders",
+    "broker-integrated analysis",
+    "forex traders"
+  ],
+  "similar_tools": [
+    "tradingview",
+    "autochartist",
+    "luxalgo",
+    "trendspider"
+  ],
+  "last_updated": "2026-06-11",
+  "review_status": "published",
+  "company_background": "Founded in 1999 in Paris, Trading Central is a global leader in automated technical analysis for financial markets. The company serves 180+ broker and financial institution partners worldwide, providing institutional-grade pattern recognition and analyst research. Registered as an investment advisor with the SEC, AMF (France), and SFC (Hong Kong).",
+  "scraped_features": [
+    "Automated chart pattern recognition across 300+ mathematical models",
+    "Featured Analysis — daily analyst-curated trade ideas with targets",
+    "TC Market Buzz — sentiment analysis from news and social media",
+    "Adaptive Candlestick Recognition with historical reliability data",
+    "Adaptive Divergence Convergence (ADC) proprietary oscillator",
+    "Real-time support/resistance and pivot point identification",
+    "Multi-asset coverage: stocks, forex, indices, commodities, crypto",
+    "Integration with 180+ broker platforms globally"
+  ],
+  "unique_selling_points": [
+    "25+ years of institutional-grade technical analysis",
+    "Free through broker partnerships — no separate subscription",
+    "SEC-registered investment advisor credibility",
+    "Powers analysis tools inside 180+ broker platforms"
+  ],
+  "third_party_reviews": [],
+  "meta_title": "Trading Central Review 2026: Institutional Analysis Tool",
+  "meta_description": "Trading Central review: 25+ years of institutional chart pattern recognition, free through 180+ brokers. Covers features, access, and honest pros/cons.",
+  "enriched_at": "2026-06-11"
+}

@@ -29,6 +29,7 @@ const relatedMap: Record<string, string[]> = {
   'trading-bots': ['charting-platforms', 'stock-screeners', 'risk-management'],
   'risk-management': ['trading-journals', 'trading-bots', 'trading-education'],
   'news-data-feeds': ['stock-screeners', 'charting-platforms', 'brokers-us'],
+  'trading-indicators': ['charting-platforms', 'trading-bots', 'stock-screeners'],
 };
 const relatedCats = (relatedMap[category.slug] || [])
   .map(slug => allCategories.find(c => c.slug === slug))
