@@ -50,7 +50,8 @@ const alsoCompare = allComparisons
 // Data-driven meta description for better CTR
 const fmtPrice = (t: any) => t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
 const winnerEdge = winner.pros[0] ? ` ${winner.name} wins on ${winner.pros[0].toLowerCase().replace(/\.$/, '')}.` : '';
-const metaDescription = `${toolA.name} (${toolA.rating.toFixed(1)}★, ${fmtPrice(toolA)}) vs ${toolB.name} (${toolB.rating.toFixed(1)}★, ${fmtPrice(toolB)}) —${winnerEdge} Full 2026 side-by-side comparison with pricing, features, and verdict.`;
+const rawMeta = `${toolA.name} (${toolA.rating.toFixed(1)}★, ${fmtPrice(toolA)}) vs ${toolB.name} (${toolB.rating.toFixed(1)}★, ${fmtPrice(toolB)}) —${winnerEdge}`;
+const metaDescription = rawMeta.length > 155 ? rawMeta.slice(0, 152) + '...' : rawMeta;
 
 // Build FAQ answers dynamically from tool data
 const pricingA = toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
