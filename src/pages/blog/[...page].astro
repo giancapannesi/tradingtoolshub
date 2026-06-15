@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getBlogPosts } from '../../utils/data';
+
+export function getStaticPaths({ paginate }) {
+  const posts = getBlogPosts();
+  return paginate(posts, { pageSize: 24 });
+}
+
+const { page } = Astro.props;
+const posts = page.data;
+const categories = [...new Set(getBlogPosts().map(p => p.category))].sort();
+const isFirstPage = page.currentPage === 1;
+const pageTitle = isFirstPage
+  ? 'Trading Blog — Guides, Strategies & Tool Reviews'
+  : `Trading Blog — Page ${page.currentPage}`;
+const pageDesc = isFirstPage
+  ? `${page.total} expert articles on trading strategies, platform tutorials, prop firm guides, and tool comparisons. Updated weekly by TradingToolsHub.`
+  : `Page ${page.currentPage} of ${page.lastPage} — Browse ${page.total} trading articles on TradingToolsHub.`;
+const canonicalUrl = isFirstPage
+  ? 'https://tradingtoolshub.com/blog/'
+  : `https://tradingtoolshub.com/blog/${page.currentPage}/`;
+
+// Precompute pagination links for template
+const pageLinks: { num: number; url: string; current: boolean }[] = [];
+for (let num = 1; num <= page.lastPage; num++) {
+  const show = num === 1 || num === page.lastPage || Math.abs(num - page.currentPage) <= 2;
+  if (show) {
+    pageLinks.push({
+      num,
+      url: num === 1 ? '/blog/' : `/blog/${num}/`,
+      current: num === page.currentPage,
+    });
+  } else if (num === 2 || num === page.lastPage - 1) {
+    pageLinks.push({ num: 0, url: '', current: false }); // ellipsis marker
+  }
+}
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": pageTitle,
+    "description": pageDesc,
+    "url": canonicalUrl,
+    "publisher": {
+      "@type": "Organization",
+      "name": "TradingToolsHub",
+      "url": "https://tradingtoolshub.com"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog" }
+    ]
+  }
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  jsonLd={jsonLd}
+  noindex={!isFirstPage}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumbs -->
+    <nav class="flex items-center gap-2 text-sm text-muted mb-6">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span>/</span>
+      <span class="text-text">Blog</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="mb-10">
+      <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">Trading Blog</h1>
+      <p class="text-lg text-muted max-w-2xl">Expert guides, platform tutorials, prop firm strategies, and tool comparisons to help you trade smarter.</p>
+      <p class="text-sm text-muted mt-2">{page.total} articles — Page {page.currentPage} of {page.lastPage}</p>
+    </div>
+
+    <!-- Category Filter (first page only) -->
+    {isFirstPage && categories.length > 1 && (
+      <div class="flex flex-wrap gap-2 mb-8">
+        <button data-filter="all" class="filter-btn px-4 py-1.5 rounded-full text-sm font-medium bg-primary text-white transition-colors">All</button>
+        {categories.map(cat => (
+          <button data-filter={cat} class="filter-btn px-4 py-1.5 rounded-full text-sm font-medium bg-card text-muted border border-border hover:text-text hover:border-primary/50 transition-colors capitalize">{cat.replace(/-/g, ' ')}</button>
+        ))}
+      </div>
+    )}
+
+    <!-- Posts Grid -->
+    {posts.length === 0 ? (
+      <div class="text-center py-20">
+        <p class="text-muted text-lg">Articles coming soon. Check back shortly.</p>
+      </div>
+    ) : (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="posts-grid">
+        {posts.map(post => (
+          <a href={`/blog/${post.slug}/`} class="post-card bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-200 hover:-translate-y-0.5 group flex flex-col" data-category={post.category}>
+            {post.image && (
+              <div class="aspect-[16/9] overflow-hidden">
+                <img src={post.image} alt={post.image_alt} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+            )}
+            <div class="p-5 flex flex-col flex-1">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="px-2.5 py-0.5 bg-primary/10 text-primary text-xs font-medium rounded-full capitalize">{post.category.replace(/-/g, ' ')}</span>
+                <span class="text-xs text-muted">{post.read_time_minutes} min</span>
+              </div>
+              <h2 class="font-bold text-text group-hover:text-primary transition-colors mb-2 leading-snug">{post.title}</h2>
+              <p class="text-sm text-muted line-clamp-2 flex-1">{post.excerpt}</p>
+              <div class="flex items-center justify-between mt-4 pt-3 border-t border-border">
+                <span class="text-xs text-muted">{new Date(post.published_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                <span class="text-xs text-primary font-medium">Read more &rarr;</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <!-- Pagination -->
+    {page.lastPage > 1 && (
+      <nav class="flex items-center justify-center gap-2 mt-12" aria-label="Blog pagination">
+        {page.url.prev && (
+          <a href={page.url.prev} class="px-4 py-2 bg-card border border-border rounded-lg text-sm text-muted hover:text-text hover:border-primary/50 transition-colors">
+            &larr; Previous
+          </a>
+        )}
+        {pageLinks.map(link => link.num === 0 ? (
+          <span class="px-2 text-muted">&hellip;</span>
+        ) : link.current ? (
+          <span class="px-3 py-2 bg-primary text-white rounded-lg text-sm font-medium">{link.num}</span>
+        ) : (
+          <a href={link.url} class="px-3 py-2 bg-card border border-border rounded-lg text-sm text-muted hover:text-text hover:border-primary/50 transition-colors">{link.num}</a>
+        ))}
+        {page.url.next && (
+          <a href={page.url.next} class="px-4 py-2 bg-card border border-border rounded-lg text-sm text-muted hover:text-text hover:border-primary/50 transition-colors">
+            Next &rarr;
+          </a>
+        )}
+      </nav>
+    )}
+  </div>
+
+  {isFirstPage && (
+    <script>
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.remove('bg-primary', 'text-white');
+            b.classList.add('bg-card', 'text-muted');
+          });
+          btn.classList.remove('bg-card', 'text-muted');
+          btn.classList.add('bg-primary', 'text-white');
+          document.querySelectorAll('.post-card').forEach(card => {
+            const cat = card.getAttribute('data-category');
+            if (filter === 'all' || cat === filter) {
+              (card as HTMLElement).style.display = '';
+            } else {
+              (card as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+    </script>
+  )}
+</BaseLayout>
