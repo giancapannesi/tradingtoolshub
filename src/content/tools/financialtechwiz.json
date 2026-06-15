@@ -1,0 +1,122 @@
+{
+  "name": "FinancialTechWiz",
+  "slug": "financialtechwiz",
+  "category": "trading-journals",
+  "subcategories": [
+    "ai-analysis",
+    "performance-tracking"
+  ],
+  "description_short": "AI-powered trading journal with automated broker imports, an interactive AI coach, and daily personalized insights for swing traders.",
+  "description_long": "## What Is FinancialTechWiz?\n\nFinancialTechWiz is an AI-powered trading journal built specifically for swing traders and active stock traders who want to eliminate manual data entry and get actionable feedback on their trading patterns. Founded by Mike Toney-Hoffman, the platform combines automated broker imports with an interactive AI coaching system that analyzes your closed trades and surfaces behavioral insights you might miss reviewing spreadsheets on your own.\n\nThe core thesis behind FinancialTechWiz is straightforward: most traders lose not because of bad setups, but because of patterns they cannot see. The platform aims to close that gap by doing the journaling work for you \u2014 pulling trades directly from your brokerage accounts \u2014 and then applying AI analysis to identify what is actually working in your trading and what is quietly draining your account.\n\nWith over 1,300 active traders on the platform and a growing Discord community of 4,000+ members, FinancialTechWiz has built a following among swing traders who want more than a static spreadsheet but do not need the complexity of institutional-grade analytics.\n\n## Core Features and What Makes FinancialTechWiz Different\n\nThe standout feature is the **AI Trading Coach** \u2014 a chat-based AI that analyzes your entire closed trade history and answers specific questions about your performance. Unlike static dashboards that show you numbers and leave you to figure out what they mean, the AI coach lets you ask natural-language questions: What is my win rate on tech stocks? Do I hold losers too long? Which setups are actually making me money? The AI responds with data-backed answers drawn from your actual trading record, not generic advice.\n\n**AI Daily Insights** push personalized performance updates to you every day based on your recent trading activity. This is not a generic market newsletter \u2014 it is analysis of your specific trades, win rates, and risk metrics that adapts as your trading changes. For swing traders who review positions daily, having an AI surface the key takeaways before you start your analysis saves meaningful time.\n\nThe **automated trade import system** connects to 25+ brokers including Robinhood, Charles Schwab/thinkorswim, Interactive Brokers, Webull, tastytrade, Fidelity, E*Trade, TradeStation, Tradier, Coinbase, Kraken, and Public. One-click sync eliminates the manual entry that kills most journaling habits. The breadth of broker support is competitive with established players like Tradervue and TraderSync.\n\nThe **performance analytics suite** covers the essentials: win rate, profit factor, equity curve, drawdown analysis, risk-to-reward ratios, position sizing metrics, max loss tracking, and top-performing tickers and setups. A **benchmark comparison** feature measures your returns against SPY, QQQ, and IWM \u2014 which provides honest context for whether your active trading is actually beating a passive index strategy.\n\nThe **trading calendar** gives you a visual P&L breakdown by day, week, month, and year. Combined with **live trade visualization** that shows active positions and stop-loss levels in real time, you get a complete picture of where your money is at any moment. **Multiple account support** lets you manage several brokerage accounts simultaneously, which is useful for traders who split capital across platforms.\n\nFinancialTechWiz also includes **swing trading scanners** \u2014 custom screening tools designed to identify setups before the move happens. This crosses the line from pure journaling into trade idea generation, which is unusual for a journal-first platform but makes sense given the swing trading focus.\n\n## Pricing\n\nFinancialTechWiz offers two pricing options:\n\n- **Monthly:** $19/month with a 7-day free trial (credit card required)\n- **Annual:** $119/year ($9.91/month) with a 7-day free trial (no credit card required)\n\nThe annual plan represents a 48% discount over monthly billing, saving $109 per year. At under $10/month on the annual plan, FinancialTechWiz is priced aggressively below most competitors with comparable AI features. There is no permanently free tier within the app itself, though the company offers a free Google Sheets trading journal template as a separate download for traders who want to start with a manual approach.\n\nThe no-credit-card-required trial on the annual plan is a smart move \u2014 it lowers the barrier for traders who want to test the AI features without commitment. Most competitors require payment information upfront for trial access.\n\n## Honest Pros\n\n**The AI coach is genuinely interactive and useful.** Being able to ask specific questions about your trading history and get data-backed responses is more valuable than staring at dashboards hoping to spot a pattern. The conversational interface makes the AI accessible even for traders who are not analytically minded.\n\n**Automated imports from 25+ brokers eliminate the journaling friction.** The most common reason traders stop journaling is the manual entry burden. FinancialTechWiz removes that entirely for anyone trading through a supported broker, which covers most US retail brokers.\n\n**Pricing is competitive, especially on the annual plan.** At $9.91/month annually, FinancialTechWiz undercuts most AI-powered journal competitors while including features that some charge $30-50/month for. For swing traders on a budget, the value proposition is strong.\n\n**The swing trader focus means the features actually match the workflow.** Instead of trying to be everything to everyone, FinancialTechWiz optimizes for swing trading patterns \u2014 daily insights, multi-day position tracking, setup analysis, and benchmark comparisons that make sense on a swing timeframe. This focus prevents feature bloat and keeps the interface manageable.\n\n**The 7-day trial with no credit card on the annual plan is confidence-building.** You can see the AI analysis of your actual trades before committing any money, which is the right way to evaluate a data-driven tool.\n\n## Honest Cons\n\n**No permanent free tier.** Unlike Tradervue (100 trades/month free) or some competitors with limited free plans, FinancialTechWiz requires a subscription after the 7-day trial. For traders who journal occasionally or are evaluating multiple platforms over weeks, this limits exploration time.\n\n**Asset class coverage beyond stocks and crypto is unclear.** The platform is positioned for swing traders and the broker list includes crypto exchanges (Coinbase, Kraken), but support for options, futures, and forex as distinct asset classes is not explicitly documented. Traders in those markets should verify coverage during the trial before committing.\n\n**The platform is newer with a smaller review base.** While user counts (1,300+ traders) are growing, FinancialTechWiz does not have the 10+ year track record of established competitors like Tradervue or TraderSync. For traders who value proven stability, this is a consideration.\n\n**The journal is distributed through Whop.** The trading journal URL redirects to a Whop product listing for purchase, which adds a layer between you and the product. This is common for creator-economy tools but may feel less polished than a direct checkout experience.\n\n**Community features are Discord-based, not built into the platform.** The 4,000+ member community lives on Discord rather than being integrated into the journal itself. This is fine for traders who already use Discord, but it means the community and the journal are separate experiences.\n\n## Who Should Use FinancialTechWiz\n\nFinancialTechWiz is an excellent fit for **swing traders who want AI-driven insights without a steep learning curve or high price tag**. If you hold positions for days to weeks, trade primarily stocks, and want a journal that does the work for you \u2014 importing trades, analyzing patterns, and coaching you on what to improve \u2014 this is a strong option at its price point.\n\nIt is also well-suited for **newer traders who need guidance** on what metrics matter. The AI coach can answer questions a beginner would not even know to ask, which accelerates the learning curve compared to a pure-analytics platform where you need to know what you are looking for.\n\n**Experienced day traders** who execute dozens of trades per session and need granular intraday analysis may find the swing trading focus limiting. **Options and futures traders** should verify asset class support during the trial period. **Traders who need a permanent free tier** for occasional use should look at Tradervue or TradeZella instead.\n\n## How FinancialTechWiz Compares\n\n**FinancialTechWiz vs. Tradervue:** Tradervue is the veteran with 15 years of stability, deep manual analytics, and a free tier with 100 trades/month. FinancialTechWiz is the modern alternative with AI coaching, daily insights, and a lower price point. Choose Tradervue if you want raw data control and do not need AI hand-holding. Choose FinancialTechWiz if you want the AI to surface patterns for you and prefer automated imports over manual analysis.\n\n**FinancialTechWiz vs. TradeZella:** TradeZella is the closest competitor in terms of AI features and modern design, but it costs significantly more ($30-50/month). FinancialTechWiz offers similar AI coaching at roughly half the price on the annual plan. TradeZella has a more polished interface and broader asset class documentation, but for swing traders focused on stocks, FinancialTechWiz delivers comparable functionality for less.\n\n**FinancialTechWiz vs. TraderSync:** TraderSync offers solid analytics with some AI features at around $30/month. FinancialTechWiz is cheaper and more AI-forward, while TraderSync has a longer track record and more explicit multi-asset support. For swing traders, FinancialTechWiz is the better value; for day traders or multi-asset traders, TraderSync is more versatile.\n\n## The Bottom Line\n\nFinancialTechWiz fills a genuine gap in the trading journal market: an AI-powered journal priced for retail swing traders, not institutional budgets. The AI coaching feature goes beyond static analytics by letting you have a conversation with your trading data, and the automated broker imports solve the manual entry problem that kills most journaling habits.\n\nAt $9.91/month on the annual plan with a no-credit-card trial, the risk of trying it is effectively zero. The swing trading focus means features are purposeful rather than bloated, and the growing community adds a social dimension without requiring you to participate.\n\nThe main drawback is the lack of a permanent free tier and some ambiguity around non-stock asset class support. But for stock-focused swing traders who want AI insights at a fair price, FinancialTechWiz is one of the strongest value propositions in the trading journal category right now.",
+  "logo_url": "/logos/financialtechwiz.svg",
+  "screenshots": [],
+  "website_url": "https://financialtechwiz.com",
+  "affiliate_url": "https://financialtechwiz.com/trading-journal/",
+  "affiliate_program": "Direct partnership",
+  "affiliate_commission": "Free access provided for review",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 9.91,
+    "tiers": [
+      {
+        "name": "Monthly",
+        "price_monthly": 19,
+        "price_yearly": 0,
+        "features": [
+          "AI Trading Coach",
+          "AI Daily Insights",
+          "25+ broker auto-imports",
+          "Performance analytics",
+          "Benchmark comparison (SPY, QQQ, IWM)",
+          "Trading calendar",
+          "Live trade visualization",
+          "Multiple account support",
+          "Swing trading scanners",
+          "7-day free trial"
+        ]
+      },
+      {
+        "name": "Annual",
+        "price_monthly": 9.91,
+        "price_yearly": 119,
+        "features": [
+          "All features included",
+          "48% savings vs monthly",
+          "7-day free trial (no credit card required)",
+          "AI Trading Coach",
+          "AI Daily Insights",
+          "25+ broker auto-imports",
+          "Performance analytics",
+          "Swing trading scanners"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "auto_import": true,
+    "mobile_app": false,
+    "community": true,
+    "backtesting": false,
+    "alerts": true,
+    "custom_reports": true,
+    "multi_broker": true,
+    "api_access": false,
+    "cloud_sync": true
+  },
+  "markets": [
+    "Stocks",
+    "Crypto"
+  ],
+  "pros": [
+    "Interactive AI coach answers specific questions about your trading patterns",
+    "Automated imports from 25+ brokers eliminate manual journaling",
+    "Aggressive pricing \u2014 under $10/month on annual plan",
+    "No credit card required for annual plan trial",
+    "Focused on swing trading workflow rather than trying to do everything"
+  ],
+  "cons": [
+    "No permanent free tier \u2014 only 7-day trial",
+    "Options, futures, and forex support not explicitly documented",
+    "Newer platform with smaller user base than established competitors",
+    "Community is Discord-based, not built into the journal",
+    "Journal distributed through Whop rather than direct checkout"
+  ],
+  "rating": 4.2,
+  "rating_breakdown": {
+    "features": 4.3,
+    "ease_of_use": 4.4,
+    "value": 4.5,
+    "reliability": 4.0,
+    "support": 4.0
+  },
+  "founded_year": 2024,
+  "company": "FinancialTechWiz",
+  "headquarters": "United States",
+  "best_for": [
+    "Swing traders who want AI-driven trade analysis at an affordable price",
+    "Newer traders who need guidance on what metrics and patterns to focus on",
+    "Stock traders looking for automated broker imports from 25+ platforms",
+    "Budget-conscious traders who want AI features under $10/month",
+    "Traders who struggle with manual journaling consistency"
+  ],
+  "similar_tools": [
+    "tradervue",
+    "tradezella",
+    "tradersync",
+    "trademetria",
+    "chartlog"
+  ],
+  "last_updated": "2026-06-15",
+  "review_status": "published",
+  "meta_title": "FinancialTechWiz Review 2026 \u2014 AI Trading Journal for Swing Traders",
+  "meta_description": "FinancialTechWiz review: AI coach, 25+ broker imports, daily insights. $9.91/mo annual. See pricing, pros, cons, and how it compares to Tradervue and TradeZella.",
+  "company_background": "FinancialTechWiz is a trading technology platform founded by Mike Toney-Hoffman, offering an AI-powered trading journal, swing trading scanners, community access, and educational content for retail swing traders.",
+  "scraped_features": [],
+  "social_links": {
+    "discord": "https://discord.gg/financialtechwiz"
+  },
+  "enriched_at": "2026-06-15"
+}
