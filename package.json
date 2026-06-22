@@ -7,6 +7,7 @@
     "build": "astro build",
     "feed:health": "node tools/tth-feed-health.mjs",
     "performance:track": "node tools/tth-performance-tracker.mjs",
+    "traffic:track": "node tools/tth-traffic-tracker.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
