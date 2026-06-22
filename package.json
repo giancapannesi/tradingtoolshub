@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "feed:health": "node tools/tth-feed-health.mjs",
+    "performance:track": "node tools/tth-performance-tracker.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@vercel/node": "^5.6.11",
+    "lighthouse": "^13.4.0",
     "puppeteer": "^24.40.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"

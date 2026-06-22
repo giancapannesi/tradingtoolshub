@@ -1,10 +1,13 @@
 import type { APIRoute } from 'astro';
-import { getAllTools, getComparisons, getToolBySlug } from '../utils/data';
+import { getAllTools, getBlogPosts, getComparisons, getToolBySlug } from '../utils/data';
 
 export const GET: APIRoute = () => {
   const siteUrl = 'https://tradingtoolshub.com';
   const allTools = getAllTools();
+  const blogPosts = getBlogPosts();
   const comparisons = getComparisons();
+
+  const escapeCdata = (value: string) => value.replaceAll(']]>', ']]]]><![CDATA[>');
 
   // Sort tools by last_updated descending, take top 20
   const recentTools = [...allTools]
@@ -24,24 +27,38 @@ export const GET: APIRoute = () => {
     .sort((a, b) => new Date(b!.date).getTime() - new Date(a!.date).getTime())
     .slice(0, 10);
 
+  const recentBlogPosts = blogPosts
+    .slice()
+    .sort((a, b) => new Date(b.published_date).getTime() - new Date(a.published_date).getTime())
+    .slice(0, 20);
+
   const buildDate = new Date().toUTCString();
 
   const toolItems = recentTools.map(tool => `    <item>
-      <title><![CDATA[${tool.name} Review — Features, Pricing & Analysis]]></title>
+      <title><![CDATA[${escapeCdata(`${tool.name} Review — Features, Pricing & Analysis`)}]]></title>
       <link>${siteUrl}/review/${tool.slug}/</link>
       <guid isPermaLink="true">${siteUrl}/review/${tool.slug}/</guid>
-      <description><![CDATA[${tool.description_short}]]></description>
+      <description><![CDATA[${escapeCdata(tool.description_short || '')}]]></description>
       <pubDate>${new Date(tool.last_updated).toUTCString()}</pubDate>
       <category>${tool.category}</category>
     </item>`).join('\n');
 
   const comparisonItems = recentComparisons.map(c => `    <item>
-      <title><![CDATA[${c!.toolA.name} vs ${c!.toolB.name} — Head-to-Head Comparison]]></title>
+      <title><![CDATA[${escapeCdata(`${c!.toolA.name} vs ${c!.toolB.name} — Head-to-Head Comparison`)}]]></title>
       <link>${siteUrl}/compare/${c!.slug}/</link>
       <guid isPermaLink="true">${siteUrl}/compare/${c!.slug}/</guid>
-      <description><![CDATA[${c!.summary || `Compare ${c!.toolA.name} and ${c!.toolB.name} side-by-side — features, pricing, and which is right for you.`}]]></description>
+      <description><![CDATA[${escapeCdata(c!.summary || `Compare ${c!.toolA.name} and ${c!.toolB.name} side-by-side — features, pricing, and which is right for you.`)}]]></description>
       <pubDate>${new Date(c!.date).toUTCString()}</pubDate>
       <category>comparisons</category>
+    </item>`).join('\n');
+
+  const blogItems = recentBlogPosts.map(post => `    <item>
+      <title><![CDATA[${escapeCdata(post.title)}]]></title>
+      <link>${siteUrl}/blog/${post.slug}/</link>
+      <guid isPermaLink="true">${siteUrl}/blog/${post.slug}/</guid>
+      <description><![CDATA[${escapeCdata(post.excerpt || post.meta_description || '')}]]></description>
+      <pubDate>${new Date(post.published_date).toUTCString()}</pubDate>
+      <category>${post.category}</category>
     </item>`).join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -57,6 +74,7 @@ export const GET: APIRoute = () => {
     <webMaster>editorial@tradingtoolshub.com (TradingToolsHub)</webMaster>
     <copyright>Copyright 2026 TradingToolsHub</copyright>
     <ttl>1440</ttl>
+${blogItems}
 ${toolItems}
 ${comparisonItems}
   </channel>
