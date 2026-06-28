@@ -25,6 +25,56 @@ const toolListicles = getListicles()
   .filter(l => l.tools.includes(tool.slug));
 const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
 
+const escapeAttr = (value: string) => String(value)
+  .replace(/&/g, '&amp;')
+  .replace(/"/g, '&quot;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;');
+
+const screenshotByHeading = new Map(
+  (tool.screenshots || [])
+    .filter((s: any) => s.after_heading)
+    .map((s: any) => [String(s.after_heading).trim().toLowerCase(), s])
+);
+
+function renderScreenshot(s: any) {
+  const caption = s.caption || s.label?.replace(/-/g, ' ') || `${tool.name} screenshot`;
+  return `
+    <figure class="not-prose my-6 bg-card border border-border rounded-xl overflow-hidden">
+      <a href="${escapeAttr(s.path)}" target="_blank" class="block">
+        <img
+          src="${escapeAttr(s.path)}"
+          alt="${escapeAttr(s.alt || caption)}"
+          loading="lazy"
+          width="1200"
+          height="760"
+          class="w-full h-auto"
+        />
+      </a>
+      <figcaption class="px-4 py-3 text-sm text-muted border-t border-border">${caption}</figcaption>
+    </figure>
+  `;
+}
+
+function renderDescription() {
+  return tool.description_long
+    .split('\n\n')
+    .map(block => {
+      const trimmed = block.trim();
+      if (trimmed.startsWith('## ')) {
+        const heading = trimmed.slice(3);
+        const screenshot = screenshotByHeading.get(heading.trim().toLowerCase());
+        return `<h3 class="text-xl font-bold text-text mt-8 mb-3">${heading}</h3>${screenshot ? renderScreenshot(screenshot) : ''}`;
+      }
+      let html = trimmed
+        .replace(/\*\*(.+?)\*\*/g, '<strong class="text-text">$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/\n/g, '<br/>');
+      return `<p>${html}</p>`;
+    })
+    .join('');
+}
+
 // Related guides & blog posts
 const allBlogs = getBlogPosts();
 const toolGuides = allBlogs.filter(b =>
@@ -227,20 +277,7 @@ const jsonLd = [
       <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
       <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
         injectLinks(
-          tool.description_long
-            .split('\n\n')
-            .map(block => {
-              const trimmed = block.trim();
-              if (trimmed.startsWith('## ')) {
-                return `<h3 class="text-xl font-bold text-text mt-8 mb-3">${trimmed.slice(3)}</h3>`;
-              }
-              let html = trimmed
-                .replace(/\*\*(.+?)\*\*/g, '<strong class="text-text">$1</strong>')
-                .replace(/\*(.+?)\*/g, '<em>$1</em>')
-                .replace(/\n/g, '<br/>');
-              return `<p>${html}</p>`;
-            })
-            .join(''),
+          renderDescription(),
           tool.slug,
           8
         )

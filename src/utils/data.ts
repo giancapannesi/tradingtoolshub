@@ -38,7 +38,13 @@ export interface Tool {
   description_short: string;
   description_long: string;
   logo_url: string;
-  screenshots: string[];
+  screenshots: {
+    label: string;
+    path: string;
+    alt: string;
+    caption?: string;
+    after_heading?: string;
+  }[];
   website_url: string;
   affiliate_url: string;
   affiliate_program: string;
