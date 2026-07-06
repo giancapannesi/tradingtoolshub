@@ -83,6 +83,31 @@ const toolGuides = allBlogs.filter(b =>
   b.tags?.some(t => t.toLowerCase() === tool.name.toLowerCase())
 );
 
+const pricingTierSummary = tool.pricing.tiers
+  .slice(0, 4)
+  .map(t => `${t.name}: ${t.price_monthly === 0 ? 'Free' : `$${t.price_monthly}/mo`}`)
+  .join(' | ');
+
+const strongestUseCase = tool.best_for[0] || 'traders evaluating this category';
+const missingCapabilities = featureKeys
+  .filter(key => !tool.features[key])
+  .slice(0, 4)
+  .map(key => getFeatureLabel(key));
+
+const editorialChecks = [
+  `Pricing reviewed across ${tool.pricing.tiers.length || 1} listed plan${tool.pricing.tiers.length === 1 ? '' : 's'}: ${pricingTierSummary || (tool.pricing.starting_price === 0 ? 'Free tier available' : `from $${tool.pricing.starting_price}/mo`)}.`,
+  `Feature fit checked against ${featureKeys.filter(key => tool.features[key]).length} supported capability flags, including ${featureKeys.filter(key => tool.features[key]).slice(0, 4).map(key => getFeatureLabel(key)).join(', ') || 'core platform features'}.`,
+  `Best-use recommendation checked against the stated audience: ${tool.best_for.join(', ') || strongestUseCase}.`,
+  `Tradeoffs reviewed from the published cons list so the page does not rank tools only by headline rating.`,
+];
+
+const buyerChecklist = [
+  tool.pricing.has_free_tier ? 'Use the free tier or trial to confirm the workflow before upgrading.' : 'Confirm cancellation terms and trial availability before paying.',
+  tool.features.broker_integration ? 'Check whether your broker is supported before assuming imports will work.' : 'Expect manual workflow or external integration work if broker sync matters.',
+  tool.features.api_access ? 'Review API limits, latency, and data coverage if you plan to build around it.' : 'Do not choose this if API access is central to your workflow.',
+  tool.features.mobile_app ? 'Test mobile usability if you review trades or alerts away from desk.' : 'Check desktop workflow carefully because mobile support is not a listed strength.',
+];
+
 // Build FAQ schema for review pages
 // Helper: format best_for as comma-separated with "and" before the last item
 const bestForText = tool.best_for.length <= 1
@@ -282,6 +307,38 @@ const jsonLd = [
           8
         )
       } />
+    </section>
+
+    <!-- Editorial Assessment -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Editorial Assessment</h2>
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="bg-card border border-border rounded-xl p-6">
+          <h3 class="text-lg font-semibold text-text mb-3">What We Checked</h3>
+          <ul class="space-y-2">
+            {editorialChecks.map(item => (
+              <li class="flex items-start gap-2 text-sm text-muted">
+                <span class="text-primary mt-0.5 shrink-0">&#8226;</span> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-6">
+          <h3 class="text-lg font-semibold text-text mb-3">Before You Pay</h3>
+          <ul class="space-y-2">
+            {buyerChecklist.map(item => (
+              <li class="flex items-start gap-2 text-sm text-muted">
+                <span class="text-featured mt-0.5 shrink-0">&#8226;</span> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div class="mt-4 bg-card/50 border border-border rounded-xl p-5">
+        <p class="text-sm text-muted leading-relaxed">
+          Our rating favors tools that solve a specific trading workflow reliably. {tool.name} is strongest for {bestForText || strongestUseCase}. It is weaker if you need {missingCapabilities.length ? missingCapabilities.join(', ') : 'features outside its stated workflow'}.
+        </p>
+      </div>
     </section>
 
     <!-- Screenshots Gallery -->

@@ -4,6 +4,62 @@
 
 ---
 
+## 2026-06-23 — DYNAMIC OPENAI-FIRST CONTENT RULE
+
+### Founder rule
+- TradingToolsHub content strategy must not be run from long static queues as
+  the source of truth.
+- Use live business/search signals first: GSC queries/pages, indexation state,
+  traffic logs, affiliate value, freshness age, and internal-link gaps.
+- Queue JSON files are execution buffers only. They may hold the next concrete
+  run, but they are not the strategy.
+- If API generation is used, use the most capable available OpenAI model by
+  default where possible.
+- Do not add new Claude/Gemini/other-LLM dependencies for TTH content generation
+  when an OpenAI/Codex path can do the work.
+
+### Implementation note
+- OpenAI-backed TTH generators now default to:
+  `OPENAI_MODEL` -> `OPENAI_BEST_MODEL` -> `gpt-5.5-pro`.
+- Legacy non-OpenAI generators still exist and should be replaced or wrapped by
+  a live GSC/OpenAI/Codex selector before being expanded.
+
+### Silent-failure guard
+- Added `/srv/BusinessOps/tools/tth_content_engine_daily_verify.py`.
+- Cron: daily `18:30 UTC`, wrapped by `cron_alert.py` as
+  `tth-content-engine-verify`.
+- Log: `/srv/BusinessOps/logs/tth_content_engine_verify.log`.
+- It checks active TTH crons, blog queue health, GSC recovery targeting, main
+  content queue health, and same-day success/no-op/error markers for blog,
+  main content, comparison enrichment, and guide generation.
+- Initial run found the real silent failure: `content_queue.json` has `0`
+  pending items, and the 11:00 main content log has not updated since
+  `2026-06-21`.
+
+### Dynamic selector and journal ranking
+- Added `/srv/BusinessOps/tools/tth_dynamic_content_selector.py`.
+- Selector output:
+  - `/srv/BusinessOps/TradingToolsHub_SEO/dynamic/today_queue.json`
+  - `/srv/BusinessOps/TradingToolsHub_SEO/dynamic/today_plan_YYYY-MM-DD.md`
+- Selector cron: daily `07:00 UTC`, wrapped by `cron_alert.py` as
+  `tth-dynamic-content-selector`.
+- Added `/srv/BusinessOps/tools/tth_journal_ranker.py`.
+- Journal ranking output:
+  - `/srv/BusinessOps/TradingToolsHub_SEO/journal_rankings/trading_journals_ranked_latest.json`
+  - `/srv/BusinessOps/TradingToolsHub_SEO/journal_rankings/trading_journals_ranked_YYYY-MM-DD.md`
+- Journal ranking cron: Mondays `07:15 UTC`, wrapped by `cron_alert.py` as
+  `tth-journal-ranker`.
+- Journal ranking methodology:
+  `/srv/BusinessOps/tradingtoolshub/research/trading_journal_ranking_methodology_2026-06-24.md`.
+- First dynamic selector top target: `/review/polygon-io/` for
+  `polygon io pricing`, based on 6,698 GSC impressions, 2 clicks, avg position
+  6.5.
+- First journal ranking top five: Edgewonk, Tradervue, TradingDiary Pro,
+  TradesViz, TraderSync. FinancialTechWiz ranks 9th under the current evidence
+  model; partner status is excluded from scoring.
+
+---
+
 ## 2026-06-22 — WEEKLY TRACKING + FEED HEALTH INSTALLED
 
 ### What shipped

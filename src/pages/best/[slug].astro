@@ -13,15 +13,61 @@ export function getStaticPaths() {
 }
 
 const { listicle } = Astro.props;
-const tools = listicle.tools
-  .map(slug => getToolBySlug(slug))
+const listicleItems = listicle.tools.map(item =>
+  typeof item === 'string' ? { slug: item } : item
+);
+const editorNotes = new Map(listicleItems
+  .filter(item => item.editor_note)
+  .map(item => [item.slug, item.editor_note])
+);
+const tools = listicleItems
+  .map(item => getToolBySlug(item.slug))
   .filter(Boolean) as any[];
 const categories = getCategories();
 const category = categories.find(c => c.slug === listicle.category);
+const strongestFeatureCounts = tools.map(tool => ({
+  slug: tool.slug,
+  name: tool.name,
+  supportedFeatures: Object.values(tool.features || {}).filter(Boolean).length,
+  price: tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`,
+  freeTier: tool.pricing.has_free_tier,
+  bestFor: tool.best_for?.[0] || 'General traders',
+}));
+
+const methodologyPoints = [
+  'Workflow fit: whether the tool solves a specific trading job better than generic alternatives.',
+  'Pricing clarity: published entry price, free tier or trial access, and whether important capabilities are locked behind higher plans.',
+  'Feature depth: automation, analytics, broker/data integrations, risk controls, alerts, and reporting where relevant to the category.',
+  'Practical usability: how likely a trader is to keep using the tool after the first week, not just whether the feature list looks impressive.',
+  'Risk and trust: company maturity, payout or data reliability where relevant, and any restrictions traders need to know before paying.',
+];
+
+const categoryAdvice: Record<string, string[]> = {
+  'prop-firms': [
+    'Check daily loss, max loss, and trailing drawdown rules before comparing headline account size.',
+    'Confirm which platform is actually available for your instrument: futures, forex, CFDs, stocks, or crypto.',
+    'Look at payout timing and consistency rules because a cheap challenge can still be a poor fit.',
+  ],
+  'trading-journals': [
+    'Prioritize broker import, screenshot capture, tagging speed, and analytics you will actually review every week.',
+    'A journal is only valuable if logging is easy enough to become habit.',
+    'AI coaching should explain recurring behavior and risk patterns, not just summarize P&L.',
+  ],
+  'news-data-feeds': [
+    'Separate delayed data, real-time data, and streaming data because those are different products.',
+    'Check API limits and historical depth before building a scanner or automated workflow.',
+    'For non-developers, a charting or terminal product may be more useful than raw API access.',
+  ],
+};
+const advice = categoryAdvice[listicle.category] || [
+  'Start with the workflow you need solved, then compare price and features.',
+  'Check which features are included in the entry plan rather than assuming the headline price covers everything.',
+  'Use the ranking as a shortlist, then verify the current plan details before paying.',
+];
 
 // Cross-comparisons between tools in this list
 const allComparisons = getComparisons();
-const toolSlugs = new Set(listicle.tools);
+const toolSlugs = new Set(listicleItems.map(item => item.slug));
 const intraComparisons = allComparisons
   .filter(c => toolSlugs.has(c.tool_a) && toolSlugs.has(c.tool_b))
   .slice(0, 6);
@@ -82,6 +128,36 @@ const jsonLd = [
     <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">{listicle.title}</h1>
     <p class="text-lg text-muted mb-8">{listicle.description}</p>
 
+    <!-- Ranking Methodology -->
+    <section class="bg-card border border-border rounded-2xl p-6 mb-10">
+      <h2 class="text-2xl font-bold text-text mb-3">How We Ranked These Tools</h2>
+      <p class="text-sm text-muted leading-relaxed mb-4">
+        This ranking is built around real trader workflow fit, not just the highest advertised rating or biggest feature list. We compare the tools against the job a trader is actually trying to do, then weigh pricing, ease of use, feature depth, and practical restrictions.
+      </p>
+      <div class="grid lg:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-sm font-semibold text-text mb-2">Scoring Criteria</h3>
+          <ul class="space-y-2">
+            {methodologyPoints.map(point => (
+              <li class="flex items-start gap-2 text-sm text-muted">
+                <span class="text-primary mt-0.5 shrink-0">&#8226;</span> {point}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-sm font-semibold text-text mb-2">What To Check Before Choosing</h3>
+          <ul class="space-y-2">
+            {advice.map(point => (
+              <li class="flex items-start gap-2 text-sm text-muted">
+                <span class="text-featured mt-0.5 shrink-0">&#8226;</span> {point}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- Quick Summary Table -->
     <div class="bg-card border border-border rounded-2xl overflow-hidden mb-10">
       <div class="overflow-x-auto">
@@ -129,6 +205,41 @@ const jsonLd = [
       </div>
     </div>
 
+    <!-- Decision Snapshot -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">Decision Snapshot</h2>
+      <div class="bg-card border border-border rounded-2xl overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-border">
+                <th class="text-left p-4 text-muted font-medium">Tool</th>
+                <th class="text-left p-4 text-muted font-medium">Entry Price</th>
+                <th class="text-left p-4 text-muted font-medium">Free Tier</th>
+                <th class="text-left p-4 text-muted font-medium">Feature Breadth</th>
+                <th class="text-left p-4 text-muted font-medium">Best Fit</th>
+              </tr>
+            </thead>
+            <tbody>
+              {strongestFeatureCounts.map(item => (
+                <tr class="border-b border-border/50">
+                  <td class="p-4">
+                    <a href={`/review/${item.slug}/`} class="font-semibold text-text hover:text-primary transition-colors">{item.name}</a>
+                  </td>
+                  <td class="p-4 text-text">{item.price}</td>
+                  <td class="p-4">
+                    <span class={item.freeTier ? 'text-positive' : 'text-muted'}>{item.freeTier ? 'Yes' : 'No'}</span>
+                  </td>
+                  <td class="p-4 text-muted">{item.supportedFeatures} tracked features</td>
+                  <td class="p-4 text-muted">{item.bestFor}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <!-- Detailed Cards -->
     {tools.map((tool, i) => (
       <section class="mb-8" id={tool.slug}>
@@ -155,6 +266,11 @@ const jsonLd = [
           </div>
 
           <p class="text-muted mb-4">{tool.description_short}</p>
+          {editorNotes.has(tool.slug) && (
+            <p class="text-sm text-text bg-bg border border-border rounded-lg p-3 mb-4">
+              <strong>Editorial note:</strong> {editorNotes.get(tool.slug)}
+            </p>
+          )}
 
           <div class="grid md:grid-cols-2 gap-4 mb-4">
             <div>

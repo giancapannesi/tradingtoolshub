@@ -13,21 +13,21 @@
     {
       "label": "dashboard-overview",
       "path": "/screenshots/financialtechwiz/financialtechwiz-dashboard.webp",
-      "alt": "FinancialTechWiz trading journal dashboard with portfolio value, win rate, risk level, calendar, open positions, and trade table",
+      "alt": "FinancialTechWiz dashboard with portfolio value, win rate, risk level, calendar, and trade table",
       "caption": "FinancialTechWiz dashboard: portfolio value, win rate, risk level, calendar, open positions, and the trade table all sit on the main overview screen.",
       "after_heading": "Dashboard And Daily Workflow"
     },
     {
       "label": "trade-logging",
       "path": "/screenshots/financialtechwiz/financialtechwiz-trade-logging.webp",
-      "alt": "FinancialTechWiz trade logging screen for entering a first trade with symbol, asset type, side, entry, exit, stop loss, and notes",
+      "alt": "FinancialTechWiz trade logging screen with symbol, side, entry, exit, stop loss, and notes",
       "caption": "Trade capture screen: FinancialTechWiz supports manual logging with symbol, asset type, side, position size, entry, exit, stop loss, notes, and trade date fields.",
       "after_heading": "Trade Logging And Broker Imports"
     },
     {
       "label": "markets-tradingview-chart",
       "path": "/screenshots/financialtechwiz/financialtechwiz-markets-tradingview-chart.webp",
-      "alt": "FinancialTechWiz markets screen showing TradingView-style Apple chart, symbol search, drawing tools, indicators, watch ticker strip, and heatmap widgets",
+      "alt": "FinancialTechWiz markets screen with TradingView-style chart, symbol search, indicators, and heatmap widgets",
       "caption": "Markets screen: the review workspace includes a TradingView-style chart surface, symbol search, indicators, drawing tools, a ticker strip, and heatmap widgets.",
       "after_heading": "Markets, TradingView-Style Charts, And Heatmaps"
     },

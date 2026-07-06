@@ -7,10 +7,53 @@
     "ai-analysis",
     "performance-tracking"
   ],
-  "description_short": "AI-powered trading journal with psychological analysis, pattern detection, and automated performance reports at an affordable price.",
-  "description_long": "TraderTrac is a modern trading journal built for retail traders who want AI-powered insights without the premium price tag. Unlike legacy journals that simply log trades, TraderTrac uses advanced AI to analyze your trading psychology, detect behavioral patterns, and generate weekly performance reports automatically.\n\nThe platform supports stocks, options, futures, and forex with automatic P&L calculation, win rate tracking, and detailed analytics dashboards. The AI coach offers five analysis modes including pattern detection, psychological profiling, risk assessment, market context analysis, and comprehensive journal reviews.\n\nTraderTrac stands out for its generous free tier (5 AI credits per month), clean modern interface, and the fact that it costs roughly 75% less than competitors like TradeZella or Edgewonk while offering more AI capabilities.",
+  "description_short": "AI-powered trading journal built around fast trade capture, clean performance stats, psychology review, weekly AI reports, and paid IBKR auto-import via SnapTrade.",
+  "description_long": "TraderTrac is a trading journal for traders who actually need to log trades every week, not admire a complicated analytics terminal they never keep updated. The strongest part of the product is the daily workflow: it is quick to enter a trade, review the result, and build enough history for the AI and statistics to show what is really happening in your trading.\n\nThat matters because most trading journals fail at the same point. They ask for too much data, the trader stops logging, and the journal becomes another abandoned dashboard. TraderTrac is better because it keeps the capture process simple while still giving useful performance review, AI analysis, psychology feedback, trade rules, account-level settings, and paid broker auto-import for IBKR through SnapTrade.\n\n## Fast Trade Logging\n\nTraderTrac is strongest as a trade capture system. The app is designed around getting the trade into the journal quickly: ticker, direction, asset class, entry, exit, sizing, P&L, notes, and context. For discretionary traders, that low-friction entry flow is not a small detail. If logging takes ten minutes, you will eventually stop doing it. If it takes a minute or two, it becomes part of the trading routine.\n\nThe current workflow is especially useful for active retail traders who trade stocks, options, futures, or forex and want a journal that does not feel like accounting software. Manual entry remains available on the free plan, and it is still the right default for traders who want to capture trade reasoning while the decision is fresh.\n\n## Dashboard And Daily Stats\n\nThe dashboard is built to answer the core questions quickly: how many trades have been logged, how performance is trending, whether the trader is improving, and where the obvious leaks are. It is not trying to replace a broker statement or a full portfolio accounting system. It is built for trading review.\n\nThe most useful part is the balance between stats and usability. TraderTrac gives the daily and weekly review structure a trader needs without burying the page in vanity metrics. Win rate, P&L, account progress, trading rules, and recent activity are visible enough to make the next review session practical.\n\n## AI Psychology Coach\n\nTraderTrac's AI layer is aimed at the part of trading most journals do badly: decision quality. A normal journal can show that a trader lost money on a setup. TraderTrac is trying to show whether the trader chased, ignored rules, revenge traded, sized badly, or repeated the same mistake across different tickers.\n\nThe AI coach is useful because it turns logged trades and notes into review prompts. It can look for emotional patterns, recurring mistakes, missed trade psychology, and rule violations. That does not replace the trader's own judgment, but it gives structure to the weekly review. For traders who know they are inconsistent but cannot see the pattern clearly, this is the product's real edge.\n\n## Weekly AI Reports And Pattern Detection\n\nThe weekly report feature is where TraderTrac becomes more than a logbook. Instead of forcing the trader to manually scan every trade, the AI can summarize what changed, what repeated, and where the trader should focus next. This is useful for traders who take enough trades that individual review becomes messy but not so many that they need an institutional reporting stack.\n\nThe pattern detection angle is also important. A trader might discover that a setup works in the morning but fails late in the day, that a specific asset class creates most of the drawdown, or that winning trades are being cut too early. These are the kinds of insights that come from grouped review, not from staring at one trade at a time.\n\n## Trading Rules And Account Settings\n\nTraderTrac includes account configuration and trading rule settings, which makes it more practical than a plain journal. Traders can define account defaults, risk preferences, rule reminders, and the structure they want to use when reviewing entries.\n\nThat matters because a useful journal is not just a place to store outcomes. It should make the trader compare each trade against a plan. If a trader says the max loss per day is a certain amount, or that only specific setups are allowed, the journal should make those rules visible during review.\n\n## IBKR Broker Auto Import Through SnapTrade\n\nTraderTrac now has paid broker auto-import for Interactive Brokers through SnapTrade. This is an important correction to older versions of the review: broker sync is not just a future idea. IBKR auto-import is live for paying customers, while the free tier remains focused on manual trade capture.\n\nThe practical split is sensible. Manual logging is still best for traders who want to capture psychology, thesis, and execution quality. Broker import is useful for reconciliation, accuracy, and traders who do enough volume that manually entering every fill becomes a burden. Right now, the confirmed broker-sync story is IBKR via SnapTrade; broader multi-broker support should not be assumed until TraderTrac publishes or confirms it.\n\n## Pricing And Value\n\nTraderTrac is priced aggressively for what it does. The free tier gives unlimited trades, basic analytics, five AI credits per month, and a first weekly AI report. The Pro plan is $14.99/month or $149.99/year and adds unlimited AI analysis, weekly AI reports, advanced analytics, export, priority support, and IBKR auto-import through SnapTrade.\n\nThat makes TraderTrac cheaper than most established trading journals while still offering the features that matter most for a solo trader: fast capture, stats, AI review, and a practical workflow. TradeZella is a stronger fit for traders who want a larger, more polished ecosystem and broader automation. TraderSync and Tradervue are still established names for broker-import-heavy journaling. TraderTrac's advantage is that it feels lighter, cheaper, and more focused on improving the trader's behavior.\n\n## What TraderTrac Is Not\n\nTraderTrac is not a backtesting platform, not an automated trading system, not a social trading network, and not a full brokerage analytics terminal. It also does not currently have a native mobile app, although the web app is mobile responsive.\n\nThat is fine. The product should be judged as a trading journal and performance improvement tool. On that job, it is strong: quick logging, useful stats, AI review, and a price that makes sense for independent traders.\n\n## Bottom Line\n\nTraderTrac should be near the top of the trading journal category because it solves the problem that matters most: getting traders to log consistently and then showing them what their behavior is costing them. The screenshots show a product that is still lean, but the core workflow is right.\n\nIf you want the most enterprise-style journal with a bigger feature surface, compare it with TradeZella. If you want a fast, affordable AI journal with strong trade capture, useful stats, psychology review, and paid IBKR import, TraderTrac is one of the best choices on TradingToolsHub right now.",
   "logo_url": "/logos/tradertrac.svg",
-  "screenshots": [],
+  "screenshots": [
+    {
+      "label": "dashboard",
+      "path": "/screenshots/tradertrac/tradertrac-dashboard.webp",
+      "alt": "TraderTrac dashboard showing the first trade logging workflow",
+      "caption": "TraderTrac dashboard with the quick first-trade logging flow visible.",
+      "after_heading": "Fast Trade Logging"
+    },
+    {
+      "label": "trade-entry",
+      "path": "/screenshots/tradertrac/tradertrac-trade-entry.webp",
+      "alt": "TraderTrac trade entry screen for logging a new trade",
+      "caption": "TraderTrac keeps trade capture focused so the journal can become a daily habit.",
+      "after_heading": "Dashboard And Daily Stats"
+    },
+    {
+      "label": "ai-coach",
+      "path": "/screenshots/tradertrac/tradertrac-ai-coach.webp",
+      "alt": "TraderTrac AI psychology coach and analysis cards",
+      "caption": "The AI coach is positioned around psychology, missed trades, performance review, and pattern detection.",
+      "after_heading": "AI Psychology Coach"
+    },
+    {
+      "label": "account-settings",
+      "path": "/screenshots/tradertrac/tradertrac-account-settings.webp",
+      "alt": "TraderTrac account settings with subscription, trading accounts, and trade defaults",
+      "caption": "Account settings include subscription status, trading accounts, and trade defaults.",
+      "after_heading": "Trading Rules And Account Settings"
+    },
+    {
+      "label": "rules-export",
+      "path": "/screenshots/tradertrac/tradertrac-rules-export.webp",
+      "alt": "TraderTrac settings showing trading rules, setup rules, and data export controls",
+      "caption": "TraderTrac supports trading rules, setup rules, and data export controls.",
+      "after_heading": "Weekly AI Reports And Pattern Detection"
+    },
+    {
+      "label": "mobile-landing",
+      "path": "/screenshots/tradertrac/tradertrac-mobile-landing.webp",
+      "alt": "TraderTrac mobile responsive landing page with pricing and AI psychology coach positioning",
+      "caption": "TraderTrac is web-based and mobile responsive, even though it does not yet have a native mobile app.",
+      "after_heading": "Pricing And Value"
+    }
+  ],
   "website_url": "https://tradertrac.com",
   "affiliate_url": "",
   "affiliate_program": "",
@@ -41,7 +84,9 @@
           "Weekly AI reports",
           "Advanced analytics",
           "Export data",
-          "Priority support"
+          "Priority support",
+          "IBKR broker auto-import via SnapTrade",
+          "Automated broker sync for paying customers"
         ]
       }
     ],
@@ -55,7 +100,7 @@
     "mobile_app": false,
     "api_access": false,
     "social_features": false,
-    "broker_integration": false,
+    "broker_integration": true,
     "custom_indicators": false,
     "automated_trading": false,
     "journaling": true,
@@ -75,10 +120,15 @@
     "Generous free tier with 5 AI credits per month",
     "75% cheaper than TradeZella and Edgewonk",
     "Clean, modern interface with dark mode",
-    "Automated weekly performance reports"
+    "Automated weekly performance reports",
+    "Fast, low-friction trade logging for daily use",
+    "Clean stats make it easy to review performance without overbuilding the workflow",
+    "Easy trade capture helps traders maintain the journaling habit",
+    "IBKR broker auto-import is live through SnapTrade",
+    "Combines fast manual capture with automated IBKR import"
   ],
   "cons": [
-    "No broker integration for auto-import yet",
+    "IBKR broker auto-import is available for paying customers; free tier remains manual capture",
     "No mobile app (web-only, mobile responsive)",
     "Smaller community compared to established players",
     "No backtesting features"
@@ -95,9 +145,11 @@
   "company": "Cosmic Phoenix LLC",
   "headquarters": "Wyoming, USA",
   "best_for": [
-    "budget-conscious traders",
+    "active retail traders",
+    "traders who need fast trade logging",
     "psychology-focused traders",
-    "AI journal seekers"
+    "budget-conscious AI journal users",
+    "IBKR users who want paid broker import"
   ],
   "similar_tools": [
     "tradezella",
@@ -106,8 +158,22 @@
     "tradersync",
     "insideredge"
   ],
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-06-28",
   "review_status": "published",
-  "meta_title": "TraderTrac Review 2026: AI-powered trading journal",
-  "meta_description": "AI-powered trading journal with psychological analysis, pattern detection, and automated performance reports at an affordable price."
+  "meta_title": "TraderTrac Review 2026: AI Trading Journal, Screenshots, IBKR Sync",
+  "meta_description": "In-depth TraderTrac review with screenshots, trade logging workflow, AI psychology coach, weekly reports, pricing, and paid IBKR broker auto-import via SnapTrade.",
+  "scraped_features": [
+    "User-confirmed easy trade capture workflow",
+    "User-confirmed strong trade logging experience",
+    "Good daily statistics for reviewing trading performance",
+    "Designed around journaling habit formation rather than heavy platform complexity",
+    "IBKR broker auto-import is currently live via SnapTrade for paying customers",
+    "SnapTrade connection supports automated IBKR trade/account import",
+    "Manual fast capture remains available alongside broker sync",
+    "Free tier uses manual trade capture rather than broker auto-import",
+    "Paid plan adds automated IBKR broker sync",
+    "Expanded in-depth functionality review added June 28, 2026",
+    "Screenshots added for dashboard, trade capture, AI coach, settings, rules, and mobile landing page"
+  ],
+  "integrations": "IBKR broker auto-import currently supported via SnapTrade for paying customers; broader multi-broker coverage not yet claimed"
 }

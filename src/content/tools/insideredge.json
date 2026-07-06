@@ -7,8 +7,8 @@
     "news-data-feeds",
     "unusual-activity"
   ],
-  "description_short": "Insider and Congress trading intelligence platform that tracks SEC filings, detects insider clusters, and connects Congressional trades to committee assignments.",
-  "description_long": "InsiderEdge is an insider trading intelligence platform built for retail traders who want to see what corporate insiders and members of Congress are doing with their money — and more importantly, understand what it means.\n\nUnlike raw SEC filing feeds that dump every Form 4 on your screen, InsiderEdge processes insider transactions through a multi-layer analysis engine. It detects insider clusters (multiple executives at the same company trading in the same direction), connects Congressional trades to committee assignments, and filters out routine noise like 10b5-1 plan sales and post-IPO lockup selling.\n\n## What Makes InsiderEdge Different\n\nMost insider trading tools show you data. InsiderEdge tells you whether that data actually matters.\n\nWhen 7 executives sell $6 billion of a stock that just IPO'd and is up 85%, that's not a bearish signal — that's a payday. InsiderEdge identifies this context automatically: price action relative to the trade, whether selling is routine profit-taking vs conviction-driven, and whether the insider's trading pattern is opportunistic or scheduled.\n\n## The Congress Connection\n\nInsiderEdge tracks all disclosed Congressional trades and maps them to committee assignments. A senator on the Armed Services Committee buying defense stocks before a major contract announcement is a different kind of signal than a backbencher rebalancing their portfolio. InsiderEdge surfaces these connections with full transparency about the evidence chain.\n\n## Cluster Detection\n\nWhen multiple insiders at the same company trade in the same direction within a short window, it's statistically more significant than any single insider trade. InsiderEdge's cluster detection engine identifies these patterns and ranks them by conviction — accounting for who's trading (CEO vs director vs 10% holder), how much of their holdings they're moving, and whether the price action supports or contradicts the trade.\n\n## Built Into TraderTrac\n\nInsiderEdge is integrated directly into the TraderTrac trading journal platform. Insider Pro subscribers get the full intelligence feed alongside their trade journal, AI coaching, and performance analytics — making it easy to cross-reference insider activity with your own trading decisions.\n\n## Pricing\n\nInsiderEdge is available as part of the Insider Pro plan at $24.99/month or $249.99/year, which also includes full TraderTrac Pro access (AI journal, unlimited trades, weekly reports). This makes it significantly cheaper than standalone insider trading platforms like Unusual Whales ($57/month) or InsiderFinance ($99/month).",
+  "description_short": "Insider and Congress trading intelligence platform focused on Form 4 filings, insider clusters, Congress trade context, conviction scoring, and TraderTrac journal integration.",
+  "description_long": "Insider Edge is the insider-trading intelligence layer connected to TraderTrac. It is built for traders who want to monitor corporate insider activity, Congressional trades, and related alternative-data signals without paying for a large institutional terminal or a full options-flow suite they may not use.\n\nThe core idea is simple: raw filings are not enough. A Form 4 tells you that an insider bought or sold stock, but the trade only becomes useful when you know who traded, whether the trade was open-market or routine, how large it was relative to that insider's history, whether other insiders are acting in the same direction, and whether the stock context supports the signal. Insider Edge is trying to turn that filing stream into a ranked signal feed.\n\n## What Insider Edge Tracks\n\nInsider Edge focuses on legal public disclosures, not illegal insider information. Corporate insider data comes from SEC Form 4 filings. The SEC's investor education material says Form 4 is generally required when an insider executes a transaction and must be filed within two business days of the transaction date: <a href=\"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-69\" target=\"_blank\" rel=\"noopener\">SEC Investor.gov Form 4 overview</a>.\n\nFor political trades, Insider Edge uses the public disclosure framework created by the STOCK Act. Congressional trade trackers typically work from periodic transaction reports, where trades over $1,000 are disclosed after the fact rather than in real time. Quiver's Congress dashboard summarizes this 45-day disclosure framework here: <a href=\"https://www.quiverquant.com/congresstrading/\" target=\"_blank\" rel=\"noopener\">Quiver Quantitative Congress trading dashboard</a>.\n\n## Signal Scoring And Context\n\nThe useful part of Insider Edge is not that it can show filings. Many free sites already do that. The value proposition is context scoring: separating meaningful open-market buying from routine selling, compensation-related transactions, tax sales, 10b5-1 plan activity, post-IPO unlocks, and other noisy events.\n\nFor example, a CEO making a large open-market purchase after a drawdown is a very different signal from a founder selling shares after a lockup expires. A single director buying a tiny amount is also different from several executives buying in the same window. Insider Edge is designed to rank those differences rather than treating every filing as equal.\n\n## Insider Clusters\n\nCluster detection is one of the clearest reasons to use an insider-trading product instead of a raw filing feed. When multiple insiders at the same company buy stock in a short period, the combined signal can matter more than any individual transaction. Insider Edge looks for those clusters and can rank them by role, transaction type, size, and timing.\n\nThis is where it competes with tools like <a href=\"https://www.quiverquant.com/insiders/\" target=\"_blank\" rel=\"noopener\">Quiver's insider trading dashboard</a>, <a href=\"https://openinsider.com/\" target=\"_blank\" rel=\"noopener\">OpenInsider</a>, <a href=\"https://www.secform4.com/\" target=\"_blank\" rel=\"noopener\">SECForm4</a>, and <a href=\"https://www.insiderscreener.com/en/sec-form-4\" target=\"_blank\" rel=\"noopener\">InsiderScreener</a>. Those tools are useful for discovery. Insider Edge needs to win by making the ranking and explanation easier for a trader to act on.\n\n## Congress Trade Intelligence\n\nCongress-trading data is popular because lawmakers and committee members can have exposure to policy areas that affect public companies. Insider Edge's angle is to connect the trade to the political context: committee relevance, sector exposure, timing, and whether the trade looks like routine portfolio activity or something worth watching.\n\nThe main competitors here are <a href=\"https://unusualwhales.com/politics\" target=\"_blank\" rel=\"noopener\">Unusual Whales Politics</a>, <a href=\"https://www.quiverquant.com/congresstrading/\" target=\"_blank\" rel=\"noopener\">Quiver Quantitative Congress Trading</a>, <a href=\"https://www.capitoltrades.com/\" target=\"_blank\" rel=\"noopener\">Capitol Trades</a>, <a href=\"https://www.insiderfinance.io/congress-trades\" target=\"_blank\" rel=\"noopener\">InsiderFinance Congress Trades</a>, and <a href=\"https://stockcircle.com/congress-stock-trades\" target=\"_blank\" rel=\"noopener\">Stockcircle Congress trades</a>.\n\n## Main Competitors\n\nThe competitor landscape splits into three groups.\n\nUnusual Whales is the best-known retail alternative-data platform in this group. It covers options flow, dark pool activity, market data, politics, lobbying, and insider trades. It is broader than Insider Edge and better for traders who want one large dashboard for flow plus politics. The trade-off is price and scope: if a trader mainly wants insider and Congress intelligence, they may pay for features they do not need. See <a href=\"https://unusualwhales.com/\" target=\"_blank\" rel=\"noopener\">Unusual Whales</a> and its politics page: <a href=\"https://unusualwhales.com/politics\" target=\"_blank\" rel=\"noopener\">Unusual Whales Politics</a>.\n\nInsiderFinance is another major competitor, especially for options traders. It positions itself as an options flow, dark pool, technical analysis, news, and insider-trades toolkit. Its public pricing page showed a $75/month monthly dashboard plan at the time of review: <a href=\"https://www.insiderfinance.io/pricing\" target=\"_blank\" rel=\"noopener\">InsiderFinance pricing</a>. That makes Insider Edge's $24.99/month Insider Pro bundle meaningfully cheaper if the trader wants insider intelligence plus the TraderTrac journal rather than a full options-flow stack.\n\nQuiver Quantitative is a serious competitor for alternative data. It has public dashboards for insiders and Congress trades, plus premium alerts and datasets. Quiver is strong for research-minded users who want broad political, lobbying, government contracts, and alternative-data views. Insider Edge is more trader-workflow oriented because it connects into TraderTrac. See <a href=\"https://www.quiverquant.com/\" target=\"_blank\" rel=\"noopener\">Quiver Quantitative</a>, <a href=\"https://www.quiverquant.com/insiders/\" target=\"_blank\" rel=\"noopener\">Quiver insiders</a>, and <a href=\"https://www.quiverquant.com/congresstrading/\" target=\"_blank\" rel=\"noopener\">Quiver Congress trading</a>.\n\nTipRanks and Finviz are lighter competitive references. TipRanks has a daily insider trading tracker and broader analyst/research ecosystem: <a href=\"https://www.tipranks.com/screener/daily-insider-trading-tracker\" target=\"_blank\" rel=\"noopener\">TipRanks insider tracker</a>. Finviz has a free insider trading page that is useful for quick checks: <a href=\"https://finviz.com/insidertrading\" target=\"_blank\" rel=\"noopener\">Finviz insider trading</a>. These are good for basic screening, but they are not built around the same conviction-feed workflow.\n\nOpenInsider, SECForm4, InsiderScreener, Barchart, and Nasdaq are also relevant because they expose raw or semi-filtered insider transactions. They are useful research tools and some are free, but the trader still has to do most of the interpretation. Insider Edge has to justify itself by reducing that interpretation burden.\n\n## Pricing And Bundle Value\n\nInsider Edge is priced as part of TraderTrac's Insider Pro offer at $24.99/month or $249.99/year. The important detail is that this includes full TraderTrac Pro access: the AI journal, unlimited trade logging, performance analytics, and weekly reports.\n\nThat bundle changes the comparison. Against Unusual Whales or InsiderFinance, Insider Edge is not trying to be the biggest market-data terminal. It is trying to be an affordable signal feed plus journal workflow. A trader can find an insider idea, track it, and then journal the actual trade in the same ecosystem.\n\n## Where Insider Edge Can Win\n\nInsider Edge can win with traders who care about ranked, explainable signals rather than raw feeds. The strongest use case is a swing trader or active investor who wants to know when insiders or politicians are doing something unusual, then wants to combine that idea with their own chart, risk plan, and trade journal.\n\nIt is also attractive for TraderTrac users because the journal bundle creates a workflow advantage. A standalone insider tracker can tell you what happened. Insider Edge plus TraderTrac can help you record whether you traded it well.\n\n## Limitations\n\nInsider Edge is newer than Unusual Whales, Quiver, Finviz, TipRanks, and InsiderFinance. That matters. The older tools have more brand recognition, more public examples, and in some cases broader datasets. Insider Edge also should not be treated as a source of guaranteed alpha. Form 4 filings and Congressional disclosures are delayed, noisy, and often misunderstood.\n\nThe other limitation is category focus. Traders who want real-time options flow, dark pool feeds, dealer positioning, and a large market dashboard may be better served by Unusual Whales or InsiderFinance. Traders who want a free raw filing screener may prefer OpenInsider, Finviz, SECForm4, or Nasdaq.\n\n## Bottom Line\n\nInsider Edge is best understood as an affordable insider and Congress intelligence layer attached to a trading journal. It should not be ranked purely against free filing pages, because the product is trying to do more than list transactions. It is trying to score context, detect clusters, connect Congress trades to relevance, and help traders turn those signals into a tracked trading process.\n\nThe main competitors to watch are Unusual Whales, InsiderFinance, Quiver Quantitative, TipRanks, Finviz, OpenInsider, SECForm4, InsiderScreener, Capitol Trades, Barchart, Nasdaq, and Stockcircle. Insider Edge's path to ranking well is clear: publish transparent scoring logic, show source links, explain why each signal matters, and keep the TraderTrac integration tight.",
   "logo_url": "/logos/insideredge.svg",
   "screenshots": [],
   "website_url": "https://tradertrac.com/edge",
@@ -27,7 +27,7 @@
         "features": [
           "Limited insider activity feed",
           "Basic Congress trade tracking",
-          "5 free trades in journal"
+          "TraderTrac free journal access"
         ]
       },
       {
@@ -36,11 +36,11 @@
         "price_yearly": 249.99,
         "features": [
           "Full insider cluster intelligence",
-          "Congress-to-committee connection mapping",
-          "Conviction scoring and context analysis",
+          "Congress-to-context signal review",
+          "Conviction scoring and filing context",
           "Daily insider activity digest",
           "Smart Money feed with price context",
-          "Full TraderTrac Pro included (AI journal, unlimited trades, weekly reports)"
+          "Full TraderTrac Pro included"
         ]
       }
     ],
@@ -68,23 +68,24 @@
     "options"
   ],
   "pros": [
-    "Insider cluster detection goes beyond raw Form 4 filings",
-    "Congress trade-to-committee mapping unavailable on most platforms",
-    "Context-aware scoring filters out routine profit-taking and 10b5-1 plans",
-    "Includes full TraderTrac Pro journal at no extra cost",
-    "Significantly cheaper than Unusual Whales ($57/mo) or InsiderFinance ($99/mo)",
-    "Daily intelligence digest delivered via email"
+    "Combines insider, Congress, and TraderTrac journal workflow in one bundle",
+    "Focuses on context scoring instead of raw Form 4 dumping",
+    "Insider cluster detection is more useful than single-filing alerts",
+    "Congress trade context helps separate routine disclosures from potentially relevant trades",
+    "Insider Pro includes full TraderTrac Pro at $24.99/month",
+    "Cheaper than broad platforms like InsiderFinance when the user mainly wants insider/Congress intelligence"
   ],
   "cons": [
-    "No standalone plan — requires TraderTrac account",
-    "US equities only (no international insider data)",
-    "No mobile app yet (mobile-responsive web)",
-    "Newer platform — building track record"
+    "Newer platform with less public track record than Unusual Whales, Quiver, Finviz, or TipRanks",
+    "Not a full options-flow or dark-pool terminal",
+    "Congress and Form 4 disclosures are delayed and noisy by nature",
+    "No native mobile app yet",
+    "Needs transparent scoring explanations to earn trust against established competitors"
   ],
-  "rating": 4.3,
+  "rating": 4.4,
   "rating_breakdown": {
     "ease_of_use": 4.5,
-    "features": 4.2,
+    "features": 4.3,
     "value": 4.8,
     "support": 4.1,
     "reliability": 4.2
@@ -94,8 +95,9 @@
   "headquarters": "Wyoming, USA",
   "best_for": [
     "Traders who follow insider and Congress activity",
-    "Swing traders looking for conviction-based entries",
-    "Budget-conscious traders who want insider data without paying $100+/month"
+    "TraderTrac users who want signal ideas inside their journaling workflow",
+    "Swing traders looking for context-ranked alternative data",
+    "Budget-conscious traders comparing Unusual Whales, InsiderFinance, and Quiver"
   ],
   "similar_tools": [
     "unusual-whales",
@@ -104,8 +106,34 @@
     "finviz",
     "tradertrac"
   ],
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-06-28",
   "review_status": "published",
-  "meta_title": "InsiderEdge Review 2026: Insider & Congress Trading Intelligence",
-  "meta_description": "InsiderEdge tracks insider clusters and Congress trades with context-aware scoring. $24.99/mo includes full TraderTrac Pro. Compare to Unusual Whales & InsiderFinance."
+  "meta_title": "Insider Edge Review 2026: Competitors, Pricing, Links, Features",
+  "meta_description": "In-depth Insider Edge review with competitor links, Form 4 and Congress trading context, pricing, pros and cons, and comparisons to Unusual Whales, InsiderFinance, Quiver, TipRanks, Finviz, and OpenInsider.",
+  "competitors_reviewed": [
+    "Unusual Whales",
+    "InsiderFinance",
+    "Quiver Quantitative",
+    "TipRanks",
+    "Finviz",
+    "OpenInsider",
+    "SECForm4",
+    "InsiderScreener",
+    "Capitol Trades",
+    "Barchart",
+    "Nasdaq",
+    "Stockcircle"
+  ],
+  "source_links": [
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-69",
+    "https://unusualwhales.com/politics",
+    "https://www.insiderfinance.io/pricing",
+    "https://www.quiverquant.com/insiders/",
+    "https://www.quiverquant.com/congresstrading/",
+    "https://www.tipranks.com/screener/daily-insider-trading-tracker",
+    "https://finviz.com/insidertrading",
+    "https://openinsider.com/",
+    "https://www.secform4.com/",
+    "https://www.capitoltrades.com/"
+  ]
 }

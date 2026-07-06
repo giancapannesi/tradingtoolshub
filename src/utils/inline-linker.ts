@@ -4,7 +4,7 @@
  * no self-linking, no double-linking.
  */
 
-import { getAllTools, getComparisons, getListicles } from './data';
+import { getAllTools, getListicles, getBlogPosts } from './data';
 
 interface LinkMapping {
   phrase: string;
@@ -19,6 +19,7 @@ function buildMappings(): LinkMapping[] {
 
   const tools = getAllTools();
   const listicles = getListicles();
+  const blogPosts = getBlogPosts();
   const mappings: LinkMapping[] = [];
 
   // Tool name → review page (priority 1)
@@ -36,23 +37,36 @@ function buildMappings(): LinkMapping[] {
     mappings.push({ phrase: l.title.replace(/ in \d{4}.*$/, '').replace(/ — .*$/, ''), url: `/best/${l.slug}/`, priority: 3 });
   }
 
-  // Category keywords → category pages (priority 4)
+  // Article title phrases → blog pages (priority 4)
+  for (const post of blogPosts) {
+    const titlePhrase = post.title
+      .replace(/\b(2026|2025)\b/g, '')
+      .replace(/:.*$/, '')
+      .replace(/ — .*$/, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (titlePhrase.length >= 16 && titlePhrase.split(/\s+/).length >= 3) {
+      mappings.push({ phrase: titlePhrase, url: `/blog/${post.slug}/`, priority: 4 });
+    }
+  }
+
+  // Category keywords → category pages (priority 5)
   const categoryPhrases: Record<string, string> = {
     'prop firms': '/prop-firms/',
     'prop trading firms': '/prop-firms/',
-    'trading bots': '/category/trading-bots/',
-    'charting platforms': '/category/charting-platforms/',
-    'order flow tools': '/category/order-flow-tools/',
-    'trading journals': '/category/trading-journals/',
-    'futures platforms': '/category/futures-platforms/',
-    'options platforms': '/category/options-platforms/',
-    'forex brokers': '/category/brokers-forex/',
-    'stock brokers': '/category/brokers-us/',
-    'risk management': '/category/risk-management/',
-    'trading education': '/category/trading-education/',
-    'news and data feeds': '/category/news-data-feeds/',
-    'backtesting platforms': '/category/backtesting/',
-    'crypto exchanges': '/category/crypto-exchanges/',
+    'trading bots': '/categories/trading-bots/',
+    'charting platforms': '/categories/charting-platforms/',
+    'order flow tools': '/categories/order-flow-tools/',
+    'trading journals': '/categories/trading-journals/',
+    'futures platforms': '/categories/futures-platforms/',
+    'options platforms': '/categories/options-platforms/',
+    'forex brokers': '/categories/brokers-forex/',
+    'stock brokers': '/categories/brokers-us/',
+    'risk management': '/categories/risk-management/',
+    'trading education': '/categories/trading-education/',
+    'news and data feeds': '/categories/news-data-feeds/',
+    'backtesting platforms': '/categories/backtesting/',
+    'crypto exchanges': '/categories/crypto-exchanges/',
   };
   for (const [phrase, url] of Object.entries(categoryPhrases)) {
     mappings.push({ phrase, url, priority: 4 });

@@ -12,11 +12,20 @@ interface Props {
 
 const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const siteUrl = 'https://tradingtoolshub.com';
-// Keep title under 60 chars for SERP display. Drop suffix if needed.
+function clampWords(value: string, maxLength: number) {
+  const clean = String(value || '').replace(/\s+/g, ' ').trim();
+  if (clean.length <= maxLength) return clean;
+  const target = Math.max(20, maxLength - 3);
+  const trimmed = clean.slice(0, target + 1);
+  const lastSpace = trimmed.lastIndexOf(' ');
+  return `${(lastSpace > 40 ? trimmed.slice(0, lastSpace) : clean.slice(0, target)).replace(/[,:;\-\s]+$/, '')}...`;
+}
 const withSuffix = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
-const fullTitle = withSuffix.length <= 60 ? withSuffix : (title.length <= 60 ? title : title.slice(0, 57) + '...');
+const fullTitle = clampWords(withSuffix.length <= 65 ? withSuffix : title, 65);
+const metaDescription = clampWords(description, 155);
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
 const ogImg = ogImage || `${siteUrl}/og-default.png`;
+const imageAlt = `${fullTitle} preview image`;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -33,21 +42,25 @@ const ogImg = ogImage || `${siteUrl}/og-default.png`;
     gtag('config', 'G-TJ1VJ3ZF8T');
   </script>
   <title>{fullTitle}</title>
-  <meta name="description" content={description} />
+  <meta name="description" content={metaDescription} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="canonical" href={canonicalUrl} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="TradingToolsHub RSS Feed" href="/feed.xml" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content={fullTitle} />
-  <meta property="og:description" content={description} />
+  <meta property="og:description" content={metaDescription} />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:image" content={ogImg} />
+  <meta property="og:image:alt" content={imageAlt} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:site_name" content="TradingToolsHub" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
-  <meta name="twitter:description" content={description} />
+  <meta name="twitter:description" content={metaDescription} />
   <meta name="twitter:image" content={ogImg} />
+  <meta name="twitter:image:alt" content={imageAlt} />
   {jsonLd && (
     Array.isArray(jsonLd) ? (
       jsonLd.map(ld => (

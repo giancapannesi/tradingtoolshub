@@ -1,10 +1,34 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms & Conditions",
+    "description": "Terms and conditions for using TradingToolsHub, the independent trading tools comparison directory.",
+    "url": "https://tradingtoolshub.com/terms/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "TradingToolsHub",
+      "url": "https://tradingtoolshub.com"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://tradingtoolshub.com/terms/" }
+    ]
+  }
+];
 ---
 <BaseLayout
   title="Terms & Conditions — TradingToolsHub"
   description="Terms and conditions for using TradingToolsHub, the independent trading tools comparison directory."
   canonical="https://tradingtoolshub.com/terms/"
+  jsonLd={jsonLd}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <nav class="text-sm text-muted mb-8">

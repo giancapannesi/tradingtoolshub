@@ -91,7 +91,7 @@ export interface Listicle {
   target_keyword: string;
   category: string;
   description: string;
-  tools: string[];
+  tools: (string | { slug: string; editor_note?: string })[];
 }
 
 const TOOLS_DIR = path.join(process.cwd(), 'src/content/tools');

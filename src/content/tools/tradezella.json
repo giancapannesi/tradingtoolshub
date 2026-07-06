@@ -60,7 +60,10 @@
     "performance_analytics": true,
     "risk_management": true,
     "news_feed": false,
-    "education": false
+    "education": false,
+    "auto_import": true,
+    "multi_broker": true,
+    "trade_replay": true
   },
   "markets": [
     "stocks",
@@ -105,5 +108,13 @@
   "last_updated": "2026-03-07",
   "review_status": "published",
   "meta_title": "TradeZella Review 2026: Feature-rich trading journal",
-  "meta_description": "Feature-rich trading journal with trade replay, backtesting, and advanced analytics for serious traders."
+  "meta_description": "Feature-rich trading journal with trade replay, backtesting, and advanced analytics for serious traders.",
+  "integrations": "Broad broker auto-import support documented in review data; exact supported broker count not stored",
+  "scraped_features": [
+    "Automatic broker imports from most major brokers",
+    "Trade Replay for visual trade review",
+    "Full backtesting available on Pro plan",
+    "Advanced analytics by strategy, setup, time of day, and filters",
+    "Supports up to 20 trading accounts on Pro plan for prop firm traders"
+  ]
 }

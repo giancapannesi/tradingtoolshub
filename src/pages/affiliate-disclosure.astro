@@ -5,11 +5,34 @@ import { getAllTools } from '../utils/data';
 const tools = getAllTools();
 const affiliateTools = tools.filter(t => t.affiliate_url);
 const nonAffiliateTools = tools.filter(t => !t.affiliate_url);
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Affiliate Disclosure",
+    "description": "How TradingToolsHub earns revenue and keeps affiliate relationships separate from editorial ratings and recommendations.",
+    "url": "https://tradingtoolshub.com/affiliate-disclosure/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "TradingToolsHub",
+      "url": "https://tradingtoolshub.com"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Affiliate Disclosure", "item": "https://tradingtoolshub.com/affiliate-disclosure/" }
+    ]
+  }
+];
 ---
 <BaseLayout
   title="Affiliate Disclosure — TradingToolsHub"
   description="How TradingToolsHub earns revenue. Full transparency on our affiliate relationships and how they do (and don't) affect our reviews."
   canonical="https://tradingtoolshub.com/affiliate-disclosure/"
+  jsonLd={jsonLd}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <nav class="text-sm text-muted mb-8">

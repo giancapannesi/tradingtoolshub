@@ -13,8 +13,14 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   integrations: [sitemap({
+    filter(page) {
+      const url = new URL(page);
+      const path = url.pathname;
+      if (/^\/blog\/\d+\/$/.test(path)) return false;
+      if (path === '/best/best-trading-indicators/' || path === '/best/best-free-tradingview-indicators/') return false;
+      return true;
+    },
     serialize(item) {
-      item.lastmod = new Date().toISOString();
       return item;
     }
   })],
