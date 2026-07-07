@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-07-07 — DECISION ENGINE GROWTH WORKLIST STARTED
+
+### Current growth direction
+- TTH must become a trading tool decision engine, not a passive directory.
+- Durable worklist:
+  `/srv/BusinessOps/TradingToolsHub_SEO/tth_decision_engine_growth_worklist_2026-07-07.md`.
+- Main tracks:
+  1. Trading journals: TraderTrac, TradeZella, TraderSync, Tradervue, TradesViz, Edgewonk.
+  2. Prop firms: best prop firms, futures prop firms, cheapest prop firms, no-challenge/instant-funding pages.
+  3. Options flow and insider tools: InsiderEdge, Unusual Whales, InsiderFinance.
+  4. Screeners/charting/market data: Finviz, Trade Ideas, TradingView, TrendSpider, Polygon.io, Alpha Vantage.
+- Current rule is improve pages and keep content surfaces indexable. Do not use quality gates that silently noindex TTH content.
+
+### First execution target
+- First page upgrade target is `/review/tradezella/`, because it is top of the quality queue and central to the trading-journal monetization cluster.
+
 ## 2026-06-23 — DYNAMIC OPENAI-FIRST CONTENT RULE
 
 ### Founder rule
