@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-07-08 — CONTINUED TTH RECOVERY LOOP
+
+### Work completed today
+- Continued the decision-engine growth plan instead of relying on static queues.
+- Upgraded `/best/best-trading-journals/` with clearer ranking logic around workflow fit, TraderTrac, TradeZella, TraderSync, Tradervue, and journal habit formation.
+- Added a new journal-cluster article:
+  `/blog/best-trading-journal-software-2026-tradertrac-vs-tradezella-vs-tradersync/`.
+
+### Automation continuity fixes
+- Added shared OpenAI compatibility helper:
+  `/srv/BusinessOps/tools/tth_openai_compat.py`.
+- Wired the TTH blog and main content generators through that helper so model/endpoint mismatch does not silently break the daily blog run.
+- Updated the content verifier so an empty static `content_queue.json` is a warning, not a hard failure, when the dynamic selector/Codex upgrade loop is active.
+- Added daily feed-health cron at 07:15 UTC:
+  `tth-feed-health-daily`.
+
+### Current operating rule
+- Fresh content and feed health must continue daily.
+- Static queues are execution buffers only. The strategy remains live signals, quality queue, dynamic selector, and Codex-owned upgrades.
+
 ## 2026-07-07 — DECISION ENGINE GROWTH WORKLIST STARTED
 
 ### Current growth direction
