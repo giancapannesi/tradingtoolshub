@@ -19,8 +19,9 @@ const category = categories.find(c => c.slug === tool.category);
 // Internal linking data
 const allComparisons = getComparisons();
 const toolComparisons = allComparisons
-  .filter(c => c.tool_a === tool.slug || c.tool_b === tool.slug)
-  .slice(0, 6);
+  .filter(c => c.tool_a === tool.slug || c.tool_b === tool.slug);
+const primaryComparisons = toolComparisons.slice(0, 6);
+const additionalComparisons = toolComparisons.slice(6);
 const toolListicles = getListicles()
   .filter(l => l.tools.includes(tool.slug));
 const featureKeys = Object.keys(tool.features) as (keyof typeof tool.features)[];
@@ -493,7 +494,7 @@ const jsonLd = [
       <section class="mb-10">
         <h2 class="text-2xl font-bold text-text mb-4">Compare {tool.name}</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {toolComparisons.map(c => {
+          {primaryComparisons.map(c => {
             const otherSlug = c.tool_a === tool.slug ? c.tool_b : c.tool_a;
             const otherTool = getToolBySlug(otherSlug);
             return otherTool && (
@@ -504,11 +505,33 @@ const jsonLd = [
             );
           })}
         </div>
-        <a href={`/alternatives/${tool.slug}/`} class="inline-flex items-center mt-4 text-sm text-primary hover:text-primary-hover transition-colors">
-          View all {tool.name} alternatives &rarr;
-        </a>
+        {additionalComparisons.length > 0 && (
+          <details class="mt-4 bg-card/40 border border-border rounded-xl p-4">
+            <summary class="cursor-pointer text-sm font-medium text-primary hover:text-primary-hover">
+              View {additionalComparisons.length} more {tool.name} comparisons
+            </summary>
+            <div class="grid sm:grid-cols-2 gap-2 mt-3">
+              {additionalComparisons.map(c => {
+                const otherSlug = c.tool_a === tool.slug ? c.tool_b : c.tool_a;
+                const otherTool = getToolBySlug(otherSlug);
+                if (!otherTool) return null;
+                return (
+                  <a href={`/compare/${c.slug}/`} class="text-sm text-muted hover:text-text transition-colors py-1">
+                    {tool.name} vs {otherTool.name} &rarr;
+                  </a>
+                );
+              })}
+            </div>
+          </details>
+        )}
       </section>
     )}
+
+    <section class="mb-10">
+      <a href={`/alternatives/${tool.slug}/`} class="inline-flex items-center text-sm text-primary hover:text-primary-hover transition-colors">
+        View all {tool.name} alternatives &rarr;
+      </a>
+    </section>
 
     <!-- Featured In -->
     {toolListicles.length > 0 && (
