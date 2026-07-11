@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
-import { getAllTools, getToolBySlug, getSimilarTools } from '../../utils/data';
+import { getAllTools, getToolBySlug, getSimilarTools, getComparisons } from '../../utils/data';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -14,6 +14,12 @@ export function getStaticPaths() {
 
 const { tool } = Astro.props;
 const alternatives = getSimilarTools(tool, 6);
+const comparisonByPair = new Map(
+  getComparisons().map(comparison => [
+    [comparison.tool_a, comparison.tool_b].sort().join('|'),
+    comparison.slug,
+  ])
+);
 
 // Data-driven meta description for better CTR
 const topAlts = alternatives.slice(0, 3);
@@ -90,7 +96,9 @@ const jsonLd = [
     <!-- Alternatives List -->
     <h2 class="text-2xl font-bold text-text mb-6">Top {alternatives.length} Alternatives</h2>
 
-    {alternatives.map((alt, i) => (
+    {alternatives.map((alt, i) => {
+      const comparisonSlug = comparisonByPair.get([tool.slug, alt.slug].sort().join('|'));
+      return (
       <div class="bg-card border border-border rounded-xl p-6 mb-4">
         <div class="flex items-start justify-between mb-3">
           <div>
@@ -137,9 +145,11 @@ const jsonLd = [
           <a href={`/review/${alt.slug}/`} class="text-sm text-primary hover:text-primary-hover transition-colors">
             Full Review &rarr;
           </a>
-          <a href={`/compare/${tool.slug}-vs-${alt.slug}/`} class="text-sm text-muted hover:text-text transition-colors">
-            Compare &rarr;
-          </a>
+          {comparisonSlug && (
+            <a href={`/compare/${comparisonSlug}/`} class="text-sm text-muted hover:text-text transition-colors">
+              Compare &rarr;
+            </a>
+          )}
           {alt.affiliate_url ? (
             <a href={alt.affiliate_url} target="_blank" rel="nofollow sponsored" class="ml-auto inline-flex items-center px-4 py-1.5 bg-primary hover:bg-primary-hover text-white text-sm font-semibold rounded-lg transition-colors">
               Visit {alt.name}
@@ -151,7 +161,8 @@ const jsonLd = [
           )}
         </div>
       </div>
-    ))}
+      );
+    })}
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted mt-8">
