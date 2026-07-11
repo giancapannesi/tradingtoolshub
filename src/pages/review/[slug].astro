@@ -5,6 +5,7 @@ import ProsCons from '../../components/ProsCons.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories, getComparisons, getListicles, getBlogPosts } from '../../utils/data';
 import { injectLinks } from '../../utils/inline-linker';
+import { repairInternalLinks } from '../../utils/internal-links';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -15,6 +16,8 @@ const { tool } = Astro.props;
 const similarTools = getSimilarTools(tool, 3);
 const categories = getCategories();
 const category = categories.find(c => c.slug === tool.category);
+const categoryHref = category ? `/categories/${category.slug}/` : '/reviews/';
+const categoryLabel = category?.name || 'All Reviews';
 
 // Internal linking data
 const allComparisons = getComparisons();
@@ -196,7 +199,7 @@ const jsonLd = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tradingtoolshub.com/" },
-      { "@type": "ListItem", "position": 2, "name": category?.name || tool.category, "item": `https://tradingtoolshub.com/categories/${tool.category}/` },
+      { "@type": "ListItem", "position": 2, "name": categoryLabel, "item": `https://tradingtoolshub.com${categoryHref}` },
       { "@type": "ListItem", "position": 3, "name": tool.name }
     ]
   },
@@ -222,7 +225,7 @@ const jsonLd = [
     <nav class="flex items-center gap-2 text-sm text-muted mb-8">
       <a href="/" class="hover:text-text transition-colors">Home</a>
       <span>/</span>
-      <a href={`/categories/${tool.category}/`} class="hover:text-text transition-colors">{category?.name || tool.category}</a>
+      <a href={categoryHref} class="hover:text-text transition-colors">{categoryLabel}</a>
       <span>/</span>
       <span class="text-text">{tool.name}</span>
     </nav>
@@ -302,11 +305,11 @@ const jsonLd = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
       <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
-        injectLinks(
+        repairInternalLinks(injectLinks(
           renderDescription(),
           tool.slug,
           8
-        )
+        ))
       } />
     </section>
 

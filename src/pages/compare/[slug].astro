@@ -5,6 +5,7 @@ import ProsCons from '../../components/ProsCons.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getComparisons, getToolBySlug, getListicles, getBlogPosts } from '../../utils/data';
 import { injectLinks } from '../../utils/inline-linker';
+import { repairInternalLinks } from '../../utils/internal-links';
 
 export function getStaticPaths() {
   const comparisons = getComparisons();
@@ -170,7 +171,7 @@ const jsonLd = [
       <section class="mb-10">
         <h2 class="text-2xl font-bold text-text mb-4">Our Analysis</h2>
         <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
-          <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6)} />
+          <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
         </div>
       </section>
     )}
