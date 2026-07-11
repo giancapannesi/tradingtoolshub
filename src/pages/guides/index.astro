@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const guides = [
+  ['Earn2Trade Consistency Rule', '/guides/earn2trade-consistency-rule/'],
+  ['Earn2Trade Gauntlet Mini', '/guides/earn2trade-gauntlet-mini/'],
+  ['Earn2Trade LiveSim vs Live', '/guides/earn2trade-livesim-vs-live/'],
+  ['Earn2Trade Platforms', '/guides/earn2trade-platforms/'],
+  ['Earn2Trade Withdrawal Guide', '/guides/earn2trade-withdrawal-guide/'],
+  ['Trader Career Path Rules', '/guides/trader-career-path-rules/'],
+];
+---
+<BaseLayout
+  title="Trading Guides — Rules, Platforms & Payouts"
+  description="Practical trading guides covering prop-firm rules, platform choices, evaluation programs, payouts, and account progression."
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">Trading Guides</h1>
+    <p class="text-muted mb-8">Detailed guides for evaluating trading programs, rules, platforms, and payout paths.</p>
+    <div class="grid sm:grid-cols-2 gap-4">
+      {guides.map(([title, href]) => (
+        <a href={href} class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors">
+          <span class="font-semibold text-text">{title}</span>
+          <span class="block text-sm text-primary mt-2">Read guide &rarr;</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

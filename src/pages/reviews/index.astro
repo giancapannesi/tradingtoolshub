@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllTools } from '../../utils/data';
+
+const tools = [...getAllTools()].sort((a, b) => a.name.localeCompare(b.name));
+const groups = new Map<string, typeof tools>();
+for (const tool of tools) {
+  const label = tool.category
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+  groups.set(label, [...(groups.get(label) || []), tool]);
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Trading Tool Reviews',
+  url: 'https://tradingtoolshub.com/reviews/',
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: tools.length,
+    itemListElement: tools.map((tool, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: tool.name,
+      url: `https://tradingtoolshub.com/review/${tool.slug}/`,
+    })),
+  },
+};
+---
+<BaseLayout
+  title="Trading Tool Reviews — All Platforms & Services"
+  description={`Browse ${tools.length} trading tool reviews covering platforms, brokers, journals, prop firms, screeners, data services, and more.`}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">All Trading Tool Reviews</h1>
+    <p class="text-muted mb-10">Browse every reviewed platform and service, grouped by category.</p>
+
+    {[...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([category, categoryTools]) => (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">{category}</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {categoryTools.map(tool => (
+            <a href={`/review/${tool.slug}/`} class="bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors">
+              <span class="font-medium text-text">{tool.name}</span>
+              <span class="block text-sm text-muted mt-1">{tool.rating.toFixed(1)}/5 · Read review &rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>
