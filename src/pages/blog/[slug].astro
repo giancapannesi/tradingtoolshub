@@ -105,11 +105,17 @@ const jsonLd = [
           <h1 class="text-3xl md:text-4xl font-bold text-text leading-tight mb-4">{post.title}</h1>
           <p class="text-lg text-muted mb-4">{post.excerpt}</p>
           <div class="flex items-center gap-4 text-sm text-muted">
-            <span>By {post.author}</span>
+            <span>By <a href="/methodology/" class="hover:text-primary underline decoration-border underline-offset-2">{post.author}</a></span>
             <span>Published {new Date(post.published_date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
             {post.last_updated !== post.published_date && (
               <span>Updated {new Date(post.last_updated).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
             )}
+          </div>
+          <div class="mt-4 rounded-lg border border-border bg-card/60 px-4 py-3 text-sm text-muted leading-relaxed">
+            <strong class="text-text">How this article was produced:</strong>
+            TradingToolsHub uses structured product data and AI-assisted drafting to organize research at scale.
+            Prices, rules, and product features can change; verify time-sensitive details on the provider’s official website.
+            <a href="/methodology/" class="text-primary hover:underline">Read our editorial process.</a>
           </div>
         </header>
 
