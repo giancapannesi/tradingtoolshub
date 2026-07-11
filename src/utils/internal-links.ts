@@ -22,6 +22,24 @@ const toolAliases = new Map<string, string>([
   ['topstep-trader', 'topstep'],
   ['topsteptrader', 'topstep'],
 ]);
+const pathAliases = new Map<string, string>([
+  ['/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/', '/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/'],
+  ['/blog/tradingview-setup-guide-2026/', '/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/'],
+  ['/blog/how-to-pass-blue-guardian-challenge-step-by-step-guide-2026/', '/blog/how-to-pass-blue-guardian-challenge/'],
+  ['/blog/blue-guardian-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/blue-guardian-pricing-guide-2026/'],
+  ['/blog/bookmap-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/bookmap-pricing-guide-2026/'],
+  ['/blog/how-to-pass-bulenox-challenge-step-by-step-guide-2026/', '/blog/how-to-pass-bulenox-challenge/'],
+  ['/blog/bulenox-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/bulenox-pricing-guide-2026/'],
+  ['/blog/etoro-broker-review-guide-2026/', '/blog/etoro-review-2026-social-trading-features-fees-and-honest-verdict/'],
+  ['/blog/jp-morgan-self-directed-investing-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/jp-morgan-pricing-guide-2026/'],
+  ['/blog/how-to-pass-maverick-trading-challenge-step-by-step-guide-2026/', '/blog/how-to-pass-maverick-trading-challenge/'],
+  ['/blog/maverick-trading-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/maverick-trading-pricing-guide-2026/'],
+  ['/blog/maverick-trading-rules-explained-drawdown-targets-payouts-2026/', '/blog/maverick-trading-rules-explained/'],
+  ['/blog/mzpack-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/mzpack-pricing-guide-2026/'],
+  ['/blog/ninjatrader-setup-guide-installation-to-first-trade/', '/blog/ninjatrader-setup-guide-2026/'],
+  ['/blog/thinkorswim-pricing-guide-2026-all-plans-costs-hidden-fees/', '/blog/thinkorswim-pricing-guide-2026/'],
+  ['/blog/thinkorswim-setup-guide-2026/', '/blog/thinkorswim-setup-guide-the-complete-walkthrough/'],
+]);
 
 const validPaths = new Set<string>([
   '/', '/about/', '/affiliate-disclosure/', '/blog/', '/featured/', '/guides/',
@@ -45,6 +63,9 @@ function normalizePath(rawHref: string) {
   const suffix = `${query ? `?${query}` : ''}${hash ? `#${hash}` : ''}`;
 
   if (validPaths.has(path)) return `${path}${suffix}`;
+
+  const aliasedPath = pathAliases.get(path.toLowerCase());
+  if (aliasedPath && validPaths.has(aliasedPath)) return `${aliasedPath}${suffix}`;
 
   const segments = path.toLowerCase().split('/').filter(Boolean);
   let candidate: string | undefined;
