@@ -75,10 +75,14 @@ const intraComparisons = allComparisons
 // Data-driven meta description for better CTR
 const topTools = tools.slice(0, 3);
 const toolNames = topTools.map(t => t.name).join(', ');
+const remainingToolCount = tools.length - topTools.length;
+const toolSummary = remainingToolCount > 0
+  ? `${toolNames}, and ${remainingToolCount} more`
+  : toolNames;
 const topRated = tools[0];
-const cheapest = tools.reduce((min, t) => (t.pricing.starting_price || Infinity) < (min.pricing.starting_price || Infinity) ? t : min, tools[0]);
+const cheapest = tools.reduce((min, t) => (t.pricing.starting_price ?? Infinity) < (min.pricing.starting_price ?? Infinity) ? t : min, tools[0]);
 const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
-const metaDescription = `${listicle.title}: ${toolNames}, and ${tools.length - 3} more ranked by experts. #1 pick: ${topRated.name} (${topRated.rating.toFixed(1)}★). Cheapest: ${cheapest.name} (${cheapestLabel}). Updated for 2026.`;
+const metaDescription = `${listicle.title}: ${toolSummary} ranked by features, pricing, and suitability. #1 pick: ${topRated.name} (${topRated.rating.toFixed(1)}★). Cheapest: ${cheapest.name} (${cheapestLabel}). Updated for 2026.`;
 
 const jsonLd = [
   {

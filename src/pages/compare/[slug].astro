@@ -25,7 +25,7 @@ if (!toolA || !toolB) {
 
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const loser = winner === toolA ? toolB : toolA;
-const cheaper = (toolA.pricing.starting_price || Infinity) <= (toolB.pricing.starting_price || Infinity) ? toolA : toolB;
+const cheaper = (toolA.pricing.starting_price ?? Infinity) <= (toolB.pricing.starting_price ?? Infinity) ? toolA : toolB;
 const comparisonUpdated = [toolA.last_updated, toolB.last_updated].filter(Boolean).sort().at(-1);
 
 // Related guides for either tool
