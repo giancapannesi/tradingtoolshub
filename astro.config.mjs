@@ -27,6 +27,7 @@ const blogDates = readDatedCollection('blog');
 const latestBlogDate = [...blogDates.values()].sort().at(-1);
 
 function dateForPath(path) {
+  // Only expose freshness when a content record provides a trustworthy date.
   const review = path.match(/^\/review\/([^/]+)\/$/);
   if (review) return toolDates.get(review[1]);
 
