@@ -11,6 +11,17 @@ const comparisons = getComparisons();
 const toolSlugs = new Map(tools.map(tool => [tool.slug.toLowerCase(), tool.slug]));
 const comparisonSlugs = new Set(comparisons.map(comparison => comparison.slug));
 const categorySlugs = new Set(getCategories().map(category => category.slug));
+const toolAliases = new Map<string, string>([
+  ['atast', 'atas'],
+  ['funded-trader-plus', 'funded-trading-plus'],
+  ['fundednext', 'funded-next'],
+  ['sierrachart', 'sierra-chart'],
+  ['stock-rovers', 'stock-rover'],
+  ['tastyworks', 'tastytrade'],
+  ['think-or-swim', 'thinkorswim'],
+  ['topstep-trader', 'topstep'],
+  ['topsteptrader', 'topstep'],
+]);
 
 const validPaths = new Set<string>([
   '/', '/about/', '/affiliate-disclosure/', '/blog/', '/featured/', '/guides/',
@@ -38,8 +49,13 @@ function normalizePath(rawHref: string) {
   const segments = path.toLowerCase().split('/').filter(Boolean);
   let candidate: string | undefined;
 
-  if (segments.length === 2 && ['reviews', 'tools', 'tool'].includes(segments[0])) {
-    const slug = toolSlugs.get(segments[1]);
+  const canonicalToolSlug = (slug: string) => {
+    const aliased = toolAliases.get(slug) || slug;
+    return toolSlugs.get(aliased);
+  };
+
+  if (segments.length === 2 && ['review', 'reviews', 'tools', 'tool'].includes(segments[0])) {
+    const slug = canonicalToolSlug(segments[1]);
     if (slug) candidate = `/review/${slug}/`;
   }
   if (!candidate && segments.length === 2 && ['comparison', 'comparisons'].includes(segments[0])) {
