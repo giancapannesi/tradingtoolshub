@@ -25,19 +25,28 @@ function readDatedCollection(folder) {
 const toolDates = readDatedCollection('tools');
 const blogDates = readDatedCollection('blog');
 const latestBlogDate = [...blogDates.values()].sort().at(-1);
+const crawlRepairDate = '2026-07-11';
+
+function newestDate(...dates) {
+  return dates.filter(Boolean).sort().at(-1);
+}
 
 function dateForPath(path) {
   // Only expose freshness when a content record provides a trustworthy date.
   const review = path.match(/^\/review\/([^/]+)\/$/);
-  if (review) return toolDates.get(review[1]);
+  if (review) return newestDate(toolDates.get(review[1]), crawlRepairDate);
 
   const alternatives = path.match(/^\/alternatives\/([^/]+)\/$/);
-  if (alternatives) return toolDates.get(alternatives[1]);
+  if (alternatives) return newestDate(toolDates.get(alternatives[1]), crawlRepairDate);
+
+  if (/^\/compare\/[^/]+\/$/.test(path)) return crawlRepairDate;
 
   const blog = path.match(/^\/blog\/([^/]+)\/$/);
-  if (blog) return blogDates.get(blog[1]);
+  if (blog) return newestDate(blogDates.get(blog[1]), crawlRepairDate);
 
-  if (path === '/blog/' || path === '/') return latestBlogDate;
+  if (['/', '/blog/', '/guides/', '/reviews/', '/specials/'].includes(path)) {
+    return newestDate(latestBlogDate, crawlRepairDate);
+  }
 }
 
 export default defineConfig({
