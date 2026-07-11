@@ -6,15 +6,15 @@
     "financial-data",
     "screening-analytics"
   ],
-  "description_short": "Bloomberg-alternative financial data platform for retail investors with advanced charting, screening, dashboards, and fundamental analysis at a fraction of the cost.",
-  "description_long": "Koyfin positions itself as a Bloomberg Terminal alternative for retail and semi-professional investors, offering institutional-quality financial data and analytics at a dramatically lower price point. The platform provides comprehensive fundamental data, advanced charting, stock screening, portfolio analysis, and customizable dashboards across global equities, ETFs, mutual funds, and economics.\n\nKoyfin's strength lies in its data visualization capabilities. Traders can build custom dashboards combining multiple chart types, create comparative charts across different metrics and time periods, and perform detailed fundamental analysis with financial statements, valuation multiples, growth metrics, and profitability ratios. The economic dashboard provides macro data from central banks and government agencies worldwide.\n\nThe screener supports filtering across hundreds of fundamental and technical criteria with the ability to save and share screens. The platform covers global markets — US, European, Asian, and emerging market equities are all available. The free tier is generous, providing basic charting and limited screening, while paid plans ($27.50-$59/mo) unlock real-time data, advanced screeners, portfolio analytics, and Excel/API access.",
+  "description_short": "Financial research platform with global market data, advanced graphing, screeners, watchlists, portfolios, dashboards, and fundamental and macro analysis.",
+  "description_long": "Koyfin is a financial research and analytics platform for individual investors, analysts, and financial advisors. Its official product documentation describes global equities, bonds, yield curves, foreign exchange, ETFs, mutual funds, financial statements, consensus estimates, watchlists, portfolios, screeners, and customizable dashboards.\n\nThe platform's graphing and financial-analysis tools combine market, fundamental, valuation, and macroeconomic series. Koyfin's official functionality guide also documents price, technical, valuation, news, filing, transcript, and press-release alerts, alongside web and mobile access.\n\nKoyfin currently offers Free, Plus, Premium, Advisor Core, and Advisor Pro plans. Plan limits and data coverage vary, so time-sensitive pricing and entitlements should be confirmed on Koyfin's official plan-comparison page before purchase.",
   "logo_url": "/logos/koyfin.svg",
   "screenshots": [],
   "website_url": "https://www.koyfin.com",
   "affiliate_url": "",
-  "affiliate_program": "Koyfin Affiliate Program",
-  "affiliate_commission": "25% recurring for 12 months",
-  "affiliate_cookie_days": 30,
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
   "pricing": {
     "has_free_tier": true,
     "starting_price": 0,
@@ -24,45 +24,54 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Basic charting",
-          "Limited screener",
-          "Delayed data",
-          "5 dashboards"
+          "Core market data",
+          "Basic charts",
+          "One watchlist",
+          "Limited financial history"
         ]
       },
       {
         "name": "Plus",
-        "price_monthly": 27.5,
-        "price_yearly": 275,
+        "price_monthly": 39,
+        "price_yearly": 0,
         "features": [
-          "Real-time US data",
-          "Advanced screener",
-          "20 dashboards",
-          "Earnings estimates"
+          "Full research data",
+          "Screeners",
+          "Multiple watchlists",
+          "Personal portfolio tracking"
         ]
       },
       {
-        "name": "Pro",
-        "price_monthly": 45,
-        "price_yearly": 450,
+        "name": "Premium",
+        "price_monthly": 79,
+        "price_yearly": 0,
         "features": [
-          "Global real-time data",
-          "Excel Add-in",
-          "50 dashboards",
-          "Portfolio analytics",
-          "Priority support"
+          "Advanced charting",
+          "Full historical data",
+          "Custom formulas",
+          "Custom data series"
         ]
       },
       {
-        "name": "Enterprise",
-        "price_monthly": 59,
-        "price_yearly": 590,
+        "name": "Advisor Core",
+        "price_monthly": 209,
+        "price_yearly": 0,
         "features": [
-          "API access",
-          "Unlimited dashboards",
-          "Team collaboration",
-          "Custom data exports",
-          "Dedicated support"
+          "Model Portfolios",
+          "Client Portfolios",
+          "Core custodian integrations",
+          "Standard client reports"
+        ]
+      },
+      {
+        "name": "Advisor Pro",
+        "price_monthly": 299,
+        "price_yearly": 0,
+        "features": [
+          "Advanced model portfolios",
+          "Expanded custodian integrations",
+          "Custom branded reports",
+          "Advisor workflow tools"
         ]
       }
     ],
@@ -73,10 +82,10 @@
     "backtesting": false,
     "paper_trading": false,
     "alerts": true,
-    "mobile_app": false,
-    "api_access": true,
+    "mobile_app": true,
+    "api_access": false,
     "social_features": false,
-    "broker_integration": false,
+    "broker_integration": true,
     "custom_indicators": true,
     "automated_trading": false,
     "journaling": false,
@@ -87,21 +96,24 @@
   },
   "markets": [
     "stocks",
-    "options"
+    "etfs",
+    "bonds",
+    "forex",
+    "mutual-funds"
   ],
   "pros": [
-    "Bloomberg-quality data at 1/50th of the price",
-    "Excellent data visualization and custom dashboards",
-    "Global market coverage across 50+ exchanges",
-    "Generous free tier for basic research",
-    "Excel integration on Pro and above plans"
+    "Global market, fundamental, valuation, and macroeconomic data",
+    "Advanced graphing and customizable dashboards",
+    "Stock screener with extensive filtering criteria",
+    "Free plan for evaluating the core research workflow",
+    "Portfolio and advisor workflows on eligible plans"
   ],
   "cons": [
     "No trade execution — research and analysis only",
-    "No mobile app available yet",
-    "Primarily focused on equities and ETFs",
-    "Can be overwhelming with the amount of data available",
-    "Real-time data requires paid subscription"
+    "Plan limits vary substantially across research and advisor tiers",
+    "The breadth of data and controls can take time to learn",
+    "Some portfolio, reporting, and integration features require advisor plans",
+    "Data coverage and history depend on the selected plan"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -124,8 +136,16 @@
     "reuters-eikon",
     "finviz"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-11",
   "review_status": "published",
   "meta_title": "Koyfin Review 2026",
-  "meta_description": "Bloomberg-alternative financial data platform for retail investors with advanced charting, screening, dashboards, and fundamental analysis at a fraction."
+  "meta_description": "Koyfin review covering current Free, Plus, Premium and advisor plans, market data, graphing, screeners, dashboards, portfolios, strengths and limitations.",
+  "vendor_verified": true,
+  "vendor_verified_date": "2026-07-11",
+  "vendor_verified_note": "Pricing and core capabilities checked against Koyfin's official plan comparison and product documentation.",
+  "vendor_verified_sources": [
+    "https://www.koyfin.com/pricing/plans-comparison/",
+    "https://www.koyfin.com/help/topic/functionality/",
+    "https://www.koyfin.com/llm-info/"
+  ]
 }
