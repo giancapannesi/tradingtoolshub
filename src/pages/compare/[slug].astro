@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
 import ComparisonTable from '../../components/ComparisonTable.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import RatingStars from '../../components/RatingStars.astro';
@@ -16,6 +18,10 @@ export function getStaticPaths() {
 }
 
 const { comparison } = Astro.props;
+const comparisonHtmlPath = path.join(process.cwd(), 'src/content/compare-html', `${comparison.slug}.html`);
+const comparisonHtml = fs.existsSync(comparisonHtmlPath)
+  ? fs.readFileSync(comparisonHtmlPath, 'utf8')
+  : '';
 const toolA = getToolBySlug(comparison.tool_a);
 const toolB = getToolBySlug(comparison.tool_b);
 
@@ -25,7 +31,8 @@ if (!toolA || !toolB) {
 
 const winner = toolA.rating >= toolB.rating ? toolA : toolB;
 const loser = winner === toolA ? toolB : toolA;
-const cheaper = (toolA.pricing.starting_price ?? Infinity) <= (toolB.pricing.starting_price ?? Infinity) ? toolA : toolB;
+const comparablePrice = (tool: any) => tool.pricing.quote_based ? Infinity : (tool.pricing.starting_price ?? Infinity);
+const cheaper = comparablePrice(toolA) <= comparablePrice(toolB) ? toolA : toolB;
 const comparisonUpdated = [toolA.last_updated, toolB.last_updated].filter(Boolean).sort().at(-1);
 
 // Related guides for either tool
@@ -48,17 +55,19 @@ const alsoCompare = allComparisons
   .slice(0, 6);
 
 // Data-driven meta description for better CTR
-const fmtPrice = (t: any) => t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
+const fmtPrice = (t: any) => t.pricing.quote_based ? 'quote-based' : t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
 const winnerEdge = winner.pros[0] ? ` ${winner.name} wins on ${winner.pros[0].toLowerCase().replace(/\.$/, '')}.` : '';
 const rawMeta = `${toolA.name} (${toolA.rating.toFixed(1)}★, ${fmtPrice(toolA)}) vs ${toolB.name} (${toolB.rating.toFixed(1)}★, ${fmtPrice(toolB)}) —${winnerEdge}`;
 const metaDescription = rawMeta.length > 155 ? rawMeta.slice(0, 152) + '...' : rawMeta;
 
 // Build FAQ answers dynamically from tool data
-const pricingA = toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
-const pricingB = toolB.pricing.starting_price === 0 ? 'free' : `$${toolB.pricing.starting_price}/mo`;
+const pricingA = toolA.pricing.quote_based ? 'quote-based' : toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
+const pricingB = toolB.pricing.quote_based ? 'quote-based' : toolB.pricing.starting_price === 0 ? 'free' : `$${toolB.pricing.starting_price}/mo`;
 const cheaperName = cheaper.name;
 const cheaperPrice = cheaper.pricing.starting_price === 0 ? 'a free plan' : `plans starting at $${cheaper.pricing.starting_price}/mo`;
-const pricingAnswer = toolA.pricing.starting_price === toolB.pricing.starting_price
+const pricingAnswer = toolA.pricing.quote_based || toolB.pricing.quote_based
+  ? `${toolA.name} pricing is ${pricingA}, while ${toolB.name} pricing is ${pricingB}. Request an itemized quote before comparing total cost because datasets and exchange entitlements can materially change institutional pricing.`
+  : toolA.pricing.starting_price === toolB.pricing.starting_price
   ? `${toolA.name} and ${toolB.name} have similar starting prices at ${pricingA}. Compare their feature sets to determine which offers better value for your trading needs.`
   : `${cheaperName} is the more affordable option with ${cheaperPrice}. ${toolA.name} starts at ${pricingA} while ${toolB.name} starts at ${pricingB}. However, pricing alone shouldn't drive your decision — consider which features matter most for your trading style.`;
 
@@ -192,11 +201,15 @@ const jsonLd = [
     </div>
 
     <!-- Editorial Analysis -->
-    {comparison.analysis && (
+    {(comparisonHtml || comparison.analysis) && (
       <section class="mb-10">
         <h2 class="text-2xl font-bold text-text mb-4">Data-Assisted Analysis</h2>
         <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
-          <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
+          {comparisonHtml ? (
+            <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 compare-editorial-html" set:html={comparisonHtml} />
+          ) : (
+            <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
+          )}
         </div>
       </section>
     )}

@@ -121,8 +121,13 @@
     "alpha-vantage",
     "benzinga-pro"
   ],
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-13",
   "review_status": "published",
-  "meta_title": "Polygon.io Pricing Review 2026: Free Tier, API Limits, Real-Time Data",
-  "meta_description": "Polygon.io pricing explained: free tier limits, $29 Starter, $79 Developer, $199 Advanced, real-time data, WebSockets, pros, cons, and best use cases."
+  "meta_title": "Polygon.io Review 2026: Pricing, Limits & Real-Time Data",
+  "meta_description": "Polygon.io review and pricing guide: compare its free, $29, $79 and $199 stock API plans, rate limits, WebSockets and real-time data access.",
+  "sources": [
+    {"label": "Polygon.io stock API plans and pricing", "url": "https://polygon.io/stocks"},
+    {"label": "Polygon.io stocks API overview", "url": "https://polygon.io/docs/rest/stocks/overview"},
+    {"label": "Polygon.io options API overview", "url": "https://polygon.io/docs/options/getting-started"}
+  ]
 }
