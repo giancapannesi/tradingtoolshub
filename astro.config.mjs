@@ -24,6 +24,12 @@ function readDatedCollection(folder) {
 
 const toolDates = readDatedCollection('tools');
 const blogDates = readDatedCollection('blog');
+const comparisonRecords = JSON.parse(readFileSync(new URL('./src/content/comparisons.json', import.meta.url), 'utf8'));
+const comparisonDates = new Map(
+  comparisonRecords
+    .filter((record) => record.slug && /^\d{4}-\d{2}-\d{2}$/.test(record.last_updated || ''))
+    .map((record) => [record.slug, record.last_updated])
+);
 const latestBlogDate = [...blogDates.values()].sort().at(-1);
 const crawlRepairDate = '2026-07-11';
 
@@ -39,7 +45,8 @@ function dateForPath(path) {
   const alternatives = path.match(/^\/alternatives\/([^/]+)\/$/);
   if (alternatives) return newestDate(toolDates.get(alternatives[1]), crawlRepairDate);
 
-  if (/^\/compare\/[^/]+\/$/.test(path)) return crawlRepairDate;
+  const comparison = path.match(/^\/compare\/([^/]+)\/$/);
+  if (comparison) return newestDate(comparisonDates.get(comparison[1]), crawlRepairDate);
 
   const blog = path.match(/^\/blog\/([^/]+)\/$/);
   if (blog) return newestDate(blogDates.get(blog[1]), crawlRepairDate);

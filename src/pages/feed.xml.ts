@@ -20,7 +20,8 @@ export const GET: APIRoute = () => {
       const toolA = getToolBySlug(c.tool_a);
       const toolB = getToolBySlug(c.tool_b);
       if (!toolA || !toolB) return null;
-      const latestDate = toolA.last_updated > toolB.last_updated ? toolA.last_updated : toolB.last_updated;
+      const toolDate = toolA.last_updated > toolB.last_updated ? toolA.last_updated : toolB.last_updated;
+      const latestDate = c.last_updated && c.last_updated > toolDate ? c.last_updated : toolDate;
       return { ...c, toolA, toolB, date: latestDate };
     })
     .filter(Boolean)
