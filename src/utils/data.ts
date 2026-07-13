@@ -91,6 +91,9 @@ export interface Listicle {
   target_keyword: string;
   category: string;
   description: string;
+  meta_description?: string;
+  last_updated?: string;
+  official_sources?: { title: string; url: string }[];
   tools: (string | { slug: string; editor_note?: string })[];
 }
 

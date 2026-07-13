@@ -82,7 +82,7 @@ const toolSummary = remainingToolCount > 0
 const topRated = tools[0];
 const cheapest = tools.reduce((min, t) => (t.pricing.starting_price ?? Infinity) < (min.pricing.starting_price ?? Infinity) ? t : min, tools[0]);
 const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
-const metaDescription = `${listicle.title}: ${toolSummary} ranked by features, pricing, and suitability. #1 pick: ${topRated.name} (${topRated.rating.toFixed(1)}★). Cheapest: ${cheapest.name} (${cheapestLabel}). Updated for 2026.`;
+const metaDescription = listicle.meta_description || `${listicle.title}: ${toolSummary} ranked by features, pricing, and suitability. #1 pick: ${topRated.name} (${topRated.rating.toFixed(1)}★). Cheapest: ${cheapest.name} (${cheapestLabel}). Updated for 2026.`;
 
 const jsonLd = [
   {
@@ -160,6 +160,24 @@ const jsonLd = [
         </div>
       </div>
     </section>
+
+    {listicle.official_sources?.length > 0 && (
+      <section class="bg-card border border-border rounded-2xl p-6 mb-10">
+        <h2 class="text-xl font-bold text-text mb-2">Official Program Sources</h2>
+        <p class="text-sm text-muted mb-4">
+          Program structures and restrictions change. We checked these first-party sources{listicle.last_updated ? ` for the ${listicle.last_updated} update` : ''}; verify the exact account rules before paying.
+        </p>
+        <ul class="grid sm:grid-cols-2 gap-2">
+          {listicle.official_sources.map(source => (
+            <li>
+              <a href={source.url} target="_blank" rel="noopener" class="text-sm text-primary hover:text-primary-hover transition-colors">
+                {source.title} &rarr;
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <!-- Quick Summary Table -->
     <div class="bg-card border border-border rounded-2xl overflow-hidden mb-10">
