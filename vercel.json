@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/best/instant-funding-prop-firms/", "destination": "/best/no-challenge-prop-firms/", "statusCode": 301 },
     { "source": "/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },
     { "source": "/blog/tradingview-setup-guide-2026/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },
     { "source": "/blog/how-to-pass-blue-guardian-challenge-step-by-step-guide-2026/", "destination": "/blog/how-to-pass-blue-guardian-challenge/", "statusCode": 301 },

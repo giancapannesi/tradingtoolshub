@@ -3,6 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getListicles, getToolBySlug, getCategories, getComparisons } from '../../utils/data';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export function getStaticPaths() {
   const listicles = getListicles();
@@ -13,6 +15,10 @@ export function getStaticPaths() {
 }
 
 const { listicle } = Astro.props;
+const editorialHtmlPath = path.join(process.cwd(), 'src/content/best-html', `${listicle.slug}.html`);
+const editorialHtml = fs.existsSync(editorialHtmlPath)
+  ? fs.readFileSync(editorialHtmlPath, 'utf-8')
+  : '';
 const listicleItems = listicle.tools.map(item =>
   typeof item === 'string' ? { slug: item } : item
 );
@@ -130,6 +136,10 @@ const jsonLd = [
 
     <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">{listicle.title}</h1>
     <p class="text-lg text-muted mb-8">{listicle.description}</p>
+
+    {editorialHtml && (
+      <article class="prose prose-invert max-w-none text-muted leading-relaxed mb-10 best-editorial-html" set:html={editorialHtml} />
+    )}
 
     <!-- Ranking Methodology -->
     <section class="bg-card border border-border rounded-2xl p-6 mb-10">

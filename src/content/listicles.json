@@ -111,7 +111,7 @@
     "official_sources": [
       { "title": "FTMO trading objectives", "url": "https://ftmo.com/en/trading-objectives/" },
       { "title": "Earn2Trade Trader Career Path", "url": "https://www.earn2trade.com/trader-career-path" },
-      { "title": "Apex current vs legacy products", "url": "https://apextraderfunding.com/help-center/legacy-products/legacy-products-overview/" },
+      { "title": "Apex EOD evaluation rules", "url": "https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-evaluations/" },
       { "title": "Topstep Trading Combine parameters", "url": "https://help.topstep.com/en/articles/8284197-trading-combine-parameters" },
       { "title": "The5ers High Stakes program", "url": "https://the5ers.com/high-stakes/" },
       { "title": "FundedNext program overview", "url": "https://help.fundednext.com/en/articles/11982431-how-does-fundednext-work" },
@@ -422,18 +422,38 @@
     "title": "Best Prop Firms for Futures Trading in 2026",
     "target_keyword": "best prop firms for futures",
     "category": "prop-firms",
-    "description": "Futures prop firms let you trade ES, NQ, and other contracts with firm capital \u2014 but evaluations and rules vary dramatically between providers. We compared five leading futures prop firms on evaluation cost, profit targets, drawdown rules, profit splits, and payout speed. Apex Trader Funding offers the most affordable evaluations starting at $147 with frequent discount sales. Topstep provides structured education alongside their evaluation. Earn2Trade combines education with a clear path to a funded account. Blue Guardian offers generous drawdown limits. Here is which firm gives futures traders the best chance of getting and keeping a funded account. Futures prop firms offer some of the highest profit splits in the industry \u2014 but only if you choose a firm whose rules match your trading approach.",
+    "description": "The best futures prop firm depends on drawdown mechanics, platform fit, contract limits, payout conditions, and the path beyond evaluation. This comparison prioritizes five current futures specialists: Earn2Trade, Topstep, Apex Trader Funding, My Funded Futures, and Tradeify. We distinguish end-of-day from intraday thresholds and simulated funded stages from live-account progression. Use the ranking as a shortlist, then verify the exact account rules on the provider's official help center before paying.",
+    "meta_description": "Compare five futures prop firms by drawdown model, evaluation structure, platform fit, payout path, and current official rules.",
     "tools": [
       {
         "slug": "earn2trade",
-        "editor_note": "Tradovate now integrated. Only major US futures prop firm with a published pass rate (8.89%) and a scaling ladder that takes you from $25K to $400K without re-challenging. 80/20 profit split, EOD drawdown, 10-day minimum."
+        "editor_note": "Best structured career path. Earn2Trade publishes its evaluation, LiveSim and live-account progression plus annual pass and withdrawal statistics, giving traders unusually clear evidence about the route after evaluation."
       },
-      "apex-trader-funding",
-      "topstep",
-      "blue-guardian",
-      "lux-trading-firm"
+      {
+        "slug": "topstep",
+        "editor_note": "Best focused evaluation. The standard Trading Combine uses a maximum-loss rule plus profit and consistency objectives, with a documented route into Express and Live Funded stages."
+      },
+      {
+        "slug": "apex-trader-funding",
+        "editor_note": "Best choice for comparing current EOD and Intraday formats. Apex replaced its legacy purchase options in 2026, so traders must use the current account documentation rather than older rule summaries."
+      },
+      {
+        "slug": "my-funded-futures",
+        "editor_note": "Best range of futures plan structures. My Funded Futures documents a standardized evaluation leading to simulated funding, with plan-specific payout and progression conditions."
+      },
+      {
+        "slug": "tradeify",
+        "editor_note": "Best for choosing the funded-stage payout workflow after evaluation. Tradeify's current Select and Growth evaluations use different consistency and daily-loss structures."
+      }
     ],
-    "last_updated": "2026-04-13"
+    "official_sources": [
+      { "title": "Earn2Trade Trader Career Path", "url": "https://www.earn2trade.com/trader-career-path" },
+      { "title": "Topstep Trading Combine parameters", "url": "https://help.topstep.com/en/articles/8284197-trading-combine-parameters" },
+      { "title": "Apex EOD evaluation rules", "url": "https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-evaluations/" },
+      { "title": "My Funded Futures evaluation", "url": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified" },
+      { "title": "Tradeify Select evaluation", "url": "https://help.tradeify.co/en/articles/12853921-select-evaluation-accounts" }
+    ],
+    "last_updated": "2026-07-13"
   },
   {
     "slug": "best-prop-firms-forex",
@@ -477,66 +497,117 @@
   },
   {
     "slug": "no-challenge-prop-firms",
-    "title": "Best No-Challenge Prop Firms in 2026 \u2014 Instant Funding",
+    "title": "Best No-Challenge Prop Firms in 2026",
     "target_keyword": "no challenge prop firm",
     "category": "prop-firms",
-    "description": "Not every trader wants to go through a multi-phase evaluation to get funded. No-challenge prop firms offer immediate access to capital \u2014 typically in exchange for higher fees or slightly lower profit splits. The5ers pioneered the instant funding model with their Hyper Growth plan that funds you immediately. Funded Next offers express funding options that skip the evaluation. City Traders Imperium provides direct funded accounts at various sizes. Lux Trading Firm offers tiered direct funding up to large account sizes. We compared the real cost of skipping evaluations versus the traditional challenge model to see which approach actually costs less.",
+    "description": "No-challenge and instant-funding programs remove a separate multi-phase evaluation, but they do not remove drawdown, consistency, payout, or strategy rules. Most begin with simulated capital rather than a conventional live brokerage balance. This page compares one futures-first route, Tradeify Lightning, with established CFD alternatives from The5ers, FundedNext, Blue Guardian, and City Traders Imperium. Compare usable drawdown and the cost through a realistic first payout, not the headline account size.",
+    "meta_description": "Compare five no-challenge prop programs, including a futures-first option, by simulated funding, drawdown, payout conditions, and official rules.",
     "tools": [
-      "the5ers",
-      "funded-next",
-      "city-traders-imperium",
-      "lux-trading-firm",
-      "the-funded-trader"
-    ]
+      {
+        "slug": "tradeify",
+        "editor_note": "Futures-first option. Tradeify describes Lightning as a straight-to-sim-funded account; payout eligibility still depends on its consistency and trading rules."
+      },
+      {
+        "slug": "the5ers",
+        "editor_note": "CFD/forex alternative with multiple program structures. Verify whether the selected plan actually skips evaluation and which scaling and trading restrictions apply."
+      },
+      {
+        "slug": "funded-next",
+        "editor_note": "Offers separate product tracks. Confirm the instant product, platform, country eligibility, and whether its rules differ from FundedNext's evaluation accounts."
+      },
+      {
+        "slug": "blue-guardian",
+        "editor_note": "Blue Guardian explicitly describes its instant and funded accounts as simulated accounts using virtual funds. Rules and payout conditions vary by model."
+      },
+      {
+        "slug": "city-traders-imperium",
+        "editor_note": "Mentorship-oriented CFD/forex alternative. Compare the instant plan's drawdown, profitable-day, and payout requirements with CTI's challenge routes."
+      }
+    ],
+    "official_sources": [
+      { "title": "Tradeify accounts and rules", "url": "https://help.tradeify.co/en/collections/11501721-accounts-rules" },
+      { "title": "The5ers funding programs", "url": "https://the5ers.com/high-stakes/" },
+      { "title": "FundedNext program overview", "url": "https://help.fundednext.com/en/articles/11982431-how-does-fundednext-work" },
+      { "title": "Blue Guardian general rules", "url": "https://help.blueguardian.com/en/articles/15618204-general-information-rules" },
+      { "title": "City Traders Imperium program guide", "url": "https://citytradersimperium.com/choosing-your-funding-program/" }
+    ],
+    "last_updated": "2026-07-13"
   },
   {
     "slug": "cheapest-prop-firms",
-    "title": "Cheapest Prop Trading Firms in 2026 \u2014 Lowest Evaluation Fees",
+    "title": "Cheapest Futures Prop Firms in 2026",
     "target_keyword": "cheapest prop firm",
     "category": "prop-firms",
-    "description": "Evaluation fees add up fast when you fail challenges, making the cheapest entry point a critical factor for many traders. Apex Trader Funding consistently offers the lowest futures evaluation prices, frequently running sales below $100. Topstep starts at $165 for their smallest evaluation. Earn2Trade provides affordable evaluations with educational value included in the price. The Funded Trader offers competitive rates across multiple market types. We calculated the true cost of each firm by factoring in pass rates, reset fees, and how many attempts the average trader needs \u2014 because the cheapest first attempt is not always the cheapest path to funding.",
+    "description": "The cheapest futures prop firm is not necessarily the one showing the smallest promotional fee. Compare whether access is one-time or recurring, how long the evaluation remains open, the failed-attempt or reset policy, funded-account activation, platform and data charges, usable drawdown, and the rules before the first payout. This shortlist compares Apex, My Funded Futures, Tradeify, Earn2Trade, and Topstep without relying on temporary coupons.",
+    "meta_description": "Compare five futures prop firms by total evaluation path, access model, activation, drawdown, and official fee rules—not temporary coupons.",
     "tools": [
-      "apex-trader-funding",
-      "topstep",
+      {
+        "slug": "apex-trader-funding",
+        "editor_note": "Current evaluations use one-time access periods rather than the retired legacy subscription structure. Include the Performance Account activation fee when estimating the path beyond evaluation."
+      },
+      {
+        "slug": "my-funded-futures",
+        "editor_note": "Publishes plan-specific evaluation pricing and states that current plans have no activation fee. Compare the Flex, Pro, Rapid, and Builder rules rather than price alone."
+      },
+      {
+        "slug": "tradeify",
+        "editor_note": "Offers several futures account structures with different consistency, daily-loss, and payout mechanics. Price the exact Select, Growth, or Lightning path you intend to use."
+      },
       {
         "slug": "earn2trade",
-        "editor_note": "TCP25 is just $75/mo with the 50% off promo (code ToolsTradingHub, Apr 14\u201324). Cheapest entry into a real US-based futures prop firm with a scaling ladder."
+        "editor_note": "The entry price includes educational material and a structured progression path. Its published pass and withdrawal statistics provide context that price-only tables usually omit."
       },
-      "the-funded-trader"
+      {
+        "slug": "topstep",
+        "editor_note": "Compare the Trading Combine subscription, reset choices, and funded-stage costs as one path. The smallest checkout price is not the only cost that matters."
+      }
     ],
-    "last_updated": "2026-04-13"
-  },
-  {
-    "slug": "instant-funding-prop-firms",
-    "title": "Best Instant Funding Prop Firms in 2026",
-    "target_keyword": "instant funding prop firm",
-    "category": "prop-firms",
-    "description": "Instant funding prop firms let you start trading with real capital from day one \u2014 no evaluations, no simulated trading, no waiting. The5ers offers instant funding from $6,000 to $40,000 with scaling up to $4 million. City Traders Imperium provides direct funded accounts with flexible trading rules. Funded Next has an express model that gets you funded quickly with minimal requirements. Lux Trading Firm offers high-value instant funded accounts for experienced traders. We compared each firm's instant funding costs, profit splits, scaling plans, and trading restrictions to find which firms offer the best value for traders who want to skip the challenge.",
-    "tools": [
-      "the5ers",
-      "city-traders-imperium",
-      "funded-next",
-      "lux-trading-firm",
-      "the-funded-trader"
-    ]
+    "official_sources": [
+      { "title": "Apex evaluation fees and access", "url": "https://apextraderfunding.com/help-center/billing/evaluation-plan-fees-and-access-explained/" },
+      { "title": "My Funded Futures evaluation", "url": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified" },
+      { "title": "Tradeify account rules", "url": "https://help.tradeify.co/en/collections/11501721-accounts-rules" },
+      { "title": "Earn2Trade Trader Career Path", "url": "https://www.earn2trade.com/trader-career-path" },
+      { "title": "Topstep Trading Combine parameters", "url": "https://help.topstep.com/en/articles/8284197-trading-combine-parameters" }
+    ],
+    "last_updated": "2026-07-13"
   },
   {
     "slug": "prop-firms-us-traders",
-    "title": "Best Prop Firms for US Traders in 2026 \u2014 CFTC Compliant",
+    "title": "Best Futures Prop Firms for US Traders (2026)",
     "target_keyword": "prop firms us traders",
     "category": "prop-firms",
-    "description": "US-based traders face unique restrictions when choosing prop firms due to CFTC regulations and brokerage requirements. Not all prop firms accept US clients, and those that do often have different rules for American traders. Apex Trader Funding is fully US-based and CFTC compliant. Topstep operates from Chicago with full US regulatory compliance. The5ers accepts US traders with specific account structures. Earn2Trade partners with US-regulated brokers for their funded accounts. City Traders Imperium accepts US traders with modified leverage. We verified each firm's current US acceptance policy and any specific restrictions that apply to American traders. Regulatory compliance matters \u2014 trading with a non-compliant firm as a US resident can create legal and tax complications that outweigh any profit splits.",
+    "description": "This page filters the futures prop-firm shortlist for US-based traders without making blanket claims that retail evaluation companies are CFTC-approved. Availability is separate from regulatory status and can change by product, platform, state, and account agreement. Compare Apex Trader Funding, Topstep, Earn2Trade, My Funded Futures, and Tradeify, then confirm current US eligibility, identity requirements, account type, market-data treatment, and payout documentation directly with the provider before purchase.",
+    "meta_description": "Compare five futures prop firms available to US traders, with clear eligibility cautions, account-type distinctions, and official program sources.",
     "tools": [
-      "apex-trader-funding",
+      {
+        "slug": "apex-trader-funding",
+        "editor_note": "US-accessible futures specialist with current EOD and Intraday evaluation formats. This listing describes availability, not a blanket regulatory endorsement."
+      },
+      {
+        "slug": "topstep",
+        "editor_note": "Chicago-based futures evaluation with a documented Trading Combine and funded-stage path. Confirm product availability and agreement terms during signup."
+      },
       {
         "slug": "earn2trade",
-        "editor_note": "US-based, CFTC-friendly, futures focus on CME/COMEX/NYMEX/CBOT. One of the few prop firms that publishes its pass rate. Tradovate integration new for 2026."
+        "editor_note": "US-based futures education and evaluation provider covering CME, COMEX, NYMEX, and CBOT products. Its site publishes annual pass and withdrawal statistics."
       },
-      "topstep",
-      "the5ers",
-      "city-traders-imperium"
+      {
+        "slug": "my-funded-futures",
+        "editor_note": "Futures-only evaluation provider documenting standardized evaluation rules and progression through simulated funding toward possible live trading."
+      },
+      {
+        "slug": "tradeify",
+        "editor_note": "Futures provider with Select, Growth, and straight-to-sim-funded structures. Eligibility and trading rules vary by product, so verify the selected path."
+      }
     ],
-    "last_updated": "2026-04-13"
+    "official_sources": [
+      { "title": "Apex account registration", "url": "https://apextraderfunding.com/help-center/getting-started/registering-as-a-person-or-business/" },
+      { "title": "Topstep Trading Combine parameters", "url": "https://help.topstep.com/en/articles/8284197-trading-combine-parameters" },
+      { "title": "Earn2Trade allowed instruments", "url": "https://www.earn2trade.com/trader-career-path" },
+      { "title": "My Funded Futures evaluation", "url": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified" },
+      { "title": "Tradeify accounts and rules", "url": "https://help.tradeify.co/en/collections/11501721-accounts-rules" }
+    ],
+    "last_updated": "2026-07-13"
   },
   {
     "slug": "best-options-flow-tools",
