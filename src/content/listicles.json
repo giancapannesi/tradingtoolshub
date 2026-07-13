@@ -65,25 +65,61 @@
   },
   {
     "slug": "best-prop-firms",
-    "title": "Best Prop Firms in 2026 \u2014 Top 9 Funded Trading Programs Compared",
+    "title": "Best Prop Firms in 2026: 9 Programs Compared",
     "target_keyword": "best prop firms",
     "category": "prop-firms",
-    "description": "The best prop firms are not just the ones with the biggest advertised account size. For funded traders, the real test is whether the firm has clear challenge rules, realistic drawdown limits, reliable payouts, usable platforms, and a market fit for your strategy. This 2026 comparison ranks nine prop firms across forex, futures, stock, and multi-asset programs, including FTMO, Earn2Trade, Apex Trader Funding, Topstep, The5ers, FundedNext, City Traders Imperium, Blue Guardian, and SMB Capital. Use it to shortlist the funded trading programs that are worth deeper research before paying for an evaluation. Pay special attention to daily loss limits, trailing drawdown mechanics, payout timing, consistency rules, platform restrictions, and whether the program fits the market you actually trade.",
+    "description": "The best prop firm depends first on what and how you trade. This ranking prioritizes futures programs because their exchange-traded contracts, platform choices, and drawdown mechanics fit the core TradingToolsHub audience. Earn2Trade, Topstep, and Apex lead the futures shortlist; FundedNext adds a separate futures track; FTMO and The5ers provide simulated CFD alternatives; and SMB Capital is a selective training-and-desk path rather than a normal retail challenge. We compare market fit, drawdown structure, rule clarity, payout path, platform access, and trader-development value. Always verify the exact rules for the account you intend to buy.",
+    "meta_description": "Compare 9 prop firms with a futures-first ranking, key trade-offs, decision notes, and official program sources for every shortlisted firm.",
     "tools": [
-      "ftmo",
       {
         "slug": "earn2trade",
-        "editor_note": "The only futures specialist here with a publicly disclosed pass rate and a lifetime scaling ladder. Trader Career Path takes you $25K \u2192 $400K. Tradovate now live."
+        "editor_note": "Top futures pick for a structured career path. Earn2Trade publishes its evaluation, LiveSim and live-account progression, education access, and annual pass/withdrawal statistics, making the trade-offs unusually easy to inspect."
       },
-      "apex-trader-funding",
-      "topstep",
-      "the5ers",
-      "funded-next",
-      "city-traders-imperium",
-      "blue-guardian",
-      "smb-capital"
+      {
+        "slug": "topstep",
+        "editor_note": "Best futures option for traders who value a focused evaluation and a documented route from the Trading Combine to funded stages. Its standard Combine centers on a maximum-loss rule plus profit and consistency objectives."
+      },
+      {
+        "slug": "apex-trader-funding",
+        "editor_note": "Best suited to active futures traders comparing multiple evaluation formats. Apex retired its legacy products in March 2026, so confirm that any rule summary refers to the current EOD or Intraday account rather than an older legacy plan."
+      },
+      {
+        "slug": "funded-next",
+        "editor_note": "Best for traders who want a futures program plus broader options under one brand. FundedNext documents separate futures and CFD tracks with different platforms and restrictions; this ranking focuses on its futures route."
+      },
+      {
+        "slug": "ftmo",
+        "editor_note": "Best secondary option for experienced CFD traders who want a mature 1-Step or 2-Step evaluation, clear published objectives, and a free trial. FTMO states that its Challenge and FTMO Account trading use simulated capital."
+      },
+      {
+        "slug": "the5ers",
+        "editor_note": "Best for forex and CFD traders who want a choice of evaluation styles and a long scaling path. The High Stakes program is a two-step route, while Hyper Growth and Bootcamp serve different risk and progression preferences."
+      },
+      {
+        "slug": "city-traders-imperium",
+        "editor_note": "Best fit for forex traders who want education and mentoring alongside a funding route. CTI offers challenge and instant-funding structures, so compare the drawdown method, profitable-day requirement, and payout schedule before choosing."
+      },
+      {
+        "slug": "blue-guardian",
+        "editor_note": "Best for traders who want many simulated evaluation and instant-account formats. Blue Guardian explicitly states that its funded accounts use virtual funds, and its rules vary materially across the 1-Step, 2-Step, 3-Step and instant models."
+      },
+      {
+        "slug": "smb-capital",
+        "editor_note": "Best professional-development path, but not a direct substitute for a retail challenge. SMB emphasizes equities/options training, mentoring, and selective desk opportunities; entry to its in-house program involves an interview process."
+      }
     ],
-    "last_updated": "2026-07-06"
+    "official_sources": [
+      { "title": "FTMO trading objectives", "url": "https://ftmo.com/en/trading-objectives/" },
+      { "title": "Earn2Trade Trader Career Path", "url": "https://www.earn2trade.com/trader-career-path" },
+      { "title": "Apex current vs legacy products", "url": "https://apextraderfunding.com/help-center/legacy-products/legacy-products-overview/" },
+      { "title": "Topstep Trading Combine parameters", "url": "https://help.topstep.com/en/articles/8284197-trading-combine-parameters" },
+      { "title": "The5ers High Stakes program", "url": "https://the5ers.com/high-stakes/" },
+      { "title": "FundedNext program overview", "url": "https://help.fundednext.com/en/articles/11982431-how-does-fundednext-work" },
+      { "title": "City Traders Imperium program guide", "url": "https://citytradersimperium.com/choosing-your-funding-program/" },
+      { "title": "Blue Guardian general rules", "url": "https://help.blueguardian.com/en/articles/15618204-general-information-rules" },
+      { "title": "SMB training programs", "url": "https://support.smbtraining.com/support/solutions/articles/44000879018-what-training-programs-do-you-offer-" }
+    ],
+    "last_updated": "2026-07-13"
   },
   {
     "slug": "best-trading-education",
