@@ -4,6 +4,88 @@
 
 ---
 
+## 2026-07-13 — RECOVERY PLAN CHECKPOINT
+
+### Current production evidence
+
+- `main` and `origin/main`: `9235673` (PR #12), deployed successfully to Vercel production.
+- Live/local build: 2,142 pages; live sitemap: 2,120 URLs. The intentional one-page reduction consolidates `/best/instant-funding-prop-firms/` into `/best/no-challenge-prop-firms/` with a live permanent redirect.
+- Crawl graph: 2,142/2,142 reachable, zero orphans and zero broken internal-link targets.
+- RSS: HTTP 200, 50 items / 20 blog items, latest publication 2026-07-13.
+- Comparison enrichment: 1,179/1,179 complete (100%).
+- All 20 selected `/best/` pages return HTTP 200 and render dedicated static HTML editorial bodies, correct canonicals, and no `noindex`.
+- Priority smoke and RSS health checks pass.
+- Founder intentionally paused seven TTH publishing/selection queues on 2026-07-13 while repairs are active. GSC export, URL inspection, recovery monitoring, priority smoke, feed health, quality/metadata/schema audits, and traffic/performance tracking remain active.
+- The monitor distinguishes `paused_by_founder` from missing automation and treats RSS publication age as expected while all primary publishers are deliberately paused. The new state was silently baselined; no AgentMail alert was sent.
+
+### Current GSC recovery evidence
+
+- Corrected July 13 route-family sample: 478 successful inspections out of 480, 1 indexed (homepage), 477 not indexed, 2 API errors; measured index rate 0.2%.
+- July 13 GSC performance: 7-day 1 click / 23 impressions; 28-day 3 clicks / 46 impressions; 90-day 46 clicks / 43,651 impressions.
+- The GSC sitemap entry has zero reported errors/warnings, but still shows Google's stale 1,745 submitted / 0 indexed count from its July 11 download.
+- Current severity remains critical because indexation has not recovered. This is not a site-health or monitor crash.
+- A manual `--no-alert --no-telegram` monitor run used the July 13 reports, sent no duplicate email, and intentionally exited 2 for the critical indexation condition.
+
+### Growth-plan progress
+
+- Completed: TradeZella review upgrade; best-trading-journals hub upgrade; supporting journal comparison article; crawl/internal-link/sitemap repairs; all comparison enrichment; daily publishing/indexing/monitor continuity.
+- Completed on 2026-07-13: PR #11 (`5b01287`) upgraded `/best/best-prop-firms/` with a futures-first order, nine decision notes, nine official sources, a 62-character rendered title, and a 139-character meta description. Full 2,143-page build, priority smoke test, Vercel preview, production deploy, live HTTP 200, RSS, and sitemap checks passed.
+- Completed on 2026-07-13: PR #12 (`9235673`) converted the 20 strongest `/best/` recovery targets to dedicated static HTML editorial bodies, corrected prop-firm claims/order/sources, and consolidated the duplicate instant-funding page. Full build, live production, sitemap, RSS, canonical, indexability, and redirect checks passed.
+- URL Inspection confirmed all 20 selected URLs were not indexed. They were submitted to IndexNow in exactly two batches of 10; both returned HTTP 200. Never resubmit any URL later confirmed indexed.
+- Next manual recovery block completed locally: `/review/polygon-io/`, `/review/alpha-vantage/`, `/review/reuters-eikon/`, `/compare/alpha-vantage-vs-polygon-io/`, and `/compare/bloomberg-terminal-vs-reuters-eikon/` now use dedicated static HTML editorial bodies. Pricing was rechecked against first-party sources; Eikon is correctly identified as retired and replaced by quote-based LSEG Workspace. Full 2,142-page build, title/meta, schema, crawl, priority smoke, and RSS checks pass.
+- Still pending: best-risk-management, trading-journal alternatives upgrades, and stronger cluster-level internal links.
+
+---
+
+## 2026-07-11 — INDEXATION RECOVERY, MONITORING, AND DEBUG HANDOFF
+
+Full durable record:
+`/root/.claude/projects/-srv-BusinessOps/memory/tth_session_2026_07_11.md`
+
+### Live production state
+
+- `main` and `origin/main`: `169a6a3` (PR #9).
+- Live build: 2,137 pages; sitemap: 2,115 URLs; RSS: 50 items / 20 blog items, latest 2026-07-11.
+- Crawl graph: 2,137/2,137 reachable, zero orphan pages, zero broken links.
+- Publishing, guide, RSS, full GSC export, 480-URL inspection, and recovery-monitor crons are active.
+- Current saved index sample remains critical at 1/480 indexed. Next corrected stratified run is scheduled 08:30 UTC.
+- Only dirty repo file is pre-existing user-owned `public/llms.txt`; preserve it.
+
+### Hard operating rules
+
+- Never stop TTH publishing or RSS unless the founder explicitly commands it. Current explicit exception: the seven TTH publishing/selection queues are intentionally paused during active repair; do not restart them without founder direction.
+- Alert only on material changes through AgentMail; silently baseline planned deployments.
+- Do not use Google's Indexing API for ordinary TTH pages. It is not eligible; use GSC inspection, sitemap/internal links/RSS, and IndexNow for participating engines.
+- Do not silently noindex quality problems. Improve/interlink pages and preserve the futures prop-firm strategy.
+- Do not generate more site changes while waiting for the next GSC evidence point merely to appear busy.
+
+### Unpublished branch
+
+- `agent/consolidate-koyfin-entity`, commit `8f9c06f`, exists remotely but has no PR and was never merged/deployed.
+- Do not deploy it without explicit founder approval.
+
+### Debug result
+
+- All changed Python scripts compile and behavioral tests pass.
+- All 59 expected crons are present; feed health passes.
+- Stale `dist/` from the unpublished branch was found and corrected by rebuilding from `main`; local output is back to 2,137 pages.
+- Monitor exit code `2` is currently expected because indexation is still critical, not because the monitor crashed.
+
+### IndexNow submission rule
+
+- Exclude every URL that URL Inspection confirms is already indexed.
+- Submit confirmed-not-indexed URLs and newly published blog/guide URLs in POST batches of at most 10.
+- `indexnow.py` automatically chunks larger eligible sets; mocked 23-URL test passed as 10/10/3.
+- Do not submit existing comparison pages merely because they were enriched.
+
+### PR #10 title fixes
+
+- Production is now `f46e62d` after shortening seven supplied blog `meta_title` values; live titles are 48–62 characters without ellipses and H1s are unchanged.
+- `/privacy/` is currently HTTP 200 across canonical/no-slash/www/HTTP/Bingbot checks; the webmaster 4xx report is stale.
+- Four supplied URLs confirmed not indexed were submitted as a four-URL IndexNow batch (HTTP 200). Three URLs with inconclusive API 401 evidence were excluded.
+
+---
+
 ## 2026-07-08 — CONTINUED TTH RECOVERY LOOP
 
 ### Work completed today

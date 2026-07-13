@@ -4,6 +4,7 @@ import path from 'node:path';
 export interface ToolPricing {
   has_free_tier: boolean;
   starting_price: number;
+  quote_based?: boolean;
   tiers: { name: string; price_monthly: number; price_yearly?: number; price_one_time?: number; features: string[] }[];
   currency: string;
   price_low?: number;
@@ -64,6 +65,7 @@ export interface Tool {
   similar_tools: string[];
   last_updated: string;
   review_status: string;
+  sources?: { label: string; url: string }[];
 }
 
 export interface Category {

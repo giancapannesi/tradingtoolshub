@@ -39,32 +39,56 @@
       {
         "name": "Standard",
         "price_monthly": 49.99,
-        "price_yearly": 0,
+        "price_yearly": 499,
         "features": [
           "75 requests/minute",
-          "Real-time data",
-          "All endpoints",
-          "Email support"
+          "15-minute delayed US market data",
+          "End-of-day options data",
+          "No daily request limit"
         ]
       },
       {
         "name": "Premium",
         "price_monthly": 99.99,
-        "price_yearly": 0,
+        "price_yearly": 999,
         "features": [
           "150 requests/minute",
-          "Priority support",
-          "Extended history"
+          "Real-time US market data",
+          "End-of-day options data",
+          "No daily request limit"
+        ]
+      },
+      {
+        "name": "Premium 300",
+        "price_monthly": 149.99,
+        "price_yearly": 1499,
+        "features": [
+          "300 requests/minute",
+          "Real-time US market data",
+          "End-of-day options data",
+          "No daily request limit"
+        ]
+      },
+      {
+        "name": "Premium 600",
+        "price_monthly": 199.99,
+        "price_yearly": 1999,
+        "features": [
+          "600 requests/minute",
+          "Real-time US market data",
+          "Real-time options data",
+          "No daily request limit"
         ]
       },
       {
         "name": "Enterprise",
         "price_monthly": 249.99,
-        "price_yearly": 0,
+        "price_yearly": 2499,
         "features": [
           "1,200 requests/minute",
-          "Dedicated support",
-          "SLA guarantees"
+          "Real-time US market data",
+          "Real-time options data",
+          "No daily request limit"
         ]
       }
     ],
@@ -129,10 +153,14 @@
     "polygon-io",
     "benzinga-pro"
   ],
-  "last_updated": "2026-03-30",
+  "last_updated": "2026-07-13",
   "review_status": "published",
-  "meta_title": "Alpha Vantage Review 2026: API Pricing, Pros & Cons",
-  "meta_description": "Honest Alpha Vantage review for 2026. Free tier limits, API pricing from $0-$249/mo, data quality issues, and how it compares to Polygon.io and Twelve Data.",
+  "meta_title": "Alpha Vantage Review 2026: API Pricing & Free Limits",
+  "meta_description": "Alpha Vantage review and pricing guide: 25-request free limit, $49.99-$249.99 premium plans, real-time entitlements, indicators, strengths and limits.",
+  "sources": [
+    {"label": "Alpha Vantage premium plans", "url": "https://www.alphavantage.co/premium/"},
+    {"label": "Alpha Vantage API documentation", "url": "https://www.alphavantage.co/documentation/"}
+  ],
   "company_background": "Alpha Vantage Inc. was founded in 2017 in Boston, Massachusetts, and is backed by Y Combinator. The company is an officially licensed NASDAQ US market data provider, composed of AI researchers, software developers, and financial market experts focused on democratizing access to financial data through cloud-based APIs.",
   "scraped_features": [
     "Real-time and historical stock market data",

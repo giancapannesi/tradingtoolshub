@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
 import RatingStars from '../../components/RatingStars.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import ToolCard from '../../components/ToolCard.astro';
@@ -13,6 +15,10 @@ export function getStaticPaths() {
 }
 
 const { tool } = Astro.props;
+const editorialHtmlPath = path.join(process.cwd(), 'src/content/review-html', `${tool.slug}.html`);
+const editorialHtml = fs.existsSync(editorialHtmlPath)
+  ? fs.readFileSync(editorialHtmlPath, 'utf8')
+  : '';
 const similarTools = getSimilarTools(tool, 3);
 const categories = getCategories();
 const category = categories.find(c => c.slug === tool.category);
@@ -89,7 +95,7 @@ const toolGuides = allBlogs.filter(b =>
 
 const pricingTierSummary = tool.pricing.tiers
   .slice(0, 4)
-  .map(t => `${t.name}: ${t.price_monthly === 0 ? 'Free' : `$${t.price_monthly}/mo`}`)
+  .map(t => `${t.name}: ${tool.pricing.quote_based ? 'Contact sales' : t.price_monthly === 0 ? 'Free' : `$${t.price_monthly}/mo`}`)
   .join(' | ');
 
 const strongestUseCase = tool.best_for[0] || 'traders evaluating this category';
@@ -99,7 +105,7 @@ const missingCapabilities = featureKeys
   .map(key => getFeatureLabel(key));
 
 const editorialChecks = [
-  `Pricing reviewed across ${tool.pricing.tiers.length || 1} listed plan${tool.pricing.tiers.length === 1 ? '' : 's'}: ${pricingTierSummary || (tool.pricing.starting_price === 0 ? 'Free tier available' : `from $${tool.pricing.starting_price}/mo`)}.`,
+  `Pricing reviewed across ${tool.pricing.tiers.length || 1} listed plan${tool.pricing.tiers.length === 1 ? '' : 's'}: ${pricingTierSummary || (tool.pricing.quote_based ? 'Contact sales' : tool.pricing.starting_price === 0 ? 'Free tier available' : `from $${tool.pricing.starting_price}/mo`)}.`,
   `Feature fit checked against ${featureKeys.filter(key => tool.features[key]).length} supported capability flags, including ${featureKeys.filter(key => tool.features[key]).slice(0, 4).map(key => getFeatureLabel(key)).join(', ') || 'core platform features'}.`,
   `Best-use recommendation checked against the stated audience: ${tool.best_for.join(', ') || strongestUseCase}.`,
   `Tradeoffs reviewed from the published cons list so the page does not rank tools only by headline rating.`,
@@ -159,6 +165,8 @@ const faqSchema = {
           ? tool.pricing.free_plan_answer
           : tool.pricing.has_free_tier
           ? `Yes, ${tool.name} offers a free plan. It includes ${tool.pricing.tiers[0]?.features?.slice(0, 2).join(' and ') || 'basic features'}. Upgrade to a paid plan for full access.`
+          : tool.pricing.quote_based
+          ? `No public free plan is listed for ${tool.name}. Pricing is quote-based, so buyers should contact the vendor for current terms and entitlements.`
           : `No, ${tool.name} does not currently offer a free plan. The lowest-priced plan starts at $${tool.pricing.starting_price}/month. Some plans may offer a free trial period.`
       }
     }
@@ -174,7 +182,7 @@ const jsonLd = [
     "applicationCategory": "FinanceApplication",
     "operatingSystem": "Web",
     "url": tool.website_url,
-    "offers": (() => {
+    ...(tool.pricing.quote_based ? {} : { "offers": (() => {
       const allPrices = tool.pricing.tiers.flatMap(t => [
         t.price_monthly, t.price_yearly, t.price_one_time
       ]).filter((p): p is number => typeof p === 'number' && p > 0);
@@ -186,7 +194,7 @@ const jsonLd = [
         "highPrice": String(high),
         "priceCurrency": tool.pricing.currency
       };
-    })(),
+    })() }),
     "review": {
       "@type": "Review",
       "author": { "@type": "Organization", "name": "TradingToolsHub" },
@@ -262,7 +270,7 @@ const jsonLd = [
             <dl class="space-y-2 text-sm">
               <div class="flex justify-between">
                 <dt class="text-muted">Starting Price</dt>
-                <dd class="text-text font-medium">{tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</dd>
+                <dd class="text-text font-medium">{tool.pricing.quote_based ? 'Contact sales' : tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</dd>
               </div>
               <div class="flex justify-between">
                 <dt class="text-muted">Free Tier</dt>
@@ -304,13 +312,13 @@ const jsonLd = [
     <!-- Overview -->
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
-      <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
-        repairInternalLinks(injectLinks(
-          renderDescription(),
-          tool.slug,
-          8
-        ))
-      } />
+      {editorialHtml ? (
+        <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 review-editorial-html" set:html={editorialHtml} />
+      ) : (
+        <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
+          repairInternalLinks(injectLinks(renderDescription(), tool.slug, 8))
+        } />
+      )}
     </section>
 
     <!-- Editorial Assessment -->
@@ -378,8 +386,8 @@ const jsonLd = [
             {i === 1 && <span class="text-xs font-semibold text-primary mb-2 block">Most Popular</span>}
             <h3 class="font-semibold text-text mb-1">{tier.name}</h3>
             <div class="text-2xl font-bold text-text mb-1">
-              {tier.price_monthly === 0 ? 'Free' : `$${tier.price_monthly}`}
-              {tier.price_monthly > 0 && <span class="text-sm font-normal text-muted">/mo</span>}
+              {tool.pricing.quote_based ? 'Contact sales' : tier.price_monthly === 0 ? 'Free' : `$${tier.price_monthly}`}
+              {!tool.pricing.quote_based && tier.price_monthly > 0 && <span class="text-sm font-normal text-muted">/mo</span>}
             </div>
             {tier.price_yearly > 0 && (
               <p class="text-xs text-muted mb-3">${(tier.price_yearly / 12).toFixed(2)}/mo billed yearly</p>
@@ -397,6 +405,20 @@ const jsonLd = [
         ))}
       </div>
     </section>
+
+    {tool.sources && tool.sources.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-text mb-4">First-Party Sources Checked</h2>
+        <div class="bg-card border border-border rounded-xl p-6">
+          <p class="text-sm text-muted mb-3">Product status, pricing and feature claims were checked against these vendor resources:</p>
+          <ul class="space-y-2">
+            {tool.sources.map(source => (
+              <li><a class="text-primary hover:underline" href={source.url} target="_blank" rel="noopener">{source.label} &rarr;</a></li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
 
     <!-- Features -->
     <section class="mb-10">
@@ -459,14 +481,14 @@ const jsonLd = [
             <span class="text-featured mt-0.5 shrink-0">&#9733;</span> Rated {tool.rating.toFixed(1)}/5 — best for {tool.best_for.join(', ')}
           </li>
           <li class="flex items-start gap-2 text-sm text-muted">
-            <span class="text-featured mt-0.5 shrink-0">&#36;</span> {tool.pricing.starting_price === 0 ? 'Free tier available' : `Starts at $${tool.pricing.starting_price}/month`}{tool.pricing.has_free_tier && tool.pricing.starting_price > 0 ? ' (free tier also available)' : ''}
+            <span class="text-featured mt-0.5 shrink-0">&#36;</span> {tool.pricing.quote_based ? 'Pricing available from sales' : tool.pricing.starting_price === 0 ? 'Free tier available' : `Starts at $${tool.pricing.starting_price}/month`}{tool.pricing.has_free_tier && tool.pricing.starting_price > 0 ? ' (free tier also available)' : ''}
           </li>
         </ul>
       </div>
       <div class="mt-4 bg-card/50 border border-border rounded-xl p-5">
         <h3 class="text-sm font-semibold text-text mb-2">Summary</h3>
         <p class="text-sm text-muted leading-relaxed">
-          {tool.description_short} {tool.pricing.starting_price === 0 ? `${tool.name} offers a free tier${firstPaidPrice ? `, with paid plans from $${firstPaidPrice}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} Best suited for {bestForText}.
+          {tool.description_short} {tool.pricing.quote_based ? 'Current pricing is quote-based.' : tool.pricing.starting_price === 0 ? `${tool.name} offers a free tier${firstPaidPrice ? `, with paid plans from $${firstPaidPrice}/month` : ''}.` : `Plans start at $${tool.pricing.starting_price}/month.`} Best suited for {bestForText}.
         </p>
       </div>
     </section>
