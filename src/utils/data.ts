@@ -85,6 +85,8 @@ export interface Comparison {
   target_keyword: string;
   summary: string;
   analysis?: string;
+  meta_description?: string;
+  last_updated?: string;
 }
 
 export interface Listicle {
