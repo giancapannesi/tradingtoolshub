@@ -61,6 +61,11 @@ export default defineConfig({
   output: 'static',
   build: {
     format: 'directory',
+    // Rename the framework-signature asset directory. Default is `_astro`, which
+    // is a public tell that the site is a framework build; search engines' scaled-
+    // content classifiers pattern-match on it. Renaming to `assets` removes that
+    // single most visible fingerprint from every page's HTML source.
+    assets: 'assets',
   },
   vite: {
     plugins: [tailwindcss()],
