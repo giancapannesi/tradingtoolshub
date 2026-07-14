@@ -17,8 +17,10 @@ import {
   AFFILIATE_DISCLOSURE_VARIANTS,
   COMPARE_METHOD_NOTES,
   COMPARE_ARTICLE_TYPES,
+  FEATURE_COMPARISON_HEADINGS,
   buildCompareMeta,
   buildCompareFaq,
+  getCompareSectionOrder,
 } from '../../utils/variant';
 
 export function getStaticPaths() {
@@ -53,11 +55,18 @@ const comparisonUpdated = [toolA.last_updated, toolB.last_updated].filter(Boolea
 const editorialHeading = toolA.category && toolA.category === toolB.category
   ? (COMPARE_EDITORIAL_HEADINGS[toolA.category] || 'In-Depth Comparison')
   : 'Cross-Category Comparison';
+const featureComparisonHeading = toolA.category && toolA.category === toolB.category
+  ? (FEATURE_COMPARISON_HEADINGS[toolA.category] || 'Feature Comparison')
+  : 'Feature Comparison';
 const quickVerdictHeading = pickVariant(comparison.slug + ':qv', QUICK_VERDICT_HEADINGS);
 const exploreMoreHeading = pickVariant(comparison.slug + ':em', EXPLORE_MORE_HEADINGS);
 const alsoCompareHeading = pickVariant(comparison.slug + ':ac', ALSO_COMPARE_HEADINGS);
 const bodyDisclosure = pickVariant(comparison.slug + ':disc', AFFILIATE_DISCLOSURE_VARIANTS);
 const methodNote = pickVariant(comparison.slug + ':method', COMPARE_METHOD_NOTES);
+// Section order preset — table-first for broker/prop-firm/data categories,
+// story-first (default) for journals/education/etc. Breaks the identical-
+// section-sequence structural fingerprint across the comparison base.
+const sectionOrder = getCompareSectionOrder(toolA.category);
 
 // Related guides for either tool
 const allBlogs = getBlogPosts();
@@ -198,71 +207,77 @@ const jsonLd = [
       </div>
     </div>
 
-    <!-- Quick Verdict -->
-    <div class="bg-card border border-border rounded-2xl p-6 mb-10">
-      <h2 class="text-xl font-bold text-text mb-4">{quickVerdictHeading}</h2>
-      <div class="grid md:grid-cols-2 gap-4">
-        <div class="bg-bg rounded-xl p-4">
-          <p class="text-sm text-muted mb-1">Higher Rated</p>
-          <p class="font-semibold text-text">{winner.name} <span class="text-featured">({winner.rating.toFixed(1)})</span></p>
-        </div>
-        <div class="bg-bg rounded-xl p-4">
-          <p class="text-sm text-muted mb-1">More Affordable</p>
-          <p class="font-semibold text-text">{cheaper.name} <span class="text-positive">({cheaper.pricing.starting_price === 0 ? 'Free' : `$${cheaper.pricing.starting_price}/mo`})</span></p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Head-to-Head Cards -->
-    <div class="grid md:grid-cols-2 gap-4 mb-10">
-      {[toolA, toolB].map(tool => (
-        <div class="bg-card border border-border rounded-xl p-6">
-          <h3 class="text-xl font-bold text-text mb-2">{tool.name}</h3>
-          <RatingStars rating={tool.rating} />
-          <p class="text-sm text-muted mt-3 mb-4">{tool.description_short}</p>
-          <div class="text-sm">
-            <span class="text-muted">From: </span>
-            <span class="text-text font-medium">{tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</span>
+    {/* Category-driven section order. Broker/prop-firm/data categories render
+        the feature-comparison TABLE before the editorial (buyers scan tables);
+        journal/education/story-first categories render editorial first. */}
+    {sectionOrder.map((key) => {
+      if (key === 'quickVerdict') return (
+        <div class="bg-card border border-border rounded-2xl p-6 mb-10">
+          <h2 class="text-xl font-bold text-text mb-4">{quickVerdictHeading}</h2>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-bg rounded-xl p-4">
+              <p class="text-sm text-muted mb-1">Higher Rated</p>
+              <p class="font-semibold text-text">{winner.name} <span class="text-featured">({winner.rating.toFixed(1)})</span></p>
+            </div>
+            <div class="bg-bg rounded-xl p-4">
+              <p class="text-sm text-muted mb-1">More Affordable</p>
+              <p class="font-semibold text-text">{cheaper.name} <span class="text-positive">({cheaper.pricing.starting_price === 0 ? 'Free' : `$${cheaper.pricing.starting_price}/mo`})</span></p>
+            </div>
           </div>
-          <a href={`/review/${tool.slug}/`} class="inline-flex items-center mt-4 text-sm text-primary hover:text-primary-hover transition-colors">
-            Full review &rarr;
-          </a>
         </div>
-      ))}
-    </div>
-
-    <!-- Editorial Analysis -->
-    {(comparisonHtml || comparison.analysis) && (
-      <section class="mb-10">
-        <h2 class="text-2xl font-bold text-text mb-4">{editorialHeading}</h2>
-        <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
-          {comparisonHtml ? (
-            <article class="article-content compare-editorial-html" set:html={comparisonHtml} />
-          ) : (
-            <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
-          )}
+      );
+      if (key === 'headToHead') return (
+        <div class="grid md:grid-cols-2 gap-4 mb-10">
+          {[toolA, toolB].map(tool => (
+            <div class="bg-card border border-border rounded-xl p-6">
+              <h3 class="text-xl font-bold text-text mb-2">{tool.name}</h3>
+              <RatingStars rating={tool.rating} />
+              <p class="text-sm text-muted mt-3 mb-4">{tool.description_short}</p>
+              <div class="text-sm">
+                <span class="text-muted">From: </span>
+                <span class="text-text font-medium">{tool.pricing.starting_price === 0 ? 'Free' : `$${tool.pricing.starting_price}/mo`}</span>
+              </div>
+              <a href={`/review/${tool.slug}/`} class="inline-flex items-center mt-4 text-sm text-primary hover:text-primary-hover transition-colors">
+                Full review &rarr;
+              </a>
+            </div>
+          ))}
         </div>
-      </section>
-    )}
-
-    <!-- Feature Comparison -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-bold text-text mb-4">Feature Comparison</h2>
-      <div class="bg-card border border-border rounded-xl overflow-hidden">
-        <ComparisonTable toolA={toolA} toolB={toolB} />
-      </div>
-    </section>
-
-    <!-- Pros & Cons Side by Side -->
-    <section class="mb-10">
-      <h2 class="text-2xl font-bold text-text mb-4">{toolA.name}: Pros & Cons</h2>
-      <ProsCons pros={toolA.pros} cons={toolA.cons} />
-    </section>
-
-    <section class="mb-10">
-      <h2 class="text-2xl font-bold text-text mb-4">{toolB.name}: Pros & Cons</h2>
-      <ProsCons pros={toolB.pros} cons={toolB.cons} />
-    </section>
+      );
+      if (key === 'editorial' && (comparisonHtml || comparison.analysis)) return (
+        <section class="mb-10">
+          <h2 class="text-2xl font-bold text-text mb-4">{editorialHeading}</h2>
+          <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
+            {comparisonHtml ? (
+              <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 compare-editorial-html" set:html={comparisonHtml} />
+            ) : (
+              <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
+            )}
+          </div>
+        </section>
+      );
+      if (key === 'featureComparison') return (
+        <section class="mb-10">
+          <h2 class="text-2xl font-bold text-text mb-4">{featureComparisonHeading}</h2>
+          <div class="bg-card border border-border rounded-xl overflow-hidden">
+            <ComparisonTable toolA={toolA} toolB={toolB} />
+          </div>
+        </section>
+      );
+      if (key === 'prosConsA') return (
+        <section class="mb-10">
+          <h2 class="text-2xl font-bold text-text mb-4">{toolA.name}: Pros & Cons</h2>
+          <ProsCons pros={toolA.pros} cons={toolA.cons} />
+        </section>
+      );
+      if (key === 'prosConsB') return (
+        <section class="mb-10">
+          <h2 class="text-2xl font-bold text-text mb-4">{toolB.name}: Pros & Cons</h2>
+          <ProsCons pros={toolB.pros} cons={toolB.cons} />
+        </section>
+      );
+      return null;
+    })}
 
     <!-- Related Guides -->
     {relatedGuides.length > 0 && (
