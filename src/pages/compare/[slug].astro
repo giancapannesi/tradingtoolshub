@@ -35,6 +35,31 @@ const comparablePrice = (tool: any) => tool.pricing.quote_based ? Infinity : (to
 const cheaper = comparablePrice(toolA) <= comparablePrice(toolB) ? toolA : toolB;
 const comparisonUpdated = [toolA.last_updated, toolB.last_updated].filter(Boolean).sort().at(-1);
 
+// Vary the editorial section heading per category so the comparison base
+// doesn't share a verbatim H2 across 1,179 pages (fingerprint reduction).
+const editorialHeadings: Record<string, string> = {
+  'brokers-us': 'Broker Head-to-Head',
+  'brokers-forex': 'Forex Broker Head-to-Head',
+  'brokers': 'Broker Head-to-Head',
+  'options-platforms': 'Options-Trading Head-to-Head',
+  'futures-platforms': 'Futures-Platform Head-to-Head',
+  'charting-platforms': 'Charting Head-to-Head',
+  'trading-journals': 'Journal Head-to-Head',
+  'stock-screeners': 'Screener Head-to-Head',
+  'trading-bots': 'Bot Head-to-Head',
+  'trading-indicators': 'Indicator Head-to-Head',
+  'order-flow-tools': 'Order-Flow Head-to-Head',
+  'news-data-feeds': 'Market-Data Head-to-Head',
+  'trading-education': 'Trading-Education Head-to-Head',
+  'prop-firms': 'Prop-Firm Head-to-Head',
+  'risk-management': 'Risk-Management Head-to-Head',
+  'ai-trading-tools': 'AI-Tools Head-to-Head',
+  'trading-platforms': 'Trading-Platform Head-to-Head',
+};
+const editorialHeading = toolA.category && toolA.category === toolB.category
+  ? (editorialHeadings[toolA.category] || 'In-Depth Comparison')
+  : 'Cross-Category Comparison';
+
 // Related guides for either tool
 const allBlogs = getBlogPosts();
 const relatedGuides = allBlogs.filter(b =>
@@ -203,7 +228,7 @@ const jsonLd = [
     <!-- Editorial Analysis -->
     {(comparisonHtml || comparison.analysis) && (
       <section class="mb-10">
-        <h2 class="text-2xl font-bold text-text mb-4">Data-Assisted Analysis</h2>
+        <h2 class="text-2xl font-bold text-text mb-4">{editorialHeading}</h2>
         <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
           {comparisonHtml ? (
             <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 compare-editorial-html" set:html={comparisonHtml} />
