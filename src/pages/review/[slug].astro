@@ -8,6 +8,7 @@ import ToolCard from '../../components/ToolCard.astro';
 import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCategories, getComparisons, getListicles, getBlogPosts } from '../../utils/data';
 import { injectLinks } from '../../utils/inline-linker';
 import { repairInternalLinks } from '../../utils/internal-links';
+import { pickVariant, SIMILAR_TOOLS_HEADINGS, AFFILIATE_DISCLOSURE_VARIANTS } from '../../utils/variant';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -15,6 +16,8 @@ export function getStaticPaths() {
 }
 
 const { tool } = Astro.props;
+const similarToolsHeading = pickVariant(tool.slug + ':st', SIMILAR_TOOLS_HEADINGS);
+const bodyDisclosure = pickVariant(tool.slug + ':disc', AFFILIATE_DISCLOSURE_VARIANTS);
 const editorialHtmlPath = path.join(process.cwd(), 'src/content/review-html', `${tool.slug}.html`);
 const editorialHtml = fs.existsSync(editorialHtmlPath)
   ? fs.readFileSync(editorialHtmlPath, 'utf8')
@@ -592,7 +595,7 @@ const jsonLd = [
     <!-- Similar Tools -->
     {similarTools.length > 0 && (
       <section class="mb-10">
-        <h2 class="text-2xl font-bold text-text mb-4">Similar Tools</h2>
+        <h2 class="text-2xl font-bold text-text mb-4">{similarToolsHeading}</h2>
         <div class="grid md:grid-cols-3 gap-4">
           {similarTools.map(t => (
             <ToolCard
@@ -628,7 +631,7 @@ const jsonLd = [
 
     <!-- Affiliate Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
-      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you. This helps us keep TradingToolsHub free and our reviews independent.
+      {bodyDisclosure}
     </div>
   </div>
 </BaseLayout>
