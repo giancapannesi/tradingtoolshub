@@ -8,6 +8,15 @@ import RatingStars from '../../components/RatingStars.astro';
 import { getComparisons, getToolBySlug, getListicles, getBlogPosts } from '../../utils/data';
 import { injectLinks } from '../../utils/inline-linker';
 import { repairInternalLinks } from '../../utils/internal-links';
+import {
+  pickVariant,
+  COMPARE_EDITORIAL_HEADINGS,
+  QUICK_VERDICT_HEADINGS,
+  EXPLORE_MORE_HEADINGS,
+  ALSO_COMPARE_HEADINGS,
+  AFFILIATE_DISCLOSURE_VARIANTS,
+  COMPARE_METHOD_NOTES,
+} from '../../utils/variant';
 
 export function getStaticPaths() {
   const comparisons = getComparisons();
@@ -34,6 +43,18 @@ const loser = winner === toolA ? toolB : toolA;
 const comparablePrice = (tool: any) => tool.pricing.quote_based ? Infinity : (tool.pricing.starting_price ?? Infinity);
 const cheaper = comparablePrice(toolA) <= comparablePrice(toolB) ? toolA : toolB;
 const comparisonUpdated = [toolA.last_updated, toolB.last_updated].filter(Boolean).sort().at(-1);
+
+// Per-page section headings & disclosure copy. Seeded by slug so each page
+// gets deterministic-but-different boilerplate, killing the verbatim-across-
+// the-comparison-base fingerprint.
+const editorialHeading = toolA.category && toolA.category === toolB.category
+  ? (COMPARE_EDITORIAL_HEADINGS[toolA.category] || 'In-Depth Comparison')
+  : 'Cross-Category Comparison';
+const quickVerdictHeading = pickVariant(comparison.slug + ':qv', QUICK_VERDICT_HEADINGS);
+const exploreMoreHeading = pickVariant(comparison.slug + ':em', EXPLORE_MORE_HEADINGS);
+const alsoCompareHeading = pickVariant(comparison.slug + ':ac', ALSO_COMPARE_HEADINGS);
+const bodyDisclosure = pickVariant(comparison.slug + ':disc', AFFILIATE_DISCLOSURE_VARIANTS);
+const methodNote = pickVariant(comparison.slug + ':method', COMPARE_METHOD_NOTES);
 
 // Related guides for either tool
 const allBlogs = getBlogPosts();
@@ -154,22 +175,17 @@ const jsonLd = [
     <p class="text-lg text-muted mb-8">{comparison.summary || `A detailed comparison of ${toolA.name} and ${toolB.name} to help you make the right choice.`}</p>
 
     <div class="bg-card/60 border border-border rounded-xl p-5 mb-8 text-sm text-muted leading-relaxed">
-      <p>
-        <strong class="text-text">How this comparison was produced:</strong>
-        TradingToolsHub combines structured product records with AI-assisted analysis. It does not mean we personally tested every feature described.
-        Data was last checked through {comparisonUpdated || 'the dates shown in each full review'}.
-        <a href="/methodology/" class="text-primary hover:underline">Read our methodology.</a>
-      </p>
-      <div class="flex flex-wrap gap-x-4 gap-y-2 mt-3">
+      <p>{methodNote} <a href="/methodology/" class="text-primary hover:underline">Methodology &rarr;</a></p>
+      <div class="flex flex-wrap gap-x-4 gap-y-2 mt-3 text-xs">
         <a href={toolA.website_url} target="_blank" rel="nofollow noopener" class="text-primary hover:underline">Official {toolA.name} source &rarr;</a>
         <a href={toolB.website_url} target="_blank" rel="nofollow noopener" class="text-primary hover:underline">Official {toolB.name} source &rarr;</a>
+        {comparisonUpdated && <span class="text-muted">Data checked through {comparisonUpdated}.</span>}
       </div>
-      <p class="mt-3 text-xs">Prices, platform features, and trading terms can change. Confirm time-sensitive details with each provider before purchasing.</p>
     </div>
 
     <!-- Quick Verdict -->
     <div class="bg-card border border-border rounded-2xl p-6 mb-10">
-      <h2 class="text-xl font-bold text-text mb-4">Quick Verdict</h2>
+      <h2 class="text-xl font-bold text-text mb-4">{quickVerdictHeading}</h2>
       <div class="grid md:grid-cols-2 gap-4">
         <div class="bg-bg rounded-xl p-4">
           <p class="text-sm text-muted mb-1">Higher Rated</p>
@@ -203,7 +219,7 @@ const jsonLd = [
     <!-- Editorial Analysis -->
     {(comparisonHtml || comparison.analysis) && (
       <section class="mb-10">
-        <h2 class="text-2xl font-bold text-text mb-4">Data-Assisted Analysis</h2>
+        <h2 class="text-2xl font-bold text-text mb-4">{editorialHeading}</h2>
         <div class="bg-card border border-border rounded-2xl p-6 md:p-8">
           {comparisonHtml ? (
             <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 compare-editorial-html" set:html={comparisonHtml} />
@@ -256,7 +272,7 @@ const jsonLd = [
 
     <!-- Explore More -->
     <section class="mb-10">
-      <h2 class="text-2xl font-bold text-text mb-4">Explore More</h2>
+      <h2 class="text-2xl font-bold text-text mb-4">{exploreMoreHeading}</h2>
       <div class="grid sm:grid-cols-2 gap-3">
         <a href={`/review/${toolA.slug}/`} class="flex items-center gap-3 p-4 bg-card border border-border rounded-xl hover:border-primary/50 transition-colors">
           <span class="text-sm text-text font-medium">{toolA.name} Full Review</span>
@@ -308,7 +324,7 @@ const jsonLd = [
     <!-- Also Compare -->
     {alsoCompare.length > 0 && (
       <section class="mb-10">
-        <h2 class="text-2xl font-bold text-text mb-4">Also Compare</h2>
+        <h2 class="text-2xl font-bold text-text mb-4">{alsoCompareHeading}</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {alsoCompare.map(c => {
             const cToolA = getToolBySlug(c.tool_a);
@@ -333,7 +349,7 @@ const jsonLd = [
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
-      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you.
+      {bodyDisclosure}
     </div>
   </div>
 </BaseLayout>

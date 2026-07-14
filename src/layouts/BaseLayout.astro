@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { pickVariant, FOOTER_DISCLOSURE_VARIANTS } from '../utils/variant';
 
 interface Props {
   title: string;
@@ -12,6 +13,8 @@ interface Props {
 
 const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const siteUrl = 'https://tradingtoolshub.com';
+// Footer disclosure rotates per URL path so it's not verbatim on all 2,142 pages.
+const footerDisclosure = pickVariant(Astro.url.pathname, FOOTER_DISCLOSURE_VARIANTS);
 function clampWords(value: string, maxLength: number) {
   const clean = String(value || '').replace(/\s+/g, ' ').trim();
   if (clean.length <= maxLength) return clean;
@@ -156,9 +159,7 @@ const imageAlt = `${fullTitle} preview image`;
       </div>
       <div class="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
         <p class="text-sm text-muted">&copy; 2026 TradingToolsHub. All rights reserved.</p>
-        <p class="text-xs text-muted max-w-lg text-center sm:text-right">
-          Affiliate Disclosure: Some links on this site are affiliate links. We may earn a commission at no extra cost to you. This helps us keep the site running and the reviews honest.
-        </p>
+        <p class="text-xs text-muted max-w-lg text-center sm:text-right">{footerDisclosure}</p>
       </div>
     </div>
   </footer>
