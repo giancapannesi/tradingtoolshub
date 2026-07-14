@@ -126,3 +126,160 @@ export const COMPARE_METHOD_NOTES: readonly string[] = [
   'Data below reflects each vendor\'s official docs at time of writing. Pricing, features, and account terms can change; check the source of truth on each provider\'s site.',
   'Fees, feature availability, and plan details come from each provider\'s current documentation. If you\'re about to act on this, confirm the specific numbers on the vendor\'s site first.',
 ];
+
+// -- Compare meta-description template shapes. Each takes the same context
+// object and returns a different sentence structure. Rotating the SHAPE (not
+// just the words) is what breaks the "all pages have the same meta pattern"
+// signature that shows up in the SERPs.
+export interface CompareMetaContext {
+  toolAName: string;
+  toolBName: string;
+  toolARating: number;
+  toolBRating: number;
+  toolAPrice: string;
+  toolBPrice: string;
+  winnerName: string;
+  cheaperName: string;
+  cheaperPrice: string;
+  winnerEdge: string; // e.g. "options depth" or "" if none
+  category: string;
+}
+
+function trimToLimit(text: string, limit = 155): string {
+  const clean = text.replace(/\s+/g, ' ').trim();
+  if (clean.length <= limit) return clean;
+  const cut = clean.slice(0, limit - 3);
+  const lastSpace = cut.lastIndexOf(' ');
+  return `${(lastSpace > 40 ? cut.slice(0, lastSpace) : cut).replace(/[,:;\-\s]+$/, '')}...`;
+}
+
+export const COMPARE_META_TEMPLATES: readonly ((ctx: CompareMetaContext) => string)[] = [
+  // Shape A — rating + price parenthetical for both, brief winner nod.
+  (c) => `${c.toolAName} (${c.toolARating.toFixed(1)}★, ${c.toolAPrice}) vs ${c.toolBName} (${c.toolBRating.toFixed(1)}★, ${c.toolBPrice})${c.winnerEdge ? ` — ${c.winnerName} wins on ${c.winnerEdge}.` : '.'}`,
+  // Shape B — plain sentence with cheaper/winner call-outs.
+  (c) => c.winnerName === c.cheaperName
+    ? `${c.toolAName} vs ${c.toolBName}: ${c.winnerName} leads on rating and cost (${c.cheaperPrice}). Feature-by-feature breakdown inside.`
+    : `${c.toolAName} vs ${c.toolBName}: ${c.winnerName} rates higher, ${c.cheaperName} costs less (${c.cheaperPrice}). Feature breakdown inside.`,
+  // Shape C — question-oriented CTR hook.
+  (c) => `Which is better, ${c.toolAName} or ${c.toolBName}? Fees, features, ratings, and which trader profile each is best for — side by side.`,
+  // Shape D — pricing-lead framing.
+  (c) => `${c.toolAName} costs ${c.toolAPrice}; ${c.toolBName} costs ${c.toolBPrice}. Compare their feature sets, ratings, and best-fit use cases before you choose.`,
+  // Shape E — winner-lead framing.
+  (c) => c.winnerEdge
+    ? `${c.winnerName} beats the other on ${c.winnerEdge}; the loser wins on cost or scope. Full ${c.toolAName} vs ${c.toolBName} comparison inside.`
+    : `${c.toolAName} vs ${c.toolBName}: features, pricing, and ratings compared. See which fits your setup.`,
+  // Shape F — practical / plain-English.
+  (c) => `Deciding between ${c.toolAName} and ${c.toolBName}? Side-by-side pricing (${c.toolAPrice} vs ${c.toolBPrice}), ratings, and which one suits your trading style.`,
+];
+
+export function buildCompareMeta(seed: string, ctx: CompareMetaContext): string {
+  const shape = pickVariant(seed + ':meta', COMPARE_META_TEMPLATES);
+  return trimToLimit(shape(ctx));
+}
+
+// -- FAQ question-set templates for compare pages. Rotating the whole SET
+// varies which 3 questions appear + their phrasing. Kills the
+// "every compare page has these exact three questions in this order" pattern.
+export interface FaqContext {
+  toolAName: string;
+  toolBName: string;
+  toolADescriptionShort: string;
+  toolBDescriptionShort: string;
+  toolAPricing: string;
+  toolBPricing: string;
+  cheaperName: string;
+  cheaperText: string;
+  winnerName: string;
+  winnerRating: number;
+  loserName: string;
+  loserRating: number;
+  ratingsEqual: boolean;
+  pricingAnswer: string;
+}
+
+export const COMPARE_FAQ_TEMPLATES: readonly ((c: FaqContext) => { name: string; text: string }[])[] = [
+  // Set A — difference / cheaper / rated (the classic).
+  (c) => [
+    { name: `What is the difference between ${c.toolAName} and ${c.toolBName}?`,
+      text: `${c.toolAName} is ${c.toolADescriptionShort} ${c.toolBName} is ${c.toolBDescriptionShort} The main differences are features, pricing, and audience — see the head-to-head above for the specific decision points.` },
+    { name: `Which is cheaper, ${c.toolAName} or ${c.toolBName}?`, text: c.pricingAnswer },
+    { name: `Which has a higher rating, ${c.toolAName} or ${c.toolBName}?`,
+      text: c.ratingsEqual
+        ? `${c.toolAName} and ${c.toolBName} carry the same TradingToolsHub rating of ${c.winnerRating.toFixed(1)}/5. The right pick depends on your workflow, not the overall score.`
+        : `${c.winnerName} is rated ${c.winnerRating.toFixed(1)}/5, higher than ${c.loserName} at ${c.loserRating.toFixed(1)}/5. Ratings weigh features, ease of use, value, reliability, and support.` },
+  ],
+  // Set B — better-for / cheaper / who-should-choose.
+  (c) => [
+    { name: `Which is better for most traders, ${c.toolAName} or ${c.toolBName}?`,
+      text: `${c.toolAName} is ${c.toolADescriptionShort} ${c.toolBName} is ${c.toolBDescriptionShort} There isn't a single winner — the head-to-head breakdown above shows which fits which trader profile.` },
+    { name: `Is ${c.cheaperName} the cheaper option?`, text: c.pricingAnswer },
+    { name: `Who should choose ${c.winnerName} over ${c.loserName}?`,
+      text: c.ratingsEqual
+        ? `Both platforms rate at ${c.winnerRating.toFixed(1)}/5. Choose ${c.winnerName} if its feature set matches your workflow better; otherwise ${c.loserName} may be a cleaner fit.`
+        : `${c.winnerName} rates higher (${c.winnerRating.toFixed(1)}/5 vs ${c.loserRating.toFixed(1)}/5) and is the stronger pick when features and reliability outweigh price. If cost matters more than feature depth, ${c.loserName} is still worth a look.` },
+  ],
+  // Set C — pricing-lead + free-tier + fit.
+  (c) => [
+    { name: `How much does ${c.toolAName} cost compared to ${c.toolBName}?`, text: c.pricingAnswer },
+    { name: `Does ${c.toolAName} or ${c.toolBName} have a free plan?`,
+      text: `${c.toolAName} pricing is ${c.toolAPricing}; ${c.toolBName} pricing is ${c.toolBPricing}. Check each provider's site for the current free tier limits before signing up.` },
+    { name: `Which platform is right for me?`,
+      text: `${c.toolAName} is ${c.toolADescriptionShort} ${c.toolBName} is ${c.toolBDescriptionShort} The comparison sections above walk through fit by use case.` },
+  ],
+  // Set D — feature-lead + ratings + practical.
+  (c) => [
+    { name: `What are the main feature differences between ${c.toolAName} and ${c.toolBName}?`,
+      text: `${c.toolAName} is ${c.toolADescriptionShort} ${c.toolBName} is ${c.toolBDescriptionShort} The feature comparison table on this page lays out every capability side by side.` },
+    { name: `Which is rated higher on TradingToolsHub?`,
+      text: c.ratingsEqual
+        ? `Both are rated ${c.winnerRating.toFixed(1)}/5. Ratings tie, so pick by workflow fit, not by score.`
+        : `${c.winnerName} sits at ${c.winnerRating.toFixed(1)}/5, ${c.loserName} at ${c.loserRating.toFixed(1)}/5. The gap comes mostly from ease-of-use, feature depth, and value.` },
+    { name: `Should I try ${c.toolAName} or ${c.toolBName} first?`, text: c.pricingAnswer },
+  ],
+];
+
+export function buildCompareFaq(seed: string, ctx: FaqContext) {
+  return pickVariant(seed + ':faq', COMPARE_FAQ_TEMPLATES)(ctx);
+}
+
+// -- JSON-LD schema @type rotation for compare pages. The default was
+// Article + BreadcrumbList + FAQPage on every page. Rotating the Article
+// type between Article / Review / TechArticle removes the "same three schema
+// types in the same order" pattern.
+export const COMPARE_ARTICLE_TYPES: readonly string[] = [
+  'Article',
+  'Review',
+  'TechArticle',
+  'Article',
+];
+
+// -- Alternatives meta-description template shapes. 187 pages previously
+// shared the same sentence structure ("Best X alternatives for 2026: A, B, C.
+// TopRated leads. Cheapest is Y.") — rotating shape breaks the pattern.
+export interface AltMetaContext {
+  toolName: string;
+  altNames: string;
+  topRatedName: string;
+  topRatedRating: number;
+  cheapestName: string;
+  cheapestLabel: string;
+  altCount: number;
+}
+
+export const ALT_META_TEMPLATES: readonly ((c: AltMetaContext) => string)[] = [
+  // Shape A — original list + leader + cheapest.
+  (c) => `Best ${c.toolName} alternatives for 2026: ${c.altNames}, and more. ${c.topRatedName} leads at ${c.topRatedRating.toFixed(1)}★. Cheapest: ${c.cheapestName} (${c.cheapestLabel}). Side-by-side breakdown.`,
+  // Shape B — top-rated lead framing.
+  (c) => `${c.altCount} strong alternatives to ${c.toolName}, ranked. ${c.topRatedName} sits at ${c.topRatedRating.toFixed(1)}★; ${c.cheapestName} is the cheapest at ${c.cheapestLabel}. Fees, features, ratings compared.`,
+  // Shape C — practical / decision-oriented.
+  (c) => `Looking for a ${c.toolName} alternative? The ${c.altCount} strongest options include ${c.altNames}. Compare pricing (from ${c.cheapestLabel}), ratings, and best-fit use cases.`,
+  // Shape D — cheapest-lead framing.
+  (c) => `${c.cheapestName} is the cheapest ${c.toolName} alternative at ${c.cheapestLabel}; ${c.topRatedName} rates highest at ${c.topRatedRating.toFixed(1)}★. See all ${c.altCount} options compared side-by-side.`,
+  // Shape E — question hook.
+  (c) => `Is ${c.toolName} not right for you? ${c.altCount} alternatives with side-by-side pricing, ratings, and pros/cons — ${c.topRatedName}, ${c.cheapestName}, and more.`,
+];
+
+export function buildAltMeta(seed: string, ctx: AltMetaContext): string {
+  const shape = pickVariant(seed + ':altmeta', ALT_META_TEMPLATES);
+  return trimToLimit(shape(ctx));
+}
