@@ -16,6 +16,9 @@ import {
   ALSO_COMPARE_HEADINGS,
   AFFILIATE_DISCLOSURE_VARIANTS,
   COMPARE_METHOD_NOTES,
+  COMPARE_ARTICLE_TYPES,
+  buildCompareMeta,
+  buildCompareFaq,
 } from '../../utils/variant';
 
 export function getStaticPaths() {
@@ -75,11 +78,23 @@ const alsoCompare = allComparisons
   )
   .slice(0, 6);
 
-// Data-driven meta description for better CTR
+// Data-driven meta description for better CTR — rotated across 6 sentence
+// shapes so no single template repeats verbatim across the comparison base.
 const fmtPrice = (t: any) => t.pricing.quote_based ? 'quote-based' : t.pricing.starting_price === 0 ? 'Free' : `$${t.pricing.starting_price}/mo`;
-const winnerEdge = winner.pros[0] ? ` ${winner.name} wins on ${winner.pros[0].toLowerCase().replace(/\.$/, '')}.` : '';
-const rawMeta = `${toolA.name} (${toolA.rating.toFixed(1)}★, ${fmtPrice(toolA)}) vs ${toolB.name} (${toolB.rating.toFixed(1)}★, ${fmtPrice(toolB)}) —${winnerEdge}`;
-const metaDescription = rawMeta.length > 155 ? rawMeta.slice(0, 152) + '...' : rawMeta;
+const winnerEdgePhrase = winner.pros[0] ? winner.pros[0].toLowerCase().replace(/\.$/, '') : '';
+const metaDescription = buildCompareMeta(comparison.slug, {
+  toolAName: toolA.name,
+  toolBName: toolB.name,
+  toolARating: toolA.rating,
+  toolBRating: toolB.rating,
+  toolAPrice: fmtPrice(toolA),
+  toolBPrice: fmtPrice(toolB),
+  winnerName: winner.name,
+  cheaperName: cheaper.name,
+  cheaperPrice: cheaper.pricing.starting_price === 0 ? 'free' : `$${cheaper.pricing.starting_price}/mo`,
+  winnerEdge: winnerEdgePhrase,
+  category: toolA.category || '',
+});
 
 // Build FAQ answers dynamically from tool data
 const pricingA = toolA.pricing.quote_based ? 'quote-based' : toolA.pricing.starting_price === 0 ? 'free' : `$${toolA.pricing.starting_price}/mo`;
@@ -96,41 +111,41 @@ const ratingAnswer = toolA.rating === toolB.rating
   ? `Both ${toolA.name} and ${toolB.name} are rated ${toolA.rating.toFixed(1)}/5 on TradingToolsHub. The best choice depends on your specific trading needs and preferred features.`
   : `${winner.name} has a higher rating of ${winner.rating.toFixed(1)}/5 compared to ${(winner === toolA ? toolB : toolA).name}'s ${(winner === toolA ? toolB : toolA).rating.toFixed(1)}/5. Ratings are based on features, ease of use, value for money, platform reliability, and customer support.`;
 
+// FAQ question SETS rotate — kills the "every compare page has these three
+// questions in this order" schema fingerprint.
+const faqQuestions = buildCompareFaq(comparison.slug, {
+  toolAName: toolA.name,
+  toolBName: toolB.name,
+  toolADescriptionShort: toolA.description_short,
+  toolBDescriptionShort: toolB.description_short,
+  toolAPricing: pricingA,
+  toolBPricing: pricingB,
+  cheaperName: cheaper.name,
+  cheaperText: cheaperPrice,
+  winnerName: winner.name,
+  winnerRating: winner.rating,
+  loserName: loser.name,
+  loserRating: loser.rating,
+  ratingsEqual: toolA.rating === toolB.rating,
+  pricingAnswer,
+});
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": `What is the difference between ${toolA.name} and ${toolB.name}?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": `${toolA.name} is ${toolA.description_short} ${toolB.name} is ${toolB.description_short} The main differences come down to features, pricing, and target audience. Compare them side-by-side on TradingToolsHub to find the best fit.`
-      }
-    },
-    {
-      "@type": "Question",
-      "name": `Which is cheaper, ${toolA.name} or ${toolB.name}?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": pricingAnswer
-      }
-    },
-    {
-      "@type": "Question",
-      "name": `Which is better rated, ${toolA.name} or ${toolB.name}?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": ratingAnswer
-      }
-    }
-  ]
+  "mainEntity": faqQuestions.map(q => ({
+    "@type": "Question",
+    "name": q.name,
+    "acceptedAnswer": { "@type": "Answer", "text": q.text },
+  })),
 };
 
+// Rotate the article @type between Article / Review / TechArticle so schema
+// doesn't broadcast "1,179 pages, all the same schema type."
+const articleType = pickVariant(comparison.slug + ':atype', COMPARE_ARTICLE_TYPES);
 const jsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": articleType,
     "headline": comparison.title,
     "description": metaDescription,
     "datePublished": toolA.last_updated,

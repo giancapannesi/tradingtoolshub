@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getAllTools, getToolBySlug, getSimilarTools, getComparisons } from '../../utils/data';
-import { pickVariant, ALTERNATIVES_LIST_HEADINGS, AFFILIATE_DISCLOSURE_VARIANTS } from '../../utils/variant';
+import { pickVariant, ALTERNATIVES_LIST_HEADINGS, AFFILIATE_DISCLOSURE_VARIANTS, buildAltMeta } from '../../utils/variant';
 
 export function getStaticPaths() {
   const tools = getAllTools();
@@ -30,7 +30,15 @@ const altNames = topAlts.map(a => a.name).join(', ');
 const cheapest = alternatives.reduce((min, a) => (a.pricing.starting_price ?? Infinity) < (min.pricing.starting_price ?? Infinity) ? a : min, alternatives[0]);
 const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
 const topRated = alternatives.reduce((best, a) => a.rating > best.rating ? a : best, alternatives[0]);
-const metaDescription = `Best ${tool.name} alternatives for 2026: ${altNames}, and more. ${topRated.name} leads at ${topRated.rating.toFixed(1)}★. Cheapest option: ${cheapest.name} (${cheapestLabel}). Side-by-side feature and pricing comparison.`;
+const metaDescription = buildAltMeta(tool.slug, {
+  toolName: tool.name,
+  altNames,
+  topRatedName: topRated.name,
+  topRatedRating: topRated.rating,
+  cheapestName: cheapest.name,
+  cheapestLabel,
+  altCount: alternatives.length,
+});
 
 const jsonLd = [
   {
