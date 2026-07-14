@@ -283,3 +283,53 @@ export function buildAltMeta(seed: string, ctx: AltMetaContext): string {
   const shape = pickVariant(seed + ':altmeta', ALT_META_TEMPLATES);
   return trimToLimit(shape(ctx));
 }
+
+// -- Category-specific "Feature Comparison" section heading. The default
+// "Feature Comparison" H2 repeated on every compare page — replace with a
+// category-native phrasing so H2 fingerprint is broken for this section too.
+export const FEATURE_COMPARISON_HEADINGS: Record<string, string> = {
+  'brokers-us': 'Fee & Feature Breakdown',
+  'brokers-forex': 'Spread, Regulation & Feature Breakdown',
+  'brokers': 'Fee & Feature Breakdown',
+  'options-platforms': 'Options Feature & Cost Breakdown',
+  'futures-platforms': 'Contract & Feature Breakdown',
+  'charting-platforms': 'Chart & Indicator Breakdown',
+  'trading-journals': 'Workflow & Import Feature Breakdown',
+  'stock-screeners': 'Filter & Data Feature Breakdown',
+  'trading-bots': 'Bot Strategy & Exchange Breakdown',
+  'trading-indicators': 'Indicator Suite Breakdown',
+  'order-flow-tools': 'Flow Data & Alert Breakdown',
+  'news-data-feeds': 'Data Coverage & Delivery Breakdown',
+  'trading-education': 'Curriculum & Access Breakdown',
+  'prop-firms': 'Rules, Payout & Fee Breakdown',
+  'risk-management': 'Risk Controls & Feature Breakdown',
+  'ai-trading-tools': 'AI Feature & Data Breakdown',
+  'trading-platforms': 'Platform Feature Breakdown',
+};
+
+// -- Section order preset for compare pages. Some categories benefit from
+// fees/data table BEFORE the editorial (broker-buyers scan tables); others
+// benefit from editorial FIRST (journal-buyers want the fit story). Varying
+// the order per category kills the "every compare page has sections in the
+// exact same sequence" structural fingerprint.
+export type CompareSectionKey =
+  | 'quickVerdict'
+  | 'headToHead'
+  | 'editorial'
+  | 'featureComparison'
+  | 'prosConsA'
+  | 'prosConsB';
+
+const TABLE_FIRST_CATEGORIES = new Set([
+  'brokers-us', 'brokers-forex', 'brokers', 'prop-firms',
+  'options-platforms', 'futures-platforms', 'news-data-feeds',
+]);
+
+export function getCompareSectionOrder(category: string | undefined): CompareSectionKey[] {
+  if (category && TABLE_FIRST_CATEGORIES.has(category)) {
+    // Fee/data-table categories: verdict → cards → table → editorial → pros/cons.
+    return ['quickVerdict', 'headToHead', 'featureComparison', 'editorial', 'prosConsA', 'prosConsB'];
+  }
+  // Story-first categories: verdict → cards → editorial → table → pros/cons.
+  return ['quickVerdict', 'headToHead', 'editorial', 'featureComparison', 'prosConsA', 'prosConsB'];
+}
