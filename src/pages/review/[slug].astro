@@ -9,10 +9,14 @@ import { getAllTools, getToolBySlug, getSimilarTools, getFeatureLabel, getCatego
 import { injectLinks } from '../../utils/inline-linker';
 import { repairInternalLinks } from '../../utils/internal-links';
 import { pickVariant, SIMILAR_TOOLS_HEADINGS, AFFILIATE_DISCLOSURE_VARIANTS } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.review || []);
   const tools = getAllTools();
-  return tools.map(t => ({ params: { slug: t.slug }, props: { tool: t } }));
+  return tools
+    .filter(t => !migrated.has(t.slug))
+    .map(t => ({ params: { slug: t.slug }, props: { tool: t } }));
 }
 
 const { tool } = Astro.props;

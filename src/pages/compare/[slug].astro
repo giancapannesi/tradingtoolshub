@@ -22,13 +22,17 @@ import {
   buildCompareFaq,
   getCompareSectionOrder,
 } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.compare || []);
   const comparisons = getComparisons();
-  return comparisons.map(c => ({
-    params: { slug: c.slug },
-    props: { comparison: c },
-  }));
+  return comparisons
+    .filter(c => !migrated.has(c.slug))
+    .map(c => ({
+      params: { slug: c.slug },
+      props: { comparison: c },
+    }));
 }
 
 const { comparison } = Astro.props;

@@ -4,15 +4,19 @@ import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getListicles, getToolBySlug, getCategories, getComparisons } from '../../utils/data';
 import { pickVariant, AFFILIATE_DISCLOSURE_VARIANTS } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.best || []);
   const listicles = getListicles();
-  return listicles.map(l => ({
-    params: { slug: l.slug },
-    props: { listicle: l },
-  }));
+  return listicles
+    .filter(l => !migrated.has(l.slug))
+    .map(l => ({
+      params: { slug: l.slug },
+      props: { listicle: l },
+    }));
 }
 
 const { listicle } = Astro.props;

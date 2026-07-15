@@ -4,13 +4,17 @@ import { getBlogPosts, getBlogBySlug, getToolBySlug, getComparisons, getBlogByCa
 import { injectLinks } from '../../utils/inline-linker';
 import { repairInternalLinks } from '../../utils/internal-links';
 import { pickVariant, ARTICLE_METHOD_NOTES } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.blog || []);
   const posts = getBlogPosts();
-  return posts.map(p => ({
-    params: { slug: p.slug },
-    props: { post: p },
-  }));
+  return posts
+    .filter(p => !migrated.has(p.slug))
+    .map(p => ({
+      params: { slug: p.slug },
+      props: { post: p },
+    }));
 }
 
 const { post } = Astro.props;
