@@ -11,6 +11,11 @@ out on the next build.
 End state per migrated page: served as a plain static file from public/, zero
 Astro pipeline dependency at request time.
 
+Sitemap coverage: `astro.config.mjs` reads `src/content/static_migrated.json`
+and feeds every migrated URL into `sitemap.customPages`, so no separate sitemap
+step is needed here — just rebuild after this script and the new slugs appear
+in `dist/sitemap-0.xml`.
+
 Usage:
     python3 tools/tth_static_migrate.py --top 100
     python3 tools/tth_static_migrate.py --top 100 --dry-run
