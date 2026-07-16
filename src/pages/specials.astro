@@ -2,7 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import specials from '../content/specials.json';
 
-const deals = specials.specials || [];
+const today = new Date().toISOString().slice(0, 10);
+const deals = (specials.specials || []).filter((deal: any) => !deal.end_date || deal.end_date >= today);
 const lastUpdated = specials.last_updated || 'Recently';
 
 const jsonLd = {
@@ -29,6 +30,7 @@ const jsonLd = {
         We scan pricing pages weekly to find the best deals.
       </p>
       <p class="text-sm text-muted">Last updated: {lastUpdated}</p>
+      <a href="/best/prop-firm-deals/" class="inline-flex mt-4 text-sm font-semibold text-primary hover:text-primary-hover">Latest futures prop-firm deals &rarr;</a>
     </div>
 
     <!-- Deals Grid -->

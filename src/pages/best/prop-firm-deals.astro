@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import dealData from '../../content/prop-firm-deals.json';
+
+const deals = dealData.deals;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Latest Futures Prop Firm Deals",
+  "url": "https://tradingtoolshub.com/best/prop-firm-deals/",
+  "description": "Recently checked futures prop firm discounts and account offers, with source links and verification status.",
+  "dateModified": dealData.last_checked
+};
+---
+<BaseLayout
+  title="Latest Prop Firm Deals: Tradeify, Apex & More"
+  description="Track current futures prop firm deals from Tradeify, Apex, Lucid and Alpha Futures. Every offer shows its source, status and latest checked date."
+  jsonLd={jsonLd}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+    <nav class="flex items-center gap-2 text-sm text-muted mb-7">
+      <a href="/" class="hover:text-text">Home</a><span>/</span>
+      <a href="/best/best-prop-firms/" class="hover:text-text">Best Prop Firms</a><span>/</span>
+      <span class="text-text">Latest Deals</span>
+    </nav>
+
+    <header class="mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary mb-3">Futures prop-firm offer tracker</p>
+      <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-4">Latest Prop Firm Deals</h1>
+      <p class="text-lg text-muted max-w-3xl leading-relaxed">
+        Recent account discounts and multi-account offers from futures prop firms. We show where each lead came from, when it was observed, and whether its exact checkout terms have been verified.
+      </p>
+      <p class="text-sm text-muted mt-4">Latest source check: <strong class="text-text">{dealData.last_checked}</strong></p>
+    </header>
+
+    <section class="grid md:grid-cols-2 gap-6 mb-12" aria-label="Current prop firm deal leads">
+      {deals.map((deal) => (
+        <article class="bg-card border border-border rounded-2xl p-6 flex flex-col">
+          <div class="flex flex-wrap items-center gap-2 mb-4">
+            <span class="text-xs font-semibold uppercase tracking-wide text-featured bg-featured/10 px-3 py-1 rounded-full">Observed offer</span>
+            <span class="text-xs text-muted">Observed {deal.observed_date}</span>
+          </div>
+          <h2 class="text-xl font-bold text-text mb-2">{deal.firm}</h2>
+          <p class="text-lg font-semibold text-primary mb-3">{deal.headline}</p>
+          <p class="text-sm text-muted leading-relaxed mb-6">{deal.description}</p>
+          <div class="mt-auto grid grid-cols-2 gap-3">
+            <a href={deal.review_url} class="text-center text-sm font-semibold text-text bg-bg border border-border rounded-xl px-4 py-3 hover:border-primary/60">Read review</a>
+            <a href={deal.source_url} target="_blank" rel="nofollow sponsored noopener" class="text-center text-sm font-semibold text-white bg-primary rounded-xl px-4 py-3 hover:bg-primary-hover">Check offer</a>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <section class="bg-card border border-primary/30 rounded-2xl p-6 md:p-8 mb-10">
+      <h2 class="text-2xl font-bold text-text mb-3">Our current futures-firm order</h2>
+      <ol class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        {dealData.editorial_order.map((firm, index) => (
+          <li class="bg-bg border border-border rounded-xl p-4">
+            <span class="block text-xs text-primary font-bold mb-1">#{index + 1}</span>
+            <span class="text-text font-semibold">{firm}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="text-sm text-muted mt-4">The order reflects current editorial preference and trader experience. Pricing, payout rules and promotions are checked separately and can change without notice.</p>
+    </section>
+
+    <section class="grid md:grid-cols-[1fr_1.2fr] gap-6 mb-10">
+      <div class="bg-card border border-border rounded-2xl p-6">
+        <h2 class="text-xl font-bold text-text mb-3">Tradeify TV</h2>
+        <p class="text-sm text-muted leading-relaxed mb-5">Tradeify’s official YouTube channel publishes futures education, firm updates and trader-focused videos. It is a useful companion source when evaluating the firm.</p>
+        <a href="https://www.youtube.com/@TradeifyTV" target="_blank" rel="noopener" class="inline-flex text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-xl px-5 py-3">Watch Tradeify TV</a>
+      </div>
+      <div class="bg-card border border-border rounded-2xl p-6">
+        <h2 class="text-xl font-bold text-text mb-3">How the tracker works</h2>
+        <ul class="space-y-3 text-sm text-muted">
+          <li><strong class="text-text">Daily:</strong> official pricing, rules and promotion sources are checked for text changes.</li>
+          <li><strong class="text-text">On change:</strong> AgentMail sends a review alert with the affected source and detected text.</li>
+          <li><strong class="text-text">Before publication:</strong> account size, price, promo code, renewal terms and expiry are checked manually.</li>
+          <li><strong class="text-text">No fake urgency:</strong> expired offers are removed and undated recurring promotions are labeled clearly.</li>
+        </ul>
+      </div>
+    </section>
+
+    <aside class="border border-warning/40 bg-warning/5 rounded-xl p-5 text-sm text-muted leading-relaxed">
+      <strong class="text-text">Important:</strong> “Observed” means the offer was seen or purchased recently but its full public checkout conditions are not yet confirmed. Always verify the final price, recurring fees, account rules and eligibility before paying.
+    </aside>
+  </div>
+</BaseLayout>
