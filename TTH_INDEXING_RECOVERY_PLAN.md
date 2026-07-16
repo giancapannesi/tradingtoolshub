@@ -36,6 +36,16 @@ Recover Google discovery, crawling and indexation without consuming manual URL-s
 2. Trading-journal alternatives cluster.
 3. Cluster-level links from `/best/` hubs to the strongest reviews, comparisons and supporting guides.
 
+### Ongoing — futures prop-firm offering review
+
+- Treat futures prop firms as a continuously maintained commercial cluster because challenge fees, account sizes, drawdown rules, payout terms and promotions change frequently.
+- Current founder editorial order: **Tradeify first, Lucid Trading second, Alpha Futures third**. This is the working recommendation order, not a substitute for verifying current terms.
+- Review these three firms against their official websites every week and review the wider futures-prop-firm set at least monthly.
+- Record the source URL and checked date for every material rule, price and payout claim.
+- Update rankings only when the evidence changes; do not rotate rankings merely to create freshness.
+- Never publish an expired promotion, guessed affiliate URL or unverified rule. Flag material changes for editorial review before deployment.
+- After an approved material update, refresh only the affected page dates, internal links and eligible discovery signals.
+
 No broad new publishing resumes while these recovery upgrades are underway. Existing URLs with demonstrated demand take priority.
 
 ## Automatic Google discovery path
