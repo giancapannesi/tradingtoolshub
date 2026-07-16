@@ -321,6 +321,21 @@ const jsonLd = [
       )}
     </section>
 
+    {tool.category === 'prop-firms' && (
+      <section class="mb-10 grid sm:grid-cols-2 gap-4">
+        <a href="/best/prop-firm-deals/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/60 transition-colors">
+          <span class="text-xs font-semibold uppercase tracking-wide text-primary">Live offer tracker</span>
+          <h2 class="text-lg font-bold text-text mt-2 mb-1">Compare current prop-firm deals</h2>
+          <p class="text-sm text-muted">Compare price per account, billing terms and verification status.</p>
+        </a>
+        <a href="/guides/prop-firm-drawdown-activation-consistency/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/60 transition-colors">
+          <span class="text-xs font-semibold uppercase tracking-wide text-primary">Rules guide</span>
+          <h2 class="text-lg font-bold text-text mt-2 mb-1">Understand the real account rules</h2>
+          <p class="text-sm text-muted">EOD versus intraday drawdown, activation fees and consistency explained.</p>
+        </a>
+      </section>
+    )}
+
     <!-- Editorial Assessment -->
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">Editorial Assessment</h2>

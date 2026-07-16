@@ -141,6 +141,21 @@ const jsonLd = [
       <article class="article-content mb-10 best-editorial-html" set:html={editorialHtml} />
     )}
 
+    {(listicle.slug.includes('prop-firm') || listicle.slug === 'no-challenge-prop-firms') && (
+      <section class="grid sm:grid-cols-2 gap-4 mb-10">
+        <a href="/best/prop-firm-deals/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/60 transition-colors">
+          <span class="text-xs font-semibold uppercase tracking-wide text-primary">Updated deals</span>
+          <h2 class="text-lg font-bold text-text mt-2">Compare current prop-firm offers</h2>
+          <p class="text-sm text-muted mt-1">See price per account, billing terms and verification status.</p>
+        </a>
+        <a href="/guides/prop-firm-drawdown-activation-consistency/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/60 transition-colors">
+          <span class="text-xs font-semibold uppercase tracking-wide text-primary">Before you buy</span>
+          <h2 class="text-lg font-bold text-text mt-2">Compare drawdown and payout rules</h2>
+          <p class="text-sm text-muted mt-1">Understand EOD trailing, intraday trailing, activation fees and consistency.</p>
+        </a>
+      </section>
+    )}
+
     <!-- Ranking Methodology -->
     <section class="bg-card border border-border rounded-2xl p-6 mb-10">
       <h2 class="text-2xl font-bold text-text mb-3">How We Ranked These Tools</h2>

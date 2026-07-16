@@ -8,6 +8,10 @@
       "headline": "$79 discounted account observed",
       "description": "A $79 discounted Tradeify account was purchased by the TradingToolsHub founder on July 15. The eligible account size, product, code and expiry still need confirmation at checkout.",
       "status": "observed",
+      "accounts": 1,
+      "total_price": 79,
+      "price_per_account": 79,
+      "billing": "One-time offer reported; exact product terms pending",
       "observed_date": "2026-07-15",
       "source_url": "https://tradeify.co/",
       "review_url": "/review/tradeify/"
@@ -15,9 +19,13 @@
     {
       "slug": "apex-trader-funding",
       "firm": "Apex Trader Funding",
-      "headline": "Five accounts for $189 observed",
-      "description": "A five-account package for $189 was observed on July 15. Confirm the eligible evaluation type, account size, code, renewal terms and expiry before buying.",
-      "status": "observed",
+      "headline": "Multi-account discount under verification",
+      "description": "A deeply discounted one-pack and five-pack checkout was reported on July 16. The exact official checkout URL and eligible account size are being independently verified before prices are published.",
+      "status": "verification_pending",
+      "accounts": null,
+      "total_price": null,
+      "price_per_account": null,
+      "billing": "Reported as one-time with no rebill; official verification pending",
       "observed_date": "2026-07-15",
       "source_url": "https://www.apextraderfunding.com/",
       "review_url": "/review/apex-trader-funding/"

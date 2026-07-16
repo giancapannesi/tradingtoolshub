@@ -1,0 +1,174 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Prop Firm Rules Explained: Drawdown, Fees, Consistency and Payouts",
+  "description": "Understand end-of-day and intraday trailing drawdown, activation fees, payout consistency rules and the real cost of futures prop-firm accounts.",
+  "datePublished": "2026-07-16",
+  "dateModified": "2026-07-16",
+  "author": {"@type": "Organization", "name": "TradingToolsHub Editorial"},
+  "publisher": {"@type": "Organization", "name": "TradingToolsHub"},
+  "mainEntityOfPage": "https://tradingtoolshub.com/guides/prop-firm-drawdown-activation-consistency/"
+};
+---
+<BaseLayout
+  title="Prop Firm Rules Explained: Drawdown, Fees & Payouts"
+  description="Learn EOD versus intraday trailing drawdown, activation fees, no-activation accounts and payout consistency rules before buying a prop-firm evaluation."
+  jsonLd={jsonLd}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+    <nav class="flex items-center gap-2 text-sm text-muted mb-7">
+      <a href="/" class="hover:text-text">Home</a><span>/</span>
+      <a href="/guides/" class="hover:text-text">Guides</a><span>/</span>
+      <span class="text-text">Prop-firm rules</span>
+    </nav>
+
+    <header class="mb-10">
+      <p class="text-sm font-semibold uppercase tracking-wider text-primary mb-3">Futures prop-firm fundamentals</p>
+      <h1 class="text-3xl md:text-5xl font-bold text-text leading-tight mb-5">Prop Firm Rules Explained</h1>
+      <p class="text-lg text-muted leading-relaxed">The cheapest evaluation is not always the cheapest account. Drawdown timing, funded-account fees and payout rules determine how usable an offer really is.</p>
+      <p class="text-sm text-muted mt-4">Facts checked: July 16, 2026. Always confirm the selected firm’s current rulebook before purchase.</p>
+    </header>
+
+    <section class="article-content">
+      <h2>What is a prop-firm account for?</h2>
+      <p>A retail futures prop-firm program lets a trader pay for an evaluation instead of immediately risking the full amount of personal trading capital. The trader proves that they can reach a profit target while staying inside the firm’s loss and behavior rules. Passing usually leads to a simulated-funded or performance account with payout eligibility; it does not automatically mean the trader is handed the advertised account balance in cash.</p>
+      <p>For the trader, the attraction is defined risk: the evaluation fee and related charges can be much smaller than personally funding an account with the same stated buying power. The trade-off is that the firm controls the rules, account lifecycle, payout conditions and permitted behavior.</p>
+
+      <aside class="not-prose my-7 rounded-xl border border-primary/30 bg-card p-5">
+        <p class="font-semibold text-text mb-2">Want the bigger picture?</p>
+        <p class="text-sm text-muted mb-3">The rules make more sense once you understand why firms create them—and where the firm’s mission conflicts with yours.</p>
+        <a href="/blog/how-prop-firms-think/" class="text-sm font-semibold text-primary hover:text-primary-hover">Read: How Prop Firms Think →</a>
+      </aside>
+
+      <h2>Why prop firms create these rules</h2>
+      <p>Prop firms do not evaluate a trader only by total profit. They are looking for a pattern they believe can be supported without unpredictable payout exposure. A trader who makes $3,000 steadily may be more attractive to the firm than a trader who makes $4,000 in one oversized day and repeatedly approaches the loss limit.</p>
+      <ul>
+        <li><strong>Drawdown rules</strong> limit how much loss exposure a trader can create.</li>
+        <li><strong>Consistency rules</strong> discourage one lucky or oversized day from representing the whole result.</li>
+        <li><strong>Minimum-day rules</strong> force the performance sample to cover more than one session.</li>
+        <li><strong>Contract scaling</strong> restricts size until the account has built a buffer.</li>
+        <li><strong>Payout buffers and caps</strong> reduce the chance that one withdrawal leaves the account immediately near failure.</li>
+        <li><strong>Evaluation, reset and activation fees</strong> are part of the firm’s commercial model, particularly while most activity remains simulated.</li>
+      </ul>
+      <p>This does not make every rule good for the trader. It explains why the firm designs the program around controlled behavior rather than simply asking whether the ending balance is positive.</p>
+
+      <h2>What should the trader use it for?</h2>
+      <p>A prop-firm evaluation is most useful as a controlled route to larger futures buying power for someone who already has a tested strategy, understands daily risk and can trade within external rules. It is a poor substitute for learning basic execution, and it can become expensive when a trader repeatedly buys discounted evaluations without fixing the reason accounts fail.</p>
+      <p>The right comparison is therefore not “Which firm advertises the biggest account?” It is “Which firm’s drawdown, size, payout and fee structure best matches how I already trade?”</p>
+
+      <h2>End-of-day drawdown versus intraday trailing drawdown</h2>
+      <p><strong>End-of-day (EOD) drawdown</strong> normally recalculates from the account balance at the end of the trading session. Intraday unrealized profit may not permanently raise the threshold during the session, although the exact calculation and liquidation rule differ by firm.</p>
+      <p><strong>Intraday trailing drawdown</strong> can follow the account’s highest balance or equity point while trades are open. If an open position reaches a large unrealized gain and then reverses, the trailing threshold may already have moved upward. That makes the usable risk buffer smaller than the headline account size suggests.</p>
+
+      <div class="overflow-x-auto">
+        <table>
+          <thead><tr><th>Rule</th><th>When it moves</th><th>Main risk</th><th>Usually easier?</th></tr></thead>
+          <tbody>
+            <tr><td>EOD trailing</td><td>After the session or specified close</td><td>A strong closed day raises the next threshold</td><td>Generally</td></tr>
+            <tr><td>Intraday trailing</td><td>During the session, sometimes from unrealized equity</td><td>Open profit can tighten the threshold before the trade closes</td><td>Usually not</td></tr>
+            <tr><td>Static drawdown</td><td>Does not trail after the starting threshold is set</td><td>The fixed loss limit still applies</td><td>Often</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>A simple drawdown example</h2>
+      <p>Assume an evaluation starts at $50,000 with a $2,000 drawdown. The initial threshold is $48,000. If the account finishes the day at $51,000 under an EOD trailing rule, the next threshold may rise to $49,000. Under an intraday rule, an unrealized peak of $51,500 could move the threshold to $49,500 even if the trade later closes at $50,600. This is only an illustration; each firm defines balance, equity, timing and lock rules differently.</p>
+
+      <h2>What is an activation fee?</h2>
+      <p>An <strong>evaluation fee</strong> buys access to the challenge. An <strong>activation fee</strong> is a separate charge after passing, usually required before the simulated-funded or performance account becomes active. A cheap evaluation with a large activation fee can cost more than a higher-priced no-activation offer.</p>
+      <ul>
+        <li><strong>No activation fee:</strong> passing does not trigger a separate account-opening charge, but data, platform, reset or payout fees may still exist.</li>
+        <li><strong>One-time activation fee:</strong> paid once for each qualifying funded account.</li>
+        <li><strong>Recurring funded fee:</strong> a continuing monthly charge; do not confuse this with a one-time activation.</li>
+        <li><strong>Reset fee:</strong> pays for another evaluation attempt and is separate from activation.</li>
+      </ul>
+
+      <h2>How consistency rules work</h2>
+      <p>A consistency rule limits how much of the required profit may come from one trading day. A common calculation is:</p>
+      <blockquote><strong>Best-day profit ÷ total profit × 100</strong></blockquote>
+      <p>With a 40% consistency limit and $3,000 total profit, the best day can contribute no more than $1,200. If the best day is $1,500, consistency is 50%. Depending on the firm and account stage, the trader may need to keep trading until total profit rises enough, or the account may not qualify for a payout.</p>
+
+      <div class="overflow-x-auto">
+        <table>
+          <thead><tr><th>Total profit</th><th>Best day</th><th>Consistency</th><th>40% rule</th></tr></thead>
+          <tbody>
+            <tr><td>$3,000</td><td>$900</td><td>30%</td><td>Passes</td></tr>
+            <tr><td>$3,000</td><td>$1,200</td><td>40%</td><td>At the limit</td></tr>
+            <tr><td>$3,000</td><td>$1,500</td><td>50%</td><td>Does not yet qualify</td></tr>
+            <tr><td>$3,750</td><td>$1,500</td><td>40%</td><td>At the limit</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Evaluation consistency and payout consistency are different</h2>
+      <p>Some firms apply consistency while passing the evaluation, some apply it only when requesting a payout, and some use different percentages at each stage. “No consistency rule” must therefore be checked separately for the evaluation, simulated-funded account and payout request.</p>
+
+      <h2>Questions to check before buying</h2>
+      <ol>
+        <li>Is drawdown based on balance or equity, and does unrealized profit move it?</li>
+        <li>Is the threshold recalculated intraday, at end of day, or never?</li>
+        <li>Does trailing stop at the starting balance or continue indefinitely?</li>
+        <li>Is there a daily loss limit in addition to maximum drawdown?</li>
+        <li>Is the advertised price one-time or recurring?</li>
+        <li>What activation, reset, data and payout fees apply?</li>
+        <li>Does consistency apply during evaluation, funded trading, payout, or all three?</li>
+        <li>Are there minimum profitable days or minimum profit per day?</li>
+      </ol>
+
+      <h2>Which rules fit your trading style?</h2>
+      <div class="grid md:grid-cols-2 gap-4 not-prose my-6">
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Scalpers and runners</h3>
+          <p class="text-sm text-muted leading-relaxed">Prioritize EOD or static drawdown. Intraday equity trailing can punish a trade that reaches a large open profit and then gives some back.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Steady daily traders</h3>
+          <p class="text-sm text-muted leading-relaxed">A consistency rule may be manageable if your best day is naturally a small share of total profit. Check both evaluation and payout percentages.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Lowest-upfront-cost buyers</h3>
+          <p class="text-sm text-muted leading-relaxed">Compare the discounted evaluation plus activation, reset and recurring funded fees. A $39 evaluation is not a $39 funded account if another fee follows.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Multi-account traders</h3>
+          <p class="text-sm text-muted leading-relaxed">Compare effective price per account, maximum account count, copying rules and whether every passed account needs a separate activation fee.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Frequent payout traders</h3>
+          <p class="text-sm text-muted leading-relaxed">Focus on minimum winning days, payout consistency, buffer requirements, payout caps and processing time—not merely the advertised profit split.</p>
+        </div>
+        <div class="bg-card border border-border rounded-xl p-5">
+          <h3 class="text-lg font-semibold text-text mb-2">Traders who pass quickly</h3>
+          <p class="text-sm text-muted leading-relaxed">One-day passing can be attractive, but verify whether the funded stage adds minimum days, consistency, activation or a different drawdown calculation.</p>
+        </div>
+      </div>
+
+      <h2>Continue comparing firms</h2>
+      <ul>
+        <li><a href="/review/tradeify/">Tradeify review</a> — current first editorial choice and strong futures focus.</li>
+        <li><a href="/review/lucid-trading/">Lucid Trading review</a> — current second choice with several account structures.</li>
+        <li><a href="/review/alpha-futures/">Alpha Futures review</a> — compare Premium, Advanced and Zero rules carefully.</li>
+        <li><a href="/review/apex-trader-funding/">Apex Trader Funding review</a> — important for multi-account traders and frequent promotions.</li>
+        <li><a href="/best/best-prop-firms-futures/">Best futures prop firms</a> — wider futures-firm comparison.</li>
+      </ul>
+
+      <h2>Official rule sources</h2>
+      <ul>
+        <li><a href="https://help.tradeify.co/en/articles/12268167-essential-trading-rules-overview" target="_blank" rel="noopener">Tradeify essential trading rules</a></li>
+        <li><a href="https://support.lucidtrading.com/en/articles/12945790-lucidflex-evaluation-account" target="_blank" rel="noopener">LucidFlex evaluation rules</a></li>
+        <li><a href="https://support.lucidtrading.com/en/articles/12890164-luciddirect-payout-objectives" target="_blank" rel="noopener">LucidDirect payout objectives</a></li>
+        <li><a href="https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview" target="_blank" rel="noopener">Alpha Futures Advanced account overview</a></li>
+        <li><a href="https://help.alpha-futures.com/en/articles/9492051-payout-policy" target="_blank" rel="noopener">Alpha Futures payout policy</a></li>
+      </ul>
+    </section>
+
+    <div class="mt-12 bg-card border border-primary/30 rounded-2xl p-6 text-center">
+      <h2 class="text-xl font-bold text-text mb-2">Compare the latest account offers</h2>
+      <p class="text-sm text-muted mb-5">Check effective per-account prices, billing terms and verification status.</p>
+      <a href="/best/prop-firm-deals/" class="inline-flex bg-primary hover:bg-primary-hover text-white font-semibold rounded-xl px-6 py-3">View latest prop-firm deals</a>
+    </div>
+  </article>
+</BaseLayout>
