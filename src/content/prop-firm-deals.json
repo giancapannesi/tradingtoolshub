@@ -1,0 +1,26 @@
+{
+  "last_checked": "2026-07-16",
+  "editorial_order": ["Tradeify", "Lucid Trading", "Alpha Futures", "Apex Trader Funding"],
+  "deals": [
+    {
+      "slug": "tradeify",
+      "firm": "Tradeify",
+      "headline": "$79 discounted account observed",
+      "description": "A $79 discounted Tradeify account was purchased by the TradingToolsHub founder on July 15. The eligible account size, product, code and expiry still need confirmation at checkout.",
+      "status": "observed",
+      "observed_date": "2026-07-15",
+      "source_url": "https://tradeify.co/",
+      "review_url": "/review/tradeify/"
+    },
+    {
+      "slug": "apex-trader-funding",
+      "firm": "Apex Trader Funding",
+      "headline": "Five accounts for $189 observed",
+      "description": "A five-account package for $189 was observed on July 15. Confirm the eligible evaluation type, account size, code, renewal terms and expiry before buying.",
+      "status": "observed",
+      "observed_date": "2026-07-15",
+      "source_url": "https://www.apextraderfunding.com/",
+      "review_url": "/review/apex-trader-funding/"
+    }
+  ]
+}
