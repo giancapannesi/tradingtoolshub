@@ -313,9 +313,9 @@ const jsonLd = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-text mb-4">{tool.name} Overview</h2>
       {editorialHtml ? (
-        <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 review-editorial-html" set:html={editorialHtml} />
+        <article class="article-content review-editorial-html" set:html={editorialHtml} />
       ) : (
-        <div class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4" set:html={
+        <div class="article-content" set:html={
           repairInternalLinks(injectLinks(renderDescription(), tool.slug, 8))
         } />
       )}
