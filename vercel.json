@@ -1,5 +1,10 @@
 {
   "redirects": [
+    { "source": "/review/koyfin/", "destination": "/review/koyfin-pro/", "statusCode": 301 },
+    { "source": "/alternatives/koyfin/", "destination": "/alternatives/koyfin-pro/", "statusCode": 301 },
+    { "source": "/blog/koyfin-pricing-guide-2026/", "destination": "/blog/koyfin-pro-pricing-guide-2026/", "statusCode": 301 },
+    { "source": "/blog/koyfin-setup-guide-2026/", "destination": "/blog/koyfin-pro-setup-guide-2026/", "statusCode": 301 },
+    { "source": "/blog/koyfin-tips-and-tricks/", "destination": "/blog/koyfin-pro-tips-and-tricks/", "statusCode": 301 },
     { "source": "/best/instant-funding-prop-firms/", "destination": "/best/no-challenge-prop-firms/", "statusCode": 301 },
     { "source": "/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },
     { "source": "/blog/tradingview-setup-guide-2026/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },

@@ -10,10 +10,22 @@ const guides = [
   ['Earn2Trade Withdrawal Guide', '/guides/earn2trade-withdrawal-guide/'],
   ['Trader Career Path Rules', '/guides/trader-career-path-rules/'],
 ];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Trading Guides",
+  "url": "https://tradingtoolshub.com/guides/",
+  "hasPart": guides.map(([title, href]) => ({
+    "@type": "Article",
+    "name": title,
+    "url": `https://tradingtoolshub.com${href}`
+  }))
+};
 ---
 <BaseLayout
   title="Trading Guides — Rules, Platforms & Payouts"
   description="Practical trading guides covering prop-firm rules, platform choices, evaluation programs, payouts, and account progression."
+  jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">Trading Guides</h1>

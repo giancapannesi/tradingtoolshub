@@ -41,7 +41,7 @@
       "bloomberg-terminal",
       "reuters-eikon",
       "polygon-io",
-      "koyfin",
+      "koyfin-pro",
       "tipranks",
       "seeking-alpha",
       "alpha-vantage",
@@ -57,7 +57,7 @@
     "description": "Access to quality market data should not require an expensive subscription. Several platforms offer genuinely useful free tiers that cover most retail trading needs. Alpha Vantage provides free API access to stocks, forex, and crypto data \u2014 ideal for building custom dashboards. Seeking Alpha offers free stock analysis and news with detailed earnings coverage. Koyfin's free plan includes screening, charting, and basic financial data. TipRanks gives free access to analyst consensus ratings and price targets. We tested each platform's free tier limitations, data quality, and whether upgrading is actually necessary for different trading styles and experience levels. We tested each free tier for API rate limits, data completeness, real-time versus delayed pricing, and the learning curve for getting started with each platform.",
     "tools": [
       "polygon-io",
-      "koyfin",
+      "koyfin-pro",
       "tipranks",
       "seeking-alpha",
       "alpha-vantage"

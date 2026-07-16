@@ -12,7 +12,7 @@ interface Props {
 
 const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const siteUrl = 'https://tradingtoolshub.com';
-function clampWords(value: string, maxLength: number) {
+function clampDescription(value: string, maxLength: number) {
   const clean = String(value || '').replace(/\s+/g, ' ').trim();
   if (clean.length <= maxLength) return clean;
   const target = Math.max(20, maxLength - 3);
@@ -20,9 +20,29 @@ function clampWords(value: string, maxLength: number) {
   const lastSpace = trimmed.lastIndexOf(' ');
   return `${(lastSpace > 40 ? trimmed.slice(0, lastSpace) : clean.slice(0, target)).replace(/[,:;\-\s]+$/, '')}...`;
 }
-const withSuffix = title.includes('TradingToolsHub') ? title : `${title} | TradingToolsHub`;
-const fullTitle = clampWords(withSuffix.length <= 65 ? withSuffix : title, 65);
-const metaDescription = clampWords(description, 155);
+function formatTitle(value: string) {
+  let clean = String(value || '')
+    .replace(/\s*[|—-]\s*TradingToolsHub\s*$/i, '')
+    .replace(/Tips and Tricks Every Trader Should Know/gi, 'Tips & Tricks for Traders')
+    .replace(/Complete Guide:\s*Setup, Features\s*&\s*Tips/gi, 'Setup & Features Guide')
+    .replace(/Pricing Explained:\s*All Plans, Costs\s*&\s*Fees/gi, 'Pricing, Plans & Fees')
+    .replace(/Rules Explained:\s*Drawdown, Profit Targets\s*&\s*Time Limits/gi, 'Rules: Drawdown & Targets')
+    .replace(/Complete Review:\s*Account Setup, Fees\s*&\s*Platform Walkthrough/gi, 'Review: Fees & Platform')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const branded = `${clean} | TradingToolsHub`;
+  if (branded.length <= 65) return branded;
+  if (clean.length <= 65) return clean;
+
+  // Prefer a complete first clause over a visibly chopped title. Search
+  // engines may choose a different display title, but our source stays human.
+  const clause = clean.split(/\s+[|—]\s+|:\s+/)[0].trim();
+  if (clause.length >= 30 && clause.length <= 65) return clause;
+  return clean;
+}
+const fullTitle = formatTitle(title);
+const metaDescription = clampDescription(description, 155);
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
 const ogImg = ogImage || `${siteUrl}/og-default.png`;
 const imageAlt = `${fullTitle} preview image`;

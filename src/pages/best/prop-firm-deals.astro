@@ -3,14 +3,27 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import dealData from '../../content/prop-firm-deals.json';
 
 const deals = dealData.deals;
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Latest Futures Prop Firm Deals",
-  "url": "https://tradingtoolshub.com/best/prop-firm-deals/",
-  "description": "Recently checked futures prop firm discounts and account offers, with source links and verification status.",
-  "dateModified": dealData.last_checked
-};
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Latest Futures Prop Firm Deals",
+    "url": "https://tradingtoolshub.com/best/prop-firm-deals/",
+    "description": "Recently checked futures prop firm discounts and account offers, with source links and verification status.",
+    "dateModified": dealData.last_checked
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Current futures prop-firm offers",
+    "itemListElement": deals.map((deal, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": deal.firm,
+      "url": `https://tradingtoolshub.com${deal.review_url}`
+    }))
+  }
+];
 ---
 <BaseLayout
   title="Latest Prop Firm Deals: Tradeify, Apex & More"
