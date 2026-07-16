@@ -45,6 +45,7 @@ const validPaths = new Set<string>([
   '/', '/about/', '/affiliate-disclosure/', '/blog/', '/featured/', '/guides/',
   '/methodology/', '/privacy/', '/prop-firms/', '/prop-firms/institutional/',
   '/prop-firms/trader-career-path/', '/reviews/', '/specials/', '/terms/',
+  '/best/prop-firm-deals/', '/guides/prop-firm-drawdown-activation-consistency/',
   ...tools.flatMap(tool => [`/review/${tool.slug}/`, `/alternatives/${tool.slug}/`]),
   ...comparisons.map(comparison => `/compare/${comparison.slug}/`),
   ...getListicles().map(listicle => `/best/${listicle.slug}/`),

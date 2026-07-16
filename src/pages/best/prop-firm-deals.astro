@@ -31,6 +31,7 @@ const jsonLd = {
         Recent account discounts and multi-account offers from futures prop firms. We show where each lead came from, when it was observed, and whether its exact checkout terms have been verified.
       </p>
       <p class="text-sm text-muted mt-4">Latest source check: <strong class="text-text">{dealData.last_checked}</strong></p>
+      <a href="/guides/prop-firm-drawdown-activation-consistency/" class="inline-flex mt-5 text-sm font-semibold text-primary hover:text-primary-hover">New to prop firms? Learn what the account and rules are for &rarr;</a>
     </header>
 
     <section class="grid md:grid-cols-2 gap-6 mb-12" aria-label="Current prop firm deal leads">
@@ -49,6 +50,54 @@ const jsonLd = {
           </div>
         </article>
       ))}
+    </section>
+
+    <section class="mb-12">
+      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-5">
+        <div>
+          <h2 class="text-2xl font-bold text-text mb-2">Compare current prop-firm offers</h2>
+          <p class="text-sm text-muted">Use the effective per-account price and billing terms—not the headline discount alone.</p>
+        </div>
+        <span class="text-xs text-muted">Checked {dealData.last_checked}</span>
+      </div>
+      <div class="overflow-x-auto border border-border rounded-2xl">
+        <table class="w-full min-w-[850px] text-sm">
+          <thead class="bg-card text-text">
+            <tr>
+              <th class="text-left px-4 py-3">Firm</th>
+              <th class="text-left px-4 py-3">Offer</th>
+              <th class="text-left px-4 py-3">Accounts</th>
+              <th class="text-left px-4 py-3">Total</th>
+              <th class="text-left px-4 py-3">Per account</th>
+              <th class="text-left px-4 py-3">Billing</th>
+              <th class="text-left px-4 py-3">Status</th>
+              <th class="text-left px-4 py-3">Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            {deals.map((deal) => (
+              <tr class="border-t border-border text-muted align-top">
+                <td class="px-4 py-4 font-semibold text-text">{deal.firm}</td>
+                <td class="px-4 py-4 max-w-xs">{deal.headline}</td>
+                <td class="px-4 py-4">{deal.accounts ?? 'Pending'}</td>
+                <td class="px-4 py-4">{deal.total_price ? `$${deal.total_price}` : 'Pending'}</td>
+                <td class="px-4 py-4">{deal.price_per_account ? `$${deal.price_per_account}` : 'Pending'}</td>
+                <td class="px-4 py-4 max-w-xs">{deal.billing}</td>
+                <td class="px-4 py-4">
+                  <span class="inline-flex rounded-full bg-featured/10 text-featured px-2.5 py-1 text-xs font-semibold">
+                    {deal.status === 'observed' ? 'Founder observed' : 'Verification pending'}
+                  </span>
+                </td>
+                <td class="px-4 py-4 whitespace-nowrap">
+                  <a href={deal.review_url} class="text-primary hover:underline">Review</a>
+                  <span class="mx-1 text-border">/</span>
+                  <a href={deal.source_url} target="_blank" rel="nofollow sponsored noopener" class="text-primary hover:underline">Official site</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section class="bg-card border border-primary/30 rounded-2xl p-6 md:p-8 mb-10">
@@ -83,6 +132,7 @@ const jsonLd = {
 
     <aside class="border border-warning/40 bg-warning/5 rounded-xl p-5 text-sm text-muted leading-relaxed">
       <strong class="text-text">Important:</strong> “Observed” means the offer was seen or purchased recently but its full public checkout conditions are not yet confirmed. Always verify the final price, recurring fees, account rules and eligibility before paying.
+      <a href="/guides/prop-firm-drawdown-activation-consistency/" class="block mt-3 text-primary font-semibold hover:underline">Understand drawdown, activation fees and consistency rules &rarr;</a>
     </aside>
   </div>
 </BaseLayout>
