@@ -11,6 +11,14 @@ const comparisons = getComparisons();
 const toolSlugs = new Map(tools.map(tool => [tool.slug.toLowerCase(), tool.slug]));
 const comparisonSlugs = new Set(comparisons.map(comparison => comparison.slug));
 const categorySlugs = new Set(getCategories().map(category => category.slug));
+const categoryAliases = new Map<string, string>([
+  ['order-flow-tools', 'charting-platforms'],
+  ['backtesting', 'trading-bots'],
+  ['forex-brokers', 'brokers-forex'],
+  ['stock-brokers', 'brokers-us'],
+  ['screeners', 'stock-screeners'],
+  ['options-analysis', 'options-platforms'],
+]);
 const toolAliases = new Map<string, string>([
   ['atast', 'atas'],
   ['funded-trader-plus', 'funded-trading-plus'],
@@ -21,8 +29,21 @@ const toolAliases = new Map<string, string>([
   ['think-or-swim', 'thinkorswim'],
   ['topstep-trader', 'topstep'],
   ['topsteptrader', 'topstep'],
+  ['the-5ers', 'the5ers'],
+  ['jigsaw', 'jigsaw-trading'],
+  ['ig', 'ig-markets'],
+  ['apex', 'apex-trader-funding'],
+  ['ninja-trader', 'ninjatrader'],
+  ['public-com-review', 'public-com'],
+  ['fundednext-futures-review', 'funded-next-futures'],
+  ['top-one-futures-review', 'top-one-futures'],
 ]);
 const pathAliases = new Map<string, string>([
+  ['/review/koyfin/', '/review/koyfin-pro/'],
+  ['/alternatives/koyfin/', '/alternatives/koyfin-pro/'],
+  ['/blog/koyfin-pricing-guide-2026/', '/blog/koyfin-pro-pricing-guide-2026/'],
+  ['/blog/koyfin-setup-guide-2026/', '/blog/koyfin-pro-setup-guide-2026/'],
+  ['/blog/koyfin-tips-and-tricks/', '/blog/koyfin-pro-tips-and-tricks/'],
   ['/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/', '/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/'],
   ['/blog/tradingview-setup-guide-2026/', '/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/'],
   ['/blog/how-to-pass-blue-guardian-challenge-step-by-step-guide-2026/', '/blog/how-to-pass-blue-guardian-challenge/'],
@@ -63,6 +84,11 @@ function normalizePath(rawHref: string) {
   const path = rawPath.endsWith('/') ? rawPath : `${rawPath}/`;
   const suffix = `${query ? `?${query}` : ''}${hash ? `#${hash}` : ''}`;
 
+  // Static downloads and linked screenshots are not HTML routes.
+  if (/\.(?:avif|gif|jpe?g|png|svg|webp|pdf|xml|txt)$/i.test(rawPath)) {
+    return rawHref;
+  }
+
   if (validPaths.has(path)) return `${path}${suffix}`;
 
   const aliasedPath = pathAliases.get(path.toLowerCase());
@@ -76,15 +102,33 @@ function normalizePath(rawHref: string) {
     return toolSlugs.get(aliased);
   };
 
+  const category = segments[0] === 'categories' && segments[1]
+    ? categoryAliases.get(segments[1])
+    : undefined;
+  if (category) candidate = `/categories/${category}/`;
+
+  if (!candidate && segments[0] === 'categories' && segments[1] === 'crypto-exchanges') {
+    candidate = '/reviews/';
+  }
+
+  if (!candidate && segments.length === 1 && ['compare', 'comparison', 'comparisons'].includes(segments[0])) {
+    candidate = '/reviews/';
+  }
+
+  if (!candidate && segments.length === 1 && ['broker', 'brokers', 'tools', 'tool'].includes(segments[0])) {
+    candidate = '/reviews/';
+  }
+
   if (segments.length === 2 && ['review', 'reviews', 'tools', 'tool'].includes(segments[0])) {
     const slug = canonicalToolSlug(segments[1]);
     if (slug) candidate = `/review/${slug}/`;
   }
   if (!candidate && segments.length === 2 && ['comparison', 'comparisons'].includes(segments[0])) {
-    candidate = `/compare/${segments[1]}/`;
+    const comparisonPath = `/compare/${segments[1]}/`;
+    if (validPaths.has(comparisonPath)) candidate = comparisonPath;
   }
   if (!candidate && segments.length === 2 && ['prop-firms', 'brokers', 'brokers-us', 'brokers-forex'].includes(segments[0])) {
-    const slug = toolSlugs.get(segments[1]);
+    const slug = canonicalToolSlug(segments[1]);
     if (slug) candidate = `/review/${slug}/`;
   }
   if (!candidate && segments.length === 1 && categorySlugs.has(segments[0])) {
@@ -98,6 +142,95 @@ function normalizePath(rawHref: string) {
     const [left, right] = segments[1].split('-vs-', 2);
     const reversed = `${right}-vs-${left}`;
     if (comparisonSlugs.has(reversed)) candidate = `/compare/${reversed}/`;
+  }
+
+  if (!candidate && ['compare', 'comparison', 'comparisons'].includes(segments[0])) {
+    candidate = '/reviews/';
+  }
+
+  if (!candidate && ['prop-firm-comparison', 'prop-firms-comparison', 'prop-firm-comparisons', 'prop-firm-pricing-comparison'].includes(segments[0])) {
+    candidate = '/best/best-prop-firms/';
+  }
+
+  if (!candidate && segments[0] === 'prop-firms' && ['comparison', 'compare', 'pricing-comparison'].includes(segments[1])) {
+    candidate = '/best/best-prop-firms/';
+  }
+
+  if (!candidate && segments[0] === 'prop-firms') {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    const comparisonPath = segments[1] ? `/compare/${segments[1]}/` : '';
+    candidate = nestedTool
+      ? `/review/${nestedTool}/`
+      : (comparisonPath && validPaths.has(comparisonPath)
+        ? comparisonPath
+        : '/best/best-prop-firms/');
+  }
+
+  if (!candidate && ['review', 'reviews', 'tools', 'tool', 'stock-screeners'].includes(segments[0])) {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool ? `/review/${nestedTool}/` : '/reviews/';
+  }
+
+  const legacyCategoryByPrefix = new Map<string, string>([
+    ['trading-bots', 'trading-bots'],
+    ['trading-platforms', 'charting-platforms'],
+    ['platforms', 'charting-platforms'],
+    ['futures-platforms', 'futures-platforms'],
+    ['trading-journals', 'trading-journals'],
+    ['brokers', 'brokers-us'],
+    ['brokers-us', 'brokers-us'],
+    ['brokers-forex', 'brokers-forex'],
+    ['forex-brokers', 'brokers-forex'],
+    ['stock-brokers', 'brokers-us'],
+    ['trading-tools', 'news-data-feeds'],
+  ]);
+  if (!candidate && legacyCategoryByPrefix.has(segments[0])) {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool
+      ? `/review/${nestedTool}/`
+      : `/categories/${legacyCategoryByPrefix.get(segments[0])}/`;
+  }
+
+  if (!candidate && segments[0] === 'tradertrac') {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool ? `/review/${nestedTool}/` : '/reviews/';
+  }
+
+  if (!candidate && segments[0] === 'en') {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool ? `/review/${nestedTool}/` : '/reviews/';
+  }
+
+  if (!candidate && ['broker', 'broker-comparison', 'broker-comparison-tool', 'brokers-comparison', 'forex-brokers-comparison'].includes(segments[0])) {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool ? `/review/${nestedTool}/` : '/reviews/';
+  }
+
+  if (!candidate && segments[0] === 'products' && segments[1] === 'trading-journals') {
+    const nestedTool = [...segments].reverse().map(canonicalToolSlug).find(Boolean);
+    candidate = nestedTool ? `/review/${nestedTool}/` : '/categories/trading-journals/';
+  }
+
+  const legacyRootAliases = new Map<string, string>([
+    ['alternatives', '/reviews/'],
+    ['how-to-save', '/specials/'],
+    ['trading-prop-firms', '/best/best-prop-firms/'],
+    ['crypto-bot-comparison', '/best/best-trading-bots/'],
+    ['3commas-vs', '/review/3commas/'],
+    ['flowalgo-vs-lightspeed', '/review/flowalgo/'],
+    ['flowalgoverus', '/review/flowalgo/'],
+    ['unusual-whales-vs-flowalgo', '/review/unusual-whales/'],
+    ['phidias-vs-competitors', '/review/phidias-propfirm/'],
+    ['sablotrade-vs-competitors', '/review/sabio-trade/'],
+    ['sabl trading-review', '/review/sabio-trade/'],
+  ]);
+  if (!candidate && legacyRootAliases.has(segments[0])) {
+    candidate = legacyRootAliases.get(segments[0]);
+  }
+
+  if (!candidate && segments.length === 1) {
+    const directTool = canonicalToolSlug(segments[0]);
+    if (directTool) candidate = `/review/${directTool}/`;
   }
 
   if (candidate && validPaths.has(candidate)) return `${candidate}${suffix}`;

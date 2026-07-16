@@ -7,7 +7,7 @@
 - [Methodology](https://tradingtoolshub.com/methodology/): 5-factor weighted review scoring
 - [RSS Feed](https://tradingtoolshub.com/feed.xml): Recently updated reviews
 
-## Tool Reviews (187 reviews)
+## Tool Reviews (186 reviews)
 - [3Commas (trading-bots)](https://tradingtoolshub.com/review/3commas/)
 - [Ally Invest (brokers-us)](https://tradingtoolshub.com/review/ally-invest/)
 - [Alpaca Markets (brokers)](https://tradingtoolshub.com/review/alpaca/)
@@ -90,7 +90,6 @@
 - [J.P. Morgan Self-Directed Investing (brokers-us)](https://tradingtoolshub.com/review/jp-morgan/)
 - [Kinfo (trading-journals)](https://tradingtoolshub.com/review/kinfo/)
 - [Koyfin (charting-platforms)](https://tradingtoolshub.com/review/koyfin-pro/)
-- [Koyfin (news-data-feeds)](https://tradingtoolshub.com/review/koyfin/)
 - [Lightspeed Trading (brokers-us)](https://tradingtoolshub.com/review/lightspeed/)
 - [Lucid Trading (prop-firms)](https://tradingtoolshub.com/review/lucid-trading/)
 - [Lux Trading Firm (prop-firms)](https://tradingtoolshub.com/review/lux-trading-firm/)
