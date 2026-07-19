@@ -8,10 +8,10 @@
     "instant-funded"
   ],
   "description_short": "Tradeify is a futures-only prop firm offering Growth, Select, and Lightning plans with EOD drawdown, $0 activation fees, and daily payouts processed 7 days a week.",
-  "description_long": "Tradeify is a futures-focused proprietary trading firm founded in 2022 by Brett Simba in Boca Raton, Florida. The firm offers simulated-funded accounts across three distinct program types — Growth, Select, and Lightning — giving traders flexibility in how they approach evaluation and structure their payouts. With $125M+ in total payouts reported and a Trustpilot rating of 4.7–4.8 from over 2,000 verified reviews, Tradeify has quickly earned a strong reputation among retail futures traders.\n\nThe Growth plan is a one-step evaluation with monthly subscriptions starting at $139/month for a $50K account, a 35% funded consistency rule, and 100% of the first $15K in profit kept by the trader before shifting to a 90/10 split. The Select plan introduces two payout modes: Select Daily allows payout eligibility every day (processed 7 days per week), while Select Flex triggers payouts after every 5 winning days with no daily loss limit enforced. For traders who prefer to bypass evaluation entirely, the Lightning Funded plan provides immediate simulated account access for a one-time fee starting at $349 for a $25K account — with no recurring monthly charges afterward.\n\nTradeify differentiates itself in several meaningful ways. There is no activation fee, saving traders $149–$249 compared to most competing firms. Drawdown is calculated end-of-day rather than trailing intraday, a critical advantage that prevents traders from being stopped out by normal intraday fluctuations. Automated trading strategies and bots are permitted with ownership verification, and there are no restrictions on trading during news events — both policies uncommon among futures prop firms.\n\nSupported trading platforms include Tradovate (primary), NinjaTrader, TradingView, Quantower, and WealthCharts. Mobile trading is available through the Tradovate iOS and Android app. The platform includes a built-in trade journal and performance analytics dashboard. Traders who achieve five approved payouts can qualify for the Tradeify Elite program, which offers a pathway to access live CME capital.",
+  "description_long": "## What Tradeify Is and Who Runs It\n\nTradeify is a **futures-only prop firm** launched in 2022 and headquartered in Boca Raton, Florida. It's part of the newer wave of prop firms built specifically around the CME futures ecosystem, competing directly with names like Topstep, Apex Trader Funding, and Bulenox. Rather than offering forex or CFDs, Tradeify focuses on one thing: giving futures day traders access to simulated capital they can convert into real payouts, with an eventual pathway to CME-connected live funding through its Tradeify Elite program.\n\nThe company operates on a simulated capital model, which is standard in the U.S. prop firm space. You pay for an evaluation (or an instant funded account), trade within specified rules, and Tradeify pays out profits from its own liquidity — not from a live brokerage account tied to your name. This is the same structure used by essentially every major U.S. futures prop firm.\n\n## Core Features and What Makes Tradeify Different\n\nTradeify runs on Tradovate as its primary brokerage backbone, with support for NinjaTrader, TradingView, Quantower, and other third-party platforms. There's no proprietary Tradeify desktop platform — you're trading through infrastructure you likely already know.\n\nThe two features Tradeify hangs its marketing on are **end-of-day (EOD) drawdown** and **$0 activation fees**. EOD drawdown means your maximum loss threshold only updates once per day based on your end-of-day balance, not on unrealized intraday highs. This is significantly more forgiving than the trailing intraday drawdown used by many competitors, where a mid-session profit spike permanently locks in a higher drawdown line and can blow you out on the same trade you were up on. The $0 activation fee matters because most prop firms charge $130–$249 to convert a passed evaluation into a funded account — Tradeify doesn't.\n\nOther notable features: **daily payouts processed seven days a week**, automated trading and bots explicitly allowed, no news-trading restrictions, and a Tradeify Elite pathway that promises transition to a live CME-funded account after five approved payouts on a Growth or Select plan.\n\n## Pricing Breakdown\n\nTradeify offers three plan families: Growth (evaluation-based, cheapest), Select (evaluation-based, higher profit split), and Lightning Funded (instant funding, no evaluation).\n\n**Growth plans** are the entry point. The **Growth $50K** account runs **$139/month**, and the **Growth $100K** is **$239/month**. Both are one-step evaluations with a 1-day minimum trading requirement, EOD drawdown, and a profit structure that gives you 100% of your first $15,000 in profit before switching to a 90/10 split.\n\n**Select plans** cost more but offer better payout mechanics. The **Select $50K** is **$159/month** and the **Select $100K** is **$259/month**. Select accounts run a 90/10 profit split from day one and let you choose between two payout modes: Select Daily (up to $1,000/day on the $50K, $1,500/day on the $100K) or Select Flex (payout every five winning days, up to $4,000 on the $100K).\n\n**Lightning Funded** is the no-evaluation route. The **Lightning $50K** is **$469** as a one-time fee, and the **Lightning $100K** is **$599** one-time. You skip the evaluation entirely but pay significantly more upfront and accept an escalating consistency rule.\n\nTradeify runs promotional discounts frequently — often 40–70% off — so the sticker prices above are rarely what people actually pay. That's good if you're patient, but it makes true-cost comparisons with competitors annoyingly difficult.\n\n## Honest Pros\n\n**End-of-day drawdown is the real headline.** For any trader who has been blown out of a trailing-drawdown account by a profitable trade that pulled back, EOD is a material improvement. It changes how you can size positions early in a session without permanently ratcheting your loss line.\n\n**No activation fee is genuine money saved.** Most competitors charge $130–$249 the moment you pass. Tradeify skipping this is a real $150-ish saving per account, and it compounds if you reset multiple times.\n\n**Daily payouts, seven days a week** with same-week processing on Select Daily is faster than what Topstep and several other firms offer.\n\n**Bots and algorithmic strategies are explicitly permitted** with no news restrictions, which puts Tradeify in a small group of prop firms genuinely usable by algo traders.\n\n**Tradeify Elite pathway to live CME capital** exists on paper as a differentiator, though the five-payout requirement is not trivial.\n\n## Honest Cons\n\n**It's futures only.** No stocks, no options, no forex, no crypto. If you want any asset class outside CME futures, Tradeify is a hard no.\n\n**No proprietary mobile app.** Mobile trading depends on whichever brokerage app you connect through — usually Tradovate. If a polished, prop-firm-branded mobile experience matters to you, this isn't it.\n\n**Consistency rules bite aggressive traders.** The 35% funded consistency rule on Growth accounts means no single day can exceed 35% of your total profit. If you catch one monster day, you have to grind out additional smaller days before you can withdraw. Scalpers with lumpy P&L distributions will feel this constantly.\n\n**The promo pricing shell game.** Tradeify's constant discounts make it hard to know if you're actually getting a deal or paying \"discounted\" full price. Real comparison shopping with other firms requires waiting for parallel promotions.\n\n**Simulated funding is still simulated.** Like nearly all U.S. prop firms, Tradeify's Growth and Select accounts are simulated capital until you graduate to Elite. That's industry-standard, but worth stating plainly.\n\n## Who Should Use Tradeify — and Who Shouldn't\n\n**Tradeify makes sense for:** futures day traders who want EOD drawdown instead of trailing, algo and bot traders who need permissive rules, traders who value fast/frequent payouts, and cost-conscious traders who want to skip activation fees. If you already trade ES, NQ, CL, GC, or MES on Tradovate or NinjaTrader, the fit is natural.\n\n**Tradeify is wrong for:** anyone trading stocks, options, forex, or crypto. Aggressive scalpers who make most of their money on one or two blowout days will fight the consistency rule constantly. Traders who need a polished, first-party mobile app will be disappointed. And anyone looking for education, mentorship, or a trading community will find Tradeify sparse — this is a funding product, not a coaching one.\n\n## How Tradeify Compares to Topstep and Apex\n\n**Vs. Topstep:** Topstep is the older, more established brand with better name recognition and stronger education resources. Topstep uses a trailing drawdown on most accounts, which is a real disadvantage compared to Tradeify's EOD model. Topstep's payout process is well-oiled but slower. If brand trust and a mature ecosystem matter more than drawdown mechanics, Topstep. If drawdown mechanics matter more, Tradeify.\n\n**Vs. Apex Trader Funding:** Apex is the volume leader and runs perpetual discounts even more aggressively than Tradeify. Apex offers larger account sizes and more variety, but its rules and payout structure have shifted multiple times, which some traders dislike. Tradeify feels more stable rule-wise, and EOD drawdown is again a meaningful edge. Apex often wins on raw price after discounts; Tradeify wins on mechanics.\n\n## The Bottom Line\n\nTradeify is a legitimately competitive futures prop firm with two features — EOD drawdown and $0 activation — that materially matter to real traders. It's not trying to be a full-service trading platform, and it isn't one. But for futures-only day traders and algo traders who want forgiving drawdown mechanics, permissive rules, and fast payouts, Tradeify is one of the more trader-friendly options in the U.S. prop firm market right now.\n\nJust wait for a promo before you buy, and go in knowing that \"funded\" means simulated until you reach Elite. Rated **4.5/5** for its target audience of futures day traders — lower if you need any other asset class.",
   "logo_url": "/logos/tradeify.svg",
   "screenshots": [],
-  "website_url": "https://tradeify.co",
+  "website_url": "https://tradeify.com",
   "affiliate_url": "",
   "affiliate_program": "",
   "affiliate_commission": "",
@@ -126,17 +126,19 @@
     "futures"
   ],
   "pros": [
-    "$0 activation fee saves $149–$249 compared to most competitors",
-    "End-of-day drawdown calculation is far more trader-friendly than trailing intraday",
+    "End-of-day drawdown is materially more forgiving than trailing intraday used by most competitors",
+    "$0 activation fee saves roughly $150 per account versus Topstep and Apex",
     "Daily payouts processed 7 days a week with fast turnaround on Select Daily plan",
-    "Trading bots and automated strategies allowed with no news trading restrictions",
-    "Tradeify Elite program offers a pathway to live CME capital after 5 approved payouts"
+    "Bots, automated strategies, and news trading all explicitly permitted",
+    "Tradeify Elite pathway offers transition to live CME capital after 5 approved payouts",
+    "Works with Tradovate, NinjaTrader, TradingView, and Quantower — no forced proprietary platform"
   ],
   "cons": [
     "Futures only — no stocks, options, forex, or crypto trading",
-    "No proprietary mobile app; mobile trading depends on Tradovate's app",
-    "Consistency rules may feel restrictive for aggressive trading styles",
-    "Frequent promotional discounts make it difficult to compare true pricing"
+    "No proprietary mobile app; you're stuck with Tradovate's mobile experience",
+    "35% consistency rule punishes traders with lumpy P&L distributions",
+    "Constant promotional discounts make true-price comparison with competitors difficult",
+    "Funded accounts remain simulated until you graduate to Tradeify Elite"
   ],
   "rating": 4.5,
   "rating_breakdown": {
@@ -150,10 +152,11 @@
   "company": "Tradeify",
   "headquarters": "Boca Raton, Florida",
   "best_for": [
-    "futures day traders",
-    "algorithmic and bot traders",
-    "traders seeking daily payouts",
-    "cost-conscious traders avoiding activation fees"
+    "Futures day traders on ES, NQ, CL, and micros",
+    "Algorithmic and bot traders needing permissive rules",
+    "Traders who want daily payouts and fast withdrawal cycles",
+    "Cost-conscious traders avoiding activation fees",
+    "Traders burned by trailing drawdown at other prop firms"
   ],
   "similar_tools": [
     "topstep",
@@ -161,8 +164,32 @@
     "earn2trade",
     "bulenox"
   ],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Tradeify Review 2026",
-  "meta_description": "Tradeify is a futures-only prop firm offering Growth, Select, and Lightning plans with EOD drawdown, $0 activation fees, and daily payouts processed 7."
+  "meta_title": "Tradeify Review 2026: Futures Prop Firm Worth It?",
+  "meta_description": "Honest Tradeify review 2026: EOD drawdown, $0 activation, daily payouts. Pricing, pros, cons, and how it compares to Topstep and Apex Trader Funding.",
+  "company_background": "Tradeify is a futures-only prop firm founded in 2022 and headquartered in Boca Raton, Florida. It operates on a simulated capital model with a pathway to live CME-connected funding via its Tradeify Elite program, using Tradovate, NinjaTrader, TradingView, and Quantower as supported platforms. The firm has grown quickly by competing on end-of-day drawdown mechanics and $0 activation fees against established names like Topstep and Apex Trader Funding.",
+  "scraped_features": [
+    "One-step evaluation on Growth and Select plans",
+    "Instant funding available via Lightning Funded plans",
+    "End-of-day (EOD) drawdown calculation",
+    "$0 activation fee on all evaluation plans",
+    "1-day minimum trading requirement",
+    "100% of first $15K profit on Growth and Lightning plans",
+    "90/10 profit split after initial threshold",
+    "35% consistency rule on funded Growth accounts",
+    "Select Daily payout mode with up to $1.5K/day withdrawals",
+    "Select Flex payout every 5 winning days",
+    "Daily payouts processed 7 days a week",
+    "Tradovate integration as primary brokerage",
+    "NinjaTrader, TradingView, and Quantower platform support",
+    "Automated trading and trading bots permitted",
+    "No news trading restrictions",
+    "Tradeify Elite live CME funding pathway",
+    "Account sizes from $50K to $100K",
+    "Escalating consistency rule on Lightning Funded plans",
+    "Performance analytics and trade journaling via connected platforms",
+    "Risk management dashboard within trader portal"
+  ],
+  "enriched_at": "2026-07-17"
 }

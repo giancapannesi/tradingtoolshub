@@ -8,7 +8,7 @@
     "evaluation-programs"
   ],
   "description_short": "Bulenox is a futures prop firm offering funded accounts from $10K to $250K with 100% profit on first $10K earned and a 90/10 split beyond that.",
-  "description_long": "Bulenox is a futures proprietary trading firm founded in 2022 and incorporated in Delaware. It provides traders access to simulated funded accounts ranging from $10,000 to $250,000, with the goal of progressing through an evaluation phase (Qualification) into a Funded account, and ultimately a Master (fully funded) account. The firm supports 42 futures instruments across CME, NYMEX, COMEX, and CBOT, executed via NinjaTrader 8 on low-latency servers in Chicago and New York.\n\nOne of Bulenox's standout features is its profit structure: traders keep 100% of the first $10,000 in profits with no commission, then transition to a 90/10 split (90% to trader) on all profits beyond that threshold. Payouts are processed every Wednesday with a $1,000 minimum withdrawal. A 40% consistency rule applies — no single trading day can account for more than 40% of total profit at the time of a withdrawal request, though violating this rule does not reset the account, it simply delays that payout.\n\nThe platform supports automated trading via Expert Advisors (EAs), making it one of the few prop firms welcoming algo traders. There is no time limit on the evaluation phase, allowing traders to pass at their own pace without pressure. Monthly subscription fees range from approximately $115 for the $10K account to $535 for the $250K account, with frequent promotional discounts (up to 75% off) available via coupon codes.\n\nBulenox covers a broad range of futures markets including equity indices (ES, NQ, YM, RTY), currencies, metals, energy, agriculture, and even Micro Bitcoin futures (MBT) — a rare inclusion among futures prop firms. Its competitive profit split, algo-friendly rules, and no-time-limit evaluation make it a strong option for both discretionary and systematic futures traders.",
+  "description_long": "## The 100% First-$10K Payout Rule Is the Core Trade-Off\n\nBulenox is a futures prop firm built around a single unusual promise: you keep 100% of the first $10,000 you earn in the Master (funded) phase, then move to a 90/10 split beyond that. Every other decision about Bulenox — the platform, the pricing, the drawdown math, the instruments — flows from whether that structure fits how you actually trade. If you scalp micros and pull small, frequent payouts, the first-$10K rule can be worth thousands versus a standard 80/20 or 90/10 firm. If you swing large contracts and expect a single $40K month, most of your earnings still fall under the 90/10 split, and Bulenox becomes an ordinary prop firm with an above-average promotional cost structure.\n\nThis is a decision-focused review of Bulenox for futures traders comparing prop firms in 2026. It covers the account sizing, the platform constraint, the algo policy, the weaknesses of a younger firm, and where competitors like Apex, Topstep and Tradeify may actually be the better call.\n\n## Account Sizes, Contract Limits and Drawdown Math\n\nBulenox sells simulated qualification accounts from roughly $25,000 up to $250,000, with two option paths at checkout: a No Scaling Account and an EOD (end-of-day drawdown) Account. Each tier has a matched contract cap, profit target and trailing drawdown that determine how aggressively you can size in:\n\n- **$25K account** — max 3 contracts, $1,500 profit target, $1,500 drawdown, listed at $145/month.\n- **$50K account** — max 7 contracts, $3,000 profit target, $2,500 drawdown, listed at $175/month with a \"$50OFF\" coupon dropping it to $125.\n- **$100K account** — max 12 contracts, $6,000 profit target, $3,000 drawdown, listed at $215/month with a \"$60OFF\" coupon dropping it to $155.\n- **$150K account** — max 15 contracts, $9,000 profit target, $4,500 drawdown, $325/month.\n- **$250K account** — max 25 contracts, $15,000 profit target, $5,500 drawdown, $535/month.\n\nThe pattern is worth reading twice. A $250K account carries only $5,500 of drawdown against a $15,000 target — a 2.7x reward-to-risk in your favor, but with 25 contracts of exposure that can chew through that buffer in a single MES cluster. The $50K tier, by contrast, gives you $2,500 of drawdown against a $3,000 target — a much thinner cushion but at a lower monthly fee. Bulenox does not disable size, but the drawdown ratios push you toward disciplined micro sizing regardless of the label on the account.\n\n## Why NinjaTrader 8 and Rithmic Shape Your Setup\n\nBulenox runs on NinjaTrader 8, with a Rithmic 14-day free trial available for new accounts. That combination matters. NinjaTrader is a genuinely strong platform for automated futures strategies, custom indicators and DOM-based scalping, but it is Windows-first, has a steeper learning curve than web-based competitors, and locks out anyone who has built their workflow around Tradovate, TradingView, TSTrader or Quantower. If you already use NinjaTrader with your own strategy scripts, Bulenox is the shortest path to a funded account you will find. If you have never opened NinjaTrader, expect a week of setup before your first real trade.\n\nRithmic data is preferred by most serious futures traders for its execution speed, and the free trial is a real cost saver — after the trial, market data is a recurring line item that many prop firm reviews ignore. Budget for it before signing up, especially at the higher account tiers where you may want CQG or Rithmic-tier data quality.\n\n## Algos and EAs Are Fully Permitted — No Asterisks\n\nOne of the strongest reasons to consider Bulenox is its stance on automated trading. Expert Advisors, semi-automated setups and full algo systems are permitted on both qualification and Master accounts, with no per-day limit on automated fills and no ban on news trading of the kind Topstep and some FTMO-lineage firms enforce. For a NinjaTrader user with a working NinjaScript strategy, this is the closest thing to running your bot on a real account without posting collateral.\n\nWhere this gets sharper: Bulenox permits multiple accounts simultaneously. A trader running three uncorrelated strategies can put each on its own $50K or $100K account and combine the payouts. That workflow is not friendly to every strategy, but it removes a real friction point that firms with strict single-account rules impose.\n\n## The Weaknesses Bulenox Won't Advertise\n\nThree honest limitations deserve attention before signing up.\n\nFirst, **Bulenox is futures only**. There are 42 tradable instruments including the harder-to-find Micro Bitcoin (MBT), but no stocks, no forex spot, no options and no CFDs. If your edge is in equity index futures or micros, this is fine. If you were hoping to run a mixed book with any non-futures instrument, you cannot. Bulenox is a specialist product, not a universal broker replacement.\n\nSecond, **Bulenox was founded in 2022 and operates under Bulenox LLC, headquartered in Wilmington, Delaware**. That is a shorter track record than Topstep (founded 2012), Apex Trader Funding (2021) or Earn2Trade. Prop firms have had a rough two years — several once-respected names have restructured payouts, changed rules mid-account, or paused withdrawals. A younger firm is not automatically a bad firm, but it is a firm with less public payout history to verify. Read recent trader forums for payout timelines before committing capital.\n\nThird, **the monthly fee model recurs until you clear the qualification phase**. Bulenox pairs this with \"no time limit\" evaluations, which sounds generous but has a cost tail: a trader who takes six months to hit the profit target on a $100K account has paid over $900 in fees before earning a dollar. Frequent \"$50OFF\" and \"$60OFF\" coupons meaningfully reduce this, and stacking evaluations during 50-75% off promotions is the norm rather than the exception. Do not pay list price for a Bulenox account without checking their public discount calendar.\n\n## Bulenox Versus Apex, Topstep and Tradeify in 2026\n\nBulenox competes most directly with Apex Trader Funding, Topstep, Earn2Trade and Tradeify. The honest split runs like this:\n\n- **Choose Apex** if you want a broader platform choice (Tradovate, NinjaTrader, Rithmic-direct) and are comfortable with an 80/20 split above the initial threshold. Apex has a longer visible payout history and more third-party review coverage.\n- **Choose Topstep** if you value educational structure, coaching and a well-known brand for its resale value on your trading resume. Topstep is stricter on rules but has been paying traders for over a decade.\n- **Choose Tradeify** if you want a newer TradingView-first prop model with cleaner UX.\n- **Choose Bulenox** if you specifically want the 100% first-$10K structure, you are a NinjaTrader-native trader, and you run algos that benefit from multiple concurrent accounts.\n\n## The Real Buyer for a Bulenox Account\n\nA Bulenox account makes sense for a specific trader: a futures day trader or micro-scalper who already runs NinjaTrader 8, has a strategy that produces frequent small payouts rather than one large monthly withdrawal, and can enter during a 50-75% off promotion to keep the qualification cost under $100. Algorithmic traders with tested EAs get additional value from the multi-account rule.\n\nIt makes less sense for a discretionary swing trader planning to hit a $40K month, a beginner without a proven futures edge, a non-futures trader, or anyone unwilling to learn NinjaTrader. For those profiles, the recurring fees will outweigh the 100% first-$10K advantage, and a more established competitor offers safer stakes on the capital of a firm that has already survived a rule-change cycle.",
   "logo_url": "/logos/bulenox.svg",
   "screenshots": [],
   "website_url": "https://bulenox.com",
@@ -124,17 +124,19 @@
     "crypto"
   ],
   "pros": [
-    "100% profit retention on first $10,000 earned — industry-leading structure",
-    "No time limit on evaluation phase reduces pressure on traders",
-    "Algo and Expert Advisor trading fully permitted",
-    "42 futures instruments including rare Micro Bitcoin (MBT) access",
-    "Frequent promotions (up to 75% off) make entry costs very low"
+    "100% profit retention on the first $10,000 earned in the Master phase",
+    "90/10 profit split above the $10K threshold — better than most competitors",
+    "No time limit on the qualification (evaluation) phase",
+    "Expert Advisors and fully automated trading permitted without restriction",
+    "Multiple concurrent accounts allowed — good for algo traders running strategies in parallel",
+    "42 futures instruments including Micro Bitcoin (MBT)"
   ],
   "cons": [
-    "Futures only — no stocks, forex spot, options, or CFDs",
-    "Monthly fees recur until reaching Master phase, costs add up if evaluation is slow",
-    "Newer firm (founded 2022) with a shorter track record than established competitors",
-    "NinjaTrader 8 only — no support for other platforms like Tradovate or Rithmic"
+    "Futures only — no stocks, forex spot, options or CFDs",
+    "NinjaTrader 8 is the only supported platform",
+    "Monthly fees recur until you clear qualification — slow evaluations get expensive",
+    "Founded 2022 — shorter public payout history than Topstep, Apex or Earn2Trade",
+    "Market data (Rithmic/CQG) is a recurring cost after the 14-day trial"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -148,10 +150,11 @@
   "company": "Bulenox LLC",
   "headquarters": "Wilmington, Delaware",
   "best_for": [
-    "futures day traders",
-    "algorithmic and EA traders",
-    "traders seeking high profit splits",
-    "crypto futures traders"
+    "Futures day traders already running NinjaTrader 8",
+    "Algorithmic and EA traders wanting multiple simultaneous accounts",
+    "Micro-scalpers making frequent small withdrawals",
+    "Crypto futures traders wanting Micro Bitcoin (MBT) access",
+    "Traders who buy during 50-75% off promotional windows"
   ],
   "similar_tools": [
     "apex-trader-funding",
@@ -159,8 +162,35 @@
     "earn2trade",
     "tradeify"
   ],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Bulenox Review 2026",
-  "meta_description": "Bulenox is a futures prop firm offering funded accounts from $10K to $250K with 100% profit on first $10K earned and a 90/10 split beyond that."
+  "meta_title": "Bulenox Review 2026: Prop Firm Payouts and Real Costs",
+  "meta_description": "Honest 2026 Bulenox review: the 100% first-$10K rule, NinjaTrader 8 constraint, EA policy, drawdown math and how it stacks against Apex and Topstep.",
+  "company_background": "Bulenox is a futures prop firm founded in 2022 and operated by Bulenox LLC, headquartered in Wilmington, Delaware. The company offers simulated qualification accounts from $25K to $250K, funded (Master) accounts with a 100% payout on the first $10K earned and 90/10 above that, and runs entirely on the NinjaTrader 8 platform.",
+  "scraped_features": [
+    "Qualification (evaluation) accounts from $25K to $250K",
+    "100% profit on first $10,000 in the Master phase",
+    "90/10 profit split above the $10K threshold",
+    "No time limit on the qualification phase",
+    "NinjaTrader 8 platform included",
+    "Rithmic 14-day free data trial for new accounts",
+    "42 futures instruments including Micro Bitcoin (MBT)",
+    "Expert Advisors and automated trading fully permitted",
+    "Multiple simultaneous accounts allowed",
+    "No Scaling Account option at each tier",
+    "EOD (end-of-day) drawdown account option",
+    "$25K account: 3 contracts, $1,500 target, $1,500 drawdown",
+    "$50K account: 7 contracts, $3,000 target, $2,500 drawdown",
+    "$100K account: 12 contracts, $6,000 target, $3,000 drawdown",
+    "$150K account: 15 contracts, $9,000 target, $4,500 drawdown",
+    "$250K account: 25 contracts, $15,000 target, $5,500 drawdown",
+    "Frequent coupon codes (e.g. $50OFF, $60OFF) reducing monthly costs",
+    "Custom indicators supported via NinjaScript",
+    "Global trader access with no geographic restriction",
+    "Reset options available for failed qualification accounts"
+  ],
+  "social_links": {
+    "twitter": "https://bulenox.com/blog"
+  },
+  "enriched_at": "2026-07-18"
 }

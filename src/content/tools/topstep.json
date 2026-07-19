@@ -7,7 +7,7 @@
     "futures-focused"
   ],
   "description_short": "Veteran futures prop firm with a structured Trading Combine evaluation, risk management coaching, and funded accounts up to $150K.",
-  "description_long": "Topstep is one of the original and most respected futures-focused proprietary trading firms, founded in 2012 in Chicago. The firm pioneered the online prop firm evaluation model and has funded thousands of traders through its Trading Combine program.\n\nThe evaluation process involves trading a simulated futures account while meeting profit targets and adhering to risk rules. Topstep offers account sizes of $50K, $100K, and $150K. The key differentiator is Topstep's focus on risk management — the firm provides coaching, performance analytics, and daily loss limits designed to instill disciplined trading habits. Traders must demonstrate consistent profitability rather than hitting profit targets through one or two lucky trades.\n\nOnce funded, traders receive a 100% profit split on the first $5,000, then 90/10 thereafter. Payouts are processed quickly, and funded traders can withdraw profits at any time. Topstep supports trading through NinjaTrader, Tradovate, and other major futures platforms. The firm has a strong community with live trading rooms, educational webinars, and an active Discord.",
+  "description_long": "## The Trading Combine Is Really A Two-Stage Discipline Test\n\nTopstep is a futures-only prop firm that gates capital behind a Trading Combine evaluation, and the central trade-off is simple: you pay a recurring monthly fee to prove you can trade within tight loss parameters before you touch funded capital. The evaluation is not a knowledge exam or an interview — it is a live simulated account with a profit target, a daily loss limit, a trailing maximum drawdown, and a set of behavioral rules that will end your attempt the moment you break them. If you are looking at Topstep in the prop-firms category, the decision is not really about the platform features or the marketing. It is about whether the rules match how you already trade, because trying to reshape your style around Topstep's guardrails during a paid evaluation is the fastest way to burn through fees with nothing to show for it.\n\n## What The $165, $325 And $375 Combine Fees Actually Buy\n\nTopstep publishes three Trading Combine tiers, and the monthly fee is the only cash you put on the line. The **$50K Trading Combine** costs **$165 per month** and gives you a $3,000 profit target, a $2,000 daily loss limit and a 5-contract cap. The **$100K Trading Combine** is **$325 per month** with a $6,000 target, $3,000 daily loss limit and 10 contracts. The **$150K Trading Combine** runs **$375 per month** with a $9,000 target, $4,500 daily loss limit and 15 contracts.\n\nNotice what those numbers imply. The profit target is roughly 6% of stated buying power across all three tiers, and the daily loss limit is between 3% and 4%. That means the risk-to-reward you must run inside the Combine is fixed regardless of which account size you pick — the bigger accounts are not easier, they are just proportionally scaled. Choosing the $150K tier because it sounds more serious is a mistake if your average trade size and volatility tolerance are better suited to a 5-contract limit. Most people fail Topstep not because the target is out of reach but because they get caught in a daily-loss stop-out during a normal drawdown day and lose the fee.\n\n## Futures Only, And Why That Actually Matters\n\nTopstep does not offer forex evaluations. It does not offer equities, crypto or CFDs. It is a futures prop firm — CME index futures, energy, metals, ags, rates — and that scope decision cascades into everything else. The mobile app, the coaching content, the community and the TopstepTV livestream all assume you are trading futures. If your edge is in EUR/USD or in single-stock momentum, Topstep is the wrong category of product, not a cheaper alternative. This is worth stating up front because a lot of trader-funding shoppers compare Topstep to firms that run mixed asset evaluations, and the comparison is apples to oranges on instrument access alone.\n\nThe upside of the narrow scope is that Topstep has spent 15 years, per its own site, building a workflow specifically around futures risk. The Trading Combine rules, the trailing drawdown mechanics and the funded-account payout structure are all tuned to the tick sizes and margin behavior of CME products. That specialization is one of the reasons Topstep tends to be recommended over generalist prop firms for futures-first traders.\n\n## The Consistency Rule And Automation Ban Are Real Constraints\n\nTwo restrictions matter more than the surface features. First, Topstep evaluations enforce a consistency requirement — no single day can account for an outsized share of your profit, which is designed to prevent people from passing on one lucky trade. If you are a swing-for-the-fence trader who makes most of your month on two setups, the consistency rule will either disqualify your best days or force you to stop trading once you hit a threshold you did not plan for.\n\nSecond, automated trading is not permitted. If you have a strategy that runs through NinjaTrader automation, a bot, a signal-driven execution layer or a fully coded system, you cannot use it inside a Topstep Combine or funded account. Discretionary execution is required. This is a hard filter — no workaround, no premium tier that unlocks it. Algo traders should stop reading and look at prop firms that explicitly allow expert advisors or coded systems.\n\n## The Funded Account, The 100% First-Split And Payouts\n\nOnce you pass the Combine and clear activation, you get a funded account and Topstep's marketing highlights a 100% profit split on the first $5,000 of profit, then a share above that. The site references instant payouts, weekly payouts to thousands of traders and $1.4B+ in total historical payouts across the firm's lifetime. Exact current profit-split percentages beyond the first $5,000, precise payout cadence rules, minimum withdrawal amounts and the specific mechanics of the trailing max drawdown as it locks after profit are not fully spelled out in the source data available to this review, and those are the numbers you should verify directly on the Live Funded Account Rules page before you pay the first Combine fee. Screenshots of payout dashboards from third parties are not a substitute for reading the current rulebook.\n\n## Where Topstep Fits Against Apex, FTMO And The Funded Trader\n\nApex Trader Funding is the most direct competitor for futures-only traders and generally sits at a lower monthly fee for comparable account sizes, but with different drawdown mechanics and a heavier reliance on discounts. FTMO is the natural comparison for anyone considering forex or CFDs — different product entirely, but often shopped in the same session. The Funded Trader offers multi-asset evaluations with more aggressive scaling but shorter operating history. Topstep's differentiator is longevity, its Chicago futures pedigree, the depth of its coaching and TopstepTV content, and a payout track record that spans more than a decade. You pay for that stability with a higher monthly fee than the discount-heavy end of the market. If price per attempt is the only variable that matters, Topstep is not the cheapest door in. If a firm that has been paying traders since 2012 matters to you, Topstep is one of a very small number of options that can make that claim.\n\n## The Real Buyer For Topstep — And Who Should Skip It\n\nTopstep works best for a specific trader profile. You are discretionary. You trade CME futures — ES, NQ, MES, MNQ, CL, GC — and you already have a strategy with a defined stop and a realistic daily loss tolerance under 3% of the account size you pick. You are willing to trade smaller during the Combine to protect the daily loss limit, and you understand that the monthly fee is a recurring cost until you pass. You value the community, the livestreams and the coaching layer because you learn better with structure around you.\n\nSkip Topstep if you run automated strategies, if your edge is in forex or equities, if you cannot commit to trading regularly enough to pass within one or two monthly billing cycles, or if you dislike consistency rules on principle. Skip it also if you are shopping purely on the lowest sticker price, because the discount prop firm segment will always undercut Topstep on the entry fee.\n\n## The One-Line Framing Before You Pay\n\nTopstep is a legitimate, long-tenured futures prop firm whose Trading Combine is a paid discipline filter more than a skills test. The right question is not \"is Topstep good?\" — the honest answer to that is yes, within its lane. The right question is whether your existing trading style already fits inside a $2,000 daily loss limit, a 6% profit target, a consistency rule and a no-automation policy. If it does, the $165 to $375 monthly fee is a reasonable price for access to a funded futures account at a firm that has been paying traders since 2012. If it does not, you will either need to adapt your process before you start the Combine or choose a different prop firm whose rules were built for how you already trade.",
   "logo_url": "/logos/topstep.svg",
   "screenshots": [],
   "website_url": "https://www.topstep.com",
@@ -76,18 +76,19 @@
     "futures"
   ],
   "pros": [
-    "One of the most established and trusted prop firms",
-    "Strong emphasis on risk management and trader development",
-    "100% profit split on first $5,000",
-    "Active community with live trading rooms",
-    "Consistent and reliable payout history"
+    "15-year operating history as a futures-specialist prop firm",
+    "Clear tiered Combine pricing at $165, $325 and $375 per month",
+    "100% profit split on the first $5,000 of funded-account profit",
+    "Deep coaching, TopstepTV livestreams and active Discord community",
+    "Documented long-term payout track record cited at $1.4B+ lifetime",
+    "Risk-management guardrails suit disciplined discretionary futures traders"
   ],
   "cons": [
-    "Futures only — no forex or equities",
-    "Evaluation rules can be restrictive (consistency requirement)",
-    "Monthly fees accumulate during evaluation period",
-    "Automated trading not permitted",
-    "Smaller maximum account size than some competitors"
+    "Futures only — no forex, equities, crypto or CFDs",
+    "Automated and bot-driven strategies are not permitted",
+    "Consistency rule can disqualify traders who rely on outlier days",
+    "Monthly fees keep accruing until you pass the Combine",
+    "Max funded size caps at $150K, smaller than several competitors"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -101,17 +102,52 @@
   "company": "Topstep LLC",
   "headquarters": "Chicago, Illinois",
   "best_for": [
-    "futures traders",
-    "disciplined traders",
-    "risk-conscious traders"
+    "Discretionary CME futures traders",
+    "Risk-conscious traders comfortable with daily loss limits",
+    "Traders who value coaching and community structure",
+    "Buyers who prioritize firm longevity over lowest entry fee",
+    "Chicago-style index and commodity futures specialists"
   ],
   "similar_tools": [
     "ftmo",
     "apex-trader-funding",
     "the-funded-trader"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Topstep Review 2026: Veteran futures prop firm",
-  "meta_description": "Veteran futures prop firm with a structured Trading Combine evaluation, risk management coaching, and funded accounts up to $150K."
+  "meta_title": "Topstep Review 2026: Combine Rules, Fees & Fit",
+  "meta_description": "Honest 2026 Topstep review: Trading Combine fees ($165-$375), consistency rule, no-automation policy, funded account structure and who should skip it.",
+  "company_background": "Topstep LLC is a Chicago, Illinois futures prop firm founded in 2012, giving it one of the longest operating histories in the trader-funding space. The company runs the Trading Combine evaluation, funded accounts, TopstepX platform, Topstep Brokerage and TopstepTV, and reports $1.4B+ in cumulative trader payouts and a Discord community of 174,000+ futures traders.",
+  "scraped_features": [
+    "Trading Combine evaluation ($50K, $100K, $150K tiers)",
+    "$50K Combine at $165/month with $3,000 target and $2,000 daily loss limit",
+    "$100K Combine at $325/month with $6,000 target and $3,000 daily loss limit",
+    "$150K Combine at $375/month with $9,000 target and $4,500 daily loss limit",
+    "Funded Account program after passing the Combine",
+    "100% profit split on first $5,000 of funded profit",
+    "Instant payouts option advertised on site",
+    "Weekly payouts cited across active funded traders",
+    "TopstepX proprietary trading platform",
+    "Topstep Brokerage for trading personal capital",
+    "TopstepTV live daily market coverage and coaching",
+    "Topstep Octagon program area",
+    "Live Funded Account Rules and Express Funded Account Rules published",
+    "Responsible Trading Program",
+    "Discord community with 174,000+ futures traders",
+    "24/7 trader support",
+    "Coverage across 140+ countries",
+    "Payout FAQs and Help Center documentation",
+    "Trader performance analytics and journaling within platform",
+    "Broker integration for futures execution"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/Topstep",
+    "linkedin": "https://www.linkedin.com/company/topstep",
+    "youtube": "https://www.youtube.com/c/TopstepOfficial",
+    "facebook": "https://www.facebook.com/TopstepOfficial",
+    "instagram": "https://www.instagram.com/topstep",
+    "discord": "https://discord.gg/topstep",
+    "tiktok": "https://www.tiktok.com/@topstepofficial"
+  },
+  "enriched_at": "2026-07-18"
 }

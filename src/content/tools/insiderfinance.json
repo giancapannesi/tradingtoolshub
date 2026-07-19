@@ -7,7 +7,7 @@
     "institutional-tracking"
   ],
   "description_short": "Real-time options flow scanner with dark pool tracking, insider trading alerts, and institutional-grade data at mid-range pricing.",
-  "description_long": "InsiderFinance provides real-time options flow data, dark pool tracking, and insider trading alerts in a clean, modern interface. The platform bridges the gap between basic free tools and premium institutional terminals, offering professional-grade data at a reasonable price point.\n\nThe options flow scanner tracks unusual activity across all US exchanges with filters for trade size, premium, sector, and expiration. The dark pool feed shows large block trades that happen off-exchange, while insider trading alerts notify users when corporate insiders buy or sell shares of their own companies.\n\nPricing starts at $75/month for monthly billing, dropping to $55/month on annual plans. InsiderFinance positions itself as more affordable than FlowAlgo while offering comparable data quality and a more modern user experience.",
+  "description_long": "## What InsiderFinance Is and Who Built It\n\nInsiderFinance is an options flow scanner and market intelligence platform aimed at retail traders who want to see what institutional money is doing in real time. The core product tracks unusual options activity, dark pool prints, and insider trading disclosures — the same three data streams that hedge funds and prop desks watch — and packages them into a dashboard designed for people who don't have a Bloomberg Terminal budget.\n\nThe company, InsiderFinance LLC, was founded in 2021 and is based in Miami, Florida. The platform positions itself as a quant-built alternative to more expensive institutional data feeds, with the founding team emphasizing that their proprietary ranking algorithm was developed by someone with a quantitative finance background. According to their own marketing numbers, the platform has attracted 185,000+ interested traders, 12,000+ paying subscribers, and surfaced over 719,000 trade ideas since launch. Those are self-reported figures, so take them with the usual grain of salt, but the paid user count is respectable for a tool in this niche.\n\nInsiderFinance sits in the crowded options flow scanner category alongside Unusual Whales, FlowAlgo, Cheddar Flow, and BlackBoxStocks. The differentiator they lean on hardest is the combination of options flow **plus** dark pool prints **plus** insider disclosures in a single feed, ranked by a proprietary conviction score.\n\n## Core Features\n\nThe centerpiece is the **Option Flow + Dark Pool Dashboard**, a live-updating feed of unusual options trades and dark pool prints. Trades are highlighted based on urgency and unusualness — the algorithm flags contracts where premium spent, size, or aggressiveness suggests informed money is moving. Filtering is comprehensive: you can slice by ticker, sector, expiration, contract type, premium size, sentiment, and more.\n\nInsiderFinance also ships **algorithmic trade ideas and breakout signals**, an automated technical analysis system that claims to detect optimal entries and exits across stocks, options, forex, and futures. A **news sentiment scanner** pulls from 100+ premium sources to overlay narrative context on tickers you're watching. There's a **ticker analysis** page with proprietary indicators, trend detection, and news sentiment aggregated per symbol.\n\nA free tier of the flow feed is available on their public dashboard, but it's delayed by 30 minutes and limited to the 15 most recent trades. This is useful for evaluating whether the format works for you before paying, but useless for actual trading. The AI Flow Analysis feature runs hourly and is included on the free tier as a taste of the full product.\n\nMobile access is available, though most serious flow traders use the desktop dashboard where the filtering and multi-panel views actually work.\n\n## Pricing\n\nInsiderFinance runs three tiers, all offering the same feature set — the only variable is billing frequency:\n\n- **Monthly:** $75/month\n- **Quarterly:** $65/month (billed every three months, ~13% savings)\n- **Annual:** $55/month, billed as $660 upfront (~27% savings vs monthly)\n\nThere is **no free tier** for the full product — only the delayed public demo feed. There is no trial period advertised on the main pricing page, so you're committing to at least one month at $75 to actually evaluate the tool with live data. Check their website for current pricing and any promotional offers before subscribing, as options flow platforms in this space frequently run discounts.\n\nAt $55/month on annual, InsiderFinance sits meaningfully below Unusual Whales ($48-75/month depending on tier) at the top end and roughly matches it at the mid tier, while coming in noticeably cheaper than FlowAlgo ($75-125/month historically). For what you get — options flow, dark pool prints, insider disclosures, and technical analysis tools — the pricing is fair for the category, though far from cheap for a retail trader.\n\n## What InsiderFinance Does Well\n\nThe **combined feed of options flow, dark pool prints, and insider trading data** is genuinely useful. Most competitors focus on one or two of these streams; having all three ranked by a single conviction algorithm cuts down on the tab-switching problem that plagues flow traders juggling multiple subscriptions.\n\nThe **UI is clean and modern** — noticeably better than FlowAlgo's dated interface and roughly on par with Unusual Whales. Data density is high without feeling cluttered, and the filtering system is fast enough to use in a live trading context.\n\nThe **proprietary ranking algorithm** does a reasonable job of surfacing genuinely unusual activity rather than drowning you in every above-average-volume contract. Not every flagged trade is a winner (nothing in this category is), but the signal-to-noise ratio is better than raw unfiltered flow feeds.\n\nThe **annual pricing** at $55/month is competitive for the feature set, especially given that you're getting flow, dark pool, and insider data on one platform. **News sentiment integration** from 100+ sources is a nice bonus that most pure flow scanners lack.\n\n## Where InsiderFinance Falls Short\n\n**No free tier for the actual product.** The 30-minute delayed public feed is a marketing demo, not a way to evaluate whether the paid product fits your trading style. You're paying at least $75 to find out if the tool works for you.\n\n**No broker integration.** InsiderFinance is a signal generator, not an execution platform. Every trade idea has to be manually taken to your broker, which introduces latency in a domain where seconds matter.\n\n**No backtesting.** You cannot historically validate the algorithmic trade ideas or breakout signals against your own criteria. You're trusting the platform's self-reported track record without a way to independently verify it.\n\n**No paper trading, no journaling, no performance analytics.** For a platform selling itself as a complete toolkit, the absence of these features means you'll still need a separate trading journal (Edgewonk, TradersSync, TradeZella) to actually measure whether InsiderFinance signals are profitable for your specific trading style.\n\n**The learning curve is real.** Options flow interpretation isn't intuitive. If you don't already understand the difference between calls swept at the ask versus bid, or why a $2M premium print on a weekly matters, you'll spend weeks learning to read the data before it produces edge.\n\n## Who Should Use InsiderFinance\n\nInsiderFinance is a solid fit for **active options traders** who already understand order flow and want a mid-priced alternative to FlowAlgo, **swing traders** using institutional positioning as a directional bias, **dark pool trackers** monitoring block prints for accumulation or distribution signals, and **retail traders graduating from free tools** like unusual options volume screeners who want a more curated feed.\n\nInsiderFinance is **not** a fit for beginner traders who don't yet understand options mechanics, day traders who need broker integration for execution speed, or systematic traders who require backtesting and API access (InsiderFinance offers neither).\n\n## InsiderFinance vs Unusual Whales vs FlowAlgo\n\n**Unusual Whales** is the current market leader, with a larger community, broader data coverage (including political trading disclosures and hedge fund 13Fs), and a Discord culture that adds educational value. It's priced similarly to InsiderFinance and edges it out on data breadth. If community and breadth matter more than clean UI, choose Unusual Whales.\n\n**FlowAlgo** is the veteran of the space and has the most established brand, but its UI is dated and pricing runs higher. InsiderFinance is arguably a better product at a lower price point in 2026.\n\nInsiderFinance's positioning is essentially: **cleaner UI than FlowAlgo, cheaper than FlowAlgo at annual pricing, comparable data quality to Unusual Whales, but with a smaller community and no political/hedge fund disclosure layers**.\n\n## The Bottom Line\n\nInsiderFinance is a competent, fairly-priced options flow scanner with a clean interface and a useful three-in-one data combination. At $55/month annual, it's a reasonable value for active options traders who understand flow and want institutional positioning data without paying FlowAlgo prices.\n\nBut it's not a complete trading platform. No backtesting, no broker integration, no journaling, no API. You'll need companion tools to build a full workflow. And the no-trial, $75-minimum-to-evaluate barrier is a real friction point.\n\nIf you're already trading options actively and want a mid-tier flow scanner, InsiderFinance deserves serious consideration alongside Unusual Whales. If you're new to options, spend six months learning the mechanics before subscribing to any flow tool — none of them will make you profitable if you don't understand what the data means.",
   "logo_url": "/logos/insiderfinance.svg",
   "screenshots": [],
   "website_url": "https://www.insiderfinance.io",
@@ -76,15 +76,19 @@
     "options"
   ],
   "pros": [
-    "Clean modern interface for flow data",
-    "Dark pool and insider trading combined",
-    "More affordable than FlowAlgo",
-    "Good filtering capabilities"
+    "Combined options flow, dark pool, and insider trading data in one feed",
+    "Clean modern UI that outclasses FlowAlgo",
+    "Proprietary ranking algorithm reduces noise",
+    "Annual pricing at $55/month is competitive for the category",
+    "News sentiment from 100+ sources included",
+    "Mobile app available for on-the-go monitoring"
   ],
   "cons": [
-    "No free tier available",
-    "Requires understanding of options flow",
-    "No broker integration for execution"
+    "No real free tier — only 30-minute delayed demo feed",
+    "No trial period, minimum $75 to evaluate live",
+    "No broker integration for execution",
+    "No backtesting or API access",
+    "No built-in journaling or performance analytics"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -98,17 +102,48 @@
   "company": "InsiderFinance LLC",
   "headquarters": "Miami, Florida",
   "best_for": [
-    "options flow traders",
-    "institutional activity trackers",
-    "swing traders"
+    "Active options flow traders",
+    "Swing traders using institutional positioning",
+    "Dark pool print trackers",
+    "Retail traders graduating from free unusual volume tools",
+    "Multi-asset traders wanting news sentiment overlays"
   ],
   "similar_tools": [
     "unusual-whales",
     "flowalgo",
     "optionstrat"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "InsiderFinance Review 2026",
-  "meta_description": "Real-time options flow scanner with dark pool tracking, insider trading alerts, and institutional-grade data at mid-range pricing."
+  "meta_title": "InsiderFinance Review 2026: Options Flow Scanner Tested",
+  "meta_description": "Honest InsiderFinance review 2026: options flow, dark pool tracking, pricing from $55/mo. Real pros, cons, and how it compares to Unusual Whales.",
+  "company_background": "InsiderFinance LLC was founded in 2021 and is headquartered in Miami, Florida. The company builds an options flow and dark pool scanner developed by a quantitative finance background team, targeting retail traders who want institutional-grade market intelligence without Bloomberg Terminal pricing. Their platform reports 12,000+ paid subscribers and 185,000+ interested traders as of 2026.",
+  "scraped_features": [
+    "Real-time options flow dashboard",
+    "Dark pool print tracking",
+    "Insider trading alerts",
+    "Proprietary conviction ranking algorithm",
+    "AI Flow Analysis (hourly on free tier)",
+    "Algorithmic trade ideas",
+    "Breakout signals",
+    "Automated technical analysis system",
+    "Multi-asset support (stocks, options, forex, futures)",
+    "News sentiment scanner from 100+ sources",
+    "Ticker analysis page with proprietary indicators",
+    "Custom watchlists",
+    "Advanced filtering by premium, size, expiration, sentiment",
+    "Unusual activity highlighting",
+    "Market scanner",
+    "Mobile app access",
+    "Trend analysis per ticker",
+    "Educational free resources",
+    "Delayed public demo feed (15 recent trades)",
+    "Risk management guidance tools"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/InsiderFinancex",
+    "linkedin": "https://www.linkedin.com/company/insiderfinance",
+    "facebook": "https://www.facebook.com/insiderfinance.io"
+  },
+  "enriched_at": "2026-07-17"
 }

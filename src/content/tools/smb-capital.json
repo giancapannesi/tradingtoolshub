@@ -8,7 +8,7 @@
     "prop-education"
   ],
   "description_short": "Professional proprietary trading firm offering elite training programs, mentorship, and a path to trading firm capital.",
-  "description_long": "SMB Capital is a New York City-based proprietary trading firm that also offers professional-grade trading education. Founded by Mike Bellafiore (author of 'One Good Trade' and 'The PlayBook'), SMB combines institutional trading experience with structured educational programs.\n\nSMB's training approach is modeled on how professional trading firms develop talent, with an emphasis on developing a trading playbook, understanding market microstructure, and building mental discipline. The firm offers remote training programs, live trading education, and mentorship from active professional traders.\n\nWhat makes SMB unique is that it is an actual proprietary trading firm with real traders, not just an education company. Top students may have the opportunity to trade firm capital. Programs range from online courses to intensive multi-week training sessions, with pricing typically in the $5,000-$10,000 range.",
+  "description_long": "## The two businesses hiding inside SMB Capital\n\nSMB Capital is two things stapled together, and knowing which one you are actually buying decides whether the price makes sense. There is SMB Capital the proprietary trading desk in New York — a firm that trades its own capital and hires traders to sit on that desk. And there is SMBU, the education arm that sells courses to retail traders anywhere. In the prop-firms category, that split is unusual. Most prop firms either fund traders on a challenge model or run pure in-house desks; SMB Capital does neither in the way retail buyers usually expect. The desk existed first, the training was built to feed it, and only later did the training become a standalone product marketed to the public. That distinction matters before you spend $5,000-$10,000+ on a program under the SMB Capital name.\n\n## The four training tracks and what each is for\n\nSMB Capital sells four named programs on the education side, each targeted at a specific skill. **DNA of Successful Trading** is the equity day-trading foundation program, aimed at turning newer traders into consistently profitable stock traders through structured video modules and methodology. **The Winning Trader** is pitched as a step-by-step walk-through of around 20 discrete professional day-trading strategies; it assumes you already have some screen time and want a wider playbook. **Options Foundation** is the options track, and the description is honest that the point is finding which specific options strategy matches each student, rather than teaching a single approach. **Reading the Tape** is a six-module intensive on order-flow reading for intraday traders, and this is the module that most closely resembles what a floor-style desk trainee would learn. Buying blindly is a bad idea — most retail traders should probably start with DNA or Reading the Tape, not the option or strategy libraries.\n\n## Why the pricing is a real problem, not a marketing quirk\n\nSMB Capital does not publish program prices on its main marketing pages. That is a deliberate sales-funnel choice: watch the free 2-hour training, get on a call, hear the price. In practice the programs sit in the $5,000-$10,000+ range depending on which track and whether mentoring is bundled, though the exact tier prices could not be verified from the material provided and change over time. Two things follow from this. First, you cannot budget properly against alternatives without a discovery call, which is a friction cost. Second, price opacity in a category where Warrior Trading, Bear Bull Traders and countless YouTube-adjacent educators publish their tiers up front is a signal worth taking seriously. It does not mean SMB Capital is a bad program — the curriculum has a track record — but it does mean you should expect a sales conversation, not a checkout page.\n\n## The funded-desk question, and what it actually promises\n\nThe most attractive line in SMB Capital's pitch is that top graduates may end up funded by the NYC PnL desk. Read the wording carefully. The site says it is their hope that their best students seek to be funded, not that a course purchase leads to a capital allocation. There is no published payout structure, no advertised profit split for graduate traders, and no visible funding tier as you would find at a challenge-based prop firm like FTMO or Topstep. If your buying reason is capital access, this is a much slower and less certain route than a challenge account — you would be paying five figures for training and then still auditioning for a discretionary hire. As a training investment with an outside shot at desk consideration, it makes more sense. As a shortcut to firm capital, it does not compete with the standard prop-firm challenge model on speed or transparency.\n\n## What is missing from the toolkit around the training\n\nCompared to modern trading platforms and analytics tools, the software wrapper around SMB Capital's training is thin. There is no first-party charting platform, no AI analysis layer, no backtesting environment, no broker integration, no mobile app, no news feed, no custom indicators or automated trading engine you inherit as part of enrollment. Trade journaling is present as a taught discipline and risk management is central to the curriculum, but you will still need your own execution platform, your own journal software, and your own market data. That is normal for a training-first firm, but buyers coming from platforms like TradingView, Trade Ideas or a modern journaling app should expect SMB Capital to be a knowledge purchase, not a tooling purchase. Budget separately for the stack you will actually trade on.\n\n## Where the NYC and equity focus limits you\n\nSMB Capital was built around US equities and options, traded from a New York desk during New York hours. The material provided lists stocks and options as the covered markets — not futures, not forex, not crypto. If you trade the ES or NQ full time, a Reading the Tape module still has transferable value, but the case studies and playbook are equity-first. In-person elements and any desk-track consideration are NYC-centric, which is a real constraint for traders outside the US. Remote video training is available globally, but the highest-touch parts of the SMB Capital experience — live floor exposure, mentor relationships with active desk traders, potential funded consideration — are geographically loaded toward New York in a way that a fully-online educator like Warrior Trading or Bear Bull Traders is not.\n\n## How this stacks up against the retail-education alternatives\n\nWithin the same rough training-community niche, the three most direct alternatives are Warrior Trading, Bear Bull Traders and Investopedia Academy. Warrior Trading is more small-cap momentum-focused and has a chatroom-heavy daily rhythm; Bear Bull Traders is more community-and-simulator focused with lower ticket prices; Investopedia Academy is closer to on-demand fundamentals than a mentored program. SMB Capital differs on two axes: the material comes from people who actively run a PnL desk rather than full-time educators, and the Options Foundation and Reading the Tape modules go deeper into professional-style skills than the retail alternatives usually attempt. The trade-off is cost and opacity. If your reason for buying is depth of methodology and you can afford five figures without straining your trading capital, SMB Capital's edge is real. If your reason is affordability, daily community and clear pricing, the alternatives win on those axes.\n\n## When the ticket price actually pencils out\n\nSMB Capital makes sense in a narrow set of situations. You already have a funded trading account or a full-time trading budget large enough that a $5,000-$10,000+ program is under a few percent of it. You are trading US equities or options specifically, and you want a playbook-and-mentorship layer rather than another software subscription. You are past the beginner stage — the material rewards traders who can already hold their own attention on a chart for a full session. And you are treating the desk-funding possibility as an outside bonus, not the reason you are buying. In those conditions, the SMB Capital curriculum is one of the more serious retail-accessible training programs in the prop-firms category. Outside those conditions — new trader, tight budget, futures or forex focus, or explicit need for fast capital — cheaper alternatives or a proper challenge-based prop firm are the better fit, and the SMB Capital price becomes hard to justify.",
   "logo_url": "/logos/smb-capital.svg",
   "screenshots": [],
   "website_url": "https://www.smbtraining.com",
@@ -68,16 +68,19 @@
     "options"
   ],
   "pros": [
-    "Training by an actual proprietary trading firm",
-    "Mike Bellafiore's PlayBook methodology is proven",
-    "Potential path to trading firm capital",
-    "Focus on professional-grade skills"
+    "Curriculum built by an active NYC proprietary trading desk, not full-time educators",
+    "Reading the Tape module goes deeper on order flow than most retail programs",
+    "Options Foundation matches strategy to trader rather than teaching one approach",
+    "Risk management and structured journaling are central to the methodology",
+    "Top graduates have at least a theoretical path to desk consideration",
+    "Free 2-hour training lets you sample the teaching style before any sales call"
   ],
   "cons": [
-    "Expensive programs ($5,000-$10,000+)",
-    "Not suitable for complete beginners",
-    "NYC-centric for in-person programs",
-    "Pricing not transparent on website"
+    "Program pricing is not published, requiring a sales call to learn the cost",
+    "Programs sit in the $5,000-$10,000+ range, high versus most retail educators",
+    "No first-party charting, backtesting, journal software or broker integration",
+    "Desk funding is aspirational, not a defined post-course outcome",
+    "US equities and options focus leaves futures, forex and crypto traders underserved"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -91,17 +94,47 @@
   "company": "SMB Capital LLC",
   "headquarters": "New York, New York",
   "best_for": [
-    "aspiring professional traders",
-    "serious day traders",
-    "traders seeking prop firm capital"
+    "Serious US equity day traders past the beginner stage",
+    "Options traders wanting a playbook-driven curriculum",
+    "Aspiring professional traders based in or near NYC",
+    "Traders with capital who value depth over affordability",
+    "Screen-time-tested traders looking for a wider strategy library"
   ],
   "similar_tools": [
     "warrior-trading",
     "bear-bull-traders",
     "investopedia-academy"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "SMB Capital Review 2026",
-  "meta_description": "Professional proprietary trading firm offering elite training programs, mentorship, and a path to trading firm capital."
+  "meta_title": "SMB Capital Review 2026: Prop Desk Training Worth It?",
+  "meta_description": "Honest 2026 SMB Capital review: NYC prop desk training, $5K-$10K+ programs, funded-desk reality, and who should skip it for cheaper alternatives.",
+  "company_background": "SMB Capital is a proprietary trading firm founded in 2005 and headquartered in New York City, running a PnL desk in US equities and options. Its education arm, SMBU, was launched around a decade later to sell the same trader-development curriculum used in-house to retail traders worldwide.",
+  "scraped_features": [
+    "DNA of Successful Trading equity day-trading foundation program",
+    "The Winning Trader program covering around 20 professional strategies",
+    "Options Foundation program for options traders",
+    "Reading the Tape six-module order-flow intensive",
+    "SMB Tools packages used by the internal desk",
+    "Free 2-hour introductory training",
+    "Video-based online training courses",
+    "Live mentorship components in higher tiers",
+    "Access to professional proprietary traders",
+    "Trading Playbook methodology",
+    "Market analysis instruction",
+    "Focus on US equities market",
+    "Options trading education track",
+    "Automated trading education track",
+    "Intraday tape reading and order flow skills",
+    "Trade journaling discipline taught in curriculum",
+    "Risk management framework built into training",
+    "Potential path to being funded by the NYC PnL desk",
+    "NYC-based in-person program access",
+    "Remote-accessible online training for global students"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/smbcapital",
+    "facebook": "https://www.facebook.com/smbcap"
+  },
+  "enriched_at": "2026-07-18"
 }

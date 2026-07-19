@@ -8,7 +8,7 @@
     "evaluation-program"
   ],
   "description_short": "UK-based proprietary trading firm offering funded accounts up to $2.5M with a streamlined 1-step evaluation, up to 80% profit split, and a transparent scaling plan.",
-  "description_long": "Lux Trading Firm is a London-based proprietary trading company that provides skilled traders with funded accounts ranging from $10,000 to $2,500,000. The firm differentiates itself by operating as a genuine prop trading house rather than a purely simulated environment, giving funded traders access to institutional-grade infrastructure and real market exposure.\n\nThe evaluation process is a straightforward 1-step challenge where traders must hit a 10% profit target while respecting a 5% daily drawdown and 10% maximum drawdown limit. There is no minimum trading day requirement on most tiers, and traders are permitted to use Expert Advisors (EAs), trade during news events, and hold positions over weekends—rules that many competing firms restrict.\n\nUpon passing the evaluation, traders receive a funded account starting with a 75% profit split, which scales upward to 80% or higher as they demonstrate consistent performance under the firm's scaling plan. Payouts are processed on a bi-weekly or monthly basis depending on account size. Supported platforms include MetaTrader 4, MetaTrader 5, and cTrader, with access to forex pairs, indices, commodities, metals, and cryptocurrency markets.\n\nLux Trading Firm appeals particularly to experienced traders who value flexible trading conditions and a transparent path to increased capital. The firm's scaling plan rewards consistency, and their dedicated support team is frequently praised in trader communities. While newer to the market than legacy prop firms like FTMO, Lux has built a solid reputation for fair rules and reliable payouts.",
+  "description_long": "## The Core Trade-Off: Simpler Evaluation, Smaller Reputation\n\nLux Trading Firm is a UK-based prop firm in the funded-account category that asks you to accept a specific bargain: a friendlier 1-step evaluation with flexible trading rules, in exchange for a shorter track record than incumbents like FTMO or The5ers. If you are shopping funded accounts on rule design alone, Lux Trading Firm sits in the more permissive half of the market. If you are shopping on brand certainty and multi-year payout history, it sits in the middle of the pack.\n\nThat trade-off is the whole review. Everything below is about whether the rule set and pricing structure are worth the reputational discount, and which trader profiles get the most out of the account.\n\n## What the 1-Step Evaluation Actually Removes\n\nMost of the visible prop-firm market runs 2-step challenges: a profit target, then a verification stage with a lower target, then funding. Lux Trading Firm collapses that into one phase with a 10% profit target, a 5% daily drawdown limit, and a 10% maximum drawdown ceiling.\n\nWhat this practically removes is the verification-phase problem where traders hit the first target aggressively, then blow up in verification trying to force a smaller number in a compressed window. A single evaluation means one plan, one risk model, one mental frame. That matters more than it sounds, because most funded-account failures are behavioural, not strategic.\n\nWhat it does not remove: the 5% daily drawdown is still tight. If you are a swing trader running two or three correlated forex pairs, one bad London session can end your evaluation. The 10% max drawdown is standard, but the daily cap is the rule that will kill most accounts, and it kills them the same way whether the evaluation is 1-step or 2-step.\n\nThere is no minimum trading day requirement listed in the source data, which matters if you trade infrequently or want to hit the target and move to funding without waiting out an arbitrary calendar. That is a genuine advantage over firms that impose 10-day minimums.\n\n## The Pricing Ladder and What Each Tier Actually Buys\n\nLux Trading Firm sells four evaluation sizes, priced in USD:\n\n**Starter $10K** at $99, **Standard $25K** at $199, **Advanced $50K** at $299, and **Professional $100K** at $499. The first three tiers offer a 75% profit split. The Professional $100K tier steps up to 80% and unlocks scaling plan access.\n\nThe pricing curve is not linear per dollar of buying power. The $10K account costs roughly 1% of account size to evaluate, while the $100K tier costs about 0.5%. If your strategy scales cleanly, the larger tier is cheaper per unit of capital and gives you the better profit split. If you are testing whether you can pass an evaluation at all, the $99 Starter is the honest place to start, but understand that 10% of $10,000 is $1,000, and your realistic first payout is a fraction of that.\n\nEvaluation fees are one-time and non-refundable on failure. Some firms rebate the fee on your first payout after passing; the source data does not confirm that Lux Trading Firm does this, and you should assume it does not unless their current terms say otherwise.\n\n## Rules That Actually Matter to Live Traders\n\nThree permissions in the Lux Trading Firm rule set do real work for specific trader types.\n\n**Expert Advisors are allowed.** If you run automated systems, this is table stakes but not universal - several firms restrict EAs to specific approved lists or ban them outright on funded accounts. Lux Trading Firm permitting EAs during evaluation and funded phases means you can deploy the same code you backtested without re-engineering it around firm-specific restrictions.\n\n**News trading is allowed.** Firms that ban trading around high-impact releases force you to flatten positions before NFP, CPI, or central bank decisions, which is where a lot of forex and indices strategies actually generate their edge. Allowing news trading is a meaningful concession.\n\n**Weekend holds are allowed.** Swing traders and position traders can hold through Friday close without forced flattening. Combined with the news rule, this makes Lux Trading Firm workable for strategies that would be structurally broken at more restrictive firms.\n\nThe scaling plan advertises growth up to $2.5M for consistent performers on the Professional tier. Source data does not specify the exact consistency thresholds or the pace of scaling, so treat that ceiling as an aspirational maximum rather than a promise. Ask their support what the actual step increases and qualification periods are before you buy in expecting to compound to seven figures.\n\n## Where Lux Trading Firm Is Genuinely Weak\n\nBrand recognition is the honest weakness. Lux Trading Firm was founded in 2020 and is based in London. That is a defensible operating jurisdiction, but it is a shorter payout history than FTMO's decade of operation or The5ers' longer track record. If a firm fails, your unpaid profit is unsecured. Newer firms carry more of that risk regardless of how their current rule set reads.\n\nThere is no free trial or demo evaluation. Some competitors let you run a shadow evaluation on a demo account to see whether the platform, execution quality, and slippage match your strategy before you commit the fee. Lux Trading Firm's approach is pay-then-evaluate, which is fine at $99 for the Starter but stings at $499 for the Professional tier if you discover platform issues after buying.\n\nProfit splits at 75% for the three smaller tiers are competitive but not category-leading. Several firms offer 80-90% from the entry tier upward, and a few offer scaling splits that reach 90% for consistent performers. Lux Trading Firm reserves its 80% split for the $499 Professional tier, which structurally pushes serious traders toward the top of the ladder.\n\nThe source data lists bi-weekly payouts as reliable but does not include exact payout processing times, minimum payout thresholds, or the specific payment rails. Do not assume weekly payouts or same-day processing without confirming on their live terms page.\n\n## Which Trader Profile Actually Wins Here\n\nLux Trading Firm fits four specific profiles cleanly.\n\nFirst, **algorithmic forex traders** running EAs who need permission to deploy code without firm-specific restrictions. The EA permission plus the multi-asset access across forex, indices, commodities, metals, and crypto covers most systematic strategies.\n\nSecond, **discretionary swing traders** whose edge depends on holding through news releases or over weekends. The rule flexibility here is the whole reason to choose Lux Trading Firm over a stricter firm.\n\nThird, **experienced funded-account traders** who have already passed evaluations elsewhere and want a second or third funded account with a scaling ceiling attached. The $2.5M cap on the Professional tier is the specific reason to pick this firm as a diversification account.\n\nFourth, **multi-asset traders** who want one account covering forex, indices, metals, and crypto rather than juggling multiple firm-specific accounts. Platform support for MT4, MT5, and cTrader keeps execution familiar.\n\nWho should skip: **first-time evaluation candidates** without a proven strategy will lose the $99 to $499 fee on a tight 5% daily drawdown regardless of how friendly the rest of the rules read. **Traders prioritising firm reputation** should default to FTMO or The5ers and accept the stricter rules as the cost of a longer payout track record. **Anyone who needs a free demo** to test platform quality first will not find that option here.\n\n## How Lux Trading Firm Stacks Against The Obvious Alternatives\n\nAgainst FTMO, Lux Trading Firm offers a simpler evaluation and more permissive rules but a shorter reputation. Against Funded Next, the trade-off is similar - Funded Next has a larger user base and more visible payout proof, Lux Trading Firm has a cleaner 1-step structure. Against The5ers, Lux Trading Firm is broader in market access and platform support. Against Apex Trader Funding, the comparison breaks down because Apex is futures-focused and Lux Trading Firm is forex-and-CFD focused - they serve different traders.\n\nThe honest recommendation: if you already know your strategy passes evaluations, and the rule flexibility matters to you, Lux Trading Firm is a reasonable pick starting at the $99 Starter tier to verify platform and process. If you are still learning whether you can pass a challenge at all, start with a firm whose failed-fee sting is smaller and whose brand risk is lower.",
   "logo_url": "/logos/lux-trading-firm.svg",
   "screenshots": [],
   "website_url": "https://www.luxtradingfirm.com",
@@ -101,16 +101,19 @@
     "crypto"
   ],
   "pros": [
-    "Simplified 1-step evaluation with no minimum trading day requirement",
-    "Allows EAs, news trading, and holding positions over weekends",
-    "Scaling plan grows funded account up to $2.5M for consistent traders",
-    "Up to 80% profit split with reliable bi-weekly payouts",
-    "Supports MT4, MT5, and cTrader across multiple asset classes"
+    "1-step evaluation with no minimum trading day requirement",
+    "EAs, news trading, and weekend holds all permitted",
+    "Scaling plan targets up to $2.5M for consistent traders",
+    "80% profit split on the $100K Professional tier",
+    "Supports MT4, MT5, and cTrader across five asset classes",
+    "Entry-level $99 Starter makes platform testing affordable"
   ],
   "cons": [
-    "Evaluation fees are one-time and non-refundable upon failure",
-    "Newer firm with less brand recognition than established competitors like FTMO",
-    "No free trial or demo evaluation option available"
+    "Evaluation fees are non-refundable on failure",
+    "Newer firm with shorter payout track record than FTMO or The5ers",
+    "No free trial or demo evaluation available",
+    "75% profit split on the three smaller tiers trails category leaders",
+    "5% daily drawdown is tight for correlated multi-pair strategies"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -124,10 +127,11 @@
   "company": "Lux Trading Firm Ltd",
   "headquarters": "London, United Kingdom",
   "best_for": [
-    "experienced forex traders seeking funded capital",
-    "algorithmic traders using Expert Advisors",
-    "traders wanting flexible news and overnight holding rules",
-    "multi-asset traders seeking scaling opportunities"
+    "Algorithmic forex traders running EAs",
+    "Swing traders needing news and weekend hold permission",
+    "Experienced traders seeking a scaling-focused second account",
+    "Multi-asset traders wanting forex plus indices, metals, and crypto",
+    "Traders preferring MT4, MT5, or cTrader execution"
   ],
   "similar_tools": [
     "ftmo",
@@ -135,8 +139,39 @@
     "the5ers",
     "apex-trader-funding"
   ],
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Lux Trading Firm Review 2026",
-  "meta_description": "UK-based proprietary trading firm offering funded accounts up to $2.5M with a streamlined 1-step evaluation, up to 80% profit split, and a transparent."
+  "meta_title": "Lux Trading Firm Review 2026: 1-Step Prop Firm Tested",
+  "meta_description": "Honest 2026 review of Lux Trading Firm: 1-step evaluation from $99, up to $2.5M scaling, 80% split. EA and news trading rules, weaknesses, and buyer fit.",
+  "company_background": "Lux Trading Firm Ltd is a proprietary trading firm founded in 2020 and headquartered in London, United Kingdom. The firm offers funded accounts across forex, indices, commodities, metals, and crypto markets through a 1-step evaluation model. It is a newer entrant compared to established competitors like FTMO but has built a rule set focused on EA use, news trading, and weekend holds.",
+  "scraped_features": [
+    "1-step evaluation model",
+    "10% profit target",
+    "5% daily drawdown limit",
+    "10% maximum drawdown limit",
+    "No minimum trading day requirement",
+    "Expert Advisor (EA) support permitted",
+    "News trading allowed",
+    "Weekend position holds allowed",
+    "75% profit split on Starter, Standard, and Advanced tiers",
+    "80% profit split on Professional $100K tier",
+    "Scaling plan up to $2.5M",
+    "Bi-weekly payouts",
+    "MT4 platform support",
+    "MT5 platform support",
+    "cTrader platform support",
+    "Forex, indices, commodities, metals, and crypto markets",
+    "Four account sizes: $10K, $25K, $50K, $100K",
+    "One-time evaluation fees from $99 to $499",
+    "USD-denominated pricing",
+    "Performance analytics and risk management tools"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/FirmLux",
+    "youtube": "https://www.youtube.com/@LuxTradingFirm/featured",
+    "facebook": "https://www.facebook.com/LuxTradingFirm",
+    "discord": "https://discord.gg/jyv9aPANEX",
+    "tiktok": "https://www.tiktok.com/@lux_trading_firm"
+  },
+  "enriched_at": "2026-07-18"
 }

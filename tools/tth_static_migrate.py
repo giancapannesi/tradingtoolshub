@@ -35,6 +35,7 @@ DIST = REPO / "dist"
 PUBLIC = REPO / "public"
 MIGRATED_JSON = REPO / "src" / "content" / "static_migrated.json"
 GSC_REPORT = Path("/srv/BusinessOps/TradingToolsHub_SEO/gsc_reports/gsc_report_2026-07-13.json")
+PROTECTED_PAGES = Path("/srv/BusinessOps/TradingToolsHub_SEO/TradingToolsHub Recovery/PROTECTED_PAGES.json")
 
 # Routes that go through per-slug Astro templates and are eligible for static
 # override. Everything else (categories, index, static single-page routes) stays
@@ -100,6 +101,11 @@ def migrate_one(page_path: str, dry_run: bool) -> str:
     Copies dist/<route>/<slug>/index.html to public/<route>/<slug>/index.html,
     rewriting the CSS reference. Returns 'copied', 'skipped', or 'missing'.
     """
+    normalized = "/" + page_path.strip("/") + "/"
+    if PROTECTED_PAGES.exists():
+        protected = json.loads(PROTECTED_PAGES.read_text()).get("pages", {})
+        if normalized in protected:
+            raise RuntimeError(f"Refusing protected page overwrite: {normalized}")
     rel = page_path.strip("/") + "/index.html"
     src = DIST / rel
     dst = PUBLIC / rel

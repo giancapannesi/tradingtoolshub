@@ -7,7 +7,7 @@
     "full-service"
   ],
   "description_short": "Morgan Stanley's online brokerage with Power E*TRADE for options trading, commission-free stocks, and comprehensive banking integration.",
-  "description_long": "E*TRADE, now part of Morgan Stanley, is a well-established online brokerage that excels in options trading through its Power E*TRADE platform. The browser-based Power E*TRADE provides sophisticated options analysis tools, risk/reward visualizations, and an intuitive options chain interface that makes complex multi-leg strategies accessible.\n\nE*TRADE offers commission-free stock and ETF trading, with options at $0.65/contract (dropping to $0.50 for 30+ trades/quarter). The platform provides strong research from Morgan Stanley, along with educational content, webinars, and a paper trading simulator.\n\nThe integration with Morgan Stanley has expanded E*TRADE's capabilities, adding access to Morgan Stanley's proprietary research and wealth management services. Core portfolios (robo-advisory) are available starting at $500 with a 0.30% annual fee.",
+  "description_long": "## Why the Morgan Stanley acquisition matters more than the E*TRADE name\n\nE*TRADE is a US brokers pick that stopped being an independent company in 2020, when Morgan Stanley acquired it. The E*TRADE brand, the Power E*TRADE platform, and the retail account infrastructure survived intact — but the research, banking rails, and long-term product direction now come from a Wall Street bank rather than a scrappy discount broker. That is the central trade-off you are evaluating. You get institutional research and Premium Savings rates that Schwab and Fidelity cannot easily match, but you also get a firm whose strategic priority is Morgan Stanley Wealth Management, not the self-directed retail trader who made E*TRADE famous.\n\nFor active traders and options traders — the two groups E*TRADE tries hardest to serve — this parentage is mostly upside. Morgan Stanley research is genuinely useful, and platform investment kept coming after the acquisition. For everything else, weigh whether you want your brokerage to be a feature of a bigger wealth-management business or a company that only does brokerage.\n\n## The Power E*TRADE tier that changes options economics\n\nE*TRADE's headline options price is **$0.65 per contract**, but the number that actually matters is **$0.50 per contract for anyone who trades 30 or more contracts per quarter**. That threshold is trivially low for a real options trader — three ten-lots a quarter clears it — and the 23% discount compounds fast on any strategy that involves multi-leg spreads or higher frequency.\n\nAt 500 contracts a quarter, the discount saves $75. At 5,000 contracts, it saves $750. That is the tier where Power E*TRADE becomes materially cheaper than Schwab (also $0.65 flat), and it explains why the platform keeps winning Stockbrokers.com's Best Web Trading Platform award for the 14th year running — the price and the tooling are aimed at the same customer.\n\nThe catch: 30 contracts per quarter is a look-back calculation. New accounts start at $0.65 and drop to $0.50 the quarter after qualifying, so factor that ramp into your first-year budget.\n\n## What commission-free actually costs in options land\n\nStocks and ETFs really are $0 to trade at E*TRADE. Options carry the per-contract fee above, plus the regulatory pass-throughs (ORF, SEC, TAF) every US broker charges. Nothing unusual there.\n\nThe place E*TRADE quietly gets more expensive than tastytrade or Interactive Brokers is on assignment and exercise fees, contract fees on closing trades some brokers waive under a certain premium, and the spread on any linked cash-management product. If you are comparing five brokers on options economics, run your actual monthly volume through a spreadsheet — headline zero-commission marketing hides more variance than any other line in this category.\n\n## Crypto arrived via zerohash — read the fine print\n\nE*TRADE's website now advertises crypto trading powered by zerohash, at **0.50% commission on the dollar value of each trade**. That is a real change from what the industry knew about E*TRADE even a year ago, and it removes one of the standard reasons traders used to pick Robinhood or Coinbase instead.\n\nA 50-basis-point commission is not competitive with pure-play crypto exchanges, though. Coinbase Advanced Trade is typically 60 bps but with a maker/taker structure that active traders can beat. Kraken and Binance.US are cheaper again. Zerohash-powered crypto inside a brokerage is a convenience play — it lives next to your equity and options positions, uses the same login, and settles into one tax report — but it is not the venue for a serious crypto trader. Check E*TRADE's specific list of supported coins (limited relative to a dedicated exchange) and whether transfers off-platform are supported before you commit real size.\n\n## The futures pricing that is not really competitive\n\n**$1.50 per contract per side, plus exchange fees**, is E*TRADE's futures rate. That is uncompetitive against futures-first brokers — NinjaTrader, AMP, Tradovate, Interactive Brokers — which sit at $0.25 to $0.85 per side depending on tier. For anyone trading more than a handful of MES or MNQ contracts a session, E*TRADE will bleed on commissions alone.\n\nThe platform tooling is also thin on the futures side. Power E*TRADE was built for options; futures traders who need depth-of-market, one-cancels-other bracket automation, or replay-style testing will find the E*TRADE interface underpowered. Treat E*TRADE as a broker where you can hold futures if you are already there for equities and options — not the account you open to trade them primarily.\n\n## The award count versus the daily reality\n\nE*TRADE's homepage leads with the Stockbrokers.com Best Web Trading Platform award (14 consecutive years) and Kiplinger's Best Online Broker for Research 2025. Both are real. Power E*TRADE Web is genuinely one of the two or three best browser-based options interfaces in the US market, and Morgan Stanley research is materially better than what Schwab or Fidelity ship with a self-directed account.\n\nBut the awards are for Power E*TRADE specifically, not the classic E*TRADE experience. The main website, older order tickets, and mobile surfaces outside the dedicated Power E*TRADE mobile app feel dated. If you are picking E*TRADE, you are picking Power E*TRADE — the rest of the surface area is legacy retail brokerage software that has not been rebuilt.\n\n## What you give up versus Schwab and Fidelity\n\nCharles Schwab acquired TD Ameritrade in 2020 and inherited thinkorswim, which remains the most flexible retail options platform in the US. Schwab also has banking integration that E*TRADE, despite Morgan Stanley Private Bank behind it, has not caught up to in day-to-day cash-management usability.\n\nFidelity is stronger on fractional shares, index funds, and long-term investing tooling. Their Active Trader Pro is credible but the ecosystem is aimed at investors, not options traders.\n\nE*TRADE sits between them. Better options tools than Fidelity, weaker banking than Schwab, and a smaller mutual fund universe than either. If your workflow is 80% options and you do not want thinkorswim's learning curve, E*TRADE is the pick. If your workflow is 80% long-term investing, Fidelity is a better fit. If you want everything under one roof with strong cash management, Schwab wins.\n\n## The Premium Savings math and the $1,500 promo\n\nE*TRADE currently markets a **4.00% APY Premium Savings Account** promoted at a limited-time boosted rate for six months, then reverting to the base rate. That is competitive but not category-leading — several online banks and money-market funds beat it consistently — so the account is worth opening if your cash is already at E*TRADE, not as a standalone destination.\n\nThe **$1,500 new-account promo (code OFFER26, deadline 10/31/26)** requires a qualifying deposit funded within 60 days. The exact deposit-to-bonus tiers are on their offer page rather than in the headline — verify the tier that matches your funding amount before assuming you will hit the top bonus.\n\n## Who E*TRADE actually fits in 2026\n\nThe natural E*TRADE customer is an **active options trader** who will hit the 30-contract quarterly threshold, values the research package, and prefers the Power E*TRADE interface over thinkorswim's complexity. Add to that anyone already inside the Morgan Stanley ecosystem — advisory clients, employer stock plan participants — who benefits from linked accounts and a single tax picture.\n\nE*TRADE fits less well for pure long-term investors (Fidelity is simpler), pure futures traders (dedicated brokers are 50-80% cheaper on commissions), and serious crypto traders (dedicated exchanges are cheaper and broader). Paper trading, alerts, mobile app, and integrated banking are all present but none of them are the reason to choose this broker. **The reason is Power E*TRADE for options plus Morgan Stanley research** — everything else is table stakes or slightly behind. Take the promo if you were opening anyway; do not let a signup bonus pick your broker.",
   "logo_url": "/logos/etrade.svg",
   "screenshots": [],
   "website_url": "https://us.etrade.com",
@@ -57,16 +57,19 @@
     "futures"
   ],
   "pros": [
-    "Power E*TRADE is excellent for options trading",
-    "Morgan Stanley research integration",
-    "Volume discounts on options commissions",
-    "Strong mobile app experience"
+    "Power E*TRADE Web is one of the top browser options platforms",
+    "Options drop to $0.50/contract at 30+ contracts per quarter",
+    "Morgan Stanley research included with self-directed accounts",
+    "$0 commission on stocks, ETFs, and mutual funds",
+    "Premium Savings 4.00% APY promo rate for six months",
+    "Crypto trading now available via zerohash at 0.50%"
   ],
   "cons": [
-    "No cryptocurrency trading",
-    "Futures offerings are limited",
-    "Banking features less robust than Schwab",
-    "Platform can feel dated outside Power E*TRADE"
+    "$1.50/side futures pricing is uncompetitive vs Tradovate or AMP",
+    "0.50% crypto commission is well above dedicated exchanges",
+    "Interface outside Power E*TRADE feels dated in 2026",
+    "Banking integration lags Schwab despite Morgan Stanley ownership",
+    "Options tier discount requires qualifying quarter first"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -80,19 +83,52 @@
   "company": "Morgan Stanley (E*TRADE Financial)",
   "headquarters": "New York, New York",
   "best_for": [
-    "options traders",
-    "active traders",
-    "Morgan Stanley clients"
+    "active options traders hitting 30+ contracts per quarter",
+    "traders who want Morgan Stanley research included",
+    "Power E*TRADE Web users who prefer it over thinkorswim",
+    "existing Morgan Stanley advisory or stock plan clients",
+    "self-directed investors wanting bank and brokerage under one login"
   ],
   "similar_tools": [
     "charles-schwab",
     "fidelity",
     "tastytrade"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
   "alt_meta_title": "E*TRADE Alternatives 2026: 15+ Cheaper Brokers",
   "alt_meta_description": "Compare 15+ E*TRADE alternatives with lower fees and free trading. Find better brokers ranked by features, costs, and mobile app performance in 2026.",
-  "meta_title": "E*TRADE Review 2026",
-  "meta_description": "Morgan Stanley's online brokerage with Power E*TRADE for options trading, commission-free stocks, and comprehensive banking integration."
+  "meta_title": "E*TRADE Review 2026: Power E*TRADE Options Broker",
+  "meta_description": "E*TRADE review 2026: Power E*TRADE platform, $0.50 options at 30+ contracts/qtr, Morgan Stanley research, new crypto via zerohash at 0.50%.",
+  "company_background": "E*TRADE was founded in 1982 and became one of the earliest online discount brokerages before being acquired by Morgan Stanley in 2020. Headquartered in New York, it now operates as the self-directed retail arm of Morgan Stanley, with Power E*TRADE as its flagship options and active trading platform and Morgan Stanley Private Bank behind its cash and savings products.",
+  "scraped_features": [
+    "$0 commission stocks and ETFs",
+    "$0.65 per options contract standard rate",
+    "$0.50 per options contract at 30+ contracts per quarter",
+    "$1.50 per futures contract per side plus exchange fees",
+    "$1.00 per bond, minimum $10 maximum $250",
+    "0.50% crypto commission powered by zerohash",
+    "Power E*TRADE Web trading platform",
+    "Power E*TRADE mobile app",
+    "Morgan Stanley research and insights",
+    "Premium Savings Account at 4.00% APY promotional rate",
+    "Bank Certificates of Deposit with locked rates",
+    "Morgan Stanley Private Bank FDIC-insured accounts",
+    "$1,500 new-account cash bonus (promo code OFFER26)",
+    "Paper trading environment",
+    "Trade alerts and notifications",
+    "Performance analytics",
+    "Risk management tools",
+    "News feed integration",
+    "Retirement account options",
+    "Mutual funds marketplace"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/etrade",
+    "linkedin": "https://www.linkedin.com/company/etrade",
+    "youtube": "https://www.youtube.com/user/etrade",
+    "facebook": "https://www.facebook.com/ETRADE",
+    "instagram": "https://www.instagram.com/etrade_frommorganstanley"
+  },
+  "enriched_at": "2026-07-18"
 }

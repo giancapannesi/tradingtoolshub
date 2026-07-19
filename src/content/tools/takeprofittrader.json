@@ -8,7 +8,7 @@
     "one-step-evaluation"
   ],
   "description_short": "Futures-only prop firm with one-step evaluations, daily payouts, no daily loss limits, and up to 90% profit splits on $25K–$150K simulated accounts.",
-  "description_long": "TakeProfitTrader (TPT) is a futures-focused proprietary trading firm founded in 2021 by James Sixsmith, a former professional hockey player turned full-time trader. Based in Windermere, Florida, TPT offers simulated funded accounts ranging from $25,000 to $150,000 for traders looking to prove their skills and trade with firm capital — without risking their own money on live markets. With over 8,300 Trustpilot reviews averaging 4.4 out of 5 stars, TPT has built one of the stronger reputations in the competitive funded futures space.\n\nThe evaluation is a streamlined one-step challenge requiring a minimum of 5 trading days and a 6% profit target, with no maximum time limit. One of TPT's most notable differentiators is the removal of daily loss limits (as of January 2025), replaced by a trailing max drawdown rule only. A 50% consistency rule applies — no single trading day may account for more than half your total profits — designed to promote sustainable trading habits rather than rewarding lucky one-day windfalls.\n\nPROFIT splits are 80/20 on PRO accounts and 90/10 on PRO+ accounts, with no cap on withdrawal amounts. TPT stands out for offering daily payouts — among the fastest in the funded futures industry — with withdrawals processed within 12–24 business hours via Plaid (US bank transfer), PayPal, or Wise for international traders. Withdrawals above $250 are free; a $50 fee applies to smaller amounts. PRO accounts allow day-one withdrawals after building a buffer to the max drawdown level.\n\nTraders access accounts through NinjaTrader 8, Tradovate, or Rithmic — covering everything from advanced charting to low-latency institutional execution. TPT supports a broad range of CME Group futures markets including stock index futures (ES, NQ, YM), energy (CL, NG), metals (GC, SI), agricultural, and Treasury futures. Automated trading is possible via third-party connectors such as TradersPost. Pricing ranges from $90/month for a $25K PRO account up to $360/month for a $150K PRO+ account, with frequent promotional discounts of 40–50% off.",
+  "description_long": "## The Core Trade-Off: Day-One Payouts vs. Futures-Only Scope\n\nTakeProfitTrader sits in a narrow slice of the prop firm category: it funds futures traders only, and it competes almost entirely on payout speed and rule simplicity rather than instrument variety or account size. The central decision for any trader considering TakeProfitTrader is whether daily withdrawals and a one-step evaluation are worth giving up stocks, forex, crypto, and options entirely. If you already trade ES, NQ, CL, or GC on NinjaTrader or Tradovate, this firm is built for you. If you want a single account that lets you rotate across asset classes, TakeProfitTrader is the wrong door.\n\nThe firm operates out of Windermere, Florida, launched in 2021, and has accumulated a 4.4/5 Trustpilot rating across more than 8,300 reviews with 81% five-star ratings. That is a meaningful volume of independent feedback for a prop firm founded in the last five years, and it puts TakeProfitTrader in the upper tier of futures funding reputations alongside Topstep and Apex Trader Funding.\n\n## What the One-Step Evaluation Actually Requires\n\nTakeProfitTrader uses a single evaluation phase with a 6% profit target and no time limit. The minimum length to reach a PRO (funded) account is five trading days, which is shorter than the 20 to 60 days quoted for most competitors. There is no daily loss limit as of January 2025, only a trailing maximum drawdown that you have to respect throughout the evaluation and into the PRO account.\n\nWhat this means in practice: you are not being forced to hit a target by a deadline, but you are being watched on drawdown from your highest equity point. A trader who runs up quickly and gives back gains will fail on the trailing drawdown, not on time. That flips the psychology from \"trade fast enough\" to \"protect what you build,\" which suits patient traders more than scalpers chasing volume.\n\nThe 50% consistency rule is the constraint most likely to bite aggressive traders. It limits any single day's profit from dominating your total, which rules out plans built around one big session. If your edge is one clean setup a week, you will run into friction here.\n\n## PRO vs. PRO+: Where the Split and Buffer Change\n\nTakeProfitTrader splits its funded accounts into two tiers. Standard PRO accounts run an 80/20 profit split. PRO+ accounts, which cost more upfront, move that to 90/10 and remove the buffer requirement, and PRO+ traders also get an end-of-day drawdown model and a live Tradovate account upon passing rather than a purely simulated one.\n\nThe pricing ladder starts at **$90/month for the PRO $25K account**, moves to **$102/month for PRO $50K**, and **$198/month for PRO $100K**. On the PRO+ side, the **$50K account is $170/month** and the **$150K account is $360/month**. The $150K PRO+ is the largest account TakeProfitTrader offers, which is worth knowing if you eventually want to scale past that ceiling; you cannot with this firm.\n\nThere is a one-time $130 fee to activate the PRO account after passing evaluation, which the firm contrasts with competitors charging monthly recurring fees on funded accounts. Whether that math favors you depends on how long you plan to hold the account.\n\n## The Withdrawal Mechanics That Matter\n\nDay-one withdrawals are the headline claim, and the workflow is automated: you request a payout and the system processes it without a manual review queue. There is no maximum withdrawal cap, which is unusual in this category — most futures prop firms throttle payouts either by dollar amount, percentage of profit, or trading-day count before you can access funds.\n\nThe catch is a **$50 withdrawal fee on payouts of $250 or less**. Traders who withdraw small amounts frequently will lose a meaningful percentage of their earnings to that fee. The rational play is to batch withdrawals above the $250 threshold. If you were planning to pull $100 a week to prove the account works, expect to lose half of it in fees. Traders who withdraw $500 or more per cycle will not feel this cost.\n\nTakeProfitTrader also caps evaluation resets at three per account. Fail four times and you buy a new evaluation. Compared to firms that offer unlimited resets, this is a real constraint; compared to firms that offer none, it is a benefit. Where you land depends on how much you plan to iterate.\n\n## The Platform Constraint You Cannot Work Around\n\nTakeProfitTrader supports NinjaTrader, Tradovate, and Rithmic. That is a competitive list for futures traders — those three cover most professional futures workflows — but the firm has no dedicated mobile app. Mobile access is entirely dependent on Tradovate's mobile client, which is functional but not the same as a purpose-built firm app.\n\nAutomated trading is permitted, which matters if you run algo strategies through NinjaTrader or a Rithmic API bridge. What TakeProfitTrader does not offer: AI analysis, in-platform backtesting, alerts, a news feed, journaling tools, or education content. This is a funding company, not a trading tools suite. If you want built-in analytics or a trade journal, you will pair TakeProfitTrader with something like Edgewonk or TradeZella separately.\n\nBroker integration and risk management dashboards exist, and performance analytics are provided at the firm-account level, but the depth is functional rather than analytical. Traders who want to dissect their edge with detailed post-trade metrics should not expect TakeProfitTrader's dashboard to replace a dedicated journal.\n\n## Who This Firm Is Actually Built For\n\nTakeProfitTrader fits a specific trader profile. You are already trading futures. You have a working strategy on ES, NQ, MES, or MNQ. You want to be paid quickly and often, without waiting 20 to 60 days for a first withdrawal. You are comfortable with a trailing drawdown model and a 50% consistency rule. You do not need mobile-first tools and you are not planning to trade forex or options through the same account.\n\nUS-based traders will find the firm particularly convenient — the Florida headquarters and the supported platforms are all aligned with US futures market hours and infrastructure. International traders can use it, but the workflow is designed with US traders in mind.\n\nThe firm is a poor fit for anyone who wants a multi-asset prop firm, needs a mobile app, plans to scale past $150K in simulated capital, or trades a strategy that concentrates profit on a single big day.\n\n## How TakeProfitTrader Compares to the Obvious Alternatives\n\nAgainst Topstep, TakeProfitTrader competes on payout speed and rule simplicity — Topstep has more education content and a longer track record, but its evaluation and payout process is more traditional. Against Apex Trader Funding, TakeProfitTrader is more expensive per account tier but offers the day-one withdrawal advantage and the 90/10 PRO+ split, which Apex does not match. Against Earn2Trade and Funded Futures Network, TakeProfitTrader is closer to a middle-of-the-market option in price with a stronger payout policy.\n\nThe honest positioning: TakeProfitTrader is not the cheapest futures prop firm, and it does not have the largest account sizes. Its argument is that it removes the friction between passing evaluation and getting paid faster than any competitor in the category. If that friction is what has been costing you time and morale on other firms, this is the trade to make.\n\n## The Decision\n\nBuy TakeProfitTrader if you trade futures, want daily withdrawals, and can live with the 50% consistency rule and the $130 activation fee. Skip it if you need multi-asset support, a native mobile app, or accounts larger than $150K. The Trustpilot volume and the January 2025 removal of the daily loss limit suggest the firm is actively iterating on trader-friendly rules rather than tightening them, which is the direction you want a prop firm moving. Just batch your withdrawals above $250 to avoid the fee, and pick PRO+ over PRO if you can afford the higher monthly cost and want the 90/10 split.",
   "logo_url": "/logos/takeprofittrader.svg",
   "screenshots": [],
   "website_url": "https://www.takeprofittrader.com",
@@ -110,17 +110,19 @@
     "futures"
   ],
   "pros": [
-    "Daily payouts with no maximum withdrawal cap — rare among futures prop firms",
-    "No daily loss limit (removed January 2025), only a trailing max drawdown applies",
-    "Simple one-step evaluation with no time limit and a clear 6% profit target",
-    "90/10 profit split available on PRO+ accounts",
-    "Strong Trustpilot reputation: 4.4/5 from 8,300+ reviews with 81% five-star"
+    "Day-one withdrawals with no maximum payout cap on PRO accounts",
+    "No daily loss limit since January 2025 — only trailing max drawdown applies",
+    "One-step evaluation with a 6% profit target and no time limit",
+    "90/10 profit split available on PRO+ accounts with EOD drawdown",
+    "4.4/5 Trustpilot across 8,300+ reviews, 81% five-star",
+    "Supports NinjaTrader, Tradovate, and Rithmic with automated trading allowed"
   ],
   "cons": [
-    "Futures only — no stocks, forex, crypto, or options supported",
-    "50% consistency rule limits aggressive single-session trading strategies",
-    "No dedicated mobile app; mobile access depends on Tradovate's platform",
-    "$50 withdrawal fee applies to payouts of $250 or less"
+    "Futures only — no stocks, forex, crypto, or options",
+    "$50 withdrawal fee on payouts of $250 or less",
+    "50% consistency rule limits single-session profit concentration",
+    "No dedicated mobile app; mobile relies on Tradovate's platform",
+    "Maximum account size caps at $150K on PRO+"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -134,10 +136,11 @@
   "company": "TakeProfitTrader LLC",
   "headquarters": "Windermere, Florida, USA",
   "best_for": [
-    "futures traders seeking daily payouts",
-    "traders who prefer one-step evaluations",
-    "US-based funded account traders",
-    "NinjaTrader and Tradovate users"
+    "Futures traders who want daily payouts",
+    "Traders who prefer one-step evaluations with no time limit",
+    "US-based NinjaTrader and Tradovate users",
+    "Algo traders using Rithmic for automated futures strategies",
+    "Traders scaling from $25K up to $150K in simulated capital"
   ],
   "similar_tools": [
     "topstep",
@@ -145,8 +148,32 @@
     "earn2trade",
     "funded-futures-network"
   ],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "TakeProfitTrader Review 2026: Futures-only prop firm",
-  "meta_description": "Futures-only prop firm with one-step evaluations, daily payouts, no daily loss limits, and up to 90% profit splits on $25K–$150K simulated accounts."
+  "meta_title": "TakeProfitTrader Review 2026: Daily Payouts, One-Step Eval",
+  "meta_description": "Honest 2026 TakeProfitTrader review. Day-one withdrawals, 90/10 splits, no daily loss limit, futures only. See who this prop firm actually fits.",
+  "company_background": "TakeProfitTrader LLC was founded in 2021 and is headquartered in Windermere, Florida. The firm focuses exclusively on funding futures traders through one-step evaluations on NinjaTrader, Tradovate, and Rithmic. It has accumulated over 8,300 Trustpilot reviews with a 4.4/5 average rating, placing it among the more established futures-only prop firms in the market.",
+  "scraped_features": [
+    "One-step evaluation with 6% profit target",
+    "No time limit on evaluation phase",
+    "No daily loss limit (removed January 2025)",
+    "Trailing maximum drawdown on PRO accounts",
+    "End-of-day drawdown on PRO+ accounts",
+    "80/20 profit split on PRO accounts",
+    "90/10 profit split on PRO+ accounts",
+    "Day-one withdrawals from PRO accounts",
+    "No maximum withdrawal cap",
+    "Automated withdrawal processing",
+    "$130 one-time PRO activation fee",
+    "Up to 3 evaluation resets per account",
+    "24-hour live support",
+    "NinjaTrader platform support",
+    "Tradovate platform support",
+    "Rithmic connectivity",
+    "Automated trading permitted",
+    "50% consistency rule",
+    "Account sizes from $25K to $150K",
+    "Live Tradovate account on PRO+ upon passing"
+  ],
+  "enriched_at": "2026-07-18"
 }

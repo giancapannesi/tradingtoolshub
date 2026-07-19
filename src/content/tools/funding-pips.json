@@ -8,7 +8,7 @@
     "evaluation-challenges"
   ],
   "description_short": "Dubai-based prop firm offering 2-step, 1-step, and instant funding programs with up to 100% profit splits and $200M+ in total payouts.",
-  "description_long": "Funding Pips is a proprietary trading firm founded in August 2022 and headquartered in Dubai, UAE under the legal entity Ankh Prop – FZCO. Despite being relatively new to the prop firm space, the company has grown rapidly, claiming over 2 million registered traders and $200M+ in total payouts. Its diverse program lineup — 2-Step Standard, 2-Step Pro, 1-Step, and Zero (Instant Funding) — gives traders flexibility based on their risk tolerance and trading style.\n\nChallenge fees start at just $29 for the 2-Step Pro $5K account, making Funding Pips accessible to newer traders. The standout feature is its profit-split structure: traders can earn anywhere from 60% up to 100% depending on the payout frequency they choose. The Zero (Instant Funding) program offers a 95% split with no profit target required, appealing to experienced traders who want to skip evaluation phases.\n\nFunding Pips supports MetaTrader 5, cTrader, and Match Trader across desktop, web, and mobile. MT5 was re-added in March 2025 after a hiatus, and cTrader carries a $20 surcharge. Tradeable instruments include forex, indices, metals, energies, and crypto (~48 instruments total), though individual stocks, options, and futures are not available.\n\nThe affiliate program is automatically activated upon purchasing any challenge, offering up to 10% commission on referrals plus a unique 5% discount code for referred traders. With a 4.5/5 Trustpilot rating from over 43,000 reviews, Funding Pips has built a strong reputation for fast payouts and transparent rules, though its limited instrument count and platform surcharges are minor drawbacks.",
+  "description_long": "## The Central Trade-Off: Cheap Entry, Narrow Instrument Menu\n\nFunding Pips sits in the crowded prop firm category with a pitch that is easy to summarize: pay $29, prove you can hit a 6% target on a $5,000 simulated account, and keep up to 100% of the profits once funded. That entry price is genuinely low for the category, and the Trustpilot footprint (43,000+ reviews averaging 4.5/5) suggests a working payout pipeline. The catch is that Funding Pips is a forex-and-CFD shop. If you trade individual stocks, options, or US futures, this firm is the wrong door — the roughly 48 instruments on offer cover forex, indices, metals, energies, and crypto and nothing beyond that.\n\nThat single constraint decides whether the rest of the review matters to you. Everything below assumes you already know you want to trade currencies, indices, gold, oil, or crypto CFDs — because that is the entire universe Funding Pips supports.\n\n## The Five Programs and Why They Exist\n\nFunding Pips runs three evaluation styles stacked into five sample plans, and the pricing gaps between them tell you what the firm is actually charging for.\n\nThe **2-Step Pro $5K at $29** is the loss-leader — a stricter version of the standard 2-step with a lower 6% Phase 1 target, a tighter 3% daily loss limit, and an 80% profit split. It exists to get you in the door.\n\nThe **2-Step Standard $5K at $36** is what most traders should actually compare against competitors: 8% Phase 1 / 5% Phase 2 targets, no time limit, and profit splits scaling up to 100%. The $7 premium over the Pro plan buys you a looser daily loss rule and better upside.\n\nThe **2-Step Standard $50K at $289** is the same ruleset applied to a larger simulated balance. Ten times the account size at roughly eight times the fee — the classic prop firm curve where fee-to-account ratio improves as you scale up, provided you can actually pass the larger target in dollar terms.\n\nThe **1-Step $5K at $59** compresses evaluation into a single 10% profit target with no time limit, capped at a 90% split. You pay double the Standard 2-step fee to skip a phase; whether that is worth it depends entirely on how you handle the psychological difference between two 5-8% pushes and one 10% push on the same rules.\n\nThe **Zero (Instant Funding) $100K at $555** is the outlier. No evaluation, no profit target, 95% split, bi-weekly payouts, and a $7-per-lot commission on forex trades that will materially eat into scalping strategies. You are essentially renting a live-simulated account outright rather than earning one through a challenge.\n\n## What the Rules Actually Constrain\n\nFunding Pips advertises **no time limits** on the evaluation phases, which removes one of the more punishing pressures found at older prop firms. The daily loss limits — 3% on the Pro plan, higher on Standard — are the real behavioral cage. On a $5K account, a 3% daily limit is $150. That is a single mistimed news trade on gold or a wide EUR/USD stop after a Fed print. Traders coming from personal accounts routinely underestimate how quickly they can breach a daily drawdown when position sizing was tuned for a live retail account with no such rule.\n\nThe supplied data confirms **paper trading** (which is what the evaluation phase effectively is), **automated trading** support, and platform choice between MT5, cTrader, and Match Trader. The one platform tax worth flagging: **cTrader carries a $20 surcharge** on top of the challenge fee. If you already have muscle memory in cTrader, budget for it; otherwise MT5 is included at the base price.\n\nWhat is not present, and matters for some traders: no built-in trade journaling, no news feed integrated into the platform layer, no proprietary mobile app. You get whatever the underlying platform (MT5, cTrader, Match Trader) provides on mobile, which is workable for position management but not a native Funding Pips experience.\n\n## Payout Mechanics and Why Frequency Matters\n\nFunding Pips advertises daily and weekly payout options on some plans, Tuesday / bi-weekly / on-demand on the Standard 2-step, and bi-weekly on the Zero program. In prop firm evaluation, payout frequency is not a nice-to-have — it is directly tied to how much of your account you can compound before the next withdrawal cycle. Faster payouts mean smaller reinvestment pool; slower payouts mean more capital working before you extract it.\n\nThe firm claims **$200M+ in total payouts** as of its current marketing, and the Trustpilot rating (4.5/5 from 43,000+ verified reviews) is consistent with a firm that is actually paying — a rating that high with that many reviews is difficult to fabricate. That said, Trustpilot is a lagging indicator. If Funding Pips changed its rules or payout structure last month, those reviews would not yet reflect it. I could not independently verify current payout processing times from the source material provided — treat the advertised cadences as targets, not guarantees, and cross-reference recent (last 30 days) reviews before committing.\n\n## Who This Actually Fits\n\nThe honest buyer profile for Funding Pips is narrower than the marketing implies. It fits **forex-focused discretionary traders** who want a low-cost path to a larger simulated balance and are comfortable with CFD execution. It fits **intermediate traders testing new strategies** on someone else's capital rather than risking their own. It fits **algorithmic traders** who can run automated systems on MT5 or cTrader within the drawdown rules.\n\nIt does not fit **stock or options traders** — the instrument menu simply does not include them. It does not fit **US futures traders** — go to Topstep or Apex Trader Funding instead. It does not fit anyone who needs a **polished proprietary mobile app** for on-the-go management. And it does not fit traders who want **educational content or built-in journaling** as part of the package; Funding Pips is a funding mechanism, not a trading education product.\n\n## Where Funding Pips Sits Against Alternatives\n\nAgainst **FTMO**, Funding Pips is generally cheaper at entry and offers a wider range of program styles (2-step, 1-step, and instant), but FTMO has a longer operating history and more established reputation. Against **The5ers**, Funding Pips has a more conventional challenge structure — The5ers leans more into scaling plans and low-drawdown instant funding. Against **Topstep** and **Apex Trader Funding**, the comparison collapses because those firms are futures-focused and Funding Pips does not offer futures at all.\n\nCompany context worth knowing: Funding Pips is operated by **Ankh Prop – FZCO**, registered in the IFZA Business Park, Dubai. The firm launched in 2022, making it one of the newer entrants in a category where the older firms have weathered more industry turbulence (including the 2023-2024 MetaQuotes crackdown that forced several prop firms to change execution models). Dubai registration is common in this category but carries different regulatory implications than firms domiciled in the EU or US — worth understanding if regulatory recourse matters to you.\n\n## The Decision in One Paragraph\n\nBuy a Funding Pips challenge if you trade forex, metals, indices, energies, or crypto CFDs, want the lowest reasonable entry cost in the prop firm category, and accept that you are dealing with a firm founded in 2022 with a Dubai regulatory footprint. Skip Funding Pips if you need US futures, individual equities, options, a polished proprietary app, or the reassurance of a decade-plus operating history. The $29 entry point is legitimate — but a $29 challenge you fail because you did not respect a 3% daily loss limit is still $29 spent for nothing.",
   "logo_url": "/logos/funding-pips.svg",
   "screenshots": [],
   "website_url": "https://www.fundingpips.com",
@@ -113,17 +113,19 @@
     "energies"
   ],
   "pros": [
-    "Competitive entry pricing starting at $29 for a $5K challenge",
-    "Flexible profit splits up to 100% with multiple payout frequencies",
-    "Strong 4.5/5 Trustpilot rating from 43,000+ verified reviews",
-    "Zero (Instant Funding) program skips evaluation with 95% split",
-    "Automatic affiliate program with up to 10% commission"
+    "Entry challenge from $29 for a $5K simulated account",
+    "Profit splits scale up to 100% on Standard 2-step plans",
+    "No time limits on evaluation phases across programs",
+    "Zero (Instant Funding) skips evaluation with 95% split",
+    "Multiple platform choices: MT5, cTrader, Match Trader",
+    "Trustpilot 4.5/5 from 43,000+ reviews suggests real payouts"
   ],
   "cons": [
-    "No individual stocks, options, or futures available (~48 instruments only)",
-    "cTrader requires a $20 surcharge",
-    "No standalone mobile app — relies on third-party platform mobile clients",
-    "Mid-tier pricing not fully transparent without promotional discounts"
+    "No individual stocks, options, or US futures — roughly 48 CFD instruments only",
+    "cTrader platform carries a $20 surcharge on top of the challenge fee",
+    "No proprietary mobile app — relies on third-party platform apps",
+    "Firm founded in 2022, shorter track record than FTMO or Topstep",
+    "3% daily loss limit on Pro plan is tight for volatile instruments"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -137,10 +139,11 @@
   "company": "Ankh Prop – FZCO",
   "headquarters": "IFZA Business Park, DDP, Dubai, UAE",
   "best_for": [
-    "forex traders",
-    "funded account seekers",
-    "traders wanting flexible profit splits",
-    "beginner to intermediate prop traders"
+    "Forex and CFD discretionary traders",
+    "Intermediate traders testing strategies on external capital",
+    "Algorithmic traders running MT5 or cTrader automation",
+    "Cost-sensitive prop firm shoppers wanting the cheapest entry tier",
+    "Traders comfortable with Dubai-based regulatory footprint"
   ],
   "similar_tools": [
     "ftmo",
@@ -148,8 +151,32 @@
     "topstep",
     "apex-trader-funding"
   ],
-  "last_updated": "2026-03-17",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Funding Pips Review 2026",
-  "meta_description": "Dubai-based prop firm offering 2-step, 1-step, and instant funding programs with up to 100% profit splits and $200M+ in total payouts."
+  "meta_title": "Funding Pips Review 2026: Prop Firm Honest Take",
+  "meta_description": "Funding Pips review: $29 entry, up to 100% profit splits, 48 instruments, Dubai-based. Where it fits and where it fails vs FTMO and Topstep.",
+  "company_background": "Funding Pips is operated by Ankh Prop – FZCO, registered at IFZA Business Park, DDP, Dubai, UAE. The firm launched in 2022, positioning itself as a lower-cost entrant in the prop trading category with 2-step, 1-step, and instant funding programs. It claims $200M+ in cumulative payouts and holds a 4.5/5 Trustpilot rating from 43,000+ verified reviews.",
+  "scraped_features": [
+    "2-Step Pro evaluation with 6% Phase 1 target",
+    "2-Step Standard evaluation with 8% / 5% targets",
+    "1-Step evaluation with 10% target",
+    "Zero (Instant Funding) with no evaluation phase",
+    "Profit splits up to 100% on Standard plans",
+    "95% profit split on Zero program",
+    "No time limits on evaluation phases",
+    "3% daily loss limit on Pro plan",
+    "MT5 platform support included",
+    "cTrader platform support ($20 surcharge)",
+    "Match Trader platform support",
+    "Daily and weekly payout options",
+    "Tuesday / bi-weekly / on-demand payout cadences",
+    "Bi-weekly payouts on Zero program",
+    "$7/lot commission on Zero forex trades",
+    "Automated trading permitted",
+    "Forex, indices, metals, energies, crypto CFDs",
+    "Roughly 48 tradeable instruments",
+    "Affiliate program with up to 10% commission",
+    "$200M+ claimed cumulative payouts"
+  ],
+  "enriched_at": "2026-07-18"
 }

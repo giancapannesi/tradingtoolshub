@@ -7,7 +7,7 @@
     "social-trading"
   ],
   "description_short": "Automated portfolio tracker and trading journal with verified performance metrics and social sharing for options traders.",
-  "description_long": "Kinfo differentiates itself from other trading journals by focusing on verified performance tracking. When you connect your brokerage account, Kinfo automatically imports and verifies your trades, generating tamper-proof performance metrics including P&L, win rates, Sharpe ratios, and interactive charts.\n\nThe verified performance angle makes Kinfo particularly popular among traders who want to build a track record they can share publicly or use to attract followers. The social features let traders share their verified results, creating a transparent community where performance claims can be validated.\n\nKinfo is especially strong for options and stock traders, offering detailed breakdowns of options strategies, Greeks exposure, and sector allocation. The free tier provides basic tracking, making it accessible for traders who want to start building their verified track record.",
+  "description_long": "## What Kinfo Is and Who Built It\n\nKinfo is a trading journal and portfolio tracker built around a single differentiating idea: verified performance. Instead of letting traders self-report their P&L on Twitter or Discord and pray nobody screenshots the fake gains, Kinfo pulls trade data directly from your broker and stamps it as authentic. That verification layer is the entire product thesis.\n\nThe company is Kinfo Inc., headquartered in San Francisco and founded in 2019. The public face of the platform is KvD, who writes the company blog and handles most of the community-facing communication (including a February 2025 post titled \"How to game Kinfo, or at least try\" — a rare bit of honesty from a trading tool founder). The team is small, the product is focused, and the roadmap moves at the pace you'd expect from a bootstrapped SaaS rather than a VC-funded rocket.\n\n## Core Features and What Makes Kinfo Different\n\nThe **trader verification** system is the headline feature and the reason to look at Kinfo over any other journal. Broker integration is direct — trades import automatically and are cryptographically tied to a real account, meaning the performance on a Kinfo profile can't be manipulated after the fact. If you've ever wanted to prove you actually made 40% last year without emailing PDF statements to skeptics, this is the tool.\n\nOn top of verification sits a functional **trading journal**: automatic trade logging, per-position notes, tags, and analytics on win rate, average winner/loser, and holding periods. Options traders get strategy-level breakdowns (spreads, iron condors, naked puts) which is where Kinfo actually shines versus generic stock journals.\n\nThe **social layer** lets you set your profile public or private. Public profiles let other traders follow verified track records — think of it as a Strava for retail traders, minus most of the ego and with actual proof. An **Edge Protection** feature is marked \"coming soon,\" which will let traders hide individual executions while still showing aggregate returns (useful if you don't want your entries copied in real time).\n\nMobile apps are available on iOS (4.8 stars) and Android (4.6 stars) and are genuinely usable, not just marketing checkboxes.\n\n## Pricing\n\nKinfo runs a straightforward two-tier model:\n\n**Free** — $0/month. Basic portfolio tracking, verified performance stamp, public profile, and limited analytics. Notably, the free tier is actually usable — you get real verification and a real public profile without a credit card. Most \"free tier\" journals cripple verification behind paywalls; Kinfo doesn't.\n\n**Premium** — $9.99/month or $99.99/year (roughly $8.33/month if paid annually, a 17% discount). Adds advanced analytics, Sharpe ratio tracking, full options strategy breakdown, custom reports, and priority support.\n\nAt under $10/month, Kinfo is priced well below the trading journal category average. Tradervue's premium sits at $29/month; Edgewonk charges $169/year with no monthly option. Kinfo is the cheapest credible journal on the market — the tradeoff is depth, which we'll get to.\n\n## What Kinfo Genuinely Does Well\n\n**Verification is real and it works.** This isn't marketing fluff. The broker integration is direct, the trades can't be edited, and a verified Kinfo profile carries actual weight in trading communities. If you're building a track record for a prop firm application, a paid Discord, or your own newsletter, this is the fastest legitimate way to do it.\n\n**The free tier is honest.** You get verification, a public profile, and basic tracking without paying. Compare this to competitors who lock the core value proposition behind a $30/month wall.\n\n**Automatic broker sync eliminates manual entry.** This is table stakes in 2026, but plenty of journals still make you upload CSVs. Kinfo doesn't.\n\n**Options coverage is genuinely thoughtful.** Multi-leg strategies are recognized and analyzed as strategies, not just as four separate stock trades — a gap that trips up most general-purpose journals.\n\n**Pricing is aggressive.** $9.99/month for a journal with real analytics and verification is a bargain compared to Tradervue ($29+) and Edgewonk ($169/year).\n\n**Company communication is refreshingly transparent.** The February 2025 \"Facts and misinformation\" blog post, where KvD explained a platform bug in detail, is the kind of communication you almost never see from SaaS companies. That signals a team that will actually respond when things break.\n\n## Where Kinfo Falls Short\n\n**Market coverage is narrow.** Kinfo supports stocks and options only. Futures traders, forex traders, and crypto traders have to look elsewhere. If you trade multiple asset classes, Kinfo can't be your only journal.\n\n**Analytics depth trails the leaders.** Compared to Edgewonk's setup-quality scoring, MFE/MAE analysis, and behavioral tagging system, Kinfo's analytics feel basic. You get the standard metrics — win rate, average P&L, Sharpe — but you won't find the deep behavioral introspection that serious discretionary traders want.\n\n**No backtesting, no paper trading, no alerts.** Kinfo is purely retrospective. If you want to test setups or simulate before going live, you'll need a separate tool.\n\n**The community is smaller.** Kinfo's social layer is real, but the network effect isn't there yet. Following other verified traders is only useful if the traders you want to follow are actually on the platform, and many aren't.\n\n**No AI-driven insights.** Newer journals like TradesViz and TraderSync are building AI trade review features. Kinfo hasn't added anything in that direction, and probably won't soon.\n\n**Edge Protection is still \"coming soon.\"** For traders who want to share performance without exposing strategy, this is a critical feature — and it's not shipped yet.\n\n## Who Should Use Kinfo — and Who Shouldn't\n\n**Use Kinfo if:** You're an options or stock trader who needs a verified public track record — for prop firm applications, subscriber acquisition, or personal accountability. You want a functional journal without paying $30/month. You value simplicity and honesty over feature bloat.\n\n**Skip Kinfo if:** You trade futures, forex, or crypto. You want deep behavioral analytics for discretionary strategy refinement (go to Edgewonk). You need backtesting, alerts, or AI trade review. You already have a Tradervue account and are dug into their workflow.\n\n## Kinfo vs the Competition\n\n**Kinfo vs Tradervue:** Tradervue is the incumbent — bigger community, deeper analytics, more market coverage (including futures and forex). But it costs $29/month for the paid tier and doesn't have Kinfo's verification layer. If you're building a public track record, Kinfo wins. If you're a professional trader who needs deep analysis across multiple asset classes, Tradervue is still the better tool.\n\n**Kinfo vs Trademetria:** Trademetria has broader market coverage (futures included) and stronger analytics for multi-asset traders, priced around $19.90/month. Kinfo undercuts it on price and beats it on verification. Trademetria wins on breadth; Kinfo wins on focus.\n\n## The Bottom Line\n\nKinfo is a good product built around one genuinely differentiated idea. If you need a verified track record for stocks or options — and you're not willing to fake screenshots or wait for prop firms to check your statements — Kinfo is the fastest and cheapest way to get one. The free tier is real, the $9.99 premium is fair, and the team is transparent enough to admit when they break something.\n\nBut it's not the deepest journal on the market. It's not the broadest. And if you don't specifically need verification, there are more capable tools at similar or slightly higher price points. Kinfo has a clear \"who it's for\" and executes on that use case cleanly. If you're in the target segment, it's an easy yes. If you're not, look elsewhere.",
   "logo_url": "/logos/kinfo.svg",
   "screenshots": [],
   "website_url": "https://kinfo.com",
@@ -67,15 +67,19 @@
     "options"
   ],
   "pros": [
-    "Verified performance metrics build credible track records",
-    "Free tier for basic tracking",
-    "Social sharing with proof of performance",
-    "Automatic broker sync eliminates manual entry"
+    "Verified performance via direct broker integration",
+    "Genuinely usable free tier with verification included",
+    "Premium at $9.99/month undercuts most competitors",
+    "Strong options strategy breakdown, not just single-leg logging",
+    "Mobile apps rated 4.8 (iOS) and 4.6 (Android)",
+    "Transparent company communication about bugs and platform issues"
   ],
   "cons": [
-    "Limited to stocks and options only",
-    "Smaller community than alternatives",
-    "Analytics depth not as strong as dedicated journals"
+    "Stocks and options only — no futures, forex, or crypto",
+    "Analytics depth trails Edgewonk and Tradervue",
+    "No backtesting, paper trading, or trade alerts",
+    "Smaller community limits value of social features",
+    "Edge Protection feature still 'coming soon'"
   ],
   "rating": 3.8,
   "rating_breakdown": {
@@ -89,17 +93,49 @@
   "company": "Kinfo Inc.",
   "headquarters": "San Francisco, California",
   "best_for": [
-    "options traders",
-    "traders building track records",
-    "social traders"
+    "Options traders building verified track records",
+    "Stock traders applying to prop firms",
+    "Newsletter and paid Discord operators needing proof",
+    "Cost-conscious traders wanting a real journal under $10/month",
+    "Social traders following verified profiles"
   ],
   "similar_tools": [
     "tradervue",
     "tradertrac",
     "trademetria"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Kinfo Review 2026",
-  "meta_description": "Automated portfolio tracker and trading journal with verified performance metrics and social sharing for options traders."
+  "meta_title": "Kinfo Review 2026: Verified Trading Journal Worth It?",
+  "meta_description": "Honest Kinfo review 2026. Verified trading journal at $9.99/month with broker sync for stock and options traders. Pros, cons, and how it compares.",
+  "company_background": "Kinfo Inc. is a San Francisco-based trading technology company founded in 2019. The bootstrapped team, publicly represented by KvD, focuses on a single problem: making trading performance verifiable through direct broker integration rather than self-reported screenshots.",
+  "scraped_features": [
+    "Verified trading performance via broker integration",
+    "Automatic trade import in real-time",
+    "Trading journal with per-trade notes",
+    "Public or private profile toggle",
+    "Follow verified traders (social layer)",
+    "Options strategy breakdown (multi-leg)",
+    "Sharpe ratio tracking (Premium)",
+    "Advanced analytics (Premium)",
+    "Custom reports (Premium)",
+    "iOS mobile app (4.8 stars)",
+    "Android mobile app (4.6 stars)",
+    "Web and mobile access",
+    "US and international broker support",
+    "Edge Protection to hide executions (coming soon)",
+    "Priority support (Premium tier)",
+    "60-second signup with no credit card",
+    "Published community trading statistics",
+    "Basic portfolio tracking (Free tier)",
+    "Limited analytics on Free tier",
+    "Trader verification stamp on public profile"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/kinfo",
+    "linkedin": "https://www.linkedin.com/company/kinfo-social-investing",
+    "youtube": "https://www.youtube.com/@kinfoofficial",
+    "facebook": "https://www.facebook.com/kinfoinvest"
+  },
+  "enriched_at": "2026-07-17"
 }

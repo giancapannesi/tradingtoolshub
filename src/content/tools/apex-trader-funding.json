@@ -7,7 +7,7 @@
     "futures-focused"
   ],
   "description_short": "Popular futures-focused prop firm with one-step evaluation, generous rules, and funded accounts from $25K to $300K with 100% of first $25K profit.",
-  "description_long": "Apex Trader Funding is a rapidly growing proprietary trading firm focused exclusively on futures trading. Unlike many prop firms that require multi-phase evaluations, Apex uses a simple one-step evaluation process: meet the profit target within the evaluation period while staying within risk parameters, and you receive a funded account.\n\nApex offers evaluation accounts ranging from $25,000 to $300,000, with profit targets proportional to account size. The risk rules are considered among the most generous in the prop firm industry — there is no daily drawdown limit (only a trailing threshold), traders can trade during news events, and positions can be held overnight. The profit split is 100% of the first $25,000 in profits, then 90/10 thereafter.\n\nThe platform supports trading through NinjaTrader, Tradovate, Rithmic, and WealthCharts. Apex is particularly popular for its frequent promotions (often 50-80% off evaluation fees), reset options, and the ability to run multiple funded accounts simultaneously. The firm has paid out over $300 million to traders since its founding.",
+  "description_long": "## The trailing threshold is the first thing to understand\n\nBefore picking an Apex Trader Funding plan, learn how the trailing threshold works, because it is the mechanic that gets most new prop-firm traders eliminated. On the $25K evaluation the trailing threshold sits $1,500 below your account high-water mark and rises with unrealized profit — meaning a trade that spikes into profit and pulls back can violate the drawdown even if you never actually banked the gain. On the $50K plan the trail is $2,500, on the $100K it is $3,000, on the $150K it is $5,000, and on the $300K it is $7,500. Bigger accounts do not always mean more room — the $150K's $5,000 trail against a $9,000 profit target is proportionally tighter than the $50K's $2,500 against $3,000. If you trade impulsively or hold runners past the peak, this rule will find you before any other rule does.\n\n## What $147 actually buys on the $25K plan\n\nThe entry point for Apex Trader Funding is the $25K evaluation at $147 per month. That fee gets you a one-step evaluation with a $1,500 profit target and a 10-contract cap in the futures prop-firm category. There is no yearly discount published in the supplied data — everything is billed monthly, and if you reset or restart, you pay again. The $50K plan runs $167 with a 14-contract cap, the $100K is $207 also at 14 contracts, the $150K jumps to $297 at 17 contracts, and the $300K sits at $517 with a 35-contract cap. What you are really buying is optionality: an evaluation you can pass, funded status, and a payout structure that hands you 100% of the first $25K in profits from your funded account. Whether $147 is cheap depends entirely on whether you pass the first attempt — traders who reset three or four times often spend more than they would on a single higher-priced firm's flat-fee product.\n\n## Why futures-only decides the fit before anything else\n\nApex Trader Funding is a futures-only prop firm. No forex, no equities, no crypto, no CFDs. If you trade the Nasdaq via NQ, the S&P via ES, gold via GC, or oil via CL, that constraint is the whole point. If you built your edge on EURUSD or on options structures, this firm is not the platform for you, and no amount of marketing changes that. This single restriction eliminates a large fraction of retail traders who otherwise chase prop-firm capital. On the other hand, it also means the rule set, contract caps, and evaluation math are designed around a specific product family — contracts scale on tick value, not on lot size, and the drawdown numbers are calibrated to how ES and NQ actually move.\n\n## The one-step evaluation and what it changes\n\nMost prop firms use two-phase or three-phase challenges. Apex runs a one-step evaluation: hit the profit target while respecting the trailing threshold, and you move to a funded account. That reduces the psychological weight of a phase 2 — you are not passing a challenge only to be handed another one. It also compresses the timeline: a fast-moving trader who hits the target in a week is funded in a week. The trade-off is that the firm compensates by keeping the trailing threshold aggressive and by letting monthly fees keep running through the evaluation. Traders who try to over-optimize a slow, cautious pass tend to bleed fees; those who treat the evaluation as a single decisive test tend to do better.\n\n## No daily drawdown and news trading — a real edge\n\nTwo rules matter more in practice than the marketing suggests. First, there is no daily drawdown limit — only the overall trailing threshold. That means one bad session does not automatically end your evaluation; you can lose more in a single day than most firms allow, provided you do not breach the overall drawdown. Second, you can trade during news events. Firms that block news trading force you to flatten before FOMC, CPI, or NFP, which for a lot of futures traders is exactly when the tradable volatility exists. Letting you stay in during those windows is genuinely useful — but it is also a rope that many traders hang themselves with. Absence of a daily limit is not permission to size up recklessly.\n\n## The 100% first $25K rule and how payouts actually work\n\nApex Trader Funding advertises 100% of the first $25,000 in profits from a funded account, with a standard split afterward. That is more generous than the 80/20 or 90/10 many competitors use at the entry level, and it means the first big win on a funded account goes fully to the trader. What the supplied source cannot confirm is the exact split above $25K, the minimum payout threshold, or the specific consistency rules that gate withdrawals — verify those on the firm's live rules page before signing up. What is noted is that payout processing takes 5–10 business days, which is slower than the best-in-class prop firms that turn withdrawals around in 24 to 72 hours. If your plan depends on tight cash flow, factor that lag in.\n\n## Discount promotions change the real cost\n\nApex Trader Funding runs promotions frequently — the source data notes discounts in the 50 to 80 percent range appear regularly. That means the $147 headline for the $25K plan is often not the actual sticker price paid by informed traders, and buying an evaluation the day a promo drops can cut effective cost dramatically. It also means that if you pay full price without checking for a coupon, you are almost certainly overpaying. The counterpoint: constant promotions can make the reset-and-retry loop feel cheap, and traders who would benefit from stepping back instead keep buying fresh evaluations. Cheap resets are not the same thing as cheap edge.\n\n## Where the rule set frustrates people\n\nTwo complaints show up repeatedly with Apex Trader Funding. First, the trailing threshold trips traders who do not model it before their first trade — a $1,500 trail on the $25K plan means one over-leveraged NQ position with a fast pullback can end the evaluation before you understood it started. Second, rules have changed over time, and traders who joined under one version have had to adapt to another. If you build a system around a specific Apex rule today, understand that the rules can move on you.\n\n## Where Apex fits versus Topstep, FTMO, and The Funded Trader\n\nAgainst Topstep, Apex Trader Funding is directly competitive on futures — Topstep's Trading Combine is the closest analog, and the choice usually comes down to preferred platform ergonomics, current promo pricing, and how each firm's trailing drawdown math treats your style. Against FTMO and The Funded Trader, the comparison is less direct because both lean forex- and CFD-heavy; if you want a firm that lets you trade forex alongside futures, Apex is not the answer. For a futures trader who wants a one-step evaluation and generous first-payout economics, Apex Trader Funding is one of two obvious picks alongside Topstep. For anyone else, the answer sits elsewhere. It is a serious option for traders who understand the trailing threshold, treat evaluations as decisive one-shot tests rather than reset gambling, and can absorb a 5 to 10 business day payout wait.",
   "logo_url": "/logos/apex-trader-funding.svg",
   "screenshots": [],
   "website_url": "https://www.apextraderfunding.com",
@@ -98,19 +98,19 @@
     "futures"
   ],
   "pros": [
-    "One-step evaluation — simpler than multi-phase firms",
-    "100% of first $25K in profits",
-    "No daily drawdown limit",
-    "Can trade during news events",
-    "Frequent discount promotions (50-80% off)",
+    "One-step evaluation instead of multi-phase challenges",
+    "100% of first $25K in profit on funded accounts",
+    "No daily drawdown limit — only overall trailing threshold",
+    "News trading permitted during CPI, FOMC, and NFP",
+    "Frequent 50-80% off promotions cut effective cost",
     "Multiple funded accounts allowed simultaneously"
   ],
   "cons": [
-    "Futures only — no forex, stocks, or crypto",
-    "Trailing threshold can be confusing for beginners",
-    "Monthly evaluation fees add up if you reset multiple times",
-    "Payout processing can take 5-10 business days",
-    "Rules changes have frustrated some traders"
+    "Futures only — no forex, equities, or crypto",
+    "Trailing threshold rises with unrealized profit and traps new traders",
+    "Monthly fees repeat every time you reset the evaluation",
+    "Payout processing takes 5-10 business days",
+    "Rule changes over time can invalidate strategies built to prior versions"
   ],
   "rating": 4.3,
   "rating_breakdown": {
@@ -124,27 +124,46 @@
   "company": "Apex Trader Funding Inc.",
   "headquarters": "Austin, Texas",
   "best_for": [
-    "futures traders",
-    "prop firm beginners",
-    "budget-conscious traders"
+    "Futures traders focused on ES, NQ, CL, or GC",
+    "Prop firm beginners who prefer a single-phase evaluation",
+    "Traders who need to hold positions through major news events",
+    "Traders comfortable modeling trailing drawdown math before sizing up",
+    "Budget-conscious traders willing to time entries around promo discounts"
   ],
   "similar_tools": [
     "ftmo",
     "topstep",
     "the-funded-trader"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
   "scraped_features": [
-    "One-step evaluation process",
-    "100% of first $25K profit to trader",
-    "Funded accounts from $25K to $300K"
+    "One-step evaluation model",
+    "Account sizes from $25K to $300K",
+    "Trailing threshold drawdown mechanism",
+    "No daily drawdown limit",
+    "News trading permitted",
+    "100% of first $25K in profits on funded accounts",
+    "Multiple funded accounts allowed",
+    "Futures-only markets (CME products)",
+    "Contract limits scale from 10 to 35 by account size",
+    "Paper trading environment",
+    "Mobile app access",
+    "Educational content",
+    "Performance analytics",
+    "Risk management tools",
+    "Broker and platform integration",
+    "Automated trading permitted",
+    "Monthly evaluation fees ($147-$517)",
+    "Frequent 50-80% off promotional discounts",
+    "Payout processing in 5-10 business days"
   ],
   "unique_selling_points": [
     "Generous profit splitting: 100% of first $25K profit",
     "Quick one-step evaluation process"
   ],
-  "enriched_at": "2026-03-29",
-  "meta_title": "Apex Trader Funding Review 2026",
-  "meta_description": "Popular futures-focused prop firm with one-step evaluation, generous rules, and funded accounts from $25K to $300K with 100% of first $25K profit."
+  "enriched_at": "2026-07-18",
+  "meta_title": "Apex Trader Funding Review 2026: Futures Prop Firm",
+  "meta_description": "Apex Trader Funding review 2026: one-step evaluation from $147, 100% of first $25K profit, futures-only, and the trailing drawdown trap explained.",
+  "company_background": "Apex Trader Funding Inc. is a futures-focused prop firm founded in 2021 and based in Austin, Texas. It funds retail traders on CME futures products through a one-step evaluation model, with account sizes from $25K to $300K and monthly evaluation fees starting at $147."
 }

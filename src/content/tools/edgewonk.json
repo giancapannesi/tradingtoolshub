@@ -7,7 +7,7 @@
     "psychology"
   ],
   "description_short": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking.",
-  "description_long": "Edgewonk is a veteran trading journal that has built a loyal following among serious traders who want to find and maintain their statistical edge. Unlike many journaling tools that focus on pretty dashboards, Edgewonk emphasizes the analytical depth needed to make meaningful improvements to your trading.\n\nThe platform excels at helping traders identify patterns in their behavior through custom tags, emotional state tracking, and detailed performance metrics. Its unique 'Tiltmeter' feature tracks emotional trading decisions, while the trade simulator lets you test 'what-if' scenarios against your actual trade history.\n\nEdgewonk uses a single-tier pricing model at $169/year, which gives every user access to all features without tiered restrictions. This approach means you never hit a paywall for advanced analytics. It supports stocks, forex, futures, crypto, and options across all major brokers.",
+  "description_long": "## What Edgewonk Is and Who Built It\n\nEdgewonk is a desktop-first trading journal built by a small Austrian team out of Vienna. The company launched in 2014, which makes it one of the older journals still actively developed in the retail space — roughly a decade of iteration on the same core product. Over that stretch, Edgewonk claims more than 8 million trades have been journaled through the platform, and it has built a reputation among the analytical crowd as the tool you buy when you're serious about finding a statistical edge rather than just logging trades for tax season.\n\nThe founding team came out of a trading psychology background — this shows in the product. Where most journals are built by developers who bolt on psychology fields as an afterthought, Edgewonk was built around the idea that trade data and trader behavior have to be analyzed together. That premise still shapes the entire product today.\n\n## Core Features and What Makes Edgewonk Different\n\nEdgewonk supports the usual list of markets: **forex, stocks, futures, crypto, options, indices, and commodities**. Trade imports are automated through broker integrations, so once you've set up the connection you're not manually pasting CSVs every night. From there, three features actually separate Edgewonk from the pack.\n\nThe first is the **Tiltmeter** — a metric designed to detect emotional or off-plan trading in your data. It looks at deviations from your baseline behavior (revenge trades, oversized positions, chasing entries) and flags them so you can see, in numbers, how much your emotional state is costing you. No other major journal has an equivalent built in.\n\nThe second is the **Trade Simulator**, which lets you run what-if analysis on your historical trades. Move your stop, trail your target differently, skip your worst setup — Edgewonk recalculates the equity curve so you can see whether the rule change would actually have helped. This is closer to a mini strategy lab than a journal feature.\n\nThird is the **50+ report library** paired with fully customizable tags. You can slice your performance by setup, session, instrument, emotion, mistake type, or any custom field you invent. Combined with the integrated diary, mistake tracking, and trade checklists, Edgewonk pushes you toward reviewing behavior — not just P&L.\n\nBacktesting, journaling, performance analytics, risk management, and broker integration are all first-class features. Notably absent: no AI analysis, no mobile app, no alerts, no paper trading, no news feed, no automated trading, and no public API.\n\n## Pricing: What Edgewonk Actually Costs\n\nEdgewonk uses a **single-tier model** — everyone gets every feature. There's no crippled starter plan. Pricing is annual only, no monthly billing option.\n\n- **12 months:** $197 (works out to about $16.42/month)\n- **24 months:** $297 (about $12.38/month, and it locks in current pricing for two years)\n\nThere is **no free tier and no free trial**. Edgewonk offers a **14-day money-back refund** instead, which is essentially a paid trial — you have to hand over the card first. As of writing, they're also running a promotion that adds three free months to a new purchase, but promo windows come and go, so check the current offer on their site before you buy.\n\nCompared to newer competitors that charge $30-40/month for equivalent features, Edgewonk's annual math is competitive. The problem is the upfront commitment: you're paying for the year on day one.\n\n## What Edgewonk Does Genuinely Well\n\n**One price for everything** removes the frustration you get with tiered journals where the good analytics live behind an upgrade. If you buy Edgewonk, you have the full product.\n\nThe **psychology-plus-data integration** is the real reason to pick it. Most journals treat mistake tracking as a text field. Edgewonk connects your mistakes, emotional flags, and checklist adherence directly to your P&L data, so you can answer questions like \"how much does trading tired actually cost me?\" with a number.\n\nThe **report depth** is unusually strong for a retail journal. Fifty-plus reports out of the box, all filterable by custom tags, is closer to what you'd expect from a small institutional analytics tool than a trader's journal.\n\nThe **Trade Simulator** genuinely helps rule development. Being able to test \"what if I never took Monday trades\" against your own historical data is one of the most useful features in any journal.\n\nA **decade of active development** matters. Edgewonk has been around longer than most of its competitors have existed, and unlike some legacy tools, it's still being updated.\n\n## Where Edgewonk Falls Short\n\nThe **interface feels dated**. Newer competitors like Tradezella and TraderSync have modern, clean dashboards. Edgewonk works, but you can feel that it was designed several UI generations ago. If aesthetics matter to you, this will be a friction point.\n\n**No free trial** is a real barrier. You have to buy the annual plan and then remember to refund within 14 days if you don't like it. That's a psychological hurdle competitors don't impose.\n\n**Annual-only billing** rules out casual users. If you just want to try journaling for a month, Edgewonk isn't the tool.\n\n**No mobile app** means you can't log trades or review data on your phone. For a trader who wants to journal on the go, this is a hard limitation.\n\n**No AI features** at a time when every competitor is shipping AI trade coaches, pattern-detection assistants, and natural-language querying. Edgewonk is behind here.\n\n**No paper trading, no alerts, no news feed** — Edgewonk is strictly a post-trade analytics tool. If you want a journal that also handles pre-trade workflow, this isn't it.\n\n## Who Should Buy Edgewonk (and Who Shouldn't)\n\nBuy Edgewonk if you are an **analytical trader** who lives in the data — forex traders in particular have historically gotten a lot of value out of it, and anyone whose main leak is psychological rather than technical will benefit from the mistake tracking and Tiltmeter. If you're committed to trading for at least a year and want a tool that will genuinely change how you review your performance, this is a strong pick.\n\nDon't buy Edgewonk if you're a **casual trader**, a **beginner still figuring out whether you'll stick with trading**, someone who journals from their phone, or a trader who wants a modern-feeling dashboard. It's also a poor fit if you want AI coaching or need pre-trade tools like alerts and paper trading.\n\n## How Edgewonk Compares to Tradezella and TraderSync\n\n**Tradezella** is the newer, prettier competitor. Better UI, mobile app, AI features, monthly billing available — but pricier over 12 months, and the analytics depth doesn't fully match Edgewonk's report library. Tradezella wins on user experience; Edgewonk wins on analytical depth.\n\n**TraderSync** sits in between. It has more features than a basic journal, a mobile presence, and tiered pricing that starts cheaper. But it also gates key analytics behind higher tiers, so the real cost to get Edgewonk-equivalent functionality is often higher. Edgewonk's flat pricing is genuinely better value if you use the advanced reports.\n\n## The Bottom Line\n\nEdgewonk is one of the best trading journals available for traders who treat journaling as a serious data discipline. The Tiltmeter, Trade Simulator, and 50-plus reports are meaningfully differentiated from anything else on the market, and the flat single-tier pricing means you're not upsold at every turn.\n\nThe caveats are real: dated UI, no mobile, no free trial, no AI, annual billing only. Whether Edgewonk is right for you comes down to what you actually want from a journal. If you want the deepest analytical toolkit and don't care that it looks like 2018, Edgewonk is worth the $197. If you want a slick modern experience with AI coaching, look elsewhere.",
   "logo_url": "/logos/edgewonk.svg",
   "screenshots": [
     {
@@ -73,15 +73,19 @@
     "futures"
   ],
   "pros": [
-    "Single tier means all features for everyone",
-    "Tiltmeter for emotional trading detection is unique",
-    "Trade simulator for what-if analysis",
-    "Strong focus on finding statistical edge"
+    "Single-tier pricing — every feature included, no upgrade nags",
+    "Tiltmeter uniquely quantifies emotional/tilt trading in your data",
+    "Trade Simulator lets you backtest rule changes on real historical trades",
+    "50+ customizable reports with deep tag-based filtering",
+    "Psychology tracking (mistakes, checklists, diary) tied directly to P&L",
+    "Over 10 years of active development and battle-tested reliability"
   ],
   "cons": [
-    "No free tier or trial available",
-    "Interface feels dated compared to newer competitors",
-    "Annual billing only, no monthly option"
+    "No free trial — you must pay first and refund within 14 days",
+    "Annual billing only, no monthly option available",
+    "Interface feels dated compared to Tradezella and TraderSync",
+    "No mobile app for on-the-go journaling or review",
+    "No AI-powered analysis or trade coaching features"
   ],
   "rating": 4.4,
   "rating_breakdown": {
@@ -95,35 +99,41 @@
   "company": "Edgewonk",
   "headquarters": "Vienna, Austria",
   "best_for": [
-    "analytical traders",
-    "forex traders",
-    "traders focused on psychology"
+    "Analytical traders who live in the data",
+    "Forex traders looking for deep session and pair analytics",
+    "Traders whose main leak is psychological rather than technical",
+    "Serious traders committed to a 12+ month journaling habit",
+    "Users who want every feature without tier upsells"
   ],
   "similar_tools": [
     "tradertrac",
     "tradezella",
     "tradersync"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "company_background": "Edgewonk has been helping traders improve for over 10 years. Independent, transparent trading journal platform focused on turning trading data into profits.",
+  "company_background": "Edgewonk is a trading journal built by a small team based in Vienna, Austria, launched in 2014. The company has focused exclusively on trade analytics and psychology tracking for over a decade, with the platform claiming 8M+ trades journaled by users worldwide. It remains one of the longest-running actively developed trading journals in the retail space.",
   "scraped_features": [
-    "Automated trade imports from 200+ brokers (1000 trades in 12 seconds)",
-    "Edge Finder - AI automated performance and mistake scan every Sunday",
-    "Trade Management Optimizer - identifies execution mistakes during trades",
-    "Best Setup Analytics - reveals most profitable setups and instruments",
-    "Best Time of Day & Weekday Finder - shows when your edge is strongest",
-    "Tiltmeter - measures rule adherence and discipline impact on performance",
-    "MFE/MAE Analysis - Maximum/Minimum Favorable/Adverse Excursion reports",
-    "Profit Calendar - performance tracking over time",
-    "Risk Analytics - drawdown analysis, losing/winning streak analytics",
-    "Performance Simulator - alternative strategy testing",
-    "Psychology Analysis - integrated trading diary with screenshot attachment",
-    "Unlimited journals and unlimited trade imports",
-    "20 custom tag categories for trade classification",
-    "Session report cards - daily learning opportunities",
-    "Monthly performance reports - long-term trend analysis",
-    "Portfolio page - combined view of all journals with aggregate statistics"
+    "Automated trade imports from major brokers",
+    "Tiltmeter for detecting emotional trading patterns",
+    "Trade Simulator for what-if historical analysis",
+    "50+ customizable performance reports",
+    "Integrated trading diary and notes",
+    "Mistake tracking tied to P&L outcomes",
+    "Trade checklist system for rule adherence",
+    "Review and report cards for session breakdowns",
+    "Strategy lab for testing new ideas",
+    "Custom tag system for slicing performance data",
+    "Multi-market support (forex, stocks, futures, crypto, options, indices, commodities)",
+    "Automated in-depth analysis across hundreds of data points",
+    "Fully customizable reports to match individual approach",
+    "Independent penetration-tested security infrastructure",
+    "Privacy-first data handling (no data sale or reverse engineering)",
+    "14-day money-back refund policy",
+    "Broker integration for hands-off imports",
+    "Performance analytics dashboard",
+    "Risk management tracking",
+    "Educational resources within the platform"
   ],
   "integrations": "200+ brokers",
   "unique_selling_points": [
@@ -142,7 +152,7 @@
       "url": "https://www.trustpilot.com/review/edgewonk.com"
     }
   ],
-  "enriched_at": "2026-03-29",
-  "meta_title": "Edgewonk Review 2026",
-  "meta_description": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking."
+  "enriched_at": "2026-07-17",
+  "meta_title": "Edgewonk Review 2026: Honest Trading Journal Breakdown",
+  "meta_description": "Honest 2026 Edgewonk review: real pricing ($197/yr), Tiltmeter, Trade Simulator, 50+ reports, plus the dated UI and no-trial catch. Read before buying."
 }

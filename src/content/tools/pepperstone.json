@@ -7,7 +7,7 @@
     "low-spread"
   ],
   "description_short": "Award-winning ECN forex broker with razor-thin spreads from 0.0 pips, fast execution, and MT4/MT5/cTrader support.",
-  "description_long": "Pepperstone is an Australian-founded forex and CFD broker that has become one of the most popular choices for active forex traders worldwide. The broker is known for its ultra-tight spreads, fast execution, and support for multiple trading platforms including MetaTrader 4, MetaTrader 5, cTrader, and TradingView.\n\nThe Razor account offers raw spreads from 0.0 pips (averaging 0.10 pips on EUR/USD) with a commission of $3.50 per side per lot ($7 round turn). The Standard account bundles the commission into a slightly wider spread starting from 1.0 pips. Both accounts have no minimum deposit requirement.\n\nPepperstone supports over 1,200 instruments including forex, indices, commodities, shares, ETFs, and crypto. The broker is regulated by ASIC, FCA, CySEC, and other major regulators, providing strong client fund protection. Their fast execution speeds and deep liquidity make them a preferred choice for scalpers and algorithmic traders.",
+  "description_long": "## The Razor-vs-Standard Decision Is the Whole Review\n\nEverything about Pepperstone starts with a single choice: Standard account or Razor account. Both have zero minimum deposit and access the same 1,200+ instruments across forex, indices, commodities, shares, ETFs, bonds and crypto CFDs. The difference is where the broker takes its cut. Standard bakes the cost into a wider spread (roughly 1.0 pip on EUR/USD, no commission). Razor gives you raw institutional pricing from 0.0 pips and charges $3.50 per side per lot. For any active trader running more than a handful of standard lots a week, Razor is mathematically the cheaper account. For someone placing two swing trades a month, Standard is simpler and often lands in the same place. Pepperstone does not push you toward one or the other, which is unusual and worth noting up front.\n\n## What Pepperstone Actually Is (and What It Isn't)\n\nPepperstone is an ECN-style **brokers-forex** operator founded in 2010 in Melbourne, Australia, now with 12 global offices and, per its own homepage, 900K+ traders, roughly A$947B in monthly volume, and A$133M withdrawn monthly. That scale matters because it is the argument for the tight spreads: deep liquidity from multiple Tier 1 banks, a claimed 99.32% fill rate, and no dealer intervention on execution.\n\nWhat it is not: a share dealing platform. Every equity, index, commodity and crypto product on Pepperstone is a CFD. You never own the underlying asset. If your goal is to buy Apple stock and hold it in a portfolio, this is the wrong broker. If your goal is to trade Apple's price direction with leverage and no ownership, it is well-built for that job.\n\nIt is also not available to US residents. This is a hard block, not a workaround situation. US traders should stop reading here and look at domestic options.\n\n## The Platform Choice Nobody Talks Enough About\n\nMost broker reviews list \"MT4, MT5, cTrader, TradingView\" as a bullet and move on. In practice this is a real decision that changes your daily workflow.\n\nMT4 is still the default for anyone running purchased or inherited Expert Advisors — the EA ecosystem there is deeper than anywhere else. MT5 is the technically better platform but the EA library is thinner. cTrader is the one to pay attention to on an ECN broker like Pepperstone: it exposes real depth-of-market, has cleaner order types, and is genuinely built for the raw-spread model that the Razor account uses. TradingView integration means you can execute from the charts most retail traders already use.\n\nAll four connect to the same account. Nothing stops you from running MT5 on desktop and TradingView in a browser tab. But pick the one you'll actually build habits around, because bouncing between platforms is where mistakes happen.\n\n## Where the Cost Math Breaks Down\n\nPepperstone advertises \"from 0.0 pips\" on Razor and \"from 1.0 pip\" on Standard for EUR/USD. Two things to check before assuming those numbers apply to you.\n\nFirst, \"from\" means best-case. Spreads widen around news, at session opens, and on less liquid pairs. The homepage promotes gold spreads \"from 0.1\" on Razor as a headline — normal for major pairs during London and New York overlap, wider outside those hours. The site shows live spreads by market category (Popular, Margin FX, Commodities, Indices, 24hr Shares, Crypto, Perpetual), which is more transparency than most brokers offer. Use it before you fund.\n\nSecond, the Razor commission is $3.50 per side per lot, so a round-turn standard lot costs $7 in commission on top of the raw spread. Break-even against Standard's ~1.0 pip built-in spread happens at roughly one standard lot of volume; below that Standard is cheaper, above it Razor wins. The site also runs a promotion of $0 fees on spot crypto until July 31 (year not specified in the source material), which is a genuine cost saver if crypto CFDs are part of the plan — verify the current status before you count on it.\n\n## What's Missing From the Toolkit\n\nPepperstone's own site is honest that this is a broker, not a full trading suite. The gaps that matter:\n\nNo built-in journaling. If you want a trade journal, you're exporting to Edgewonk, TradersSync or a spreadsheet. No native performance analytics beyond what MT4/MT5/cTrader provide, which is thin. No AI analysis features. Research and education exist (guides, market analyst insights, an earnings-season content push) but they are not on the level of a Schwab or IG in depth or breadth.\n\nThis is a deliberate positioning. Pepperstone competes on execution quality and cost, not on being your one-stop trading environment. If you already have your analysis stack and just need cheap fast execution, that trade-off is fine. If you're starting from zero and want everything under one roof, you'll be assembling tools around it.\n\n## The Pro Account Question\n\nThe homepage prominently invites eligible traders to \"check your eligibility\" for Pepperstone Pro. This unlocks higher leverage and \"exclusive features,\" but the source material does not spell out the exact leverage caps, qualifying criteria (typically portfolio size, trading experience and volume history in this class of program), or which regulator's jurisdiction applies to which offer. This is worth asking support directly before assuming you qualify or that Pro pricing meaningfully changes your economics. Do not assume the standard European ESMA leverage caps apply globally — they don't, but the exact tiers by region are not in the material provided.\n\n## Who This Broker Is Genuinely Right For\n\nPepperstone is built for one buyer above all: the active forex trader who cares about spread and execution cost more than about ecosystem features. Scalpers benefit most, because on a 5-pip target trade, a 0.2 pip saving is 4% of the take. Algorithmic traders running EAs on MT4 or MT5 get the fill rate and the cTrader depth-of-market data that strategies actually need. Traders comfortable trading CFDs across asset classes — using forex as the base and adding indices, gold or crypto exposure tactically — get a single account with reasonable pricing across the board.\n\nBuy-and-hold investors, US residents, and beginners who want a heavily guided experience with deep educational scaffolding should look elsewhere. IC Markets is the closest direct competitor and worth comparing side-by-side on your specific pairs. OANDA is a reasonable alternative for smaller accounts and US access. eToro sits in a completely different category (social/copy trading, actual share ownership on some markets) and is the answer for a different question entirely.\n\n## The Honest Summary of What You're Buying\n\nPepperstone is a well-run, multi-regulated Australian broker with 15+ years of history, real scale, and pricing that holds up against any ECN competitor. The trade-offs are clear and consistent: CFDs only, no US clients, thin native analytics, and a platform buffet that expects you to know which tool fits your workflow. The homepage marketing (Aston Martin F1 sponsorship, award badges, big volume numbers) is normal broker positioning and doesn't change the underlying product one way or the other.\n\nIf you know what account type you want, which platform you'll live in, and you accept the CFD structure, Pepperstone delivers on the core promise. If any of those three are unresolved, resolve them before you fund — not after.",
   "logo_url": "/logos/pepperstone.svg",
   "screenshots": [],
   "website_url": "https://pepperstone.com",
@@ -75,15 +75,18 @@
     "commodities"
   ],
   "pros": [
-    "Ultra-tight raw spreads from 0.0 pips",
-    "Fast execution speeds ideal for scalpers",
-    "Supports MT4, MT5, cTrader, and TradingView",
-    "Multi-regulated with strong client protection"
+    "Razor account offers raw spreads from 0.0 pips with $3.50/side/lot commission",
+    "Zero minimum deposit on both Standard and Razor accounts",
+    "Supports MT4, MT5, cTrader and TradingView on the same account",
+    "Claimed 99.32% fill rate with no dealer intervention on execution",
+    "Deep Tier 1 bank liquidity across 1,200+ instruments",
+    "15+ years operating history and multi-regulated across jurisdictions"
   ],
   "cons": [
-    "CFD trading only, no physical shares",
-    "Not available to US residents",
-    "Research and education not as deep as larger brokers"
+    "CFD-only — no actual share, ETF or crypto ownership",
+    "Not available to US residents at all",
+    "No native trade journaling or performance analytics",
+    "Research and education thinner than at larger full-service brokers"
   ],
   "rating": 4.5,
   "rating_breakdown": {
@@ -97,25 +100,40 @@
   "company": "Pepperstone Group Ltd.",
   "headquarters": "Melbourne, Australia",
   "best_for": [
-    "forex scalpers",
-    "algorithmic traders",
-    "active forex traders"
+    "Active forex scalpers sensitive to spread cost",
+    "Algorithmic traders running EAs on MT4 or MT5",
+    "cTrader users who want real depth-of-market data",
+    "Multi-asset CFD traders wanting one account for FX, indices and commodities",
+    "Non-US traders comfortable with the CFD structure"
   ],
   "similar_tools": [
     "ic-markets",
     "oanda",
     "etoro"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
   "scraped_features": [
-    "0.0 pips spreads on Margin FX",
-    "0.1 pips spreads on gold CFDs",
-    "99.59% fill rate with no dealer intervention",
-    "Deep liquidity from multiple Tier 1 banks",
-    "1350+ tradable instruments as CFDs",
-    "Australia-based local support team",
-    "$0 commission on gold CFDs"
+    "Razor account with raw spreads from 0.0 pips",
+    "Standard account with commission-free trading from 1.0 pip",
+    "$3.50 per side per lot commission on Razor",
+    "Zero minimum deposit",
+    "MT4, MT5, cTrader and TradingView platform support",
+    "1,200+ tradeable instruments across asset classes",
+    "Margin FX, commodities, indices, 24hr share CFDs, crypto and perpetuals",
+    "99.32% claimed fill rate with no dealer intervention",
+    "Tier 1 bank liquidity feeds",
+    "Live spread display by market category on the site",
+    "Spot crypto $0 fees promotion (limited-time)",
+    "Gold (XAU/USD) spreads from 0.1 on Razor",
+    "24/5 US share CFDs during earnings season",
+    "Pepperstone Pro account tier with higher leverage for eligible traders",
+    "24-hour support Monday through Friday plus 18 hours on weekends",
+    "12 global offices",
+    "Automated trading and EA support",
+    "API access for algorithmic strategies",
+    "Custom indicators via MT4/MT5/cTrader",
+    "Market analyst insights and educational guides"
   ],
   "integrations": [
     "MetaTrader 4",
@@ -139,7 +157,15 @@
       "url": "https://www.trustpilot.com/review/pepperstone.com"
     }
   ],
-  "enriched_at": "2026-03-29",
-  "meta_title": "Pepperstone Review 2026",
-  "meta_description": "Award-winning ECN forex broker with razor-thin spreads from 0.0 pips, fast execution, and MT4/MT5/cTrader support."
+  "enriched_at": "2026-07-18",
+  "meta_title": "Pepperstone Review 2026: Razor vs Standard, Real Costs",
+  "meta_description": "Honest 2026 Pepperstone review: Razor vs Standard account math, platform trade-offs, CFD-only limits, and who this ECN forex broker actually fits.",
+  "company_background": "Pepperstone Group Ltd. is an Australian ECN forex and CFD broker founded in 2010 and headquartered in Melbourne, with 12 global offices. The company reports 900K+ traders, roughly A$947B in monthly trading volume and A$133M withdrawn monthly, and is multi-regulated across several jurisdictions (US residents excluded).",
+  "social_links": {
+    "twitter": "https://x.com/PepperstoneFX",
+    "linkedin": "https://www.linkedin.com/company/pepperstone",
+    "youtube": "https://www.youtube.com/@Pepperstone",
+    "facebook": "https://www.facebook.com/Pepperstoneau",
+    "instagram": "https://www.instagram.com/pepperstone_au"
+  }
 }

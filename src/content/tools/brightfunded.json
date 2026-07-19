@@ -8,7 +8,7 @@
     "cfd-trading"
   ],
   "description_short": "Netherlands-based prop firm founded in 2023 offering 2-step funded challenges with 80–100% profit splits, ~4-hour payouts, and a unique Trade2Earn loyalty program.",
-  "description_long": "BrightFunded is a rapidly growing proprietary trading firm headquartered in Amsterdam, Netherlands, and operated by Bright Global FZCO. Since launching in 2023, the firm has onboarded over 10,000 funded traders across 168 countries and distributed more than $8.2 million in payouts. Their straightforward 2-step evaluation model offers account sizes from $5,000 up to $200,000, with a maximum total allocation of $400,000 per trader.\n\nThe challenge structure requires traders to hit an 8% profit target in Phase 1 and a 5% target in Phase 2, while respecting a 5% daily loss limit and 10% maximum drawdown across both phases. A minimum of 5 trading days per phase applies by default, though this and other parameters can be modified through paid add-ons — including weekly payouts, a 90% profit split upgrade, and full challenge fee refunds. Challenge fees start at $55 for a $5,000 account and scale to $297 for a $200,000 account, all of which are refundable upon passing.\n\nBrightFunded supports trading on cTrader, DXtrade, and MetaTrader 5 — all available on desktop, web, and mobile. Automated trading via Expert Advisors is fully supported on MT5 and cTrader. One standout feature is the Trade2Earn loyalty program, which awards tokens on every trade (including losses) redeemable for free challenges, profit split boosts, and other perks. Payouts average around 4 hours and are guaranteed within 24 hours.\n\nThe platform covers 150+ CFD instruments across forex (49 pairs), crypto (40+ assets), indices, and commodities. Profit splits begin at 80% and can scale to 100% through the unlimited scaling plan, with account sizes growing every few months without restrictions. The affiliate program offers 10–15% tiered commissions paid in USDC or bank transfer.",
+  "description_long": "## Prop firm math you're signing up for\n\nBrightFunded is a 2023-founded Dutch prop firm that sells 2-step evaluation challenges starting at $55 for a simulated $5,000 account. If you pass, you trade a funded account with an 80% base profit split (extendable to 100% via add-ons), and payouts land in your bank within roughly four hours, with a 24-hour maximum. That's the core value proposition, and everything below either reinforces or complicates it.\n\nThe decision comes down to three things: whether an 8% Phase 1 target and 5% Phase 2 target fit your trading style, whether the CFD-only market coverage is enough, and whether you're comfortable handing evaluation money to a firm that's only been operating since 2023. If any of those triggers a no, the answer is probably a more established competitor in the prop-firms category. If none do, BrightFunded's payout speed and Trade2Earn loyalty layer are genuinely differentiating.\n\n## What Trade2Earn actually adds to the equation\n\nMost prop firms compete on profit splits, drawdown flexibility, and fee refunds. BrightFunded adds a fourth axis: a loyalty program called Trade2Earn that credits redeemable tokens for every trade you take, regardless of whether it's a winner. Tokens can be exchanged for account upgrades, discounts, or scaling benefits.\n\nWhether that's meaningful depends on your volume. A trader placing 30 to 40 trades a month during evaluation and funded stages will accumulate materially faster than a swing trader placing five. If you're a scalper or day trader, Trade2Earn is a real cost offset over time. If you hold positions for days at a time, it's more marketing than benefit — you'll rarely accumulate enough tokens to matter. Treat it as an incremental perk for high-frequency accounts, not a headline reason to choose the firm.\n\n## The three-platform question and its algorithmic implications\n\nBrightFunded supports cTrader, DXtrade, and MT5. That's wider platform selection than most 2023-era prop firms, and it matters for two reasons. First, if you already run EAs on MT5 or have cBots built for cTrader, you can move your existing infrastructure over without rewriting anything. Second, DXtrade is the platform of choice for a subset of forex traders who dislike MT5's execution model, and its inclusion signals the firm is willing to spend on broker connectivity rather than defaulting to one MetaTrader flavor.\n\nAutomated trading is allowed, and the platform choice supports it. What's missing is direct API access — algorithmic trading has to run through the EA or cBot framework of the chosen platform. If you've built a Python or Node-based system that expects raw REST or FIX connectivity, you'll need to either port it into MQL5/C# or run a bridge. That's a real friction point BrightFunded doesn't solve, and it's the biggest reason a serious quant will stay on a broker with direct programmatic access rather than a prop challenge.\n\n## Where BrightFunded's youth shows\n\nThe firm was founded in 2023 and is operated by Bright Global FZCO out of Amsterdam. That's a shorter track record than FTMO, The5ers, or Topstep, and the difference matters more than marketing suggests. Prop firms fail routinely — the space has seen multiple high-profile collapses when payout obligations outpaced fee revenue. A firm that has survived one full market cycle has been stress-tested; a firm founded in 2023 has only operated during a specific mix of conditions.\n\nBrightFunded's site claims 27,500+ active traders across 120+ countries and displays paid-rewards counters on its landing page, which suggests real scale. But scale alone doesn't equal durability. If you're placing meaningful capital-at-risk through evaluation fees, the age question is worth weighting. The mitigation is straightforward: don't stack multiple large accounts before you've cycled at least one payout through the firm successfully. Prove the mechanics with a smaller account first, then scale. That advice applies to any newer prop firm, but it applies with particular force here because BrightFunded is competing on payout speed — a claim that's only credible if you've verified it end-to-end with your own withdrawal.\n\n## The CFD ceiling nobody advertises\n\nBrightFunded is a CFD prop firm. You can trade forex, crypto, indices, and commodities — nothing else. No futures, no equities, no options. If your edge is in ES or NQ futures, Topstep or Apex Trader Funding are the reference firms, not this one. If you trade individual stocks or options-based strategies, no prop firm in this bracket serves you well; you're in a different category entirely.\n\nThis ceiling isn't a defect, it's a positioning choice. But it's the fastest way to disqualify BrightFunded for a large chunk of retail traders. Check what you actually trade before you buy an evaluation. It's also worth noting there's no dedicated standalone mobile app — mobile trading runs through the third-party apps for cTrader, DXtrade, or MT5. Fine for most, worth knowing before you commit.\n\n## Cost breakdown and refund mechanics\n\nThe published price ladder starts at $55 for the $5,000 account and climbs to $297 for the $200,000 account. The $10K sits at $95, the $25K at $195. A $200K account with a total allocation ceiling of $400K is the firm's top tier. All evaluation fees are refundable on the first payout, which is standard for the space but worth confirming — the refund is the mechanism that makes challenge fees a bounded cost rather than a sunk one.\n\nRules across tiers: 8% Phase 1 profit target, 5% Phase 2 target, 5% daily loss limit, 10% maximum drawdown, minimum 5 trading days per phase. That's a middle-of-the-road difficulty setting. The add-on system is where BrightFunded gets flexible: for extra fee you can lift the profit split toward 100%, adjust payout frequency to weekly, or relax specific trading rules. That's genuinely useful for traders who know their weaknesses, and genuinely a way to pay more for the same simulated capital if you're not disciplined about which add-ons you actually need. Buy the base account first, run it, then decide if the add-ons pay for themselves.\n\n## Who fits, and who should look elsewhere\n\nBrightFunded fits forex and crypto CFD traders who want fast payouts, algorithmic traders running EAs on MT5 or cTrader, and higher-volume traders who'll accumulate Trade2Earn tokens fast enough for the loyalty layer to matter. It also fits traders who value platform choice and are comfortable with a firm that hasn't yet been through a full market cycle.\n\nIt doesn't fit futures traders (use Topstep, Apex, or My Funded Futures instead), traders who need raw API or FIX access for a custom stack, or capital-preservation-focused traders who want the oldest and most balance-sheet-tested prop firm they can find — FTMO remains the reference point there. It also doesn't fit anyone allergic to news restrictions, which the firm enforces on a 5-minute window and which will disqualify certain news-scalping strategies outright.\n\nFor most of the decision, the alternatives worth pricing against are FTMO, The5ers, and Funded Trader on the CFD side, and Topstep for the futures side if that's actually your market. BrightFunded's edge is speed of payout, platform breadth, and the Trade2Earn layer — if those three don't move the needle for you, an older firm probably serves you better.",
   "logo_url": "/logos/brightfunded.svg",
   "screenshots": [],
   "website_url": "https://brightfunded.com",
@@ -104,17 +104,19 @@
     "commodities"
   ],
   "pros": [
-    "Ultra-fast payouts averaging ~4 hours, guaranteed within 24 hours",
-    "Unique Trade2Earn loyalty program rewards every trade with redeemable tokens",
-    "Three platform choices: cTrader, DXtrade, and MT5 with full EA support",
-    "Flexible add-ons let traders customize payout frequency, profit split, and trading rules",
-    "Competitive challenge fees with full refund on passing"
+    "Payouts average around 4 hours with a 24-hour guaranteed maximum",
+    "Trade2Earn loyalty program rewards every trade with redeemable tokens",
+    "Three platform options: cTrader, DXtrade, and MT5 with full EA and cBot support",
+    "Add-on system lets traders lift profit split toward 100% and switch to weekly payouts",
+    "Evaluation fees refundable on first payout across all account tiers",
+    "$5K account entry at $55 keeps first-challenge risk contained"
   ],
   "cons": [
-    "Founded in 2023 — limited long-term track record compared to established firms",
-    "No dedicated standalone app; mobile trading requires third-party platform apps",
-    "CFD-only — no futures, stocks, or options markets available",
-    "API access not available; algorithmic trading limited to EA-based platforms"
+    "Founded in 2023 — no track record through a full prop-firm market cycle",
+    "CFD-only coverage means no futures, stocks, or options markets",
+    "No native mobile app — trading on phone runs through third-party platform apps",
+    "No direct API or FIX access — algorithmic trading limited to EA and cBot frameworks",
+    "5-minute news restriction disqualifies certain news-scalping strategies"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -128,10 +130,11 @@
   "company": "Bright Global FZCO",
   "headquarters": "Amsterdam, North Holland, Netherlands",
   "best_for": [
-    "forex and crypto CFD traders",
-    "algorithmic and EA traders",
-    "traders seeking fast payouts",
-    "loyalty-driven traders"
+    "Forex and crypto CFD traders wanting fast withdrawals",
+    "EA and cBot algorithmic traders on MT5 or cTrader",
+    "High-frequency scalpers who benefit from Trade2Earn token accrual",
+    "Traders wanting flexible add-ons to customize profit split and payout cadence",
+    "Traders comfortable starting with a smaller $5K account before scaling"
   ],
   "similar_tools": [
     "ftmo",
@@ -139,8 +142,40 @@
     "funded-trader",
     "topstep"
   ],
-  "last_updated": "2026-03-16",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "BrightFunded Review 2026",
-  "meta_description": "Netherlands-based prop firm founded in 2023 offering 2-step funded challenges with 80–100% profit splits, ~4-hour payouts, and a unique Trade2Earn loyalty."
+  "meta_title": "BrightFunded Review 2026: Prop Firm Honest Breakdown",
+  "meta_description": "Honest BrightFunded review covering 2-step challenge rules, ~4-hour payouts, Trade2Earn tokens, CFD-only limits, and where FTMO or Topstep fit better.",
+  "company_background": "BrightFunded is operated by Bright Global FZCO and headquartered in Amsterdam, Netherlands. The firm launched in 2023 and reports 27,500+ active traders across 120+ countries as of its 2026 marketing. It positions itself in the CFD prop-firm category with a focus on fast payouts and a proprietary Trade2Earn loyalty layer.",
+  "scraped_features": [
+    "2-step evaluation challenge model",
+    "1-step Faster option available",
+    "Bright 2-Step and Classic 2-Step variants",
+    "$5K to $200K account sizes with up to $400K total allocation",
+    "8% Phase 1 profit target",
+    "5% Phase 2 profit target",
+    "5% daily loss limit",
+    "10% maximum drawdown",
+    "Minimum 5 trading days per phase",
+    "80% to 100% profit split via add-ons",
+    "~4-hour average payout, 24-hour guaranteed maximum",
+    "Weekly payout option available",
+    "15% Evaluation Profit Reward",
+    "Trade2Earn loyalty token program",
+    "cTrader, DXtrade, and MT5 platform choices",
+    "EA and cBot support for automated trading",
+    "5-minute news trading restriction",
+    "Forex, crypto, indices, and commodities CFD markets",
+    "Evaluation fee refundable on first payout",
+    "27,500+ active traders across 120+ countries"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/BrightFunded",
+    "youtube": "https://www.youtube.com/@BrightFunded",
+    "facebook": "https://www.facebook.com/BrightFunded",
+    "instagram": "https://www.instagram.com/brightfunded",
+    "discord": "https://discord.com/invite/fKzFHQKD4s",
+    "tiktok": "https://www.tiktok.com/@brightfunded.com"
+  },
+  "enriched_at": "2026-07-18"
 }

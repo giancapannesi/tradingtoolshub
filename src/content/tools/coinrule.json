@@ -8,7 +8,7 @@
     "rule-based-trading"
   ],
   "description_short": "No-code crypto and stock trading bot with 350+ strategy templates, AI-trained models, and support for 30+ exchanges — built for traders who don't code.",
-  "description_long": "Coinrule is a no-code automated trading platform founded in London in 2018 and backed by Y Combinator. It lets traders build rule-based strategies using a visual \"if-this-then-that\" interface without writing a single line of code. With over 350 pre-built strategy templates and AI models trained on 1.7 million live user strategies, Coinrule significantly lowers the barrier to algorithmic trading for retail users of all skill levels.\n\nThe platform supports 30+ centralized cryptocurrency exchanges including Binance, Coinbase, Kraken, OKX, Bybit, KuCoin, and Hyperliquid, as well as on-chain trading on Base, Arbitrum, and Binance Smart Chain. As of February 2026, Coinrule expanded into stocks and ETFs via broker integrations with Alpaca, E*TRADE, Trading 212, and Webull — making it one of the few bots bridging crypto and traditional equities in a single interface.\n\nSecurity is handled responsibly: exchange connections use API keys scoped to read and trade only (no withdrawal permissions), and all keys are encrypted per user. TradingView webhook integration allows traders to trigger Coinrule rules from TradingView alerts, enabling signal-based automation without a public API. A full mobile app for iOS and Android includes push notifications, an emergency stop button accessible from the lock screen, and biometric security.\n\nPricing spans from a free Starter plan (2 live rules, 1 exchange, $3K monthly volume) to a $449.99/mo Pro plan with a dedicated server and $5M monthly volume cap. The Trader plan at $59.99/mo is the sweet spot for active users and includes unlimited templates, 3 exchanges, and a 1-on-1 training session. All paid plans come with a 14-day money-back guarantee.",
+  "description_long": "## What Coinrule Is and Who Makes It\n\nCoinrule is a no-code automated trading bot platform that lets traders build, deploy, and manage algorithmic strategies across crypto exchanges, stock brokers, and onchain protocols without writing a single line of code. Founded in 2018 and headquartered in London, UK, Coinrule Ltd. was built around a simple thesis: retail traders shouldn't need Python skills to automate their trading logic.\n\nThe company has grown into one of the more recognizable names in the crypto trading bot space, sitting alongside competitors like 3Commas, Cryptohopper, and Pionex. What separates Coinrule from the pack is its aggressive push into AI-driven strategy generation and its recent expansion beyond crypto into stocks and ETFs via broker integrations with Trading 212, Webull, E*Trade, Public, and Alpaca. The platform also runs natively onchain across Base, Arbitrum, Ethereum, and Hyperliquid, which is a genuinely differentiated position in a crowded field.\n\n## Core Features and What Makes It Unique\n\nAt its core, Coinrule is a visual rule builder. You define \"if this, then that\" logic — if BTC drops 5% in an hour, buy $500 worth; if RSI crosses 70, take 25% profit — and the platform executes those rules 24/7 against your connected exchange or broker account. The interface is drag-and-drop, and the learning curve is gentler than any coding-based competitor.\n\nCoinrule ships with **350+ pre-built strategy templates**, which is one of the largest libraries in the industry. These cover trend-following, mean reversion, DCA, grid trading, breakout strategies, and more. For beginners who don't know where to start, this template library is genuinely useful — you can clone a template, tweak the parameters, and go live in minutes.\n\nThe AI angle is where Coinrule has been investing heavily. Their AI models are trained on **1.7 million+ live strategies** run on the platform, and they now offer an MCP (Model Context Protocol) integration that lets you control Coinrule bots through ChatGPT, Claude, Gemini, or Grok. This is one of the first real implementations of AI-agentic trading I've seen from a mainstream retail platform, and it's a meaningful step forward if you're already living inside an LLM workflow.\n\nOther standout features include a full mobile app with biometric security and an emergency stop button, support for 30+ exchanges, paper trading via demo mode, and TradingView webhook integration for external signal execution.\n\n## Pricing Breakdown\n\nCoinrule's pricing structure is aggressive at the top end and stingy at the bottom.\n\n**Starter (Free):** 2 live rules, 2 demo rules, 7 strategy templates, 1 exchange connection, and a $3,000/month trading volume cap. This is a taste, not a usable free tier.\n\n**Hobbyist ($29.99/month or $359.88/year):** 7 live rules, 7 demo rules, 40+ templates, 2 exchange connections, and a 14-day money-back guarantee.\n\n**Trader ($59.99/month or $719.88/year):** 15 live rules, 15 demo rules, unlimited templates, 3 exchanges, $1M/month volume cap, and a 1-on-1 training session.\n\n**Pro ($449.99/month or $5,399.88/year):** 50 live rules, 50 demo rules, unlimited exchanges, $5M/month volume, and dedicated server infrastructure.\n\nThe jump from Trader to Pro is a $390/month cliff with no intermediate tier, which feels designed to funnel prosumer traders into an enterprise price point they don't actually need. Check their website for current pricing since Coinrule occasionally runs promotional discounts.\n\n## Honest Pros\n\n**The no-code builder actually works.** Unlike some competitors where \"no-code\" means \"low-code with a graphical wrapper around Python,\" Coinrule's rule builder is genuinely accessible to non-technical users. If you can use a spreadsheet, you can build a Coinrule strategy.\n\n**The template library is massive.** 350+ strategies isn't marketing fluff — it's a real catalog covering most standard trading approaches, and each template can be forked and customized.\n\n**Multi-asset coverage is unusually broad.** Coinrule supports crypto exchanges, US stock brokers, ETFs, and onchain DEX trading in a single platform. Most bot platforms pick a lane; Coinrule is trying to be a universal automation layer.\n\n**AI/MCP integration is ahead of the curve.** The ability to spin up and manage bots through Claude or ChatGPT is a real advantage if you're already building AI-driven workflows.\n\n**Security posture is solid.** Military-grade encryption, biometric mobile login, emergency stop functionality, and API keys with withdrawal permissions disabled by default.\n\n## Honest Cons\n\n**No historical backtesting.** This is the biggest weakness. Coinrule's \"demo mode\" runs strategies against live market data going forward — it does not let you backtest a strategy against historical data to see how it would have performed last year. For a platform whose entire value proposition is strategy automation, this is a serious gap. Competitors like 3Commas and Cryptohopper both offer historical backtesting.\n\n**The Pro plan is priced for institutions, not retail.** $449.99/month is $5,400/year for functionality most active retail traders can get elsewhere for $50-100/month. The pricing signals that Coinrule sees serious traders as a milking opportunity rather than a core audience.\n\n**The free tier is barely functional.** 2 live rules and a $3,000/month volume cap means you can't meaningfully evaluate the platform on the free plan. You'll hit the ceiling within a few trades.\n\n**No public API.** If you want programmatic control outside of TradingView webhooks, you're out of luck. This eliminates Coinrule for any trader who wants to integrate it into a broader custom stack.\n\n**No trade journaling or performance analytics beyond basics.** If you want deep post-trade analysis, you'll need a separate tool like Edgewonk or TradeZella.\n\n## Who Should Use Coinrule (and Who Shouldn't)\n\n**Coinrule is a good fit for:** Non-technical crypto traders who want to automate simple strategies, beginners who want a template library to learn from, active TradingView users who want webhook-driven execution, and multi-asset traders who want one platform for crypto + stocks + onchain.\n\n**Coinrule is a bad fit for:** Traders who rely on historical backtesting (use 3Commas or Cryptohopper instead), developers who want API access, budget-conscious traders (the pricing tiers are punishing), and anyone running high-frequency strategies where dedicated infrastructure matters.\n\n## How Coinrule Compares to 3Commas and Cryptohopper\n\n**vs. 3Commas:** 3Commas is more mature, has historical backtesting, and offers more sophisticated features like SmartTrade terminal and DCA bots. But 3Commas is harder to learn, and its UI feels dated. Coinrule wins on ease of use and template variety; 3Commas wins on depth and backtesting.\n\n**vs. Cryptohopper:** Cryptohopper has a strategy marketplace where you can subscribe to signals from other traders — Coinrule doesn't have this social layer. Cryptohopper also offers backtesting. But Coinrule's template library is larger, and its multi-asset support (stocks + onchain) is broader than Cryptohopper's crypto-only focus.\n\nIf backtesting is non-negotiable, skip Coinrule. If ease of use and template variety matter more, Coinrule is the better choice.\n\n## The Bottom Line\n\nCoinrule is a well-designed no-code trading bot platform that genuinely delivers on its accessibility promise. The 350+ template library, mobile app, AI/MCP integration, and multi-asset support are real strengths that justify a serious look — especially if you're a crypto trader who wants to start automating without learning Python.\n\nBut the missing historical backtesting is a real problem, the pricing gap between Trader and Pro is exploitative, and the free tier is too restrictive to serve as a genuine evaluation. If you're comfortable working around those limitations, Coinrule is one of the more user-friendly options in the trading bot category. If backtesting or API access are dealbreakers, look elsewhere. Rated 4.1/5 — solid platform with real gaps that keep it from being a top pick.",
   "logo_url": "/logos/coinrule.svg",
   "screenshots": [],
   "website_url": "https://coinrule.com",
@@ -98,17 +98,19 @@
     "etfs"
   ],
   "pros": [
-    "No-code visual rule builder makes automation accessible without any programming skills",
-    "350+ pre-built strategy templates covering diverse market conditions and asset types",
-    "Supports 30+ crypto exchanges plus stocks and ETFs via multiple broker integrations",
-    "AI models trained on 1.7M+ live strategies provide data-driven starting points",
-    "Full mobile app with emergency stop, push notifications, and biometric security"
+    "No-code visual rule builder is genuinely usable by non-technical traders",
+    "350+ pre-built strategy templates covering most common trading approaches",
+    "Multi-asset support spans crypto, stocks, ETFs, and onchain DEX trading",
+    "AI/MCP integration with ChatGPT, Claude, and Gemini is ahead of competitors",
+    "Full mobile app with biometric login and emergency stop functionality",
+    "Supports 30+ crypto exchanges plus 5 major stock brokers in one platform"
   ],
   "cons": [
-    "Pro plan at $449.99/mo is prohibitively expensive for most retail traders",
-    "Free tier is severely limited with only 2 rules and a $3K monthly volume cap",
-    "No historical backtesting — demo mode uses real market data only, not historical data",
-    "No public API; programmatic control is only possible via TradingView webhooks"
+    "No historical backtesting — demo mode only runs forward on live data",
+    "Pro plan at $449.99/month is priced for institutions, not retail traders",
+    "Free tier ($3K/mo volume, 2 rules) is too restrictive to evaluate the platform",
+    "No public API — programmatic control only via TradingView webhooks",
+    "$390/month gap between Trader and Pro tiers with nothing in between"
   ],
   "rating": 4.1,
   "rating_breakdown": {
@@ -122,10 +124,11 @@
   "company": "Coinrule Ltd.",
   "headquarters": "London, UK",
   "best_for": [
-    "non-technical crypto traders",
-    "beginners learning automated trading",
-    "TradingView signal users",
-    "active traders managing crypto and stocks"
+    "Non-technical crypto traders automating simple strategies",
+    "Beginners learning algorithmic trading through templates",
+    "TradingView users needing webhook-driven execution",
+    "Multi-asset traders combining crypto, stocks, and onchain",
+    "AI-first traders using LLMs to manage bot workflows"
   ],
   "similar_tools": [
     "3commas",
@@ -133,8 +136,37 @@
     "pionex",
     "bitsgap"
   ],
-  "last_updated": "2026-03-19",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Coinrule Review 2026",
-  "meta_description": "No-code crypto and stock trading bot with 350+ strategy templates, AI-trained models, and support for 30+ exchanges — built for traders who don't code."
+  "meta_title": "Coinrule Review 2026: Honest Look at the No-Code Bot",
+  "meta_description": "Coinrule review 2026: 350+ templates, AI/MCP integration, and 30+ exchanges — but no historical backtesting and steep Pro pricing. Honest breakdown inside.",
+  "company_background": "Coinrule Ltd. is a London-based fintech founded in 2018 that builds no-code automated trading bots for crypto, stocks, and ETFs. The platform has grown to support 30+ exchanges and brokers, with over 1.7 million live strategies run through its rule engine.",
+  "scraped_features": [
+    "No-code visual rule builder",
+    "350+ pre-built strategy templates",
+    "Support for 30+ crypto exchanges (Binance, Coinbase, Kraken, KuCoin, OKX, Bybit, Bitget)",
+    "Onchain trading via Base, Arbitrum, Ethereum, Hyperliquid",
+    "Stock and ETF trading via Trading 212, E*Trade, Webull, Public, Alpaca",
+    "AI models trained on 1.7M+ live strategies",
+    "MCP integration for ChatGPT, Claude, Gemini, Grok",
+    "Demo/paper trading mode",
+    "Mobile app with biometric security",
+    "Emergency stop button",
+    "Push notifications and alerts",
+    "TradingView webhook integration",
+    "Technical indicator triggers (RSI, MACD, moving averages)",
+    "Time-based trading logic",
+    "Multi-level trading bots",
+    "Dedicated server infrastructure (Pro plan)",
+    "1-on-1 training session (Trader plan)",
+    "14-day money-back guarantee",
+    "Military-grade encryption",
+    "24/7 automated execution"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/coinrulehq",
+    "facebook": "https://www.facebook.com/coinrulehq",
+    "instagram": "https://www.instagram.com/coinrulehq"
+  },
+  "enriched_at": "2026-07-17"
 }

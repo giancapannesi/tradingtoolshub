@@ -7,7 +7,7 @@
     "retirement"
   ],
   "description_short": "Full-service brokerage with commission-free trading, ThinkorSwim platform, and comprehensive wealth management services.",
-  "description_long": "Charles Schwab is one of the largest and most trusted brokerages in the United States, now even larger after acquiring TD Ameritrade. The firm offers commission-free stock and ETF trading, $0.65/contract options, and access to the powerful ThinkorSwim platform that came with the TD Ameritrade acquisition.\n\nSchwab excels as a one-stop shop for investors, offering brokerage accounts, IRAs, 401(k) rollovers, banking services, and financial advisory. The combination of zero-commission trading with ThinkorSwim's professional-grade tools makes it an exceptional value for both casual investors and active traders.\n\nThe firm's research offerings are among the best in the industry, with proprietary research, third-party reports from Morningstar and Credit Suisse, and a wide range of educational content for investors at all levels.",
+  "description_long": "## The TD Ameritrade Absorption Is the Story\n\nPicking Charles Schwab as your broker in 2026 is really a question about whether the TD Ameritrade integration has settled into something you want to bank your trading workflow on. The merger officially closed years ago, but the practical outcome — inheriting thinkorswim as the active-trading platform while keeping Schwab's banking, wealth management and retirement infrastructure — is what defines Charles Schwab today. That is the trade-off worth thinking through before you open an account.\n\nCharles Schwab operates in the brokers-us category as a full-service US brokerage, and the pitch is that you can hold a checking account, a Roth IRA, an active trading account using thinkorswim, and a managed advisory relationship all under one login. For the right person that consolidation is genuinely useful. For an active options or futures trader who only cares about execution and commissions, it is not automatically the right answer.\n\n## What $0 Commissions Actually Cover Here\n\nCharles Schwab's published pricing structure is $0 online commissions for US stocks and ETFs, $0.65 per contract on options, and no account minimum to open a Standard brokerage account. That is table stakes for a US broker in 2026 — Fidelity, E*TRADE and Robinhood all match the equity commission — so the number itself is not a reason to choose Schwab.\n\nWhere Charles Schwab gets more expensive is futures. The company does not publish a headline futures commission the way retail-only brokers do, and the supplied source material does not list a specific per-contract rate, so I will not invent one. What I will say is that if futures are the majority of your volume, you should price a Charles Schwab account against a dedicated futures broker before you commit — that is the specific weakness Schwab's own comparison materials do not address.\n\nMutual funds, bonds, CDs, money market funds and annuities are all available on the platform, and there are no-transaction-fee mutual fund lists that make Schwab competitive for a retirement portfolio. Cryptocurrency, however, is not offered as direct spot trading — the product menu references cryptocurrency only in the context of related investment products, not native crypto accounts. If holding actual coins in the same login as your brokerage matters to you, Charles Schwab is not the platform.\n\n## thinkorswim Is Why Active Traders Are Here\n\nThe active-trading argument for Charles Schwab is almost entirely thinkorswim. It is a professional-grade platform with charting, options analytics, backtesting, paper trading, custom indicators, alerts, and a scripting language (thinkScript) that lets you build indicators and screener conditions that other retail platforms cannot. Charles Schwab now offers it under the \"Schwab Trading Powered by Ameritrade\" branding, along with the education, support, order execution and research pages that used to live on tdameritrade.com.\n\nThe honest limitation is what thinkorswim does not do. It does not offer native automated trading — you cannot deploy a strategy to run unattended from a thinkScript file the way you can with a NinjaTrader or TradeStation setup. API access for programmatic order routing exists in a limited form through the developer portal that Schwab inherited, but it is not a first-class product, and the roadmap has been rocky since the merger. If your workflow depends on a live REST or streaming API for algo execution, verify current API availability and rate limits directly with Schwab before opening the account.\n\nThere is also no built-in trade journaling in the Charles Schwab stack. Performance analytics exist inside thinkorswim's account tab, but for tagged, screenshotted, mistake-categorized journaling you will still need TradeZella, Tradervue or Edgewonk running alongside.\n\n## Banking and Wealth Management as the Real Moat\n\nThe part of Charles Schwab that competitors have the hardest time matching is the banking layer. A Schwab Bank checking account with unlimited ATM fee rebates worldwide, a linked brokerage, credit cards, home loans, a Pledged Asset Line for margin against your portfolio, and Schwab Wealth Advisory for full-service management — that is a genuinely different offering from Interactive Brokers or a pure-play trading broker.\n\nSchwab Personalized Indexing (direct indexing for tax-loss harvesting), Schwab Investing Themes, and the Automated Investing robo-advisor round out the wealth side. If you are the kind of investor who wants a Roth IRA, a Traditional IRA, a Rollover IRA from a former employer 401(k), a taxable brokerage, and a checking account all administered by the same firm — with the option to bring in a human advisor later — Charles Schwab is one of maybe three US firms that can genuinely do all of that under one roof.\n\nWhat is not verifiable from the supplied material is exact fee schedules for Schwab Wealth Advisory or Schwab Personalized Indexing. Those tiered advisory fees vary by asset level and should be pulled from Schwab's current Client Relationship Summary before you sign anything.\n\n## Frictions From the TD Ameritrade Migration Are Real\n\nAny review of Charles Schwab in 2026 has to acknowledge that former TD Ameritrade clients went through a forced migration, and the transition was not painless. Cost-basis records, tax-lot preferences, saved thinkorswim workspaces, API tokens and account numbers all had to be reconciled. Most of the friction is now historical, but if you are a returning ex-TD client, spot-check your cost basis, verify your saved thinkorswim layouts imported cleanly, and confirm your linked bank ACH profiles carried over before you place a serious trade.\n\nNew clients coming in fresh in 2026 will not see this seam directly — the sign-up flow is a single Charles Schwab account that gives you thinkorswim access. But it does explain why some of the older review sentiment on Charles Schwab is harsher than the current product deserves.\n\n## Who Should Actually Sign Up\n\nCharles Schwab is the right primary broker if you want your trading, retirement and banking under one login and you value the thinkorswim platform for options and equity analysis. It is a defensible choice for an active options trader who does not care about crypto and does not need broker-hosted algo execution. It is arguably the best US broker for someone consolidating multiple 401(k)s into IRAs while also actively trading.\n\nIt is not the right primary broker if futures are your main product — Charles Schwab's futures pricing is not competitive with dedicated futures brokers, and the supplied source does not surface a rate that would change that conclusion. It is not the right choice if you need a real API for algorithmic trading, if you want native spot crypto, or if trade journaling has to be inside the broker rather than in a third-party tool.\n\n## Interactive Brokers, Fidelity or Charles Schwab\n\nAgainst Interactive Brokers, Charles Schwab loses on futures pricing, global market access and API depth, but wins on banking integration, US customer service and the thinkorswim platform for options traders who dislike TWS. Against Fidelity, the comparison is closer — both are strong on retirement infrastructure and $0 commissions, but Fidelity has the stronger cash management interest rate story while Charles Schwab has the stronger active-trading platform through thinkorswim. Against E*TRADE, Charles Schwab is the more complete wealth-management story; E*TRADE's Power E*TRADE is a good platform but does not match thinkorswim's depth.\n\nThe decision framework is straightforward: if you want one login for trading, retirement and banking, and thinkorswim is a plus rather than a requirement, Charles Schwab is a strong default. If any single one of those three legs is the only thing you care about, a specialist broker will usually beat Charles Schwab on that specific axis.",
   "logo_url": "/logos/charles-schwab.svg",
   "screenshots": [],
   "website_url": "https://www.schwab.com",
@@ -59,15 +59,19 @@
     "forex"
   ],
   "pros": [
-    "Commission-free trading with no account minimums",
-    "ThinkorSwim is industry-leading platform",
-    "Comprehensive research and education",
-    "Full banking and wealth management services"
+    "$0 commissions on US stocks and ETFs with no account minimum",
+    "thinkorswim platform included for options and active traders",
+    "Integrated Schwab Bank checking, credit cards and Pledged Asset Line",
+    "Full retirement account lineup: Roth, Traditional, Rollover and custodial IRAs",
+    "Schwab Personalized Indexing and Wealth Advisory available in the same login",
+    "Extensive research, education and in-person branch support"
   ],
   "cons": [
-    "Futures commissions higher than some competitors",
-    "Transition from TD Ameritrade created some friction",
-    "No cryptocurrency trading"
+    "Futures pricing is not competitive with dedicated futures brokers",
+    "No native spot cryptocurrency trading",
+    "No built-in trade journaling; requires a third-party tool",
+    "API access for algorithmic trading is limited compared to Interactive Brokers",
+    "Legacy TD Ameritrade migration friction still surfaces for some returning clients"
   ],
   "rating": 4.6,
   "rating_breakdown": {
@@ -81,17 +85,49 @@
   "company": "The Charles Schwab Corporation",
   "headquarters": "Westlake, Texas",
   "best_for": [
-    "all-in-one investors",
-    "retirement planning",
-    "active traders"
+    "All-in-one investors consolidating trading, retirement and banking",
+    "Options traders who want thinkorswim included at $0 stock commissions",
+    "Retirement planners rolling over multiple 401(k)s into IRAs",
+    "Investors wanting optional access to a human advisor later",
+    "Long-term equity and ETF investors who value branch and phone support"
   ],
   "similar_tools": [
     "interactive-brokers",
     "fidelity",
     "etrade"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Charles Schwab Review 2026: Full-service brokerage",
-  "meta_description": "Full-service brokerage with commission-free trading, ThinkorSwim platform, and comprehensive wealth management services."
+  "meta_title": "Charles Schwab Review 2026: thinkorswim, Fees, Verdict",
+  "meta_description": "Honest 2026 Charles Schwab review: $0 stock commissions, thinkorswim platform, TD Ameritrade integration, and where it loses to futures and crypto brokers.",
+  "company_background": "The Charles Schwab Corporation was founded in 1971 and is headquartered in Westlake, Texas. It is one of the largest US brokerages and, following its acquisition of TD Ameritrade, now offers the thinkorswim trading platform alongside its own brokerage, banking and wealth-management services.",
+  "scraped_features": [
+    "Commission-free online US stock and ETF trades",
+    "$0.65 per contract options pricing",
+    "thinkorswim desktop, web and mobile platforms",
+    "Schwab Trading Powered by Ameritrade education hub",
+    "Paper trading via thinkorswim",
+    "Custom indicators and screeners via thinkScript",
+    "Backtesting inside thinkorswim",
+    "Price and condition-based alerts",
+    "Individual and joint brokerage accounts",
+    "Roth IRA, Traditional IRA and Rollover IRA",
+    "Education and custodial accounts",
+    "Personal Choice Retirement (PCRA) account",
+    "Small business retirement plans",
+    "Schwab Bank checking, savings and credit cards",
+    "Home loans and Pledged Asset Line margin borrowing",
+    "Schwab Personalized Indexing for direct indexing",
+    "Schwab Investing Themes thematic baskets",
+    "Automated Investing robo-advisor",
+    "Schwab Wealth Advisory human advisor service",
+    "Mutual funds, bonds, CDs, money market funds and annuities"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/charlesschwab",
+    "linkedin": "https://www.linkedin.com/company/charles-schwab",
+    "youtube": "https://www.youtube.com/channel/UCToe3dspZyw2L_JY-JmP3Mw",
+    "facebook": "https://www.facebook.com/CharlesSchwab"
+  },
+  "enriched_at": "2026-07-18"
 }

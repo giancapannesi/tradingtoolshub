@@ -8,7 +8,7 @@
     "instant-funded"
   ],
   "description_short": "Alpha Futures is a UK-based futures prop firm offering Standard, Advanced, and Zero plans with EOD trailing drawdown, 90% profit splits, and weekly payouts after five winning days.",
-  "description_long": "Alpha Futures is a London-area proprietary trading firm founded in April 2024 by George David Kohler. Operated by Alpha Futures Limited (UK Companies House #15655643) from a Harpenden, Hertfordshire office, the firm has built an unusually strong early reputation — a 4.9/5 Trustpilot rating across 2,500+ verified reviews places it ahead of most established US competitors on trader satisfaction.\n\nThe product line covers three distinct evaluation paths. The Standard plan is the entry-level option at $79/month for $50K, $159/month for $100K, or $239/month for $150K, each with a $149 one-time activation fee. Standard accounts start at a 70% profit split and scale to 90% after five approved payouts. The Advanced plan is more expensive — $139/month for $50K, $279/month for $100K, $419/month for $150K — but pays a flat 90% split from the first withdrawal with no consistency rule on the qualified phase. The Zero plan is Alpha's instant-funding product, priced at $79–$239/month with no activation fee, and skips the evaluation entirely with a 90% split.\n\nRisk management is Alpha's core pitch. The Maximum Loss Limit is calculated end-of-day on every account, trails upward at session close only, and locks at starting balance — it will never trigger intraday on a wick or news spike. That trader-friendly structure is one reason the firm polls so well on Trustpilot. Consistency rules apply during evaluation (50% on Standard/Advanced, none on Zero) and qualified traders receive bi-weekly payouts on Standard or weekly payouts on Advanced/Zero after five winning days with at least $200 profit each. Processing is 48 business hours via ACH, Wire, SWIFT, Wise, or Rise, with a $1,000 minimum and $15,000 per-request cap.\n\nSupported platforms are Tradovate, NinjaTrader, Quantower, TradingView (through Tradovate), plus Alpha's proprietary Deepchart and Deepdom order-flow tools — platform choice locks at purchase. Automated trading is a significant limitation: Expert Advisors, bots, and high-frequency strategies are prohibited across every product, which rules Alpha out for algo-focused traders. News trading is unrestricted during evaluation and on Advanced qualified accounts, but Standard and Zero qualified accounts enforce a two-minute buffer before and after high-impact events. The affiliate program pays 15% recurring commission with weekly payouts.",
+  "description_long": "## What Alpha Futures Is and Who Runs It\n\nAlpha Futures is a UK-based futures prop firm founded in 2024 and operated by Alpha Futures Limited out of Harpenden, United Kingdom. It sits in a crowded field of simulated-funding shops, but has clawed its way to a 4.9/5 Trustpilot rating across 2,500+ reviews — one of the highest trader-satisfaction scores in the category. The firm claims $70M in performance fees paid to 175,000+ Qualified Analysts across 140+ countries, making it one of the fastest-growing futures prop firms in the industry despite its recent launch.\n\nThe pitch is simple: pass a one-step evaluation, trade a simulated futures account up to $750K, and keep 90% of profits. Where Alpha Futures actually differentiates itself is in the risk structure — specifically an **end-of-day (EOD) trailing drawdown** that locks at your starting balance instead of trailing intraday wicks — and in payout mechanics that feel closer to a real trading firm than a marketing funnel.\n\n## Core Features and What Makes It Unique\n\nAlpha Futures offers three distinct product lines rather than one bloated plan matrix. **Standard** is the traditional two-step evaluation with a 70% split scaling to 90% after five payouts. **Advanced** pays 90% from day one, drops the consistency rule on the qualified phase, and allows unrestricted news trading. **Zero** is instant-funded (no evaluation) at smaller account sizes for traders who want to skip the challenge phase entirely.\n\nThe standout mechanic across all three is the EOD trailing drawdown. Most futures prop firms use intraday trailing drawdown, which means a wick against you at 2 a.m. can blow your account even if you close green. Alpha Futures only calculates drawdown at end-of-day close, and once you reach your starting balance in profit, the drawdown locks. That's a materially safer risk model for anyone trading volatile futures like NQ or CL.\n\nOther notable features: **bi-weekly payouts on Standard**, **weekly payouts on Advanced and Zero after five winning days**, a **$15,000 max performance fee per cycle** (among the largest in the industry), and same-day payout processing via ACH, Wire, SWIFT, Wise, and Rise. The 2-minute news buffer applies only to Standard and Zero qualified accounts — Advanced traders can trade news freely.\n\n## Pricing Breakdown\n\nAlpha Futures pricing runs on evaluation fees rather than pure monthly subscriptions, with a **$149 one-time activation fee** on Standard and Advanced plans once you pass the evaluation. Here are the current numbers:\n\n**Standard $50K:** $79/month evaluation, $149 activation. 70% split scaling to 90%.\n\n**Standard $100K:** $159/month evaluation, $149 activation.\n\n**Advanced $50K:** $139/month evaluation, $149 activation. 90% split from day one.\n\n**Advanced $100K:** $279/month evaluation, $149 activation.\n\n**Zero $25K:** $79/month, no activation fee, instant funded, 90% split.\n\n**Zero $50K:** $119/month, no activation fee, instant funded.\n\n**Zero $100K:** $239/month, no activation fee.\n\nZero Qualified account resets run $399 ($25K) to $499 ($50K) — steep, but the trade-off is skipping evaluation entirely. Larger $250K and $750K Alpha Prime accounts exist for scaled traders but are gated behind performance. Always check the Alpha Futures website for current pricing since prop firm promos rotate frequently.\n\n## Honest Pros — What Alpha Futures Genuinely Does Well\n\n**Trustpilot rating is real.** 4.9/5 across 2,500+ reviews is not something you fake at that volume. Payout complaints — the death knell of any prop firm — are rare in the review corpus.\n\n**EOD trailing drawdown is a serious edge.** Locking the drawdown at starting balance once you clear it means you actually get to keep your runway after your first payout. Most competitors reset the buffer the moment you withdraw. Alpha Futures does not.\n\n**Three distinct plans, not one bloated ladder.** Standard, Advanced, and Zero each solve for a different trader psychology — evaluation-first, fast-scale, or instant-funded. That's cleaner than the ten-tier menus other firms hide behind.\n\n**Payout rails and speed are legitimate.** ACH, Wire, SWIFT, Wise, and Rise cover most of the world, and same-day processing after milestone is unusually fast for the space.\n\n**Advanced plan has no consistency rule** on the qualified phase, which is the single most annoying constraint on other prop firms. If you have one green day that's 60% of your monthly PnL, you don't get punished.\n\n## Honest Cons — Real Limitations\n\n**No algorithmic trading, period.** Expert Advisors, bots, and HFT are prohibited on every Alpha Futures product. If you trade automated strategies, this firm is a hard no.\n\n**Standard plan makes you grind for the 90% split.** You get 70% until you've completed five payouts — that's realistically two to three months of consistent performance before you're on full split.\n\n**News buffer on Standard and Zero qualified.** A 2-minute buffer around scheduled news isn't crippling, but scalpers and news traders will feel it. Only Advanced escapes this.\n\n**Platform locks at purchase.** You pick your platform (Tradovate, NinjaTrader, Rithmic, etc.) when you buy and can't switch mid-account. That's a UX regression compared to firms that let you swap freely.\n\n**UK entity adds friction for some US traders.** Payout method availability and tax reporting can be more of a paperwork exercise than with US-domiciled competitors.\n\n**Zero account resets are pricey.** $399–$499 to reset a Zero Qualified account is a lot if you tilt out early. The instant-funding convenience has a real cost baked in.\n\n## Who Should Use Alpha Futures — And Who Shouldn't\n\n**Use Alpha Futures if:** you trade futures discretionarily (especially day trading NQ, ES, MNQ, CL, GC), you want EOD risk rules instead of intraday trailing, you value payout reliability over gimmick promotions, and you don't run bots. The Advanced plan in particular is one of the better propositions in the market for a serious day trader who wants 90% from day one and can trade news.\n\n**Do NOT use Alpha Futures if:** you run automated strategies (banned across every plan), you trade forex or equities primarily (this is futures-only), you need a copy-trade or MT4/MT5 workflow, or you want a firm with a longer operating track record than 2024. Alpha Futures is credible but young — if a five-year audit history matters to you, look elsewhere.\n\n## How It Compares to Topstep and Apex Trader Funding\n\n**vs. Topstep:** Topstep is the elder statesman of futures prop firms with a decade-plus track record and a more mature education stack. Alpha Futures beats Topstep on profit split (90% vs. 90% but Topstep requires you to keep the first $10K entirely), on drawdown model (EOD lock vs. Topstep's trailing that resets less favorably), and on payout speed. Topstep wins on brand trust, longevity, and its Trading Combine data feedback.\n\n**vs. Apex Trader Funding:** Apex is cheaper on promo pricing (heavy 80–90% discounts most weekends) and offers up to 20 accounts per trader. Alpha Futures has cleaner drawdown mechanics, a better-rated support experience, and a more transparent payout structure. Apex has occasionally had rule-change controversies that Alpha Futures — so far — has not. If price is everything, Apex during a promo is hard to beat. If you want rules that don't shift under you, Alpha Futures is the safer pick.\n\n## The Bottom Line\n\nAlpha Futures is one of the better futures prop firms to launch in 2024, and the Trustpilot score, EOD drawdown mechanics, and payout reliability back that up. It's not the cheapest option and it's actively hostile to algo traders, but for a discretionary futures day trader who wants a firm that treats winning days as a feature rather than a bug, Alpha Futures deserves a serious look. Start with the Advanced $50K or a Zero $25K to test the payout pipeline yourself before scaling up.",
   "logo_url": "",
   "screenshots": [],
   "website_url": "https://alpha-futures.com",
@@ -118,18 +118,19 @@
     "futures"
   ],
   "pros": [
-    "4.9/5 Trustpilot across 2,500+ reviews — among the highest trader-satisfaction scores in the industry",
-    "EOD trailing drawdown that locks at starting balance — cannot trigger intraday on a wick",
-    "Three distinct plans fit evaluation, fast-scale, and instant-funding traders",
-    "Advanced plan pays 90% from day one with no consistency rule on qualified phase",
-    "Multiple payout rails — ACH, Wire, SWIFT, Wise, Rise — processed in 48 business hours"
+    "4.9/5 Trustpilot across 2,500+ reviews — highest-rated futures prop firms",
+    "EOD trailing drawdown locks at starting balance — no intraday wick blowouts",
+    "Advanced plan pays 90% from day one with no consistency rule",
+    "Weekly payouts after 5 winning days on Advanced and Zero plans",
+    "Multiple payout rails (ACH, Wire, SWIFT, Wise, Rise) processed same-day",
+    "$15K max performance fee per cycle — among the largest in the industry"
   ],
   "cons": [
-    "Expert Advisors, bots, and HFT prohibited across every product — not for algo traders",
-    "News buffer (2 minutes) enforced on Standard and Zero qualified accounts",
+    "Expert Advisors, bots, and HFT prohibited on every product — no algo trading",
+    "2-minute news buffer enforced on Standard and Zero qualified accounts",
     "Platform choice locks at purchase — cannot switch platforms mid-account",
     "Standard plan requires 5 payouts before full 90% split unlocks",
-    "UK entity may add friction for some US traders on payout methods"
+    "Zero account resets are expensive at $399–$499 per reset"
   ],
   "rating": 4.7,
   "rating_breakdown": {
@@ -143,10 +144,11 @@
   "company": "Alpha Futures Limited",
   "headquarters": "Harpenden, United Kingdom",
   "best_for": [
-    "futures day traders who want EOD risk rules",
-    "traders prioritizing payout reliability and support quality",
-    "traders who want a 90%-from-day-one plan (Advanced)",
-    "international traders needing Wise or Rise payouts"
+    "Discretionary futures day traders who want EOD risk rules",
+    "Traders prioritizing payout reliability and 4.9/5 support quality",
+    "Traders who want 90% split from day one (Advanced plan)",
+    "International traders needing Wise or Rise payout options",
+    "Traders new to prop firms who want instant funding via Zero plan"
   ],
   "similar_tools": [
     "topstep",
@@ -154,8 +156,38 @@
     "tradeify",
     "my-funded-futures"
   ],
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Alpha Futures Review 2026",
-  "meta_description": "Alpha Futures is a UK futures prop firm with Standard, Advanced, and Zero plans — 90% split, EOD trailing drawdown, weekly payouts, 4.9/5 Trustpilot."
+  "meta_title": "Alpha Futures Review 2026: Honest Prop Firm Breakdown",
+  "meta_description": "Alpha Futures review 2026: EOD drawdown, 90% splits, $79+ pricing, weekly payouts. Honest pros and cons for futures traders vs. Topstep and Apex.",
+  "company_background": "Alpha Futures Limited is a UK-based futures prop firm founded in 2024 and headquartered in Harpenden, United Kingdom. Despite its recent launch, the firm has grown to 175,000+ Qualified Analysts across 140+ countries and paid out $70M in performance fees, backed by a 4.9/5 Trustpilot rating across 2,500+ reviews.",
+  "scraped_features": [
+    "One-step futures evaluation up to $750K simulated funds",
+    "EOD trailing drawdown locks at starting balance",
+    "70% to 90% profit split (Standard) or 90% from day one (Advanced)",
+    "Weekly payouts after 5 winning days (Advanced and Zero)",
+    "Bi-weekly payouts on Standard plan",
+    "$15,000 maximum performance fee per cycle",
+    "Same-day payout processing after milestone",
+    "Payout rails: ACH, Wire, SWIFT, Wise, Rise",
+    "2-minute news buffer on Standard and Zero qualified accounts",
+    "No consistency rule on Advanced qualified phase",
+    "Unrestricted news trading on Advanced plan",
+    "Instant funding via Zero plan (no evaluation)",
+    "$149 one-time activation fee on Standard and Advanced",
+    "Daily Loss Guard ($500–$2000 depending on account size)",
+    "Consistency Rule 40% on Zero Qualified accounts",
+    "Multiple platform support (Tradovate, NinjaTrader, Rithmic)",
+    "Alpha Prime scaling program for top performers",
+    "Maximum Loss Limit stays intact after withdrawal",
+    "Simulated trading environment (not live capital)",
+    "175,000+ Qualified Analysts across 140+ countries"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/alpha_futures_",
+    "youtube": "https://www.youtube.com/@Alpha_Futures",
+    "instagram": "https://www.instagram.com/alpha_futures",
+    "discord": "https://discord.com/invite/xk35FssWWF"
+  },
+  "enriched_at": "2026-07-17"
 }
