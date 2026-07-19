@@ -9,7 +9,7 @@
     "multi-exchange"
   ],
   "description_short": "Cloud-based crypto trading bot platform with Grid, DCA, COMBO, and LOOP bots across 25+ exchanges, unified portfolio tracking, and paper trading.",
-  "description_long": "Bitsgap is a cloud-based cryptocurrency trading automation platform founded in 2017 and headquartered in Tallinn, Estonia. With over 800,000 registered users and 6.3 million bots launched to date, it is one of the most widely adopted automated trading platforms in the crypto space. Bitsgap operates on a non-custodial model — all user funds remain on connected exchanges, and Bitsgap only accesses accounts via read/trade API keys, never withdrawals.\n\nThe platform offers one of the broadest selections of bot strategies available on a single platform. The Grid Bot profits from sideways and ranging markets by placing layered buy and sell orders at set price intervals. The DCA Bot applies dollar-cost averaging triggered by technical indicators such as RSI, MACD, and Bollinger Bands. The BTD (Buy the Dip) Bot automatically accumulates on dips and exits on recovery. For futures traders, the COMBO Bot combines grid and DCA logic, while the LOOP Bot enables two-currency position trading. Smart Orders extend native exchange functionality with Stop-Loss, Take-Profit, trailing stops, OCO, and TWAP orders — even on exchanges that don't support these natively.\n\nBitsgap connects to 25+ major cryptocurrency exchanges via API, including Binance, Coinbase, Kraken, Bybit, OKX, KuCoin, Gate.io, Bitget, and HTX. A unified dashboard displays all active bots, open positions, and portfolio performance across every connected exchange simultaneously. An AI Assistant is included on all subscription tiers to help users configure and optimize bots, and a Demo Mode (paper trading) allows risk-free strategy testing before committing real capital.\n\nThree paid plans are offered, each with a 7-day full-featured free trial requiring no credit card. The Basic plan ($29/month) suits beginners with up to 3 Grid and 10 DCA bots. Advanced ($69/month) unlocks futures bots, 180-day backtesting, and trailing features — the most popular choice. Pro ($149/month) removes trading volume limits and adds priority support for high-frequency traders and professionals.",
+  "description_long": "## What Bitsgap Actually Is\n\nBitsgap is a cloud-based crypto trading bot platform that lets you run automated strategies across 25+ centralized exchanges from a single dashboard. It sits in the same category as 3Commas, Cryptohopper, and Pionex — a non-custodial bot service where your funds stay on your exchange (Binance, Coinbase, Kraken, Bybit, OKX, etc.) and Bitsgap communicates via API keys to place orders on your behalf.\n\nThe company behind it, **Bitsgap Holding OU**, was founded in 2017 and is headquartered in Tallinn, Estonia. The founders' pitch was straightforward: instead of logging into six different exchanges to manage positions and hunt arbitrage, put everything behind one interface with programmable bots on top. Nearly a decade later, that's still the core value proposition, though the product has expanded well beyond arbitrage into Grid, DCA, BTD, COMBO, LOOP, and DCA Futures bots.\n\nRatings across review platforms are consistently in the low-to-mid 4s: Capterra 4.6, SourceForge 4.2, Slashdot 4.2, Google Reviews 4.8, with an aggregate of 4/5 across 655 Trustpilot reviews. That's decent but not spectacular — Bitsgap has a real user base but also real complaints, mostly around pricing tiers and support responsiveness.\n\n## Core Features and What Makes It Different\n\nThe headline feature is the **bot variety**. Most competitors specialize in one or two bot types; Bitsgap ships six:\n\n**GRID Bot** for sideways markets (the flagship), **DCA Bot** for volatile long/short positions, **BTD (Buy the Dip) Bot** for downtrends, **LOOP Bot** for earning in both base and quote currencies simultaneously, **DCA Futures Bot**, and the **COMBO Bot** which layers grid logic on top of DCA for leveraged futures trading. That last one is genuinely differentiated — few competitors offer a hybrid grid-on-futures product with the same polish.\n\nBeyond bots, you get a **unified trading terminal** where you can manually place orders across any connected exchange without switching tabs. The **Smart Orders** feature is legitimately useful — it adds stop-loss, take-profit, and trailing stops on exchanges that don't natively support them (many spot markets still don't offer proper trailing SL).\n\n**Backtesting** goes back 30 days on the Basic plan and 180 days on Advanced and Pro. That's short compared to a proper quant platform, but adequate for tuning a grid range or DCA interval. The **AI Assistant** analyzes your capital and risk tolerance to suggest bot configurations — useful as a starting point, though experienced traders will override its picks.\n\n**Demo mode** runs bots against live market data with paper money, which is the right way to prototype a strategy before risking capital. Portfolio tracking rolls up positions and ROI across all connected exchanges into one view, with historical data export for tax season.\n\nWhat it's missing is worth flagging: **no public API**, so you can't script custom bots or plug Bitsgap into external systems. No social/copy-trading features. No custom indicator support. This is a curated bot platform, not a programmable framework.\n\n## Pricing Breakdown\n\nBitsgap runs three subscription tiers, all monthly with yearly discounts:\n\n- **Basic — $29/month** ($276/year, ~20% off): 3 Grid bots, 10 DCA bots, 30-day backtesting, Smart Orders, AI Assistant, demo mode.\n- **Advanced — $69/month** ($636/year): 10 Grid bots, 50 DCA bots, Futures COMBO bots, LOOP Bot, 180-day backtesting, trailing features.\n- **Pro — $149/month** ($1,752/year): 20+ bots, unlimited trading volume, all bot types, priority support.\n\nThere is a **7-day free trial** with full PRO features and no credit card required, which is the honest way to run a trial. But there is **no permanent free tier** — after seven days you pay or leave. If you're comparing to Pionex (which is genuinely free but takes a cut on bot trades) or 3Commas (whose free tier is essentially useless), Bitsgap sits in the middle: honest pricing, no hidden fees, but not cheap.\n\nAt $149/month, the Pro tier is one of the pricier options in the trading bot category. A serious trader running LOOP and COMBO bots at scale will justify it; a hobbyist testing grid strategies on $500 of capital will not.\n\n## Honest Pros\n\n**The bot lineup is genuinely broad.** Six bot types covering sideways, uptrend, downtrend, and futures markets means you don't need to churn between platforms as market conditions shift.\n\n**Non-custodial architecture is a real safety win.** Your funds never leave the exchange. If Bitsgap gets hacked, the attacker gets API trading permissions (which you can and should restrict to no-withdrawal), not your coins.\n\n**Smart Orders are a real product feature**, not just marketing. Trailing stop-loss on a spot Binance position without third-party tooling is not something you can do natively.\n\n**The 7-day full-Pro trial with no card required** is the correct way to let people evaluate. Compare to competitors that require credit card capture upfront.\n\n**Multi-exchange dashboard actually works.** Managing Binance, Kraken, and OKX from one screen removes real friction, especially for portfolio rebalancing.\n\n## Honest Cons\n\n**Crypto only.** No stocks, no forex, no traditional futures. If you trade multiple asset classes, Bitsgap covers one slice.\n\n**Pricing is on the higher end.** $149/month for Pro is real money, and the Basic tier's 3-Grid-bot cap fills up quickly if you're trading multiple pairs.\n\n**No public API.** You cannot integrate Bitsgap into your own systems, run custom Python bots against its execution engine, or export live signals to TradingView. It's a walled garden.\n\n**Feature gating pushes you up tiers fast.** LOOP Bot, COMBO Bot, trailing features, and 180-day backtesting are all Advanced-and-up. Basic feels intentionally limited to force upgrades rather than serve as a real long-term plan.\n\n**Support quality varies.** Trustpilot reviews cite slow response times outside priority-support tiers, particularly around billing and API disconnection issues.\n\n## Who Should Use Bitsgap (and Who Shouldn't)\n\n**Use Bitsgap if** you're a crypto-only trader running grid or DCA strategies across multiple exchanges, you want passive automation without writing code, you want futures bots (COMBO/DCA Futures) that just work, or you're managing a portfolio spread across 3+ exchanges and want unified tracking.\n\n**Skip Bitsgap if** you trade stocks, forex, or non-crypto futures, you're a developer who wants API access and custom bot scripting, you're capital-constrained and $29/month is a meaningful cost against your trading size, or you want copy-trading and social features (look at 3Commas or eToro instead).\n\n## How It Stacks Up Against Competitors\n\n**Bitsgap vs. 3Commas:** 3Commas has a larger user base, better social/copy-trading, and its SmartTrade terminal is arguably more polished. But 3Commas suffered a 2022 API key leak that damaged trust, and its bot lineup is narrower. Bitsgap is cleaner on security posture and better on futures bots. Pricing is comparable.\n\n**Bitsgap vs. Pionex:** Pionex is free (no subscription) but takes 0.05% per trade and is essentially a broker-plus-bot combo — you deposit funds onto Pionex itself. Bitsgap is non-custodial and connects to your exchange, which is safer but costs monthly fees. Pionex wins on price and simplicity; Bitsgap wins on flexibility and asset security.\n\n**Bitsgap vs. Cryptohopper:** Cryptohopper has stronger marketplace/copy features and custom strategy support. Bitsgap has better native futures bots and a cleaner terminal. Cryptohopper is slightly cheaper on entry tiers but adds up with add-ons.\n\n## The Bottom Line\n\nBitsgap is a solid, mature crypto trading bot platform that does one thing well: multi-exchange automated bots with a clean unified interface. It's not the cheapest, it's not the most programmable, and it's crypto-only. But if you fit the target profile — a crypto trader running grid, DCA, or futures strategies who values non-custodial safety and doesn't need API scripting — it's one of the better options on the market in 2026. Take the 7-day Pro trial, run bots in demo mode first, and decide from there.",
   "logo_url": "/logos/bitsgap.svg",
   "screenshots": [],
   "website_url": "https://bitsgap.com",
@@ -95,17 +95,19 @@
     "crypto"
   ],
   "pros": [
-    "Wide variety of bot types (Grid, DCA, BTD, COMBO, LOOP) on one platform",
-    "Connects to 25+ exchanges with a unified multi-exchange dashboard",
-    "Non-custodial — funds always stay on your exchange",
-    "Smart Orders extend exchange capabilities with SL/TP and trailing stops",
-    "7-day free trial with full Pro features, no credit card required"
+    "Six bot types (Grid, DCA, BTD, LOOP, COMBO, DCA Futures) covering every market condition",
+    "Non-custodial — funds stay on your exchange, never held by Bitsgap",
+    "Smart Orders add trailing SL/TP to exchanges that don't natively support them",
+    "7-day full Pro trial with no credit card required",
+    "Unified dashboard across 25+ exchanges including Binance, Kraken, Bybit, OKX",
+    "COMBO Bot is a genuinely differentiated grid-on-futures product"
   ],
   "cons": [
-    "Crypto only — no support for stocks, forex, or traditional futures",
-    "Pricing is relatively expensive, especially the Pro tier",
-    "No native API for external integrations or custom bot scripting",
-    "Advanced and Pro features locked behind higher-tier plans"
+    "Crypto only — no stocks, forex, or traditional futures markets",
+    "Pro tier at $149/month is expensive relative to competitors",
+    "No public API for custom bots or external integration",
+    "Basic tier ($29) is heavily feature-gated to push upgrades",
+    "Support response times can lag outside priority-support tiers"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -119,10 +121,11 @@
   "company": "Bitsgap Holding OU",
   "headquarters": "Tallinn, Estonia",
   "best_for": [
-    "crypto traders automating grid and DCA strategies",
-    "multi-exchange portfolio managers",
-    "passive income through bot trading",
-    "futures traders using COMBO bots"
+    "Crypto traders running Grid or DCA strategies passively",
+    "Multi-exchange portfolio managers who want unified tracking",
+    "Futures traders using COMBO or DCA Futures bots",
+    "Traders who prefer non-custodial automation over depositing funds",
+    "Users wanting quick bot deployment without writing code"
   ],
   "similar_tools": [
     "3commas",
@@ -130,8 +133,36 @@
     "pionex",
     "coinrule"
   ],
-  "last_updated": "2026-03-19",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Bitsgap Review 2026",
-  "meta_description": "Cloud-based crypto trading bot platform with Grid, DCA, COMBO, and LOOP bots across 25+ exchanges, unified portfolio tracking, and paper trading."
+  "meta_title": "Bitsgap Review 2026: Crypto Trading Bots Honest Look",
+  "meta_description": "Honest 2026 Bitsgap review: 6 bot types across 25+ exchanges, pricing from $29-$149/mo, real pros and cons for crypto traders. No fluff.",
+  "company_background": "Bitsgap is operated by Bitsgap Holding OU, an Estonia-based fintech company founded in 2017 and headquartered in Tallinn. The company focuses exclusively on crypto trading automation and portfolio management, serving retail traders across 25+ centralized exchanges with non-custodial bot infrastructure.",
+  "scraped_features": [
+    "GRID Trading Bot for sideways markets",
+    "DCA Trading Bot for volatile long/short positions",
+    "BTD (Buy the Dip) Bot for downtrends",
+    "LOOP Bot for dual-currency earnings",
+    "DCA Futures Bot for leveraged trading",
+    "COMBO Bot combining DCA and grid on futures",
+    "Smart Orders with SL/TP and trailing stops",
+    "AI Assistant for tailored bot configuration",
+    "Demo mode with live market simulation",
+    "30 to 180-day backtesting",
+    "Unified terminal across 25+ exchanges",
+    "Portfolio tracking with ROI and 24h change",
+    "Historical data export",
+    "Non-custodial API key architecture",
+    "Technical analysis widget",
+    "Pre-made bot strategy templates",
+    "Multi-exchange arbitrage capability",
+    "Mobile app access",
+    "7-day free Pro trial",
+    "Actionable analytics dashboard"
+  ],
+  "social_links": {
+    "youtube": "https://www.youtube.com/channel/UCPi-HyNRhwgjNhGMc7j0pPQ",
+    "facebook": "https://www.facebook.com/Bitsgap"
+  },
+  "enriched_at": "2026-07-17"
 }

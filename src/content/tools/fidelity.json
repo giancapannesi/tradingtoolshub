@@ -7,7 +7,7 @@
     "retirement"
   ],
   "description_short": "Top-rated full-service brokerage with zero-commission trading, Active Trader Pro, and industry-leading research and retirement tools.",
-  "description_long": "Fidelity Investments is consistently rated as one of the best overall brokers for both active traders and long-term investors. The firm offers commission-free trading for stocks, ETFs, and options (with $0.65/contract), along with access to Active Trader Pro, a powerful desktop platform with real-time analytics and advanced charting.\n\nFidelity's research capabilities are unmatched in the retail space, with proprietary equity research, Fidelity's Equity Summary Score (combining multiple research providers), and detailed fund analysis tools. The platform also offers zero-expense-ratio index funds (FZROX, FZILX) that have no management fees whatsoever.\n\nFor retirement planning, Fidelity offers IRAs with no minimums, 401(k) rollovers, HSAs, and comprehensive financial planning tools. The combination of $0 commissions, best-in-class research, excellent customer service, and broad investment options makes Fidelity hard to beat for the average investor.",
+  "description_long": "## What Fidelity Investments Actually Is\n\nFidelity Investments is a full-service US brokerage and asset management firm founded in 1946 by Edward C. Johnson II in Boston, Massachusetts. It's one of the largest financial services companies in the world, managing trillions of dollars in customer assets and serving over 40 million individual investors. The firm remains privately held by the Johnson family, with Abigail Johnson (Edward's granddaughter) serving as Chairman and CEO since 2014.\n\nUnlike smaller broker-dealers that focus on active traders or crypto, Fidelity is a diversified financial supermarket. You can open a brokerage account, IRA, 401(k), HSA, 529 college savings plan, cash management account, and wealth advisory relationship all under one roof. This breadth is Fidelity's biggest strength — and, as we'll see, its biggest limitation for a specific subset of traders.\n\n## Core Features and Platforms\n\nFidelity gives retail investors two main platforms: **Fidelity.com** (the web trading interface) and **Active Trader Pro**, a downloadable desktop platform for more serious traders. Active Trader Pro includes real-time streaming quotes, Level II data, customizable charting with technical indicators, options analytics, and multi-leg options ticketing. It's competent — but if you're coming from ThinkorSwim or Interactive Brokers' TWS, it will feel less powerful.\n\nThe mobile app is genuinely strong. It handles stocks, ETFs, options, mutual funds, and fixed income cleanly, includes streaming quotes, and offers full account management for retirement and cash accounts. Research is where Fidelity separates itself from every competitor. You get equity reports from over 20 third-party providers including Argus, Zacks, and Ned Davis Research, plus Fidelity's own analyst coverage. That kind of research access at a $0 broker is genuinely unusual.\n\nOther standout features: fractional shares from $1 (called \"Stocks by the Slice\"), zero-expense-ratio index funds (the FZROX and FZILX lineup), a competitive cash management account with unlimited ATM fee reimbursements, and one of the highest uninvested cash sweep yields in the industry through the Fidelity Government Money Market Fund default.\n\n## Pricing Breakdown\n\nFidelity's pricing is aggressively customer-friendly:\n\n- **Stocks and ETFs:** $0 commission on online US trades\n- **Options:** $0 base commission + $0.65 per contract\n- **Mutual funds:** $0 on Fidelity funds and thousands of no-transaction-fee funds; $49.95 to buy non-NTF funds\n- **Bonds and CDs:** $1 per bond on secondary market trades (new-issue Treasuries and CDs are free)\n- **Account minimums:** $0 to open a brokerage account, IRA, or HSA\n- **Account fees:** $0 annual maintenance fees on standard accounts\n- **Margin rates:** Tiered from roughly 12.575% on small balances down to 8.5%+ on balances over $1M (check the site for current rates as they float with the Fed funds rate)\n\nThere is no premium tier or paywalled research. Everyone gets the same research tools, whether you have $500 or $5 million. Wealth management services (Fidelity Wealth Services, Private Wealth Management) carry advisory fees ranging from about 0.50% to 1.50% annually depending on account size and service level.\n\n## What Fidelity Genuinely Does Well\n\n**Research depth is unmatched at this price point.** J.D. Power has ranked Fidelity #1 for investor satisfaction with self-directed brokerages multiple times, and the research library is a big reason why. Free access to 20+ third-party research providers on a zero-commission account is not something Robinhood, Webull, or even Schwab quite matches.\n\n**Customer service is legitimately excellent.** 24/7 phone support with actual humans who know what they're talking about. Over 200 physical branches nationwide if you want to walk in. Response times on chat and phone are consistently faster than industry averages.\n\n**Zero-fee index funds save real money.** The Fidelity ZERO funds (FZROX, FZILX, FZIPX, FNILX) have literally 0.00% expense ratios. Over 30 years, saving even 0.04% annually on a large portfolio compounds into real dollars.\n\n**Cash management is best-in-class.** The default cash sweep pays money-market yields (currently around 4%+), unlike Robinhood or Schwab which sweep to low-yield bank accounts by default. That's hundreds or thousands of dollars a year in extra yield on idle cash.\n\n## Honest Cons — Real Limitations\n\n**Active Trader Pro is not ThinkorSwim.** If you're a serious options trader running complex spreads, backtesting strategies, or using advanced volatility analytics, Charles Schwab's ThinkorSwim (inherited from TD Ameritrade) is a more capable platform. Fidelity's charting and options tools are competent, not elite.\n\n**No cryptocurrency trading for standard retail accounts (mostly).** Fidelity Crypto is a separate limited product covering Bitcoin, Ethereum, and Litecoin only, and it's not available in every state. If crypto is a meaningful part of your portfolio strategy, you'll need a separate account at Coinbase, Kraken, or Robinhood.\n\n**Futures trading is limited.** Fidelity does not offer futures or futures options directly to retail. If you trade /ES, /NQ, /CL, or micro futures, you'll need Interactive Brokers, NinjaTrader, Tradovate, or a dedicated futures broker.\n\n**International access is thin.** You can trade ADRs and some foreign ordinaries, but direct access to London, Hong Kong, or Tokyo exchanges is nowhere near what Interactive Brokers offers. Fidelity is a US-centric broker.\n\n**No true automated trading or API.** There's no official public API for retail algo traders, no strategy automation, and no third-party platform integrations like TradeStation or Interactive Brokers provide. If you want to run code-based strategies, look elsewhere.\n\n## Who Should Use Fidelity — And Who Should Not\n\n**Use Fidelity if you are:** a long-term investor building a portfolio of stocks, ETFs, and index funds; someone consolidating retirement accounts (401k rollovers, Roth IRAs, HSAs); a research-driven investor who values analyst reports and screening tools; a family managing 529 plans, custodial accounts, and multi-generational wealth; someone who wants a single financial home with the option of human advisor access down the line.\n\n**Do NOT use Fidelity if you are:** an active futures trader; a serious crypto trader wanting altcoins or DeFi access; an international investor who needs direct access to global exchanges; an algorithmic trader who needs API or automation; a pure day-trader who needs ThinkorSwim-level charting and Level II depth.\n\n## How It Compares to Direct Competitors\n\nAgainst **Charles Schwab**, Fidelity generally wins on cash sweep yields (Schwab sweeps to a low-yield bank), zero-fee index funds, and customer service consistency. Schwab wins on trading platform sophistication thanks to ThinkorSwim, and on futures access. For most long-term investors, Fidelity edges Schwab; for active traders, Schwab edges Fidelity.\n\nAgainst **Interactive Brokers**, Fidelity is not close on tools, global market access, margin rates, or asset class breadth. IBKR is built for professional-grade active trading. But Fidelity crushes IBKR on user experience, customer support, retirement account features, and integrated wealth planning. The choice is philosophical: are you a trader or an investor?\n\n## The Bottom Line\n\nFidelity Investments is arguably the best all-around brokerage in the United States for long-term investors, retirement savers, and anyone who wants deep research without paying commissions. The combination of zero-fee index funds, high cash sweep yields, excellent customer service, and comprehensive account offerings is genuinely hard to beat.\n\nBut Fidelity is not a serious active-trading platform. If you trade futures, crypto beyond Bitcoin/Ethereum/Litecoin, international equities, or need API access, this is not the broker for you. Match the tool to the job: Fidelity is a portfolio-building and financial-life broker, not a day-trading terminal. For 80% of retail investors, that's exactly what they actually need.",
   "logo_url": "/logos/fidelity.svg",
   "screenshots": [],
   "website_url": "https://www.fidelity.com",
@@ -58,16 +58,19 @@
     "futures"
   ],
   "pros": [
-    "Best-in-class research and analysis tools",
-    "Zero-fee index funds with no expense ratio",
-    "Excellent customer service consistently rated #1",
-    "Comprehensive retirement and financial planning"
+    "$0 commissions on US stocks, ETFs, and no-load Fidelity mutual funds",
+    "Zero-expense-ratio index funds (FZROX, FZILX) save fees over decades",
+    "Best-in-class free research from 20+ third-party providers",
+    "Cash sweep to money-market fund yields ~4%+ vs low-yield bank sweeps at competitors",
+    "24/7 customer support with 200+ physical branches nationwide",
+    "Fractional shares from $1 across thousands of stocks and ETFs"
   ],
   "cons": [
-    "Active Trader Pro not as powerful as ThinkorSwim",
-    "No cryptocurrency trading",
-    "Futures trading options are limited",
-    "International market access is limited"
+    "Active Trader Pro is competent but weaker than Schwab's ThinkorSwim",
+    "No futures trading available to retail accounts",
+    "Crypto limited to Bitcoin, Ethereum, and Litecoin only",
+    "No public API or automated/algorithmic trading support",
+    "International market access is thin compared to Interactive Brokers"
   ],
   "rating": 4.7,
   "rating_breakdown": {
@@ -81,19 +84,54 @@
   "company": "Fidelity Investments",
   "headquarters": "Boston, Massachusetts",
   "best_for": [
-    "long-term investors",
-    "retirement planning",
-    "research-driven investors"
+    "long-term buy-and-hold investors",
+    "retirement account holders (IRA, 401k, HSA)",
+    "research-driven fundamental investors",
+    "families managing 529 plans and generational wealth",
+    "investors consolidating multiple accounts"
   ],
   "similar_tools": [
     "charles-schwab",
     "interactive-brokers",
     "etrade"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
   "alt_meta_title": "Fidelity Alternatives 2026: Cheaper & Better Brokers",
   "alt_meta_description": "Discover 30+ alternatives to Fidelity. Compare zero-commission brokers with lower fees, no account minimums, and better tools for your trading style.",
-  "meta_title": "Fidelity Investments Review 2026",
-  "meta_description": "Top-rated full-service brokerage with zero-commission trading, Active Trader Pro, and industry-leading research and retirement tools."
+  "meta_title": "Fidelity Investments Review 2026: Honest Broker Analysis",
+  "meta_description": "Honest 2026 Fidelity Investments review: zero commissions, best-in-class research, $0 index funds. Real pros, cons, and who should skip it.",
+  "company_background": "Fidelity Investments is a Boston-based financial services giant founded in 1946 by Edward C. Johnson II. Still privately owned by the Johnson family with Abigail Johnson as CEO, Fidelity manages trillions in assets across brokerage, retirement, and wealth management services for over 40 million individual investors.",
+  "scraped_features": [
+    "$0 commission US stock and ETF trades",
+    "$0.65 per contract options pricing",
+    "Zero-fee index funds (FZROX, FZILX, FZIPX, FNILX)",
+    "Active Trader Pro desktop platform",
+    "Fractional share investing from $1",
+    "Roth IRA and Traditional IRA accounts",
+    "Health Savings Account (HSA) with $0 fees",
+    "529 college savings plans",
+    "Fidelity Cash Management Account with ATM fee reimbursement",
+    "Money market cash sweep default (~4%+ yield)",
+    "Third-party research from 20+ providers",
+    "Real-time streaming quotes and Level II data",
+    "Multi-leg options ticketing",
+    "24/7 phone and chat customer support",
+    "200+ physical branch locations nationwide",
+    "Wealth Services and Private Wealth Management",
+    "Bond and CD trading ($1 per bond secondary)",
+    "Mobile app for iOS and Android",
+    "Fidelity Crypto (BTC, ETH, LTC — limited states)",
+    "No account minimums or maintenance fees"
+  ],
+  "social_links": {
+    "twitter": "https://www.twitter.com/fidelity",
+    "linkedin": "https://www.linkedin.com/company/fidelity-investments",
+    "youtube": "https://www.youtube.com/user/fidelityinvestments",
+    "facebook": "https://www.facebook.com/fidelityinvestments",
+    "instagram": "https://www.instagram.com/fidelityinvestments",
+    "reddit": "https://www.reddit.com/r/fidelityinvestments",
+    "tiktok": "https://www.tiktok.com/@fidelityinvestments"
+  },
+  "enriched_at": "2026-07-17"
 }

@@ -7,7 +7,7 @@
     "commission-free"
   ],
   "description_short": "Legacy full-service brokerage now merged with Charles Schwab, offering commission-free trading, powerful tools, and extensive research.",
-  "description_long": "TD Ameritrade was one of the largest and most respected online brokerages in the United States before its acquisition by Charles Schwab, completed in 2024. Known for its industry-leading thinkorswim platform, TD Ameritrade offered commission-free stock and ETF trades, robust options trading capabilities, extensive research and education, and a wide range of investment products.\n\nExisting TD Ameritrade accounts have been migrated to Schwab, but the legacy of TD Ameritrade lives on through the thinkorswim platform, which Schwab has adopted as its advanced trading interface. TD Ameritrade was particularly beloved by active traders and options traders for its powerful charting, real-time streaming data, and paper trading capabilities.\n\nWhile new accounts are now opened through Schwab, the TD Ameritrade brand remains relevant for traders researching the platform's heritage and understanding what capabilities transferred to Schwab.",
+  "description_long": "## The TD Ameritrade Account You Cannot Open Anymore\n\nThe first thing to know about TD Ameritrade in 2026 is that it no longer exists as a place to open a new brokerage account. TD Ameritrade, Inc. has been acquired by Charles Schwab, and every client account has been migrated onto Schwab's platform. If you land on tdameritrade.com today, you are redirected to Schwab. So a review of TD Ameritrade is really a review of what its legacy means at Schwab, whether existing customers got a raw deal, and whether the pieces that made TD Ameritrade worth choosing in this US brokers category, namely thinkorswim and the education library, still work the way they used to.\n\nThat framing matters because most people searching for TD Ameritrade in 2026 fall into one of two groups. Either they were TDA clients and want to understand what changed after their account moved, or they read older reviews that praised TD Ameritrade and want to know if the newer Schwab-branded version is the same product with a different logo. Both are legitimate questions, and the honest answer to each is nuanced.\n\n## Why thinkorswim Still Anchors This Review\n\nthinkorswim is the reason TD Ameritrade earned its reputation with active traders, options sellers and futures traders, and it is the single asset Schwab most obviously wanted from the deal. The desktop platform, the web version and the mobile app are still available, still free with a funded brokerage account, and still branded thinkorswim rather than something Schwab. The order routing, charting engine, thinkScript custom indicators, backtesting via OnDemand and the paper trading account all survived the migration.\n\nIf you were a TD Ameritrade client using thinkorswim to sell weekly options spreads, run pairs trades or chart futures, the actual trading workflow you built up over years is intact. That is the strongest continuity argument for the merged product. It is also the main reason a self-directed active trader can still recommend the Schwab-Ameritrade combination as a US broker in 2026, even without new TD Ameritrade accounts being available.\n\n## What Actually Changed for TD Ameritrade Clients\n\nSchwab describes the transition in soft language, but the practical changes are worth naming plainly. Every TD Ameritrade login was retired. Clients had to set up new Schwab credentials. Cost basis, account numbers, tax lots and open positions were migrated in batches over several conversion weekends, and some traders reported temporary display issues, missing transaction histories in the first week after their batch moved, and delays getting margin or options trading levels re-approved.\n\nMost of these issues resolved, but they were not zero-impact. Anyone reviewing TD Ameritrade honestly has to acknowledge that the transition period caused real disruption, especially for traders who depended on active margin, complex options approvals or API keys that had to be reissued under Schwab. The commission-free stock and ETF pricing carried over, and the $0.65 per options contract fee remains the standard. Futures and forex pricing sits inside the Schwab schedule now rather than TD Ameritrade's own.\n\n## The Real Cost of Trading This Broker\n\nThe headline is still $0 commissions on online stock and ETF trades, and TD Ameritrade legacy customers get the same Schwab satisfaction guarantee that new Schwab clients see advertised. Options remain $0.65 per contract, which is competitive with most large US brokers but not the cheapest, and it stacks up quickly if you trade high-volume options strategies where per-contract fees dominate.\n\nFor a trader running 40 contract iron condors twice a week, $0.65 per leg is a meaningful monthly line item and worth comparing directly against Tastytrade or Interactive Brokers before staying by default. Mutual funds, bonds, CDs, money market funds and cryptocurrency are all available inside the Schwab shell that TD Ameritrade migrated into, so product breadth is not the constraint. What is not verified in the source material Schwab publishes on the transition page is the exact futures commission per contract, forex spreads, or the specific margin interest tiers, so anyone treating those as decision factors should pull the current Schwab pricing sheet directly rather than trust a legacy TD Ameritrade number.\n\n## Education and Research: The Quiet Reason People Stayed\n\nOne of the underrated things about the old TD Ameritrade brand was the depth of its education and research library, including the immersive curriculum inside thinkorswim, the Investools content, and third-party research from Morningstar, CFRA and Credit Suisse formats layered inside the platform. Schwab has folded most of this into its own education section under the Schwab Trading Powered by Ameritrade banner.\n\nThe practical outcome is that the material is still there, still free with an account, and still one of the strongest reasons for a newer trader to pick this broker over a bare-bones app. The tradeoff is that navigation changed, some content was renamed or restructured, and clients who bookmarked specific TD Ameritrade learning paths had to re-find them under Schwab's information architecture. That is annoying rather than fatal, but if your entire self-education workflow lived at specific TDA URLs, expect a rebuilding week.\n\n## Where the Merged Product Falls Short\n\nThere are three honest weaknesses that a review of TD Ameritrade in its current form has to name. First, automated trading in the fully hands-off sense, meaning strategy bots that route orders without you, is not supported natively; thinkorswim's alerts, scripts and conditional orders are powerful but they are not a strategy engine. Second, there is no built-in trade journaling layer, so traders serious about performance review still need TraderSync, Tradervue or Edgewonk alongside the account. Third, the AI-driven trade analysis features that newer platforms lean on are absent here; thinkorswim's edge is charting and options analytics, not machine learning on your fills.\n\nOn top of those product gaps, the transition itself is a soft weakness. Some clients had margin buying power recalculated under Schwab's model, and a small subset of specialty account types, particularly some trust and small business account structures, needed manual re-paperwork rather than a clean electronic migration. None of this is a reason to leave if you were happy on TD Ameritrade, but it is worth knowing before you send a new dollar in.\n\n## Who Should Still Choose This Broker\n\nThe legacy TD Ameritrade product, now Schwab Trading Powered by Ameritrade, still makes sense for active US-based traders who want thinkorswim as their primary platform, options sellers who value the analytics and paper trading environment, self-directed investors who want research and education inside the same login as their portfolio, and futures traders who like keeping equities, options and futures in one account. It is less well-suited for pure algo traders needing native strategy automation, day traders chasing the absolute lowest per-contract options fees, and anyone who was building around specific TD Ameritrade API endpoints without wanting to migrate to Schwab's implementation.\n\nIf you were happy at TD Ameritrade, the honest recommendation is to stay, learn where things moved in the Schwab shell, and re-benchmark options pricing against Tastytrade if your volume is high. If you were considering opening a new TD Ameritrade account, you cannot; the choice is now between Schwab (which inherited the product), Fidelity, Interactive Brokers or a specialty options broker like Tastytrade. Judged as the platform it became, and not the brand it used to be, TD Ameritrade at Schwab remains one of the more defensible picks in the US brokers category, mostly because thinkorswim survived intact.",
   "logo_url": "/logos/td-ameritrade.svg",
   "screenshots": [],
   "website_url": "https://www.tdameritrade.com",
@@ -58,15 +58,19 @@
     "crypto"
   ],
   "pros": [
-    "Commission-free stock and ETF trades",
-    "thinkorswim platform is industry-leading",
-    "Extensive research and educational content",
-    "Strong options trading capabilities"
+    "thinkorswim desktop, web and mobile survived the Schwab migration intact",
+    "$0 online stock and ETF commissions carried over",
+    "Deep education and research library still free with a funded account",
+    "Paper trading and thinkScript custom indicators remain available",
+    "Access to more than 400 physical Schwab branches for in-person support",
+    "Wide product range: stocks, options, futures, forex, crypto, bonds, funds"
   ],
   "cons": [
-    "Now merged into Schwab — no new TD Ameritrade accounts",
-    "Options contracts still cost $0.65 each",
-    "Transition period caused some account disruptions"
+    "No new TD Ameritrade accounts; you are opening a Schwab account instead",
+    "$0.65 per options contract adds up quickly for high-volume options traders",
+    "Migration caused temporary account, margin and options-level disruptions",
+    "No native automated strategy execution or built-in trade journaling",
+    "No AI-driven trade analysis features inside the platform"
   ],
   "rating": 4.4,
   "rating_breakdown": {
@@ -80,17 +84,49 @@
   "company": "Charles Schwab Corporation",
   "headquarters": "Omaha, Nebraska",
   "best_for": [
-    "active traders",
-    "options traders",
-    "self-directed investors"
+    "Active traders who rely on thinkorswim",
+    "Options traders who value analytics and paper trading",
+    "Self-directed investors who want research and education in one login",
+    "Futures traders who like a multi-asset US brokerage account",
+    "Existing TD Ameritrade clients continuing at Schwab"
   ],
   "similar_tools": [
     "charles-schwab",
     "fidelity",
     "etrade"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "TD Ameritrade Review 2026",
-  "meta_description": "Legacy full-service brokerage now merged with Charles Schwab, offering commission-free trading, powerful tools, and extensive research."
+  "meta_title": "TD Ameritrade Review 2026: Now at Schwab, Honest Take",
+  "meta_description": "TD Ameritrade is now Charles Schwab. Honest 2026 review of what changed for clients, thinkorswim's status, real costs, and who should still use it.",
+  "company_background": "TD Ameritrade was founded in 1975 and grew into one of the largest US retail brokers before being acquired by Charles Schwab. The brand is headquartered in Omaha, Nebraska, and its trading technology, especially thinkorswim, is now operated under Schwab Trading Powered by Ameritrade. No new TD Ameritrade accounts can be opened; all clients are now Schwab clients.",
+  "scraped_features": [
+    "thinkorswim desktop platform",
+    "thinkorswim web platform",
+    "thinkorswim mobile app",
+    "Schwab.com trading interface",
+    "Schwab Mobile app",
+    "$0 online equity trade commissions",
+    "Satisfaction Guarantee",
+    "Order execution reporting",
+    "Trading education library",
+    "Options trading",
+    "Futures trading",
+    "Cryptocurrency access",
+    "Mutual funds and ETFs",
+    "Bonds, CDs and fixed income",
+    "Money market funds",
+    "Fractional shares",
+    "Schwab Investing Themes",
+    "Schwab Starter Kit",
+    "Automated Investing (robo-advisor)",
+    "Access to 400+ physical branches"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/charlesschwab",
+    "linkedin": "https://www.linkedin.com/company/charles-schwab",
+    "youtube": "https://www.youtube.com/channel/UCToe3dspZyw2L_JY-JmP3Mw",
+    "facebook": "https://www.facebook.com/CharlesSchwab"
+  },
+  "enriched_at": "2026-07-18"
 }

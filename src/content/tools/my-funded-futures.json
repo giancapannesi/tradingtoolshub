@@ -8,7 +8,7 @@
     "funded-trading"
   ],
   "description_short": "My Funded Futures is a futures-focused prop firm offering fast payouts, no activation fees, and a simplified one-phase evaluation with up to 90% profit splits.",
-  "description_long": "My Funded Futures (MFFU) is a futures proprietary trading firm founded in 2023 by Matthew Leech, quickly establishing itself as one of the most trader-friendly prop firms in the industry. With over 16,000 Trustpilot reviews averaging 4.9 out of 5 stars, MFFU has built a strong reputation for transparency, fair rules, and fast capital access for futures traders trading CME Group instruments including ES, NQ, YM, RTY, CL, and GC.\n\nWhat sets MFFU apart from the competition is its elimination of activation fees — a cost that most competitors charge at $149 to $300 or more just to access a funded account after passing an evaluation. Combined with industry-leading payout speeds (first payout in as little as 15–20 minutes, subsequent payouts in seconds), MFFU offers a genuinely streamlined path to getting paid. The firm boasts a roughly 25% pass rate on evaluations, approximately double the industry average, reflecting its trader-centric rule structure.\n\nMFFU offers three main account types — Core, Rapid, and Pro — each with different drawdown methodologies and profit split arrangements. Core accounts use end-of-day trailing drawdown with 80/20 splits, Rapid accounts use intraday trailing drawdown with 90/10 splits, and Pro accounts offer EOD trailing with 80/20 splits but no consistency rules on funded accounts. All plans support trading through Rithmic, NinjaTrader, Tradovate, TradingView (via Rithmic), ATAS, and Volumetrica, giving traders flexibility in their platform of choice.\n\nAfter achieving five consecutive profitable payouts, MFFU traders become eligible to transition to a real live trading account, providing a genuine long-term career pathway. The firm is futures-only and does not support stocks, options, forex, or crypto, making it specifically suited for traders focused on futures markets who value straightforward rules, competitive pricing, and rapid access to their earned capital.",
+  "description_long": "## The $77 Entry That Only Works If You Actually Pass\n\nMy Funded Futures sells a Core $50K evaluation for **$77/month**, which is one of the lower entry points in the prop firm category. But the real decision isn't about that number. It's about whether you can survive a trailing drawdown, hit the payout thresholds, and stomach a monthly fee that keeps recurring until you either pass or quit. The Core tier gets you in cheap, but it also runs an **EOD trailing drawdown** and pays you every five winning days on an 80/20 split. That's a slower, tighter path than what the Rapid tier offers, and choosing between them is the first real decision anyone signing up needs to make.\n\nAs a prop firm in the futures category, My Funded Futures competes directly with Topstep, Apex, and Bulenox. The pitch is faster payouts, no activation fee, and a one-phase evaluation. The reality is more nuanced.\n\n## Rapid vs Pro vs Core: Three Different Products Under One Brand\n\nMy Funded Futures runs three plan families and they behave differently enough that lumping them together would mislead you.\n\n**Core** starts at $77 for a $50K account. Profit split is **80/20**, drawdown is **end-of-day trailing**, and payouts trigger every five winning days. This is the entry lane — cheap, but the EOD trail and the winning-day requirement make it a grind for anyone whose strategy isn't consistently green.\n\n**Rapid** starts at **$129 for $50K**, scales to **$229 for $100K**, and **$377 for $150K**. The split jumps to **90/10** — one of the more aggressive splits in the futures prop space — and the drawdown becomes **intraday trailing**, which is stricter but locks in less aggressively at the close. Rapid also removes consistency rules and enables TradersPost integration for algo traders.\n\n**Pro** costs **$229 for $50K**, **$329 for $100K**, and **$377 for $150K**. Split reverts to 80/20 and the drawdown is EOD again, but Pro removes consistency rules on the funded account and pays out every 14 days. The pitch here is flexibility on the funded side rather than payout speed.\n\nThe practical read: **Rapid is the fastest-payout, algo-friendly lane**. **Pro is the flexibility lane**. **Core is the cheap-entry lane**. Picking wrong wastes the monthly fee.\n\n## What the No-Activation-Fee Line Actually Means\n\nMost competing prop firms charge a one-time **$149 to $300+** activation fee when you pass evaluation and move to a funded account. My Funded Futures does not. That's a genuine cost savings, and it matters most for traders who plan to pass multiple accounts or who fail once and re-attempt. Over three attempts, skipping activation fees can save $450 to $900.\n\nWhat it does not mean: the monthly evaluation fee is refunded if you fail. It isn't. Every failed evaluation is a sunk $77 to $377 depending on the tier, and the fee re-bills monthly while you're still in evaluation. If you take three months to pass a Rapid $100K, you've spent **$687** before you see your first payout.\n\n## The Payout Speed Claim, Read Carefully\n\nMy Funded Futures markets \"payout in as fast as 1 minute\" and first payouts in **15-20 minutes**. Those numbers appear in their own marketing material. What isn't stated is the qualifying path: on Rapid you can request a payout every 24 hours once you meet the requirements, and on Core you need five winning days before your first payout request. Pro pushes payouts to every 14 days.\n\nSo \"fast payouts\" is real on Rapid. On Core and Pro it's structurally slower by design. If payout velocity is the reason you're picking My Funded Futures over Topstep or Apex, you specifically want Rapid, and you should price it against those competitors' equivalent tiers rather than against Core's headline $77.\n\n## Futures Only — And What That Rules Out\n\nMy Funded Futures is a **futures-only** firm. No stocks, no forex, no options, no crypto. If you trade ES, NQ, CL, GC, or any of the standard CME/CBOT/NYMEX contracts, this is a valid choice. If you're a forex prop trader, this firm is irrelevant regardless of the profit split. That's an obvious point but worth stating because the marketing doesn't lead with it.\n\nSupported platforms are **NinjaTrader, Tradovate, and Rithmic** — the standard futures stack. Tradovate handles mobile trading, which matters because My Funded Futures does not publish its own mobile app. If you want to manage a position from your phone, you're using Tradovate's app, not a My Funded Futures app.\n\n## The Trailing Drawdown Trap Nobody Explains Well\n\nBoth trailing drawdown types can wipe an account that looks profitable on paper. **EOD trailing** locks in at the close of each session — safer for scalpers who close flat but punishing if you hold overnight winners that give back on the open. **Intraday trailing** on Rapid tracks the highest unrealized profit tick-by-tick, which means an unrealized $2,000 gain that reverses can still shrink your drawdown buffer even if you never sold the top.\n\nMy Funded Futures does not hide this — it's disclosed in the plan specs — but it's the single most common reason evaluations fail across every futures prop firm. A **~25% pass rate**, which My Funded Futures cites as roughly double the industry average, still means three out of four buyers do not pass. Budget your fee expectations accordingly.\n\n## Who This Firm Actually Fits\n\nMy Funded Futures fits a specific profile: an active futures day trader who wants a 90/10 split on Rapid or the no-consistency-rules funded environment on Pro, and who is comfortable trading exclusively on NinjaTrader, Tradovate, or Rithmic. Algo traders get real value from the TradersPost integration on Rapid. Traders who want a shot at a real live account get a defined path — five consecutive payouts on eligible tiers.\n\nIt does not fit swing traders who need overnight comfort with EOD-safe rules, forex or stock traders, traders who need a first-party mobile app, or anyone allergic to monthly recurring fees during a drawn-out evaluation period.\n\n## How It Stacks Against Topstep, Apex, and Bulenox\n\n**Topstep** is the legacy incumbent with a longer track record and more conservative rules. **Apex Trader Funding** competes closely on price and often runs deeper discounts, but activation fees and payout mechanics differ. **Bulenox** is closer in vintage to My Funded Futures and competes on similar terms. **Earn2Trade** targets a similar audience with a slightly different evaluation structure.\n\nThe honest read: My Funded Futures is competitive in the current cohort of newer futures prop firms. Founded in **2023**, headquartered in Dover, Delaware, it has a shorter operating history than Topstep or Apex. Traders who prioritize firm longevity as a proxy for payout reliability may prefer an older firm even at worse economic terms. Traders who prioritize the 90/10 Rapid split, no activation fee, and TradersPost algo integration will find those specific features harder to match at legacy firms.\n\nMy Funded Futures is a reasonable pick if you know exactly which tier you need and you've priced the monthly fee against a realistic estimate of how long your evaluation will take. It's a bad pick if you're buying the $77 headline without reading which drawdown type comes attached.",
   "logo_url": "/logos/my-funded-futures.svg",
   "screenshots": [],
   "website_url": "https://myfundedfutures.com",
@@ -135,17 +135,19 @@
     "futures"
   ],
   "pros": [
-    "No activation fees — eliminates $149–$300+ cost charged by most competitors",
-    "Industry-leading payout speed with first payout in as little as 15–20 minutes",
-    "~25% evaluation pass rate, roughly double the industry average",
-    "No consistency rules on funded Pro accounts, giving traders full flexibility",
-    "Clear path to a real live trading account after 5 consecutive payouts"
+    "No activation fees, saving $149-$300+ versus most futures prop competitors",
+    "Rapid tier offers a 90/10 profit split, aggressive by category standards",
+    "Payouts every 24 hours on Rapid once qualifying conditions are met",
+    "No consistency rules on Rapid or on funded Pro accounts",
+    "TradersPost integration for algo and automated futures strategies",
+    "Defined path to live capital after five consecutive qualifying payouts"
   ],
   "cons": [
-    "Futures-only — no support for stocks, forex, options, or crypto",
-    "No proprietary mobile app; active mobile trading depends on Tradovate",
-    "Relatively new firm (founded 2023) with a shorter track record than legacy competitors",
-    "Monthly subscription fees are non-refundable on failed evaluations"
+    "Futures-only firm — no forex, stocks, options, or crypto support",
+    "Monthly evaluation fees are non-refundable if you fail",
+    "No proprietary mobile app; mobile trading depends on Tradovate",
+    "Founded in 2023, shorter operating track record than legacy competitors",
+    "Trailing drawdown rules (EOD or intraday) still trip most evaluations"
   ],
   "rating": 4.4,
   "rating_breakdown": {
@@ -159,10 +161,11 @@
   "company": "My Funded Futures LLC",
   "headquarters": "Dover, Delaware",
   "best_for": [
-    "futures day traders",
-    "traders seeking fast payouts",
-    "algo and automated traders",
-    "traders transitioning to funded accounts"
+    "Active futures day traders on ES, NQ, CL, or GC",
+    "Algo traders using TradersPost automation",
+    "Traders prioritizing fast payout velocity on the Rapid tier",
+    "Prop firm buyers avoiding activation fees",
+    "Traders seeking a defined path to live funded capital"
   ],
   "similar_tools": [
     "topstep",
@@ -170,8 +173,38 @@
     "earn2trade",
     "bulenox"
   ],
-  "last_updated": "2026-03-18",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "My Funded Futures Review 2026",
-  "meta_description": "My Funded Futures is a futures-focused prop firm offering fast payouts, no activation fees, and a simplified one-phase evaluation with up to 90% profit."
+  "meta_title": "My Funded Futures Review 2026: Prop Firm Honest Take",
+  "meta_description": "My Funded Futures review 2026: Rapid vs Pro vs Core plans, 90/10 splits, trailing drawdown rules, and who this futures prop firm actually fits.",
+  "company_background": "My Funded Futures LLC is a futures-focused prop trading firm founded in 2023 and headquartered in Dover, Delaware. It offers simulated funded accounts across three plan families (Core, Rapid, Pro) with a defined path to live capital through affiliated companies after consecutive qualifying payouts. The firm operates exclusively in the futures market and integrates with NinjaTrader, Tradovate, and Rithmic.",
+  "scraped_features": [
+    "One-phase simulated evaluation",
+    "Core, Rapid, and Pro plan families",
+    "Account sizes of $50K, $100K, and $150K",
+    "Profit splits of 80/20 (Core, Pro) and 90/10 (Rapid)",
+    "End-of-day trailing drawdown on Core and Pro",
+    "Intraday trailing drawdown on Rapid",
+    "Payout requests every 24 hours on Rapid",
+    "Payouts every 5 winning days on Core",
+    "Payouts every 14 days on Pro",
+    "No activation fees on any tier",
+    "No consistency rules on Rapid",
+    "No consistency rules on funded Pro accounts",
+    "NinjaTrader platform integration",
+    "Tradovate platform integration",
+    "Rithmic data feed support",
+    "TradersPost algo trading integration",
+    "Discord community with 72K+ active users",
+    "Path to live capital via affiliated companies",
+    "Simulated funded environment throughout",
+    "First payouts in as fast as 15-20 minutes (marketed claim)"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/MyFundedFutures",
+    "youtube": "https://www.youtube.com/@MyFundedFuturesPropFirm",
+    "instagram": "https://www.instagram.com/myfundedfutures",
+    "discord": "https://discord.com/invite/d7tUceuxg8"
+  },
+  "enriched_at": "2026-07-18"
 }

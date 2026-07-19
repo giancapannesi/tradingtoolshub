@@ -63,6 +63,55 @@ CATEGORY_PRIORITY = [
     "crypto-tools", "news-analytics", "education",
 ]
 
+# Recovery order is founder-directed. These reviews are staged first because
+# they support the initial indexing cohort. Redirected/retired aliases must
+# never consume one of the daily 20 recovery slots.
+RECOVERY_PRIORITY = [
+    "tradeify", "lucid-trading", "alpha-futures", "polygon-io",
+    "alpha-vantage", "finviz", "tradingview", "edgewonk", "trademetria",
+    "tradersync", "funded-trading-plus", "city-traders-imperium", "fxify",
+]
+RECOVERY_EXCLUDED_SLUGS = {"koyfin"}  # consolidated into /review/koyfin-pro/
+
+GENERIC_REVIEW_HEADINGS = {
+    "overview", "core features", "features", "pricing", "pricing breakdown",
+    "honest pros", "pros", "honest cons", "cons", "pros and cons",
+    "who should use it", "who should use this", "competitors",
+    "the bottom line", "bottom line", "conclusion", "final verdict",
+}
+AUTOMATION_CLICHES = (
+    "in today's fast-paced", "whether you're", "stands out", "game-changer",
+    "look no further", "it's worth noting", "delve into", "seamless",
+    "robust solution", "the bottom line",
+)
+
+
+def automation_signature_issues(review_text):
+    """Reject recovery copy that merely repeats the old generated outline."""
+    headings = [
+        line[3:].strip().lower()
+        for line in review_text.splitlines()
+        if line.startswith("## ")
+    ]
+    generic = [
+        heading for heading in headings
+        if heading in GENERIC_REVIEW_HEADINGS
+        or any(heading.startswith(prefix) for prefix in (
+            "what ", "core features", "pricing", "honest pros", "honest cons",
+            "who should", "how it compares", "how ", "the bottom line",
+        ))
+    ]
+    lowered = review_text.lower().replace("’", "'")
+    cliches = [phrase for phrase in AUTOMATION_CLICHES if phrase in lowered]
+    issues = []
+    if len(headings) < 5:
+        issues.append(f"only {len(headings)} substantive sections")
+    if len(generic) > 2:
+        issues.append(f"{len(generic)} generic/template headings")
+    if len(cliches) > 1:
+        issues.append(f"automation cliches: {', '.join(cliches)}")
+    return issues
+
 
 def load_all_tools():
     """Load all tool JSON files."""
@@ -107,6 +156,8 @@ def get_enrichment_queue(tools):
     """Prioritize tools for enrichment. Returns list of thin tools sorted by priority."""
     thin_tools = []
     for t in tools:
+        if t.get('slug', '') in RECOVERY_EXCLUDED_SLUGS:
+            continue
         word_count = len(t.get('description_long', '').split())
         if word_count < 500:
             thin_tools.append(t)
@@ -116,6 +167,9 @@ def get_enrichment_queue(tools):
     def priority_score(tool):
         slug = tool.get('slug', '')
         score = 0
+
+        if slug in RECOVERY_PRIORITY:
+            score += (len(RECOVERY_PRIORITY) - RECOVERY_PRIORITY.index(slug)) * 10000
 
         # GSC signal boost — tools Google is already ranking get top priority
         if slug in gsc_signal:
@@ -205,23 +259,26 @@ EXISTING TOOL DATA:
 SCRAPED FROM THEIR WEBSITE:
 {scraped_content[:3000]}
 
-Write a comprehensive review following these STRICT requirements:
+Write a decision-focused review following these STRICT requirements:
 
 1. **Length:** 1,200-1,500 words. No less than 1,200.
 2. **Format:** Use ## headings to organize sections. Write in plain text with \\n\\n between paragraphs. Use **bold** for emphasis.
-3. **Sections to cover** (adapt headings to the tool):
-   - What the tool is and who makes it (company background, founding, key people)
-   - Core features and what makes it unique
-   - Pricing breakdown with actual numbers (monthly/yearly)
-   - Honest pros — what it genuinely does well
-   - Honest cons — real limitations, not soft criticisms
-   - Who should use it (and who should NOT)
-   - How it compares to 1-2 direct competitors
-   - The bottom line
-4. **Tone:** Honest, direct, non-promotional. Mention real weaknesses. If the free tier sucks, say so. If it's overpriced, say so. If the UI is dated, say so.
-5. **No filler:** No "In today's fast-paced trading world..." generic intros.
-6. **Pricing must be specific** — use exact dollar amounts from the scraped data or existing JSON. If unsure, say "check their website for current pricing."
-7. **SEO:** Include the tool name naturally 5-8 times. Mention the category (e.g., "trading journal", "stock screener") early.
+3. **Structure:** Do not use a fixed review outline. Create 5-8 headings derived
+   from the decisions and risks unique to this product. Cover company context,
+   workflow, cost, limitations, buyer fit and relevant alternatives naturally,
+   but do not turn those labels into generic headings.
+4. **Banned generic headings:** Overview, Core Features, Features, Pricing
+   Breakdown, Honest Pros, Honest Cons, Who Should Use It, How It Compares,
+   The Bottom Line, Conclusion, Final Verdict. Headings must name a specific
+   question, constraint, workflow, plan, rule or trade-off for this product.
+5. **Tone:** Honest, direct, non-promotional. Mention real weaknesses. Do not
+   use "comprehensive", "seamless", "robust solution", "stands out",
+   "game-changer", "whether you're", "delve into", or "look no further".
+6. **No filler:** Open with the decision or central trade-off, not background.
+7. **Evidence discipline:** Use exact prices only when present in the supplied
+   source material. If evidence is missing, say what could not be verified;
+   never invent a number, founder, date, payout speed or product rule.
+8. **SEO:** Include the tool name naturally 5-8 times. Mention the category early.
 
 Return your response as a JSON object with these exact keys:
 {{
@@ -271,6 +328,16 @@ Return ONLY the JSON object. No markdown code blocks. No explanation text before
         word_count = len(result_data.get('description_long', '').split())
         if word_count < 800:
             print(f"    WARNING: Review only {word_count} words", file=sys.stderr)
+            return None
+
+        signature_issues = automation_signature_issues(
+            result_data.get('description_long', '')
+        )
+        if signature_issues:
+            print(
+                f"    AUTOMATION SIGNATURE REJECTED: {'; '.join(signature_issues)}",
+                file=sys.stderr,
+            )
             return None
 
         return result_data

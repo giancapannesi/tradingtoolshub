@@ -7,7 +7,7 @@
     "multi-asset"
   ],
   "description_short": "Multi-asset trading journal with portfolio tracking, risk analysis, and detailed performance metrics for all markets.",
-  "description_long": "Trademetria is a versatile trading journal that caters to traders across all asset classes, from stocks and options to forex, futures, and crypto. The platform emphasizes comprehensive performance tracking with detailed breakdowns by strategy, instrument, time period, and risk metrics.\n\nThe free plan allows up to 30 orders per month with a single account, making it a solid entry point for newer traders. The paid tiers unlock unlimited trade imports, multiple account management, and advanced analytics including detailed P&L attribution and risk analysis.\n\nTrademetria's strength lies in its balance of simplicity and depth. The interface is clean and intuitive, but under the hood, there are powerful analytics tools for traders who want to dig deep into their performance data. Auto-import from major brokers keeps the journaling process efficient.",
+  "description_long": "## What Trademetria Actually Is\n\nTrademetria is a multi-asset trading journal built for traders and investors who want to turn their execution history into structured performance data. The platform launched in 2017 (though the company's own marketing now claims \"trusted by 80,000+ users since 2016\") and is headquartered in New York. It sits in the middle of the trading journal category, positioned between free/basic options like a spreadsheet and premium-priced competitors like Tradervue or Edgewonk.\n\nThe core pitch is straightforward: import your trades, get portfolio-level analytics across stocks, options, futures, forex, and crypto, and use the resulting data to identify what's actually working versus what you *think* is working. Trademetria supports auto-import from a wide range of brokers, tracks R-multiples and open risk per position, and lets you compare swing trades against day trades in the same account view.\n\nThis is a journal, not a charting platform, not a screener, and not a backtester in the traditional sense. It ingests what you've already traded and gives you the analytical layer on top. If you're expecting TradingView-style charting or a Finviz-style screener, you're in the wrong category.\n\n## Core Features and What Makes It Unique\n\nTrademetria's real strength is **multi-asset breadth**. A lot of trading journals are optimized for one thing — stock day traders, or futures scalpers, or options sellers. Trademetria handles all five major asset classes in one dashboard, which matters if you trade across accounts and want a single source of truth for total portfolio risk and exposure.\n\nThe **portfolio tracker** is more developed than most journal competitors. You can monitor cost basis, open PnL, R-multiple, open dates, and allocation by asset class across multiple brokers simultaneously. For a diversified retail trader running a swing book alongside a futures account, this consolidated view is genuinely useful.\n\nThe **simulation feature** lets you test past trades to find patterns and compare hypothetical rule changes against your actual results — essentially a \"what if I had used a 2R stop instead of a 1.5R stop\" calculator applied to your real trade history. It's not full-blown strategy backtesting, but it's more than most journals offer.\n\nTrademetria also markets an **AI Trading Assistant** for analyzing performance, though the depth of that integration is thinner than what dedicated AI-first journals now offer. The feature exists; whether it's the reason to pick Trademetria is a different question.\n\nStandard journal features are all present: broker auto-import, tag-based filtering, deposits/withdrawals/dividends tracking, exit analysis, and API access on the top tier.\n\n## Pricing Breakdown\n\nTrademetria uses a three-tier model:\n\n**Free** — $0/month. Capped at 30 orders per month, 1 account, and 3 open positions. This is barely enough to journal a single week of active trading. It's a demo tier, not a viable free plan for anyone actually trading.\n\n**Basic** — $29.95/month or $215/year (roughly $17.92/month if billed annually — a ~40% saving). Unlimited orders, multiple accounts, advanced analytics, and auto-import. This is the tier most active traders will land on.\n\n**Pro** — $39.95/month or $279/year (roughly $23.25/month annual). Adds priority support, advanced risk analysis, custom reports, and API access.\n\nThe **annual discount is the real story here**. Paying monthly on Basic costs $359/year, while the annual plan is $215 — a $144 difference for the same product. If you're going to use Trademetria for more than four months, monthly billing is a mistake.\n\n## What Trademetria Genuinely Does Well\n\n**Multi-asset support actually works.** Many journals technically support futures and forex but treat them as second-class citizens. Trademetria handles all five asset classes with proper R-multiple math and correct contract-based PnL for futures.\n\n**The portfolio tracker is above average** for the price point. Consolidated open-risk visibility across brokers is something you'd normally pay significantly more for.\n\n**Interface is clean and doesn't feel like it was built in 2010.** The UI is one of the more modern-looking options in the journal category, which sounds trivial until you've spent time in some of the older competitors.\n\n**The annual pricing is genuinely competitive** — $215/year for Basic undercuts most direct competitors on an unlimited-orders plan.\n\n**Import support is broad.** Most retail brokers are covered, and the auto-import setup is straightforward.\n\n## Honest Cons\n\n**The free tier is essentially useless.** 30 orders per month and 3 open positions won't get an active day trader through Tuesday. Call it a trial, not a free plan.\n\n**Feature depth trails the category leaders.** Compared to Tradervue's advanced share/comment features or Edgewonk's deep behavioral analytics, Trademetria's advanced analytics feel one layer shallower. You get the basics well; you don't get the edge cases.\n\n**AI features are marketing-forward but thin.** The \"AI Trading Assistant\" exists but isn't in the same league as journals built AI-first from the ground up.\n\n**No mobile app.** For a 2026 product in this category, that's a notable gap. You're either at your desktop or you're not journaling.\n\n**No native education or community layer.** Trademetria is a pure tool. If you want the coaching, forums, or educational content that some competitors bundle, you'll need to source that elsewhere.\n\n## Who Should Use Trademetria\n\n**Multi-asset retail traders** who genuinely trade across stocks, futures, options, and crypto and need one dashboard. This is the sweet spot.\n\n**Budget-conscious active traders** willing to commit to annual billing. At $215/year for unlimited orders, the value equation is strong.\n\n**Swing traders and position traders** who value the portfolio-tracking layer more than the tick-by-tick execution analysis a scalper would need.\n\n**Traders who want a clean interface** and don't need the deepest possible feature set.\n\n## Who Should Not Use Trademetria\n\n**High-frequency day traders** running hundreds of trades per week who need the deepest execution analytics — Tradervue is a better fit.\n\n**Traders who specifically want AI-native journaling** as the primary feature.\n\n**Mobile-first traders** who need to log or review trades on the go.\n\n**Anyone considering the free tier as a real product** — it's not. Budget for Basic or don't sign up.\n\n## How It Compares\n\n**Trademetria vs Tradervue:** Tradervue is the incumbent in the trading journal space with deeper community and sharing features, but its Silver plan runs ~$29/month and its Gold plan is more expensive than Trademetria Pro. Tradervue wins on depth and community; Trademetria wins on multi-asset breadth and annual value.\n\n**Trademetria vs Tradesviz:** Tradesviz is heavier on visualization and offers a more generous free tier. Trademetria has cleaner portfolio-level tracking and better multi-broker consolidation. For pure trade visualization, Tradesviz is stronger; for multi-asset portfolio journaling, Trademetria wins.\n\n## The Bottom Line\n\nTrademetria is a **solid mid-tier trading journal** that does multi-asset tracking better than most, offers genuinely competitive annual pricing at $215/year, and has a clean interface that doesn't fight you. It's not the deepest journal on the market, it's not the most feature-rich, and the free tier is a joke — but for a diversified retail trader who wants one place to see everything, it's a reasonable pick.\n\nThe honest recommendation: skip the free tier, evaluate Basic on the annual plan, and don't pay monthly. If you need the API and priority support, Pro at $279/year is a modest step up. If you're a pure day trader running high volume, look at Tradervue first. If you're an AI-first buyer, look elsewhere entirely.\n\nAt this price point, Trademetria earns its 4.0 rating — capable, clean, honest value, but not category-leading.",
   "logo_url": "/logos/trademetria.svg",
   "screenshots": [],
   "website_url": "https://trademetria.com",
@@ -81,15 +81,19 @@
     "crypto"
   ],
   "pros": [
-    "Free tier available for light trading",
-    "Good multi-asset support across all markets",
-    "Clean, intuitive interface",
-    "Annual billing saves up to 40%"
+    "Genuine multi-asset support across stocks, options, futures, forex, and crypto",
+    "Above-average portfolio tracker with consolidated open-risk visibility across brokers",
+    "Clean, modern UI compared to older journal competitors",
+    "Strong annual pricing — $215/year for Basic saves ~40% vs monthly",
+    "Broad broker auto-import coverage",
+    "R-multiple math handled correctly across asset classes"
   ],
   "cons": [
-    "Free tier is very limited at 30 orders/month",
-    "Fewer advanced features than top competitors",
-    "No AI-powered analysis"
+    "Free tier is functionally useless at 30 orders/month and 3 open positions",
+    "Analytics depth trails category leaders like Tradervue and Edgewonk",
+    "AI Trading Assistant is marketed heavily but shallow in practice",
+    "No mobile app in 2026 — desktop only",
+    "No native education, coaching, or community layer"
   ],
   "rating": 4.0,
   "rating_breakdown": {
@@ -103,17 +107,48 @@
   "company": "Trademetria",
   "headquarters": "New York, New York",
   "best_for": [
-    "multi-asset traders",
-    "beginners",
-    "budget-conscious traders"
+    "Multi-asset retail traders",
+    "Budget-conscious active traders on annual billing",
+    "Swing and position traders",
+    "Diversified traders using multiple brokers",
+    "Traders prioritizing clean UI over feature depth"
   ],
   "similar_tools": [
     "tradertrac",
     "tradervue",
     "tradesviz"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
-  "meta_title": "Trademetria Review 2026: Multi-asset trading journal",
-  "meta_description": "Multi-asset trading journal with portfolio tracking, risk analysis, and detailed performance metrics for all markets."
+  "meta_title": "Trademetria Review 2026: Honest Pricing & Features Breakdown",
+  "meta_description": "Trademetria review for 2026: pricing, multi-asset journal features, pros, cons, and comparisons with Tradervue and TradesViz.",
+  "company_background": "Trademetria is a trading journal platform headquartered in New York, launched in 2017 (with marketing claims of serving users since 2016). The company focuses exclusively on multi-asset trade tracking and portfolio analytics, and reports over 80,000 users across its free and paid tiers.",
+  "scraped_features": [
+    "Multi-asset trade tracking (stocks, options, futures, forex, crypto)",
+    "Broker auto-import",
+    "Portfolio tracker with cost basis and open PnL",
+    "R-multiple risk measurement",
+    "Multi-account and multi-broker consolidation",
+    "Deposits, withdrawals, and dividends tracking",
+    "Swing vs day trade comparison",
+    "Trade simulation and scenario testing",
+    "Customizable metrics and reports",
+    "Exit analysis and stop/target monitoring",
+    "Open risk per position tracking",
+    "Allocation view by asset class and trade type",
+    "AI Trading Assistant for performance analysis",
+    "Advanced analytics on Basic and Pro tiers",
+    "Custom reports on Pro tier",
+    "API access on Pro tier",
+    "Priority support on Pro tier",
+    "Tag-based trade filtering",
+    "Trading psychology tracking",
+    "Habit and mistake logging"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/TKPTrader",
+    "youtube": "https://www.youtube.com/@trademetria",
+    "facebook": "https://facebook.com/Trademetria"
+  },
+  "enriched_at": "2026-07-17"
 }

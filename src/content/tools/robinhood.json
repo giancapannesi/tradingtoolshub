@@ -7,7 +7,7 @@
     "mobile-first"
   ],
   "description_short": "The pioneer of commission-free trading with a simple mobile interface, crypto, and cash management features.",
-  "description_long": "Robinhood revolutionized the brokerage industry by introducing commission-free trading, forcing the entire industry to follow suit. The platform remains one of the most accessible entry points for new investors, with a clean mobile-first interface that makes buying and selling stocks, ETFs, options, and crypto straightforward.\n\nBeyond trading, Robinhood offers a cash management account with competitive interest rates, a credit card, and retirement accounts (IRAs) with a 1% match on contributions. Robinhood Gold at $5/month adds professional research from Morningstar, Level 2 market data, and higher instant deposit limits.\n\nWhile Robinhood has matured significantly from its early days, it still prioritizes simplicity over advanced features. Traders who need sophisticated charting, complex order types, or advanced risk management tools will find the platform limiting. However, for casual investors and those just starting their trading journey, Robinhood remains hard to beat.",
+  "description_long": "## Robinhood in 2026 is no longer just the free-stock app\n\nThe decision with Robinhood is not whether commission-free trading is worth using — that argument ended years ago when every major US broker matched the fee structure. The real question is whether Robinhood's mobile-first workflow, expanded asset menu (now including futures and prediction markets alongside stocks, options, and crypto), and the new **Agentic Trading** account are enough to make it a primary broker, or whether it still belongs on your phone as a second account for casual buys.\n\nAs a US broker, Robinhood sits in an odd middle position. It has grown well past the pared-down app that launched in 2013, but it still trails Schwab and Fidelity on research depth, and it still trails Interactive Brokers and Tastytrade on execution transparency and order routing controls. Whether that gap matters depends entirely on how you trade.\n\n## What the app actually does well\n\nThe onboarding is the shortest in the industry. You can fund an account and place a first trade in under ten minutes, and fractional shares mean the $1 minimum on the landing page is real rather than marketing copy. For someone who is buying a basket of ETFs and a handful of names they already follow, Robinhood removes almost every friction point a legacy broker still imposes.\n\nThe **Robinhood Legend** desktop platform, launched to close the gap with more serious traders, adds multi-chart layouts, keyboard shortcuts, and technical drawing tools that the mobile app never had. It is not on the level of thinkorswim or IBKR's Trader Workstation, but it is a real trading interface rather than a marketing skin.\n\nThe IRA with a **1% match** on contributions is genuinely unusual in this category — no other zero-commission broker offers a matching contribution, and over a working career it compounds into a meaningful number. Cash management pays competitive rates on uninvested balances, which turns the app into a functional checking replacement for a certain kind of user.\n\n## The $5/month Gold decision\n\nGold costs $5 per month or $60 per year. The bundle includes Morningstar research reports, Level 2 market data via Nasdaq TotalView, higher instant deposit limits, lower margin rates than the standard tier, and access to professional research reports. Robinhood Strategies — the managed portfolio product — waives management fees on every dollar above $100K when you are a Gold member.\n\nWhether Gold is worth it comes down to two questions. If you use margin, the reduced rate almost certainly pays for the subscription within a month at any meaningful balance. If you actively look at options depth or trade around earnings, Level 2 data alone is worth the price. If you only buy long-term ETFs, Gold is a waste — the free tier already does everything you need.\n\n## The PFOF question that never fully goes away\n\nRobinhood makes most of its money from payment for order flow (PFOF). The company is transparent about this in its SEC filings, but the practical impact for retail traders is that execution quality on marketable orders is not always best-in-class compared to brokers like Fidelity that route more aggressively for price improvement.\n\nFor small orders on liquid names, the difference is measured in fractions of a cent per share and is invisible to most users. For larger orders, wide-spread options, or thinly traded stocks, the routing model can cost more than the commissions you saved. If you are placing multi-thousand-share orders on mid-cap names, this matters. If you are buying five shares of an index ETF, it does not.\n\n## The gaps that will send some traders elsewhere\n\nThere is still no paper trading account inside Robinhood, which is a genuinely strange omission in 2026 given how central simulation has become to every competitor's onboarding. You cannot rehearse an options strategy or test a system before risking capital, and the platform offers no journaling or performance analytics beyond basic gain/loss reporting.\n\nRobinhood added futures during its recent expansion, but forex is not offered. There is no API access for retail users, which rules out algorithmic trading and integrations with third-party analytics or journaling tools. Custom indicators and backtesting — features standard on TradingView, Tastytrade, and TrendSpider — do not exist here. If your workflow requires any of these, Robinhood is a supplement, not a replacement.\n\nCharting on the app remains basic. Legend improves this significantly, but the indicator library and drawing tools still lag what a serious technical trader expects. Educational content exists through Robinhood Learn, and it is well-produced for absolute beginners, but there is nothing like the depth of Fidelity Learning Center or Schwab's research library.\n\n## Agentic Trading and the credit card play\n\nThe most interesting recent addition is the **Agentic Trading** account — a dedicated brokerage sub-account you can hand to an AI agent, with position monitoring and activity logs surfaced back in the main app. Robinhood is also rolling out an Agentic Credit Card with 3% cash back and spending controls designed for AI agents.\n\nThis is either the beginning of a real shift in how retail brokerage works or an early-cycle experiment that never reaches product-market fit. Either way, it is worth noting that Robinhood is the first major US broker to build an account type explicitly for autonomous trading agents. If you are already experimenting with LLM-driven trade research or automation, this is a distinct advantage that no legacy broker offers today.\n\n## Where Webull, Schwab, and Fidelity pull ahead\n\nWebull is the closest direct competitor and beats Robinhood on charting, paper trading, and Level 2 data at the free tier — but its mobile experience is more cluttered and its cash management is weaker. If charts matter more than simplicity, Webull is the better choice.\n\nSchwab and Fidelity both offer deeper research, better fixed-income coverage, and full-service brokerage relationships. Both also handle IRAs, options, and international access more capably. If you are consolidating a household balance sheet — retirement accounts, taxable brokerage, cash management, and possibly a mortgage — Schwab or Fidelity are the correct answer and Robinhood is not.\n\nTastytrade and Interactive Brokers are the correct answer for active options traders and anyone who wants low-cost margin plus futures. Robinhood's futures product is new and less battle-tested.\n\n## Who Robinhood actually fits\n\nRobinhood makes sense as a **primary account** for beginners with sub-$50K portfolios who want to buy stocks and ETFs, hold long-term, and occasionally trade options or crypto. The 1% IRA match, the simple interface, and the $5 Gold ceiling on premium features are all genuinely good for this user.\n\nIt makes sense as a **secondary account** for more advanced traders who want a fast mobile buying interface, a crypto wallet, or exposure to the Agentic Trading experiment while keeping their main workflow on a broker with better analytics.\n\nIt does not make sense as a primary account for active options traders, futures scalpers, algorithmic traders, or anyone who journals and backtests as part of their process. Those users need paper trading, API access, and deeper execution transparency that Robinhood does not provide.\n\nThe honest rating: 4.0 out of 5, which reflects a broker that has matured well past its initial reputation but still has real limitations for serious traders — and one that has become quietly interesting again with the Agentic Trading account.",
   "logo_url": "/logos/robinhood.svg",
   "screenshots": [],
   "website_url": "https://robinhood.com",
@@ -69,16 +69,19 @@
     "crypto"
   ],
   "pros": [
-    "Most beginner-friendly trading interface",
-    "Commission-free across all asset classes",
-    "IRA with 1% match is unique",
-    "Cash management with competitive rates"
+    "Fastest onboarding and cleanest mobile interface in the US broker category",
+    "1% IRA contribution match is unique among zero-commission brokers",
+    "Gold at $5/month bundles Level 2 data, Morningstar research and lower margin rates",
+    "Fractional shares from $1 make small-dollar investing frictionless",
+    "Agentic Trading account is the first purpose-built brokerage sub-account for AI agents",
+    "Robinhood Legend desktop platform closes much of the historical charting gap"
   ],
   "cons": [
-    "Very limited charting and analysis tools",
-    "No paper trading available",
-    "PFOF may impact execution quality",
-    "No futures or forex trading"
+    "No paper trading account for strategy rehearsal or options practice",
+    "Payment for order flow model raises execution-quality questions on larger orders",
+    "No API access, backtesting, custom indicators or journaling tools",
+    "Research and educational depth still trails Fidelity and Schwab",
+    "No forex; futures product is newer and less proven than at Tastytrade or IBKR"
   ],
   "rating": 4.0,
   "rating_breakdown": {
@@ -92,17 +95,51 @@
   "company": "Robinhood Markets Inc.",
   "headquarters": "Menlo Park, California",
   "best_for": [
-    "beginners",
-    "casual investors",
-    "mobile traders"
+    "Beginners with portfolios under $50K",
+    "Mobile-first casual investors and long-term ETF buyers",
+    "Retirement savers who want the 1% IRA match",
+    "Crypto-curious users who want stocks and coins in one app",
+    "Traders experimenting with AI-agent-driven trading workflows"
   ],
   "similar_tools": [
     "webull",
     "charles-schwab",
     "fidelity"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "Robinhood Review 2026",
-  "meta_description": "The pioneer of commission-free trading with a simple mobile interface, crypto, and cash management features."
+  "meta_title": "Robinhood Review 2026: Honest Broker Analysis",
+  "meta_description": "Robinhood review for 2026: commission-free trading, Gold at $5/month, 1% IRA match, Agentic Trading, plus the PFOF and paper trading gaps.",
+  "company_background": "Robinhood Markets Inc. was founded in 2013 and is headquartered in Menlo Park, California. The company pioneered zero-commission retail trading in the US and now offers stocks, ETFs, options, crypto, futures, prediction markets, cash management, and retirement accounts. It trades publicly under the ticker HOOD.",
+  "scraped_features": [
+    "Commission-free stocks and ETFs",
+    "Commission-free options trading",
+    "24/7 crypto trading with BTC, ETH, XRP, SOL, DOGE, SHIB and more",
+    "Futures trading",
+    "Prediction markets",
+    "Fractional shares from $1",
+    "IRA with 1% contribution match",
+    "Robinhood Gold at $5/month or $60/year",
+    "Morningstar research reports (Gold)",
+    "Nasdaq Level 2 market data (Gold)",
+    "Lower margin rates on Gold tier",
+    "Higher instant deposit limits on Gold",
+    "Robinhood Strategies managed portfolios with fee waiver above $100K for Gold members",
+    "Cash management with competitive rates on uninvested balances",
+    "Robinhood Legend desktop trading platform",
+    "Agentic Trading dedicated brokerage account for AI agents",
+    "Agentic Credit Card with 3% cash back and agent spending controls",
+    "Multi-factor authentication on all accounts",
+    "24/7 customer support access",
+    "Robinhood Learn in-app education library",
+    "Robinhood Protection Guarantee for unauthorized activity"
+  ],
+  "social_links": {
+    "twitter": "https://twitter.com/RobinhoodApp",
+    "linkedin": "https://www.linkedin.com/company/robinhood",
+    "youtube": "https://www.youtube.com/channel/UCY55VHsy1umgvR35gl5bmUw",
+    "instagram": "https://www.instagram.com/robinhoodapp",
+    "tiktok": "https://www.tiktok.com/@robinhoodapp"
+  },
+  "enriched_at": "2026-07-18"
 }

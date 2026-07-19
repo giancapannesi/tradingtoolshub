@@ -7,7 +7,7 @@
     "low-spread"
   ],
   "description_short": "True ECN forex broker with the lowest average spreads in the industry, deep liquidity, and support for MT4/MT5/cTrader.",
-  "description_long": "IC Markets (International Capital Markets) is an Australian-based ECN forex and CFD broker consistently ranked among the lowest-cost brokers in the industry. With average EUR/USD spreads as low as 0.02 pips on raw accounts, IC Markets delivers pricing that rivals institutional-level execution.\n\nThe broker offers three platform options: MetaTrader 4, MetaTrader 5, and cTrader, each connected to deep liquidity pools from tier-1 banks and non-bank liquidity providers. Raw Spread accounts charge $3.50 per side per lot ($7 round turn) while Standard accounts bundle costs into the spread.\n\nIC Markets is particularly popular among scalpers, algorithmic traders, and high-volume traders due to its fast execution speeds (average under 40ms), no dealing desk interference, and support for all trading styles including hedging and scalping. The broker is regulated by ASIC, CySEC, and FSA.",
+  "description_long": "## What IC Markets Is and Who Runs It\n\nIC Markets is a **true ECN forex and CFD broker** founded in 2007 and headquartered in Sydney, Australia. The parent company, International Capital Markets Pty Ltd, has grown into one of the largest forex CFD providers in the world by trading volume, processing billions of USD in FX trades every day. The broker is regulated by ASIC (Australia), CySEC (Cyprus), and the FSA (Seychelles), with additional entities serving different regions.\n\nThe company built its reputation on one specific pitch: give serious traders raw interbank pricing, then get out of the way. That focus on execution quality — rather than flashy proprietary platforms or gamified apps — is why IC Markets became a favorite among scalpers, high-frequency algo traders, and expert advisor (EA) users. Around 60% of trades placed on IC Markets come from automated trading systems, which tells you everything you need to know about who this broker is really built for.\n\n## Core Features and What Makes IC Markets Different\n\nIC Markets runs its order matching engine out of the Equinix NY4 data centre in New York, which is the same infrastructure used by hedge funds and institutional desks. This is not a marketing gimmick — the physical proximity to liquidity providers is what allows IC Markets to advertise **sub-40ms average execution speeds** and spreads that start at 0.0 pips on major forex pairs.\n\nUnlike brokers that build their own walled-garden platform, IC Markets supports the platforms traders actually want: **MetaTrader 4, MetaTrader 5, and cTrader**. All three are available on Windows, Mac, web browser, iOS, and Android. This matters because your existing EAs, custom indicators, and cBot scripts work out of the box — no rebuilding, no vendor lock-in.\n\nOther features worth calling out:\n\n- **Free VPS hosting** for qualifying accounts, co-located near the NY4 servers for minimum latency algorithmic execution.\n- **1:5000 leverage** on the FSA (Seychelles) entity — extreme leverage that's useful for micro-lot testing but genuinely dangerous for anyone without strict risk management.\n- **2,850+ tradable instruments** across forex, indices, commodities, stocks, bonds, cryptocurrency, and futures CFDs.\n- **Micro lot trading** from 0.01 lots, which is critical for testing EAs with real money before scaling.\n- **24-hour US stock CFD trading**, letting you react to earnings and news before Wall Street opens.\n- **No dealing desk intervention** — orders route straight to liquidity providers with no requotes.\n\n## IC Markets Pricing Breakdown\n\nIC Markets doesn't charge a monthly subscription — you fund an account and pay through the spread and/or commission structure. There are two main account types, both with a **$200 minimum deposit**:\n\n**Standard Account** — Commission-free, with all costs baked into the spread. Average EUR/USD spread is around **0.8 pips**. This is the account most retail traders should default to unless they're trading serious volume.\n\n**Raw Spread Account** — True ECN pricing with average EUR/USD spreads of **0.02 pips**, plus a **$3.50 per side, per lot commission** (so $7 round-turn per standard lot). If you trade more than a few lots a day, the math almost always favors Raw Spread over Standard.\n\nThere's also a cTrader Raw Spread account with slightly different commission structure ($3.00 per side per lot). Deposits and withdrawals are handled at 0% commission from IC Markets' side, though your payment provider may charge you. Payment methods include bank wire, credit card, Skrill, Neteller, PayPal, and several regional options.\n\n## The Honest Pros\n\nIC Markets genuinely delivers on execution. The spreads are among the tightest publicly available anywhere, and the 40ms execution claim holds up in independent testing. For **algorithmic traders and scalpers**, this is close to as good as it gets outside of prime brokerage.\n\nThe platform choice — MT4, MT5, and cTrader — is a real advantage. You're not stuck learning a proprietary system that might disappear or change UI overnight. The free VPS offering (for accounts meeting the volume threshold) removes a real cost for algo traders who'd otherwise pay $30-50/month elsewhere.\n\nThe 4.8/5 Trustpilot rating is legit and based on tens of thousands of reviews, which is unusual for a broker of this scale. Deposit and withdrawal times are genuinely fast — most users report same-day withdrawal processing.\n\n## The Honest Cons\n\n**IC Markets is not available to US residents.** This is the single biggest limitation. Because IC Markets isn't registered with the CFTC and NFA, American traders have to look elsewhere entirely — no workarounds, no VPN trickery that will actually let you fund an account safely.\n\n**Customer support can lag during peak market hours.** Live chat response times stretch during the London-New York overlap when volatility is highest, which is exactly when you need answers fast.\n\n**Research and analysis tools are thin.** IC Markets does not try to be a research house. There's no proprietary trade ideas feed, no sentiment indicator, no built-in journaling or performance analytics. If you want fundamental analysis or a curated news feed, you'll need to bolt on TradingView, Trading Economics, or a dedicated journal like Edgewonk.\n\n**No integrated trade journal or performance analytics.** For a broker aimed at serious traders, this is a real gap. You'll need to export your history to a third-party journal.\n\n**Extreme leverage cuts both ways.** 1:5000 on the offshore entity is genuinely reckless for undisciplined traders. IC Markets doesn't force lower leverage on you — that discipline is on you.\n\n## Who Should Use IC Markets (and Who Should Not)\n\n**Use IC Markets if you are:**\n\n- A **forex scalper** who needs 0.0 pip spreads and sub-40ms fills.\n- An **algorithmic trader** running EAs on MT4/MT5 or cBots on cTrader.\n- A **high-volume trader** where the Raw Spread commission structure beats standard spread-only brokers by a meaningful margin.\n- An **international trader** outside the US who wants deep liquidity across forex, indices, and commodities.\n\n**Do NOT use IC Markets if you are:**\n\n- A **US resident** — you literally cannot open an account.\n- A **beginner** who needs hand-holding, integrated education, or a simple mobile-first UI. Look at eToro or a US-friendly broker instead.\n- Someone who wants **built-in fundamental research and analyst coverage** — that's not what this platform does.\n- A **long-term investor** buying stocks to hold — CFDs have overnight financing costs that make holding expensive.\n\n## How IC Markets Compares to Pepperstone and OANDA\n\n**IC Markets vs Pepperstone:** These two are the closest competitors, both Australian ECN brokers with tight spreads. Pepperstone's Razor account is comparable to IC Markets' Raw Spread account with nearly identical pricing (~$7 round-turn on EUR/USD). Pepperstone has slightly better educational content and a marginally more polished mobile experience. IC Markets edges ahead on raw execution speed, VPS availability, and cTrader depth. If you're an EA-focused trader, IC Markets. If you want a slightly friendlier onboarding, Pepperstone.\n\n**IC Markets vs OANDA:** OANDA is US-regulated and accepts American traders, which IC Markets does not. OANDA also has stronger built-in research and API tools. However, OANDA's spreads run wider (typically 1.2-1.5 pips on EUR/USD standard), it doesn't offer cTrader, and its execution model isn't true ECN. For non-US serious forex traders, IC Markets wins on pure trading economics.\n\n## The Bottom Line\n\nIC Markets is a specialist tool. It does one thing exceptionally well — deliver institutional-grade execution and pricing to serious retail traders — and doesn't pretend to be an all-in-one platform. If you're an algo trader, scalper, or high-volume forex trader based outside the US, IC Markets is one of the strongest options in the market and has earned its reputation over 18+ years of operation.\n\nIf you're an American trader, a beginner, or someone who wants a broker to also be your research provider and journal, IC Markets is the wrong fit. But for the specific audience it targets, IC Markets remains a top-tier choice in 2026.",
   "logo_url": "/logos/ic-markets.svg",
   "screenshots": [],
   "website_url": "https://www.icmarkets.com",
@@ -71,15 +71,19 @@
     "futures"
   ],
   "pros": [
-    "Lowest average spreads in the industry",
-    "True ECN execution with no dealing desk",
-    "Sub-40ms execution speeds",
-    "Supports all trading styles including scalping"
+    "True ECN execution with spreads from 0.0 pips on Raw Spread account",
+    "Sub-40ms average execution speeds from Equinix NY4 infrastructure",
+    "Full MT4, MT5, and cTrader support with no proprietary lock-in",
+    "Free VPS hosting available for qualifying algo traders",
+    "4.8/5 Trustpilot rating backed by tens of thousands of reviews",
+    "Fast same-day withdrawal processing across most payment methods"
   ],
   "cons": [
-    "Not available to US residents",
-    "Customer support can be slow during peak times",
-    "Limited research and analysis tools"
+    "Not available to US residents — no workarounds",
+    "Customer support response times slow during peak volatility",
+    "No built-in trade journal or performance analytics",
+    "Thin research and analysis tools compared to full-service brokers",
+    "1:5000 leverage on offshore entity is dangerous without strict risk controls"
   ],
   "rating": 4.5,
   "rating_breakdown": {
@@ -94,29 +98,39 @@
   "headquarters": "Sydney, Australia",
   "best_for": [
     "forex scalpers",
-    "high-volume traders",
-    "algorithmic traders"
+    "algorithmic and EA traders",
+    "high-volume CFD traders",
+    "cTrader users",
+    "international traders outside the US"
   ],
   "similar_tools": [
     "pepperstone",
     "oanda",
     "etoro"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-17",
   "review_status": "published",
   "scraped_features": [
-    "Raw spreads from 0.0 pips with no requotes",
-    "Average execution speeds under 40ms",
-    "EURUSD average spread of 0.1 pips",
-    "0.01 micro lot trading",
-    "2,250+ tradable instruments",
-    "24/7 dedicated support",
-    "Free low latency collocated VPS",
-    "MT4, MT5, cTrader platforms",
-    "WebTrader",
-    "0% commission on trades",
-    "Deep liquidity with reduced slippage",
-    "Instant account funding"
+    "Raw Spread account with 0.0 pip minimum spreads",
+    "Standard account with commission-free trading",
+    "MetaTrader 4 platform support",
+    "MetaTrader 5 platform support",
+    "cTrader platform support",
+    "Sub-40ms average execution speed",
+    "Equinix NY4 data centre order matching",
+    "Free low-latency VPS for qualifying accounts",
+    "1:5000 maximum leverage (FSA entity)",
+    "0.01 micro lot minimum trade size",
+    "2,850+ tradable instruments",
+    "24-hour US stock CFD trading",
+    "Forex, commodities, indices, stocks, bonds, crypto, futures CFDs",
+    "$200 minimum deposit",
+    "$3.50 per side per lot commission on Raw Spread",
+    "No dealing desk intervention",
+    "Multi-currency account funding options",
+    "Instant deposits and fast withdrawals",
+    "Web browser, Windows, Mac, iOS, Android platform coverage",
+    "Regulated by ASIC, CySEC, and FSA"
   ],
   "unique_selling_points": [
     "Official FX Partner of TGR Haas F1 Team",
@@ -130,7 +144,13 @@
     "Diverse proprietary liquidity mix keeps spreads tight 24/5",
     "Regional Partner Program for launching branded trading offices"
   ],
-  "enriched_at": "2026-03-29",
-  "meta_title": "IC Markets Review 2026: True ECN forex broker",
-  "meta_description": "True ECN forex broker with the lowest average spreads in the industry, deep liquidity, and support for MT4/MT5/cTrader."
+  "enriched_at": "2026-07-17",
+  "meta_title": "IC Markets Review 2026: True ECN Broker Worth It?",
+  "meta_description": "Honest IC Markets review for 2026. True ECN spreads from 0.0 pips, sub-40ms execution, MT4/MT5/cTrader support. Real pros, cons, and pricing breakdown.",
+  "company_background": "IC Markets is operated by International Capital Markets Pty Ltd, founded in 2007 and headquartered in Sydney, Australia. The broker is regulated by ASIC, CySEC, and the FSA (Seychelles), and has grown into one of the largest forex CFD providers globally by trading volume. Its order matching engine is housed at the Equinix NY4 data centre in New York.",
+  "social_links": {
+    "twitter": "https://twitter.com/IC_Markets",
+    "facebook": "https://www.facebook.com/icmarkets",
+    "instagram": "https://www.instagram.com/icmarketsglobal"
+  }
 }

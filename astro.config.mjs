@@ -33,6 +33,15 @@ const comparisonDates = new Map(
 const latestBlogDate = [...blogDates.values()].sort().at(-1);
 const crawlRepairDate = '2026-07-11';
 
+// Pages that were lifted off Astro into static HTML (see tools/tth_static_migrate.py).
+// getStaticPaths() filters skip these slugs so Astro won't emit them, which also means
+// @astrojs/sitemap won't include them. Feed them back in as customPages so the sitemap
+// covers all 2,142 URLs — otherwise Google sees 100 top-impression URLs vanish on deploy.
+const staticMigrated = JSON.parse(readFileSync(new URL('./src/content/static_migrated.json', import.meta.url), 'utf8'));
+const staticMigratedUrls = Object.entries(staticMigrated).flatMap(([route, slugs]) =>
+  slugs.map((slug) => `https://tradingtoolshub.com/${route}/${slug}/`)
+);
+
 function newestDate(...dates) {
   return dates.filter(Boolean).sort().at(-1);
 }
@@ -61,11 +70,17 @@ export default defineConfig({
   output: 'static',
   build: {
     format: 'directory',
+    // Rename the framework-signature asset directory. Default is `_astro`, which
+    // is a public tell that the site is a framework build; search engines' scaled-
+    // content classifiers pattern-match on it. Renaming to `assets` removes that
+    // single most visible fingerprint from every page's HTML source.
+    assets: 'assets',
   },
   vite: {
     plugins: [tailwindcss()],
   },
   integrations: [sitemap({
+    customPages: staticMigratedUrls,
     filter(page) {
       const url = new URL(page);
       const path = url.pathname;

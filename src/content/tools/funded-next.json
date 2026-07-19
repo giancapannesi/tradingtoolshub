@@ -8,7 +8,7 @@
     "evaluation-challenges"
   ],
   "description_short": "Dubai-based prop firm offering funded accounts up to $200K through 1 and 2-phase challenges with up to 90% profit splits and profit-sharing during evaluation.",
-  "description_long": "FundedNext is a rapidly growing proprietary trading firm headquartered in Dubai, UAE, providing traders with access to funded accounts ranging from $6,000 to $200,000. Founded in 2022, the firm quickly distinguished itself in the prop trading space by offering a unique incentive: profit-sharing during the evaluation phase itself, not just after a trader is funded—an uncommon benefit that makes the challenge worthwhile even if a trader doesn't pass.\n\nThe platform offers two primary challenge models: the Stellar Challenge (2-phase evaluation) and the Express Challenge (1-phase evaluation with faster but pricier entry). Profit splits start at 80% and can scale up to 90% as performance improves. Through FundedNext's scaling program, successful traders can grow their allocated capital up to $4 million, making it one of the more generous scaling paths among retail prop firms.\n\nFundedNext supports trading across forex pairs, commodities, major indices, and select cryptocurrencies via MetaTrader 4 and MetaTrader 5. The firm permits expert advisors and automated trading strategies, making it a strong option for algorithmic traders. Risk rules are clearly defined—typically a 5% maximum daily loss and 10% maximum overall drawdown—and the trader dashboard provides straightforward performance analytics to track progress against targets.\n\nThe firm has cultivated an active Discord community and provides educational resources for developing traders. While FundedNext lacks the multi-year reputation of older prop firms, its combination of competitive challenge pricing, evaluation profit-sharing, high splits, and EA-friendly rules has earned it strong community standing. It is best suited for experienced forex and multi-market traders who want institutional capital with a modern, transparent evaluation structure.",
+  "description_long": "## The FundedNext Decision Comes Down to Payout Speed Versus Track Record\n\nFundedNext sits in the crowded prop firm category with a specific pitch that separates it from most competitors: profit sharing during the evaluation phases and a claimed 24-hour reward processing window. If those two claims hold up in your experience, the value proposition is real. If they don't, you are paying $49 to $999 in one-time challenge fees to a firm that was founded in 2022 and has less operating history than FTMO, Topstep, or The5ers. The rest of this review is about whether that trade-off makes sense for the way you actually trade.\n\nFundedNext is based in Dubai, operates under FundedNext Ltd, and reports 600+ team members across five global hubs. That scale is unusual for a firm this young, and the marketing leans heavily on it, including a stated 71,000+ Trustpilot reviews and $306.9M in total rewards paid. Those numbers come directly from FundedNext's own site and have not been independently verified for this review.\n\n## Stellar Challenge Pricing And What Each Tier Actually Buys You\n\nThe pricing ladder is straightforward. The Stellar $6K account starts at $49 as a one-time fee. From there it climbs: $99 for the $15K account, $199 for the $25K account, $299 for the $50K, $549 for the $100K, and $999 for the $200K. Every tier uses the same two-phase evaluation model with a **10% profit target in Phase 1** and a **5% profit target in Phase 2**, along with a **5% max daily loss** and a **10% max overall loss**.\n\nWhat you are actually buying at each price point is a shot at the profit split, not the funded capital itself. The $999 fee for the $200K account is essentially a lottery ticket priced against the expected value of hitting both targets, staying inside the drawdown rules, and then earning a share of the profits at up to 90%. FundedNext does not offer a free trial or demo evaluation, which means you are committing the full fee before you know whether the platform, execution quality, and rule interpretation suit you.\n\nThe $50K tier is the first one where the feature list explicitly calls out EA and automated trading support, and the $100K and $200K tiers unlock the scaling plan up to $4M in capital. If you are planning to scale, buying into the smaller tiers to test the workflow first is defensible, but you are paying the fee twice.\n\n## Profit Sharing During Evaluation Is The Real Differentiator\n\nMost two-phase prop firms treat the evaluation as pure gatekeeping: you pass, then you start earning. FundedNext advertises profit sharing on the evaluation accounts themselves, which changes the math on the challenge fee. If you make meaningful profit during Phase 1 or Phase 2, some portion of that flows back to you rather than being wiped when the phase resets or ends.\n\nThis is the single feature that most directly rewards traders who can be consistently profitable rather than just barely-passing. If you burn through three challenges before passing, the evaluation profit sharing does not save you. If you tend to overshoot the targets while trading within the drawdown limits, it materially reduces the effective cost of the FundedNext challenge.\n\nThe exact percentage split during evaluation, timing of payout, and any minimum thresholds were not specified in the source material scraped for this review. Before buying, confirm those specifics directly with FundedNext support or in the current rules PDF.\n\n## The 24-Hour Reward Claim And What It Means For Cash Flow\n\nFundedNext markets a 4-hour average processing time and a 99.99% within-24-hours payout claim. For an active trader running one or more funded accounts, payout latency is not a vanity metric. It directly affects how quickly you can compound, cover living costs from trading, or re-enter positions with rotated capital.\n\nThese claims have not been independently verified here. Trustpilot reviews, trader Discord communities, and forums like Trustpilot's own comment threads are the practical way to confirm whether the 24-hour window actually holds during high-volume periods, weekends, or after policy changes. The FundedNext user pros in the source data flag customer support as slow during high-demand periods, which is a hint that peak-load performance may not match the marketing steady state.\n\n## What FundedNext Does Not Give You\n\nSeveral capabilities that adjacent trading tools include are absent here, and it is worth being explicit rather than assuming. FundedNext, as documented in the source data, does not offer built-in AI analysis, dedicated backtesting infrastructure, trade journaling, price alerts, a news feed, or API access for external tooling. What you get is the funded account, the dashboard, mobile app support, broker integration, custom indicators, and the ability to run EAs and automated strategies on the qualifying tiers.\n\nIf you are running a serious trading workflow, expect to pair FundedNext with a separate journaling tool (Edgewonk, Tradervue, TraderSync), a charting and alerting platform (TradingView is the default assumption), and your own backtesting environment. The FundedNext account is a capital source, not a trading suite.\n\nThe tradable instruments span forex, commodities, indices, and crypto. That covers the mainstream CFD universe but is narrower than multi-asset firms that also include futures on the same account structure. The site does reference separate CFDs and Futures Discord servers, suggesting the futures product is offered but may sit under different rules and pricing than the Stellar CFD challenges detailed above.\n\n## Where FundedNext Fits And Where It Doesn't\n\nFundedNext makes the most sense for forex-focused CFD traders who want evaluation profit sharing, EA support, and a plausible path to a $200K account with scaling to $4M. Algorithmic traders in particular benefit because the automated trading permission removes a common prop firm friction point.\n\nIt makes less sense for traders whose primary market is US equity futures, in which case Topstep, Apex Trader Funding, or My Funded Futures are more natural comparisons and are all listed as related firms. It also makes less sense for traders who want to test a firm's rule interpretation and platform quality before paying, because there is no free evaluation.\n\nAgainst FTMO, the historical benchmark in this category, FundedNext competes on evaluation profit sharing and the aggressive marketing of payout speed while conceding on operating track record. FTMO has been running the two-phase model since 2015; FundedNext started in 2022. That four-year gap is real risk. Prop firms have changed rules, restructured payouts, or exited markets multiple times in the last two years, and a younger firm has less demonstrated durability across those cycles.\n\n## Before You Pay The Fee\n\nThree questions decide whether FundedNext is right for you. First, are you a consistent enough trader that evaluation profit sharing is a realistic revenue stream, or are you buying lottery tickets against passing? Second, does your market and strategy actually fit CFDs on forex, commodities, indices, and crypto rather than futures? Third, are you comfortable paying a firm founded in 2022 rather than one with a decade-plus of continuous operation?\n\nIf all three answers point toward FundedNext, the Stellar $50K tier at $299 is probably the right entry point: it is the smallest account where EA support is explicitly called out, and the fee is low enough to treat as a test of the workflow before committing to the $549 or $999 tiers. If any of those three answers give you pause, spend some time reading current Trustpilot and forum feedback on FundedNext payout timing and rule enforcement before you spend the fee.",
   "logo_url": "/logos/funded-next.svg",
   "screenshots": [],
   "website_url": "https://fundednext.com",
@@ -129,17 +129,19 @@
     "crypto"
   ],
   "pros": [
-    "Profit sharing during evaluation phases before being fully funded",
-    "Up to 90% profit split with scaling to $4 million in capital",
-    "Allows expert advisors and fully automated trading strategies",
-    "Competitive one-time challenge fees across six account sizes",
-    "Transparent rules with a clear, easy-to-read performance dashboard"
+    "Profit sharing during evaluation phases, not just after funding",
+    "Up to 90% profit split with scaling path to $4M in capital",
+    "EA and fully automated trading permitted on qualifying tiers",
+    "One-time challenge fee with no monthly subscription costs",
+    "24/7 multilingual support in 44 languages across five global hubs",
+    "Transparent drawdown rules: 5% daily loss and 10% overall loss caps"
   ],
   "cons": [
-    "Founded in 2022, limited long-term track record compared to established firms",
-    "No free trial or demo evaluation available before purchasing a challenge",
-    "Customer support can be slow during high-demand periods",
-    "Fewer tradable instruments than some multi-asset prop firm competitors"
+    "Founded in 2022, shorter track record than FTMO, Topstep, or The5ers",
+    "No free trial or demo evaluation before committing the challenge fee",
+    "Customer support reportedly slower during high-demand periods",
+    "Narrower instrument list than multi-asset prop firms that include futures on same accounts",
+    "No built-in journaling, backtesting, AI analysis, or API access"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -153,10 +155,11 @@
   "company": "FundedNext Ltd",
   "headquarters": "Dubai, UAE",
   "best_for": [
-    "forex traders seeking funded institutional capital",
-    "algorithmic and EA-based traders",
-    "traders who want evaluation profit sharing",
-    "experienced traders looking to scale to large accounts"
+    "Forex and CFD traders seeking funded institutional capital",
+    "Algorithmic and EA-based traders needing automation permission",
+    "Consistent traders who want profit sharing during evaluation",
+    "Experienced traders targeting scaling to $200K+ accounts",
+    "International traders needing 24/7 multilingual support"
   ],
   "similar_tools": [
     "ftmo",
@@ -164,8 +167,39 @@
     "the5ers",
     "apex-trader-funding"
   ],
-  "last_updated": "2026-03-10",
+  "last_updated": "2026-07-18",
   "review_status": "published",
-  "meta_title": "FundedNext Review 2026",
-  "meta_description": "Dubai-based prop firm offering funded accounts up to $200K through 1 and 2-phase challenges with up to 90% profit splits and profit-sharing during."
+  "meta_title": "FundedNext Review 2026: Prop Firm Honest Analysis",
+  "meta_description": "Honest 2026 FundedNext review: Stellar challenge pricing from $49, evaluation profit sharing, 24hr payout claims, EA support, and the real trade-offs.",
+  "company_background": "FundedNext Ltd is a Dubai-based prop trading firm founded in 2022 that offers funded CFD accounts up to $200K through 1-phase and 2-phase evaluations. The company reports over 600 team members across five global offices serving traders in 170+ countries, with a stated $306.9M in total rewards paid to date.",
+  "scraped_features": [
+    "Stellar $6K account for $49 one-time fee",
+    "Stellar $200K account for $999 one-time fee",
+    "Two-phase evaluation with 10% Phase 1 and 5% Phase 2 targets",
+    "Up to 90% profit split on funded accounts",
+    "Profit sharing during evaluation phases",
+    "5% max daily loss and 10% max overall loss rules",
+    "Scaling plan up to $4M in capital",
+    "EA and automated trading allowed on $50K+ tiers",
+    "Custom indicators supported",
+    "Mobile app for account monitoring",
+    "Broker integration with performance analytics dashboard",
+    "24/7 support across five global hubs",
+    "Support available in 44 languages",
+    "Discord community with separate CFDs and Futures servers",
+    "YouTube community channel with trader stories",
+    "Claimed 4-hour average payout processing time",
+    "Claimed 99.99% of payouts processed within 24 hours",
+    "Markets covered: forex, commodities, indices, crypto",
+    "One-time challenge fee with no recurring costs",
+    "Reported 55% repeat reward rate for funded traders"
+  ],
+  "social_links": {
+    "twitter": "https://x.com/fundednext",
+    "youtube": "https://www.youtube.com/@FundedNext",
+    "facebook": "https://www.facebook.com/fundednext",
+    "instagram": "https://www.instagram.com/fundednext",
+    "discord": "https://discord.com/invite/XfcJytXGDC"
+  },
+  "enriched_at": "2026-07-18"
 }
