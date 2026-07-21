@@ -409,3 +409,13 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `e5fba51` was pushed; Vercel production deployment `dpl_4oJP96ptefQqHsyVYNmNvyKdwLCS` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Twelfth Set Released
+
+- Twelfth set released to production: `/categories/brokers-forex/`, `/categories/trading-bots/`, `/categories/news-data-feeds/`, `/categories/trading-indicators/`.
+- Work performed: rebuilt four remaining category hubs with hand-written buyer workflow guidance, risk/cost cautions, decision tables, official source context and internal links into forex broker, trading bot, market-data/news and indicator clusters.
+- Static migration updated so all four category hubs are served from locked public HTML.
+- Final locked local build passed with 1,982 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `cb84ffd` was pushed; Vercel production deployment `dpl_63BBxQmzb7aDchkrjWZEB81CPPQ2` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
