@@ -419,3 +419,14 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `cb84ffd` was pushed; Vercel production deployment `dpl_63BBxQmzb7aDchkrjWZEB81CPPQ2` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Thirteenth Set Released
+
+- Thirteenth set released to production: `/best/best-trading-bots/`, `/best/best-news-data-feeds/`, `/best/best-trading-indicators/`, `/categories/risk-management/`.
+- Work performed: rebuilt three best pages and the risk-management category hub with hand-written workflow guidance, source-backed cautions, decision tables, internal links and refreshed metadata.
+- Static migration updated so all four routes are served from locked public HTML.
+- Sitemap correction: removed the old suppression for `/best/best-trading-indicators/` after the upgraded page passed sitemap/canonical/content checks.
+- Final locked local build passed with 1,978 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `69f843e` was pushed; Vercel production deployment `dpl_B3SQe5Ce8hKcoWeUwr4QnpJeigv4` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
