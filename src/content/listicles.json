@@ -449,7 +449,14 @@
       "cryptohopper",
       "insideredge"
     ],
-    "last_updated": "2026-05-08"
+    "meta_description": "Compare the best AI trading tools for 2026 by workflow: scanners, chart automation, trading journals, quant research and insider signals.",
+    "official_sources": [
+      { "title": "Trade Ideas pricing", "url": "https://www.trade-ideas.com/pricing/" },
+      { "title": "Trade Ideas Holly AI", "url": "https://www.trade-ideas.com/ti-ai-virtual-trade-assistant/" },
+      { "title": "TrendSpider pricing", "url": "https://trendspider.com/pricing/" },
+      { "title": "QuantConnect pricing", "url": "https://www.quantconnect.com/pricing/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-prop-firms-futures",
@@ -659,7 +666,14 @@
       "thinkorswim-options",
       "insideredge"
     ],
-    "last_updated": "2026-05-08"
+    "meta_description": "Compare the best options flow tools for 2026 by tape quality, filters, alerts, context, pricing and whether the signal is actually tradable.",
+    "official_sources": [
+      { "title": "Unusual Whales options flow feed FAQ", "url": "https://unusualwhales.com/faq/what-is-the-options-flow-feed" },
+      { "title": "Unusual Whales pricing", "url": "https://unusualwhales.com/pricing" },
+      { "title": "Unusual Whales options flow documentation", "url": "https://docs.unusualwhales.com/features/2-options-flow/" },
+      { "title": "FlowAlgo product page", "url": "https://flowalgo.com/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-charting-software-day-trading",
@@ -675,7 +689,15 @@
       "bookmap",
       "trendspider",
       "tc2000"
-    ]
+    ],
+    "meta_description": "Compare the best charting software for day trading by chart speed, alerts, market data, order-flow tools, execution fit and paid add-ons.",
+    "official_sources": [
+      { "title": "TradingView pricing", "url": "https://www.tradingview.com/pricing/" },
+      { "title": "TradingView alerts documentation", "url": "https://www.tradingview.com/support/solutions/43000520149-introduction-to-tradingview-alerts/" },
+      { "title": "NinjaTrader pricing", "url": "https://ninjatrader.com/pricing/" },
+      { "title": "Bookmap packages comparison", "url": "https://bookmap.com/packages-comparison/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-brokers-day-trading",
@@ -723,7 +745,14 @@
       "finviz",
       "tradertrac"
     ],
-    "last_updated": "2026-05-08"
+    "meta_description": "Compare the best insider trading tools for 2026 by filing coverage, Congress data, cluster detection, trade direction and alert quality.",
+    "official_sources": [
+      { "title": "InsiderEdge platform", "url": "https://tradertrac.com/edge" },
+      { "title": "Unusual Whales features", "url": "https://unusualwhales.com/features" },
+      { "title": "TipRanks plans", "url": "https://www.tipranks.com/plans" },
+      { "title": "Finviz insider screener", "url": "https://finviz.com/screener.ashx" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-tradingview-indicators",
