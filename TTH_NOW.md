@@ -46,6 +46,7 @@
 
 - Stage 2 has continued through seven sets. Latest released set: `/alternatives/ally-invest/`, `/alternatives/jp-morgan/`, `/alternatives/td-ameritrade/`, and `/alternatives/stockcharts/` rebuilt as locked static alternatives pages with official source links, deployed in Vercel production deployment `dpl_qZbdvc3VQeyi1yJr6TrxCfaP1NeR`, and live-verified on `tradingtoolshub.com`.
 - Stage 2 eighth set is released: `/best/best-prop-firms-futures/`, `/review/chartlog/`, `/review/journalytix/`, and `/review/marketsmith/` rebuilt as locked static pages with official source links, stale URL corrections, deployed in Vercel production deployment `dpl_EaJ3ypaUeAC82kXC5zPNBChhTuXd`, and live-verified on `tradingtoolshub.com`.
+- Stage 2 fifteenth set is released: `/best/best-ai-trading-tools/`, `/best/best-options-flow-tools/`, `/best/best-charting-software-day-trading/`, and `/best/best-insider-trading-tools/` rebuilt as locked static best pages with official source links and signal/workflow guidance, deployed in Vercel production deployment `dpl_AmLmSqRaENdVkdLshSxiGo3wRWSp`, and live-verified on `tradingtoolshub.com`.
 - Continue Stage 2 with high-value pages from the recovery plan, especially the remaining thin alternatives, stale comparison pages, `/best/best-prop-firms-futures/`, and internal-link reinforcement.
 - Keep broad content generation paused. Continue quality recovery, build checks, live verification and memory updates.
 
