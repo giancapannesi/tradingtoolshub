@@ -377,3 +377,14 @@ Full durable record:
 - Final locked build passed with 2,005 generated pages after moving these four routes out of dynamic generation.
 - Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all four pages.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Ninth Set Released
+
+- Ninth set released to production: `/compare/journalytix-vs-kinfo/`, `/compare/journalytix-vs-tradersync/`, `/compare/tradesviz-vs-tradingdiary-pro/`, `/compare/chartlog-vs-journalytix/`.
+- Work performed: rebuilt four journal comparison pages with hand-written workflow guidance, source links, decision tables, pricing notes and internal links into the trading-journal cluster.
+- Data corrections: Kinfo pricing updated to official Free, Pro $24.90/mo and Pro+ $44.90/mo; TradesViz updated to current Basic free, Pro $19.99/mo and Platinum $39.99/mo positioning.
+- Static migration updated so all four comparison pages are served from locked public HTML.
+- Final locked build passed with 1,994 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `391f382` was pushed; Vercel production deployment `dpl_HG6xQe3MVEnPnet53fX6vacgxBYo` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
