@@ -388,3 +388,14 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `391f382` was pushed; Vercel production deployment `dpl_HG6xQe3MVEnPnet53fX6vacgxBYo` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Tenth Set Released
+
+- Tenth set released to production: `/alternatives/tradezella/`, `/alternatives/tradersync/`, `/alternatives/tradesviz/`, `/alternatives/edgewonk/`.
+- Work performed: rebuilt four journal alternatives pages with hand-written decision guidance, current pricing/feature context, source links, TraderTrac positioning and internal links into the trading-journal cluster.
+- Data corrections: TradeZella pricing updated to Essential $35/mo, Pro $59/mo and Ultra $99/mo; TraderSync pricing updated to Pro $29.95/mo, Premium $49.95/mo and Elite $79.95/mo; TradesViz Platinum corrected to $29.99/mo; Edgewonk pricing and feature notes updated from official source checks.
+- Static migration updated so all four alternatives pages are served from locked public HTML.
+- Final locked build passed with 1,990 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `3a653df` was pushed; Vercel production deployment `dpl_EfMC99eZDrsWFJoB9o9nEUuKuruk` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
