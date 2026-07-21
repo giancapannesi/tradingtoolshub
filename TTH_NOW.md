@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-21 — BATCH 001 STATIC REVIEW RECOVERY
+
+### Phase-one status
+
+- Active branch: `agent/static-html-batch-01`.
+- Broad content publishing/generation remains paused during TTH quality recovery. RSS/feed serving is fine; do not disable `/feed.xml`.
+- Batch 001 contains 20 review pages. All 20 now have isolated static review pages rather than relying on the quarantined shared-outline output.
+- First nine review pages were committed, pushed and deployed to production in `bb595eded544f8fd3519bb410a61842fdfd4a642`: `/review/tradeify/`, `/review/lucid-trading/`, `/review/alpha-futures/`, `/review/edgewonk/`, `/review/trademetria/`, `/review/tradersync/`, `/review/funded-trading-plus/`, `/review/city-traders-imperium/`, `/review/fxify/`.
+- Remaining eleven completed in phase one: `/review/tradovate/`, `/review/coinrule/`, `/review/kinfo/`, `/review/bitsgap/`, `/review/3commas/`, `/review/option-alpha/`, `/review/interactive-brokers/`, `/review/insiderfinance/`, `/review/ic-markets/`, `/review/funded-next-futures/`, `/review/fidelity/`.
+- Final local build after restoring all 20 static review slugs passed with 2,026 pages.
+- Verification completed locally: all 20 phase-one review pages exist in `public` and `dist`, all 20 public/dist hashes match, and all 20 are in `dist/sitemap-0.xml`.
+- Recovery memory ledger/action log: `/srv/BusinessOps/TradingToolsHub_SEO/TradingToolsHub Recovery/`.
+
+### Rules carried forward
+
+- Do not restart broad TTH feed/content generation without founder approval. Quality recovery means improve pages, internal links, titles, metas and schema.
+- Do not use static queues as strategy. Use live GSC/traffic/business evidence and Codex/OpenAI-first workflows.
+- Do not overwrite founder-protected or previously reviewed pages through bulk automation.
+- Do not touch keyring.
+- Next work after phase-one release is Batch 002 quality recovery and monitoring, not volume publishing.
+
+---
+
 ## 2026-07-13 — RECOVERY PLAN CHECKPOINT
 
 ### Current production evidence
