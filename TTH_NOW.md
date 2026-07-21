@@ -338,3 +338,12 @@ Full durable record:
 - Final locked build passed with 2,020 generated pages after moving these four routes out of dynamic generation.
 - Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Third Set Ready
+
+- Third set prepared for release: `/compare/tradertrac-vs-tradezella/`, `/compare/tradersync-vs-tradertrac/`, `/compare/edgewonk-vs-tradertrac/`, `/compare/financialtechwiz-vs-tradertrac/`.
+- Work performed: added hand-written comparison bodies focused on TraderTrac buyer intent, competitor positioning, journaling workflow fit, broker-import context, review discipline, and internal links into the trading-journal cluster.
+- Static migration updated so the four reviewed comparison pages are served from locked public HTML instead of dynamic generated comparison copy.
+- Final locked build passed with 2,016 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.

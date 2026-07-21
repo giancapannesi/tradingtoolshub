@@ -65,6 +65,7 @@
     "charles-schwab-vs-jp-morgan",
     "charles-schwab-vs-robinhood",
     "charles-schwab-vs-td-ameritrade",
+    "edgewonk-vs-tradertrac",
     "etrade-vs-jp-morgan",
     "etrade-vs-robinhood",
     "etrade-vs-tastytrade",
@@ -72,6 +73,7 @@
     "fidelity-vs-interactive-brokers",
     "fidelity-vs-jp-morgan",
     "fidelity-vs-robinhood",
+    "financialtechwiz-vs-tradertrac",
     "insiderfinance-vs-optionsstrat",
     "insiderfinance-vs-unusual-whales",
     "jp-morgan-vs-robinhood",
@@ -79,6 +81,8 @@
     "power-etrade-vs-thinkorswim-options",
     "public-com-vs-robinhood",
     "robinhood-vs-webull",
+    "tradersync-vs-tradertrac",
+    "tradertrac-vs-tradezella",
     "tradingview-vs-trendspider"
   ],
   "alternatives": [
