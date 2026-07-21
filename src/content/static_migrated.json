@@ -96,13 +96,17 @@
     "tradingview-vs-trendspider"
   ],
   "categories": [
+    "brokers-forex",
     "brokers-us",
     "charting-platforms",
     "futures-platforms",
+    "news-data-feeds",
     "options-platforms",
     "prop-firms",
     "stock-screeners",
+    "trading-bots",
     "trading-education",
+    "trading-indicators",
     "trading-journals"
   ],
   "alternatives": [
