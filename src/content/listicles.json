@@ -13,7 +13,15 @@
       "3commas",
       "cryptohopper",
       "tradesanta"
-    ]
+    ],
+    "meta_description": "Compare the best trading bots for 2026 by automation model, custody, API risk, backtesting and workflow fit across crypto, MT5 and systematic trading.",
+    "official_sources": [
+      { "title": "3Commas crypto trading bot pricing", "url": "https://3commas.io/pricing" },
+      { "title": "Cryptohopper pricing", "url": "https://www.cryptohopper.com/pricing" },
+      { "title": "Pionex trading fees", "url": "https://www.pionex.com/en/fees" },
+      { "title": "Bitsgap pricing", "url": "https://bitsgap.com/pricing" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-free-trading-bots",
@@ -47,7 +55,14 @@
       "alpha-vantage",
       "insideredge"
     ],
-    "last_updated": "2026-05-08"
+    "last_updated": "2026-07-21",
+    "meta_description": "Compare the best market data and news feeds for 2026 by latency, API access, coverage, decision workflow and pricing fit.",
+    "official_sources": [
+      { "title": "Bloomberg Terminal product page", "url": "https://professional.bloomberg.com/products/bloomberg-terminal/" },
+      { "title": "Polygon.io market data API", "url": "https://polygon.io/" },
+      { "title": "Alpha Vantage premium API plans", "url": "https://www.alphavantage.co/premium/" },
+      { "title": "Trading Economics API pricing", "url": "https://tradingeconomics.com/api/pricing.aspx" }
+    ]
   },
   {
     "slug": "best-free-news-data-feeds",
@@ -758,6 +773,14 @@
       "Value for money",
       "Customization depth",
       "Backtesting support"
-    ]
+    ],
+    "meta_description": "Compare the best trading indicator platforms for 2026 by signal clarity, TradingView support, alerts, backtesting and practical risk fit.",
+    "official_sources": [
+      { "title": "TradingView Pine Script documentation", "url": "https://www.tradingview.com/pine-script-docs/welcome/" },
+      { "title": "LuxAlgo pricing and features", "url": "https://www.luxalgo.com/pricing" },
+      { "title": "ChartPrime indicator documentation", "url": "https://chartprime.com/strategies" },
+      { "title": "Trading Central Technical Insight", "url": "https://www.tradingcentral.com/tc-products/tc-technical-insight" }
+    ],
+    "last_updated": "2026-07-21"
   }
 ]
