@@ -430,3 +430,14 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `69f843e` was pushed; Vercel production deployment `dpl_B3SQe5Ce8hKcoWeUwr4QnpJeigv4` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fourteenth Set Released
+
+- Fourteenth set released to production: `/best/best-free-trading-bots/`, `/best/best-free-news-data-feeds/`, `/best/best-tradingview-indicators/`, `/best/best-free-tradingview-indicators/`.
+- Work performed: rebuilt four best pages with hand-written free-tool limitation guidance, TradingView indicator/repaint cautions, official source context, workflow-fit decision tables and internal links into bot/data/indicator clusters.
+- Static migration updated so all four routes are served from locked public HTML.
+- Sitemap correction: removed the old suppression for `/best/best-free-tradingview-indicators/` after the upgraded page passed sitemap/canonical/content checks.
+- Final locked local build passed with 1,974 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `96a56ff` was pushed; Vercel production deployment `dpl_AhVETxhgisyn8YwR6c7gUPXRprR1` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
