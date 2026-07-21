@@ -327,3 +327,14 @@ Full durable record:
 - Vercel secrets saved at `tools/.vercel-secrets.env` (chmod 600).
 - Indexing cron: daily 08:30 UTC, max 30 URLs/day.
 - Robots.txt fully open to all AI crawlers. llms.txt comprehensive (1,837 lines).
+
+---
+
+## 2026-07-21 — Stage 2 Second Set Ready
+
+- Stage 2 first set is already production verified: `/review/polygon-io/`, `/best/best-stock-screeners/`, `/best/best-risk-management/`, `/best/prop-firm-deals/`.
+- Second set prepared for release: `/review/finviz/`, `/review/tradingview/`, `/best/best-trading-journals/`, `/alternatives/tradertrac/`.
+- Work performed: added source-backed hand-written Finviz and TradingView review bodies, expanded the trading-journal hub, added hand-written TraderTrac alternatives guidance, corrected stale Finviz trial language, added first-party source links, shortened/cleaned metadata, and locked all four pages as static public HTML.
+- Final locked build passed with 2,020 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
