@@ -165,7 +165,15 @@
       "bear-bull-traders",
       "investopedia-academy",
       "warrior-trading"
-    ]
+    ],
+    "meta_description": "Compare the best trading education platforms by curriculum, feedback, market focus, cost transparency and realistic practice workflow.",
+    "official_sources": [
+      { "title": "Investopedia trading basics", "url": "https://www.investopedia.com/trading-basic-education-4689651" },
+      { "title": "tastylive courses", "url": "https://www.tastylive.com/learn-courses" },
+      { "title": "Warrior Trading memberships", "url": "https://www.warriortrading.com/memberships/" },
+      { "title": "SMB Capital", "url": "https://smbcap.com/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-free-trading-education",
@@ -177,7 +185,15 @@
       "investopedia",
       "tastylive",
       "warrior-trading"
-    ]
+    ],
+    "meta_description": "Compare the best free trading education resources by beginner fit, risk coverage, practice path and whether the content leads to a process.",
+    "official_sources": [
+      { "title": "Investopedia trading basics", "url": "https://www.investopedia.com/trading-basic-education-4689651" },
+      { "title": "tastylive Learn Center", "url": "https://learn.tastylive.com/" },
+      { "title": "tastytrade courses", "url": "https://tastytrade.com/tastytrade-courses/" },
+      { "title": "Warrior Trading free guide", "url": "https://www.warriortrading.com/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-stock-screeners",
@@ -208,7 +224,15 @@
       "trade-ideas",
       "stock-rover",
       "zacks"
-    ]
+    ],
+    "meta_description": "Compare free stock screeners by filter depth, data limits, research workflow, upgrade triggers and fit for swing or day trading.",
+    "official_sources": [
+      { "title": "Finviz screener", "url": "https://finviz.com/screener" },
+      { "title": "Zacks stock screener", "url": "https://www.zacks.com/products/index.php//stock/screener/" },
+      { "title": "Stock Rover free account", "url": "https://www.stockrover.com/plans/free/register/" },
+      { "title": "Stock Rover free vs paid membership", "url": "https://www.stockrover.com/support-database/what-is-the-difference-between-free-and-paid-membership/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-charting-platforms",
@@ -238,7 +262,16 @@
       "thinkorswim",
       "bookmap",
       "multicharts"
-    ]
+    ],
+    "meta_description": "Compare the best free charting platforms by chart workflow, data limits, alerts, layouts, broker access and upgrade triggers.",
+    "official_sources": [
+      { "title": "TradingView pricing", "url": "https://www.tradingview.com/pricing/" },
+      { "title": "TradingView data coverage", "url": "https://www.tradingview.com/data-coverage/" },
+      { "title": "Schwab thinkorswim platform", "url": "https://www.schwab.com/trading/thinkorswim" },
+      { "title": "Bookmap packages comparison", "url": "https://bookmap.com/packages-comparison/" },
+      { "title": "MultiCharts purchase page", "url": "https://www.multicharts.com/purchase/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-brokers-us",
