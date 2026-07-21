@@ -399,3 +399,13 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `3a653df` was pushed; Vercel production deployment `dpl_EfMC99eZDrsWFJoB9o9nEUuKuruk` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Eleventh Set Released
+
+- Eleventh set released to production: `/categories/brokers-us/`, `/categories/options-platforms/`, `/categories/futures-platforms/`, `/categories/trading-education/`.
+- Work performed: rebuilt four category hubs with hand-written buyer workflow guidance, decision tables, official source context and internal links into broker/options/futures/education clusters.
+- Static migration updated so all four category hubs are served from locked public HTML.
+- Final locked local build passed with 1,986 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `e5fba51` was pushed; Vercel production deployment `dpl_4oJP96ptefQqHsyVYNmNvyKdwLCS` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
