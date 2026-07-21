@@ -85,7 +85,6 @@ export default defineConfig({
       const url = new URL(page);
       const path = url.pathname;
       if (/^\/blog\/\d+\/$/.test(path)) return false;
-      if (path === '/best/best-free-tradingview-indicators/') return false;
       return true;
     },
     serialize(item) {

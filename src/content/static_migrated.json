@@ -131,7 +131,10 @@
   "best": [
     "best-brokers-us",
     "best-charting-platforms",
+    "best-free-news-data-feeds",
+    "best-free-trading-bots",
     "best-free-trading-journals",
+    "best-free-tradingview-indicators",
     "best-futures-platforms",
     "best-news-data-feeds",
     "best-prop-firms",
@@ -142,6 +145,7 @@
     "best-trading-indicators",
     "best-trading-journals",
     "best-trading-tools-beginners",
+    "best-tradingview-indicators",
     "cheapest-prop-firms",
     "no-challenge-prop-firms",
     "prop-firms-us-traders"

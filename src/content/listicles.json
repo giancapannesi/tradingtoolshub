@@ -37,7 +37,15 @@
       "3commas",
       "cryptohopper",
       "tradesanta"
-    ]
+    ],
+    "meta_description": "Compare the best free trading bots for 2026 by real cost, platform limits, automation model, backtesting and risk control.",
+    "official_sources": [
+      { "title": "MetaTrader 5 Expert Advisors help", "url": "https://www.metatrader5.com/en/terminal/help/algotrading/trade_robots_indicators" },
+      { "title": "MetaTrader 5 strategy testing help", "url": "https://www.metatrader5.com/en/terminal/help/algotrading/testing" },
+      { "title": "QuantConnect pricing", "url": "https://www.quantconnect.com/pricing/" },
+      { "title": "Pionex trading fees", "url": "https://www.pionex.com/en/fees" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-news-data-feeds",
@@ -76,7 +84,15 @@
       "tipranks",
       "seeking-alpha",
       "alpha-vantage"
-    ]
+    ],
+    "meta_description": "Compare free market data and news feeds for 2026 by API limits, dashboards, research depth, latency and upgrade triggers.",
+    "official_sources": [
+      { "title": "Alpha Vantage support and API limits", "url": "https://www.alphavantage.co/support/" },
+      { "title": "Koyfin pricing", "url": "https://www.koyfin.com/pricing/" },
+      { "title": "Seeking Alpha subscription plans", "url": "https://seekingalpha.com/subscriptions" },
+      { "title": "TipRanks membership plans", "url": "https://www.tipranks.com/plans" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-prop-firms",
@@ -730,7 +746,15 @@
       "Value for money",
       "TradingView integration quality",
       "Backtesting compatibility"
-    ]
+    ],
+    "meta_description": "Compare the best TradingView indicators for 2026 by signal purpose, repaint risk, alerts, Pine Script support and practical workflow fit.",
+    "official_sources": [
+      { "title": "TradingView Pine Script documentation", "url": "https://www.tradingview.com/pine-script-docs/welcome/" },
+      { "title": "TradingView Community Scripts", "url": "https://www.tradingview.com/scripts/" },
+      { "title": "LuxAlgo pricing and features", "url": "https://www.luxalgo.com/pricing" },
+      { "title": "ChartPrime strategies documentation", "url": "https://chartprime.com/strategies" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-free-tradingview-indicators",
@@ -750,7 +774,15 @@
       "Works across timeframes",
       "Community support",
       "Pine Script quality"
-    ]
+    ],
+    "meta_description": "Compare the best free TradingView indicators for 2026, including built-ins, Community Scripts, VWAP, RSI, MACD, ATR and simple chart workflows.",
+    "official_sources": [
+      { "title": "TradingView Pine Script documentation", "url": "https://www.tradingview.com/pine-script-docs/welcome/" },
+      { "title": "TradingView Community Scripts", "url": "https://www.tradingview.com/scripts/" },
+      { "title": "TradingView community scripts support", "url": "https://www.tradingview.com/support/solutions/43000558522-what-are-community-scripts/" },
+      { "title": "TradingView featured scripts", "url": "https://www.tradingview.com/scripts/editors-picks/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-trading-indicators",
