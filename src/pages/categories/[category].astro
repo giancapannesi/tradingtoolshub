@@ -2,18 +2,28 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import { getCategories, getToolsByCategory, getListicles, getComparisons, getToolBySlug } from '../../utils/data';
+import staticMigrated from '../../content/static_migrated.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export function getStaticPaths() {
+  const migrated = new Set((staticMigrated as any).categories || []);
   const categories = getCategories();
-  return categories.map(cat => ({
-    params: { category: cat.slug },
-    props: { category: cat },
-  }));
+  return categories
+    .filter(cat => !migrated.has(cat.slug))
+    .map(cat => ({
+      params: { category: cat.slug },
+      props: { category: cat },
+    }));
 }
 
 const { category } = Astro.props;
 const tools = getToolsByCategory(category.slug);
 const allCategories = getCategories();
+const editorialHtmlPath = path.join(process.cwd(), 'src/content/category-html', `${category.slug}.html`);
+const editorialHtml = fs.existsSync(editorialHtmlPath)
+  ? fs.readFileSync(editorialHtmlPath, 'utf-8')
+  : '';
 
 // Related category mapping for cross-linking
 const relatedMap: Record<string, string[]> = {
@@ -102,6 +112,10 @@ const jsonLd = [
       <p class="text-lg text-muted max-w-2xl">{category.description}</p>
       <p class="text-sm text-muted mt-2">{tools.length} tools compared</p>
     </div>
+
+    {editorialHtml && (
+      <article class="article-content mb-10 category-editorial-html" set:html={editorialHtml} />
+    )}
 
     {tools.length === 0 ? (
       <div class="bg-card border border-border rounded-xl p-12 text-center">

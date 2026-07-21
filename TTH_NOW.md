@@ -347,3 +347,13 @@ Full durable record:
 - Final locked build passed with 2,016 generated pages after moving these four routes out of dynamic generation.
 - Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fourth Set Ready
+
+- Fourth set prepared for release: `/categories/trading-journals/`, `/categories/stock-screeners/`, `/categories/charting-platforms/`, `/categories/prop-firms/`.
+- Work performed: added hand-written category hub sections with buyer-intent guidance, workflow-based decision criteria, inline links to recovered reviews/listicles/comparisons, and clearer ownership for high-value topic clusters.
+- Category pages now support optional editorial HTML from `src/content/category-html/`, and the four reviewed category hubs are locked in `public/categories/`.
+- Static migration updated so these four category hubs are served from locked public HTML instead of dynamic category output.
+- Final locked build passed with 2,012 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.

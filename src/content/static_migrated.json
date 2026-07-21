@@ -85,6 +85,12 @@
     "tradertrac-vs-tradezella",
     "tradingview-vs-trendspider"
   ],
+  "categories": [
+    "charting-platforms",
+    "prop-firms",
+    "stock-screeners",
+    "trading-journals"
+  ],
   "alternatives": [
     "bloomberg-terminal",
     "bookmap",
