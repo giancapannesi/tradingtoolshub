@@ -366,3 +366,12 @@ Full durable record:
 - Final locked build passed with 2,009 generated pages after moving these three review routes out of dynamic generation.
 - Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all review pages.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Sixth Set Ready
+
+- Sixth set prepared for release: `/alternatives/charles-schwab/`, `/alternatives/etrade/`, `/alternatives/fidelity/`, `/alternatives/interactive-brokers/`.
+- Work performed: added hand-written broker alternatives guidance with use-case tables, switch/stay logic, decision checklists and internal links into the broker review/comparison cluster.
+- Static migration updated so these four alternatives pages are served from locked public HTML instead of thin dynamic alternatives output.
+- Final locked build passed with 2,005 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.

@@ -97,6 +97,10 @@
   "alternatives": [
     "bloomberg-terminal",
     "bookmap",
+    "charles-schwab",
+    "etrade",
+    "fidelity",
+    "interactive-brokers",
     "tradertrac",
     "warrior-trading"
   ],
