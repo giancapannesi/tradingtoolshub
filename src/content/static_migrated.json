@@ -95,12 +95,16 @@
     "trading-journals"
   ],
   "alternatives": [
+    "ally-invest",
     "bloomberg-terminal",
     "bookmap",
     "charles-schwab",
     "etrade",
     "fidelity",
     "interactive-brokers",
+    "jp-morgan",
+    "stockcharts",
+    "td-ameritrade",
     "tradertrac",
     "warrior-trading"
   ],

@@ -44,7 +44,8 @@
 
 ### Stage-two carry-forward
 
-- Continue Stage 2 with high-value pages from the recovery plan, especially `/review/finviz/`, `/review/tradingview/`, `/best/best-trading-journals/`, trading-journal alternatives, and internal-link reinforcement.
+- Stage 2 has continued through seven sets. Latest local set: `/alternatives/ally-invest/`, `/alternatives/jp-morgan/`, `/alternatives/td-ameritrade/`, and `/alternatives/stockcharts/` rebuilt as locked static alternatives pages with official source links and accepted locally.
+- Continue Stage 2 with high-value pages from the recovery plan, especially the remaining thin alternatives, stale comparison pages, `/best/best-prop-firms-futures/`, and internal-link reinforcement.
 - Keep broad content generation paused. Continue quality recovery, build checks, live verification and memory updates.
 
 ---
