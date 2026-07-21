@@ -106,6 +106,7 @@
     "bloomberg-terminal",
     "bookmap",
     "charles-schwab",
+    "edgewonk",
     "etrade",
     "fidelity",
     "interactive-brokers",
@@ -113,6 +114,9 @@
     "stockcharts",
     "td-ameritrade",
     "tradertrac",
+    "tradersync",
+    "tradesviz",
+    "tradezella",
     "warrior-trading"
   ],
   "best": [

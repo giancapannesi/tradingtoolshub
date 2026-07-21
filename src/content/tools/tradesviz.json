@@ -24,36 +24,37 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Free stock journaling",
-          "Broker imports",
-          "Dashboards",
-          "Tagging",
-          "Notes",
-          "Basic reports"
+          "Free forever",
+          "Essential journaling",
+          "Import capabilities",
+          "Basic analytics"
         ]
       },
       {
         "name": "Pro",
         "price_monthly": 19.99,
-        "price_yearly": 179.91,
+        "price_yearly": 179.88,
         "features": [
-          "More asset support",
-          "Advanced analytics",
-          "Custom dashboards",
-          "Trade planning",
-          "Enhanced reports"
+          "All asset type imports",
+          "100+ charts",
+          "Advanced filtering",
+          "Grid features",
+          "Extended data retention",
+          "7-day trial"
         ]
       },
       {
         "name": "Platinum",
-        "price_monthly": 39.99,
-        "price_yearly": 359.91,
+        "price_monthly": 29.99,
+        "price_yearly": 269.88,
         "features": [
-          "Advanced modules",
-          "Replay and simulators",
+          "AI Coach Trading Review",
           "AI Q&A",
+          "Simulators for all assets",
+          "600+ statistics",
+          "Custom dashboards",
           "Options flow",
-          "Priority features"
+          "7-day trial"
         ]
       }
     ],
@@ -84,15 +85,15 @@
     "crypto"
   ],
   "pros": [
-    "Free stock journaling with real dashboards and reports",
-    "Broad feature set including replay, simulators, AI Q&A and options flow",
-    "Strong web-based analytics for multi-asset traders",
-    "Wide import support and flexible dashboards"
+    "Free Basic plan for essential journaling and imports",
+    "Pro plan covers all asset type imports with advanced charts and filters",
+    "Platinum adds AI review, AI Q&A, simulators, options flow and 600+ statistics",
+    "Strong value for traders who want dense analytics"
   ],
   "cons": [
-    "Feature depth can feel busy for beginners",
-    "Advanced asset classes and modules require paid plans",
-    "Cloud workflow may not fit traders who want local-only data"
+    "Feature density can feel busy for simple journaling",
+    "Advanced analytics and simulators require paid plans",
+    "Cloud workflow may not suit traders who want local-only storage"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -117,6 +118,8 @@
   ],
   "last_updated": "2026-07-21",
   "review_status": "published",
-  "meta_title": "TradesViz Review 2026 | Web Trading Journal",
-  "meta_description": "TradesViz reviewed for free stock journaling, Pro and Platinum plans, dashboards, replay, simulators, AI Q&A and active trader fit."
+  "meta_title": "TradesViz Review 2026: Free Journal, Pro, Platinum",
+  "meta_description": "TradesViz reviewed for free Basic journaling, Pro and Platinum pricing, imports, dashboards, AI review, simulators, options flow and alternatives.",
+  "alt_meta_title": "Best TradesViz Alternatives 2026: Journals Compared",
+  "alt_meta_description": "Compare TradesViz alternatives for simpler journaling, AI review, replay, desktop storage, broker sync, pricing and active trader workflow fit."
 }
