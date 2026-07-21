@@ -357,3 +357,12 @@ Full durable record:
 - Final locked build passed with 2,012 generated pages after moving these four routes out of dynamic generation.
 - Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fifth Set Ready
+
+- Fifth set prepared for release: `/prop-firms/`, `/review/tradingeconomics/`, `/review/charles-schwab/`, `/review/etrade/`.
+- Work performed: upgraded the prop-firm landing page with rules-first editorial guidance and internal links; added hand-written Trading Economics, Charles Schwab and E*TRADE review bodies backed by official source pages; locked the three review pages as static public HTML.
+- Static migration updated so the three reviewed broker/data pages are served from locked public HTML instead of dynamic review output.
+- Final locked build passed with 2,009 generated pages after moving these three review routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all review pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
