@@ -442,3 +442,23 @@ Full durable record:
 - Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
 - Content commit `96a56ff` was pushed; Vercel production deployment `dpl_AhVETxhgisyn8YwR6c7gUPXRprR1` is ready and aliased to `https://tradingtoolshub.com`.
 - Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fifteenth Set Released
+
+- Fifteenth set released to production: `/best/best-ai-trading-tools/`, `/best/best-options-flow-tools/`, `/best/best-charting-software-day-trading/`, `/best/best-insider-trading-tools/`.
+- Work performed: rebuilt four best pages with hand-written workflow guidance for AI tools, options-flow interpretation, day-trading chart stacks and insider/Congress signal tools.
+- Static migration updated so all four routes are served from locked public HTML.
+- Final locked local build passed with 1,970 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `8715f62` was pushed; Vercel production deployment `dpl_AmLmSqRaENdVkdLshSxiGo3wRWSp` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Sixteenth Set Released
+
+- Sixteenth set released to production: `/best/best-trading-education/`, `/best/best-free-trading-education/`, `/best/best-free-stock-screeners/`, `/best/best-free-charting-platforms/`.
+- Work performed: rebuilt four best pages with hand-written education, free education, free screener and free charting platform guidance; added source-backed decision tables, workflow cautions, internal links and refreshed metadata.
+- Static migration updated so all four routes are served from locked public HTML.
+- Final locked local build passed with 1,966 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `3eb09f6` was pushed; Vercel production deployment `dpl_Aj4CmKBQdC5QRQrPtqGRx1ZZsqTL` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
