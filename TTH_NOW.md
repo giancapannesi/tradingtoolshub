@@ -13,8 +13,11 @@
 - Batch 001 contains 20 review pages. All 20 now have isolated static review pages rather than relying on the quarantined shared-outline output.
 - First nine review pages were committed, pushed and deployed to production in `bb595eded544f8fd3519bb410a61842fdfd4a642`: `/review/tradeify/`, `/review/lucid-trading/`, `/review/alpha-futures/`, `/review/edgewonk/`, `/review/trademetria/`, `/review/tradersync/`, `/review/funded-trading-plus/`, `/review/city-traders-imperium/`, `/review/fxify/`.
 - Remaining eleven completed in phase one: `/review/tradovate/`, `/review/coinrule/`, `/review/kinfo/`, `/review/bitsgap/`, `/review/3commas/`, `/review/option-alpha/`, `/review/interactive-brokers/`, `/review/insiderfinance/`, `/review/ic-markets/`, `/review/funded-next-futures/`, `/review/fidelity/`.
+- Final phase-one review commit: `1a56f717bbf7d5529891a766fb26dc30e02129f9`.
+- Production deploy completed 2026-07-21: Vercel deployment `dpl_Dqr8YHf96dz6u4YJonAZAc2v9N2g`, aliased to `https://tradingtoolshub.com`.
 - Final local build after restoring all 20 static review slugs passed with 2,026 pages.
 - Verification completed locally: all 20 phase-one review pages exist in `public` and `dist`, all 20 public/dist hashes match, and all 20 are in `dist/sitemap-0.xml`.
+- Verification completed live: all 20 phase-one review URLs return HTTP 200 on `https://tradingtoolshub.com`, and all 20 appear in the live `sitemap-0.xml`.
 - Recovery memory ledger/action log: `/srv/BusinessOps/TradingToolsHub_SEO/TradingToolsHub Recovery/`.
 
 ### Rules carried forward
