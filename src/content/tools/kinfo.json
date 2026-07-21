@@ -6,7 +6,7 @@
     "verified-performance",
     "social-trading"
   ],
-  "description_short": "Automated portfolio tracker and trading journal with verified performance metrics and social sharing for options traders.",
+  "description_short": "Verified trading journal with broker auto-sync, public track records and performance reporting for stock and options traders.",
   "description_long": "Kinfo differentiates itself from other trading journals by focusing on verified performance tracking. When you connect your brokerage account, Kinfo automatically imports and verifies your trades, generating tamper-proof performance metrics including P&L, win rates, Sharpe ratios, and interactive charts.\n\nThe verified performance angle makes Kinfo particularly popular among traders who want to build a track record they can share publicly or use to attract followers. The social features let traders share their verified results, creating a transparent community where performance claims can be validated.\n\nKinfo is especially strong for options and stock traders, offering detailed breakdowns of options strategies, Greeks exposure, and sector allocation. The free tier provides basic tracking, making it accessible for traders who want to start building their verified track record.",
   "logo_url": "/logos/kinfo.svg",
   "screenshots": [],
@@ -24,22 +24,30 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Basic portfolio tracking",
-          "Verified performance",
-          "Public profile",
-          "Limited analytics"
+          "Broker auto sync",
+          "Verified performance tracking",
+          "Basic reports",
+          "Public profile"
         ]
       },
       {
-        "name": "Premium",
-        "price_monthly": 9.99,
-        "price_yearly": 99.99,
+        "name": "Pro",
+        "price_monthly": 24.9,
+        "price_yearly": 298.8,
         "features": [
-          "Advanced analytics",
-          "Sharpe ratio tracking",
-          "Options strategy breakdown",
-          "Custom reports",
-          "Priority support"
+          "Full history",
+          "Priority sync",
+          "Advanced reports"
+        ]
+      },
+      {
+        "name": "Pro+",
+        "price_monthly": 44.9,
+        "price_yearly": 538.8,
+        "features": [
+          "Everything in Pro",
+          "Spread detection",
+          "Excel integration"
         ]
       }
     ],
@@ -98,8 +106,8 @@
     "tradertrac",
     "trademetria"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-21",
   "review_status": "published",
-  "meta_title": "Kinfo Review 2026",
-  "meta_description": "Automated portfolio tracker and trading journal with verified performance metrics and social sharing for options traders."
+  "meta_title": "Kinfo Review 2026 | Verified Trading Journal",
+  "meta_description": "Kinfo reviewed for broker auto-sync, verified performance, public profiles, pricing, Pro tiers and stock/options journal fit."
 }
