@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-07-16",
+  "last_checked": "2026-07-21",
   "editorial_order": ["Tradeify", "Lucid Trading", "Alpha Futures", "Apex Trader Funding"],
   "deals": [
     {
@@ -19,8 +19,8 @@
     {
       "slug": "apex-trader-funding",
       "firm": "Apex Trader Funding",
-      "headline": "Multi-account discount under verification",
-      "description": "A deeply discounted one-pack and five-pack checkout was reported on July 16. The exact official checkout URL and eligible account size are being independently verified before prices are published.",
+      "headline": "One-time evaluation access terms checked",
+      "description": "Apex explains evaluation plan access as a one-time payment for a 30-day access period, with PA activation required after passing. Promotion levels change often, so the exact discount still needs checkout verification before we publish a price.",
       "status": "verification_pending",
       "accounts": null,
       "total_price": null,
@@ -29,6 +29,34 @@
       "observed_date": "2026-07-15",
       "source_url": "https://www.apextraderfunding.com/",
       "review_url": "/review/apex-trader-funding/"
+    },
+    {
+      "slug": "lucid-trading",
+      "firm": "Lucid Trading",
+      "headline": "No recurring fees claim checked",
+      "description": "Lucid positions its futures accounts around instant funding, same-day payouts and no recurring fees. The exact current discount and account-size pricing still need checkout verification before a numeric offer is shown.",
+      "status": "verification_pending",
+      "accounts": null,
+      "total_price": null,
+      "price_per_account": null,
+      "billing": "Official site says no recurring fees; current promotion requires checkout verification",
+      "observed_date": "2026-07-21",
+      "source_url": "https://lucidtrading.com/",
+      "review_url": "/review/lucid-trading/"
+    },
+    {
+      "slug": "alpha-futures",
+      "firm": "Alpha Futures",
+      "headline": "Direct Qualified pricing checked",
+      "description": "Alpha Futures publishes Direct Qualified pricing on its site, including 50K, 100K and larger account paths. Promotion labels and full checkout terms should still be checked at purchase time.",
+      "status": "verification_pending",
+      "accounts": null,
+      "total_price": null,
+      "price_per_account": null,
+      "billing": "Published account pricing; discount and checkout terms may change",
+      "observed_date": "2026-07-21",
+      "source_url": "https://alpha-futures.com/",
+      "review_url": "/review/alpha-futures/"
     }
   ]
 }

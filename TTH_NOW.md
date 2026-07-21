@@ -30,6 +30,25 @@
 
 ---
 
+## 2026-07-21 — STAGE 2 QUALITY RECOVERY STARTED
+
+### Stage-two status
+
+- Stage 2 began after Batch 001 production verification from a clean branch.
+- First Stage 2 recovery set: `/review/polygon-io/`, `/best/best-stock-screeners/`, `/best/best-risk-management/`, and `/best/prop-firm-deals/`.
+- `/review/polygon-io/` was deepened with implementation/buying checks and regenerated as a locked static page.
+- `/best/best-stock-screeners/` was expanded with workflow-based screener recommendations, decision tables, internal links to Finviz, InsiderEdge, TradingView, TraderTrac and TradeZella, and tightened title/meta.
+- `/best/best-risk-management/` received a new editorial body covering pre-trade sizing, journal-based risk review, prop-firm risk and advisor portfolio risk, then was regenerated as a locked static page.
+- `/best/prop-firm-deals/` was expanded from a thin tracker into a rules-first deal evaluation page; Lucid Trading and Alpha Futures were added as verification-pending offer rows, and the title was shortened.
+- Final local acceptance checks passed for the four Stage 2 URLs: title/meta/H1/canonical, sitemap inclusion, minimum content depth, and public/dist hash parity for the three locked static pages.
+
+### Stage-two carry-forward
+
+- Continue Stage 2 with high-value pages from the recovery plan, especially `/review/finviz/`, `/review/tradingview/`, `/best/best-trading-journals/`, trading-journal alternatives, and internal-link reinforcement.
+- Keep broad content generation paused. Continue quality recovery, build checks, live verification and memory updates.
+
+---
+
 ## 2026-07-13 — RECOVERY PLAN CHECKPOINT
 
 ### Current production evidence

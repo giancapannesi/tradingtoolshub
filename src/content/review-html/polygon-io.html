@@ -13,6 +13,7 @@
 <h3>What the API does well</h3>
 <p>Polygon.io provides standardized REST endpoints, WebSocket streams and downloadable flat files. Its US stock coverage includes exchanges, off-exchange activity and regulated Securities Information Processor feeds. It also provides reference data, corporate actions, fundamentals, news and technical indicators.</p>
 <p>The platform is strongest for developers building screeners, research dashboards, alerts, backtesting pipelines and fintech products. A discretionary trader who simply wants charts, watchlists and order entry will usually get more immediate value from a <a href="/best/best-charting-platforms/">charting platform</a>.</p>
+<p>The buying decision should start with what will consume the data. A simple watchlist script can live on delayed data. A live alerting product needs real-time streaming. A backtest needs history depth and clean corporate-action handling. A commercial product needs redistribution rights, support expectations and a business agreement before it can safely ship to customers.</p>
 
 <h3>Stocks versus options and other assets</h3>
 <p>Polygon.io sells access by market rather than as one universal data bundle. Stock-plan pricing should not be assumed to include the options data needed for an options scanner. The options API has its own coverage and entitlement considerations, including consolidated OPRA data. Define the markets you need before comparing headline prices.</p>
@@ -28,6 +29,16 @@
   <li><strong>Consider Advanced</strong> if real-time US stock data is essential for an individual-use project.</li>
   <li><strong>Look elsewhere</strong> if you want a ready-made trading terminal, native backtesting interface or broker execution workflow.</li>
 </ul>
+
+<h3>Implementation checks before paying</h3>
+<ol>
+  <li>List the exact markets you need: stocks, options, forex, crypto or indices.</li>
+  <li>Confirm whether delayed data is acceptable for the workflow.</li>
+  <li>Measure calls per minute against your watchlist size, refresh interval and endpoint mix.</li>
+  <li>Test pagination and error handling on the free tier before annual billing.</li>
+  <li>Confirm whether your project is internal use only or needs redistribution rights.</li>
+</ol>
+<p>This is why Polygon.io ranks well in market-data and developer-tool comparisons but should not be positioned as a beginner trading platform. It is infrastructure. When the user needs infrastructure, it is strong. When the user needs a screen with charts and buttons, it is usually the wrong product.</p>
 
 <h3>Bottom line</h3>
 <p>Polygon.io earns its place on a market-data shortlist because the upgrade path is understandable: prototype for free, use delayed data at $29 or $79, and move to $199 when real-time stock data becomes necessary. The main purchasing mistake is choosing a plan by request limit without checking data latency and market entitlements.</p>

@@ -26,7 +26,7 @@ const jsonLd = [
 ];
 ---
 <BaseLayout
-  title="Latest Prop Firm Deals: Tradeify, Apex & More"
+  title="Prop Firm Deals 2026"
   description="Track current futures prop firm deals from Tradeify, Apex, Lucid and Alpha Futures. Every offer shows its source, status and latest checked date."
   jsonLd={jsonLd}
 >
@@ -46,6 +46,21 @@ const jsonLd = [
       <p class="text-sm text-muted mt-4">Latest source check: <strong class="text-text">{dealData.last_checked}</strong></p>
       <a href="/guides/prop-firm-drawdown-activation-consistency/" class="inline-flex mt-5 text-sm font-semibold text-primary hover:text-primary-hover">New to prop firms? Learn what the account and rules are for &rarr;</a>
     </header>
+
+    <section class="grid lg:grid-cols-3 gap-4 mb-10">
+      <div class="bg-card border border-border rounded-2xl p-5">
+        <h2 class="text-lg font-bold text-text mb-2">What matters more than the discount?</h2>
+        <p class="text-sm text-muted leading-relaxed">A 70% discount can still be a bad buy if the drawdown, activation fee, payout cap or consistency rule does not fit the way you trade.</p>
+      </div>
+      <div class="bg-card border border-border rounded-2xl p-5">
+        <h2 class="text-lg font-bold text-text mb-2">How we treat unverified offers</h2>
+        <p class="text-sm text-muted leading-relaxed">Founder-observed and reported offers stay labelled until the public checkout terms, account size, renewal path and expiry are confirmed.</p>
+      </div>
+      <div class="bg-card border border-border rounded-2xl p-5">
+        <h2 class="text-lg font-bold text-text mb-2">Best current shortlist</h2>
+        <p class="text-sm text-muted leading-relaxed">Start with <a href="/review/tradeify/" class="text-primary hover:underline">Tradeify</a>, <a href="/review/lucid-trading/" class="text-primary hover:underline">Lucid Trading</a>, <a href="/review/alpha-futures/" class="text-primary hover:underline">Alpha Futures</a> and <a href="/review/apex-trader-funding/" class="text-primary hover:underline">Apex</a>, then compare rules before price.</p>
+      </div>
+    </section>
 
     <section class="grid md:grid-cols-2 gap-6 mb-12" aria-label="Current prop firm deal leads">
       {deals.map((deal) => (
@@ -124,6 +139,24 @@ const jsonLd = [
         ))}
       </ol>
       <p class="text-sm text-muted mt-4">The order reflects current editorial preference and trader experience. Pricing, payout rules and promotions are checked separately and can change without notice.</p>
+    </section>
+
+    <section class="grid md:grid-cols-2 gap-6 mb-10">
+      <div class="bg-card border border-border rounded-2xl p-6">
+        <h2 class="text-xl font-bold text-text mb-3">Deal checklist before buying</h2>
+        <ol class="space-y-3 text-sm text-muted list-decimal list-inside">
+          <li>Confirm whether the fee is one-time or recurring.</li>
+          <li>Check activation, data, reset and platform costs after passing.</li>
+          <li>Compare daily loss, maximum loss and trailing drawdown style.</li>
+          <li>Check payout timing, payout cap and consistency rules.</li>
+          <li>Save the checkout screenshot and rules page before paying.</li>
+        </ol>
+      </div>
+      <div class="bg-card border border-border rounded-2xl p-6">
+        <h2 class="text-xl font-bold text-text mb-3">Where this page fits</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">This tracker is for offer timing. It should be used after the main <a href="/best/best-prop-firms/" class="text-primary hover:underline">best prop firms</a> and <a href="/best/best-prop-firms-futures/" class="text-primary hover:underline">futures prop firms</a> guides, not instead of them.</p>
+        <p class="text-sm text-muted leading-relaxed">A trader who repeatedly fails because of drawdown or consistency should ignore discounts and first read the <a href="/guides/prop-firm-drawdown-activation-consistency/" class="text-primary hover:underline">drawdown and activation guide</a>.</p>
+      </div>
     </section>
 
     <section class="grid md:grid-cols-[1fr_1.2fr] gap-6 mb-10">
