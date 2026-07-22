@@ -308,7 +308,15 @@
       "tradestation",
       "webull",
       "robinhood"
-    ]
+    ],
+    "meta_description": "Compare the best free U.S. brokers by true trading cost, platform depth, options fees, execution workflow and upgrade limits.",
+    "official_sources": [
+      { "title": "Fidelity commissions and margin rates", "url": "https://www.fidelity.com/trading/commissions-margin-rates" },
+      { "title": "Charles Schwab pricing", "url": "https://www.schwab.com/pricing" },
+      { "title": "Interactive Brokers commissions", "url": "https://www.interactivebrokers.com/en/pricing/commissions-home.php" },
+      { "title": "Robinhood trading fees", "url": "https://robinhood.com/us/en/support/articles/trading-fees-on-robinhood/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-trading-journals",
@@ -367,7 +375,16 @@
     "tools": [
       "cme-group",
       "quantower"
-    ]
+    ],
+    "meta_description": "Compare free futures platforms by delayed data, simulator quality, chart workflow, exchange-data limits and live-trading upgrade path.",
+    "official_sources": [
+      { "title": "CME Group delayed quotes", "url": "https://www.cmegroup.com/market-data/browse-data/delayed-quotes.html" },
+      { "title": "CME Group education", "url": "https://www.cmegroup.com/education" },
+      { "title": "TradingView CME futures data", "url": "https://www.tradingview.com/cme/" },
+      { "title": "Quantower platform overview", "url": "https://www.quantower.com/node/1" },
+      { "title": "NinjaTrader futures trading", "url": "https://ninjatrader.com/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-brokers-forex",
@@ -384,7 +401,17 @@
       "etoro",
       "forex-com",
       "xm"
-    ]
+    ],
+    "meta_description": "Compare the best forex brokers by regulation, total trading cost, raw spreads, commissions, platform access and trader fit.",
+    "official_sources": [
+      { "title": "IC Markets trading accounts", "url": "https://www.ic.com/en/trading-accounts/overview" },
+      { "title": "Pepperstone trading accounts", "url": "https://pepperstone.com/en/ways-to-trade/trading-accounts/" },
+      { "title": "OANDA US pricing", "url": "https://www.oanda.com/us-en/trading/our-pricing/" },
+      { "title": "FOREX.com trading costs", "url": "https://www.forex.com/en-us/about-us/financial-transparency/trading-costs/" },
+      { "title": "Exness Raw Spread account", "url": "https://get.exness.help/hc/en-us/articles/17537767270556-Raw-Spread-account" },
+      { "title": "IG US forex rates and spreads", "url": "https://www.ig.com/us/forex/markets-forex." }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-free-brokers-forex",
@@ -401,7 +428,17 @@
       "etoro",
       "forex-com",
       "xm"
-    ]
+    ],
+    "meta_description": "Compare free forex brokers by account-opening friction, spreads, commissions, swaps, conversion fees and jurisdiction fit.",
+    "official_sources": [
+      { "title": "OANDA US pricing", "url": "https://www.oanda.com/us-en/trading/our-pricing/" },
+      { "title": "FOREX.com RAW pricing account", "url": "https://www.forex.com/en-us/trading-accounts/raw-pricing-account/" },
+      { "title": "IC Markets spreads and commissions", "url": "https://www.ic.com/en/trading-pricing/spreads" },
+      { "title": "Pepperstone trading accounts", "url": "https://pepperstone.com/en/ways-to-trade/trading-accounts/" },
+      { "title": "eToro CFD spreads", "url": "https://www.etoro.com/trading/fees/cfd-spreads/" },
+      { "title": "eToro conversion fees", "url": "https://www.etoro.com/trading/fees/conversion/" }
+    ],
+    "last_updated": "2026-07-21"
   },
   {
     "slug": "best-options-platforms",
