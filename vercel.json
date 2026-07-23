@@ -1,66 +1,557 @@
 {
   "redirects": [
-    { "source": "/review/koyfin/", "destination": "/review/koyfin-pro/", "statusCode": 301 },
-    { "source": "/alternatives/koyfin/", "destination": "/alternatives/koyfin-pro/", "statusCode": 301 },
-    { "source": "/blog/koyfin-pricing-guide-2026/", "destination": "/blog/koyfin-pro-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/koyfin-setup-guide-2026/", "destination": "/blog/koyfin-pro-setup-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/koyfin-tips-and-tricks/", "destination": "/blog/koyfin-pro-tips-and-tricks/", "statusCode": 301 },
-    { "source": "/best/instant-funding-prop-firms/", "destination": "/best/no-challenge-prop-firms/", "statusCode": 301 },
-    { "source": "/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },
-    { "source": "/blog/tradingview-setup-guide-2026/", "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/", "statusCode": 301 },
-    { "source": "/blog/how-to-pass-blue-guardian-challenge-step-by-step-guide-2026/", "destination": "/blog/how-to-pass-blue-guardian-challenge/", "statusCode": 301 },
-    { "source": "/blog/blue-guardian-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/blue-guardian-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/bookmap-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/bookmap-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/how-to-pass-bulenox-challenge-step-by-step-guide-2026/", "destination": "/blog/how-to-pass-bulenox-challenge/", "statusCode": 301 },
-    { "source": "/blog/bulenox-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/bulenox-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/etoro-broker-review-guide-2026/", "destination": "/blog/etoro-review-2026-social-trading-features-fees-and-honest-verdict/", "statusCode": 301 },
-    { "source": "/blog/jp-morgan-self-directed-investing-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/jp-morgan-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/how-to-pass-maverick-trading-challenge-step-by-step-guide-2026/", "destination": "/blog/how-to-pass-maverick-trading-challenge/", "statusCode": 301 },
-    { "source": "/blog/maverick-trading-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/maverick-trading-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/maverick-trading-rules-explained-drawdown-targets-payouts-2026/", "destination": "/blog/maverick-trading-rules-explained/", "statusCode": 301 },
-    { "source": "/blog/mzpack-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/mzpack-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/ninjatrader-setup-guide-installation-to-first-trade/", "destination": "/blog/ninjatrader-setup-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/thinkorswim-pricing-guide-2026-all-plans-costs-hidden-fees/", "destination": "/blog/thinkorswim-pricing-guide-2026/", "statusCode": 301 },
-    { "source": "/blog/thinkorswim-setup-guide-2026/", "destination": "/blog/thinkorswim-setup-guide-the-complete-walkthrough/", "statusCode": 301 },
-    { "source": "/review/my-forex-funds/", "destination": "/prop-firms/", "statusCode": 301 },
-    { "source": "/review/my-forex-funds", "destination": "/prop-firms/", "statusCode": 301 },
-    { "source": "/review/surge-trader/", "destination": "/prop-firms/", "statusCode": 301 },
-    { "source": "/review/surge-trader", "destination": "/prop-firms/", "statusCode": 301 },
-    { "source": "/review/true-forex-funds/", "destination": "/prop-firms/", "statusCode": 301 },
-    { "source": "/review/true-forex-funds", "destination": "/prop-firms/", "statusCode": 301 }
+    {
+      "source": "/review/koyfin/",
+      "destination": "/review/koyfin-pro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/koyfin/",
+      "destination": "/alternatives/koyfin-pro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/koyfin-pricing-guide-2026/",
+      "destination": "/blog/koyfin-pro-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/koyfin-setup-guide-2026/",
+      "destination": "/blog/koyfin-pro-setup-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/koyfin-tips-and-tricks/",
+      "destination": "/blog/koyfin-pro-tips-and-tricks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/best/instant-funding-prop-firms/",
+      "destination": "/best/no-challenge-prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tradingview-setup-guide-for-beginners-from-signup-to-first-chart/",
+      "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tradingview-setup-guide-2026/",
+      "destination": "/blog/tradingview-tutorial-for-beginners-setup-charts-and-indicators/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-pass-blue-guardian-challenge-step-by-step-guide-2026/",
+      "destination": "/blog/how-to-pass-blue-guardian-challenge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/blue-guardian-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/blue-guardian-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/bookmap-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/bookmap-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-pass-bulenox-challenge-step-by-step-guide-2026/",
+      "destination": "/blog/how-to-pass-bulenox-challenge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/bulenox-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/bulenox-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/etoro-broker-review-guide-2026/",
+      "destination": "/blog/etoro-review-2026-social-trading-features-fees-and-honest-verdict/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/jp-morgan-self-directed-investing-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/jp-morgan-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-to-pass-maverick-trading-challenge-step-by-step-guide-2026/",
+      "destination": "/blog/how-to-pass-maverick-trading-challenge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/maverick-trading-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/maverick-trading-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/maverick-trading-rules-explained-drawdown-targets-payouts-2026/",
+      "destination": "/blog/maverick-trading-rules-explained/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mzpack-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/mzpack-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ninjatrader-setup-guide-installation-to-first-trade/",
+      "destination": "/blog/ninjatrader-setup-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/thinkorswim-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/blog/thinkorswim-pricing-guide-2026/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/thinkorswim-setup-guide-2026/",
+      "destination": "/blog/thinkorswim-setup-guide-the-complete-walkthrough/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/my-forex-funds/",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/my-forex-funds",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/surge-trader/",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/surge-trader",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/true-forex-funds/",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/true-forex-funds",
+      "destination": "/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/alpha-futures/",
+      "destination": "/review/alpha-futures/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/ams-trading-group/",
+      "destination": "/review/ams-trading-group/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/autochartist/",
+      "destination": "/review/autochartist/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/avatrade/",
+      "destination": "/review/avatrade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/barchart/",
+      "destination": "/review/barchart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/brightfunded/",
+      "destination": "/review/brightfunded/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/bulenox/",
+      "destination": "/review/bulenox/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/chartprime/",
+      "destination": "/review/chartprime/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/city-traders-imperium/",
+      "destination": "/review/city-traders-imperium/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/fbs/",
+      "destination": "/review/fbs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/financialtechwiz/",
+      "destination": "/review/financialtechwiz/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/funded-next-futures/",
+      "destination": "/review/funded-next-futures/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/ic-markets/",
+      "destination": "/review/ic-markets/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/insideredge/",
+      "destination": "/review/insideredge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/journalytix/",
+      "destination": "/review/journalytix/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/kinfo/",
+      "destination": "/review/kinfo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/koyfin-pro/",
+      "destination": "/review/koyfin-pro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/lucid-trading/",
+      "destination": "/review/lucid-trading/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/luxalgo/",
+      "destination": "/review/luxalgo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/maverick-trading/",
+      "destination": "/review/maverick-trading/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/multicharts/",
+      "destination": "/review/multicharts/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/my-funded-futures/",
+      "destination": "/review/my-funded-futures/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/oanda/",
+      "destination": "/review/oanda/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/optimus-futures/",
+      "destination": "/review/optimus-futures/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/pepperstone/",
+      "destination": "/review/pepperstone/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/pineconnector/",
+      "destination": "/review/pineconnector/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/plus500/",
+      "destination": "/review/plus500/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/riskalyze/",
+      "destination": "/review/riskalyze/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/riskreward-io/",
+      "destination": "/review/riskreward-io/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/roboforex/",
+      "destination": "/review/roboforex/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/saxo-bank/",
+      "destination": "/review/saxo-bank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/smb-capital/",
+      "destination": "/review/smb-capital/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/stock-rover/",
+      "destination": "/review/stock-rover/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/takeprofittrader/",
+      "destination": "/review/takeprofittrader/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tastylive-education/",
+      "destination": "/review/tastylive-education/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/the-funded-trader/",
+      "destination": "/review/the-funded-trader/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tickeron/",
+      "destination": "/review/tickeron/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tickmill/",
+      "destination": "/review/tickmill/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/top-one-futures/",
+      "destination": "/review/top-one-futures/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/trade-the-pool/",
+      "destination": "/review/trade-the-pool/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tradedots/",
+      "destination": "/review/tradedots/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/trademetria/",
+      "destination": "/review/trademetria/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/trader-dale/",
+      "destination": "/review/trader-dale/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tradervue-analytics/",
+      "destination": "/review/tradervue-analytics/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tradervue/",
+      "destination": "/review/tradervue/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/trading-central/",
+      "destination": "/review/trading-central/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/tradingview-indicators/",
+      "destination": "/review/tradingview-indicators/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/trendspider/",
+      "destination": "/review/trendspider/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/udemy-trading/",
+      "destination": "/review/udemy-trading/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/webull/",
+      "destination": "/review/webull/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/zacks/",
+      "destination": "/review/zacks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ally-invest-pricing-guide-2026/",
+      "destination": "/review/ally-invest/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atas-pricing-guide-2026/",
+      "destination": "/review/atas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/avatrade-pricing-guide-2026/",
+      "destination": "/review/avatrade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/coursera-finance-pricing-guide-2026/",
+      "destination": "/review/coursera-finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ctrader-store-pricing-guide-2026/",
+      "destination": "/review/ctrader-store/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/fbs-pricing-guide-2026/",
+      "destination": "/review/fbs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/firstrade-pricing-guide-2026/",
+      "destination": "/review/firstrade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ic-markets-broker-review-guide-2026/",
+      "destination": "/review/ic-markets/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ic-markets-pricing-guide-2026/",
+      "destination": "/review/ic-markets/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/investopedia-pricing-guide-2026/",
+      "destination": "/review/investopedia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/jp-morgan-pricing-guide-2026/",
+      "destination": "/review/jp-morgan/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/m1-finance-pricing-guide-2026/",
+      "destination": "/review/m1-finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/metatrader-5-pricing-guide-2026/",
+      "destination": "/review/metatrader-5/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/orderflow-labs-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/review/orderflow-labs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/rebelsfunding-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/review/rebelsfunding/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/saxo-bank-pricing-guide-2026/",
+      "destination": "/review/saxo-bank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/sierra-chart-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/review/sierra-chart/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tastylive-education-pricing-guide-2026/",
+      "destination": "/review/tastylive-education/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tc2000-scanner-pricing-guide-2026-all-plans-costs-hidden-fees/",
+      "destination": "/review/tc2000-scanner/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tradingview-pricing-guide-2026/",
+      "destination": "/review/tradingview/",
+      "statusCode": 301
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/review/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800"
+        }
       ]
     },
     {
       "source": "/compare/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800"
+        }
       ]
     },
     {
       "source": "/best/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800"
+        }
       ]
     },
     {
       "source": "/alternatives/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800"
+        }
       ]
     }
   ]
