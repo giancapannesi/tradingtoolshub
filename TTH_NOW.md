@@ -4,6 +4,38 @@
 
 ---
 
+## 2026-07-23 — TAKEOVER FROM CODEX + PHASE A EXECUTED
+
+**Codex subscription not renewed 2026-07-22. Ownership transferred to in-session Claude.**
+
+**Read these before touching anything:**
+1. `TradingToolsHub_SEO/TradingToolsHub Recovery/PHASE_A_EXECUTION_STATE.md` — live cursor for Phase A execution (has locking protocol so agents don't overwrite each other).
+2. `TradingToolsHub_SEO/TradingToolsHub Recovery/TTH_ANTI_AI_SLOP_PLAN.md` — plan for the remaining 1,564 critical+serious pages. Founder direction: stop them looking like AI slop.
+3. `TradingToolsHub_SEO/TradingToolsHub Recovery/PHASE_A_CULL_PROPOSAL.csv` — 1,648 rows, every classified.
+
+**Session execution log 2026-07-22 → 2026-07-23:**
+- Seventeenth Stage 2 set (Codex's in-flight work finished): 4 `/best/` broker + futures free-platform pages, deploy `dpl_9TL587xMQKNz3pHA7VymZysJdESX`, commit `f8698a4`.
+- Phase A B5+B5b: 71 thin-page 301s (51 alternatives→review + 20 pricing-guides→review) in vercel.json, deploy `dpl_EnpyC9PoifzWLF3N3P4xXkp9TyYj`, commit `845d783`.
+- Phase A B7: 13 thin blog pagination pages deleted via getStaticPaths filter, deploy `dpl_2Wvr959KRNMCXuQtLkvREBg8CGbJ`, commit `213a3db`.
+
+**Recovery status:** 80 pages recovered via Stage 2 + 71 pages 301'd + 13 pages deleted = 164 pages resolved. **1,564 critical+serious pages remaining**, planned in `TTH_ANTI_AI_SLOP_PLAN.md`.
+
+**Founder direction 2026-07-23 (verbatim intent):**
+- "Stop them looking like AI slop." Cookie-cutter pages must be de-templated. Pages are valid, titles are good, tools are real — execution is the problem.
+- Clicks have collapsed. External partnership inbound is strong (Trading.com direct approach, others).
+- Indexation is broken — some pages caused a Bing deindex. Google not indexing new content.
+- Next session picks this up with Sprint 0 diagnosis before any content work.
+
+**Rules re-affirmed:**
+- Do not restart broad TTH feed/content generation without founder approval.
+- Do not use static queues as strategy.
+- Do not overwrite founder-protected pages.
+- Repo must end every session clean (`git status --short` empty).
+- Read state doc + plan doc before any recovery execution.
+- No mass delete without row-by-row founder approval (RULE 4).
+
+---
+
 ## 2026-07-21 — BATCH 001 STATIC REVIEW RECOVERY
 
 ### Phase-one status
