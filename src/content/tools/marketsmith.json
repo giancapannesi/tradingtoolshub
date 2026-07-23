@@ -6,11 +6,11 @@
     "growth-investing",
     "can-slim"
   ],
-  "description_short": "IBD's research platform for growth stock investing with CAN SLIM methodology, pattern recognition, and institutional sponsorship tracking.",
-  "description_long": "MarketSmith (powered by Investor's Business Daily) is a premium stock research and screening platform built around William O'Neil's CAN SLIM investing methodology. The platform combines proprietary ratings, institutional tracking, and chart pattern recognition to help growth investors find the best stocks at the right time.\n\nKey features include the IBD SmartSelect Ratings (EPS, Relative Strength, Group Strength, SMR, Accumulation/Distribution), which distill complex fundamental and technical data into easy-to-read scores. The Model Book provides curated stock lists from IBD's research team, while the Pattern Recognition tool automatically identifies chart patterns like cups, handles, and bases.\n\nAt $149.95/month (or $1,499/year), MarketSmith is a significant investment, but for growth investors following the CAN SLIM approach, it provides unique data and screening capabilities not available elsewhere. A 6-week trial is available for $49.95.",
+  "description_short": "IBD's MarketSurge/MarketSmith research platform for growth stock investors using CAN SLIM-style ratings, screens and chart pattern tools.",
+  "description_long": "MarketSmith is now best understood through IBD's MarketSurge product family: a premium growth-stock research platform built around William O'Neil's CAN SLIM investing methodology. The platform combines proprietary IBD ratings, chart pattern tools, institutional ownership data, stock lists and screening workflows for investors who want a rules-based growth-stock process.\n\nThe product is not a general-purpose broker or trade journal. Its value depends on whether the user actually follows IBD-style earnings, relative strength, industry group and chart-base discipline. Traders who mostly need intraday scanning, options flow, portfolio accounting or journal analytics should compare specialist tools instead.\n\nCurrent IBD product pages advertise MarketSurge Premium at $149.95/month after the introductory term, with premium features included. Because IBD promotions change frequently, buyers should verify the current offer and renewal amount at checkout.",
   "logo_url": "/logos/marketsmith.svg",
   "screenshots": [],
-  "website_url": "https://marketsmith.investors.com",
+  "website_url": "https://get.investors.com/marketsurge/",
   "affiliate_url": "",
   "affiliate_program": "",
   "affiliate_commission": "",
@@ -24,9 +24,9 @@
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Full access for 6 weeks",
-          "All features included",
-          "Fee: $49.95"
+          "Introductory access terms vary by current IBD offer",
+          "Verify renewal amount at checkout",
+          "Premium tools included during the paid term"
         ]
       },
       {
@@ -97,8 +97,8 @@
     "stock-rover",
     "trade-ideas"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-21",
   "review_status": "published",
-  "meta_title": "MarketSmith Review 2026",
-  "meta_description": "IBD's research platform for growth stock investing with CAN SLIM methodology, pattern recognition, and institutional sponsorship tracking."
+  "meta_title": "MarketSmith / MarketSurge Review 2026",
+  "meta_description": "MarketSmith and IBD MarketSurge reviewed for CAN SLIM research, growth-stock screening, pricing, best uses and alternatives."
 }

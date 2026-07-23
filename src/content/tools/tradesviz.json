@@ -6,8 +6,8 @@
     "performance-tracking",
     "multi-asset"
   ],
-  "description_short": "Feature-rich trading journal with 100+ metrics, advanced charting, and a generous free tier for all asset classes.",
-  "description_long": "TradesViz has earned a loyal following by offering one of the most feature-rich trading journals at an accessible price point. The platform boasts over 100 actionable metrics, advanced visualization tools, and supports every major asset class including stocks, options, futures, forex, and crypto.\n\nThe free tier is notably generous, providing core journaling and analytics capabilities that many competitors lock behind paywalls. The Pro tier at $19/month adds advanced features like custom dashboards, API access, and enhanced reporting, while the Elite tier at $39/month unlocks everything including priority support.\n\nTradesViz excels at data visualization, offering interactive charts and graphs that help traders identify patterns in their performance. The platform supports import from dozens of brokers and data formats, making migration from other journals straightforward.",
+  "description_short": "Feature-rich web trading journal with free stock journaling, dashboards, imports, replay, simulators, AI Q&A and advanced analytics.",
+  "description_long": "TradesViz is a feature-rich web trading journal for active traders who want dashboards, imports, reporting and advanced analysis in one place. The current product positioning includes free stock journaling, paid Pro and Platinum plans, custom dashboards, trade and day plans, simulators, replay, backtesting, options flow and AI Q&A.\n\nThat breadth makes TradesViz a strong fit for traders who want more than a simple logbook. It can act as a performance dashboard, replay environment and analysis cockpit across stocks, options, futures, forex and prop-firm workflows. The tradeoff is complexity: the same depth that makes TradesViz powerful can feel busy for traders who only need a lightweight journal.\n\nTradesViz is best evaluated as a modern web-based trading analysis platform rather than a basic spreadsheet replacement. Traders who want privacy-first desktop storage may prefer TradingDiary Pro, while traders who want a browser-based journal with a free starting path and frequent feature expansion should shortlist TradesViz.",
   "logo_url": "/logos/tradesviz.svg",
   "screenshots": [],
   "website_url": "https://www.tradesviz.com",
@@ -20,37 +20,41 @@
     "starting_price": 0,
     "tiers": [
       {
-        "name": "Free",
+        "name": "Basic",
         "price_monthly": 0,
         "price_yearly": 0,
         "features": [
-          "Core journaling",
-          "Basic analytics",
-          "Broker imports",
-          "100+ metrics"
+          "Free forever",
+          "Essential journaling",
+          "Import capabilities",
+          "Basic analytics"
         ]
       },
       {
         "name": "Pro",
-        "price_monthly": 19,
-        "price_yearly": 199,
+        "price_monthly": 19.99,
+        "price_yearly": 179.88,
         "features": [
-          "All Free features",
-          "Custom dashboards",
-          "API access",
-          "Enhanced reporting",
-          "Advanced filters"
+          "All asset type imports",
+          "100+ charts",
+          "Advanced filtering",
+          "Grid features",
+          "Extended data retention",
+          "7-day trial"
         ]
       },
       {
-        "name": "Elite",
-        "price_monthly": 39,
-        "price_yearly": 399,
+        "name": "Platinum",
+        "price_monthly": 29.99,
+        "price_yearly": 269.88,
         "features": [
-          "All Pro features",
-          "Priority support",
-          "Advanced data export",
-          "Custom integrations"
+          "AI Coach Trading Review",
+          "AI Q&A",
+          "Simulators for all assets",
+          "600+ statistics",
+          "Custom dashboards",
+          "Options flow",
+          "7-day trial"
         ]
       }
     ],
@@ -81,15 +85,15 @@
     "crypto"
   ],
   "pros": [
-    "100+ actionable metrics across all asset classes",
-    "Generous free tier with real analytics",
-    "Excellent data visualization and charting",
-    "Wide broker import support"
+    "Free Basic plan for essential journaling and imports",
+    "Pro plan covers all asset type imports with advanced charts and filters",
+    "Platinum adds AI review, AI Q&A, simulators, options flow and 600+ statistics",
+    "Strong value for traders who want dense analytics"
   ],
   "cons": [
-    "Interface can feel cluttered with so many metrics",
-    "No AI-powered analysis",
-    "No mobile app available"
+    "Feature density can feel busy for simple journaling",
+    "Advanced analytics and simulators require paid plans",
+    "Cloud workflow may not suit traders who want local-only storage"
   ],
   "rating": 4.2,
   "rating_breakdown": {
@@ -112,8 +116,10 @@
     "trademetria",
     "tradervue"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-21",
   "review_status": "published",
-  "meta_title": "TradesViz Review 2026: Feature-rich trading journal",
-  "meta_description": "Feature-rich trading journal with 100+ metrics, advanced charting, and a generous free tier for all asset classes."
+  "meta_title": "TradesViz Review 2026: Free Journal, Pro, Platinum",
+  "meta_description": "TradesViz reviewed for free Basic journaling, Pro and Platinum pricing, imports, dashboards, AI review, simulators, options flow and alternatives.",
+  "alt_meta_title": "Best TradesViz Alternatives 2026: Journals Compared",
+  "alt_meta_description": "Compare TradesViz alternatives for simpler journaling, AI review, replay, desktop storage, broker sync, pricing and active trader workflow fit."
 }

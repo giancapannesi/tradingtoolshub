@@ -6,7 +6,7 @@
     "performance-tracking",
     "psychology"
   ],
-  "description_short": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking.",
+  "description_short": "Trading journal focused on automated imports, edge finding, mistake scans, psychology review, Tiltmeter and process discipline.",
   "description_long": "Edgewonk is a veteran trading journal that has built a loyal following among serious traders who want to find and maintain their statistical edge. Unlike many journaling tools that focus on pretty dashboards, Edgewonk emphasizes the analytical depth needed to make meaningful improvements to your trading.\n\nThe platform excels at helping traders identify patterns in their behavior through custom tags, emotional state tracking, and detailed performance metrics. Its unique 'Tiltmeter' feature tracks emotional trading decisions, while the trade simulator lets you test 'what-if' scenarios against your actual trade history.\n\nEdgewonk uses a single-tier pricing model at $169/year, which gives every user access to all features without tiered restrictions. This approach means you never hit a paywall for advanced analytics. It supports stocks, forex, futures, crypto, and options across all major brokers.",
   "logo_url": "/logos/edgewonk.svg",
   "screenshots": [
@@ -28,26 +28,26 @@
   "affiliate_cookie_days": 60,
   "pricing": {
     "has_free_tier": false,
-    "starting_price": 169,
+    "starting_price": 12.32,
     "tiers": [
       {
-        "name": "12 months",
-        "price_monthly": 16.42,
+        "name": "1-year plan + 4 free months",
+        "price_monthly": 12.32,
         "price_yearly": 197,
-        "currency": "USD"
-      },
-      {
-        "name": "24 months",
-        "price_monthly": 12.38,
-        "price_yearly": 297,
-        "currency": "USD",
-        "note": "Locks in current price for 2 years"
+        "features": [
+          "Automated imports",
+          "Edge Finder weekly scan",
+          "Session report cards",
+          "Tiltmeter",
+          "Portfolio page",
+          "14-day money-back guarantee"
+        ]
       }
     ],
     "currency": "USD"
   },
   "features": {
-    "ai_analysis": false,
+    "ai_analysis": true,
     "backtesting": true,
     "paper_trading": false,
     "alerts": false,
@@ -61,7 +61,8 @@
     "performance_analytics": true,
     "risk_management": true,
     "news_feed": false,
-    "education": true
+    "education": true,
+    "auto_import": true
   },
   "markets": [
     "forex",
@@ -73,15 +74,15 @@
     "futures"
   ],
   "pros": [
-    "Single tier means all features for everyone",
-    "Tiltmeter for emotional trading detection is unique",
-    "Trade simulator for what-if analysis",
-    "Strong focus on finding statistical edge"
+    "Strong psychology and rule-discipline workflow",
+    "Edge Finder provides automatic performance and mistake scans",
+    "Single product tier avoids feature paywalls inside the journal",
+    "14-day money-back guarantee on official pricing page"
   ],
   "cons": [
-    "No free tier or trial available",
-    "Interface feels dated compared to newer competitors",
-    "Annual billing only, no monthly option"
+    "No permanent free tier",
+    "Less modern all-in-one feel than newer AI journals",
+    "Annual-style commitment may not suit traders testing journaling for the first time"
   ],
   "rating": 4.4,
   "rating_breakdown": {
@@ -104,7 +105,7 @@
     "tradezella",
     "tradersync"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-21",
   "review_status": "published",
   "company_background": "Edgewonk has been helping traders improve for over 10 years. Independent, transparent trading journal platform focused on turning trading data into profits.",
   "scraped_features": [
@@ -143,6 +144,8 @@
     }
   ],
   "enriched_at": "2026-03-29",
-  "meta_title": "Edgewonk Review 2026",
-  "meta_description": "Data-driven trading journal focused on finding your edge through detailed trade analytics and psychology tracking."
+  "meta_title": "Edgewonk Review 2026: Psychology Trading Journal",
+  "meta_description": "Edgewonk reviewed for pricing, automated imports, Edge Finder, Tiltmeter, psychology workflow, process discipline and alternatives.",
+  "alt_meta_title": "Best Edgewonk Alternatives 2026: Trading Journals",
+  "alt_meta_description": "Compare Edgewonk alternatives for AI review, replay, cheaper plans, broker sync, psychology tracking and simpler daily journaling."
 }

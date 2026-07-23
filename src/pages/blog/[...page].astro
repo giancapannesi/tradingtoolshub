@@ -2,10 +2,20 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getBlogPosts } from '../../utils/data';
 
+// Pages that were audited as thin pagination and explicitly removed by founder
+// direction on 2026-07-23 (Phase A B7). Astro isolates getStaticPaths so the
+// deleted-pages set must be declared inside it. The frontmatter block below
+// redeclares it for use in the page-render code.
 export function getStaticPaths({ paginate }) {
+  const DELETED_PAGES = new Set([3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]);
   const posts = getBlogPosts();
-  return paginate(posts, { pageSize: 24 });
+  return paginate(posts, { pageSize: 24 }).filter(entry => {
+    const num = Number(entry.params.page ?? 1);
+    return !DELETED_PAGES.has(num);
+  });
 }
+
+const DELETED_PAGES = new Set([3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]);
 
 const { page } = Astro.props;
 const posts = page.data;
@@ -21,9 +31,11 @@ const canonicalUrl = isFirstPage
   ? 'https://tradingtoolshub.com/blog/'
   : `https://tradingtoolshub.com/blog/${page.currentPage}/`;
 
-// Precompute pagination links for template
+// Precompute pagination links for template.
+// Skips DELETED_PAGES so we don't link to now-404 URLs.
 const pageLinks: { num: number; url: string; current: boolean }[] = [];
 for (let num = 1; num <= page.lastPage; num++) {
+  if (DELETED_PAGES.has(num)) continue;
   const show = num === 1 || num === page.lastPage || Math.abs(num - page.currentPage) <= 2;
   if (show) {
     pageLinks.push({

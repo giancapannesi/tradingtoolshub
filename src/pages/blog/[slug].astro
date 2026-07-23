@@ -3,16 +3,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getBlogPosts, getBlogBySlug, getToolBySlug, getComparisons, getBlogByCategory } from '../../utils/data';
 import { injectLinks } from '../../utils/inline-linker';
 import { repairInternalLinks } from '../../utils/internal-links';
+import { pickVariant, ARTICLE_METHOD_NOTES } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.blog || []);
   const posts = getBlogPosts();
-  return posts.map(p => ({
-    params: { slug: p.slug },
-    props: { post: p },
-  }));
+  return posts
+    .filter(p => !migrated.has(p.slug))
+    .map(p => ({
+      params: { slug: p.slug },
+      props: { post: p },
+    }));
 }
 
 const { post } = Astro.props;
+const methodNote = pickVariant(post.slug + ':method', ARTICLE_METHOD_NOTES);
 
 // Related tools
 const relatedTools = post.related_tools
@@ -112,10 +118,7 @@ const jsonLd = [
             )}
           </div>
           <div class="mt-4 rounded-lg border border-border bg-card/60 px-4 py-3 text-sm text-muted leading-relaxed">
-            <strong class="text-text">How this article was produced:</strong>
-            TradingToolsHub uses structured product data and AI-assisted drafting to organize research at scale.
-            Prices, rules, and product features can change; verify time-sensitive details on the provider’s official website.
-            <a href="/methodology/" class="text-primary hover:underline">Read our editorial process.</a>
+            {methodNote} <a href="/methodology/" class="text-primary hover:underline">Editorial process &rarr;</a>
           </div>
         </header>
 
