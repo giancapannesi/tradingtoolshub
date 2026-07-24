@@ -333,3 +333,118 @@ export function getCompareSectionOrder(category: string | undefined): CompareSec
   // Story-first categories: verdict → cards → editorial → table → pros/cons.
   return ['quickVerdict', 'headToHead', 'editorial', 'featureComparison', 'prosConsA', 'prosConsB'];
 }
+
+// -- Anti-cookie-cutter analysis rewriter.
+// 476 comparison pages ship identical H2 sequence: "## Overview" →
+// "## Pricing Comparison" → "## Key Features Head-to-Head" → "## The Verdict".
+// Google's Helpful Content signals reward templated content as scaled abuse.
+// Fix at render time: slug-hash the H2 variant + emit real <h2> tags (not
+// plain-text ## strings). Same slug always maps to the same variant so builds
+// are reproducible.
+export const OVERVIEW_H2_VARIANTS: readonly string[] = [
+  'Snapshot',
+  'Where They Stand',
+  'The Setup',
+  'Starting Point',
+  'Positioning',
+  'Big Picture',
+  'The Lay of the Land',
+  'At-a-Glance Match-Up',
+  'How Each One Plays',
+  'Where Each Fits',
+];
+
+export const PRICING_H2_VARIANTS: readonly string[] = [
+  'What Each One Costs',
+  'The Money Side',
+  'Total Cost Breakdown',
+  'Price Reality',
+  'What You Actually Pay',
+  'Cost, Line by Line',
+  'The Real Bill',
+  'Fee Structure',
+  'Money Talk',
+  'Sticker Price vs Real Cost',
+];
+
+export const FEATURES_H2_VARIANTS: readonly string[] = [
+  'Feature Deep-Dive',
+  'What Each One Delivers',
+  'Under the Hood',
+  'Where the Real Work Happens',
+  'Capability Contrast',
+  'The Toolkit',
+  'What You Actually Get',
+  'Feature-for-Feature',
+  'How Each One Actually Works',
+  'The Workflow Difference',
+];
+
+export const VERDICT_H2_VARIANTS: readonly string[] = [
+  'The Call',
+  'Bottom Line',
+  'Which One Wins for You',
+  'Making the Call',
+  'The Recommendation',
+  'How to Choose',
+  'Final Word',
+  'Picking the Right One',
+  'Where This Leaves You',
+  'The Verdict, Plainly',
+];
+
+const CANONICAL_H2_MAP: Record<string, readonly string[]> = {
+  'overview': OVERVIEW_H2_VARIANTS,
+  'pricing comparison': PRICING_H2_VARIANTS,
+  'key features head-to-head': FEATURES_H2_VARIANTS,
+  'features head-to-head': FEATURES_H2_VARIANTS,
+  'the verdict': VERDICT_H2_VARIANTS,
+  'verdict': VERDICT_H2_VARIANTS,
+};
+
+/**
+ * Convert a markdown analysis string into HTML with slug-hashed H2 variants.
+ * Replaces the 4 canonical repeated H2s with variety, converts remaining
+ * `## Heading` lines to real <h2> elements, wraps paragraphs in <p> tags.
+ * Preserves `**bold**` as <strong>, `*italic*` as <em>, and `[text](url)` links.
+ */
+export function renderCompareAnalysis(slug: string, markdown: string): string {
+  if (!markdown) return '';
+  const blocks = markdown.split(/\n\n+/);
+  const out: string[] = [];
+  for (const raw of blocks) {
+    const block = raw.trim();
+    if (!block) continue;
+    const h2m = block.match(/^##\s+(.+?)\s*$/);
+    if (h2m) {
+      const rawHeading = h2m[1];
+      const canonical = rawHeading.toLowerCase().trim();
+      const pool = CANONICAL_H2_MAP[canonical];
+      const heading = pool ? pickVariant(`${slug}:h2:${canonical}`, pool) : rawHeading;
+      out.push(`<h2 class="text-2xl font-bold text-text mt-8 mb-4">${escapeHtml(heading)}</h2>`);
+      continue;
+    }
+    const h3m = block.match(/^###\s+(.+?)\s*$/);
+    if (h3m) {
+      out.push(`<h3 class="text-xl font-semibold text-text mt-6 mb-3">${escapeHtml(h3m[1])}</h3>`);
+      continue;
+    }
+    // Paragraph — inline-transform bold/italic/links
+    let text = escapeHtml(block);
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
+    text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary hover:underline">$1</a>');
+    // Preserve intentional line breaks within paragraphs
+    text = text.replace(/\n/g, '<br />');
+    out.push(`<p>${text}</p>`);
+  }
+  return out.join('\n');
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}

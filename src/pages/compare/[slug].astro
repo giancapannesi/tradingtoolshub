@@ -21,6 +21,7 @@ import {
   buildCompareMeta,
   buildCompareFaq,
   getCompareSectionOrder,
+  renderCompareAnalysis,
 } from '../../utils/variant';
 import staticMigrated from '../../content/static_migrated.json';
 
@@ -255,7 +256,7 @@ const jsonLd = [
             {comparisonHtml ? (
               <article class="prose prose-invert max-w-none text-muted leading-relaxed space-y-4 compare-editorial-html" set:html={comparisonHtml} />
             ) : (
-              <div class="text-muted leading-relaxed space-y-4 text-[15px]" set:html={repairInternalLinks(injectLinks(comparison.analysis.split('\n\n').map(p => `<p>${p}</p>`).join(''), comparison.slug, 6))} />
+              <div class="text-muted leading-relaxed space-y-4 text-[15px] compare-analysis-varied" set:html={repairInternalLinks(injectLinks(renderCompareAnalysis(comparison.slug, comparison.analysis), comparison.slug, 6))} />
             )}
           </div>
         </section>
