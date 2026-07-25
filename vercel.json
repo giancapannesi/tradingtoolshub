@@ -494,6 +494,56 @@
       "source": "/blog/tradingview-pricing-guide-2026/",
       "destination": "/review/tradingview/",
       "statusCode": 301
+    },
+    {
+      "source": "/compare/alpha-vantage-vs-koyfin/",
+      "destination": "/review/alpha-vantage/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/bloomberg-terminal-vs-koyfin/",
+      "destination": "/review/bloomberg-terminal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/iex-cloud-vs-koyfin/",
+      "destination": "/review/iex-cloud/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-marketwatch/",
+      "destination": "/review/marketwatch/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-polygon-io/",
+      "destination": "/review/polygon-io/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-quandl/",
+      "destination": "/review/quandl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-reuters-eikon/",
+      "destination": "/review/reuters-eikon/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-seeking-alpha/",
+      "destination": "/review/seeking-alpha/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-tipranks/",
+      "destination": "/review/tipranks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/koyfin-vs-tradingeconomics/",
+      "destination": "/review/tradingeconomics/",
+      "statusCode": 301
     }
   ],
   "headers": [
