@@ -15,11 +15,13 @@ const jsonLd = {
   "url": "https://tradingtoolshub.com/featured/",
   "description": "Deep-dive editorial reviews of the best trading tools, platforms, and prop firms. Download our free PDF reviews."
 };
+const isEmpty = featured.length === 0;
 ---
 <BaseLayout
   title="Featured Ideas — Deep-Dive Trading Tool Reviews"
   description="Go beyond the basics. In-depth editorial reviews of the best trading tools, prop firms, and platforms — with free downloadable PDF reviews."
   jsonLd={jsonLd}
+  noindex={isEmpty}
 >
   <!-- Breadcrumbs -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -59,8 +61,43 @@ const jsonLd = {
   <!-- Featured Ideas Grid -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
     {featured.length === 0 ? (
-      <div class="text-center py-20">
-        <p class="text-muted text-lg">Featured ideas coming soon. Check back shortly.</p>
+      <div class="max-w-3xl mx-auto">
+        <div class="bg-card border border-border rounded-xl p-6 mb-8">
+          <h2 class="text-xl font-bold text-text mb-3">Featured Ideas Are Being Curated</h2>
+          <p class="text-muted mb-3">Our featured-ideas library is being rebuilt. Each featured piece is a full-length editorial review with a downloadable PDF summary — pricing benchmarks, alternative-tool comparisons, and a decision framework specific to that tool.</p>
+          <p class="text-muted">Until the library relaunches, use the resources below — every one of them is more useful than a first-look article.</p>
+        </div>
+        <h2 class="text-2xl font-bold text-text mb-4">Where to Start Instead</h2>
+        <div class="grid sm:grid-cols-2 gap-4 mb-10">
+          <a href="/best/best-trading-journals/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors block">
+            <span class="font-semibold text-text block mb-1">Best Trading Journals 2026</span>
+            <span class="text-sm text-muted block mb-2">Ranked list of trading journals with pricing, integrations, and workflow-fit guidance.</span>
+            <span class="text-sm text-primary font-medium">Open guide &rarr;</span>
+          </a>
+          <a href="/best/best-prop-firms/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors block">
+            <span class="font-semibold text-text block mb-1">Best Prop Firms 2026</span>
+            <span class="text-sm text-muted block mb-2">Futures-first ranking with drawdown, activation, payout, and evaluation rule notes.</span>
+            <span class="text-sm text-primary font-medium">Open guide &rarr;</span>
+          </a>
+          <a href="/best/best-stock-screeners/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors block">
+            <span class="font-semibold text-text block mb-1">Best Stock Screeners</span>
+            <span class="text-sm text-muted block mb-2">Workflow-based screener recommendations for value, momentum, and swing traders.</span>
+            <span class="text-sm text-primary font-medium">Open guide &rarr;</span>
+          </a>
+          <a href="/best/best-charting-software-day-trading/" class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors block">
+            <span class="font-semibold text-text block mb-1">Best Day-Trading Charting Software</span>
+            <span class="text-sm text-muted block mb-2">Charting stacks that hold up under intraday scanning, alert firing, and multi-monitor use.</span>
+            <span class="text-sm text-primary font-medium">Open guide &rarr;</span>
+          </a>
+        </div>
+        <h2 class="text-2xl font-bold text-text mb-4">Category Hubs</h2>
+        <ul class="space-y-2 text-muted">
+          <li>&rarr; <a href="/categories/trading-journals/" class="text-primary hover:underline">Trading Journals</a> — every journal we review, with rating breakdowns.</li>
+          <li>&rarr; <a href="/categories/prop-firms/" class="text-primary hover:underline">Prop Firms</a> — every prop firm we cover, with evaluation-rule summaries.</li>
+          <li>&rarr; <a href="/categories/stock-screeners/" class="text-primary hover:underline">Stock Screeners</a> — the full screener catalog.</li>
+          <li>&rarr; <a href="/categories/charting-platforms/" class="text-primary hover:underline">Charting Platforms</a> — TradingView, MultiCharts, Sierra Chart, and their peers.</li>
+          <li>&rarr; <a href="/guides/" class="text-primary hover:underline">Trading Guides</a> — rules-first program-mechanics guides for prop-firm evaluations.</li>
+        </ul>
       </div>
     ) : (
       <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
