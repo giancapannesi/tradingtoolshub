@@ -1,42 +1,96 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const guides = [
-  ['Prop Firm Rules Explained', '/guides/prop-firm-drawdown-activation-consistency/'],
-  ['Earn2Trade Consistency Rule', '/guides/earn2trade-consistency-rule/'],
-  ['Earn2Trade Gauntlet Mini', '/guides/earn2trade-gauntlet-mini/'],
-  ['Earn2Trade LiveSim vs Live', '/guides/earn2trade-livesim-vs-live/'],
-  ['Earn2Trade Platforms', '/guides/earn2trade-platforms/'],
-  ['Earn2Trade Withdrawal Guide', '/guides/earn2trade-withdrawal-guide/'],
-  ['Trader Career Path Rules', '/guides/trader-career-path-rules/'],
+const groups = [
+  {
+    heading: 'Prop-Firm Program Mechanics',
+    intro: 'Rules-first breakdowns of the constraints that decide whether an evaluation is passable — drawdown types, consistency rules, activation triggers, and the small print that catches new traders out.',
+    guides: [
+      { title: 'Prop-Firm Drawdown, Activation & Consistency', href: '/guides/prop-firm-drawdown-activation-consistency/', blurb: 'How trailing vs static drawdowns actually work, why activation orders matter, and where consistency rules quietly kill accounts.' },
+      { title: 'Trader Career Path — Full Ruleset', href: '/guides/trader-career-path-rules/', blurb: 'End-to-end rule walk for Earn2Trade\'s TCP: contract sizing, profit targets, min trading days, payout structure, and what disqualifies a trader.' },
+    ],
+  },
+  {
+    heading: 'Earn2Trade Deep Dives',
+    intro: 'Program-specific guides for Earn2Trade evaluations and platform choices. Written for traders who want to know exactly what each program tests before paying.',
+    guides: [
+      { title: 'Earn2Trade Consistency Rule Explained', href: '/guides/earn2trade-consistency-rule/', blurb: 'What the 40% single-day cap really means for size, PnL distribution, and why passing traders still fail on the consistency check.' },
+      { title: 'Earn2Trade Gauntlet Mini — Full Walkthrough', href: '/guides/earn2trade-gauntlet-mini/', blurb: 'Contract limits, profit target, drawdown, and evaluation length for the cheaper Mini pathway to funding.' },
+      { title: 'Earn2Trade LiveSim vs Live', href: '/guides/earn2trade-livesim-vs-live/', blurb: 'What changes between the simulated LiveSim environment and a real funded live account — fills, slippage, and rule enforcement.' },
+      { title: 'Earn2Trade Platforms — Finamark, Rithmic, NinjaTrader', href: '/guides/earn2trade-platforms/', blurb: 'Which trading platforms Earn2Trade supports, execution differences, and which one to pick per instrument.' },
+      { title: 'Earn2Trade Withdrawal Guide', href: '/guides/earn2trade-withdrawal-guide/', blurb: 'Payout eligibility, request cadence, minimum profit thresholds, and typical processing time from funded accounts.' },
+    ],
+  },
 ];
+const allGuides = groups.flatMap(g => g.guides);
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Trading Guides",
   "url": "https://tradingtoolshub.com/guides/",
-  "hasPart": guides.map(([title, href]) => ({
-    "@type": "Article",
-    "name": title,
-    "url": `https://tradingtoolshub.com${href}`
-  }))
+  "description": "Practical trading guides on prop-firm rules, evaluations, platforms, and payout mechanics.",
+  "hasPart": allGuides.map(g => ({ "@type": "Article", "name": g.title, "url": `https://tradingtoolshub.com${g.href}` })),
 };
 ---
 <BaseLayout
-  title="Trading Guides — Rules, Platforms & Payouts"
-  description="Practical trading guides covering prop-firm rules, platform choices, evaluation programs, payouts, and account progression."
+  title="Trading Guides — Prop-Firm Rules, Evaluations & Payouts"
+  description="Rules-first trading guides covering prop-firm evaluations, drawdown mechanics, platform choices, and payout requirements. Written for traders who want the small print before committing."
   jsonLd={jsonLd}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-text mb-3">Trading Guides</h1>
-    <p class="text-muted mb-8">Detailed guides for evaluating trading programs, rules, platforms, and payout paths.</p>
-    <div class="grid sm:grid-cols-2 gap-4">
-      {guides.map(([title, href]) => (
-        <a href={href} class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors">
-          <span class="font-semibold text-text">{title}</span>
-          <span class="block text-sm text-primary mt-2">Read guide &rarr;</span>
-        </a>
-      ))}
-    </div>
+    <nav class="text-sm text-muted mb-4">
+      <a href="/" class="hover:text-text transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">Guides</span>
+    </nav>
+    <h1 class="text-3xl md:text-4xl font-bold text-text mb-4">Trading Guides</h1>
+    <p class="text-lg text-muted mb-4">Program-mechanics guides for prop-firm evaluations, funded-account rules, and platform choices. Every guide is written to answer the question a trader actually has before paying an evaluation fee — what disqualifies me, what does the payout schedule look like, which platform matches my instrument, and where does the small print bite.</p>
+    <p class="text-muted mb-10">These sit alongside our full <a href="/best/best-prop-firms/" class="text-primary hover:underline">best prop-firms list</a>, the <a href="/prop-firms/" class="text-primary hover:underline">prop-firm hub</a>, and <a href="/best/prop-firm-deals/" class="text-primary hover:underline">current prop-firm deals</a> — use those to decide which program to enter, and these guides to survive the evaluation once you\'re in.</p>
+
+    {groups.map(group => (
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold text-text mb-2">{group.heading}</h2>
+        <p class="text-muted mb-6">{group.intro}</p>
+        <div class="grid sm:grid-cols-2 gap-4">
+          {group.guides.map(g => (
+            <a href={g.href} class="bg-card border border-border rounded-xl p-5 hover:border-primary/50 transition-colors block">
+              <span class="font-semibold text-text block mb-2">{g.title}</span>
+              <span class="text-sm text-muted block mb-3">{g.blurb}</span>
+              <span class="text-sm text-primary font-medium">Read guide &rarr;</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="mb-12 bg-card border border-border rounded-xl p-6">
+      <h2 class="text-xl font-bold text-text mb-3">How to Use These Guides</h2>
+      <p class="text-muted mb-4">Read the program-mechanics guide <strong>before</strong> paying an evaluation fee — most trader disqualifications happen because a rule was misunderstood, not because the trader couldn\'t trade. Consistency rules, activation orders, and drawdown-type differences are the top three killers on live funded accounts.</p>
+      <p class="text-muted">Once you\'ve chosen a program, pair the mechanics guide with a real <a href="/categories/prop-firms/" class="text-primary hover:underline">prop-firm review</a>, then decide the platform from our platform-fit notes. If you\'re between two programs, the <a href="/best/best-prop-firms-futures/" class="text-primary hover:underline">futures prop-firm comparison</a> lays out execution and rule differences side-by-side.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-bold text-text mb-4">Also Useful</h2>
+      <ul class="space-y-2 text-muted">
+        <li>&rarr; <a href="/best/best-prop-firms/" class="text-primary hover:underline">Best Prop Firms 2026</a> — ranked list with pricing, drawdown, and payout notes.</li>
+        <li>&rarr; <a href="/best/best-prop-firms-futures/" class="text-primary hover:underline">Best Futures Prop Firms</a> — futures-specific ranking with contract limits.</li>
+        <li>&rarr; <a href="/best/no-challenge-prop-firms/" class="text-primary hover:underline">No-Challenge Prop Firms</a> — instant-funding options that skip the evaluation.</li>
+        <li>&rarr; <a href="/best/prop-firm-deals/" class="text-primary hover:underline">Current Prop-Firm Deals</a> — active offers verified by our editorial team.</li>
+        <li>&rarr; <a href="/categories/prop-firms/" class="text-primary hover:underline">All Prop-Firm Reviews</a> — individual review pages for every prop firm we cover.</li>
+      </ul>
+    </section>
+
+    <section class="mb-8 bg-card border border-border rounded-xl p-6">
+      <h2 class="text-xl font-bold text-text mb-3">Why Rule Mechanics Beat Marketing Copy</h2>
+      <p class="text-muted mb-3">Every prop-firm homepage sells the payout number and the account size. Almost none of them lead with the four rules that actually determine whether you keep the funded account: trailing vs static drawdown, activation triggers, consistency caps, and news-time trading restrictions. Those four items are where evaluations are won and lost, and they are the reason most passing traders eventually fail live.</p>
+      <p class="text-muted mb-3">The guides above are structured to answer the question you should ask before paying an evaluation fee: <em>what specifically disqualifies me</em>. If you cannot answer that in one sentence after reading a firm's marketing page, you are not ready to pay the fee — go find the rule doc, read it twice, and only then decide.</p>
+      <p class="text-muted">Once funded, the rules do not relax. Consistency caps and drawdown types apply to live payouts the same way they apply to the evaluation. Traders who assume &ldquo;the hard part is passing&rdquo; often lose their funded account in the first payout cycle because they scaled too fast or drew down past the trailing threshold.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-bold text-text mb-4">Platform Choice Matters More Than You Think</h2>
+      <p class="text-muted mb-3">The trading platform you use inside a prop-firm evaluation is not a preference — it is part of the ruleset. Fills, slippage, order-type support, and the platform&apos;s handling of stop orders around news events all affect whether you pass. A strategy that works on <a href="/review/ninjatrader/" class="text-primary hover:underline">NinjaTrader</a> with Rithmic data will behave differently on Finamark, and both differ from what happens on TradingView Broker or a broker-native platform.</p>
+      <p class="text-muted">The Earn2Trade platform guide above breaks this down for their specific supported platforms. For general platform selection, see our <a href="/categories/futures-platforms/" class="text-primary hover:underline">futures platforms hub</a> and the <a href="/best/best-charting-platforms/" class="text-primary hover:underline">best charting platforms list</a>.</p>
+    </section>
   </div>
 </BaseLayout>

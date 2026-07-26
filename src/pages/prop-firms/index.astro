@@ -50,8 +50,8 @@ const faqItems = [
 ];
 ---
 <BaseLayout
-  title="Best Prop Trading Firms 2026 — Compare All Funded Programs"
-  description={`Compare ${propFirms.length}+ prop trading firms side by side. Reviews, current deals, evaluations, profit splits, and funding options. Find the best prop firm for your trading style.`}
+  title="Best Prop Trading Firms 2026 - Compare Rules, Fees and Payouts"
+  description={`Compare ${propFirms.length}+ prop trading firms by rules, drawdown, payout terms, platforms, markets and current deals. Find the best funded trader program for your style.`}
   jsonLd={jsonLd}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
@@ -59,11 +59,11 @@ const faqItems = [
     <!-- Hero -->
     <div class="text-center mb-16">
       <h1 class="text-3xl md:text-5xl font-bold text-text mb-4">
-        Prop Trading Firms <span class="text-primary">Directory</span>
+        Prop Trading Firms <span class="text-primary">Compared</span>
       </h1>
       <p class="text-lg text-muted max-w-3xl mx-auto mb-6">
-        The most comprehensive prop firm directory. Compare {propFirms.length} firms by evaluation type, profit splits,
-        funding limits, and real trader reviews. Updated daily.
+        Compare {propFirms.length} firms by evaluation type, drawdown mechanics, platform fit,
+        funding limits, payout terms, and current deal context.
       </p>
       <div class="flex flex-wrap gap-4 justify-center text-sm">
         <span class="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">{propFirms.length} Firms Reviewed</span>
@@ -73,6 +73,74 @@ const faqItems = [
         )}
       </div>
     </div>
+
+    <article class="article-content mb-16 prop-firms-editorial">
+      <section>
+        <h2>How to Use This Prop Firm Comparison</h2>
+        <p>
+          Prop-firm pages are easy to get wrong because the largest advertised account is rarely the most important detail. A trader can fail a cheap challenge because the drawdown calculation does not fit the strategy, or pass an evaluation and then discover that payout rules, activation costs, platform limits, or consistency requirements make the account hard to use. This page is built around those practical checks rather than headline funding numbers.
+        </p>
+        <p>
+          Start by choosing the market you actually trade. Futures traders should review <a href="/best/best-prop-firms-futures/">best futures prop firms</a> and compare contract limits, trailing drawdown behavior, exchange fees, and platforms such as NinjaTrader, Tradovate, Rithmic, or TradingView where supported. Forex and CFD traders should focus on leverage, news rules, weekend holding, payout cadence, and jurisdiction. Stock and options traders should be more skeptical because fewer retail prop firms serve those markets well.
+        </p>
+      </section>
+
+      <section>
+        <h2>The Ranking Criteria That Matter</h2>
+        <ul>
+          <li><strong>Drawdown mechanics:</strong> fixed, end-of-day trailing, intraday trailing, daily loss limits, and whether the threshold locks after a milestone.</li>
+          <li><strong>Payout path:</strong> minimum trading days, consistency rules, first-payout timing, payout caps, payout frequency, and whether the account is simulated or live.</li>
+          <li><strong>Real cost:</strong> evaluation fee, reset fee, activation fee, data fee, platform fee, withdrawal fee, and whether discounts apply only to the first month.</li>
+          <li><strong>Platform fit:</strong> supported execution platforms, copier policies, automation rules, data quality, mobile access, and order-entry workflow.</li>
+          <li><strong>Rule clarity:</strong> whether the firm publishes plain-language help docs and updates rule changes without burying them in marketing copy.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Quick Decision Map</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Trader type</th>
+              <th>Start here</th>
+              <th>What to verify before paying</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Futures day trader</td>
+              <td><a href="/best/best-prop-firms-futures/">Best futures prop firms</a></td>
+              <td>Trailing threshold, contract scaling, data/platform fees, and payout rules.</td>
+            </tr>
+            <tr>
+              <td>US trader</td>
+              <td><a href="/best/prop-firms-us-traders/">Prop firms for US traders</a></td>
+              <td>Eligibility, allowed products, tax/account status, and platform availability.</td>
+            </tr>
+            <tr>
+              <td>Cost-sensitive trader</td>
+              <td><a href="/best/cheapest-prop-firms/">Cheapest prop firms</a></td>
+              <td>Total cost after resets, activation, data, and payout restrictions.</td>
+            </tr>
+            <tr>
+              <td>Experienced trader avoiding evaluations</td>
+              <td><a href="/best/no-challenge-prop-firms/">No-challenge prop firms</a></td>
+              <td>Capital access, profit split, upfront fee, scaling model, and refund rules.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>How the Main Shortlist Should Be Read</h2>
+        <p>
+          Treat the ratings below as a starting point, not an instruction to buy the top card. <a href="/review/tradeify/">Tradeify</a>, <a href="/review/topstep/">Topstep</a>, <a href="/review/earn2trade/">Earn2Trade</a>, <a href="/review/apex-trader-funding/">Apex Trader Funding</a>, <a href="/review/lucid-trading/">Lucid Trading</a>, <a href="/review/alpha-futures/">Alpha Futures</a>, <a href="/review/funded-next-futures/">FundedNext Futures</a>, <a href="/review/ftmo/">FTMO</a>, <a href="/review/funded-trading-plus/">Funded Trading Plus</a>, and <a href="/review/funding-pips/">Funding Pips</a> can all make sense for different traders. The useful question is which rulebook your strategy can survive.
+        </p>
+        <p>
+          Before buying any challenge, model at least twenty of your own recent trades against the account rules. If a normal losing day would breach the daily loss limit, or a normal winning streak would violate consistency rules, the account is not cheap even when the upfront price looks attractive.
+        </p>
+      </section>
+    </article>
 
     <!-- Quick Comparison Table -->
     <div class="mb-16">

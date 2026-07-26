@@ -1,0 +1,69 @@
+<section>
+  <h2>Free trading bots are only free if the limits fit the strategy</h2>
+  <p>A free trading bot can be useful, but "free" usually means one of three things: the bot runs inside a platform you already use, the provider makes money from trading fees, or the free tier is limited to research and backtesting. Those are not bad models, but they change the ranking. The right free bot is the one where the constraint is obvious before money is connected.</p>
+  <p><a href="/review/metatrader-5/">MetaTrader 5</a> is the most flexible free starting point for broker-supported Expert Advisors. QuantConnect is better for traders who want to research, code and backtest before thinking about live deployment. <a href="/review/pionex/">Pionex</a> is the simplest route for crypto grid and DCA bots because the bots are built into the exchange workflow. <a href="/review/3commas/">3Commas</a>, <a href="/review/cryptohopper/">Cryptohopper</a> and <a href="/review/bitsgap/">Bitsgap</a> can still be useful free trials or starter workflows, but they should be judged by what happens when the free tier runs out.</p>
+  <p>The mistake is comparing free bots as if they all automate the same thing. A free MT5 Expert Advisor depends on broker execution, hosting and code quality. A free crypto exchange bot depends on custody, trading fees and market range. A free quant platform depends on data limits, compute limits and whether live trading requires an upgrade. The cheapest bot is not always the lowest-risk bot.</p>
+</section>
+
+<section>
+  <h2>Best free bot by trader type</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Trader type</th>
+        <th>Best starting point</th>
+        <th>What makes it free</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Forex or CFD trader using broker automation</td>
+        <td><a href="/review/metatrader-5/">MetaTrader 5</a></td>
+        <td>The platform supports Expert Advisors and custom indicators; costs come from broker spreads, hosting, data and any paid marketplace code.</td>
+      </tr>
+      <tr>
+        <td>Systematic trader learning to code strategies</td>
+        <td>QuantConnect</td>
+        <td>The free tier is useful for research and backtesting, but live deployment and larger compute needs should be checked before relying on it.</td>
+      </tr>
+      <tr>
+        <td>Crypto trader testing grid or DCA automation</td>
+        <td><a href="/review/pionex/">Pionex</a></td>
+        <td>The bots are built into the exchange, so the practical cost is trading fees, custody risk and exchange-specific execution.</td>
+      </tr>
+      <tr>
+        <td>Trader comparing multi-exchange bot dashboards</td>
+        <td><a href="/review/3commas/">3Commas</a> or <a href="/review/bitsgap/">Bitsgap</a></td>
+        <td>Free access is more useful for setup testing than for a final decision; API permissions and paid-plan limits matter.</td>
+      </tr>
+      <tr>
+        <td>Trader using marketplace strategies</td>
+        <td><a href="/review/cryptohopper/">Cryptohopper</a></td>
+        <td>Free access can help test the interface, but copied strategies still need drawdown limits and independent review.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Free bot checks before connecting capital</h2>
+  <ul>
+    <li><strong>Execution location:</strong> confirm whether trades run at a broker, exchange, cloud platform, VPS or local machine.</li>
+    <li><strong>Real cost:</strong> include spreads, exchange fees, data fees, hosting, marketplace scripts and paid-plan triggers.</li>
+    <li><strong>Risk cap:</strong> set a maximum allocation, max daily loss, max open positions and shutdown condition before the bot goes live.</li>
+    <li><strong>Backtest quality:</strong> use out-of-sample periods and different market regimes instead of trusting one optimized equity curve.</li>
+    <li><strong>Audit trail:</strong> the platform should make parameter changes, orders, fills and errors easy to review after the fact.</li>
+  </ul>
+  <p>If the free bot is part of a serious workflow, pair it with the <a href="/categories/risk-management/">risk management hub</a> and a journal from the <a href="/best/best-trading-journals/">trading journal ranking</a>. Free automation without review is just a faster way to repeat the same mistake.</p>
+</section>
+
+<section>
+  <h2>Current source checks</h2>
+  <p>Official source checks for this update show that MetaTrader 5 supports Expert Advisors, custom indicators and strategy testing; QuantConnect publishes a free tier for research and backtesting with asset-class data access; Pionex states that built-in bots do not add a separate bot subscription while trading fees apply; and TradingView/Pine Script can support alert logic but still needs a tested execution bridge before it becomes a bot.</p>
+  <p>That means the top free choice depends on the job. MT5 is the best free route for broker-side automation. QuantConnect is the best free research environment. Pionex is the easiest no-subscription crypto bot. Paid crypto-bot platforms can be good products, but their free tiers should be treated as trials until API permissions, paid limits and failure handling are clear.</p>
+</section>
+
+<section>
+  <h2>Bottom line</h2>
+  <p>Use MetaTrader 5 if you want free Expert Advisor infrastructure, QuantConnect if you want to research and backtest systematically, and Pionex if you want the simplest free crypto bot workflow. Do not choose a free bot because it costs nothing today; choose it because you understand exactly where the cost and failure risk move instead.</p>
+</section>

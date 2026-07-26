@@ -3,18 +3,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getListicles, getToolBySlug, getCategories, getComparisons } from '../../utils/data';
+import { pickVariant, AFFILIATE_DISCLOSURE_VARIANTS } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.best || []);
   const listicles = getListicles();
-  return listicles.map(l => ({
-    params: { slug: l.slug },
-    props: { listicle: l },
-  }));
+  return listicles
+    .filter(l => !migrated.has(l.slug))
+    .map(l => ({
+      params: { slug: l.slug },
+      props: { listicle: l },
+    }));
 }
 
 const { listicle } = Astro.props;
+const bodyDisclosure = pickVariant(listicle.slug + ':bdisc', AFFILIATE_DISCLOSURE_VARIANTS);
 const editorialHtmlPath = path.join(process.cwd(), 'src/content/best-html', `${listicle.slug}.html`);
 const editorialHtml = fs.existsSync(editorialHtmlPath)
   ? fs.readFileSync(editorialHtmlPath, 'utf-8')
@@ -393,7 +399,7 @@ const jsonLd = [
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted">
-      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you. This helps us keep TradingToolsHub free and our reviews independent.
+      {bodyDisclosure}
     </div>
   </div>
 </BaseLayout>

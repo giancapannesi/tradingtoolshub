@@ -10,7 +10,7 @@
   "description_long": "Journalytix is a specialized trading journal built primarily for futures traders, with deep integration into NinjaTrader and other popular futures platforms. Unlike most journals that work with post-trade data, Journalytix captures and analyzes your trades in real-time as they happen.\n\nThe platform automatically logs every trade, tracks your risk exposure, and overlays economic news events on your trade timeline so you can see how macro events affected your decisions. The built-in leaderboard adds a competitive element that motivates traders to improve their consistency.\n\nJournalytix uses a single-tier pricing model at $47/month or $399/year, giving every subscriber access to all features. It is particularly popular among prop firm futures traders and NinjaTrader users who need real-time journaling without manual data entry.",
   "logo_url": "/logos/journalytix.svg",
   "screenshots": [],
-  "website_url": "https://journalytix.com",
+  "website_url": "https://journalytix.me/",
   "affiliate_url": "",
   "affiliate_program": "",
   "affiliate_commission": "",
@@ -88,8 +88,8 @@
     "tradersync",
     "tradezella"
   ],
-  "last_updated": "2026-03-07",
+  "last_updated": "2026-07-21",
   "review_status": "published",
-  "meta_title": "Journalytix Review 2026",
-  "meta_description": "Real-time futures trading journal with automated trade logging, risk analytics, and news integration for NinjaTrader users."
+  "meta_title": "Journalytix Review 2026 | Futures Journal",
+  "meta_description": "Journalytix reviewed for real-time futures journaling, news alerts, risk monitoring, pricing, limits and TraderTrac alternatives."
 }

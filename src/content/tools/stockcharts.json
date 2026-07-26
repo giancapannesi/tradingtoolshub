@@ -35,7 +35,7 @@
       {
         "name": "Basic",
         "price_monthly": 19.95,
-        "price_yearly": 191.52,
+        "price_yearly": 239.4,
         "features": [
           "Real-time data",
           "100 saved charts",
@@ -48,7 +48,7 @@
       {
         "name": "Extra",
         "price_monthly": 29.95,
-        "price_yearly": 287.52,
+        "price_yearly": 359.4,
         "features": [
           "Real-time data",
           "500 saved charts",
@@ -61,8 +61,8 @@
       },
       {
         "name": "Pro",
-        "price_monthly": 39.95,
-        "price_yearly": 383.52,
+        "price_monthly": 49.95,
+        "price_yearly": 599.4,
         "features": [
           "Real-time data",
           "Unlimited saved charts",
@@ -140,5 +140,7 @@
   "last_updated": "2026-03-11",
   "review_status": "published",
   "meta_title": "StockCharts Review 2026",
-  "meta_description": "Professional-grade charting and technical analysis platform with 25+ years of history, advanced scanning tools, and comprehensive market breadth."
+  "meta_description": "Professional-grade charting and technical analysis platform with 25+ years of history, advanced scanning tools, and comprehensive market breadth.",
+  "alt_meta_title": "Best StockCharts Alternatives 2026",
+  "alt_meta_description": "Compare StockCharts alternatives for charting, scans, alerts, broker workflow and market breadth, including TradingView, TrendSpider and thinkorswim."
 }

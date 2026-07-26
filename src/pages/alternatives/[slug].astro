@@ -3,17 +3,30 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import RatingStars from '../../components/RatingStars.astro';
 import { getAllTools, getToolBySlug, getSimilarTools, getComparisons } from '../../utils/data';
+import { pickVariant, ALTERNATIVES_LIST_HEADINGS, AFFILIATE_DISCLOSURE_VARIANTS, buildAltMeta } from '../../utils/variant';
+import staticMigrated from '../../content/static_migrated.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export function getStaticPaths() {
+  const migrated = new Set(staticMigrated.alternatives || []);
   const tools = getAllTools();
-  return tools.map(t => ({
-    params: { slug: t.slug },
-    props: { tool: t },
-  }));
+  return tools
+    .filter(t => !migrated.has(t.slug))
+    .map(t => ({
+      params: { slug: t.slug },
+      props: { tool: t },
+    }));
 }
 
 const { tool } = Astro.props;
+const editorialHtmlPath = path.join(process.cwd(), 'src/content/alternatives-html', `${tool.slug}.html`);
+const editorialHtml = fs.existsSync(editorialHtmlPath)
+  ? fs.readFileSync(editorialHtmlPath, 'utf-8')
+  : '';
 const alternatives = getSimilarTools(tool, 6);
+const listHeadingTemplate = ALTERNATIVES_LIST_HEADINGS[tool.category] || 'Top Alternatives';
+const bodyDisclosure = pickVariant(tool.slug + ':adisc', AFFILIATE_DISCLOSURE_VARIANTS);
 const comparisonByPair = new Map(
   getComparisons().map(comparison => [
     [comparison.tool_a, comparison.tool_b].sort().join('|'),
@@ -27,7 +40,15 @@ const altNames = topAlts.map(a => a.name).join(', ');
 const cheapest = alternatives.reduce((min, a) => (a.pricing.starting_price ?? Infinity) < (min.pricing.starting_price ?? Infinity) ? a : min, alternatives[0]);
 const cheapestLabel = cheapest.pricing.starting_price === 0 ? 'Free' : `from $${cheapest.pricing.starting_price}/mo`;
 const topRated = alternatives.reduce((best, a) => a.rating > best.rating ? a : best, alternatives[0]);
-const metaDescription = `Best ${tool.name} alternatives for 2026: ${altNames}, and more. ${topRated.name} leads at ${topRated.rating.toFixed(1)}★. Cheapest option: ${cheapest.name} (${cheapestLabel}). Side-by-side feature and pricing comparison.`;
+const metaDescription = buildAltMeta(tool.slug, {
+  toolName: tool.name,
+  altNames,
+  topRatedName: topRated.name,
+  topRatedRating: topRated.rating,
+  cheapestName: cheapest.name,
+  cheapestLabel,
+  altCount: alternatives.length,
+});
 
 const jsonLd = [
   {
@@ -74,6 +95,10 @@ const jsonLd = [
       Not sure {tool.name} is right for you? Here are the top {alternatives.length} alternatives with detailed comparisons to help you decide.
     </p>
 
+    {editorialHtml && (
+      <article class="article-content mb-10 alternatives-editorial-html" set:html={editorialHtml} />
+    )}
+
     <!-- Original Tool Quick Card -->
     <div class="bg-card border border-border rounded-xl p-5 mb-8">
       <div class="flex items-center justify-between">
@@ -94,7 +119,7 @@ const jsonLd = [
     </div>
 
     <!-- Alternatives List -->
-    <h2 class="text-2xl font-bold text-text mb-6">Top {alternatives.length} Alternatives</h2>
+    <h2 class="text-2xl font-bold text-text mb-6">{listHeadingTemplate.replace('Alternatives', `Alternatives (${alternatives.length})`)}</h2>
 
     {alternatives.map((alt, i) => {
       const comparisonSlug = comparisonByPair.get([tool.slug, alt.slug].sort().join('|'));
@@ -166,7 +191,7 @@ const jsonLd = [
 
     <!-- Disclosure -->
     <div class="bg-card/50 border border-border rounded-xl p-4 text-xs text-muted mt-8">
-      <strong class="text-text">Affiliate Disclosure:</strong> Some links on this page may be affiliate links. If you sign up through our links, we may earn a commission at no extra cost to you.
+      {bodyDisclosure}
     </div>
   </div>
 </BaseLayout>

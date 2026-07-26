@@ -164,7 +164,7 @@
     "tc2000",
     "thinkorswim"
   ],
-  "last_updated": "2026-03-29",
+  "last_updated": "2026-07-21",
   "review_status": "published",
   "company_background": "Founded in 2011 by Stan Bokov and Denis Globa, TradingView grew from a simple web charting tool into the world's largest trading community with 100M+ users. Raised $298M at $3B valuation in 2021. Headquartered in New York with global offices. Profitable and growing.",
   "scraped_features": [
@@ -205,7 +205,21 @@
       "url": "https://www.g2.com/products/tradingview/reviews"
     }
   ],
-  "meta_title": "TradingView Review 2026: Best Charting Platform?",
-  "meta_description": "In-depth TradingView review covering Pine Script, alerts, pricing (free to $239/mo), social trading, and broker integration. 100M+ traders can't be wrong.",
-  "enriched_at": "2026-03-29"
+  "meta_title": "TradingView Review 2026: Charts, Alerts & Pricing",
+  "meta_description": "TradingView review covering charts, Pine Script, alerts, pricing, broker support, data costs and where it fits in a trader workflow.",
+  "enriched_at": "2026-03-29",
+  "sources": [
+    {
+      "label": "TradingView Pricing",
+      "url": "https://www.tradingview.com/pricing/"
+    },
+    {
+      "label": "TradingView Charting",
+      "url": "https://www.tradingview.com/chart/"
+    },
+    {
+      "label": "TradingView Broker Support",
+      "url": "https://www.tradingview.com/support/solutions/43000473924-which-brokers-can-i-trade-through-on-tradingview/"
+    }
+  ]
 }

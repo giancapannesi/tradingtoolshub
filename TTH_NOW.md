@@ -4,6 +4,86 @@
 
 ---
 
+## 2026-07-23 — TAKEOVER FROM CODEX + PHASE A EXECUTED
+
+**Codex subscription not renewed 2026-07-22. Ownership transferred to in-session Claude.**
+
+**Read these before touching anything:**
+1. `TradingToolsHub_SEO/TradingToolsHub Recovery/PHASE_A_EXECUTION_STATE.md` — live cursor for Phase A execution (has locking protocol so agents don't overwrite each other).
+2. `TradingToolsHub_SEO/TradingToolsHub Recovery/TTH_ANTI_AI_SLOP_PLAN.md` — plan for the remaining 1,564 critical+serious pages. Founder direction: stop them looking like AI slop.
+3. `TradingToolsHub_SEO/TradingToolsHub Recovery/PHASE_A_CULL_PROPOSAL.csv` — 1,648 rows, every classified.
+
+**Session execution log 2026-07-22 → 2026-07-23:**
+- Seventeenth Stage 2 set (Codex's in-flight work finished): 4 `/best/` broker + futures free-platform pages, deploy `dpl_9TL587xMQKNz3pHA7VymZysJdESX`, commit `f8698a4`.
+- Phase A B5+B5b: 71 thin-page 301s (51 alternatives→review + 20 pricing-guides→review) in vercel.json, deploy `dpl_EnpyC9PoifzWLF3N3P4xXkp9TyYj`, commit `845d783`.
+- Phase A B7: 13 thin blog pagination pages deleted via getStaticPaths filter, deploy `dpl_2Wvr959KRNMCXuQtLkvREBg8CGbJ`, commit `213a3db`.
+
+**Recovery status:** 80 pages recovered via Stage 2 + 71 pages 301'd + 13 pages deleted = 164 pages resolved. **1,564 critical+serious pages remaining**, planned in `TTH_ANTI_AI_SLOP_PLAN.md`.
+
+**Founder direction 2026-07-23 (verbatim intent):**
+- "Stop them looking like AI slop." Cookie-cutter pages must be de-templated. Pages are valid, titles are good, tools are real — execution is the problem.
+- Clicks have collapsed. External partnership inbound is strong (Trading.com direct approach, others).
+- Indexation is broken — some pages caused a Bing deindex. Google not indexing new content.
+- Next session picks this up with Sprint 0 diagnosis before any content work.
+
+**Rules re-affirmed:**
+- Do not restart broad TTH feed/content generation without founder approval.
+- Do not use static queues as strategy.
+- Do not overwrite founder-protected pages.
+- Repo must end every session clean (`git status --short` empty).
+- Read state doc + plan doc before any recovery execution.
+- No mass delete without row-by-row founder approval (RULE 4).
+
+---
+
+## 2026-07-21 — BATCH 001 STATIC REVIEW RECOVERY
+
+### Phase-one status
+
+- Active branch: `agent/static-html-batch-01`.
+- Broad content publishing/generation remains paused during TTH quality recovery. RSS/feed serving is fine; do not disable `/feed.xml`.
+- Batch 001 contains 20 review pages. All 20 now have isolated static review pages rather than relying on the quarantined shared-outline output.
+- First nine review pages were committed, pushed and deployed to production in `bb595eded544f8fd3519bb410a61842fdfd4a642`: `/review/tradeify/`, `/review/lucid-trading/`, `/review/alpha-futures/`, `/review/edgewonk/`, `/review/trademetria/`, `/review/tradersync/`, `/review/funded-trading-plus/`, `/review/city-traders-imperium/`, `/review/fxify/`.
+- Remaining eleven completed in phase one: `/review/tradovate/`, `/review/coinrule/`, `/review/kinfo/`, `/review/bitsgap/`, `/review/3commas/`, `/review/option-alpha/`, `/review/interactive-brokers/`, `/review/insiderfinance/`, `/review/ic-markets/`, `/review/funded-next-futures/`, `/review/fidelity/`.
+- Final page-content commit: `1a56f717bbf7d5529891a766fb26dc30e02129f9`.
+- Production deploy completed and live-verified 2026-07-21; exact deployment IDs are recorded in the external recovery memory, not in this in-repo cursor.
+- Final local build after restoring all 20 static review slugs passed with 2,026 pages.
+- Verification completed locally: all 20 phase-one review pages exist in `public` and `dist`, all 20 public/dist hashes match, and all 20 are in `dist/sitemap-0.xml`.
+- Verification completed live: all 20 phase-one review URLs return HTTP 200 on `https://tradingtoolshub.com`, and all 20 appear in the live `sitemap-0.xml`.
+- Recovery memory ledger/action log: `/srv/BusinessOps/TradingToolsHub_SEO/TradingToolsHub Recovery/`.
+
+### Rules carried forward
+
+- Do not restart broad TTH feed/content generation without founder approval. Quality recovery means improve pages, internal links, titles, metas and schema.
+- Do not use static queues as strategy. Use live GSC/traffic/business evidence and Codex/OpenAI-first workflows.
+- Do not overwrite founder-protected or previously reviewed pages through bulk automation.
+- Do not touch keyring.
+- Next work after phase-one release is Batch 002 quality recovery and monitoring, not volume publishing.
+
+---
+
+## 2026-07-21 — STAGE 2 QUALITY RECOVERY STARTED
+
+### Stage-two status
+
+- Stage 2 began after Batch 001 production verification from a clean branch.
+- First Stage 2 recovery set: `/review/polygon-io/`, `/best/best-stock-screeners/`, `/best/best-risk-management/`, and `/best/prop-firm-deals/`.
+- `/review/polygon-io/` was deepened with implementation/buying checks and regenerated as a locked static page.
+- `/best/best-stock-screeners/` was expanded with workflow-based screener recommendations, decision tables, internal links to Finviz, InsiderEdge, TradingView, TraderTrac and TradeZella, and tightened title/meta.
+- `/best/best-risk-management/` received a new editorial body covering pre-trade sizing, journal-based risk review, prop-firm risk and advisor portfolio risk, then was regenerated as a locked static page.
+- `/best/prop-firm-deals/` was expanded from a thin tracker into a rules-first deal evaluation page; Lucid Trading and Alpha Futures were added as verification-pending offer rows, and the title was shortened.
+- Final local acceptance checks passed for the four Stage 2 URLs: title/meta/H1/canonical, sitemap inclusion, minimum content depth, and public/dist hash parity for the three locked static pages.
+
+### Stage-two carry-forward
+
+- Stage 2 has continued through seven sets. Latest released set: `/alternatives/ally-invest/`, `/alternatives/jp-morgan/`, `/alternatives/td-ameritrade/`, and `/alternatives/stockcharts/` rebuilt as locked static alternatives pages with official source links, deployed in Vercel production deployment `dpl_qZbdvc3VQeyi1yJr6TrxCfaP1NeR`, and live-verified on `tradingtoolshub.com`.
+- Stage 2 eighth set is released: `/best/best-prop-firms-futures/`, `/review/chartlog/`, `/review/journalytix/`, and `/review/marketsmith/` rebuilt as locked static pages with official source links, stale URL corrections, deployed in Vercel production deployment `dpl_EaJ3ypaUeAC82kXC5zPNBChhTuXd`, and live-verified on `tradingtoolshub.com`.
+- Stage 2 fifteenth set is released: `/best/best-ai-trading-tools/`, `/best/best-options-flow-tools/`, `/best/best-charting-software-day-trading/`, and `/best/best-insider-trading-tools/` rebuilt as locked static best pages with official source links and signal/workflow guidance, deployed in Vercel production deployment `dpl_AmLmSqRaENdVkdLshSxiGo3wRWSp`, and live-verified on `tradingtoolshub.com`.
+- Continue Stage 2 with high-value pages from the recovery plan, especially the remaining thin alternatives, stale comparison pages, `/best/best-prop-firms-futures/`, and internal-link reinforcement.
+- Keep broad content generation paused. Continue quality recovery, build checks, live verification and memory updates.
+
+---
+
 ## 2026-07-13 — RECOVERY PLAN CHECKPOINT
 
 ### Current production evidence
@@ -282,3 +362,135 @@ Full durable record:
 - Vercel secrets saved at `tools/.vercel-secrets.env` (chmod 600).
 - Indexing cron: daily 08:30 UTC, max 30 URLs/day.
 - Robots.txt fully open to all AI crawlers. llms.txt comprehensive (1,837 lines).
+
+---
+
+## 2026-07-21 — Stage 2 Second Set Ready
+
+- Stage 2 first set is already production verified: `/review/polygon-io/`, `/best/best-stock-screeners/`, `/best/best-risk-management/`, `/best/prop-firm-deals/`.
+- Second set prepared for release: `/review/finviz/`, `/review/tradingview/`, `/best/best-trading-journals/`, `/alternatives/tradertrac/`.
+- Work performed: added source-backed hand-written Finviz and TradingView review bodies, expanded the trading-journal hub, added hand-written TraderTrac alternatives guidance, corrected stale Finviz trial language, added first-party source links, shortened/cleaned metadata, and locked all four pages as static public HTML.
+- Final locked build passed with 2,020 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Third Set Ready
+
+- Third set prepared for release: `/compare/tradertrac-vs-tradezella/`, `/compare/tradersync-vs-tradertrac/`, `/compare/edgewonk-vs-tradertrac/`, `/compare/financialtechwiz-vs-tradertrac/`.
+- Work performed: added hand-written comparison bodies focused on TraderTrac buyer intent, competitor positioning, journaling workflow fit, broker-import context, review discipline, and internal links into the trading-journal cluster.
+- Static migration updated so the four reviewed comparison pages are served from locked public HTML instead of dynamic generated comparison copy.
+- Final locked build passed with 2,016 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fourth Set Ready
+
+- Fourth set prepared for release: `/categories/trading-journals/`, `/categories/stock-screeners/`, `/categories/charting-platforms/`, `/categories/prop-firms/`.
+- Work performed: added hand-written category hub sections with buyer-intent guidance, workflow-based decision criteria, inline links to recovered reviews/listicles/comparisons, and clearer ownership for high-value topic clusters.
+- Category pages now support optional editorial HTML from `src/content/category-html/`, and the four reviewed category hubs are locked in `public/categories/`.
+- Static migration updated so these four category hubs are served from locked public HTML instead of dynamic category output.
+- Final locked build passed with 2,012 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fifth Set Ready
+
+- Fifth set prepared for release: `/prop-firms/`, `/review/tradingeconomics/`, `/review/charles-schwab/`, `/review/etrade/`.
+- Work performed: upgraded the prop-firm landing page with rules-first editorial guidance and internal links; added hand-written Trading Economics, Charles Schwab and E*TRADE review bodies backed by official source pages; locked the three review pages as static public HTML.
+- Static migration updated so the three reviewed broker/data pages are served from locked public HTML instead of dynamic review output.
+- Final locked build passed with 2,009 generated pages after moving these three review routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all review pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Sixth Set Ready
+
+- Sixth set prepared for release: `/alternatives/charles-schwab/`, `/alternatives/etrade/`, `/alternatives/fidelity/`, `/alternatives/interactive-brokers/`.
+- Work performed: added hand-written broker alternatives guidance with use-case tables, switch/stay logic, decision checklists and internal links into the broker review/comparison cluster.
+- Static migration updated so these four alternatives pages are served from locked public HTML instead of thin dynamic alternatives output.
+- Final locked build passed with 2,005 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance passed for title/meta/H1/canonical/sitemap/content-depth checks and public/dist hash parity on all four pages.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Ninth Set Released
+
+- Ninth set released to production: `/compare/journalytix-vs-kinfo/`, `/compare/journalytix-vs-tradersync/`, `/compare/tradesviz-vs-tradingdiary-pro/`, `/compare/chartlog-vs-journalytix/`.
+- Work performed: rebuilt four journal comparison pages with hand-written workflow guidance, source links, decision tables, pricing notes and internal links into the trading-journal cluster.
+- Data corrections: Kinfo pricing updated to official Free, Pro $24.90/mo and Pro+ $44.90/mo; TradesViz updated to current Basic free, Pro $19.99/mo and Platinum $39.99/mo positioning.
+- Static migration updated so all four comparison pages are served from locked public HTML.
+- Final locked build passed with 1,994 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `391f382` was pushed; Vercel production deployment `dpl_HG6xQe3MVEnPnet53fX6vacgxBYo` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Tenth Set Released
+
+- Tenth set released to production: `/alternatives/tradezella/`, `/alternatives/tradersync/`, `/alternatives/tradesviz/`, `/alternatives/edgewonk/`.
+- Work performed: rebuilt four journal alternatives pages with hand-written decision guidance, current pricing/feature context, source links, TraderTrac positioning and internal links into the trading-journal cluster.
+- Data corrections: TradeZella pricing updated to Essential $35/mo, Pro $59/mo and Ultra $99/mo; TraderSync pricing updated to Pro $29.95/mo, Premium $49.95/mo and Elite $79.95/mo; TradesViz Platinum corrected to $29.99/mo; Edgewonk pricing and feature notes updated from official source checks.
+- Static migration updated so all four alternatives pages are served from locked public HTML.
+- Final locked build passed with 1,990 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `3a653df` was pushed; Vercel production deployment `dpl_EfMC99eZDrsWFJoB9o9nEUuKuruk` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Eleventh Set Released
+
+- Eleventh set released to production: `/categories/brokers-us/`, `/categories/options-platforms/`, `/categories/futures-platforms/`, `/categories/trading-education/`.
+- Work performed: rebuilt four category hubs with hand-written buyer workflow guidance, decision tables, official source context and internal links into broker/options/futures/education clusters.
+- Static migration updated so all four category hubs are served from locked public HTML.
+- Final locked local build passed with 1,986 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `e5fba51` was pushed; Vercel production deployment `dpl_4oJP96ptefQqHsyVYNmNvyKdwLCS` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Twelfth Set Released
+
+- Twelfth set released to production: `/categories/brokers-forex/`, `/categories/trading-bots/`, `/categories/news-data-feeds/`, `/categories/trading-indicators/`.
+- Work performed: rebuilt four remaining category hubs with hand-written buyer workflow guidance, risk/cost cautions, decision tables, official source context and internal links into forex broker, trading bot, market-data/news and indicator clusters.
+- Static migration updated so all four category hubs are served from locked public HTML.
+- Final locked local build passed with 1,982 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `cb84ffd` was pushed; Vercel production deployment `dpl_63BBxQmzb7aDchkrjWZEB81CPPQ2` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Thirteenth Set Released
+
+- Thirteenth set released to production: `/best/best-trading-bots/`, `/best/best-news-data-feeds/`, `/best/best-trading-indicators/`, `/categories/risk-management/`.
+- Work performed: rebuilt three best pages and the risk-management category hub with hand-written workflow guidance, source-backed cautions, decision tables, internal links and refreshed metadata.
+- Static migration updated so all four routes are served from locked public HTML.
+- Sitemap correction: removed the old suppression for `/best/best-trading-indicators/` after the upgraded page passed sitemap/canonical/content checks.
+- Final locked local build passed with 1,978 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `69f843e` was pushed; Vercel production deployment `dpl_B3SQe5Ce8hKcoWeUwr4QnpJeigv4` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fourteenth Set Released
+
+- Fourteenth set released to production: `/best/best-free-trading-bots/`, `/best/best-free-news-data-feeds/`, `/best/best-tradingview-indicators/`, `/best/best-free-tradingview-indicators/`.
+- Work performed: rebuilt four best pages with hand-written free-tool limitation guidance, TradingView indicator/repaint cautions, official source context, workflow-fit decision tables and internal links into bot/data/indicator clusters.
+- Static migration updated so all four routes are served from locked public HTML.
+- Sitemap correction: removed the old suppression for `/best/best-free-tradingview-indicators/` after the upgraded page passed sitemap/canonical/content checks.
+- Final locked local build passed with 1,974 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `96a56ff` was pushed; Vercel production deployment `dpl_AhVETxhgisyn8YwR6c7gUPXRprR1` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Fifteenth Set Released
+
+- Fifteenth set released to production: `/best/best-ai-trading-tools/`, `/best/best-options-flow-tools/`, `/best/best-charting-software-day-trading/`, `/best/best-insider-trading-tools/`.
+- Work performed: rebuilt four best pages with hand-written workflow guidance for AI tools, options-flow interpretation, day-trading chart stacks and insider/Congress signal tools.
+- Static migration updated so all four routes are served from locked public HTML.
+- Final locked local build passed with 1,970 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `8715f62` was pushed; Vercel production deployment `dpl_AmLmSqRaENdVkdLshSxiGo3wRWSp` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.
+
+## 2026-07-21 — Stage 2 Sixteenth Set Released
+
+- Sixteenth set released to production: `/best/best-trading-education/`, `/best/best-free-trading-education/`, `/best/best-free-stock-screeners/`, `/best/best-free-charting-platforms/`.
+- Work performed: rebuilt four best pages with hand-written education, free education, free screener and free charting platform guidance; added source-backed decision tables, workflow cautions, internal links and refreshed metadata.
+- Static migration updated so all four routes are served from locked public HTML.
+- Final locked local build passed with 1,966 generated pages after moving these four routes out of dynamic generation.
+- Focused acceptance and live verification passed for title/meta/H1/canonical/sitemap/content-depth/editorial-marker checks and public/dist parity.
+- Content commit `3eb09f6` was pushed; Vercel production deployment `dpl_Aj4CmKBQdC5QRQrPtqGRx1ZZsqTL` is ready and aliased to `https://tradingtoolshub.com`.
+- Broad content publishing remains paused until founder approval; RSS/feed serving remains allowed.

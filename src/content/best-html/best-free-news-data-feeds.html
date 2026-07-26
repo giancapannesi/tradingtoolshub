@@ -1,0 +1,69 @@
+<section>
+  <h2>Free market data is useful when the delay and limits are acceptable</h2>
+  <p>Free news and data feeds can be enough for watchlist building, weekly research, macro context and lightweight dashboards. They are usually not enough for latency-sensitive trading, production alerts or commercial redistribution. The first question is not which feed has the most data. It is whether the free limits match the decision you are making.</p>
+  <p>Alpha Vantage is a practical free starting point for developers who want API access and can live with daily request limits. Koyfin is stronger for visual equity and macro research because the free plan includes dashboards, watchlists, screening and charting limits. Seeking Alpha and TipRanks are better thought of as research layers, not raw feeds. <a href="/review/polygon-io/">Polygon.io</a> is a better upgrade path when a project needs broader API reliability, streaming or deeper market-data coverage.</p>
+  <p>A free data feed should be treated like infrastructure, not content. If a spreadsheet, bot, watchlist or article depends on it, you need to know what happens when the rate limit is hit, when a symbol is missing, when a feed is delayed and when a provider changes its free plan.</p>
+</section>
+
+<section>
+  <h2>Best free data source by use case</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Use case</th>
+        <th>Best starting point</th>
+        <th>Main limitation to check</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Learning market-data APIs</td>
+        <td>Alpha Vantage</td>
+        <td>Daily request limits, endpoint coverage, update speed and whether premium data is needed later.</td>
+      </tr>
+      <tr>
+        <td>Investor dashboards and watchlists</td>
+        <td>Koyfin</td>
+        <td>Free-plan limits on watchlists, screens, historical depth, company snapshots and news access.</td>
+      </tr>
+      <tr>
+        <td>Stock news and article research</td>
+        <td>Seeking Alpha</td>
+        <td>Article access, premium ratings, Quant tools and how much research remains useful without subscribing.</td>
+      </tr>
+      <tr>
+        <td>Analyst ratings and sentiment checks</td>
+        <td>TipRanks</td>
+        <td>Depth of analyst, blogger, insider and portfolio tools exposed on the free plan.</td>
+      </tr>
+      <tr>
+        <td>Developer upgrade path</td>
+        <td><a href="/review/polygon-io/">Polygon.io</a></td>
+        <td>Whether the project needs real-time data, WebSockets, options data or commercial-grade reliability.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Where free data feeds fail</h2>
+  <ul>
+    <li><strong>Rate limits:</strong> a free API may be fine for testing but too small for scanners, backfills or scheduled jobs.</li>
+    <li><strong>Latency:</strong> delayed or end-of-day data can be acceptable for research and useless for intraday execution.</li>
+    <li><strong>Coverage gaps:</strong> options, fundamentals, international equities, corporate actions and historical depth may sit behind paid tiers.</li>
+    <li><strong>Terms of use:</strong> personal research, display, redistribution and commercial use can be different rights.</li>
+    <li><strong>Maintenance:</strong> free feeds can change limits without much warning, so production workflows need alerting and fallbacks.</li>
+  </ul>
+  <p>For paid and professional data comparisons, use the <a href="/best/best-news-data-feeds/">best news and data feeds</a> page and the <a href="/categories/news-data-feeds/">news-data category hub</a>. If the data is mostly for finding stocks, check the <a href="/best/best-stock-screeners/">stock screener ranking</a> before buying a separate feed.</p>
+</section>
+
+<section>
+  <h2>Current source checks</h2>
+  <p>Official checks for this update show that Alpha Vantage still publishes free API access with daily request limits and premium plans that remove daily limits; Koyfin publishes a free $0 plan with charting, dashboards, watchlists and screens; Seeking Alpha documents Basic access to research tools, prices and limited content; and TipRanks publishes a free-to-paid membership model around analyst and research tools.</p>
+  <p>Those checks matter because a free feed can be the right answer for research but the wrong answer for automation. Alpha Vantage is excellent for learning an API, but a production scanner needs rate-limit planning. Koyfin is useful for manual research, but not a raw API feed. Seeking Alpha and TipRanks add interpretation, which can help investors but should not be treated as clean machine-readable market data.</p>
+</section>
+
+<section>
+  <h2>Bottom line</h2>
+  <p>Choose Alpha Vantage for free API learning, Koyfin for free investor dashboards, Seeking Alpha for stock research, and TipRanks for analyst-rating context. Upgrade only when the free limits are blocking a specific workflow, not because a paid data provider looks more professional.</p>
+</section>
