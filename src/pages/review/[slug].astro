@@ -23,7 +23,7 @@ const { tool } = Astro.props;
 const similarToolsHeading = pickVariant(tool.slug + ':st', SIMILAR_TOOLS_HEADINGS);
 const bodyDisclosure = pickVariant(tool.slug + ':disc', AFFILIATE_DISCLOSURE_VARIANTS);
 const editorialHtmlPath = path.join(process.cwd(), 'src/content/review-html', `${tool.slug}.html`);
-const editorialHtml = fs.existsSync(editorialHtmlPath)
+let editorialHtml = fs.existsSync(editorialHtmlPath)
   ? fs.readFileSync(editorialHtmlPath, 'utf8')
   : '';
 const similarTools = getSimilarTools(tool, 3);
@@ -71,6 +71,14 @@ function renderScreenshot(s: any) {
       <figcaption class="px-4 py-3 text-sm text-muted border-t border-border">${caption}</figcaption>
     </figure>
   `;
+}
+
+if (editorialHtml && screenshotByHeading.size > 0) {
+  editorialHtml = editorialHtml.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/g, (match, attrs, inner) => {
+    const key = inner.replace(/<[^>]+>/g, '').trim().toLowerCase();
+    const s = screenshotByHeading.get(key);
+    return s ? match + renderScreenshot(s) : match;
+  });
 }
 
 function renderDescription() {
