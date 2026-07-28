@@ -1,0 +1,231 @@
+{
+  "name": "EarningsWatcher",
+  "slug": "earnings-watcher",
+  "category": "options-platforms",
+  "subcategories": [
+    "earnings-analytics",
+    "volatility-analysis",
+    "options-research"
+  ],
+  "description_short": "Deep options-analytics platform for trading volatility around earnings \u2014 10-year earnings histories, IV rush/crush modeling, multi-leg backtester, and paper trading in one workflow.",
+  "description_long": "EarningsWatcher is a research and education platform focused on trading options around US earnings releases. It combines an earnings calendar tuned for volatility traders, a scanner that outputs concrete multi-leg positions with strikes and breakevens, per-ticker Volatility Snapshots covering 10 years of implied-vs-actual moves, a full multi-leg simulator with post-earnings IV estimates, and a backtester that produces win rate, profit factor, and full return distributions per structure.\n\nThe platform is read-only \u2014 no brokerage connection required \u2014 covering US stocks and US-listed options. Every plan includes API access (10+ endpoints) plus MCP access and a Claude Connector, so members can query implied moves, IV paths and earnings histories directly from an AI assistant. Daily livestreams, a Discord community, an Options 101 course, a Planner, and a Journal round out the workflow.\n\nBuilt by founder Amin Khribi (Paris-based), the platform has grown past 1,500 members and holds a 4.8/5 rating on Trustpilot. Pricing is $30 for the first month, then $50/month, or $480/year (~$40/month), or $1,000 lifetime \u2014 all plans include full access.",
+  "logo_url": "/logos/earnings-watcher.svg",
+  "screenshots": [
+    {
+      "label": "homepage",
+      "path": "/screenshots/earnings-watcher/homepage.webp",
+      "alt": "EarningsWatcher public homepage with 'From Volatility to Opportunity' positioning",
+      "caption": "The public homepage frames the platform as 'a process, not a signal site.'"
+    },
+    {
+      "label": "home-tab",
+      "path": "/screenshots/earnings-watcher/home-tab.webp",
+      "alt": "EarningsWatcher app Home tab showing strategy workflows, livestream replays and paper-trading stats",
+      "caption": "The in-app Home tab: strategy workflows on the left, daily livestream replays in the middle, paper-trading stats and upcoming entries/exits on the right.",
+      "after_heading": "The Home tab: a trading desk, not a dashboard"
+    },
+    {
+      "label": "upcoming-highlights",
+      "path": "/screenshots/earnings-watcher/calendar-upcoming.webp",
+      "alt": "EarningsWatcher Calendar Upcoming Highlights cards showing implied vs 10-year average moves",
+      "caption": "Upcoming Highlights cards lead with the numbers that matter \u2014 implied move vs the 10-year average move \u2014 so mispriced events surface at a glance.",
+      "after_heading": "Calendar: the earnings calendar, rebuilt for volatility traders"
+    },
+    {
+      "label": "volscanner",
+      "path": "/screenshots/earnings-watcher/volscanner.webp",
+      "alt": "EarningsWatcher VolScanner output showing multi-leg options positions with strikes, breakevens and likelihoods",
+      "caption": "VolScanner returns concrete multi-leg positions with real strikes, breakevens and likelihood percentages \u2014 not just a ticker list.",
+      "after_heading": "VolScanner: from ticker list to actual positions"
+    },
+    {
+      "label": "data-picks",
+      "path": "/screenshots/earnings-watcher/data-picks.webp",
+      "alt": "EarningsWatcher Data Picks tab showing curated IV Rush, Long Vol, Short Vol and Momentum setups",
+      "caption": "Data Picks: curated setups per strategy, each with the projected upside if the thesis works and the downside if it doesn't.",
+      "after_heading": "Data Picks: the models' shortlist, with honest numbers"
+    },
+    {
+      "label": "tsla-iv-rush",
+      "path": "/screenshots/earnings-watcher/tsla-page.webp",
+      "alt": "EarningsWatcher IV Rush analysis for a TSLA earnings event",
+      "caption": "The IV Rush module shows current IV trend, projected edge, and the ATM straddle price now vs projected \u2014 with a chart of the current path against the median historical IV path into earnings.",
+      "after_heading": "IV Rush: the pre-earnings volatility ramp, quantified"
+    },
+    {
+      "label": "moves",
+      "path": "/screenshots/earnings-watcher/moves.webp",
+      "alt": "EarningsWatcher Moves tab showing 10 years of per-ticker earnings history",
+      "caption": "Moves: every earnings release for the past decade with implied vs average move, day-of open/peak/close, post-release drift and SPY/VIX context.",
+      "after_heading": "Moves: a decade of earnings history on one screen"
+    },
+    {
+      "label": "volatility-snapshot",
+      "path": "/screenshots/earnings-watcher/volatility-snapshot.webp",
+      "alt": "EarningsWatcher Volatility Snapshot four-cell summary \u2014 implied move rating, beat rate, move regime, tail risk",
+      "caption": "The Volatility Snapshot compresses a ticker's earnings character into four cells: implied move rating, beat rate, move regime and tail risk."
+    },
+    {
+      "label": "simulator",
+      "path": "/screenshots/earnings-watcher/simulator.webp",
+      "alt": "EarningsWatcher multi-leg options Simulator with live chains and IV-crush estimates",
+      "caption": "The Simulator: pick strikes across live chains, see IV now and estimated IV after earnings for every leg, then run four scenarios with a day-by-day P&L table.",
+      "after_heading": "Simulator: structure the trade, stress it, paper trade it"
+    },
+    {
+      "label": "backtester",
+      "path": "/screenshots/earnings-watcher/backtester.webp",
+      "alt": "EarningsWatcher Backtester output showing win rate, return distribution and profit factor",
+      "caption": "Backtester: win rate, worst/average/median/best return, profit factor and a per-earnings table showing exactly how each historical report would have treated your structure.",
+      "after_heading": "Backtester: would this trade have worked?"
+    },
+    {
+      "label": "driftlab",
+      "path": "/screenshots/earnings-watcher/driftlab.webp",
+      "alt": "EarningsWatcher DriftLab module analysing post-earnings drift",
+      "caption": "DriftLab applies the same statistical treatment to post-earnings drift \u2014 how stocks tend to keep moving after the initial reaction, once IV crush has cleared."
+    },
+    {
+      "label": "driftlab-how",
+      "path": "/screenshots/earnings-watcher/driftlab-how-it-works.webp",
+      "alt": "EarningsWatcher DriftLab methodology explainer page",
+      "caption": "Like most tabs, DriftLab ships with its own methodology explainer \u2014 every piece of functionality carries its own instructions."
+    },
+    {
+      "label": "planner",
+      "path": "/screenshots/earnings-watcher/planner.webp",
+      "alt": "EarningsWatcher Planner scheduling entries and exits around earnings release timestamps",
+      "caption": "The Planner schedules entries and exits around release timestamps and feeds the Home tab's Coming Up panel.",
+      "after_heading": "Planner, Journal, and Live Trades: the process layer"
+    },
+    {
+      "label": "courses",
+      "path": "/screenshots/earnings-watcher/courses.webp",
+      "alt": "EarningsWatcher Options 101 Quick Course curriculum with progress tracking",
+      "caption": "Options 101 \u2014 Quick Course: 14 bite-sized lessons taught by the founder, from 'What is a Stock / Option' through IV, the Greeks, and IV rush/crush.",
+      "after_heading": "Tutorials, Courses, and Quests: the education layer"
+    },
+    {
+      "label": "radar",
+      "path": "/screenshots/earnings-watcher/radar.webp",
+      "alt": "EarningsWatcher Radar screen \u2014 signal watchlist across strategies",
+      "caption": "Radar keeps the running watchlist across strategies visible at a glance."
+    }
+  ],
+  "website_url": "https://earnings-watcher.com",
+  "affiliate_url": "",
+  "affiliate_program": "",
+  "affiliate_commission": "",
+  "affiliate_cookie_days": 0,
+  "pricing": {
+    "has_free_tier": false,
+    "starting_price": 30,
+    "tiers": [
+      {
+        "name": "Monthly",
+        "price_monthly": 50,
+        "price_yearly": 0,
+        "features": [
+          "$30 first month",
+          "Full platform access",
+          "Education program",
+          "Daily livestreams",
+          "Discord community",
+          "API + MCP access",
+          "Cancel anytime"
+        ]
+      },
+      {
+        "name": "Yearly",
+        "price_monthly": 40,
+        "price_yearly": 480,
+        "features": [
+          "Everything in Monthly",
+          "~$40/month effective",
+          "Full year of access",
+          "API + MCP + Claude Connector"
+        ]
+      },
+      {
+        "name": "Lifetime",
+        "price_monthly": 0,
+        "price_yearly": 1000,
+        "features": [
+          "One-time payment",
+          "Full platform, forever",
+          "All future updates",
+          "API + MCP access"
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "features": {
+    "ai_analysis": true,
+    "backtesting": true,
+    "paper_trading": true,
+    "alerts": true,
+    "mobile_app": false,
+    "api_access": true,
+    "social_features": true,
+    "broker_integration": false,
+    "custom_indicators": false,
+    "automated_trading": false,
+    "journaling": true,
+    "screener": true,
+    "options_analytics": true,
+    "education": true
+  },
+  "markets": [
+    "stocks",
+    "options"
+  ],
+  "pros": [
+    "Complete tab-by-tab workflow: discover, research, plan, practice, learn \u2014 all in one loop",
+    "10 years of implied-vs-actual earnings history per ticker with beat rates, regimes and tail-risk classification",
+    "Scanner outputs actual multi-leg positions with strikes, breakevens and likelihoods \u2014 not just ticker lists",
+    "Simulator shows post-earnings IV estimates and scenario-by-scenario P&L so IV crush is impossible to ignore",
+    "Backtester produces win rate, profit factor and full return distributions per structure, per ticker",
+    "Data Picks quantify both upside and no-rush downside, with explicit exit timing",
+    "Genuine education layer: 14-lesson Options 101 course, per-tool instructions, daily livestreams, weekly beginner help",
+    "Transparent public scorecards \u2014 the team publishes their own results, losses included",
+    "API + MCP access + Claude Connector on every plan (unusually AI-ready for a retail trading tool)",
+    "Lifetime option caps total cost at $1,000"
+  ],
+  "cons": [
+    "US stocks and US-listed options only \u2014 no international coverage",
+    "$50/month after the first month is meaningful for small accounts \u2014 it pays for itself only with regular use",
+    "No broker integration: you research here and execute at your own broker (deliberate, but one more step)",
+    "Data refreshes every ~15 minutes \u2014 ample for this trading style, but not a streaming feed",
+    "Deep but narrow: an earnings-volatility specialist, not a general options platform",
+    "Founder-centric operation is a strength today and a dependency tomorrow",
+    "Sale-countdown banners on the pricing page feel pushier than a data-first product needs to be"
+  ],
+  "rating": 4.5,
+  "rating_breakdown": {
+    "features": 4.7,
+    "ease_of_use": 4.3,
+    "pricing": 4.3,
+    "support": 4.7,
+    "reliability": 4.5
+  },
+  "founded_year": 2022,
+  "company": "EarningsWatcher",
+  "headquarters": "Paris, France",
+  "best_for": [
+    "Experienced options traders",
+    "Earnings volatility specialists",
+    "Premium sellers wanting defined risk",
+    "AI-forward and API-driven traders"
+  ],
+  "similar_tools": [
+    "market-chameleon",
+    "optionsstrat",
+    "unusual-whales",
+    "orats"
+  ],
+  "last_updated": "2026-07-28",
+  "review_status": "published",
+  "meta_title": "EarningsWatcher Review 2026: The Most Complete Earnings-Options Platform We've Tested",
+  "meta_description": "Hands-on EarningsWatcher review: 10-year earnings histories, IV rush/crush modeling, multi-leg backtester, paper trading and an Options 101 course in one workflow. Rated 4.5/5."
+}
