@@ -7,10 +7,10 @@ import specialsData from '../content/specials.json';
 const categories = getCategories();
 const topDeals = (specialsData.specials || []).filter((d: any) => d.discount_percent > 0).slice(0, 3);
 const allTools = getAllTools();
-const featuredTools = [...allTools].sort((a, b) => b.rating - a.rating).slice(0, 6);
+const featuredTools = [...allTools].sort((a, b) => b.rating - a.rating).slice(0, 8);
 const recentlyUpdated = [...allTools]
   .sort((a, b) => new Date(b.last_updated).getTime() - new Date(a.last_updated).getTime())
-  .slice(0, 6);
+  .slice(0, 8);
 const totalTools = allTools.length;
 
 // Curated options analytics picks — deep-reviewed tools
