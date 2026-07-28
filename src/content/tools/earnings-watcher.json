@@ -15,7 +15,8 @@
       "label": "homepage",
       "path": "/screenshots/earnings-watcher/homepage.webp",
       "alt": "EarningsWatcher public homepage with 'From Volatility to Opportunity' positioning",
-      "caption": "The public homepage frames the platform as 'a process, not a signal site.'"
+      "caption": "The public homepage frames the platform as 'a process, not a signal site.'",
+      "after_heading": "What is EarningsWatcher?"
     },
     {
       "label": "home-tab",
@@ -63,7 +64,8 @@
       "label": "volatility-snapshot",
       "path": "/screenshots/earnings-watcher/volatility-snapshot.webp",
       "alt": "EarningsWatcher Volatility Snapshot four-cell summary \u2014 implied move rating, beat rate, move regime, tail risk",
-      "caption": "The Volatility Snapshot compresses a ticker's earnings character into four cells: implied move rating, beat rate, move regime and tail risk."
+      "caption": "The Volatility Snapshot compresses a ticker's earnings character into four cells: implied move rating, beat rate, move regime and tail risk.",
+      "after_heading": "Volatility Snapshot: a ticker's earnings character in four cells"
     },
     {
       "label": "simulator",
@@ -83,13 +85,15 @@
       "label": "driftlab",
       "path": "/screenshots/earnings-watcher/driftlab.webp",
       "alt": "EarningsWatcher DriftLab module analysing post-earnings drift",
-      "caption": "DriftLab applies the same statistical treatment to post-earnings drift \u2014 how stocks tend to keep moving after the initial reaction, once IV crush has cleared."
+      "caption": "DriftLab applies the same statistical treatment to post-earnings drift \u2014 how stocks tend to keep moving after the initial reaction, once IV crush has cleared.",
+      "after_heading": "DriftLab: quantifying post-earnings drift"
     },
     {
       "label": "driftlab-how",
       "path": "/screenshots/earnings-watcher/driftlab-how-it-works.webp",
       "alt": "EarningsWatcher DriftLab methodology explainer page",
-      "caption": "Like most tabs, DriftLab ships with its own methodology explainer \u2014 every piece of functionality carries its own instructions."
+      "caption": "Like most tabs, DriftLab ships with its own methodology explainer \u2014 every piece of functionality carries its own instructions.",
+      "after_heading": "How DriftLab works: methodology, plainly explained"
     },
     {
       "label": "planner",
@@ -109,7 +113,8 @@
       "label": "radar",
       "path": "/screenshots/earnings-watcher/radar.webp",
       "alt": "EarningsWatcher Radar screen \u2014 signal watchlist across strategies",
-      "caption": "Radar keeps the running watchlist across strategies visible at a glance."
+      "caption": "Radar keeps the running watchlist across strategies visible at a glance.",
+      "after_heading": "Radar: the running watchlist across strategies"
     }
   ],
   "website_url": "https://earnings-watcher.com",

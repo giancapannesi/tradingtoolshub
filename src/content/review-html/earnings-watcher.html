@@ -18,6 +18,10 @@
 
 <p>It's a small thing, but the Home tab is the product's thesis in miniature: learn, plan, practice, review — all in one loop.</p>
 
+<h2>Radar: the running watchlist across strategies</h2>
+
+<p>Sitting alongside Home is Radar — the platform's persistent watchlist across strategies. Once you're a few days in, Radar becomes the single screen you check first every morning: which of the setups you've flagged are still in range, which have already moved through their entry window, and which are about to activate. It's a small piece of surface area for a big amount of workflow — it means the trader isn't cross-referencing four tabs to remember what they were watching.</p>
+
 <h2>Calendar: the earnings calendar, rebuilt for volatility traders</h2>
 
 <p>Every earnings calendar tells you who reports when. EarningsWatcher's Calendar tells you which reports are <em>mispriced</em>. Upcoming Highlights cards lead with the numbers that matter: CVNA reporting 07-29 AMC with a 10-year average move of 21.1% (±12.9%) against an implied move of just 14.3%; BE with an implied move of 30.3%; RBLX at 18.9% average versus 15.8% implied. In one glance you can see where options look cheap or rich relative to history.</p>
@@ -40,9 +44,11 @@
 
 <h2>Moves: a decade of earnings history on one screen</h2>
 
-<p>Moves is the statistical backbone. The Volatility Snapshot compresses a ticker's earnings character into four cells. For MSFT ahead of its 07-29 report: Implied Move Rating "Very Overpriced" (options pricing 8.3% versus a 5.0% average move); Beat Rate "Balanced" (actual move exceeded implied in 8 of the last 16 reports); Move Regime "Heating Up" (2-year average move ±7.0% versus ±5.0% over 10 years); Tail Risk "High" (±9.4% at the 95th percentile). Run SCHW through the same lens and you get a completely different profile: fairly priced, "Rarely Beats" (44%), stable regime — but "Extreme" tail risk (±10.2%), a warning that this quiet name occasionally produces very large outliers.</p>
+<p>Moves is the statistical backbone. Under a four-cell snapshot at the top sits the table serious traders will live in: every earnings release for the past decade with implied versus average move, pre-release move, day-of open/peak/close, post-release drift and how many days it lasted, with SPY and VIX context for every event — and a "similar VIX" toggle to compare only against comparable market regimes. This is spreadsheet work that used to take years to accumulate, available per-ticker on demand.</p>
 
-<p>Under the snapshot sits the table serious traders will live in: every earnings release for the past decade with implied versus average move, pre-release move, day-of open/peak/close, post-release drift and how many days it lasted, with SPY and VIX context for every event — and a "similar VIX" toggle to compare only against comparable market regimes. This is spreadsheet work that used to take years to accumulate, available per-ticker on demand.</p>
+<h2>Volatility Snapshot: a ticker's earnings character in four cells</h2>
+
+<p>The Volatility Snapshot is the piece of the Moves tab we ended up looking at first, every single time. It compresses a ticker's entire earnings character into four cells. For MSFT ahead of its 07-29 report: Implied Move Rating "Very Overpriced" (options pricing 8.3% versus a 5.0% average move); Beat Rate "Balanced" (actual move exceeded implied in 8 of the last 16 reports); Move Regime "Heating Up" (2-year average move ±7.0% versus ±5.0% over 10 years); Tail Risk "High" (±9.4% at the 95th percentile). Run SCHW through the same lens and you get a completely different profile: fairly priced, "Rarely Beats" (44%), stable regime — but "Extreme" tail risk (±10.2%), a warning that this quiet name occasionally produces very large outliers. It's the fastest read on whether a name is worth building a position around at all.</p>
 
 <h2>Simulator: structure the trade, stress it, paper trade it</h2>
 
@@ -54,7 +60,13 @@
 
 <p>Before risking anything, the Backtester answers the historical question. Choose a ticker, a side (Long or Short Volatility through earnings), a structure (we tested a strangle), then tune delta and wing width with sliders. The output is a proper strategy report: win rate (53% on our test), a returns panel showing worst (-29.2%), average (+3.8%), median (+2.2%), and best (+71.4%) outcomes measured at your chosen exit point, and a profit factor (1.51 — gross gains versus gross losses). An average-and-median performance path charts how the position typically evolves from the day before to the day after the event, and a per-earnings table shows exactly how each historical report would have treated you at every checkpoint from -1d close to +1d close. The gap between that +3.8% average and +2.2% median — a distribution skewed by occasional big winners — is exactly the kind of insight that separates informed earnings trading from guessing.</p>
 
-<p>DriftLab, its sibling module, applies the same statistical treatment to post-earnings drift — the tendency of stocks to keep moving after the initial reaction once IV crush has cleared — feeding the platform's Momentum strategy.</p>
+<h2>DriftLab: quantifying post-earnings drift</h2>
+
+<p>DriftLab is the Backtester's sibling module — it applies the same statistical treatment to <em>post</em>-earnings drift, the tendency of stocks to keep moving after the initial reaction once IV crush has cleared. This is a distinct, real edge from the pre-earnings volatility ramp: the drift is what feeds the platform's Momentum strategy, and DriftLab is the tool that measures whether a given name actually exhibits it and how long it typically lasts.</p>
+
+<h2>How DriftLab works: methodology, plainly explained</h2>
+
+<p>Like most tabs on EarningsWatcher, DriftLab ships with its own methodology explainer — a plain-language page that walks through exactly how the module counts a drift, what it excludes, and how it handles overlapping macro events. That level of transparency is characteristic of the whole platform: every piece of functionality carries its own instructions, and the "how it works" pages are one of the reasons this product doesn't feel like a black box.</p>
 
 <h2>Planner, Journal, and Live Trades: the process layer</h2>
 
