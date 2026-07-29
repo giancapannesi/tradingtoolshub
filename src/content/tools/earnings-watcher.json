@@ -154,13 +154,14 @@
       {
         "name": "Lifetime",
         "price_monthly": 0,
-        "price_yearly": 1000,
+        "price_yearly": 0,
         "features": [
           "One-time payment",
           "Full platform, forever",
           "All future updates",
           "API + MCP access"
-        ]
+        ],
+        "price_one_time": 1000
       }
     ],
     "currency": "USD"

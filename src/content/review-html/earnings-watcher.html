@@ -40,7 +40,7 @@
 
 <h2>IV Rush: the pre-earnings volatility ramp, quantified</h2>
 
-<p>The platform's signature research module tracks how implied volatility builds in the final days before a report — the "IV rush" you can potentially harvest without ever holding through the announcement. Pull up a ticker (we looked at GM, two days before its release) and the snapshot answers the only question that matters: <em>is there still juice?</em> Current IV trend: Rising, +3.5% versus the average of the previous three readings. Projection outcome: "Barely Profitable," projected edge +0.9%. Typical last-day IV trend for this name: Flat. Below, the exact ATM straddle (75c/75p) priced now ($5.05) versus projected with the rush ($5.09) and without it, and a chart of the current ATM IV path overlaid on the stock's median historical IV path into earnings. Updates every 15 minutes. The verdict on GM that day was, effectively, "skip it" — and a tool willing to tell you not to trade is worth listening to when it says the opposite.</p>
+<p>The platform's signature research module tracks how implied volatility builds in the final days before a report — the "IV rush" you can potentially harvest without ever holding through the announcement. Pull up a ticker (we looked at META, one day before its 07-29 AMC release) and the snapshot answers the only question that matters: <em>is there still juice?</em> Current IV trend: Stalling, -0.2% versus the average of the previous three readings. Projection outcome: "Barely Profitable," projected edge +3.0%. Typical last-day IV trend for this name: Gradual Rise (typical move +10.2% into earnings). Below, the ATM straddle (595c/595p, exp 07-31) priced now ($49.23) versus projected <em>with</em> the rush ($50.70, +2.98%) and <em>without</em> it ($41.18, -16.35%), and a chart of the current ATM IV path overlaid on the stock's median historical IV path into earnings. Updates every 15 minutes. The verdict here was, effectively, "the upside if the rush materialises is tiny (+3%) and the downside if it doesn't is meaningful (-16%)" — and a tool willing to tell you not to trade is worth listening to when it says the opposite.</p>
 
 <h2>Moves: a decade of earnings history on one screen</h2>
 
@@ -56,10 +56,6 @@
 
 <p>Hit RUN and the Price Simulation engine plays your structure through four scenarios — high and low moves, up and down — with a payoff chart and a day-by-day P&amp;L table. Our test position showed exactly what long premium into earnings looks like when the stock doesn't move: -67.6% by 07-27, -80.6% by 07-28, -91.9% by 07-29. Sobering, and precisely the point — this is where aspiring options buyers learn about risk before the market teaches them. A "Classic Strategies" library offers ready-made setups, and a single Paper Trade button sends any structure to your practice account.</p>
 
-<h2>Backtester: would this trade have worked?</h2>
-
-<p>Before risking anything, the Backtester answers the historical question. Choose a ticker, a side (Long or Short Volatility through earnings), a structure (we tested a strangle), then tune delta and wing width with sliders. The output is a proper strategy report: win rate (53% on our test), a returns panel showing worst (-29.2%), average (+3.8%), median (+2.2%), and best (+71.4%) outcomes measured at your chosen exit point, and a profit factor (1.51 — gross gains versus gross losses). An average-and-median performance path charts how the position typically evolves from the day before to the day after the event, and a per-earnings table shows exactly how each historical report would have treated you at every checkpoint from -1d close to +1d close. The gap between that +3.8% average and +2.2% median — a distribution skewed by occasional big winners — is exactly the kind of insight that separates informed earnings trading from guessing.</p>
-
 <h2>DriftLab: quantifying post-earnings drift</h2>
 
 <p>DriftLab is the Backtester's sibling module — it applies the same statistical treatment to <em>post</em>-earnings drift, the tendency of stocks to keep moving after the initial reaction once IV crush has cleared. This is a distinct, real edge from the pre-earnings volatility ramp: the drift is what feeds the platform's Momentum strategy, and DriftLab is the tool that measures whether a given name actually exhibits it and how long it typically lasts.</p>
@@ -67,6 +63,10 @@
 <h2>How DriftLab works: methodology, plainly explained</h2>
 
 <p>Like most tabs on EarningsWatcher, DriftLab ships with its own methodology explainer — a plain-language page that walks through exactly how the module counts a drift, what it excludes, and how it handles overlapping macro events. That level of transparency is characteristic of the whole platform: every piece of functionality carries its own instructions, and the "how it works" pages are one of the reasons this product doesn't feel like a black box.</p>
+
+<h2>Backtester: would this trade have worked?</h2>
+
+<p>Before risking anything, the Backtester answers the historical question. Choose a ticker, a side (Long or Short Volatility through earnings), a structure (we tested a strangle), then tune delta and wing width with sliders. The output is a proper strategy report: win rate (53% on our test), a returns panel showing worst (-29.2%), average (+3.8%), median (+2.2%), and best (+71.4%) outcomes measured at your chosen exit point, and a profit factor (1.51 — gross gains versus gross losses). An average-and-median performance path charts how the position typically evolves from the day before to the day after the event, and a per-earnings table shows exactly how each historical report would have treated you at every checkpoint from -1d close to +1d close. The gap between that +3.8% average and +2.2% median — a distribution skewed by occasional big winners — is exactly the kind of insight that separates informed earnings trading from guessing.</p>
 
 <h2>Planner, Journal, and Live Trades: the process layer</h2>
 

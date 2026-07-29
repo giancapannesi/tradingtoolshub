@@ -416,10 +416,15 @@ const jsonLd = [
             {i === 1 && <span class="text-xs font-semibold text-primary mb-2 block">Most Popular</span>}
             <h3 class="font-semibold text-text mb-1">{tier.name}</h3>
             <div class="text-2xl font-bold text-text mb-1">
-              {tool.pricing.quote_based ? 'Contact sales' : tier.price_monthly === 0 ? 'Free' : `$${tier.price_monthly}`}
-              {!tool.pricing.quote_based && tier.price_monthly > 0 && <span class="text-sm font-normal text-muted">/mo</span>}
+              {tool.pricing.quote_based
+                ? 'Contact sales'
+                : tier.price_one_time > 0
+                  ? `$${tier.price_one_time.toLocaleString()}`
+                  : tier.price_monthly === 0 ? 'Free' : `$${tier.price_monthly}`}
+              {!tool.pricing.quote_based && tier.price_one_time > 0 && <span class="text-sm font-normal text-muted"> one-time</span>}
+              {!tool.pricing.quote_based && !tier.price_one_time && tier.price_monthly > 0 && <span class="text-sm font-normal text-muted">/mo</span>}
             </div>
-            {tier.price_yearly > 0 && (
+            {!tier.price_one_time && tier.price_yearly > 0 && (
               <p class="text-xs text-muted mb-3">${(tier.price_yearly / 12).toFixed(2)}/mo billed yearly</p>
             )}
             {tier.features && tier.features.length > 0 && (
