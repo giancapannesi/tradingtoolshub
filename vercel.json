@@ -609,6 +609,161 @@
       "source": "/compare/koyfin-vs-tradingeconomics/",
       "destination": "/review/tradingeconomics/",
       "statusCode": 301
+    },
+    {
+      "source": "/review/apex/",
+      "destination": "/review/apex-trader-funding/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/fundednext/",
+      "destination": "/review/funded-next/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/optionstrat/",
+      "destination": "/review/optionsstrat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/prop-firms/bulenox",
+      "destination": "/review/bulenox/",
+      "statusCode": 301
+    },
+    {
+      "source": "/prop-firms/bulenox/",
+      "destination": "/review/bulenox/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/quantconnect-vs-bitsgap/",
+      "destination": "/compare/bitsgap-vs-quantconnect/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/funded-next-vs-apex-trader-funding/",
+      "destination": "/compare/apex-trader-funding-vs-funded-next/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/smb-capital-vs-bear-bull-traders/",
+      "destination": "/compare/bear-bull-traders-vs-smb-capital/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/power-etrade-vs-optionsstrat/",
+      "destination": "/compare/optionsstrat-vs-power-etrade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/tradervue-vs-tradersync/",
+      "destination": "/compare/tradersync-vs-tradervue/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/takeprofittrader-vs-funded-next-futures/",
+      "destination": "/compare/funded-next-vs-takeprofittrader/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/power-etrade-vs-thinkorswim/",
+      "destination": "/compare/power-etrade-vs-thinkorswim-options/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/ftmo-vs-my-forex-funds/",
+      "destination": "/review/ftmo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/my-forex-funds-vs-the5ers/",
+      "destination": "/review/the5ers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/earn2trade-vs-my-forex-funds/",
+      "destination": "/review/earn2trade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/maverick-trading-vs-my-forex-funds/",
+      "destination": "/review/maverick-trading/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/surge-trader-vs-the5ers/",
+      "destination": "/review/the5ers/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/the-funded-trader-vs-true-forex-funds/",
+      "destination": "/review/the-funded-trader/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/onefunded-vs-surge-trader/",
+      "destination": "/review/onefunded/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/fxify-vs-surge-trader/",
+      "destination": "/review/fxify/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/my-forex-funds/",
+      "destination": "/categories/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/surge-trader/",
+      "destination": "/categories/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/alternatives/true-forex-funds/",
+      "destination": "/categories/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/neurogum/",
+      "destination": "/categories/prop-firms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/review/coingecko/",
+      "destination": "/categories/news-data-feeds/",
+      "statusCode": 301
+    },
+    {
+      "source": "/best/best-forex-brokers/",
+      "destination": "/best/best-brokers-forex/",
+      "statusCode": 301
+    },
+    {
+      "source": "/best/best-order-flow-tools/",
+      "destination": "/categories/options-platforms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/mzpack-vs-quantower/",
+      "destination": "/review/quantower/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/ninjatrader-vs-quantower/",
+      "destination": "/review/quantower/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/tradervue-analytics-vs-edgeclear/",
+      "destination": "/review/edgeclear/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/tradervue-analytics-vs-tradersync/",
+      "destination": "/review/tradersync/",
+      "statusCode": 301
     }
   ],
   "headers": [
