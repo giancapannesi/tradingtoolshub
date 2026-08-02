@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
-import { readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const contentRoot = new URL('./src/content/', import.meta.url);
@@ -42,20 +42,37 @@ const staticMigratedUrls = Object.entries(staticMigrated).flatMap(([route, slugs
   slugs.map((slug) => `https://tradingtoolshub.com/${route}/${slug}/`)
 );
 
+// Compute freshest lastmod per migrated slug from actual file mtime — so bespoke
+// static HTML rewrites show their real modification date to Google, not the stale
+// last_updated from the source tool JSON.
+const publicRoot = new URL('./public/', import.meta.url).pathname;
+const staticMigratedDates = new Map();
+for (const [route, slugs] of Object.entries(staticMigrated)) {
+  for (const slug of slugs) {
+    const filePath = join(publicRoot, route, slug, 'index.html');
+    if (existsSync(filePath)) {
+      const iso = statSync(filePath).mtime.toISOString().slice(0, 10);
+      staticMigratedDates.set(`${route}/${slug}`, iso);
+    }
+  }
+}
+
 function newestDate(...dates) {
   return dates.filter(Boolean).sort().at(-1);
 }
 
 function dateForPath(path) {
   // Only expose freshness when a content record provides a trustworthy date.
+  // For statically-migrated pages, the file mtime is authoritative (it reflects
+  // the actual bespoke HTML rewrite date, not the stale JSON last_updated).
   const review = path.match(/^\/review\/([^/]+)\/$/);
-  if (review) return newestDate(toolDates.get(review[1]), crawlRepairDate);
+  if (review) return newestDate(toolDates.get(review[1]), staticMigratedDates.get(`review/${review[1]}`), crawlRepairDate);
 
   const alternatives = path.match(/^\/alternatives\/([^/]+)\/$/);
-  if (alternatives) return newestDate(toolDates.get(alternatives[1]), crawlRepairDate);
+  if (alternatives) return newestDate(toolDates.get(alternatives[1]), staticMigratedDates.get(`alternatives/${alternatives[1]}`), crawlRepairDate);
 
   const comparison = path.match(/^\/compare\/([^/]+)\/$/);
-  if (comparison) return newestDate(comparisonDates.get(comparison[1]), crawlRepairDate);
+  if (comparison) return newestDate(comparisonDates.get(comparison[1]), staticMigratedDates.get(`compare/${comparison[1]}`), crawlRepairDate);
 
   const blog = path.match(/^\/blog\/([^/]+)\/$/);
   if (blog) return newestDate(blogDates.get(blog[1]), crawlRepairDate);

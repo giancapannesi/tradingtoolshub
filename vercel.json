@@ -1,6 +1,21 @@
 {
   "redirects": [
     {
+      "source": "/rss.xml",
+      "destination": "/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/rss/",
+      "destination": "/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/atom.xml",
+      "destination": "/feed.xml",
+      "statusCode": 301
+    },
+    {
       "source": "/blog/3/",
       "destination": "/blog/",
       "statusCode": 301
