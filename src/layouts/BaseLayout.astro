@@ -56,6 +56,10 @@ const imageAlt = `${fullTitle} preview image`;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="CBq7G38vQxbNaZm-poIdot4b3F4ekJ-V2wekksyxBVk" />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <!-- Enable View Transitions API — smooth page navigations, no white flash -->
+  <meta name="view-transition" content="same-origin" />
   <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ1VJ3ZF8T" is:inline></script>
   <script is:inline>
@@ -93,6 +97,39 @@ const imageAlt = `${fullTitle} preview image`;
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )
   )}
+  <!-- Hover-prefetch: preload internal pages when the user hovers a link, so the click is instant -->
+  <script is:inline>
+    (function () {
+      var prefetched = new Set();
+      function prefetch(href) {
+        if (prefetched.has(href)) return;
+        prefetched.add(href);
+        var link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = href;
+        link.as = 'document';
+        document.head.appendChild(link);
+      }
+      function eligible(a) {
+        if (!a || !a.href) return false;
+        var u;
+        try { u = new URL(a.href); } catch (e) { return false; }
+        if (u.origin !== location.origin) return false;
+        if (u.pathname === location.pathname) return false;
+        if (a.hasAttribute('download')) return false;
+        if (a.target === '_blank') return false;
+        return true;
+      }
+      document.addEventListener('mouseover', function (e) {
+        var a = e.target.closest && e.target.closest('a');
+        if (eligible(a)) prefetch(a.href);
+      }, { passive: true });
+      document.addEventListener('touchstart', function (e) {
+        var a = e.target.closest && e.target.closest('a');
+        if (eligible(a)) prefetch(a.href);
+      }, { passive: true });
+    })();
+  </script>
 </head>
 <body class="min-h-screen flex flex-col">
   <!-- Navigation -->
@@ -157,11 +194,13 @@ const imageAlt = `${fullTitle} preview image`;
           <h3 class="font-semibold text-text mb-4">Resources</h3>
           <ul class="space-y-2 text-sm text-muted">
             <li><a href="/reviews/" class="hover:text-text transition-colors">All Reviews</a></li>
+            <li><a href="/free-tools-for-new-traders/" class="hover:text-text transition-colors">Free Tools for New Traders</a></li>
             <li><a href="/guides/" class="hover:text-text transition-colors">Trading Guides</a></li>
             <li><a href="/featured/" class="hover:text-text transition-colors">Featured Ideas</a></li>
             <li><a href="/blog/" class="hover:text-text transition-colors">Blog</a></li>
             <li><a href="/about/" class="hover:text-text transition-colors">About Us</a></li>
             <li><a href="/methodology/" class="hover:text-text transition-colors">Our Methodology</a></li>
+            <li><a href="/sitemap/" class="hover:text-text transition-colors">Sitemap</a></li>
             <li><a href="/affiliate-disclosure/" class="hover:text-text transition-colors">Affiliate Disclosure</a></li>
             <li><a href="/privacy/" class="hover:text-text transition-colors">Privacy Policy</a></li>
             <li><a href="/terms/" class="hover:text-text transition-colors">Terms & Conditions</a></li>
