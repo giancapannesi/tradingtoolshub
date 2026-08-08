@@ -45,6 +45,11 @@ const relatedCats = (relatedMap[category.slug] || [])
   .map(slug => allCategories.find(c => c.slug === slug))
   .filter(Boolean);
 
+const belowHtmlPath = path.join(process.cwd(), 'src/content/category-html', `${category.slug}-below.html`);
+const belowHtml = fs.existsSync(belowHtmlPath)
+  ? fs.readFileSync(belowHtmlPath, 'utf-8')
+  : '';
+
 // Listicles for this category
 const categoryListicles = getListicles().filter(l => l.category === category.slug);
 
@@ -187,6 +192,12 @@ const jsonLd = [
             );
           })}
         </div>
+      </section>
+    )}
+
+    {belowHtml && (
+      <section class="mt-16 pt-10 border-t border-border category-editorial-below">
+        <div class="article-content max-w-4xl" set:html={belowHtml} />
       </section>
     )}
   </div>
