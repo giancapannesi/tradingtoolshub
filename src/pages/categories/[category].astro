@@ -24,6 +24,10 @@ const editorialHtmlPath = path.join(process.cwd(), 'src/content/category-html', 
 const editorialHtml = fs.existsSync(editorialHtmlPath)
   ? fs.readFileSync(editorialHtmlPath, 'utf-8')
   : '';
+const belowHtmlPath = path.join(process.cwd(), 'src/content/category-html', `${category.slug}-below.html`);
+const belowHtml = fs.existsSync(belowHtmlPath)
+  ? fs.readFileSync(belowHtmlPath, 'utf-8')
+  : '';
 
 // Related category mapping for cross-linking
 const relatedMap: Record<string, string[]> = {
@@ -187,6 +191,12 @@ const jsonLd = [
             );
           })}
         </div>
+      </section>
+    )}
+
+    {belowHtml && (
+      <section class="mt-16 pt-10 border-t border-border category-editorial-below">
+        <div class="article-content" set:html={belowHtml} />
       </section>
     )}
   </div>
